@@ -74,7 +74,7 @@ main { padding: 20px 0 40px; }
 .viewer.full {
   position: fixed; z-index: 50; left: 50%; top: 50%; transform: translate(-50%, -50%);
   width: min(100vw, 80vh); width: min(100vw, 80dvh); border-radius: 0;
-  box-shadow: 0 0 0 100vmax rgba(20, 18, 16, .92);
+  box-shadow: 0 0 0 100vmax #141210;
 }
 .stage { position: relative; transform-origin: 0 0; will-change: transform; }
 .stage img { display: block; width: 100%; height: auto; pointer-events: none; -webkit-user-drag: none; }

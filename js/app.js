@@ -7,6 +7,8 @@
   const TODAY = ymd(now);
   const YESTERDAY = ymd(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1));
   const MAX_PINS = 4;
+  // shortcut: 확인용으로 미공개 사건도 열림, 공개 전에 false로
+  const PREVIEW = true;
 
   function el(tag, cls, text) {
     const n = document.createElement(tag);
@@ -20,8 +22,8 @@
   }
 
   // 공개된 사건(현지 날짜 기준)을 날짜순으로
-  function released(list) {
-    return list.filter(c => c.date <= TODAY).sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : a.id - b.id));
+  function released(list, all) {
+    return list.filter(c => all || c.date <= TODAY).sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : a.id - b.id));
   }
 
   function currentStreak() {
@@ -68,7 +70,7 @@
     if (param !== null) {
       entry = list.find(c => String(c.id) === param.trim());
       if (!entry) return notice('game.notFound', true);
-      if (entry.date > TODAY) return notice('game.notReleased', true);
+      if (entry.date > TODAY && !PREVIEW) return notice('game.notReleased', true);
     }
     if (!entry) return notice('game.noCase');
     let data;
@@ -395,7 +397,8 @@
     const box = $('#archiveList');
     let list;
     try { list = await getJSON('cases/cases.json'); } catch (e) { box.textContent = t('game.loadError'); return; }
-    const rel = released(list).reverse();
+    const today = released(list).pop();
+    const rel = released(list, PREVIEW).reverse();
     if (!rel.length) { box.textContent = t('archive.empty'); return; }
     // shortcut: 사건 파일을 전부 받아 제목을 읽음, 사건이 수백 개가 되면 cases.json에 제목을 넣거나 페이지 나누기
     const files = await Promise.all(rel.map(e => getJSON(e.file).catch(() => null)));
@@ -408,7 +411,7 @@
       a.append(el('span', 'no', '#' + e.id), el('span', 'date', e.date), el('span', 'title', files[i] ? pick(files[i].title) : ''));
       const rec = store.cases[e.id];
       a.append(el('span', 'badge' + (rec ? ' grade-' + rec.grade : ' none'), rec ? t('grade.' + rec.grade) : t('archive.unsolved')));
-      if (i === 0) a.append(el('span', 'tag', t('archive.today')));
+      if (e === today) a.append(el('span', 'tag', t('archive.today')));
       li.append(a);
       ul.append(li);
     });
