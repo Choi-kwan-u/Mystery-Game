@@ -1,8 +1,11 @@
 {
   "id": 2,
   "date": "2026-10-20",
-  "image": "img/002.svg",
-  "title": { "ko": "아침 7시 40분의 플랫폼", "en": "Platform, 7:40 a.m." },
+  "image": "img/002.webp",
+  "title": {
+    "ko": "아침 7시 40분의 플랫폼",
+    "en": "Platform, 7:40 a.m."
+  },
   "intro": {
     "ko": "평일 아침, 지하철 플랫폼에서 열차를 기다리는 30대 남성. 이 사람은 누구일까?",
     "en": "A weekday morning on a subway platform. A man in his thirties waits for the train. Who is he?"
@@ -10,57 +13,160 @@
   "questions": [
     {
       "key": "job",
-      "ask": { "ko": "이 사람의 직업은?", "en": "What does this man do for a living?" },
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does this man do for a living?"
+      },
       "options": [
-        { "ko": "바이올리니스트", "en": "Violinist" },
-        { "ko": "전기 기사", "en": "Electrician" },
-        { "ko": "피아노 조율사", "en": "Piano tuner" },
-        { "ko": "가구 목수", "en": "Furniture maker" }
+        {
+          "ko": "바이올리니스트",
+          "en": "Violinist"
+        },
+        {
+          "ko": "전기 기사",
+          "en": "Electrician"
+        },
+        {
+          "ko": "피아노 조율사",
+          "en": "Piano tuner"
+        },
+        {
+          "ko": "가구 목수",
+          "en": "Furniture maker"
+        }
       ],
       "answer": 2,
-      "evidence": ["e1", "e2", "e4"]
+      "evidence": [
+        "e1",
+        "e2",
+        "e4"
+      ]
     },
     {
       "key": "where",
-      "ask": { "ko": "지금 어디로 가는 길일까?", "en": "Where is he headed?" },
+      "ask": {
+        "ko": "지금 어디로 가는 길일까?",
+        "en": "Where is he headed?"
+      },
       "options": [
-        { "ko": "콘서트홀", "en": "A concert hall" },
-        { "ko": "학교 음악실", "en": "A school music room" },
-        { "ko": "악기 상점", "en": "A music store" },
-        { "ko": "공사 현장", "en": "A construction site" }
+        {
+          "ko": "콘서트홀",
+          "en": "A concert hall"
+        },
+        {
+          "ko": "학교 음악실",
+          "en": "A school music room"
+        },
+        {
+          "ko": "악기 상점",
+          "en": "A music store"
+        },
+        {
+          "ko": "공사 현장",
+          "en": "A construction site"
+        }
       ],
       "answer": 1,
-      "evidence": ["e5", "e1"]
+      "evidence": [
+        "e5",
+        "e1"
+      ]
     },
     {
       "key": "order",
-      "ask": { "ko": "오늘 몇 번째 일정일까?", "en": "Which job of the day is this?" },
+      "ask": {
+        "ko": "오늘 몇 번째 일정일까?",
+        "en": "Which job of the day is this?"
+      },
       "options": [
-        { "ko": "첫 번째", "en": "His first" },
-        { "ko": "두 번째", "en": "His second" },
-        { "ko": "세 번째", "en": "His third" },
-        { "ko": "마지막", "en": "His last" }
+        {
+          "ko": "첫 번째",
+          "en": "His first"
+        },
+        {
+          "ko": "두 번째",
+          "en": "His second"
+        },
+        {
+          "ko": "세 번째",
+          "en": "His third"
+        },
+        {
+          "ko": "마지막",
+          "en": "His last"
+        }
       ],
       "answer": 0,
-      "evidence": ["e6", "e3"]
+      "evidence": [
+        "e6",
+        "e3"
+      ]
     }
   ],
   "clues": [
-    { "id": "e1", "x": 30, "y": 66, "r": 9,
-      "label": { "ko": "공구 롤 가방 — 틈으로 보이는 T자 렌치(조율 해머)와 고무 쐐기", "en": "Tool roll — a T-shaped wrench (a tuning hammer) and rubber wedges peeking out" } },
-    { "id": "e2", "x": 58, "y": 62, "r": 6,
-      "label": { "ko": "굳은살 하나 없는 손끝 — 현악기 연주자의 손이 아니다", "en": "Smooth fingertips, no calluses — not a string player's hands" } },
-    { "id": "e3", "x": 54, "y": 18, "r": 5,
-      "label": { "ko": "귀에 꽂은 연필 — 막 깎은 듯 끝이 뾰족함", "en": "Pencil tucked behind his ear — freshly sharpened" } },
-    { "id": "e4", "x": 66, "y": 54, "r": 5,
-      "label": { "ko": "손목에 감아 둔 짧은 줄자", "en": "A short tape measure wrapped around his wrist" } },
-    { "id": "e5", "x": 38, "y": 48, "r": 6,
-      "label": { "ko": "가방에 클립으로 단 노란 방문자 출입증 — 사과와 연필 그림", "en": "A yellow visitor badge clipped to the bag — with an apple-and-pencil logo" } },
-    { "id": "e6", "x": 70, "y": 40, "r": 6,
-      "label": { "ko": "티 하나 없는 흰 셔츠 소매", "en": "Spotless white shirt cuffs" } }
+    {
+      "id": "e1",
+      "x": 44,
+      "y": 71,
+      "r": 7,
+      "label": {
+        "ko": "가죽 공구 롤 — T자 렌치(조율 해머)와 고무 쐐기",
+        "en": "A leather tool roll — a T-shaped wrench (a tuning hammer) and rubber wedges"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 38,
+      "y": 83,
+      "r": 6,
+      "label": {
+        "ko": "굳은살 하나 없는 손끝 — 현악기 연주자의 손이 아니다",
+        "en": "Smooth fingertips, no calluses — not a string player's hands"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 28,
+      "y": 19,
+      "r": 6,
+      "label": {
+        "ko": "귀 위에 꽂은 연필 — 막 깎은 듯 끝이 뾰족함",
+        "en": "A pencil tucked above his ear — freshly sharpened"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 20,
+      "y": 81,
+      "r": 7,
+      "label": {
+        "ko": "손목에 감아 둔 노란 줄자",
+        "en": "A yellow tape measure wrapped around his wrist"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 19,
+      "y": 56,
+      "r": 7,
+      "label": {
+        "ko": "가방끈에 단 노란 방문자 출입증 — 사과와 연필 그림",
+        "en": "A yellow visitor badge on his bag strap — with an apple-and-pencil logo"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 52,
+      "y": 43,
+      "r": 10,
+      "label": {
+        "ko": "얼룩 하나 없는 새하얀 셔츠",
+        "en": "A spotless white shirt"
+      }
+    }
   ],
   "detective": {
-    "ko": "공구 가방이라면 전기 기사도 목수도 들고 다닌다. 하지만 틈으로 보이는 T자 렌치와 고무 쐐기는 피아노 줄을 조이고 음을 막는 도구다. 손끝은 매끈하다 — 매일 현을 누르는 연주자라면 굳은살이 박였을 것이다. 그는 악기를 연주하는 사람이 아니라 악기를 고치는 사람이다. 가방의 노란 출입증에는 사과와 연필 — 외부인으로 학교를 방문한다는 뜻이니, 오늘 손볼 피아노는 음악실에 있다. 그리고 셔츠 소매에 피아노 속 먼지 한 톨 묻지 않았고, 귀에 꽂은 연필은 아직 한 번도 쓰지 않은 듯 뾰족하다. 오늘의 첫 일정이다.",
-    "en": "Plenty of tradespeople carry a tool roll — electricians, carpenters. But a T-shaped wrench and rubber wedges are for tightening piano strings and muting them. His fingertips are smooth; anyone pressing strings every day would have calluses. He doesn't play instruments — he fixes them. The yellow badge with an apple and a pencil says he's a visitor at a school, so today's piano is sitting in a music room. And there isn't a speck of piano dust on those white cuffs, and the pencil behind his ear is still razor-sharp. This is his first job of the day."
+    "ko": "공구 가방이라면 전기 기사도 목수도 들고 다닌다. 하지만 틈으로 보이는 T자 렌치와 고무 쐐기는 피아노 줄을 조이고 음을 막는 도구다. 손끝은 매끈하다 — 매일 현을 누르는 연주자라면 굳은살이 박였을 것이다. 그는 악기를 연주하는 사람이 아니라 악기를 고치는 사람이다. 가방의 노란 출입증에는 사과와 연필 — 외부인으로 학교를 방문한다는 뜻이니, 오늘 손볼 피아노는 음악실에 있다. 그리고 흰 셔츠에는 피아노 속 먼지 한 톨 묻지 않았고, 귀에 꽂은 연필은 아직 한 번도 쓰지 않은 듯 뾰족하다. 오늘의 첫 일정이다.",
+    "en": "Plenty of tradespeople carry a tool roll — electricians, carpenters. But a T-shaped wrench and rubber wedges are for tightening piano strings and muting them. His fingertips are smooth; anyone pressing strings every day would have calluses. He doesn't play instruments — he fixes them. The yellow badge with an apple and a pencil says he's a visitor at a school, so today's piano is sitting in a music room. And there isn't a speck of piano dust on that white shirt, and the pencil behind his ear is still razor-sharp. This is his first job of the day."
   }
 }

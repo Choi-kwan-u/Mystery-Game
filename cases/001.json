@@ -106,8 +106,8 @@
   "clues": [
     {
       "id": "e1",
-      "x": 39,
-      "y": 82,
+      "x": 34,
+      "y": 72,
       "r": 6,
       "label": {
         "ko": "손목의 아날로그 시계 — 붉은 초침이 또렷하다. 맥박 재기 좋은 시계",
@@ -116,18 +116,18 @@
     },
     {
       "id": "e2",
-      "x": 91,
-      "y": 70,
-      "r": 8,
+      "x": 88,
+      "y": 67,
+      "r": 10,
       "label": {
-        "ko": "가방에 구겨 넣은 남색 옷 — 근무복",
-        "en": "Navy clothes stuffed into her tote — scrubs"
+        "ko": "가방 속 남색 근무복과 청진기 — 주말에 빨려고 챙겨 가는 길",
+        "en": "Navy scrubs and a stethoscope in her tote — taking them home to wash over the weekend"
       }
     },
     {
       "id": "e3",
-      "x": 45,
-      "y": 31,
+      "x": 36,
+      "y": 26,
       "r": 8,
       "label": {
         "ko": "부은 눈과 다크서클, 지친 얼굴",
@@ -136,8 +136,8 @@
     },
     {
       "id": "e4",
-      "x": 75,
-      "y": 27,
+      "x": 62,
+      "y": 23,
       "r": 11,
       "label": {
         "ko": "창밖 버스 정류장을 바라보는 시선",
@@ -146,8 +146,8 @@
     },
     {
       "id": "e5",
-      "x": 21,
-      "y": 67,
+      "x": 18,
+      "y": 58,
       "r": 9,
       "label": {
         "ko": "낙엽 지는 쌀쌀한 아침, 코트를 입고도 아이스 커피",
@@ -156,7 +156,7 @@
     }
   ],
   "detective": {
-    "ko": "시계부터 보자. 요즘 손목시계, 그것도 초침이 또렷한 아날로그를 차는 사람은 많지 않다 — 맥박을 세는 게 일인 사람이 아니라면. 가방에 구겨 넣은 남색 옷은 근무복이다. 코트까지 입은 쌀쌀한 아침에 아이스 커피를 들고, 눈은 퉁퉁 부어 있다. 토요일 오전 9시에 이런 얼굴이라면 출근 전이 아니라 퇴근 후다 — 밤샘 근무를 마친 것이다. 그리고 그녀의 시선은 창밖 버스 정류장에 가 있다. 집에 가는 버스를 기다리는 중이다.",
-    "en": "Start with the watch. Few people still wear an analog watch with a crisp second hand — unless they count pulses for a living. The navy clothes stuffed in her tote are scrubs. Coat on, iced coffee in hand on a chilly morning, eyes puffy: at 9 a.m. on a Saturday, that's not someone heading to work. It's someone who just finished a night shift. And she's watching the bus stop outside the window — waiting for the bus that takes her home to bed."
+    "ko": "시계부터 보자. 요즘 손목시계, 그것도 초침이 또렷한 아날로그를 차는 사람은 많지 않다 — 맥박을 세는 게 일인 사람이 아니라면. 가방 속 남색 V넥 상의와 청진기가 답을 확인해 준다. 근무복을 집으로 챙겨 가는 건 주말 동안 빨아 오려는 것이다. 코트까지 입은 쌀쌀한 아침에 아이스 커피를 들고, 눈은 퉁퉁 부어 있다. 토요일 오전 9시에 이런 얼굴이라면 출근 전이 아니라 퇴근 후다 — 밤샘 근무를 마친 것이다. 그리고 그녀의 시선은 창밖 버스 정류장에 가 있다. 집에 가는 버스를 기다리는 중이다.",
+    "en": "Start with the watch. Few people still wear an analog watch with a crisp second hand — unless they count pulses for a living. The navy V-neck top and the stethoscope in her tote settle it, and she's taking the scrubs home to wash over the weekend. Coat on, iced coffee in hand on a chilly morning, eyes puffy: at 9 a.m. on a Saturday, that's not someone heading to work. It's someone who just finished a night shift. And she's watching the bus stop outside the window — waiting for the bus that takes her home to bed."
   }
 }
