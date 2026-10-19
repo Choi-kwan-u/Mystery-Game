@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Photo Deduction — A Daily Mystery in One Photo</title>
+<meta name="description" content="One photo a day. Work out who the person is, then point to the evidence right on the picture. A new case every day.">
+<link rel="canonical" href="https://choi-kwan-u.github.io/Mystery-Game/en/">
+<link rel="alternate" hreflang="ko" href="https://choi-kwan-u.github.io/Mystery-Game/ko/">
+<link rel="alternate" hreflang="en" href="https://choi-kwan-u.github.io/Mystery-Game/en/">
+<link rel="alternate" hreflang="x-default" href="https://choi-kwan-u.github.io/Mystery-Game/en/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Daily Photo Deduction">
+<meta property="og:title" content="Daily Photo Deduction — A Daily Mystery in One Photo">
+<meta property="og:description" content="One photo a day. Work out who the person is, then point to the evidence right on the picture. A new case every day.">
+<meta property="og:url" content="https://choi-kwan-u.github.io/Mystery-Game/en/">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔎%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="game">
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" data-i18n="site.name"></a>
+    <span class="lang"><a data-lang="ko" href="../ko/">한국어</a> | <a data-lang="en" href="../en/">English</a></span>
+    <nav class="nav">
+      <a href="index.html" data-i18n="nav.today" aria-current="page"></a>
+      <a href="archive.html" data-i18n="nav.archive"></a>
+      <a href="how.html" data-i18n="nav.how"></a>
+      <a href="about.html" data-i18n="nav.about"></a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="notice" id="notice" role="status" data-i18n="game.loading"></div>
+  <div class="layout" id="play" hidden>
+    <section class="photo-col">
+      <div class="viewer" id="viewer">
+        <div class="stage" id="stage"><img id="photo" width="1080" height="1350" alt="" draggable="false"><div class="marks" id="marks"></div></div>
+        <div class="zoom-ctl">
+          <button type="button" data-zoom="in" data-i18n-aria="viewer.zoomIn">＋</button>
+          <button type="button" data-zoom="out" data-i18n-aria="viewer.zoomOut">－</button>
+          <button type="button" data-zoom="reset" data-i18n-aria="viewer.reset">↺</button>
+          <button type="button" data-zoom="full" data-i18n-aria="viewer.full">⤢</button>
+        </div>
+      </div>
+      <p class="hint small" id="hint" data-i18n="viewer.hint"></p>
+      <button type="button" class="btn mark-btn" id="markBtn" aria-pressed="false"></button>
+      <p class="mark-status" id="markStatus" role="status"></p>
+      <div class="bubble" id="bubble" role="status" hidden></div>
+    </section>
+    <section class="q-col">
+      <p class="case-no" id="caseNo"></p>
+      <h1 id="caseTitle"></h1>
+      <p class="intro" id="caseIntro"></p>
+      <div id="questions"></div>
+      <button type="button" class="submit" id="submitBtn" data-i18n="submit"></button>
+      <p id="submitMsg" role="status"></p>
+      <p class="small" id="submitNote" data-i18n="submit.note"></p>
+      <section id="result" hidden></section>
+    </section>
+  </div>
+</main>
+<footer class="site-foot">
+  <div class="wrap"><span data-i18n="footer.text"></span> · <a href="privacy.html" data-i18n="nav.privacy"></a></div>
+</footer>
+<script src="../js/storage.js"></script>
+<script src="../js/i18n.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+  "id": 1,
+  "date": "2026-10-19",
+  "image": "img/001.svg",
+  "title": { "ko": "토요일 아침의 카페", "en": "Saturday Morning Café" },
+  "intro": {
+    "ko": "토요일 오전 9시, 동네 카페 창가 자리. 이 사람은 누구일까?",
+    "en": "9 a.m. on a Saturday, a window seat in a neighborhood café. Who is this person?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": { "ko": "이 사람의 직업은?", "en": "What does this person do for a living?" },
+      "options": [
+        { "ko": "간호사", "en": "Nurse" },
+        { "ko": "중학교 교사", "en": "Middle school teacher" },
+        { "ko": "바리스타", "en": "Barista" },
+        { "ko": "택배 기사", "en": "Delivery driver" }
+      ],
+      "answer": 0,
+      "evidence": ["e1", "e2"]
+    },
+    {
+      "key": "before",
+      "ask": { "ko": "카페에 오기 직전에 무엇을 했을까?", "en": "What were they doing right before this?" },
+      "options": [
+        { "ko": "운동", "en": "Working out" },
+        { "ko": "밤샘 근무", "en": "A night shift" },
+        { "ko": "출근 준비", "en": "Getting ready for work" },
+        { "ko": "장보기", "en": "Grocery shopping" }
+      ],
+      "answer": 1,
+      "evidence": ["e2", "e3"]
+    },
+    {
+      "key": "next",
+      "ask": { "ko": "이 다음엔 어디로 갈까?", "en": "Where are they going next?" },
+      "options": [
+        { "ko": "집에서 잔다", "en": "Home to sleep" },
+        { "ko": "출근한다", "en": "To work" },
+        { "ko": "친구를 만난다", "en": "To meet a friend" },
+        { "ko": "병원 진료를 받는다", "en": "To a doctor's appointment" }
+      ],
+      "answer": 0,
+      "evidence": ["e3", "e4"]
+    }
+  ],
+  "clues": [
+    { "id": "e1", "x": 62, "y": 71, "r": 7,
+      "label": { "ko": "손목의 시계 — 초침이 큰 아날로그, 맥박 재기용", "en": "Wristwatch — analog with a large second hand, the kind used to take a pulse" } },
+    { "id": "e2", "x": 40, "y": 58, "r": 8,
+      "label": { "ko": "가방에서 삐져나온 남색 근무복 소매", "en": "Navy scrub sleeve sticking out of the bag" } },
+    { "id": "e3", "x": 48, "y": 32, "r": 6,
+      "label": { "ko": "눈 밑 다크서클, 쌀쌀한 날인데 아이스 커피", "en": "Dark circles, and iced coffee on a chilly morning" } },
+    { "id": "e4", "x": 75, "y": 40, "r": 6,
+      "label": { "ko": "창밖 버스 정류장 — 주거지 방향 노선", "en": "Bus stop outside — the line heading toward the residential area" } }
+  ],
+  "detective": {
+    "ko": "시계부터 보자. 요즘 손목시계, 그것도 초침이 큰 아날로그를 차는 직업은 많지 않다. 가방 속 남색 소매는 근무복의 전형적인 색이다. 토요일 오전 9시에 지친 얼굴로 아이스 커피를 마신다면 출근 전이 아니라 퇴근 후다 — 밤샘 근무를 마친 것이다. 그러니 다음 행선지는 집이다.",
+    "en": "Start with the watch. Few people still wear an analog watch with a big second hand — unless they count pulses for a living. The navy sleeve in the bag is classic scrubs. And an exhausted face drinking iced coffee at 9 a.m. on a Saturday isn't someone heading to work; it's someone who just finished a night shift. Next stop: bed."
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://choi-kwan-u.github.io/Mystery-Game/sitemap.xml

@@ -1,0 +1,5 @@
+[
+  { "id": 1, "date": "2026-10-19", "file": "cases/001.json" },
+  { "id": 2, "date": "2026-10-20", "file": "cases/002.json" },
+  { "id": 3, "date": "2026-10-21", "file": "cases/003.json" }
+]

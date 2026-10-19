@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <rect width="1080" height="1350" fill="#c9c6c0"/>
+  <circle cx="540" cy="420" r="150" fill="#b3afa8"/>
+  <path d="M260 1350 C260 900 380 640 540 640 C700 640 820 900 820 1350 Z" fill="#b3afa8"/>
+  <text x="40" y="80" font-size="40" fill="#777" font-family="sans-serif">PLACEHOLDER #003</text>
+  <circle cx="475.2" cy="864" r="54" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="475.2" y="880" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">1</text>
+  <circle cx="324" cy="972" r="86.4" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="324" y="988" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">2</text>
+  <circle cx="604.8000000000001" cy="944.9999999999999" r="64.8" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="604.8000000000001" y="960.9999999999999" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">3</text>
+  <circle cx="540" cy="351" r="64.8" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="540" y="367" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">4</text>
+  <circle cx="237.6" cy="783" r="64.8" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="237.6" y="799" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">5</text>
+  <circle cx="820.8" cy="891" r="75.60000000000001" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="820.8" y="907" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">6</text>
+</svg>

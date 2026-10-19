@@ -1,0 +1,66 @@
+{
+  "id": 3,
+  "date": "2026-10-21",
+  "image": "img/003.svg",
+  "title": { "ko": "학교 앞 공원 벤치", "en": "The Bench Across from the School" },
+  "intro": {
+    "ko": "토요일 오전 11시, 공원 벤치에 앉은 60대 여성. 이 사람은 누구일까?",
+    "en": "11 a.m. on a Saturday. A woman in her sixties sits on a park bench. Who is she?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": { "ko": "이 사람은 어떤 일을 했을까?", "en": "What did she do for a living?" },
+      "options": [
+        { "ko": "화가", "en": "Painter" },
+        { "ko": "도서관 사서", "en": "Librarian" },
+        { "ko": "우체국 집배원", "en": "Mail carrier" },
+        { "ko": "은퇴한 초등학교 교사", "en": "Retired elementary school teacher" }
+      ],
+      "answer": 3,
+      "evidence": ["e1", "e2", "e3"]
+    },
+    {
+      "key": "day",
+      "ask": { "ko": "오늘은 무슨 날일까?", "en": "What's the occasion today?" },
+      "options": [
+        { "ko": "손주의 운동회", "en": "Her grandchild's field day" },
+        { "ko": "옛 제자의 결혼식", "en": "A former student's wedding" },
+        { "ko": "병원 정기 검진", "en": "A routine checkup" },
+        { "ko": "동창회", "en": "A class reunion" }
+      ],
+      "answer": 1,
+      "evidence": ["e5", "e2"]
+    },
+    {
+      "key": "waiting",
+      "ask": { "ko": "누구를 기다리고 있을까?", "en": "Who is she waiting for?" },
+      "options": [
+        { "ko": "딸", "en": "Her daughter" },
+        { "ko": "옛 제자", "en": "A former student" },
+        { "ko": "옛 동료 교사", "en": "A former colleague" },
+        { "ko": "택시 기사", "en": "A taxi driver" }
+      ],
+      "answer": 2,
+      "evidence": ["e6", "e4"]
+    }
+  ],
+  "clues": [
+    { "id": "e1", "x": 44, "y": 64, "r": 5,
+      "label": { "ko": "가운뎃손가락에 밴 붉은 색연필 자국", "en": "Red pencil smudges on her middle finger" } },
+    { "id": "e2", "x": 30, "y": 72, "r": 8,
+      "label": { "ko": "가방 속 크레용 그림 편지 묶음 — 오래된 리본으로 묶여 있다", "en": "A bundle of crayon-drawn letters in her bag, tied with a faded ribbon" } },
+    { "id": "e3", "x": 56, "y": 70, "r": 6,
+      "label": { "ko": "무릎 위 메모 — 칸에 맞춰 또박또박 쓴 손글씨", "en": "A note on her lap — neat, evenly spaced handwriting" } },
+    { "id": "e4", "x": 50, "y": 26, "r": 6,
+      "label": { "ko": "맞은편 초등학교 운동장을 향한 시선", "en": "Her gaze, fixed on the elementary school playground across the street" } },
+    { "id": "e5", "x": 22, "y": 58, "r": 6,
+      "label": { "ko": "가방에서 삐져나온 리본 카드 — 반지 두 개 그림, 진주 귀걸이로 차려입은 옷차림", "en": "A ribboned card with two rings on it poking out of her bag — and she's dressed up, pearl earrings and all" } },
+    { "id": "e6", "x": 76, "y": 66, "r": 7,
+      "label": { "ko": "옆자리의 손대지 않은 커피 한 잔, 그 위에 놓인 낡은 교무실 단체 사진", "en": "An untouched coffee on the seat beside her, with an old staff-room group photo resting on it" } }
+  ],
+  "detective": {
+    "ko": "손가락의 붉은 자국은 물감이 아니라 색연필이다 — 화가라면 한 가지 색만 묻었을 리 없다. 수십 년 동안 빨간 색연필로 동그라미를 친 손이다. 가방 속 크레용 편지는 아이들이 쓴 것인데, 남의 편지를 배달하는 사람은 그것을 리본으로 묶어 간직하지 않는다. 칸에 맞춘 또박또박한 글씨까지 — 그녀는 초등학교 교사였다. 오늘은 진주 귀걸이까지 하고 나왔고, 가방에는 반지 두 개가 그려진 카드가 있다. 결혼식이다. 크레용 편지를 쓰던 아이 중 하나가 어른이 되어 결혼하는 날이다. 옆자리의 커피는 아직 오지 않은 사람 몫이고, 그 위의 단체 사진 속 얼굴들은 모두 같은 교무실의 어른들이다. 그녀는 함께 그 아이를 가르쳤던 옛 동료를 기다린다.",
+    "en": "That red on her finger isn't paint — a painter wouldn't stop at one color. It's red pencil, the mark of decades spent circling right answers. The crayon letters in her bag were written by children, and nobody who merely delivers mail ties them up with a ribbon and keeps them. Add the neat, evenly spaced handwriting, and you have an elementary school teacher. Today she's wearing pearls, and there's a card with two rings in her bag: a wedding. One of those crayon-wielding kids is all grown up and getting married. The coffee beside her belongs to someone who hasn't arrived yet, and the faces in that photo are all grown-ups from the same staff room. She's waiting for an old colleague — someone who taught that child too."
+  }
+}
