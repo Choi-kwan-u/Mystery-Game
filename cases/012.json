@@ -1,218 +1,220 @@
 {
   "id": 12,
-  "date": "2026-11-07",
+  "date": "2026-11-06",
   "image": "img/012.svg",
   "title": {
-    "ko": "국밥집의 구멍 난 재킷",
-    "en": "The Jacket Full of Holes"
+    "ko": "월요일 아침의 샌들",
+    "en": "Sandals on a Monday Morning"
   },
   "intro": {
-    "ko": "평일 저녁 6시, 공단 앞 국밥집. 50대 남성이 혼자 저녁을 먹고 있다. 이 사람은 누구일까?",
-    "en": "6 p.m. on a weekday, a soup restaurant by an industrial park. A man in his fifties eats dinner alone. Who is he?"
+    "ko": "월요일 오전 10시, 카페 테라스. 30대 여성이 샌들 차림으로 느긋하게 커피를 마신다. 이 사람은 누구일까?",
+    "en": "10 a.m. on a Monday, a café terrace. A woman in her thirties lingers over coffee in sandals. Who is she?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "ko": "이 사람은 무엇을 하는 사람일까?",
+        "en": "What is she?"
       },
       "options": [
         {
-          "ko": "자동차 정비사",
-          "en": "Auto mechanic"
+          "ko": "발레리나",
+          "en": "Ballet dancer"
         },
         {
-          "ko": "요리사",
-          "en": "Chef"
+          "ko": "축구 선수",
+          "en": "Soccer player"
         },
         {
-          "ko": "전기 기사",
-          "en": "Electrician"
+          "ko": "마라토너",
+          "en": "Marathon runner"
         },
         {
-          "ko": "용접공",
-          "en": "Welder"
+          "ko": "등산가",
+          "en": "Mountaineer"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
         "e1",
-        "e3",
-        "e5"
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "posture",
+      "key": "yesterday",
       "ask": {
-        "ko": "오늘 주로 어떤 자세로 일했을까?",
-        "en": "How was he working most of today?"
+        "ko": "어제 무엇을 했을까?",
+        "en": "What did she do yesterday?"
       },
       "options": [
         {
-          "ko": "바닥에 쪼그려 앉아",
-          "en": "Crouched on the floor"
+          "ko": "등산",
+          "en": "Went hiking"
         },
         {
-          "ko": "머리 위를 올려다보며",
-          "en": "Looking straight up, working overhead"
+          "ko": "마라톤 대회",
+          "en": "Ran a marathon"
         },
         {
-          "ko": "작업대 앞에 서서",
-          "en": "Standing at a workbench"
+          "ko": "발레 공연",
+          "en": "Danced in a ballet"
         },
         {
-          "ko": "의자에 앉아",
-          "en": "Sitting in a chair"
+          "ko": "바닷가 여행",
+          "en": "Went to the beach"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e1"
+        "e4",
+        "e3"
       ]
     },
     {
-      "key": "hurt",
+      "key": "today",
       "ask": {
-        "ko": "지금 가장 괴로운 곳은?",
-        "en": "What's bothering him most right now?"
+        "ko": "오늘은 어떤 날일까?",
+        "en": "What's today for her?"
       },
       "options": [
         {
-          "ko": "허리",
-          "en": "His back"
+          "ko": "출근하는 길",
+          "en": "She's on her way to work"
         },
         {
-          "ko": "손",
-          "en": "His hands"
+          "ko": "또 달리러 간다",
+          "en": "She's going for another run"
         },
         {
-          "ko": "눈",
-          "en": "His eyes"
+          "ko": "병원 가는 길",
+          "en": "She's heading to the doctor"
         },
         {
-          "ko": "무릎",
-          "en": "His knees"
+          "ko": "휴가를 내고 쉰다",
+          "en": "A day off to recover"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
+        "e5",
         "e4"
       ]
     },
     {
-      "key": "holes",
+      "key": "watch",
       "ask": {
-        "ko": "재킷의 작은 구멍들은 무엇 때문일까?",
-        "en": "What made the tiny holes in his jacket?"
+        "ko": "그녀가 평소 손목에 늘 차는 것은?",
+        "en": "What does she usually wear on her wrist?"
       },
       "options": [
         {
-          "ko": "튀는 불똥",
-          "en": "Flying sparks"
+          "ko": "팔찌",
+          "en": "A bracelet"
         },
         {
-          "ko": "벌레",
-          "en": "Moths"
+          "ko": "스포츠 시계",
+          "en": "A sports watch"
         },
         {
-          "ko": "담뱃불",
-          "en": "Cigarette burns"
+          "ko": "머리끈",
+          "en": "A hair tie"
         },
         {
-          "ko": "오래 입어서",
-          "en": "Just old age"
+          "ko": "아무것도 안 찬다",
+          "en": "Nothing at all"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
-        "e1"
+        "e2"
       ]
     },
     {
-      "key": "gloves",
+      "key": "race",
       "ask": {
-        "ko": "옆자리의 장갑은 왜 이렇게 두꺼울까?",
-        "en": "Why are the gloves beside him so thick?"
+        "ko": "어제 경기에서 그녀는?",
+        "en": "How did yesterday's race go for her?"
       },
       "options": [
         {
-          "ko": "추위를 막으려고",
-          "en": "To keep out the cold"
+          "ko": "출전하지 못했다",
+          "en": "She didn't get to run"
         },
         {
-          "ko": "칼날을 막으려고",
-          "en": "To stop knife cuts"
+          "ko": "응원만 했다",
+          "en": "She only cheered"
         },
         {
-          "ko": "불똥과 열을 막으려고",
-          "en": "To block sparks and heat"
+          "ko": "중간에 포기했다",
+          "en": "She dropped out"
         },
         {
-          "ko": "멋으로",
-          "en": "Just for style"
+          "ko": "완주했다",
+          "en": "She finished"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
-        "e5"
+        "e4"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 28,
-      "r": 12,
+      "x": 40,
+      "y": 90,
+      "r": 8,
       "label": {
-        "ko": "어깨 윗면과 모자 챙에만 몰린 작은 탄 구멍들",
-        "en": "Dozens of tiny burn holes, all on the tops of his shoulders and the brim of his cap"
+        "ko": "샌들 사이로 보이는 검게 멍든 발톱 두 개",
+        "en": "Two toenails bruised black, peeking out of her sandals"
       }
     },
     {
       "id": "e2",
-      "x": 50,
-      "y": 44,
+      "x": 62,
+      "y": 55,
       "r": 6,
       "label": {
-        "ko": "목의 V자 부분만 붉게 탄 자국",
-        "en": "A red burn only in the V of his collar"
+        "ko": "시계는 없는데 왼쪽 손목에 하얗게 남은 시계 자국",
+        "en": "No watch, but a pale watch-shaped band on her left wrist"
       }
     },
     {
       "id": "e3",
-      "x": 28,
-      "y": 66,
-      "r": 8,
+      "x": 45,
+      "y": 28,
+      "r": 9,
       "label": {
-        "ko": "팔뚝의 오래된 하얀 화상 흉터들",
-        "en": "Old white burn scars on his forearms"
+        "ko": "어깨에 민소매 모양으로 갓 탄 붉은 자국",
+        "en": "A fresh sunburn on her shoulders in the shape of a running singlet"
       }
     },
     {
       "id": "e4",
-      "x": 70,
-      "y": 66,
-      "r": 7,
+      "x": 82,
+      "y": 60,
+      "r": 8,
       "label": {
-        "ko": "테이블 위 안약 병, 그리고 충혈된 눈",
-        "en": "A bottle of eye drops on the table — and red eyes"
+        "ko": "가방에서 삐져나온 메달 리본",
+        "en": "A medal ribbon hanging out of her bag"
       }
     },
     {
       "id": "e5",
-      "x": 82,
-      "y": 88,
+      "x": 45,
+      "y": 72,
       "r": 8,
       "label": {
-        "ko": "옆자리에 놓인 두꺼운 가죽 장갑",
-        "en": "Thick leather gloves on the seat beside him"
+        "ko": "종아리에 낀 압박 슬리브",
+        "en": "Compression sleeves on her calves"
       }
     }
   ],
   "detective": {
-    "ko": "청재킷에 바늘로 찌른 듯한 작은 탄 구멍이 수십 개다. 튀는 불똥에 뚫린 구멍이다. 정비사라면 옷 구석구석 기름때가 배었을 텐데 그런 흔적은 없고, 요리사도 화상은 입지만 옷이 이렇게 뚫리지는 않는다. 팔뚝의 오래된 화상 흉터와 옆자리의 두꺼운 가죽 장갑 — 그는 용접공이다. 그런데 구멍의 위치가 이상하다. 어깨 윗면과 모자 챙에만 몰려 있다. 불똥이 위에서 쏟아졌다는 뜻이다. 오늘 그는 하루 종일 고개를 젖히고 머리 위를 용접했다. 그리고 테이블 위의 안약 병과 벌건 눈. 지금 그를 가장 괴롭히는 건 허리가 아니라 눈이다.",
-    "en": "His denim jacket is peppered with tiny burn holes, as if someone went at it with a needle — sparks did that. A mechanic would have grease worked into every crease, and there's none. A chef gets burns, but a chef's clothes don't end up looking like this. Old burn scars on his forearms, thick leather gloves on the seat beside him: he's a welder. But look where the holes are — only on the tops of his shoulders and the brim of his cap. The sparks were raining down from above. He spent the day with his head tipped back, welding overhead. And with that bottle of eye drops on the table and those red eyes, it's not his back that's bothering him most tonight. It's his eyes."
+    "ko": "발톱 두 개가 까맣게 멍들었다. 발을 혹사하는 사람이다 — 발레리나도 그렇다. 하지만 그녀는 햇볕에 탔고, 그 모양이 민소매 그대로다. 무대 조명이 아니라 햇볕 아래서 몇 시간을 움직였다. 손목엔 시계가 없는데 시계 자국만 하얗게 남았다 — 늘 기록을 재는 사람이다. 축구 선수라면 양말 선을 따라 탔을 것이고, 등산가는 민소매로 산에 오르지 않는다. 가방에서 삐져나온 메달 리본과 아직 벌건 어깨. 어제 42.195km를 끝까지 달렸다 — 메달은 완주한 사람만 받는다. 그리고 월요일 오전 10시에 압박 슬리브를 낀 채 카페에 앉아 있다면, 오늘은 다리를 쉬게 하려고 휴가를 낸 것이다.",
+    "en": "Two toenails bruised black — she's hard on her feet. So is a ballet dancer. But she's sunburned, and in the exact shape of a running singlet: hours of moving under the sun, not under stage lights. There's no watch on her wrist, yet a pale watch band is there anyway — she's someone who always keeps time. A soccer player's tan would stop at the sock line, and a mountaineer doesn't climb in a tank top. Then there's the medal ribbon peeking out of her bag and the still-red shoulders: yesterday she ran all 26.2 miles — they only hand out medals at the finish line. And sitting at a café at 10 a.m. on a Monday in compression sleeves? She took the day off to let her legs recover."
   }
 }

@@ -1,162 +1,161 @@
 {
   "id": 13,
-  "date": "2026-11-08",
+  "date": "2026-11-07",
   "image": "img/013.svg",
   "title": {
-    "ko": "편의점 앞의 밤 9시",
-    "en": "9 P.M. Outside the Corner Store"
+    "ko": "털투성이 퇴근길",
+    "en": "The Fur-Covered Commute"
   },
   "intro": {
-    "ko": "밤 9시, 편의점 앞 의자. 20대 남성이 삼각김밥을 먹으며 휴대폰을 보고 있다. 이 사람은 누구일까?",
-    "en": "9 p.m., a chair outside a convenience store. A man in his twenties eats a rice ball while checking his phone. Who is he?"
+    "ko": "평일 저녁 7시, 지하철 안. 20대 여성이 손잡이를 잡고 서 있다. 이 사람은 누구일까?",
+    "en": "7 p.m. on a weekday, on the subway. A woman in her twenties holds on to a strap. Who is she?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "en": "What does she do for a living?"
       },
       "options": [
         {
-          "ko": "자전거 선수",
-          "en": "Pro cyclist"
+          "ko": "미용사",
+          "en": "Hairdresser"
         },
         {
-          "ko": "택시 기사",
-          "en": "Taxi driver"
+          "ko": "수의사",
+          "en": "Veterinarian"
         },
         {
-          "ko": "경찰관",
-          "en": "Police officer"
+          "ko": "반려견 미용사",
+          "en": "Dog groomer"
         },
         {
-          "ko": "배달 라이더",
-          "en": "Delivery rider"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1",
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "hours",
-      "ask": {
-        "ko": "오늘 몇 시간째 일하는 중일까?",
-        "en": "How long has he been working today?"
-      },
-      "options": [
-        {
-          "ko": "막 시작했다",
-          "en": "He just started"
-        },
-        {
-          "ko": "이미 퇴근했다",
-          "en": "He's already clocked out"
-        },
-        {
-          "ko": "몇 시간째다",
-          "en": "For hours"
-        },
-        {
-          "ko": "쉬는 날이다",
-          "en": "It's his day off"
+          "ko": "재단사",
+          "en": "Tailor"
         }
       ],
       "answer": 2,
       "evidence": [
         "e1",
+        "e3",
         "e4"
       ]
     },
     {
-      "key": "next",
+      "key": "breed",
       "ask": {
-        "ko": "김밥을 먹고 나면 무엇을 할까?",
-        "en": "What's next once he finishes eating?"
+        "ko": "오늘 그녀가 가장 많이 만진 개는?",
+        "en": "What kind of dog did she handle most today?"
       },
       "options": [
         {
-          "ko": "집에 간다",
-          "en": "Going home"
+          "ko": "골든 리트리버",
+          "en": "Golden retriever"
         },
         {
-          "ko": "친구를 만난다",
-          "en": "Meeting a friend"
+          "ko": "푸들",
+          "en": "Poodle"
         },
         {
-          "ko": "정비소에 간다",
-          "en": "Taking his bike in for repairs"
+          "ko": "시바견",
+          "en": "Shiba Inu"
         },
         {
-          "ko": "다시 배달하러 간다",
-          "en": "Back out on deliveries"
+          "ko": "닥스훈트",
+          "en": "Dachshund"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "day",
+      "ask": {
+        "ko": "오늘 하루는 어땠을까?",
+        "en": "How was her day?"
+      },
+      "options": [
+        {
+          "ko": "한가했다",
+          "en": "Slow"
+        },
+        {
+          "ko": "쉬는 날이었다",
+          "en": "It was her day off"
+        },
+        {
+          "ko": "하루 종일 교육을 받았다",
+          "en": "She was in training all day"
+        },
+        {
+          "ko": "무척 바빴다",
+          "en": "Extremely busy"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e4"
+        "e2",
+        "e5",
+        "e1"
       ]
     },
     {
-      "key": "vehicle",
+      "key": "wet",
       "ask": {
-        "ko": "그가 타고 다니는 것은?",
-        "en": "What does he ride?"
+        "ko": "티셔츠 배 부분은 왜 젖었을까?",
+        "en": "Why is the belly of her T-shirt wet?"
       },
       "options": [
         {
-          "ko": "오토바이",
-          "en": "A motorcycle"
+          "ko": "비를 맞아서",
+          "en": "She got caught in the rain"
         },
         {
-          "ko": "자전거",
-          "en": "A bicycle"
+          "ko": "음료를 쏟아서",
+          "en": "She spilled a drink"
         },
         {
-          "ko": "전동 킥보드",
-          "en": "An e-scooter"
+          "ko": "개를 목욕시켜서",
+          "en": "She was bathing dogs"
         },
         {
-          "ko": "자동차",
-          "en": "A car"
+          "ko": "땀을 흘려서",
+          "en": "Sweat"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "pouch",
+      "ask": {
+        "ko": "가방에 달린 파우치에는 무엇이 들어 있을까?",
+        "en": "What's in the pouch on her bag?"
+      },
+      "options": [
+        {
+          "ko": "개 간식",
+          "en": "Dog treats"
+        },
+        {
+          "ko": "화장품",
+          "en": "Makeup"
+        },
+        {
+          "ko": "동전",
+          "en": "Coins"
+        },
+        {
+          "ko": "이어폰",
+          "en": "Earbuds"
         }
       ],
       "answer": 0,
-      "evidence": [
-        "e3",
-        "e5",
-        "e2"
-      ]
-    },
-    {
-      "key": "battery",
-      "ask": {
-        "ko": "휴대폰을 왜 보조배터리에 꽂아 두었을까?",
-        "en": "Why is his phone plugged into a power bank?"
-      },
-      "options": [
-        {
-          "ko": "게임을 많이 해서",
-          "en": "He games a lot"
-        },
-        {
-          "ko": "하루 종일 지도를 켜 둬서",
-          "en": "The map's been on all day"
-        },
-        {
-          "ko": "배터리가 고장 나서",
-          "en": "The battery's broken"
-        },
-        {
-          "ko": "그냥 습관이라",
-          "en": "Just habit"
-        }
-      ],
-      "answer": 1,
       "evidence": [
         "e4"
       ]
@@ -166,56 +165,56 @@
     {
       "id": "e1",
       "x": 50,
-      "y": 15,
-      "r": 9,
+      "y": 78,
+      "r": 11,
       "label": {
-        "ko": "헬멧에 눌려 땀에 젖은 머리와 이마의 붉은 가로 자국",
-        "en": "Sweaty hair flattened by a helmet, and a red line across his forehead"
+        "ko": "검은 옷에 잔뜩 붙은 하얀 곱슬 털",
+        "en": "Black clothes covered in short, curly white fur"
       }
     },
     {
       "id": "e2",
-      "x": 35,
-      "y": 52,
+      "x": 60,
+      "y": 30,
       "r": 7,
       "label": {
-        "ko": "손은 하얀데 손목부터 탄 피부 — 장갑 경계선",
-        "en": "Pale hands, tanned wrists — a sharp glove line"
+        "ko": "손잡이를 잡은 팔뚝의 작은 할퀸 자국들",
+        "en": "Small scratches on the arm holding the strap"
       }
     },
     {
       "id": "e3",
-      "x": 75,
-      "y": 85,
-      "r": 10,
+      "x": 45,
+      "y": 52,
+      "r": 8,
       "label": {
-        "ko": "의자 옆 바닥의 풀페이스 헬멧",
-        "en": "A full-face helmet on the ground by his chair"
+        "ko": "티셔츠 배 부분만 젖은 얼룩",
+        "en": "A wet patch right across the belly of her T-shirt"
       }
     },
     {
       "id": "e4",
-      "x": 60,
-      "y": 50,
+      "x": 22,
+      "y": 62,
       "r": 7,
       "label": {
-        "ko": "한 손에 아직 낀 장갑, 보조배터리에 꽂힌 휴대폰 속 지도",
-        "en": "One glove still on, and a map on a phone hooked up to a power bank"
+        "ko": "가방 고리에 달린 개 간식 파우치",
+        "en": "A dog-treat pouch clipped to her bag"
       }
     },
     {
       "id": "e5",
-      "x": 45,
-      "y": 82,
+      "x": 68,
+      "y": 12,
       "r": 6,
       "label": {
-        "ko": "오른쪽 종아리 안쪽의 작은 화상 자국",
-        "en": "A small burn scar on the inside of his right calf"
+        "ko": "손가락 두 개에 감은 반창고",
+        "en": "Bandages on two fingers"
       }
     }
   ],
   "detective": {
-    "ko": "머리는 땀에 젖어 납작하게 눌렸고 이마엔 붉은 가로 자국이 있다. 몇 시간째 헬멧을 썼다. 자전거 선수일까? 그들은 손가락이 드러나는 반장갑을 끼니 손가락까지 탄다. 하지만 그의 손은 손목에서 칼로 자른 듯 하얗다 — 손 전체를 덮는 장갑이다. 바닥엔 통풍구 달린 자전거 헬멧이 아니라 풀페이스 헬멧이 있고, 오른쪽 종아리 안쪽엔 뜨거운 배기관에 덴 자국까지 있다. 오토바이를 탄다. 보조배터리에 꽂힌 휴대폰엔 지도가 떠 있다. 배터리가 바닥날 만큼 오래 일했고, 장갑 한 짝을 아직 벗지 않은 걸 보면 김밥을 삼키자마자 다음 배달을 나갈 것이다.",
-    "en": "His hair is sweaty and pressed flat, with a red line across his forehead: he's been wearing a helmet for hours. A cyclist? Cyclists wear fingerless gloves, so their fingers tan too. His hands are pale right up to a crisp line at the wrist — full gloves. On the ground is a full-face helmet, not a vented bike helmet, and there's a small burn on the inside of his right calf, right where a hot exhaust pipe would touch. He rides a motorcycle. His phone, plugged into a power bank, shows a map. He's been working long enough to drain his battery, and he hasn't taken off his other glove — the moment he's done eating, he's off on the next delivery."
+    "ko": "검은 옷이 하얀 털로 뒤덮였다. 미용사라면 짧게 잘린 머리카락이 여러 색으로 섞여 있었을 텐데, 이건 전부 하얗고 곱슬곱슬하다 — 사람 머리카락이 아니다. 팔뚝의 할퀸 자국, 반창고 두 개, 가방에 달린 간식 파우치. 개를 다루는 사람이다. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 흠뻑 젖지는 않는다. 그건 하루 종일 욕조 앞에 서서 개를 씻긴 사람의 얼룩이다. 그녀는 반려견 미용사이고, 오늘의 손님은 대부분 하얀 곱슬 털 — 푸들이었다. 이만큼 털을 뒤집어쓰고 상처까지 늘었으니, 오늘은 정신없이 바쁜 날이었다.",
+    "en": "Her black clothes are covered in white fur. A hairdresser would be wearing snippets of hair in every color — but this is all white and all curly. Not human hair. Scratches on her arm, two bandaged fingers, a treat pouch on her bag: she works with dogs. A vet gets fur and scratches too, but not a T-shirt soaked right across the belly. That's what you get from leaning over a tub all day, washing dogs. She's a dog groomer, and today's clients were mostly curly and white — poodles. With that much fur and that many new scratches, it was a very busy day."
   }
 }

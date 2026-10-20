@@ -1,220 +1,219 @@
 {
   "id": 10,
-  "date": "2026-11-05",
+  "date": "2026-11-04",
   "image": "img/010.svg",
   "title": {
-    "ko": "월요일 아침의 샌들",
-    "en": "Sandals on a Monday Morning"
+    "ko": "편의점 앞의 점심",
+    "en": "Lunch Outside the Corner Store"
   },
   "intro": {
-    "ko": "월요일 오전 10시, 카페 테라스. 30대 여성이 샌들 차림으로 느긋하게 커피를 마신다. 이 사람은 누구일까?",
-    "en": "10 a.m. on a Monday, a café terrace. A woman in her thirties lingers over coffee in sandals. Who is she?"
+    "ko": "오전 11시 반, 편의점 앞 플라스틱 의자. 50대 남성이 컵라면으로 점심을 먹고 있다. 이 사람은 누구일까?",
+    "en": "11:30 a.m., a plastic chair outside a convenience store. A man in his fifties is having cup noodles for lunch. Who is he?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
-        "ko": "이 사람은 무엇을 하는 사람일까?",
-        "en": "What is she?"
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do for a living?"
       },
       "options": [
         {
-          "ko": "발레리나",
-          "en": "Ballet dancer"
+          "ko": "타일공",
+          "en": "Tile setter"
         },
         {
           "ko": "축구 선수",
           "en": "Soccer player"
         },
         {
-          "ko": "마라토너",
-          "en": "Marathon runner"
+          "ko": "정원사",
+          "en": "Gardener"
         },
         {
-          "ko": "등산가",
-          "en": "Mountaineer"
+          "ko": "등산객",
+          "en": "Hiker"
         }
       ],
       "answer": 2,
       "evidence": [
         "e1",
         "e2",
-        "e3"
+        "e5"
       ]
     },
     {
-      "key": "yesterday",
+      "key": "where",
       "ask": {
-        "ko": "어제 무엇을 했을까?",
-        "en": "What did she do yesterday?"
+        "ko": "오늘 오전에는 어디서 일했을까?",
+        "en": "Where was he working this morning?"
       },
       "options": [
         {
-          "ko": "등산",
-          "en": "Went hiking"
+          "ko": "잔디 축구장",
+          "en": "A soccer field"
         },
         {
-          "ko": "마라톤 대회",
-          "en": "Ran a marathon"
+          "ko": "논",
+          "en": "A rice paddy"
         },
         {
-          "ko": "발레 공연",
-          "en": "Danced in a ballet"
+          "ko": "공사장",
+          "en": "A construction site"
         },
         {
-          "ko": "바닷가 여행",
-          "en": "Went to the beach"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4",
-        "e3"
-      ]
-    },
-    {
-      "key": "today",
-      "ask": {
-        "ko": "오늘은 어떤 날일까?",
-        "en": "What's today for her?"
-      },
-      "options": [
-        {
-          "ko": "출근하는 길",
-          "en": "She's on her way to work"
-        },
-        {
-          "ko": "또 달리러 간다",
-          "en": "She's going for another run"
-        },
-        {
-          "ko": "병원 가는 길",
-          "en": "She's heading to the doctor"
-        },
-        {
-          "ko": "휴가를 내고 쉰다",
-          "en": "A day off to recover"
+          "ko": "장미 정원",
+          "en": "A rose garden"
         }
       ],
       "answer": 3,
-      "evidence": [
-        "e5",
-        "e4"
-      ]
-    },
-    {
-      "key": "watch",
-      "ask": {
-        "ko": "그녀가 평소 손목에 늘 차는 것은?",
-        "en": "What does she usually wear on her wrist?"
-      },
-      "options": [
-        {
-          "ko": "팔찌",
-          "en": "A bracelet"
-        },
-        {
-          "ko": "스포츠 시계",
-          "en": "A sports watch"
-        },
-        {
-          "ko": "머리끈",
-          "en": "A hair tie"
-        },
-        {
-          "ko": "아무것도 안 찬다",
-          "en": "Nothing at all"
-        }
-      ],
-      "answer": 1,
       "evidence": [
         "e2"
       ]
     },
     {
-      "key": "race",
+      "key": "later",
       "ask": {
-        "ko": "어제 경기에서 그녀는?",
-        "en": "How did yesterday's race go for her?"
+        "ko": "오후에는 무엇을 할까?",
+        "en": "What's he doing this afternoon?"
       },
       "options": [
         {
-          "ko": "출전하지 못했다",
-          "en": "She didn't get to run"
+          "ko": "다시 일하러 간다",
+          "en": "Going back to work"
         },
         {
-          "ko": "응원만 했다",
-          "en": "She only cheered"
+          "ko": "집에서 쉰다",
+          "en": "Resting at home"
         },
         {
-          "ko": "중간에 포기했다",
-          "en": "She dropped out"
+          "ko": "병원에 간다",
+          "en": "Seeing a doctor"
         },
         {
-          "ko": "완주했다",
-          "en": "She finished"
+          "ko": "친구를 만난다",
+          "en": "Meeting a friend"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
-        "e4"
+        "e4",
+        "e5"
+      ]
+    },
+    {
+      "key": "posture",
+      "ask": {
+        "ko": "그는 일할 때 주로 어떤 자세일까?",
+        "en": "What position does he spend his workday in?"
+      },
+      "options": [
+        {
+          "ko": "사다리 위에 서서",
+          "en": "Up on a ladder"
+        },
+        {
+          "ko": "의자에 앉아서",
+          "en": "Sitting in a chair"
+        },
+        {
+          "ko": "무릎을 꿇고",
+          "en": "Kneeling"
+        },
+        {
+          "ko": "허리를 펴고 서서",
+          "en": "Standing up straight"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "neck",
+      "ask": {
+        "ko": "목 뒤가 탄 이유는?",
+        "en": "Why is the back of his neck sunburned?"
+      },
+      "options": [
+        {
+          "ko": "바닷가 휴가",
+          "en": "A beach vacation"
+        },
+        {
+          "ko": "땡볕 아래 고개를 숙이고 일해서",
+          "en": "Working head-down in the sun"
+        },
+        {
+          "ko": "태닝숍",
+          "en": "A tanning salon"
+        },
+        {
+          "ko": "알레르기",
+          "en": "An allergy"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 90,
-      "r": 8,
+      "x": 45,
+      "y": 72,
+      "r": 10,
       "label": {
-        "ko": "샌들 사이로 보이는 검게 멍든 발톱 두 개",
-        "en": "Two toenails bruised black, peeking out of her sandals"
+        "ko": "바지에서 양 무릎만 흙과 풀물로 얼룩져 있다",
+        "en": "Only the knees of his trousers are stained with dirt and grass"
       }
     },
     {
       "id": "e2",
       "x": 62,
-      "y": 55,
-      "r": 6,
+      "y": 45,
+      "r": 8,
       "label": {
-        "ko": "시계는 없는데 왼쪽 손목에 하얗게 남은 시계 자국",
-        "en": "No watch, but a pale watch-shaped band on her left wrist"
+        "ko": "팔뚝의 가는 긁힌 자국들과 소매에 붙은 장미 꽃잎",
+        "en": "Thin scratches on his forearms and a rose petal stuck to his sleeve"
       }
     },
     {
       "id": "e3",
-      "x": 45,
-      "y": 28,
-      "r": 9,
+      "x": 40,
+      "y": 20,
+      "r": 7,
       "label": {
-        "ko": "어깨에 민소매 모양으로 갓 탄 붉은 자국",
-        "en": "A fresh sunburn on her shoulders in the shape of a running singlet"
+        "ko": "목 뒤만 붉게 탄 피부",
+        "en": "A sunburn on the back of his neck"
       }
     },
     {
       "id": "e4",
-      "x": 82,
-      "y": 60,
-      "r": 8,
+      "x": 22,
+      "y": 56,
+      "r": 7,
       "label": {
-        "ko": "가방에서 삐져나온 메달 리본",
-        "en": "A medal ribbon hanging out of her bag"
+        "ko": "뒷주머니에 꽂아 둔 흙 묻은 장갑",
+        "en": "Dirt-caked work gloves tucked in his back pocket"
       }
     },
     {
       "id": "e5",
-      "x": 45,
-      "y": 72,
+      "x": 50,
+      "y": 92,
       "r": 8,
       "label": {
-        "ko": "종아리에 낀 압박 슬리브",
-        "en": "Compression sleeves on her calves"
+        "ko": "운동화에 붙은 흙덩이와 잔디 조각",
+        "en": "Clumps of soil and bits of grass stuck to his sneakers"
       }
     }
   ],
   "detective": {
-    "ko": "발톱 두 개가 까맣게 멍들었다. 발을 혹사하는 사람이다 — 발레리나도 그렇다. 하지만 그녀는 햇볕에 탔고, 그 모양이 민소매 그대로다. 무대 조명이 아니라 햇볕 아래서 몇 시간을 움직였다. 손목엔 시계가 없는데 시계 자국만 하얗게 남았다 — 늘 기록을 재는 사람이다. 축구 선수라면 양말 선을 따라 탔을 것이고, 등산가는 민소매로 산에 오르지 않는다. 가방에서 삐져나온 메달 리본과 아직 벌건 어깨. 어제 42.195km를 끝까지 달렸다 — 메달은 완주한 사람만 받는다. 그리고 월요일 오전 10시에 압박 슬리브를 낀 채 카페에 앉아 있다면, 오늘은 다리를 쉬게 하려고 휴가를 낸 것이다.",
-    "en": "Two toenails bruised black — she's hard on her feet. So is a ballet dancer. But she's sunburned, and in the exact shape of a running singlet: hours of moving under the sun, not under stage lights. There's no watch on her wrist, yet a pale watch band is there anyway — she's someone who always keeps time. A soccer player's tan would stop at the sock line, and a mountaineer doesn't climb in a tank top. Then there's the medal ribbon peeking out of her bag and the still-red shoulders: yesterday she ran all 26.2 miles — they only hand out medals at the finish line. And sitting at a café at 10 a.m. on a Monday in compression sleeves? She took the day off to let her legs recover."
+    "ko": "바지에서 더러운 곳은 양 무릎뿐이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 그렇지만 그 얼룩은 회색 줄눈이고, 이건 흙과 초록 풀물이다. 목 뒤가 벌겋게 탄 걸 보면 실내가 아니라 땡볕 아래다. 축구 선수도 무릎에 풀물이 들지만, 축구공은 팔뚝을 할퀴지 않는다. 가는 긁힘들과 소매에 붙은 장미 꽃잎 하나 — 그는 오전 내내 장미 덤불 앞에 무릎을 꿇고 있었다. 장갑을 뒷주머니에 꽂아 둔 채 옷도 갈아입지 않았으니, 컵라면을 비우면 다시 정원으로 돌아갈 것이다.",
+    "en": "The only dirty part of his trousers is the knees. This man kneels for a living. A tile setter does too, but grout is gray — this is soil and green grass stain. The sunburned back of his neck says outdoors, under the sun. A soccer player gets grass on his knees, but a soccer ball doesn't scratch your forearms. Those fine scratches and the rose petal on his sleeve say he spent the morning kneeling in front of rose bushes. He hasn't changed and his gloves are still in his back pocket: once the noodles are gone, he's heading back to the garden."
   }
 }

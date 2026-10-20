@@ -1,163 +1,162 @@
 {
   "id": 11,
-  "date": "2026-11-06",
+  "date": "2026-11-05",
   "image": "img/011.svg",
   "title": {
-    "ko": "털투성이 퇴근길",
-    "en": "The Fur-Covered Commute"
+    "ko": "빨간 불이 켜진 방",
+    "en": "The Room with the Red Light"
   },
   "intro": {
-    "ko": "평일 저녁 7시, 지하철 안. 20대 여성이 손잡이를 잡고 서 있다. 이 사람은 누구일까?",
-    "en": "7 p.m. on a weekday, on the subway. A woman in her twenties holds on to a strap. Who is she?"
+    "ko": "토요일 오후, 창문을 막고 빨간 불 하나만 켜 둔 작은 방. 주인은 잠깐 자리를 비웠다. 이 방의 주인은 누구일까?",
+    "en": "Saturday afternoon, a small room with the window blacked out and a single red light on. The owner has stepped out. Who uses this room?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does she do for a living?"
+        "ko": "이 방의 주인은 무슨 일을 할까?",
+        "en": "What does the owner of this room do?"
       },
       "options": [
         {
-          "ko": "미용사",
-          "en": "Hairdresser"
+          "ko": "사진가",
+          "en": "Photographer"
         },
         {
-          "ko": "수의사",
-          "en": "Veterinarian"
+          "ko": "화학 교사",
+          "en": "Chemistry teacher"
         },
         {
-          "ko": "반려견 미용사",
-          "en": "Dog groomer"
+          "ko": "영화감독",
+          "en": "Film director"
         },
         {
-          "ko": "재단사",
-          "en": "Tailor"
+          "ko": "화가",
+          "en": "Painter"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
-        "e1",
+        "e2",
         "e3",
         "e4"
       ]
     },
     {
-      "key": "breed",
+      "key": "redlight",
       "ask": {
-        "ko": "오늘 그녀가 가장 많이 만진 개는?",
-        "en": "What kind of dog did she handle most today?"
+        "ko": "방에 왜 빨간 불만 켜 두었을까?",
+        "en": "Why is the only light in the room red?"
       },
       "options": [
         {
-          "ko": "골든 리트리버",
-          "en": "Golden retriever"
+          "ko": "분위기를 내려고",
+          "en": "For the mood"
         },
         {
-          "ko": "푸들",
-          "en": "Poodle"
+          "ko": "전기를 아끼려고",
+          "en": "To save electricity"
         },
         {
-          "ko": "시바견",
-          "en": "Shiba Inu"
+          "ko": "사진 인화지가 빛에 상하지 않게",
+          "en": "So the photo paper isn't ruined by light"
         },
         {
-          "ko": "닥스훈트",
-          "en": "Dachshund"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "day",
-      "ask": {
-        "ko": "오늘 하루는 어땠을까?",
-        "en": "How was her day?"
-      },
-      "options": [
-        {
-          "ko": "한가했다",
-          "en": "Slow"
-        },
-        {
-          "ko": "쉬는 날이었다",
-          "en": "It was her day off"
-        },
-        {
-          "ko": "하루 종일 교육을 받았다",
-          "en": "She was in training all day"
-        },
-        {
-          "ko": "무척 바빴다",
-          "en": "Extremely busy"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e2",
-        "e5",
-        "e1"
-      ]
-    },
-    {
-      "key": "wet",
-      "ask": {
-        "ko": "티셔츠 배 부분은 왜 젖었을까?",
-        "en": "Why is the belly of her T-shirt wet?"
-      },
-      "options": [
-        {
-          "ko": "비를 맞아서",
-          "en": "She got caught in the rain"
-        },
-        {
-          "ko": "음료를 쏟아서",
-          "en": "She spilled a drink"
-        },
-        {
-          "ko": "개를 목욕시켜서",
-          "en": "She was bathing dogs"
-        },
-        {
-          "ko": "땀을 흘려서",
-          "en": "Sweat"
+          "ko": "식물을 키우려고",
+          "en": "To grow plants"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e3"
+        "e1"
       ]
     },
     {
-      "key": "pouch",
+      "key": "line",
       "ask": {
-        "ko": "가방에 달린 파우치에는 무엇이 들어 있을까?",
-        "en": "What's in the pouch on her bag?"
+        "ko": "줄에 집게로 매달아 둔 종이들은 무엇일까?",
+        "en": "What's hanging from the line with clothespins?"
       },
       "options": [
         {
-          "ko": "개 간식",
-          "en": "Dog treats"
+          "ko": "빨래",
+          "en": "Laundry"
         },
         {
-          "ko": "화장품",
-          "en": "Makeup"
+          "ko": "마르고 있는 사진",
+          "en": "Photos drying"
         },
         {
-          "ko": "동전",
-          "en": "Coins"
+          "ko": "장식용 깃발",
+          "en": "Decorative flags"
         },
         {
-          "ko": "이어폰",
-          "en": "Earbuds"
+          "ko": "메모지",
+          "en": "Memo notes"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
-        "e4"
+        "e2"
+      ]
+    },
+    {
+      "key": "room",
+      "ask": {
+        "ko": "이 방은 원래 어떤 공간이었을까?",
+        "en": "What was this room originally?"
+      },
+      "options": [
+        {
+          "ko": "부엌",
+          "en": "A kitchen"
+        },
+        {
+          "ko": "창고",
+          "en": "A storage room"
+        },
+        {
+          "ko": "침실",
+          "en": "A bedroom"
+        },
+        {
+          "ko": "욕실",
+          "en": "A bathroom"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e6"
+      ]
+    },
+    {
+      "key": "camera",
+      "ask": {
+        "ko": "주인은 어떤 카메라를 쓸까?",
+        "en": "What kind of camera does the owner use?"
+      },
+      "options": [
+        {
+          "ko": "스마트폰만 쓴다",
+          "en": "Only a phone"
+        },
+        {
+          "ko": "디지털 카메라",
+          "en": "A digital camera"
+        },
+        {
+          "ko": "필름 카메라",
+          "en": "A film camera"
+        },
+        {
+          "ko": "카메라는 없다",
+          "en": "No camera at all"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e5"
       ]
     }
   ],
@@ -165,56 +164,66 @@
     {
       "id": "e1",
       "x": 50,
-      "y": 78,
-      "r": 11,
+      "y": 10,
+      "r": 8,
       "label": {
-        "ko": "검은 옷에 잔뜩 붙은 하얀 곱슬 털",
-        "en": "Black clothes covered in short, curly white fur"
+        "ko": "천장에 매달린 빨간 전구 하나",
+        "en": "A single red bulb hanging from the ceiling"
       }
     },
     {
       "id": "e2",
-      "x": 60,
-      "y": 30,
-      "r": 7,
+      "x": 55,
+      "y": 32,
+      "r": 12,
       "label": {
-        "ko": "손잡이를 잡은 팔뚝의 작은 할퀸 자국들",
-        "en": "Small scratches on the arm holding the strap"
+        "ko": "줄에 집게로 매달려 마르고 있는 사진들",
+        "en": "Photos hanging from a line with clothespins, drying"
       }
     },
     {
       "id": "e3",
-      "x": 45,
-      "y": 52,
-      "r": 8,
+      "x": 30,
+      "y": 62,
+      "r": 10,
       "label": {
-        "ko": "티셔츠 배 부분만 젖은 얼룩",
-        "en": "A wet patch right across the belly of her T-shirt"
+        "ko": "약품이 담긴 납작한 쟁반 세 개",
+        "en": "Three shallow trays of chemicals"
       }
     },
     {
       "id": "e4",
-      "x": 22,
-      "y": 62,
+      "x": 80,
+      "y": 48,
       "r": 7,
       "label": {
-        "ko": "가방 고리에 달린 개 간식 파우치",
-        "en": "A dog-treat pouch clipped to her bag"
+        "ko": "선반 위의 오래된 필름 카메라",
+        "en": "An old film camera on the shelf"
       }
     },
     {
       "id": "e5",
-      "x": 68,
-      "y": 12,
+      "x": 18,
+      "y": 40,
       "r": 6,
       "label": {
-        "ko": "손가락 두 개에 감은 반창고",
-        "en": "Bandages on two fingers"
+        "ko": "집게에 함께 걸린 기다란 필름 띠",
+        "en": "A long strip of film hanging with the prints"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 60,
+      "y": 85,
+      "r": 11,
+      "label": {
+        "ko": "줄 아래의 욕조와 타일 벽",
+        "en": "A bathtub and tiled walls under the line"
       }
     }
   ],
   "detective": {
-    "ko": "검은 옷이 하얀 털로 뒤덮였다. 미용사라면 짧게 잘린 머리카락이 여러 색으로 섞여 있었을 텐데, 이건 전부 하얗고 곱슬곱슬하다 — 사람 머리카락이 아니다. 팔뚝의 할퀸 자국, 반창고 두 개, 가방에 달린 간식 파우치. 개를 다루는 사람이다. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 흠뻑 젖지는 않는다. 그건 하루 종일 욕조 앞에 서서 개를 씻긴 사람의 얼룩이다. 그녀는 반려견 미용사이고, 오늘의 손님은 대부분 하얀 곱슬 털 — 푸들이었다. 이만큼 털을 뒤집어쓰고 상처까지 늘었으니, 오늘은 정신없이 바쁜 날이었다.",
-    "en": "Her black clothes are covered in white fur. A hairdresser would be wearing snippets of hair in every color — but this is all white and all curly. Not human hair. Scratches on her arm, two bandaged fingers, a treat pouch on her bag: she works with dogs. A vet gets fur and scratches too, but not a T-shirt soaked right across the belly. That's what you get from leaning over a tub all day, washing dogs. She's a dog groomer, and today's clients were mostly curly and white — poodles. With that much fur and that many new scratches, it was a very busy day."
+    "ko": "방 안에 빨간 불 하나만 켜져 있다. 분위기를 내려는 게 아니다 — 사진 인화지는 빨간빛에는 상하지 않는다. 납작한 쟁반 세 개엔 약품이 담겨 있고, 줄에는 빨래 대신 막 인화한 사진들이 집게에 물려 마르고 있다. 그 옆엔 기다란 필름 띠, 선반 위엔 오래된 필름 카메라. 화학 교사도 약품을 쓰고 영화감독도 필름을 다루지만, 자기 손으로 사진을 뽑아 말리는 사람은 사진가다. 그리고 쟁반 아래를 보라. 타일 벽, 그리고 줄 밑의 욕조. 이 암실은 원래 욕실이었다. 그는 집 욕실의 창문을 막고 자기만의 암실을 만들었다.",
+    "en": "There's only one light on in here, and it's red. That isn't for the mood — photo paper doesn't react to red light. Three shallow trays hold chemicals, and on the line, instead of laundry, freshly printed photos hang drying from clothespins. Next to them, a long strip of film; on the shelf, an old film camera. A chemistry teacher handles chemicals and a film director handles film, but someone who prints and dries their own pictures by hand is a photographer. Now look below the trays: tiled walls, and a bathtub under the line. This darkroom used to be a bathroom. They blacked out the window and built a darkroom of their own."
   }
 }

@@ -1,38 +1,98 @@
 {
   "id": 9,
-  "date": "2026-11-04",
+  "date": "2026-11-03",
   "image": "img/009.svg",
   "title": {
-    "ko": "편의점 앞의 점심",
-    "en": "Lunch Outside the Corner Store"
+    "ko": "저녁 버스의 젖은 머리",
+    "en": "Wet Hair on the Evening Bus"
   },
   "intro": {
-    "ko": "오전 11시 반, 편의점 앞 플라스틱 의자. 50대 남성이 컵라면으로 점심을 먹고 있다. 이 사람은 누구일까?",
-    "en": "11:30 a.m., a plastic chair outside a convenience store. A man in his fifties is having cup noodles for lunch. Who is he?"
+    "ko": "평일 저녁 8시, 버스 창가 자리. 20대 여성이 창밖을 보고 있다. 이 사람은 누구일까?",
+    "en": "8 p.m. on a weekday, a window seat on the bus. A woman in her twenties gazes outside. Who is she?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "en": "What does she do for a living?"
       },
       "options": [
         {
-          "ko": "타일공",
-          "en": "Tile setter"
+          "ko": "수영 선수",
+          "en": "Competitive swimmer"
         },
         {
-          "ko": "축구 선수",
-          "en": "Soccer player"
+          "ko": "스키 강사",
+          "en": "Ski instructor"
         },
         {
-          "ko": "정원사",
-          "en": "Gardener"
+          "ko": "인명구조원",
+          "en": "Lifeguard"
         },
         {
-          "ko": "등산객",
-          "en": "Hiker"
+          "ko": "수영 강사",
+          "en": "Swim instructor"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "whom",
+      "ask": {
+        "ko": "오늘 누구를 가르쳤을까?",
+        "en": "Who did she teach today?"
+      },
+      "options": [
+        {
+          "ko": "직장인",
+          "en": "Office workers"
+        },
+        {
+          "ko": "어린이",
+          "en": "Kids"
+        },
+        {
+          "ko": "어르신",
+          "en": "Seniors"
+        },
+        {
+          "ko": "국가대표 선수",
+          "en": "National team athletes"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "수업이 끝난 지 얼마나 됐을까?",
+        "en": "When did her class end?"
+      },
+      "options": [
+        {
+          "ko": "몇 시간 전",
+          "en": "A few hours ago"
+        },
+        {
+          "ko": "어제",
+          "en": "Yesterday"
+        },
+        {
+          "ko": "방금",
+          "en": "Just now"
+        },
+        {
+          "ko": "아직 시작 전이다",
+          "en": "It hasn't started yet"
         }
       ],
       "answer": 2,
@@ -43,177 +103,119 @@
       ]
     },
     {
-      "key": "where",
+      "key": "pool",
       "ask": {
-        "ko": "오늘 오전에는 어디서 일했을까?",
-        "en": "Where was he working this morning?"
+        "ko": "그녀가 일하는 곳은?",
+        "en": "Where does she work?"
       },
       "options": [
         {
-          "ko": "잔디 축구장",
-          "en": "A soccer field"
+          "ko": "바닷가",
+          "en": "A beach"
         },
         {
-          "ko": "논",
-          "en": "A rice paddy"
+          "ko": "야외 수영장",
+          "en": "An outdoor pool"
         },
         {
-          "ko": "공사장",
-          "en": "A construction site"
+          "ko": "호숫가",
+          "en": "A lake"
         },
         {
-          "ko": "장미 정원",
-          "en": "A rose garden"
+          "ko": "실내 수영장",
+          "en": "An indoor pool"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e2"
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "later",
+      "key": "tool",
       "ask": {
-        "ko": "오후에는 무엇을 할까?",
-        "en": "What's he doing this afternoon?"
+        "ko": "수업 중 그녀가 가장 많이 쓰는 것은?",
+        "en": "What does she use most during a lesson?"
       },
       "options": [
         {
-          "ko": "다시 일하러 간다",
-          "en": "Going back to work"
+          "ko": "스톱워치",
+          "en": "A stopwatch"
         },
         {
-          "ko": "집에서 쉰다",
-          "en": "Resting at home"
+          "ko": "호루라기",
+          "en": "A whistle"
         },
         {
-          "ko": "병원에 간다",
-          "en": "Seeing a doctor"
+          "ko": "확성기",
+          "en": "A megaphone"
         },
         {
-          "ko": "친구를 만난다",
-          "en": "Meeting a friend"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e4",
-        "e5"
-      ]
-    },
-    {
-      "key": "posture",
-      "ask": {
-        "ko": "그는 일할 때 주로 어떤 자세일까?",
-        "en": "What position does he spend his workday in?"
-      },
-      "options": [
-        {
-          "ko": "사다리 위에 서서",
-          "en": "Up on a ladder"
-        },
-        {
-          "ko": "의자에 앉아서",
-          "en": "Sitting in a chair"
-        },
-        {
-          "ko": "무릎을 꿇고",
-          "en": "Kneeling"
-        },
-        {
-          "ko": "허리를 펴고 서서",
-          "en": "Standing up straight"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "neck",
-      "ask": {
-        "ko": "목 뒤가 탄 이유는?",
-        "en": "Why is the back of his neck sunburned?"
-      },
-      "options": [
-        {
-          "ko": "바닷가 휴가",
-          "en": "A beach vacation"
-        },
-        {
-          "ko": "땡볕 아래 고개를 숙이고 일해서",
-          "en": "Working head-down in the sun"
-        },
-        {
-          "ko": "태닝숍",
-          "en": "A tanning salon"
-        },
-        {
-          "ko": "알레르기",
-          "en": "An allergy"
+          "ko": "마이크",
+          "en": "A microphone"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e3"
+        "e4"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 45,
-      "y": 72,
-      "r": 10,
+      "x": 48,
+      "y": 28,
+      "r": 8,
       "label": {
-        "ko": "바지에서 양 무릎만 흙과 풀물로 얼룩져 있다",
-        "en": "Only the knees of his trousers are stained with dirt and grass"
+        "ko": "두 눈 둘레에 동그랗게 남은 붉은 고글 자국",
+        "en": "Red circles around both eyes, left by swim goggles"
       }
     },
     {
       "id": "e2",
-      "x": 62,
-      "y": 45,
+      "x": 35,
+      "y": 16,
       "r": 8,
       "label": {
-        "ko": "팔뚝의 가는 긁힌 자국들과 소매에 붙은 장미 꽃잎",
-        "en": "Thin scratches on his forearms and a rose petal stuck to his sleeve"
+        "ko": "덜 마른 머리, 염소에 바래 푸석한 머리끝",
+        "en": "Damp hair, the ends dry and bleached by chlorine"
       }
     },
     {
       "id": "e3",
-      "x": 40,
-      "y": 20,
-      "r": 7,
+      "x": 58,
+      "y": 48,
+      "r": 9,
       "label": {
-        "ko": "목 뒤만 붉게 탄 피부",
-        "en": "A sunburn on the back of his neck"
+        "ko": "넓은 어깨와 햇볕에 그을리지 않은 하얀 피부",
+        "en": "Broad shoulders and skin that never sees the sun"
       }
     },
     {
       "id": "e4",
-      "x": 22,
-      "y": 56,
-      "r": 7,
+      "x": 50,
+      "y": 80,
+      "r": 11,
       "label": {
-        "ko": "뒷주머니에 꽂아 둔 흙 묻은 장갑",
-        "en": "Dirt-caked work gloves tucked in his back pocket"
+        "ko": "그물 가방 속 오리·물고기 모양 킥판과 호루라기",
+        "en": "A mesh bag with duck- and fish-shaped kickboards and a whistle"
       }
     },
     {
       "id": "e5",
-      "x": 50,
-      "y": 92,
-      "r": 8,
+      "x": 30,
+      "y": 46,
+      "r": 7,
       "label": {
-        "ko": "운동화에 붙은 흙덩이와 잔디 조각",
-        "en": "Clumps of soil and bits of grass stuck to his sneakers"
+        "ko": "젖은 머리에 흠뻑 젖은 티셔츠 어깨",
+        "en": "T-shirt shoulders soaked from her wet hair"
       }
     }
   ],
   "detective": {
-    "ko": "바지에서 더러운 곳은 양 무릎뿐이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 그렇지만 그 얼룩은 회색 줄눈이고, 이건 흙과 초록 풀물이다. 목 뒤가 벌겋게 탄 걸 보면 실내가 아니라 땡볕 아래다. 축구 선수도 무릎에 풀물이 들지만, 축구공은 팔뚝을 할퀴지 않는다. 가는 긁힘들과 소매에 붙은 장미 꽃잎 하나 — 그는 오전 내내 장미 덤불 앞에 무릎을 꿇고 있었다. 장갑을 뒷주머니에 꽂아 둔 채 옷도 갈아입지 않았으니, 컵라면을 비우면 다시 정원으로 돌아갈 것이다.",
-    "en": "The only dirty part of his trousers is the knees. This man kneels for a living. A tile setter does too, but grout is gray — this is soil and green grass stain. The sunburned back of his neck says outdoors, under the sun. A soccer player gets grass on his knees, but a soccer ball doesn't scratch your forearms. Those fine scratches and the rose petal on his sleeve say he spent the morning kneeling in front of rose bushes. He hasn't changed and his gloves are still in his back pocket: once the noodles are gone, he's heading back to the garden."
+    "ko": "두 눈 둘레의 동그란 붉은 자국 — 물안경 자국이다. 이 자국은 몇 시간이면 사라지니, 그녀는 방금까지 물속에 있었다. 아직 덜 마른 머리와 그 물에 젖은 티셔츠 어깨가 그걸 확인해 준다. 머리끝은 염소에 바랬고 피부는 하얗다. 바다도 스키장도 아닌 실내 수영장이다. 그런데 선수라면 가방에 오리 모양 킥판과 호루라기를 넣고 다니지 않는다. 그녀는 아이들에게 물에 뜨는 법을 가르친다.",
+    "en": "Those red circles around her eyes are goggle marks, and they fade within a few hours — she was in the water not long ago. Her hair's still damp, and it's soaked the shoulders of her T-shirt. The ends are bleached by chlorine and her skin is pale: not the beach, not the ski slopes, but an indoor pool. A competitive swimmer, though, wouldn't carry duck-shaped kickboards and a whistle. She spends her evenings teaching kids how to float."
   }
 }
