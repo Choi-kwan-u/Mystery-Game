@@ -2,234 +2,220 @@
   "id": 17,
   "date": "2026-11-11",
   "type": "lie",
-  "image": "img/005.webp",
+  "image": "img/017.webp",
   "title": {
-    "ko": "점심시간의 알리바이",
-    "en": "The Lunch Break Alibi"
+    "ko": "직접 낚았다는 남자",
+    "en": "The Man Who Caught It Himself"
   },
   "intro": {
-    "ko": "푸드코트에서 만난 남자에게 오늘 뭐 하냐고 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "We asked a man at the food court what he's up to today. Here's what he said. Find the lie in the photo."
+    "ko": "저녁 7시, 부엌. 낚시 조끼를 입은 남자에게 오늘 뭐 했냐고 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "7 p.m., a kitchen. We asked a man in a fishing vest what he did today. Here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "혼자 점심 먹으러 왔어요. 손가락이 좀 안 좋아서 얼음으로 식히는 중이고요. 오늘은 그냥 쉬는 날이라 쇼핑하러 나왔어요.",
-    "en": "I came for lunch on my own. My fingers are a bit sore, so I'm cooling them on the ice. It's my day off — I'm just out shopping."
+    "ko": "오늘 바다에 다녀왔어요. 낚시는 오늘 처음 해 봤고요. 이 생선, 제가 직접 낚은 거예요.",
+    "en": "I went to the sea today. It was my first time fishing. And this fish — I caught it myself."
   },
   "questions": [
     {
       "key": "lie",
       "ask": {
         "ko": "사진과 맞지 않는 말은?",
-        "en": "Which part of the statement does the photo contradict?"
+        "en": "Which statement doesn't match the photo?"
       },
       "options": [
         {
-          "ko": "혼자 점심 먹으러 왔다",
-          "en": "He came for lunch alone"
+          "ko": "바다에 다녀왔다",
+          "en": "He went to the sea"
         },
         {
-          "ko": "손가락이 아파 얼음으로 식히는 중이다",
-          "en": "His fingers are sore and he's icing them"
+          "ko": "낚시는 오늘 처음이다",
+          "en": "It was his first time fishing"
         },
         {
-          "ko": "쉬는 날이라 쇼핑하러 나왔다",
-          "en": "It's his day off and he's out shopping"
+          "ko": "생선을 직접 낚았다",
+          "en": "He caught the fish himself"
         },
         {
           "ko": "모두 사진과 맞다",
-          "en": "It all fits the photo"
+          "en": "Everything matches the photo"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e4",
-        "e6"
+        "e1"
       ]
     },
     {
       "key": "tell",
       "ask": {
         "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which detail gives the lie away?"
+        "en": "Which clue gives the lie away?"
       },
       "options": [
         {
-          "ko": "샐러드 접시",
-          "en": "The salad"
+          "ko": "장화에 묻은 모래",
+          "en": "The sand on his boots"
         },
         {
-          "ko": "목에 건 선수 출입증",
-          "en": "The competitor's badge around his neck"
+          "ko": "새 낚싯대",
+          "en": "The new fishing rod"
         },
         {
-          "ko": "곱슬머리",
-          "en": "His curly hair"
+          "ko": "빨갛게 탄 얼굴",
+          "en": "His sunburned face"
         },
         {
-          "ko": "물 컵",
-          "en": "The cup of water"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "true",
-      "ask": {
-        "ko": "'손가락이 아프다'는 말이 사실이라는 근거는?",
-        "en": "What shows the sore-finger part is true?"
-      },
-      "options": [
-        {
-          "ko": "샐러드 접시",
-          "en": "The salad plate"
-        },
-        {
-          "ko": "곱슬머리",
-          "en": "His curly hair"
-        },
-        {
-          "ko": "목에 건 출입증",
-          "en": "The badge around his neck"
-        },
-        {
-          "ko": "손가락 세 개에 감은 테이프",
-          "en": "Tape on three of his fingers"
+          "ko": "랩을 씌운 스티로폼 접시와 가격표 스티커",
+          "en": "The cling-wrapped styrofoam tray with a price sticker"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e2",
-        "e5"
+        "e1"
       ]
     },
     {
-      "key": "truth",
+      "key": "first",
       "ask": {
-        "ko": "그는 사실 무엇을 하는 중일까?",
-        "en": "What is he really doing?"
+        "ko": "'낚시는 처음'이라는 말과 맞는 단서는?",
+        "en": "Which detail fits 'first time fishing'?"
       },
       "options": [
         {
-          "ko": "출근 전 아침 식사",
-          "en": "Grabbing breakfast before work"
+          "ko": "손잡이 비닐도 안 벗긴 새 낚싯대",
+          "en": "A brand-new rod with the plastic still on the handle"
         },
         {
-          "ko": "볼링 대회 중 점심시간",
-          "en": "On a lunch break mid-bowling tournament"
+          "ko": "장화의 모래",
+          "en": "The sand on his boots"
         },
         {
-          "ko": "이사하는 중",
-          "en": "In the middle of moving house"
+          "ko": "벽시계",
+          "en": "The wall clock"
         },
         {
-          "ko": "병원 진료 대기",
-          "en": "Waiting for a doctor's appointment"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e6",
-        "e2"
-      ]
-    },
-    {
-      "key": "towel",
-      "ask": {
-        "ko": "어깨에 걸친 수건은 무엇에 쓸까?",
-        "en": "What's the towel on his shoulder for?"
-      },
-      "options": [
-        {
-          "ko": "경기 중 손과 공의 땀을 닦으려고",
-          "en": "Wiping sweat off his hand and the ball between frames"
-        },
-        {
-          "ko": "수영하고 와서 머리를 닦으려고",
-          "en": "Drying his hair after a swim"
-        },
-        {
-          "ko": "목욕탕에 가는 길이라서",
-          "en": "He's on his way to a bathhouse"
-        },
-        {
-          "ko": "식탁을 닦으려고",
-          "en": "Wiping the table"
+          "ko": "생선의 크기",
+          "en": "The size of the fish"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e3",
-        "e4"
+        "e2"
+      ]
+    },
+    {
+      "key": "bait",
+      "ask": {
+        "ko": "미끼 통 뚜껑이 뜯기지도 않은 것이 말해 주는 것은?",
+        "en": "The bait tub is still sealed. What does that tell us?"
+      },
+      "options": [
+        {
+          "ko": "미끼를 너무 많이 샀다",
+          "en": "He bought too much bait"
+        },
+        {
+          "ko": "미끼가 상해서 버릴 거다",
+          "en": "The bait went bad"
+        },
+        {
+          "ko": "생선이 미끼를 다 먹었다",
+          "en": "The fish ate all the bait"
+        },
+        {
+          "ko": "미끼를 한 번도 안 썼다",
+          "en": "He never used any bait at all"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "생선은 사실 어디서 났을까?",
+        "en": "Where did the fish really come from?"
+      },
+      "options": [
+        {
+          "ko": "이웃이 나눠 줬다",
+          "en": "A neighbor shared it"
+        },
+        {
+          "ko": "돌아오는 길에 가게에서 샀다",
+          "en": "He bought it at a shop on the way home"
+        },
+        {
+          "ko": "냉동실에 있던 것을 꺼냈다",
+          "en": "It came out of the freezer"
+        },
+        {
+          "ko": "다른 낚시꾼이 줬다",
+          "en": "Another angler gave it to him"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 65,
-      "y": 81,
-      "r": 8,
+      "x": 52,
+      "y": 57,
+      "r": 16,
       "label": {
-        "ko": "왼쪽 손목을 단단히 잡아주는 보호대",
-        "en": "A stiff brace locking his left wrist in place"
+        "ko": "랩을 팽팽하게 씌운 스티로폼 접시와 가격표 스티커 — 가게에서 파는 포장",
+        "en": "A styrofoam tray in tight cling film with a price sticker — store packaging"
       }
     },
     {
       "id": "e2",
-      "x": 47,
-      "y": 83,
-      "r": 7,
+      "x": 76,
+      "y": 68,
+      "r": 12,
       "label": {
-        "ko": "왼손 손가락 세 개에 감은 흰 테이프",
-        "en": "White tape on three fingers of his left hand"
+        "ko": "손잡이 비닐도 안 벗긴 새 낚싯대와 매달린 꼬리표",
+        "en": "A new rod, plastic still on the handle, a tag hanging from it"
       }
     },
     {
       "id": "e3",
-      "x": 38,
-      "y": 47,
-      "r": 9,
+      "x": 86,
+      "y": 63,
+      "r": 5,
       "label": {
-        "ko": "어깨에 걸친 수건 — 머리는 젖지 않았다",
-        "en": "A towel on his shoulder — and his hair is dry"
+        "ko": "뚜껑도 안 뜯은 미끼 통",
+        "en": "A bait tub with its lid still sealed"
       }
     },
     {
       "id": "e4",
-      "x": 51,
-      "y": 69,
-      "r": 6,
+      "x": 52,
+      "y": 87,
+      "r": 12,
       "label": {
-        "ko": "목에 건 선수 출입증",
-        "en": "A competitor's badge on a lanyard"
+        "ko": "모래가 잔뜩 묻은 장화",
+        "en": "Boots caked in beach sand"
       }
     },
     {
       "id": "e5",
-      "x": 32,
-      "y": 85,
-      "r": 7,
+      "x": 49,
+      "y": 14,
+      "r": 8,
       "label": {
-        "ko": "테이프 감은 손으로 꼭 쥔 얼음 컵",
-        "en": "An ice-cold cup gripped in his taped hand"
-      }
-    },
-    {
-      "id": "e6",
-      "x": 90,
-      "y": 73,
-      "r": 10,
-      "label": {
-        "ko": "바퀴 달린 가방에 불룩 솟은 둥근 공 모양",
-        "en": "A wheeled bag with round, ball-shaped bulges"
+        "ko": "햇볕에 빨갛게 탄 얼굴",
+        "en": "A sunburned face"
       }
     }
   ],
   "detective": {
-    "ko": "손가락이 아파 얼음으로 식힌다는 말은 사실이다 — 테이프 감은 손가락이 얼음 컵을 꼭 쥐고 있다. 혼자 점심을 먹는다는 것도 맞다. 하지만 '쉬는 날 쇼핑'은 거짓이다. 쇼핑하러 나온 사람이라면 쇼핑백 하나쯤은 있어야 하는데, 그의 곁에 있는 가방은 둥근 공이 불룩한 바퀴 가방뿐이다. 무엇보다 목에 아직 선수 출입증이 걸려 있다. 쉬는 날 출입증을 걸고 다니는 사람은 없다. 테이프도 손목 보호대도 풀지 않았다. 어깨의 수건도 수영장에서 쓴 게 아니다 — 머리는 바싹 말라 있다. 공을 쥐는 손의 땀을 닦는 수건이다. 그는 볼링 대회 점심시간에 잠깐 나왔고, 밥을 먹으면 다시 레인으로 돌아갈 것이다.",
-    "en": "The sore fingers are real — his taped fingers are wrapped around a cup of ice. Lunch on his own, also true. But 'a day off, out shopping'? That's the lie. Someone out shopping would have at least one shopping bag; the only bag beside him is a wheeled one bulging with round balls. Above all, there's still a competitor's badge around his neck — nobody wears one of those on a day off. He hasn't taken off the tape or the wrist brace, either. And the towel on his shoulder isn't from a pool — his hair is bone dry. It's for wiping sweat off his bowling hand. He's on a lunch break in the middle of a bowling tournament, and once he's done eating, he's heading back to the lanes."
+    "ko": "장화엔 모래가 잔뜩 묻었고 얼굴은 빨갛게 탔다. 바다에 다녀온 건 사실이다. 낚싯대는 손잡이 비닐도 안 벗긴 새것이고, 조끼에도 꼬리표가 그대로 달려 있다. 낚시가 처음이라는 것도 맞다. 하지만 생선을 보라. 랩을 팽팽하게 씌운 스티로폼 접시에 가격표 스티커까지 붙어 있다. 바다에서 막 낚은 생선이 아니라 가게에서 파는 포장이다. 이웃이나 다른 낚시꾼이 나눠 줬다면 가격표가 붙어 있을 리 없고, 냉동실에서 꺼냈다면 서리가 앉아 있었을 것이다. 그리고 미끼 통은 뚜껑조차 뜯지 않았다. 미끼 한 번 끼워 보지 못한 채 하루가 갔고, 빈손으로 돌아가기 아쉬워 오는 길에 한 마리 샀다.",
+    "en": "Sand caked on his boots, a sunburned face: he really did go to the sea. The rod is brand-new, plastic still on the handle, and his vest still has its tag — first time fishing, also true. But look at the fish. It sits on a styrofoam tray under tight cling film, with a price sticker. That isn't a fresh catch; it's store packaging. A neighbor or a fellow angler wouldn't hand it over with a price tag, and a fish from the freezer would be frosted. Then there's the bait tub — the lid isn't even opened. He spent the whole day without baiting a single hook, and rather than go home empty-handed, he bought one on the way."
   }
 }

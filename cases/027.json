@@ -2,163 +2,166 @@
   "id": 27,
   "date": "2026-11-21",
   "type": "lie",
-  "image": "img/002.webp",
+  "image": "img/027.webp",
   "title": {
-    "ko": "학교엔 갈 일이 없다는 남자",
-    "en": "No Business at a School"
+    "ko": "걸어서 올라왔다는 남자",
+    "en": "The Man Who Walked Up"
   },
   "intro": {
-    "ko": "평일 아침 지하철 플랫폼의 남자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "We spoke to a man on a subway platform on a weekday morning. Here's what he said. Find the lie in the photo."
+    "ko": "맑은 일요일 오전, 산 정상 전망대. 커피를 든 남자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "A clear Sunday morning at a mountaintop lookout. We spoke to a man holding a coffee. Here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "지하철 기다리는 중이에요. 연필은 메모하려고 늘 꽂고 다니고요. 학교 근처엔 갈 일이 없어요.",
-    "en": "I'm waiting for the train. I always keep a pencil behind my ear for notes. I've got no reason to go anywhere near a school."
+    "ko": "등산은 오늘이 처음이에요. 날씨가 맑아서 저 아래 마을까지 다 보이네요. 여기까지 두 발로 걸어 올라왔어요.",
+    "en": "It's my first time hiking. It's so clear you can see the village way down there. I walked all the way up here on my own two feet."
   },
   "questions": [
     {
       "key": "lie",
       "ask": {
         "ko": "사진과 맞지 않는 말은?",
-        "en": "Which part of the statement does the photo contradict?"
+        "en": "Which statement doesn't match the photo?"
       },
       "options": [
         {
-          "ko": "지하철을 기다리는 중이다",
-          "en": "He's waiting for the train"
+          "ko": "등산은 오늘이 처음이다",
+          "en": "It's his first time hiking"
         },
         {
-          "ko": "연필은 메모용이다",
-          "en": "The pencil is for notes"
+          "ko": "아래 마을까지 다 보인다",
+          "en": "You can see the village below"
         },
         {
-          "ko": "학교 근처엔 갈 일이 없다",
-          "en": "He has no reason to go near a school"
+          "ko": "정상까지 걸어 올라왔다",
+          "en": "He walked all the way up"
         },
         {
           "ko": "모두 사진과 맞다",
-          "en": "It all fits the photo"
+          "en": "Everything matches the photo"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e5"
+        "e1",
+        "e3"
       ]
     },
     {
       "key": "tell",
       "ask": {
         "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which detail gives the lie away?"
+        "en": "Which clue gives the lie away?"
       },
       "options": [
         {
-          "ko": "귀 위의 연필",
-          "en": "The pencil above his ear"
+          "ko": "진흙 하나 안 묻은 신발",
+          "en": "His shoes without a speck of mud"
         },
         {
-          "ko": "가방끈의 노란 출입증",
-          "en": "The yellow badge on his bag strap"
+          "ko": "맑은 하늘",
+          "en": "The clear sky"
         },
         {
-          "ko": "흰 셔츠",
-          "en": "His white shirt"
+          "ko": "손에 든 커피",
+          "en": "The coffee in his hand"
         },
         {
-          "ko": "검은 가방",
-          "en": "His black bag"
+          "ko": "등에 멘 배낭",
+          "en": "The backpack on his back"
         }
       ],
-      "answer": 1,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "logo",
-      "ask": {
-        "ko": "출입증의 사과와 연필 그림은 무엇을 뜻할까?",
-        "en": "What does the apple-and-pencil logo on the badge stand for?"
-      },
-      "options": [
-        {
-          "ko": "과일 가게",
-          "en": "A fruit shop"
-        },
-        {
-          "ko": "미술관",
-          "en": "An art museum"
-        },
-        {
-          "ko": "학교",
-          "en": "A school"
-        },
-        {
-          "ko": "문구점",
-          "en": "A stationery store"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "roll",
-      "ask": {
-        "ko": "그가 손에 든 가죽 롤에는 무엇이 들었을까?",
-        "en": "What's inside the leather roll in his hand?"
-      },
-      "options": [
-        {
-          "ko": "붓",
-          "en": "Paintbrushes"
-        },
-        {
-          "ko": "칼",
-          "en": "Knives"
-        },
-        {
-          "ko": "뜨개바늘",
-          "en": "Knitting needles"
-        },
-        {
-          "ko": "공구",
-          "en": "Tools"
-        }
-      ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
         "e1"
       ]
     },
     {
-      "key": "why",
+      "key": "band",
       "ask": {
-        "ko": "그는 학교에 무엇을 하러 갈까?",
-        "en": "What's he going to the school for?"
+        "ko": "손목의 주황색 종이 밴드는 무엇일까?",
+        "en": "What's the orange paper band on his wrist?"
       },
       "options": [
         {
-          "ko": "수업을 들으러",
-          "en": "To take a class"
+          "ko": "병원 환자 팔찌",
+          "en": "A hospital bracelet"
         },
         {
-          "ko": "자녀를 데리러",
-          "en": "To pick up his kid"
+          "ko": "케이블카 탑승 밴드",
+          "en": "A cable car ticket band"
         },
         {
-          "ko": "피아노를 고치러",
-          "en": "To fix a piano"
+          "ko": "콘서트 입장 밴드",
+          "en": "A concert wristband"
         },
         {
-          "ko": "강연을 하러",
-          "en": "To give a talk"
+          "ko": "놀이공원 자유이용권",
+          "en": "An amusement park pass"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "how",
+      "ask": {
+        "ko": "그는 정상까지 어떻게 올라왔을까?",
+        "en": "How did he really get to the top?"
+      },
+      "options": [
+        {
+          "ko": "헬기",
+          "en": "By helicopter"
+        },
+        {
+          "ko": "산악자전거",
+          "en": "On a mountain bike"
+        },
+        {
+          "ko": "지름길로 걸어서",
+          "en": "On foot, by a shortcut"
+        },
+        {
+          "ko": "케이블카",
+          "en": "By cable car"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e3",
+        "e1"
+      ]
+    },
+    {
+      "key": "first",
+      "ask": {
+        "ko": "'등산이 처음'이라는 말과 맞는 단서는?",
+        "en": "Which detail fits 'first time hiking'?"
+      },
+      "options": [
+        {
+          "ko": "구김 하나 없는 새 등산복",
+          "en": "A spotless, brand-new hiking outfit"
+        },
+        {
+          "ko": "다른 등산객들의 진흙 신발",
+          "en": "The other hikers' muddy boots"
+        },
+        {
+          "ko": "케이블카",
+          "en": "The cable car"
+        },
+        {
+          "ko": "아래 마을",
+          "en": "The village below"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
         "e5"
       ]
     }
@@ -166,47 +169,67 @@
   "clues": [
     {
       "id": "e1",
-      "x": 44,
-      "y": 71,
-      "r": 7,
+      "x": 49,
+      "y": 87,
+      "r": 10,
       "label": {
-        "ko": "오래 써서 닳고 긁힌 가죽 공구 롤 — 틈으로 T자 렌치와 고무 쐐기가 보인다",
-        "en": "A battered, scuffed leather tool roll — a T-shaped wrench and rubber wedges peek out"
+        "ko": "진흙 하나 안 묻은 신발 — 길은 진흙탕이다",
+        "en": "Shoes without a speck of mud — on a muddy trail"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 64,
+      "y": 57,
+      "r": 4,
+      "label": {
+        "ko": "손목의 주황색 종이 밴드",
+        "en": "An orange paper band on his wrist"
       }
     },
     {
       "id": "e3",
-      "x": 28,
-      "y": 19,
-      "r": 6,
+      "x": 74,
+      "y": 30,
+      "r": 10,
       "label": {
-        "ko": "귀 위에 꽂은 연필 — 막 깎은 듯 끝이 뾰족함",
-        "en": "A pencil tucked above his ear — freshly sharpened"
+        "ko": "바로 뒤에 도착하는 케이블카",
+        "en": "A cable car arriving right behind him"
       }
     },
     {
       "id": "e4",
-      "x": 20,
-      "y": 81,
-      "r": 7,
+      "x": 94,
+      "y": 57,
+      "r": 11,
       "label": {
-        "ko": "손목에 감아 둔 노란 줄자",
-        "en": "A yellow tape measure wrapped around his wrist"
+        "ko": "진흙투성이 신발로 땀 흘리며 숨을 고르는 다른 등산객",
+        "en": "Another hiker, boots caked in mud, sweating and catching his breath"
       }
     },
     {
       "id": "e5",
-      "x": 19,
-      "y": 56,
+      "x": 51,
+      "y": 28,
       "r": 7,
       "label": {
-        "ko": "가방끈에 미리 달아 둔 노란 방문자 출입증 — 사과와 연필 그림",
-        "en": "A yellow visitor badge already clipped to his bag strap — with an apple-and-pencil logo"
+        "ko": "구김 없는 새 등산복과 땀 한 방울 없는 얼굴",
+        "en": "A crisp new outfit and a face without a drop of sweat"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 29,
+      "y": 47,
+      "r": 10,
+      "label": {
+        "ko": "저 아래 또렷이 보이는 마을",
+        "en": "The village clearly visible far below"
       }
     }
   ],
   "detective": {
-    "ko": "지하철을 기다린다는 말은 사실이다. 귀 위의 연필이 메모용이라는 것도 그럴듯하다. 하지만 '학교 근처엔 갈 일이 없다'는 거짓이다. 가방끈에 노란 방문자 출입증이 달려 있고, 그 위엔 사과와 연필 — 학교의 상징이다. 학교에 갈 일이 없는 사람이 학교 출입증을 미리 달고 다닐 리 없다. 손에 든 가죽 롤 틈으로는 T자 렌치와 고무 쐐기가 보인다. 그는 오늘 학교 음악실의 피아노를 고치러 가는 조율사다.",
-    "en": "Waiting for a train? True. The pencil above his ear being for notes? Believable. But 'no reason to go anywhere near a school' is a lie. There's a yellow visitor badge on his bag strap with an apple and a pencil on it — a school's emblem. Nobody with no business at a school walks around with its visitor badge already clipped on. Through the gap in his leather roll you can see a T-shaped wrench and rubber wedges. He's a piano tuner on his way to fix the piano in a school's music room."
+    "ko": "하늘은 맑고 저 아래 마을까지 또렷이 보인다. 그 말은 사실이다. 등산복은 구김 하나 없는 새것 — 등산이 처음이라는 것도 맞다. 그런데 정상으로 오는 길은 진흙탕이다. 옆에서 숨을 고르는 등산객들은 신발이 진흙투성이고 얼굴은 땀범벅이다. 그의 신발엔 진흙 한 점 없고 이마엔 땀 한 방울 없다. 지름길로 걸어왔어도 이 길을 피할 수는 없다. 손목엔 주황색 종이 밴드가 감겨 있고, 바로 뒤엔 케이블카가 막 도착하고 있다. 병원 팔찌도 콘서트 밴드도 아니다. 케이블카 탑승 밴드다. 그는 걸어서가 아니라 케이블카를 타고 올라왔다.",
+    "en": "The sky is clear and the village far below is sharp — true. His hiking outfit is crisp and brand-new — first time hiking, also true. But the trail up here is pure mud. The hikers catching their breath beside him have boots caked in it and faces drenched in sweat. His shoes don't have a speck of mud, and there isn't a drop of sweat on his brow. No shortcut avoids this path. On his wrist is an orange paper band, and right behind him a cable car is pulling in. Not a hospital bracelet, not a concert band: a cable car ticket. He didn't walk up. He rode."
   }
 }

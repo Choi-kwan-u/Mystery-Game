@@ -2,18 +2,18 @@
   "id": 30,
   "date": "2026-11-24",
   "type": "lie",
-  "image": "img/003.webp",
+  "image": "img/030.webp",
   "title": {
-    "ko": "약속이 없다는 여자",
-    "en": "No Plans Today"
+    "ko": "강아지가 범인이라는 누나",
+    "en": "Blame the Dog"
   },
   "intro": {
-    "ko": "학교 앞 벤치의 여자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "We spoke to a woman on a bench across from a school. Here's what she said. Find the lie in the photo."
+    "ko": "평일 오후 4시, 거실에 화분이 깨져 있다. 막 들어온 누나에게 무슨 일이냐고 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "4 p.m. on a weekday, and a flowerpot lies smashed in the living room. We asked the big sister who'd just walked in what happened. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "커피 한 잔 사 들고 나왔어요. 오늘은 아무 약속도 없고요. 아이들 노는 소리가 좋아서 여기 자주 앉아요.",
-    "en": "I just came out with a coffee. I don't have any plans today. I like hearing the children play, so I sit here often."
+    "ko": "저 방금 학교에서 왔어요. 와 보니까 화분이 깨져 있었어요. 우리 강아지가 깬 거예요.",
+    "en": "I just got home from school. The pot was already broken when I walked in. Our dog did it."
   },
   "questions": [
     {
@@ -24,25 +24,26 @@
       },
       "options": [
         {
-          "ko": "커피 한 잔 사 들고 나왔다",
-          "en": "She came out with a coffee"
+          "ko": "방금 학교에서 왔다",
+          "en": "She just got home from school"
         },
         {
-          "ko": "오늘 아무 약속도 없다",
-          "en": "She has no plans today"
+          "ko": "와 보니 화분이 깨져 있었다",
+          "en": "The pot was already broken when she came in"
         },
         {
-          "ko": "아이들 노는 소리가 좋다",
-          "en": "She likes hearing the children play"
+          "ko": "강아지가 깼다",
+          "en": "The dog broke it"
         },
         {
           "ko": "모두 사진과 맞다",
           "en": "Everything matches the photo"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e5"
+        "e1",
+        "e2"
       ]
     },
     {
@@ -53,112 +54,113 @@
       },
       "options": [
         {
-          "ko": "무릎 위의 메모",
-          "en": "The note on her lap"
+          "ko": "흙 한 톨 안 묻은 채 자는 개",
+          "en": "The dog asleep without a speck of soil on it"
         },
         {
-          "ko": "운동장의 아이들",
-          "en": "The children on the playground"
+          "ko": "메고 있는 책가방",
+          "en": "Her backpack"
         },
         {
-          "ko": "벤치 위의 커피",
-          "en": "The coffee on the bench"
+          "ko": "열린 현관문",
+          "en": "The open front door"
         },
         {
-          "ko": "가방 속 반지 두 개가 그려진 카드",
-          "en": "The card with two rings in her bag"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "card",
-      "ask": {
-        "ko": "반지 두 개가 그려진 카드는 무엇일까?",
-        "en": "What is the card with two rings on it?"
-      },
-      "options": [
-        {
-          "ko": "생일 카드",
-          "en": "A birthday card"
-        },
-        {
-          "ko": "크리스마스 카드",
-          "en": "A Christmas card"
-        },
-        {
-          "ko": "청첩장",
-          "en": "A wedding invitation"
-        },
-        {
-          "ko": "상장",
-          "en": "A certificate"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "dressed",
-      "ask": {
-        "ko": "오늘 그녀가 차려입었다는 흔적은?",
-        "en": "What shows she's dressed up today?"
-      },
-      "options": [
-        {
-          "ko": "낡은 가방",
-          "en": "Her worn bag"
-        },
-        {
-          "ko": "진주 귀걸이",
-          "en": "Pearl earrings"
-        },
-        {
-          "ko": "무릎 위 메모지",
-          "en": "The note on her lap"
-        },
-        {
-          "ko": "종이컵 커피",
-          "en": "The paper cup of coffee"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "letters",
-      "ask": {
-        "ko": "결혼식에 가며 크레용 편지 묶음을 챙긴 이유는?",
-        "en": "Why bring a bundle of crayon letters to a wedding?"
-      },
-      "options": [
-        {
-          "ko": "결혼하는 제자가 어릴 때 쓴 편지를 돌려주려고",
-          "en": "To give back a letter the bride or groom wrote as a child"
-        },
-        {
-          "ko": "손주에게 보여 주려고",
-          "en": "To show her grandchildren"
-        },
-        {
-          "ko": "버리려고",
-          "en": "To throw them away"
-        },
-        {
-          "ko": "우연히 가방에 들어 있어서",
-          "en": "They just happened to be in her bag"
+          "ko": "거실 소파",
+          "en": "The living-room sofa"
         }
       ],
       "answer": 0,
       "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "culprit",
+      "ask": {
+        "ko": "진짜 범인은 누구일까?",
+        "en": "Who really did it?"
+      },
+      "options": [
+        {
+          "ko": "고양이",
+          "en": "A cat"
+        },
+        {
+          "ko": "바람",
+          "en": "The wind"
+        },
+        {
+          "ko": "집 안에서 공을 차던 동생",
+          "en": "A younger sibling kicking a ball indoors"
+        },
+        {
+          "ko": "누나 자신",
+          "en": "The big sister herself"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
         "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "hiding",
+      "ask": {
+        "ko": "범인은 지금 어디 있을까?",
+        "en": "Where is the culprit now?"
+      },
+      "options": [
+        {
+          "ko": "반쯤 열린 방 안",
+          "en": "Behind the half-open bedroom door"
+        },
+        {
+          "ko": "집 밖",
+          "en": "Outside"
+        },
+        {
+          "ko": "개 침대",
+          "en": "In the dog bed"
+        },
+        {
+          "ko": "소파 뒤",
+          "en": "Behind the sofa"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "home",
+      "ask": {
+        "ko": "'방금 학교에서 왔다'는 말과 맞는 단서는?",
+        "en": "Which detail fits 'I just got home from school'?"
+      },
+      "options": [
+        {
+          "ko": "깨진 화분",
+          "en": "The broken pot"
+        },
+        {
+          "ko": "아직 멘 책가방과 손에 든 열쇠",
+          "en": "The backpack still on and keys in her hand"
+        },
+        {
+          "ko": "축구공",
+          "en": "The soccer ball"
+        },
+        {
+          "ko": "개 침대",
+          "en": "The dog bed"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
         "e5"
       ]
     }
@@ -166,67 +168,57 @@
   "clues": [
     {
       "id": "e1",
-      "x": 32,
-      "y": 86,
-      "r": 5,
+      "x": 82,
+      "y": 75,
+      "r": 10,
       "label": {
-        "ko": "손가락에 밴 붉은 색연필 자국",
-        "en": "Red pencil smudges on her finger"
+        "ko": "흙 한 톨 안 묻은 채 자는 개 — 흙 위엔 발자국도 없다",
+        "en": "The dog asleep and spotless — no paw prints in the soil"
       }
     },
     {
       "id": "e2",
-      "x": 23,
-      "y": 69,
-      "r": 9,
+      "x": 50,
+      "y": 79,
+      "r": 5,
       "label": {
-        "ko": "가방 속 크레용 그림 편지 묶음 — 리본으로 묶어 간직했다",
-        "en": "A bundle of crayon-drawn letters in her bag, kept tied with a ribbon"
+        "ko": "깨진 화분 옆, 흙 묻은 축구공",
+        "en": "A soil-smeared soccer ball by the broken pot"
       }
     },
     {
       "id": "e3",
-      "x": 43,
-      "y": 88,
-      "r": 6,
+      "x": 56,
+      "y": 63,
+      "r": 8,
       "label": {
-        "ko": "무릎 위 메모 — 줄에 맞춰 또박또박 쓴 손글씨",
-        "en": "A note on her lap — neat, evenly spaced handwriting"
+        "ko": "방 쪽으로 이어진 작은 양말 발자국과 벗어 던진 아이 운동화",
+        "en": "Small sock prints heading toward the bedroom, and a child's kicked-off sneakers"
       }
     },
     {
       "id": "e4",
-      "x": 70,
-      "y": 26,
-      "r": 13,
+      "x": 56,
+      "y": 47,
+      "r": 6,
       "label": {
-        "ko": "그녀의 시선이 향한 곳 — 길 건너 초등학교 운동장",
-        "en": "Where she's looking — the elementary school playground across the street"
+        "ko": "반쯤 열린 방문 — 안에 아이가 있다",
+        "en": "A half-open bedroom door — a child is inside"
       }
     },
     {
       "id": "e5",
-      "x": 38,
-      "y": 69,
-      "r": 6,
-      "label": {
-        "ko": "반지 두 개가 그려진 리본 카드 — 그리고 진주 귀걸이로 차려입은 모습",
-        "en": "A ribboned card with two rings on it — and she's wearing pearl earrings"
-      }
-    },
-    {
-      "id": "e6",
-      "x": 83,
-      "y": 85,
+      "x": 79,
+      "y": 39,
       "r": 11,
       "label": {
-        "ko": "뚜껑도 열지 않은 커피 한 잔, 옆에 꺼내 둔 빛바랜 단체 사진",
-        "en": "A coffee with the lid still on, and a faded group photo set beside it"
+        "ko": "책가방을 멘 채 열쇠를 든 누나",
+        "en": "The sister, backpack still on, keys in hand"
       }
     }
   ],
   "detective": {
-    "ko": "커피를 사 들고 나왔다는 말은 맞다 — 벤치 위에 종이컵이 있다. 아이들 노는 소리를 좋아한다는 말도 사진과 어긋나지 않는다 — 그녀의 눈은 길 건너 운동장을 향해 있다. 하지만 '오늘 아무 약속도 없다'는 거짓이다. 가방 속엔 반지 두 개가 그려진 카드 — 청첩장이다. 귀에는 진주 귀걸이까지 하고 나왔다. 오늘은 결혼식에 가는 날이다. 그리고 가방 속 리본으로 묶은 크레용 편지 묶음. 결혼식에 아이들 편지를 챙겨 가는 이유는 하나다. 오늘 결혼하는 사람이 어린 시절 그녀에게 쓴 편지가 그 안에 있다. 옛 제자에게 돌려줄 선물이다.",
-    "en": "Came out with a coffee? True — there's a paper cup on the bench. Likes hearing the children play? Nothing in the photo says otherwise; her eyes are on the playground across the street. But 'no plans today' is a lie. In her bag is a card with two rings on it — a wedding invitation — and she's wearing pearls. She's going to a wedding. And the ribbon-tied bundle of crayon letters in her bag? There's only one reason to bring children's letters to a wedding: one of them was written to her, long ago, by the person getting married today. It's a gift for a former student."
+    "ko": "책가방을 멘 채 손엔 열쇠, 현관문은 아직 열려 있다. 방금 학교에서 왔다는 말은 사실이고, 화분은 그전에 깨져 있었다. 하지만 개를 보라. 거실 반대편 침대에서 곤히 자고 있다. 하얀 털엔 흙 한 톨 묻지 않았고, 쏟아진 흙 위엔 발자국 하나 없다. 고양이도 바람도 아니다. 깨진 화분 바로 옆엔 흙 묻은 축구공이 있고, 흙 속에서 시작된 작은 양말 발자국이 반쯤 열린 방으로 이어진다. 복도엔 벗어 던진 아이 운동화. 누나는 신발을 신은 채 문 앞에 서 있으니 누나도 아니다. 집 안에서 공을 차던 동생이 화분을 깨고, 지금 저 방 안에 숨어 있다.",
+    "en": "Backpack still on, keys in hand, the front door still open: she really did just get home, and the pot was broken before she arrived. But look at the dog. It's fast asleep in its bed across the room. Its white fur doesn't have a speck of soil, and there isn't a single paw print in the spilled dirt. Not a cat, not the wind either. Right by the broken pot sits a soil-smeared soccer ball, and small sock prints lead from the dirt to a half-open bedroom door. A child's sneakers lie kicked off in the hall. The sister is still standing at the door in her shoes, so it wasn't her. A younger sibling was kicking a ball indoors, smashed the pot — and is hiding in that room right now."
   }
 }

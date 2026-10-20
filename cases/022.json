@@ -2,222 +2,224 @@
   "id": 22,
   "date": "2026-11-16",
   "type": "lie",
-  "image": "img/004.webp",
+  "image": "img/022.webp",
   "title": {
-    "ko": "동네 주민이라는 남자",
-    "en": "The Man Who Lives Nearby"
+    "ko": "긁힌 데 하나 없다는 새 차",
+    "en": "Not a Scratch on It"
   },
   "intro": {
-    "ko": "새벽 휴게소 식당의 남자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "We spoke to a man in a rest-stop diner before dawn. Here's what he said. Find the lie in the photo."
+    "ko": "월요일 아침, 회사 지하 주차장. 새 차 옆에 선 남자에게 차 자랑을 부탁하자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "Monday morning, an office parking garage. We asked the man beside his new car to show it off. Here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "혼자 아침 먹으러 왔어요. 보온병에 커피도 챙겨 왔고요. 집이 바로 근처라 걸어서 왔어요.",
-    "en": "I came for breakfast on my own. Brought coffee in my thermos, too. My place is just around the corner, so I walked."
+    "ko": "이 차, 어제 새로 뽑았어요. 오늘 처음 몰고 출근했고요. 아직 긁힌 데 하나 없어요.",
+    "en": "I picked this car up brand-new yesterday. Today's the first time I drove it to work. Not a single scratch on it yet."
   },
   "questions": [
     {
       "key": "lie",
       "ask": {
         "ko": "사진과 맞지 않는 말은?",
-        "en": "Which part of the statement does the photo contradict?"
+        "en": "Which statement doesn't match the photo?"
       },
       "options": [
         {
-          "ko": "혼자 왔다",
-          "en": "He came alone"
+          "ko": "어제 새로 뽑았다",
+          "en": "He got the car brand-new yesterday"
         },
         {
-          "ko": "보온병에 커피를 챙겨 왔다",
-          "en": "He brought coffee in a thermos"
+          "ko": "오늘 처음 몰고 출근했다",
+          "en": "Today he drove it to work for the first time"
         },
         {
-          "ko": "집이 근처라 걸어왔다",
-          "en": "He lives nearby and walked"
+          "ko": "긁힌 데 하나 없다",
+          "en": "There isn't a single scratch on it"
         },
         {
           "ko": "모두 사진과 맞다",
-          "en": "It all fits the photo"
+          "en": "Everything matches the photo"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e5",
-        "e3"
+        "e1",
+        "e2"
       ]
     },
     {
       "key": "tell",
       "ask": {
         "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which detail gives the lie away?"
+        "en": "Which clue gives the lie away?"
       },
       "options": [
         {
-          "ko": "수프 그릇",
-          "en": "The bowl of soup"
+          "ko": "의자에 씌운 비닐",
+          "en": "The plastic on the seats"
         },
         {
-          "ko": "목에 건 목베개와 이마 위 안대",
-          "en": "The neck pillow and the sleep mask on his forehead"
+          "ko": "대시보드의 빨간 리본",
+          "en": "The red bow on the dashboard"
         },
         {
-          "ko": "소금통",
-          "en": "The salt shaker"
+          "ko": "목에 건 사원증",
+          "en": "The ID badge around his neck"
         },
         {
-          "ko": "빵",
-          "en": "The bread roll"
+          "ko": "뒤 범퍼 모서리의 긁힌 자국",
+          "en": "The scrape on the rear bumper corner"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
-        "e5"
+        "e1"
       ]
     },
     {
-      "key": "truck",
+      "key": "paint",
       "ask": {
-        "ko": "창밖 주차장의 트럭 중 하나는 누구의 것일까?",
-        "en": "One of the trucks outside belongs to whom?"
+        "ko": "긁힌 자국에 묻은 파란 페인트는 어디서 왔을까?",
+        "en": "Where did the blue paint in the scrape come from?"
       },
       "options": [
         {
-          "ko": "식당 주인",
-          "en": "The diner's owner"
+          "ko": "바로 옆 파란 띠를 두른 기둥",
+          "en": "The pillar right beside it, with its blue band"
         },
         {
-          "ko": "경찰",
-          "en": "The police"
+          "ko": "다른 파란 차",
+          "en": "Another blue car"
         },
         {
-          "ko": "그 자신",
-          "en": "Him"
+          "ko": "공사장 페인트",
+          "en": "Paint from a construction site"
         },
         {
-          "ko": "아무도 아니다",
-          "en": "Nobody"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "home",
-      "ask": {
-        "ko": "그는 사실 어디에 사는 사람일까?",
-        "en": "Where does he really live?"
-      },
-      "options": [
-        {
-          "ko": "멀리 떨어진 도시",
-          "en": "In a city far from here"
-        },
-        {
-          "ko": "바로 이 동네",
-          "en": "Right around here"
-        },
-        {
-          "ko": "휴게소 직원 숙소",
-          "en": "In staff housing at the rest stop"
-        },
-        {
-          "ko": "식당 2층",
-          "en": "Above the diner"
+          "ko": "원래 차의 무늬",
+          "en": "It's part of the car's design"
         }
       ],
       "answer": 0,
       "evidence": [
         "e1",
-        "e5"
+        "e2"
       ]
     },
     {
-      "key": "thermos",
+      "key": "new",
       "ask": {
-        "ko": "'보온병에 커피를 챙겨 왔다'는 말과 맞는 단서는?",
-        "en": "Which detail fits 'I brought coffee in my thermos'?"
+        "ko": "'어제 새로 뽑았다'는 말과 맞는 단서는?",
+        "en": "Which detail fits 'brand-new yesterday'?"
       },
       "options": [
         {
-          "ko": "빈 에너지 음료 캔",
-          "en": "The empty energy drink cans"
+          "ko": "긁힌 범퍼",
+          "en": "The scraped bumper"
         },
         {
-          "ko": "1리터짜리 보온병",
-          "en": "The one-liter thermos"
+          "ko": "주차장 기둥",
+          "en": "The garage pillar"
         },
         {
-          "ko": "빵",
-          "en": "The bread roll"
+          "ko": "의자에 그대로 씌워진 비닐과 대시보드의 리본",
+          "en": "Plastic still on the seats and a bow on the dashboard"
         },
         {
-          "ko": "소금통",
-          "en": "The salt shaker"
+          "ko": "주차장 조명",
+          "en": "The garage lights"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "차는 언제 긁혔을까?",
+        "en": "When did the car get scratched?"
+      },
+      "options": [
+        {
+          "ko": "어제 출고되기 전에",
+          "en": "Before it left the dealer yesterday"
+        },
+        {
+          "ko": "오늘 아침 여기 주차하다가",
+          "en": "This morning, parking right here"
+        },
+        {
+          "ko": "밤새 누가 긁고 갔다",
+          "en": "Someone hit it overnight"
+        },
+        {
+          "ko": "세차하다가",
+          "en": "At the car wash"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e2"
+        "e2",
+        "e5"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 80,
-      "y": 69,
+      "x": 72,
+      "y": 72,
       "r": 8,
       "label": {
-        "ko": "왼팔만 짙게 탄 팔뚝 — 오른팔은 하얗다",
-        "en": "Only his left forearm is deeply tanned — the right one is pale"
+        "ko": "뒤 범퍼 모서리의 긁힌 자국 — 파란 페인트가 묻었다",
+        "en": "A scrape on the rear bumper corner, streaked with blue paint"
       }
     },
     {
       "id": "e2",
-      "x": 18,
-      "y": 84,
-      "r": 13,
+      "x": 89,
+      "y": 54,
+      "r": 9,
       "label": {
-        "ko": "1리터 보온병과 빈 에너지 음료 캔 두 개",
-        "en": "A one-liter thermos and two empty energy drink cans"
+        "ko": "범퍼 높이의 파란 띠 기둥 — 하얀 차 페인트가 묻었다",
+        "en": "A pillar with a blue band at bumper height, smeared with white car paint"
       }
     },
     {
       "id": "e3",
-      "x": 82,
-      "y": 37,
-      "r": 12,
+      "x": 20,
+      "y": 60,
+      "r": 11,
       "label": {
-        "ko": "창밖 주차장에 줄지어 선 대형 트레일러",
-        "en": "Semi-trailers lined up in the lot outside"
+        "ko": "의자에 그대로 씌워진 비닐",
+        "en": "Protective plastic still on the seats"
       }
     },
     {
       "id": "e4",
-      "x": 55,
+      "x": 13,
       "y": 45,
-      "r": 8,
+      "r": 6,
       "label": {
-        "ko": "충혈된 눈",
-        "en": "Bloodshot eyes"
+        "ko": "대시보드 위의 빨간 리본",
+        "en": "A red bow on the dashboard"
       }
     },
     {
       "id": "e5",
-      "x": 38,
-      "y": 45,
-      "r": 8,
+      "x": 46,
+      "y": 46,
+      "r": 5,
       "label": {
-        "ko": "목에 건 목베개와 이마에 올린 수면 안대",
-        "en": "A neck pillow, and a sleep mask pushed up on his forehead"
+        "ko": "목에 건 사원증 — 출근길",
+        "en": "An ID badge on a lanyard — he's at work"
       }
     }
   ],
   "detective": {
-    "ko": "혼자 왔다는 건 사실이다. 보온병도 정말 챙겨 왔다. 하지만 '집이 근처라 걸어왔다'는 거짓이다. 근처에 사는 사람이 목에 목베개를 두르고 이마에 수면 안대를 얹은 채 아침을 먹으러 오지는 않는다. 그건 차 안에서 자는 사람의 짐이다. 창밖엔 대형 트레일러가 줄지어 서 있고, 테이블엔 빈 에너지 음료 캔이 두 개, 눈은 벌겋게 충혈됐다. 운전석 창가 쪽 왼팔만 그을린 것도 같은 이야기다. 그는 이 동네 사람이 아니라 밤새 먼 길을 달려온 트럭 운전사이고, 창밖 트럭 중 하나가 그의 것이다.",
-    "en": "Came alone? True. Brought a thermos? Also true. But 'my place is just around the corner, so I walked'? That's the lie. Locals don't stroll in for breakfast with a travel pillow around their neck and a sleep mask on their forehead — that's the kit of someone who sleeps in a vehicle. Outside, semi-trailers stand in a row; on the table, two empty energy drinks; his eyes are bloodshot. Only his left arm, the driver's-window arm, is tanned. He isn't from around here. He's a trucker who drove through the night, and one of those rigs outside is his."
+    "ko": "의자엔 비닐이 그대로 씌워져 있고 대시보드엔 빨간 리본이 놓여 있다. 어제 막 출고된 새 차가 맞다. 목엔 사원증, 여긴 회사 지하 주차장 — 오늘 이 차로 처음 출근했다는 말도 앞뒤가 맞는다. 그런데 뒤 범퍼 모서리를 보라. 길게 긁혔고, 그 자리에 파란 페인트가 묻어 있다. 다른 파란 차일까? 바로 옆 기둥에 범퍼 높이로 파란 띠가 둘러져 있고, 거기엔 하얀 차 페인트가 묻어 있다. 서로의 색을 나눠 가진 것이다. 출고 전에 긁혔다면 이렇게 받아 오지 않았을 것이고, 어젯밤엔 이 차가 여기 없었다. 오늘 아침, 첫 출근길에 기둥 옆에 비뚤게 대다가 긁었다. 긁힌 데 하나 없다는 말만 사실이 아니다.",
+    "en": "Plastic still covers the seats and a red bow sits on the dashboard: this car really did leave the dealer yesterday. An ID badge around his neck, an office parking garage — driving it to work for the first time today checks out too. But look at the rear bumper corner: a long scrape, streaked with blue paint. Another blue car? The pillar right beside it has a blue band at exactly bumper height — and it's smeared with white car paint. They traded colors. A dealer wouldn't hand over a scraped car, and last night this car wasn't even here. He scraped it this morning, squeezing in crookedly beside the pillar on his very first commute. 'Not a scratch on it' is the one thing that isn't true."
   }
 }

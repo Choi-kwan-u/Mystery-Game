@@ -2,18 +2,18 @@
   "id": 19,
   "date": "2026-11-13",
   "type": "lie",
-  "image": "img/001.webp",
+  "image": "img/019.webp",
   "title": {
-    "ko": "출근 전이라는 여자",
-    "en": "Just Before Work"
+    "ko": "직접 구웠다는 케이크",
+    "en": "The Homemade Cake"
   },
   "intro": {
-    "ko": "카페 창가의 여자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "We struck up a conversation with the woman by the café window. Here's what she told us. Find the lie in the photo."
+    "ko": "토요일 오후, 아이 생일 파티 준비가 한창인 집. 집주인에게 케이크 이야기를 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "Saturday afternoon, a home getting ready for a kid's birthday party. We asked the host about the cake. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "출근하기 전에 잠깐 들렀어요. 지금은 버스 기다리는 중이에요. 커피는 원래 안 마셔요.",
-    "en": "I just stopped in before work. Right now I'm waiting for the bus. I don't drink coffee."
+    "ko": "케이크는 제가 직접 구웠어요. 오늘 아이 생일 파티를 해요. 손님들은 아직 안 왔고요.",
+    "en": "I baked the cake myself. We're having my kid's birthday party today. The guests haven't arrived yet."
   },
   "questions": [
     {
@@ -24,16 +24,16 @@
       },
       "options": [
         {
-          "ko": "출근하기 전에 잠깐 들렀다",
-          "en": "She stopped in before work"
+          "ko": "케이크를 직접 구웠다",
+          "en": "She baked the cake herself"
         },
         {
-          "ko": "버스를 기다리는 중이다",
-          "en": "She's waiting for the bus"
+          "ko": "아이 생일 파티를 한다",
+          "en": "It's her kid's birthday party"
         },
         {
-          "ko": "커피는 원래 안 마신다",
-          "en": "She doesn't drink coffee"
+          "ko": "손님은 아직 안 왔다",
+          "en": "The guests haven't arrived yet"
         },
         {
           "ko": "모두 사진과 맞다",
@@ -54,170 +54,171 @@
       },
       "options": [
         {
-          "ko": "김이 나는 찻잔",
-          "en": "The steaming cup of tea"
+          "ko": "반짝이게 치운 부엌",
+          "en": "The spotless kitchen"
         },
         {
-          "ko": "창밖 버스 정류장",
-          "en": "The bus stop outside"
+          "ko": "쓰레기통 속 리본 달린 케이크 상자",
+          "en": "The ribboned cake box in the trash"
         },
         {
-          "ko": "가방에 구겨 넣은 근무복",
-          "en": "The work clothes crumpled in her bag"
+          "ko": "식탁의 고깔모자",
+          "en": "The party hats on the table"
         },
         {
-          "ko": "손목시계",
-          "en": "Her wristwatch"
+          "ko": "케이크에 꽂힌 새 초",
+          "en": "The new candles on the cake"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
         "e2"
       ]
     },
     {
-      "key": "coffee",
+      "key": "board",
       "ask": {
-        "ko": "'커피는 원래 안 마신다'는 말과 맞는 단서는?",
-        "en": "Which detail fits 'I don't drink coffee'?"
+        "ko": "케이크 밑에 깔린 금색 받침은 무엇일까?",
+        "en": "What's the gold disc under the cake?"
       },
       "options": [
         {
-          "ko": "손목시계",
-          "en": "Her wristwatch"
+          "ko": "집에서 쓰는 쟁반",
+          "en": "A tray from her kitchen"
         },
         {
-          "ko": "컵에 걸린 티백 꼬리표",
-          "en": "The tea-bag tag hanging from her cup"
+          "ko": "생일 장식",
+          "en": "A birthday decoration"
         },
         {
-          "ko": "손목의 마스크",
-          "en": "The mask on her wrist"
+          "ko": "빵집에서 케이크를 올려 주는 종이 받침",
+          "en": "The cardboard board a bakery puts under a cake"
         },
         {
-          "ko": "창밖 버스",
-          "en": "The bus outside"
+          "ko": "냄비 받침",
+          "en": "A trivet"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e5"
+        "e1"
+      ]
+    },
+    {
+      "key": "guests",
+      "ask": {
+        "ko": "'손님은 아직 안 왔다'는 말과 맞는 단서는?",
+        "en": "Which detail fits 'the guests haven't arrived yet'?"
+      },
+      "options": [
+        {
+          "ko": "쓰레기통 속 상자",
+          "en": "The box in the trash"
+        },
+        {
+          "ko": "냄비로 꽉 찬 오븐",
+          "en": "The oven full of pots"
+        },
+        {
+          "ko": "텅 빈 개수대",
+          "en": "The empty sink"
+        },
+        {
+          "ko": "아무도 안 쓴 접시와 포크, 불 붙인 적 없는 초",
+          "en": "Unused plates and forks, candles never lit"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e1"
       ]
     },
     {
       "key": "from",
       "ask": {
-        "ko": "그녀는 사실 어디서 오는 길일까?",
-        "en": "Where is she actually coming from?"
+        "ko": "케이크는 사실 어디서 왔을까?",
+        "en": "Where did the cake really come from?"
       },
       "options": [
         {
-          "ko": "헬스장",
-          "en": "The gym"
+          "ko": "이웃이 집에서 구워 줬다",
+          "en": "A neighbor baked it at home"
         },
         {
-          "ko": "친구 집",
-          "en": "A friend's place"
+          "ko": "아이가 만들었다",
+          "en": "The kid made it"
         },
         {
-          "ko": "공항",
-          "en": "The airport"
+          "ko": "빵집에서 사 왔다",
+          "en": "She bought it at a bakery"
         },
         {
-          "ko": "밤샘 근무를 마친 병원",
-          "en": "The hospital, after a night shift"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e2",
-        "e6"
-      ]
-    },
-    {
-      "key": "mask",
-      "ask": {
-        "ko": "손목에 건 마스크가 말해 주는 것은?",
-        "en": "What does the mask on her wrist tell us?"
-      },
-      "options": [
-        {
-          "ko": "감기에 걸렸다",
-          "en": "She has a cold"
-        },
-        {
-          "ko": "미세먼지가 심한 날이다",
-          "en": "It's a high-pollution day"
-        },
-        {
-          "ko": "몇 시간 동안 마스크를 쓰는 일을 하고 왔다",
-          "en": "She just did hours of work in a mask"
-        },
-        {
-          "ko": "카페에서 나눠 줬다",
-          "en": "The café handed it out"
+          "ko": "어제 먹다 남은 케이크다",
+          "en": "It's left over from yesterday"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e3"
+        "e2",
+        "e1"
       ]
     }
   ],
   "clues": [
     {
-      "id": "e2",
-      "x": 86,
-      "y": 63,
+      "id": "e1",
+      "x": 32,
+      "y": 69,
       "r": 11,
       "label": {
-        "ko": "가방에 구겨 넣은 남색 근무복과 집게에 물린 출입증",
-        "en": "Navy scrubs stuffed into her tote, with an ID badge on a clip"
+        "ko": "금색 종이 받침 위의 흠 하나 없는 케이크",
+        "en": "A flawless cake on a gold cardboard board"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 86,
+      "y": 68,
+      "r": 12,
+      "label": {
+        "ko": "쓰레기통 속 리본 달린 투명 창 케이크 상자",
+        "en": "A windowed cake box with a red ribbon in the trash"
       }
     },
     {
       "id": "e3",
-      "x": 25,
-      "y": 74,
-      "r": 6,
+      "x": 78,
+      "y": 52,
+      "r": 9,
       "label": {
-        "ko": "손목에 걸어 둔 마스크 — 몇 시간을 쓰다 막 벗었다",
-        "en": "A mask dangling from her wrist — worn for hours, just taken off"
+        "ko": "냄비와 프라이팬으로 꽉 찬 오븐",
+        "en": "An oven crammed with pots and pans"
       }
     },
     {
       "id": "e4",
-      "x": 54,
-      "y": 22,
+      "x": 17,
+      "y": 42,
       "r": 10,
       "label": {
-        "ko": "창밖 버스 정류장을 바라보는 시선",
-        "en": "Her eyes are on the bus stop outside"
+        "ko": "텅 비고 마른 개수대 — 반죽 그릇 하나 없다",
+        "en": "An empty, dry sink — not a single mixing bowl"
       }
     },
     {
       "id": "e5",
-      "x": 17,
-      "y": 51,
-      "r": 8,
+      "x": 18,
+      "y": 77,
+      "r": 12,
       "label": {
-        "ko": "컵에 걸린 티백 꼬리표 — 커피가 아니라 차",
-        "en": "A tea-bag tag on her cup — tea, not coffee"
-      }
-    },
-    {
-      "id": "e6",
-      "x": 32,
-      "y": 23,
-      "r": 7,
-      "label": {
-        "ko": "퀭한 눈과 짙은 다크서클, 흐트러진 머리",
-        "en": "Hollow eyes, dark circles, and messy hair"
+        "ko": "아무도 안 쓴 접시와 포크, 고깔모자",
+        "en": "Untouched plates, forks and party hats"
       }
     }
   ],
   "detective": {
-    "ko": "버스를 기다린다는 말은 앞뒤가 맞는다 — 그녀의 눈은 창밖 정류장에 가 있다. 커피를 안 마신다는 것도 맞다. 컵에 티백 꼬리표가 걸려 있다. 하지만 '출근 전'은 거짓이다. 가방 속 남색 근무복은 개켜져 있지 않고 구겨져 있다 — 이미 입었다 벗은 옷이다. 출근하는 사람이라면 깨끗한 근무복을 챙기거나 입고 나왔을 것이다. 손목엔 몇 시간을 쓰다 방금 벗은 마스크가 걸려 있다. 감기라면 쓰고 있었을 것이다. 눈 밑은 퀭하고 머리는 헝클어졌다. 그녀는 일하러 가는 게 아니라 병원에서 밤샘 근무를 마치고 돌아가는 길이다.",
-    "en": "Waiting for the bus? That fits — her eyes are on the stop outside. Doesn't drink coffee? Also true: there's a tea-bag tag hanging from her cup. But 'just before work' is the lie. The navy work clothes in her bag aren't folded; they're crumpled — already worn and taken off. Someone heading in would bring them clean, or wear them. On her wrist dangles a mask, just taken off after hours of wear; if she had a cold, it would still be on her face. Hollow eyes, messy hair. She isn't on her way to work. She's on her way home from a night shift at the hospital."
+    "ko": "식탁엔 깨끗한 접시와 포크, 고깔모자가 그대로 있고 초엔 불을 붙인 적이 없다. 아이 생일 파티가 곧 시작되고, 손님은 아직 오지 않았다. 여기까지는 사실이다. 그런데 직접 구웠다는 케이크는? 부엌이 반짝이게 깨끗하다. 굽고 나서 다 치웠을 수도 있다. 하지만 오븐 안이 냄비와 프라이팬으로 꽉 차 있다. 오늘 이 오븐에선 아무것도 구워지지 않았다. 케이크 밑에는 빵집에서 케이크를 올려 주는 금색 종이 받침이 깔려 있고, 쓰레기통엔 투명 창이 달린 케이크 상자와 빨간 리본이 버려져 있다. 이웃이 집에서 구워 줬다면 빵집 상자에 담겨 오지 않았을 것이다. 케이크는 빵집에서 사 왔다.",
+    "en": "Clean plates, forks and party hats sit untouched, and the candles have never been lit. A kid's birthday party is about to start and the guests haven't arrived — that much is true. But the homemade cake? The kitchen is spotless; maybe she baked and cleaned up. Except the oven is crammed full of pots and pans — nothing was baked in it today. Under the cake is the gold cardboard board a bakery puts beneath its cakes, and the trash holds a windowed cake box and a red ribbon. A neighbor's home-baked cake wouldn't arrive in a bakery box. This one came from a bakery."
   }
 }
