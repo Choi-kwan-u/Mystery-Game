@@ -2,10 +2,10 @@
   "id": 13,
   "date": "2026-11-07",
   "type": "room",
-  "image": "img/013.svg",
+  "image": "img/013.webp",
   "title": {
-    "ko": "카드가 흩어진 거실",
-    "en": "The Living Room Full of Cards"
+    "ko": "카드가 펼쳐진 거실",
+    "en": "The Living Room with a Fan of Cards"
   },
   "intro": {
     "ko": "오후 3시, 오래된 아파트 거실. 집주인은 잠깐 장을 보러 나갔다. 이 집의 주인은 누구일까?",
@@ -15,28 +15,28 @@
     {
       "key": "job",
       "ask": {
-        "ko": "이 방의 주인은 무슨 일을 할까?",
-        "en": "What does the owner of this room do?"
+        "ko": "이 방의 주인은 무슨 일을 했을까?",
+        "en": "What did the owner of this room do for a living?"
       },
       "options": [
+        {
+          "ko": "카지노 딜러",
+          "en": "Casino dealer"
+        },
+        {
+          "ko": "연극배우",
+          "en": "Stage actor"
+        },
         {
           "ko": "마술사",
           "en": "Magician"
         },
         {
-          "ko": "사진가",
-          "en": "Photographer"
-        },
-        {
-          "ko": "동물원 사육사",
-          "en": "Zookeeper"
-        },
-        {
-          "ko": "카드 딜러",
-          "en": "Card dealer"
+          "ko": "오페라 가수",
+          "en": "Opera singer"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
         "e5",
         "e2",
@@ -47,24 +47,24 @@
       "key": "feathers",
       "ask": {
         "ko": "빈 새장에 남은 하얀 깃털은 어떤 새의 것일까?",
-        "en": "Whose white feathers are left in the empty birdcage?"
+        "en": "Whose are the white feathers in the empty birdcage?"
       },
       "options": [
         {
-          "ko": "앵무새",
-          "en": "A parrot's"
+          "ko": "잉꼬",
+          "en": "A budgie"
         },
         {
           "ko": "비둘기",
-          "en": "A dove's"
+          "en": "A dove"
+        },
+        {
+          "ko": "카나리아",
+          "en": "A canary"
         },
         {
           "ko": "까마귀",
-          "en": "A crow's"
-        },
-        {
-          "ko": "닭",
-          "en": "A chicken's"
+          "en": "A crow"
         }
       ],
       "answer": 1,
@@ -76,7 +76,7 @@
       "key": "photo",
       "ask": {
         "ko": "벽 사진 속 무대 위의 젊은 남자는 누구일까?",
-        "en": "Who is the young man on stage in the photo on the wall?"
+        "en": "Who is the young man on stage in the photo?"
       },
       "options": [
         {
@@ -110,104 +110,105 @@
       },
       "options": [
         {
+          "ko": "카드를 던져 천장에 꽂는 묘기",
+          "en": "A trick — a card thrown so it sticks"
+        },
+        {
           "ko": "장식으로 붙였다",
           "en": "It's decoration"
         },
         {
-          "ko": "바람에 날아가서",
+          "ko": "손주가 장난쳤다",
+          "en": "A grandchild's prank"
+        },
+        {
+          "ko": "바람에 날아가 붙었다",
           "en": "The wind blew it up there"
-        },
-        {
-          "ko": "마술 묘기의 흔적",
-          "en": "It's left over from a trick"
-        },
-        {
-          "ko": "아이가 던져서",
-          "en": "A kid threw it"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
         "e5"
       ]
     },
     {
-      "key": "age",
+      "key": "now",
       "ask": {
-        "ko": "이 집 주인의 나이대는?",
-        "en": "How old is the owner?"
+        "ko": "주인은 지금도 무대에 설까?",
+        "en": "Does the owner still perform?"
       },
       "options": [
         {
-          "ko": "10대",
-          "en": "A teenager"
+          "ko": "매일 밤 무대에 선다",
+          "en": "Yes, every night"
         },
         {
-          "ko": "20대",
-          "en": "In their twenties"
+          "ko": "한 번도 무대에 선 적 없다",
+          "en": "Never has"
         },
         {
-          "ko": "70대 이상",
-          "en": "Seventy or older"
+          "ko": "은퇴했지만 손은 아직 연습한다",
+          "en": "Retired, but still practices"
         },
         {
-          "ko": "40대",
-          "en": "In their forties"
+          "ko": "다음 주에 첫 무대에 선다",
+          "en": "Debuts next week"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e6",
-        "e1"
+        "e4",
+        "e3",
+        "e6"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 25,
-      "y": 25,
+      "x": 51,
+      "y": 43,
       "r": 10,
       "label": {
-        "ko": "벽에 걸린 빛바랜 사진 — 실크해트를 쓰고 무대에 선 젊은 남자",
-        "en": "A faded photo on the wall — a young man on stage in a top hat"
+        "ko": "벽에 걸린 빛바랜 흑백 사진 — 턱시도에 실크해트 차림으로 무대에서 인사하는 젊은 남자",
+        "en": "A faded photo of a young man in a tuxedo and top hat, bowing on stage"
       }
     },
     {
       "id": "e2",
-      "x": 82,
-      "y": 40,
-      "r": 10,
+      "x": 85,
+      "y": 61,
+      "r": 13,
       "label": {
-        "ko": "하얀 깃털 몇 개가 남은 빈 새장",
-        "en": "An empty birdcage with a few white feathers"
+        "ko": "문이 열린 빈 새장과 바닥의 하얀 깃털",
+        "en": "An empty birdcage, door open, white feathers on its floor"
       }
     },
     {
       "id": "e3",
-      "x": 50,
-      "y": 72,
+      "x": 52,
+      "y": 71,
       "r": 9,
       "label": {
-        "ko": "탁자 위에 부채처럼 펼쳐 놓은 카드 한 벌",
-        "en": "A deck of cards fanned out on the table"
+        "ko": "탁자 위에 자로 잰 듯 고르게 펼쳐 놓은 카드 한 벌",
+        "en": "A deck of cards spread in a perfectly even arc"
       }
     },
     {
       "id": "e4",
-      "x": 10,
-      "y": 55,
-      "r": 8,
+      "x": 16,
+      "y": 39,
+      "r": 10,
       "label": {
-        "ko": "옷걸이에 걸린, 먼지 앉은 실크해트",
-        "en": "A dusty top hat on the coat rack"
+        "ko": "옷걸이에 걸린, 먼지가 뽀얗게 앉은 실크해트",
+        "en": "A top hat on the coat rack, thick with dust"
       }
     },
     {
       "id": "e5",
-      "x": 55,
-      "y": 6,
-      "r": 6,
+      "x": 51,
+      "y": 8,
+      "r": 5,
       "label": {
         "ko": "천장에 납작하게 붙은 카드 한 장",
         "en": "A single card stuck flat to the ceiling"
@@ -215,17 +216,17 @@
     },
     {
       "id": "e6",
-      "x": 80,
-      "y": 75,
+      "x": 18,
+      "y": 82,
       "r": 8,
       "label": {
-        "ko": "옆 탁자 위의 요일별 약통과 돋보기 안경",
-        "en": "A weekly pill organizer and reading glasses on the side table"
+        "ko": "옆 탁자 위의 요일별 약통과 돋보기안경",
+        "en": "A weekly pill organizer and reading glasses"
       }
     }
   ],
   "detective": {
-    "ko": "탁자 위에 부채처럼 펼쳐 놓은 카드 한 벌. 카드 딜러일까? 천장을 보라. 카드 한 장이 천장에 납작하게 붙어 있다. 바람에 날린 카드는 천장에 붙지 않는다 — 던져서 꽂는 마술 묘기의 흔적이다. 구석의 빈 새장엔 하얀 깃털 몇 개. 앵무새도 까마귀도 아닌, 마술사의 모자에서 날아오르던 하얀 비둘기의 깃털이다. 벽에 걸린 빛바랜 사진 속엔 무대 위의 젊은 남자. 그가 쓴 실크해트는 지금 옷걸이에 걸린 바로 그 모자다 — 먼지가 앉은 채로. 사진 속 남자는 아버지도 아들도 아닌, 젊은 날의 집주인이다. 그리고 옆 탁자의 요일별 약통과 돋보기 안경. 무대를 내려온 지 오래된, 일흔이 넘은 마술사의 거실이다.",
-    "en": "A deck of cards fanned out on the table. A card dealer? Look up. A single card is stuck flat against the ceiling. Cards don't end up on ceilings by accident — that's what's left of a trick, a card flung and stuck. In the corner, an empty birdcage with a few white feathers: not a parrot's, not a crow's, but a white dove's, the kind that flies out of a magician's hat. The faded photo on the wall shows a young man on stage, and the top hat he's wearing is the very one hanging on the coat rack — now gathering dust. The man in the photo isn't the owner's father or son. He's the owner, decades ago. Add the weekly pill organizer and the reading glasses on the side table: this is the living room of a magician in his seventies who left the stage a long time ago."
+    "ko": "탁자 위 카드 한 벌이 자로 잰 듯 고르게 펼쳐져 있다. 카지노 딜러의 솜씨 같지만, 딜러는 카드를 천장에 붙이지 않는다. 천장에 납작하게 붙은 카드 한 장 — 카드를 던져 천장에 꽂는 묘기다. 문이 열린 빈 새장엔 하얀 깃털. 잉꼬나 카나리아는 하얗지 않다. 모자에서 날아오르던 하얀 비둘기다. 벽의 빛바랜 사진 속, 턱시도에 실크해트를 쓰고 무대에서 인사하는 젊은 남자. 배우나 가수 같지만, 그 실크해트가 지금 옷걸이에 걸려 있다. 사진 속 남자는 젊은 시절의 집주인이다. 다만 모자엔 먼지가 뽀얗게 앉았고, 옆 탁자엔 요일별 약통과 돋보기안경. 무대를 떠난 지는 오래됐다. 그래도 카드는 오늘도 펼쳐져 있다. 은퇴한 마술사의 손은 아직 쉬지 않는다.",
+    "en": "A deck of cards lies on the table in a perfectly even arc. A casino dealer could do that — but dealers don't leave cards stuck to the ceiling. That one up there was thrown, a classic trick. The empty birdcage, door open, holds a few white feathers. Budgies and canaries aren't white; doves are — the kind that fly out of a hat. On the wall, a faded photo: a young man in a tuxedo and top hat, bowing on stage. An actor, a singer? But that same top hat hangs on the coat rack. The young man is the owner. The hat is thick with dust, though, and the side table holds a pill organizer and reading glasses — the stage is long behind him. Yet the cards are spread out again today. A retired magician's hands never quite stop practicing."
   }
 }

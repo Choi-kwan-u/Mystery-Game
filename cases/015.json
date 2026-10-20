@@ -1,7 +1,7 @@
 {
   "id": 15,
   "date": "2026-11-09",
-  "image": "img/015.svg",
+  "image": "img/015.webp",
   "title": {
     "ko": "편의점 앞의 밤 9시",
     "en": "9 P.M. Outside the Corner Store"
@@ -15,90 +15,31 @@
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "en": "What does he do?"
       },
       "options": [
         {
           "ko": "자전거 선수",
-          "en": "Pro cyclist"
+          "en": "Cyclist"
         },
         {
           "ko": "택시 기사",
           "en": "Taxi driver"
         },
         {
-          "ko": "경찰관",
-          "en": "Police officer"
-        },
-        {
           "ko": "배달 라이더",
           "en": "Delivery rider"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1",
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "hours",
-      "ask": {
-        "ko": "오늘 몇 시간째 일하는 중일까?",
-        "en": "How long has he been working today?"
-      },
-      "options": [
-        {
-          "ko": "막 시작했다",
-          "en": "He just started"
         },
         {
-          "ko": "이미 퇴근했다",
-          "en": "He's already clocked out"
-        },
-        {
-          "ko": "몇 시간째다",
-          "en": "For hours"
-        },
-        {
-          "ko": "쉬는 날이다",
-          "en": "It's his day off"
+          "ko": "경찰관",
+          "en": "Police officer"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e1",
-        "e4"
-      ]
-    },
-    {
-      "key": "next",
-      "ask": {
-        "ko": "김밥을 먹고 나면 무엇을 할까?",
-        "en": "What's next once he finishes eating?"
-      },
-      "options": [
-        {
-          "ko": "집에 간다",
-          "en": "Going home"
-        },
-        {
-          "ko": "친구를 만난다",
-          "en": "Meeting a friend"
-        },
-        {
-          "ko": "정비소에 간다",
-          "en": "Taking his bike in for repairs"
-        },
-        {
-          "ko": "다시 배달하러 간다",
-          "en": "Back out on deliveries"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e4"
+        "e2",
+        "e3",
+        "e1"
       ]
     },
     {
@@ -127,8 +68,6 @@
       ],
       "answer": 0,
       "evidence": [
-        "e3",
-        "e5",
         "e2"
       ]
     },
@@ -141,23 +80,84 @@
       "options": [
         {
           "ko": "게임을 많이 해서",
-          "en": "He games a lot"
+          "en": "Too much gaming"
         },
         {
           "ko": "하루 종일 지도를 켜 둬서",
-          "en": "The map's been on all day"
+          "en": "The map has been on all day"
         },
         {
-          "ko": "배터리가 고장 나서",
-          "en": "The battery's broken"
+          "ko": "영상을 보느라",
+          "en": "Watching videos"
         },
         {
-          "ko": "그냥 습관이라",
-          "en": "Just habit"
+          "ko": "휴대폰이 오래돼서",
+          "en": "It's an old phone"
         }
       ],
       "answer": 1,
       "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "glove",
+      "ask": {
+        "ko": "장갑을 한 짝만 끼고 있는 이유는?",
+        "en": "Why is he wearing only one glove?"
+      },
+      "options": [
+        {
+          "ko": "한 짝을 잃어버려서",
+          "en": "He lost the other one"
+        },
+        {
+          "ko": "손을 다쳐서",
+          "en": "He hurt his hand"
+        },
+        {
+          "ko": "멋으로",
+          "en": "For style"
+        },
+        {
+          "ko": "먹자마자 바로 출발하려고",
+          "en": "He's leaving the moment he's done eating"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "hours",
+      "ask": {
+        "ko": "오늘 그는 일한 지 얼마나 됐을까?",
+        "en": "How long has he been working today?"
+      },
+      "options": [
+        {
+          "ko": "방금 출근했다",
+          "en": "He just started"
+        },
+        {
+          "ko": "이미 퇴근했다",
+          "en": "He's done for the day"
+        },
+        {
+          "ko": "몇 시간째 일하는 중이다",
+          "en": "He's been at it for hours"
+        },
+        {
+          "ko": "오늘은 쉬는 날이다",
+          "en": "It's his day off"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
         "e4"
       ]
     }
@@ -165,57 +165,47 @@
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 15,
-      "r": 9,
+      "x": 54,
+      "y": 24,
+      "r": 8,
       "label": {
-        "ko": "헬멧에 눌려 땀에 젖은 머리와 이마의 붉은 가로 자국",
-        "en": "Sweaty hair flattened by a helmet, and a red line across his forehead"
+        "ko": "땀에 젖어 납작하게 눌린 머리와 이마의 가로 붉은 자국",
+        "en": "Sweaty hair pressed flat and a red line across his forehead"
       }
     },
     {
       "id": "e2",
-      "x": 35,
-      "y": 52,
-      "r": 7,
+      "x": 28,
+      "y": 76,
+      "r": 12,
       "label": {
-        "ko": "손은 하얀데 손목부터 탄 피부 — 장갑 경계선",
-        "en": "Pale hands, tanned wrists — a sharp glove line"
+        "ko": "바닥의 풀페이스 헬멧, 그 위에 벗어 둔 장갑 한 짝",
+        "en": "A full-face helmet on the ground, one glove on top"
       }
     },
     {
       "id": "e3",
       "x": 75,
-      "y": 85,
-      "r": 10,
+      "y": 50,
+      "r": 8,
       "label": {
-        "ko": "의자 옆 바닥의 풀페이스 헬멧",
-        "en": "A full-face helmet on the ground by his chair"
+        "ko": "아직 장갑을 낀 손에 든 휴대폰 — 화면엔 지도",
+        "en": "His phone, in a still-gloved hand, showing a map"
       }
     },
     {
       "id": "e4",
-      "x": 60,
-      "y": 50,
-      "r": 7,
+      "x": 54,
+      "y": 66,
+      "r": 5,
       "label": {
-        "ko": "한 손에 아직 낀 장갑, 보조배터리에 꽂힌 휴대폰 속 지도",
-        "en": "One glove still on, and a map on a phone hooked up to a power bank"
-      }
-    },
-    {
-      "id": "e5",
-      "x": 45,
-      "y": 82,
-      "r": 6,
-      "label": {
-        "ko": "오른쪽 종아리 안쪽의 작은 화상 자국",
-        "en": "A small burn scar on the inside of his right calf"
+        "ko": "휴대폰에 꽂힌 보조배터리 줄",
+        "en": "A power-bank cable plugged into the phone"
       }
     }
   ],
   "detective": {
-    "ko": "머리는 땀에 젖어 납작하게 눌렸고 이마엔 붉은 가로 자국이 있다. 몇 시간째 헬멧을 썼다. 자전거 선수일까? 그들은 손가락이 드러나는 반장갑을 끼니 손가락까지 탄다. 하지만 그의 손은 손목에서 칼로 자른 듯 하얗다 — 손 전체를 덮는 장갑이다. 바닥엔 통풍구 달린 자전거 헬멧이 아니라 풀페이스 헬멧이 있고, 오른쪽 종아리 안쪽엔 뜨거운 배기관에 덴 자국까지 있다. 오토바이를 탄다. 보조배터리에 꽂힌 휴대폰엔 지도가 떠 있다. 배터리가 바닥날 만큼 오래 일했고, 장갑 한 짝을 아직 벗지 않은 걸 보면 김밥을 삼키자마자 다음 배달을 나갈 것이다.",
-    "en": "His hair is sweaty and pressed flat, with a red line across his forehead: he's been wearing a helmet for hours. A cyclist? Cyclists wear fingerless gloves, so their fingers tan too. His hands are pale right up to a crisp line at the wrist — full gloves. On the ground is a full-face helmet, not a vented bike helmet, and there's a small burn on the inside of his right calf, right where a hot exhaust pipe would touch. He rides a motorcycle. His phone, plugged into a power bank, shows a map. He's been working long enough to drain his battery, and he hasn't taken off his other glove — the moment he's done eating, he's off on the next delivery."
+    "ko": "머리가 납작하게 눌렸고 이마엔 가로로 붉은 자국이 났다. 몇 시간째 헬멧을 쓴 머리다. 자전거 선수도 헬멧을 쓰지만, 바닥에 놓인 건 통풍 구멍 뚫린 자전거 헬멧이 아니라 얼굴까지 덮는 풀페이스 — 오토바이 헬멧이다. 택시 기사라면 헬멧이 필요 없고, 경찰관이라면 제복을 입었을 것이다. 휴대폰엔 지도가 떠 있고 보조배터리가 꽂혀 있다. 하루 종일 지도를 켜 두면 배터리가 버티질 못한다. 이 사람은 배달 라이더다. 장갑 한 짝은 헬멧 위에 벗어 두었다. 잃어버린 게 아니다. 김밥 쥘 손만 벗고, 다른 손엔 그대로 끼고 있다 — 다 먹으면 바로 다음 콜이다. 땀에 젖은 머리, 이마의 깊은 자국, 바닥난 배터리. 오늘 일은 이미 몇 시간째다.",
+    "en": "His hair is pressed flat and there's a red line across his forehead: hours under a helmet. Cyclists wear helmets too, but the one on the ground isn't a vented bike helmet — it's full-face, a motorcycle helmet. A taxi driver wouldn't need one; a police officer would be in uniform. His phone shows a map and is hooked up to a power bank — keep a map running all day and no battery lasts. He's a delivery rider. One glove sits on top of the helmet, so it isn't lost. He took off only the glove on the hand that holds the rice ball and kept the other on: the moment he's done eating, he's off to the next order. Sweat-soaked hair, a deep line on his forehead, a drained battery — he's been at it for hours."
   }
 }

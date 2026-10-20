@@ -2,7 +2,7 @@
   "id": 16,
   "date": "2026-11-10",
   "type": "scene",
-  "image": "img/016.svg",
+  "image": "img/016.webp",
   "title": {
     "ko": "식다 만 아침 식탁",
     "en": "The Abandoned Breakfast"
@@ -21,50 +21,50 @@
       "options": [
         {
           "ko": "도둑이 들었다",
-          "en": "A burglary"
+          "en": "A burglar broke in"
         },
         {
           "ko": "급한 연락을 받고 뛰쳐나갔다",
-          "en": "Someone got an urgent call and rushed out"
+          "en": "Someone got urgent news and rushed out"
         },
         {
-          "ko": "식사를 마치고 출근했다",
-          "en": "Someone finished breakfast and left for work"
+          "ko": "평소처럼 출근했다",
+          "en": "Someone left for work as usual"
         },
         {
-          "ko": "아이들이 장난을 쳤다",
-          "en": "Kids were messing around"
+          "ko": "부부싸움을 했다",
+          "en": "A couple had a fight"
         }
       ],
       "answer": 1,
       "evidence": [
         "e1",
         "e3",
-        "e4"
+        "e6"
       ]
     },
     {
       "key": "when",
       "ask": {
         "ko": "언제 일어난 일일까?",
-        "en": "When did this happen?"
+        "en": "When did it happen?"
       },
       "options": [
         {
           "ko": "몇 분 전",
-          "en": "Minutes ago"
+          "en": "A few minutes ago"
+        },
+        {
+          "ko": "한 시간쯤 전",
+          "en": "About an hour ago"
         },
         {
           "ko": "어젯밤",
           "en": "Last night"
         },
         {
-          "ko": "지난주",
-          "en": "Last week"
-        },
-        {
-          "ko": "몇 시간 전",
-          "en": "Hours ago"
+          "ko": "새벽",
+          "en": "Before dawn"
         }
       ],
       "answer": 0,
@@ -73,31 +73,32 @@
       ]
     },
     {
-      "key": "took",
+      "key": "left",
       "ask": {
-        "ko": "주인이 챙겨 간 것은?",
-        "en": "What did they grab on the way out?"
+        "ko": "주인이 두고 간 것은?",
+        "en": "What did the owner leave behind?"
       },
       "options": [
         {
-          "ko": "지갑과 우산",
-          "en": "A wallet and an umbrella"
+          "ko": "휴대폰",
+          "en": "The phone"
         },
         {
-          "ko": "휴대폰과 차 열쇠",
-          "en": "A phone and car keys"
+          "ko": "차 열쇠",
+          "en": "The car keys"
         },
         {
-          "ko": "노트북",
-          "en": "A laptop"
+          "ko": "아무것도 안 두고 갔다",
+          "en": "Nothing"
         },
         {
-          "ko": "아무것도 안 챙겼다",
-          "en": "Nothing at all"
+          "ko": "출근 가방",
+          "en": "The work bag"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
+        "e3",
         "e4",
         "e5"
       ]
@@ -114,12 +115,12 @@
           "en": "On foot"
         },
         {
-          "ko": "자전거로",
-          "en": "By bike"
+          "ko": "택시를 불러서",
+          "en": "By taxi"
         },
         {
           "ko": "자기 차로",
-          "en": "In their car"
+          "en": "In their own car"
         },
         {
           "ko": "버스로",
@@ -133,99 +134,100 @@
       ]
     },
     {
-      "key": "people",
+      "key": "spill",
       "ask": {
-        "ko": "식탁에는 몇 명이 앉아 있었을까?",
-        "en": "How many people were at the table?"
+        "ko": "커피는 왜 쏟아졌을까?",
+        "en": "Why did the coffee spill?"
       },
       "options": [
         {
-          "ko": "한 명",
-          "en": "One"
+          "ko": "고양이가 건드려서",
+          "en": "A cat knocked it over"
         },
         {
-          "ko": "두 명",
-          "en": "Two"
+          "ko": "벌떡 일어나다 쳐서",
+          "en": "Someone jumped up and hit it"
         },
         {
-          "ko": "세 명",
-          "en": "Three"
+          "ko": "컵에 금이 가서",
+          "en": "The mug cracked"
         },
         {
-          "ko": "네 명",
-          "en": "Four"
+          "ko": "일부러 쏟았다",
+          "en": "On purpose"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
-        "e2"
+        "e1",
+        "e3"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 45,
-      "y": 55,
-      "r": 8,
+      "x": 35,
+      "y": 68,
+      "r": 9,
       "label": {
-        "ko": "엎질러진 커피, 아직 김이 오르는 잔",
-        "en": "Spilled coffee, the mug still steaming"
+        "ko": "엎어진 머그잔, 아직 김이 오르는 쏟아진 커피",
+        "en": "A knocked-over mug, the spilled coffee still steaming"
       }
     },
     {
       "id": "e2",
-      "x": 28,
-      "y": 60,
-      "r": 7,
+      "x": 16,
+      "y": 77,
+      "r": 8,
       "label": {
-        "ko": "한 입만 베어 문 토스트와 접시 하나",
-        "en": "A single plate with a one-bite slice of toast"
+        "ko": "한 입만 베어 문 토스트 — 접시도 잔도 하나뿐",
+        "en": "Toast with a single bite — one plate, one mug"
       }
     },
     {
       "id": "e3",
-      "x": 62,
-      "y": 75,
-      "r": 9,
+      "x": 71,
+      "y": 76,
+      "r": 13,
       "label": {
-        "ko": "뒤로 넘어진 의자",
-        "en": "A chair knocked over backward"
+        "ko": "뒤로 넘어진 의자, 등받이에 그대로 걸린 노트북 가방",
+        "en": "A chair knocked over backward, a laptop bag still on it"
       }
     },
     {
       "id": "e4",
-      "x": 85,
-      "y": 38,
-      "r": 7,
+      "x": 11,
+      "y": 40,
+      "r": 10,
       "label": {
-        "ko": "휴대폰 없이 늘어진 충전기 케이블",
-        "en": "A charging cable dangling with no phone on it"
+        "ko": "콘센트에 꽂힌 채 늘어진 충전기 줄 — 휴대폰이 없다",
+        "en": "A charger cable dangling from the outlet — no phone"
       }
     },
     {
       "id": "e5",
-      "x": 12,
-      "y": 28,
-      "r": 7,
+      "x": 65,
+      "y": 22,
+      "r": 6,
       "label": {
-        "ko": "열쇠 걸이의 빈 고리 하나",
+        "ko": "열쇠걸이의 빈 고리 하나",
         "en": "One empty hook on the key rack"
       }
     },
     {
       "id": "e6",
-      "x": 88,
-      "y": 65,
-      "r": 9,
+      "x": 83,
+      "y": 49,
+      "r": 8,
       "label": {
         "ko": "활짝 열린 현관문 너머, 기름 자국만 남은 빈 주차 자리",
-        "en": "Through the open front door, an empty parking spot with just an oil stain"
+        "en": "Through the open door, an empty parking spot with an oil stain"
       }
     }
   ],
   "detective": {
-    "ko": "커피가 엎질러졌는데 잔에선 아직 김이 오른다. 몇 분 전 일이다. 토스트는 딱 한 입. 의자는 뒤로 넘어가 있고 현관문은 활짝 열려 있다. 도둑이라면 집 안을 뒤졌겠지만, 사라진 건 딱 두 가지다. 충전기에 꽂혀 있던 휴대폰, 그리고 열쇠 걸이의 열쇠 하나. 접시도 잔도 하나 — 혼자 아침을 먹던 사람이 휴대폰을 집어 들고 벌떡 일어나는 바람에 의자가 넘어가고 커피가 쏟아졌다. 급한 전화였다. 열린 문 너머엔 기름 자국만 남은 빈 주차 자리. 열쇠를 낚아채 차를 몰고 떠난 것이다.",
-    "en": "The coffee's spilled, but the mug is still steaming: this happened minutes ago. One bite out of the toast. The chair is knocked over backward and the front door is wide open. A burglar would have turned the place upside down, but only two things are missing: the phone that was on the charger, and one key from the rack. One plate, one mug — someone eating breakfast alone grabbed their phone and shot up so fast the chair went over and the coffee went flying. An urgent call. Through the open door, an empty parking spot with nothing but an oil stain. They snatched the keys and drove off."
+    "ko": "머그잔이 엎어졌고 커피가 식탁 끝으로 뚝뚝 떨어진다. 아직 김이 오른다 — 몇 분 전 일이다. 토스트는 한 입, 접시도 잔도 하나뿐. 혼자 먹던 아침이니 부부싸움은 아니다. 의자는 뒤로 넘어졌다. 벌떡 일어나다 의자를 차고, 컵을 쳤다. 도둑이라면 노트북 가방부터 가져갔겠지만, 가방은 넘어진 의자에 그대로 걸려 있다. 평소처럼 출근했다면 그 가방을 들고 갔을 것이다. 사라진 건 딱 두 가지. 콘센트엔 충전기 줄만 늘어져 있고, 열쇠걸이엔 고리 하나가 비었다. 휴대폰과 차 열쇠. 열린 문 너머 주차 자리엔 기름 자국만 남았다. 급한 연락을 받고, 커피도 가방도 내버려 둔 채 차를 몰고 뛰쳐나갔다.",
+    "en": "A mug lies on its side, coffee dripping off the edge of the table — and it's still steaming. This happened minutes ago. One bite out of the toast, one plate, one mug: breakfast for one, so no couple's fight. The chair went over backward — someone shot up, kicked the chair and hit the cup. A burglar would have grabbed the laptop bag, but it's still hanging on the fallen chair. Someone heading to work as usual would have taken it too. Only two things are gone. The charger cable dangles from the outlet with no phone, and one hook on the key rack is empty: the phone and the car keys. Through the open door, the parking spot holds nothing but an oil stain. Urgent news came, and they ran — leaving the coffee, the bag and the door behind."
   }
 }
