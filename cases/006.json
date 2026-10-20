@@ -73,32 +73,90 @@
       ]
     },
     {
-      "key": "years",
+      "key": "concert",
       "ask": {
-        "ko": "악기를 연주한 지 얼마나 됐을까?",
-        "en": "How long has she been playing?"
+        "ko": "오늘 공연은 어땠을까?",
+        "en": "How did tonight's concert go?"
       },
       "options": [
         {
-          "ko": "이제 막 시작했다",
-          "en": "She just started"
+          "ko": "리허설뿐이었다",
+          "en": "It was only a rehearsal"
         },
         {
-          "ko": "1년쯤",
-          "en": "About a year"
+          "ko": "취소됐다",
+          "en": "It was canceled"
         },
         {
-          "ko": "2~3년",
-          "en": "Two or three years"
+          "ko": "성공적이었다",
+          "en": "It went well"
         },
         {
-          "ko": "20년 이상",
-          "en": "Over twenty years"
+          "ko": "망쳤다",
+          "en": "It was a disaster"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "mark",
+      "ask": {
+        "ko": "목의 자국은 왜 생겼을까?",
+        "en": "Where did the mark on her neck come from?"
+      },
+      "options": [
+        {
+          "ko": "모기에 물려서",
+          "en": "A mosquito bite"
+        },
+        {
+          "ko": "악기를 턱에 끼워서",
+          "en": "Holding an instrument under her chin"
+        },
+        {
+          "ko": "넘어져서",
+          "en": "A fall"
+        },
+        {
+          "ko": "뜨거운 물에 데어서",
+          "en": "A scald"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "music",
+      "ask": {
+        "ko": "그녀가 연주한 음악은?",
+        "en": "What kind of music did she play?"
+      },
+      "options": [
+        {
+          "ko": "힙합",
+          "en": "Hip-hop"
+        },
+        {
+          "ko": "헤비메탈",
+          "en": "Heavy metal"
+        },
+        {
+          "ko": "재즈",
+          "en": "Jazz"
+        },
+        {
+          "ko": "클래식",
+          "en": "Classical"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e1",
+        "e5",
         "e3"
       ]
     }
@@ -156,7 +214,7 @@
     }
   ],
   "detective": {
-    "ko": "꽃다발에 올블랙 무대 의상, 무릎 위의 악보. 공연을 막 마친 클래식 연주자다. 오디션에서는 꽃을 받지 않고, 결혼식 하객은 이렇게 검게 입지 않는다. 그럼 무슨 악기일까? 목이 대답한다. 왼쪽 턱 바로 아래, 악기를 끼우는 바로 그 자리에 굳은 자국이 있다. 왼쪽 어깨엔 활에 바르는 송진 가루까지 묻었다. 바이올리니스트의 목이다. 그리고 이렇게 짙게 자리 잡은 자국은 몇 년으로는 생기지 않는다. 그녀는 인생의 대부분을 이 악기와 함께 보냈다.",
-    "en": "A bouquet, an all-black stage outfit, sheet music in her lap: a classical musician on her way home from a concert. Nobody hands you flowers at an audition, and wedding guests don't dress like this. So which instrument? Her neck answers that. Just under the left side of her jaw — exactly where the instrument sits — there's a hardened mark. On her left shoulder, a dusting of rosin, the stuff that goes on a bow. That's a violinist's neck. And a mark that deep doesn't come from a few years of practice. She's spent most of her life with that instrument tucked under her chin."
+    "ko": "꽃다발에 올블랙 무대 의상, 무릎 위의 악보. 공연을 막 마친 클래식 연주자다. 오디션에서는 꽃을 받지 않고, 결혼식 하객은 이렇게 검게 입지 않는다. 그럼 무슨 악기일까? 목이 대답한다. 왼쪽 턱 바로 아래, 악기를 끼우는 바로 그 자리에 굳은 자국이 있다. 왼쪽 어깨엔 활에 바르는 송진 가루까지 묻었다. 바이올리니스트의 목이다. 그리고 이렇게 짙게 자리 잡은 자국은 몇 년으로는 생기지 않는다. 그녀는 인생의 대부분을 이 악기와 함께 보냈다. 무릎 위의 꽃다발은 박수를 받고 무대를 내려온 사람의 것이다 — 오늘 공연은 성공이었다.",
+    "en": "A bouquet, an all-black stage outfit, sheet music in her lap: a classical musician on her way home from a concert. Nobody hands you flowers at an audition, and wedding guests don't dress like this. So which instrument? Her neck answers that. Just under the left side of her jaw — exactly where the instrument sits — there's a hardened mark. On her left shoulder, a dusting of rosin, the stuff that goes on a bow. That's a violinist's neck. And a mark that deep doesn't come from a few years of practice. She's spent most of her life with that instrument tucked under her chin. And a bouquet like that is what you carry off a stage to applause — tonight went well."
   }
 }

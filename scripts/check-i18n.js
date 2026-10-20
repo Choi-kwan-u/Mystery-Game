@@ -64,7 +64,7 @@ for (const e of list) {
     if (!o.en || !o.en.trim()) errors.push(`${where}: en 없음`);
     else if (HANGUL.test(o.en)) errors.push(`${where}: en에 한글 섞임`);
   }
-  if (c.questions.length !== 3) errors.push(`${tag}: 질문은 3개여야 함`);
+  if (c.questions.length !== 5) errors.push(`${tag}: 질문은 5개여야 함`);
   if (c.questions[0].key !== 'job') errors.push(`${tag}: 첫 질문은 job`);
   if (c.clues.length < 4 || c.clues.length > 6) errors.push(`${tag}: 단서는 4~6개`);
   const ids = new Set(c.clues.map(k => k.id));

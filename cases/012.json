@@ -99,6 +99,64 @@
       "evidence": [
         "e4"
       ]
+    },
+    {
+      "key": "holes",
+      "ask": {
+        "ko": "재킷의 작은 구멍들은 무엇 때문일까?",
+        "en": "What made the tiny holes in his jacket?"
+      },
+      "options": [
+        {
+          "ko": "튀는 불똥",
+          "en": "Flying sparks"
+        },
+        {
+          "ko": "벌레",
+          "en": "Moths"
+        },
+        {
+          "ko": "담뱃불",
+          "en": "Cigarette burns"
+        },
+        {
+          "ko": "오래 입어서",
+          "en": "Just old age"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "gloves",
+      "ask": {
+        "ko": "옆자리의 장갑은 왜 이렇게 두꺼울까?",
+        "en": "Why are the gloves beside him so thick?"
+      },
+      "options": [
+        {
+          "ko": "추위를 막으려고",
+          "en": "To keep out the cold"
+        },
+        {
+          "ko": "칼날을 막으려고",
+          "en": "To stop knife cuts"
+        },
+        {
+          "ko": "불똥과 열을 막으려고",
+          "en": "To block sparks and heat"
+        },
+        {
+          "ko": "멋으로",
+          "en": "Just for style"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
     }
   ],
   "clues": [

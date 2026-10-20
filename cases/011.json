@@ -101,6 +101,64 @@
         "e5",
         "e1"
       ]
+    },
+    {
+      "key": "wet",
+      "ask": {
+        "ko": "티셔츠 배 부분은 왜 젖었을까?",
+        "en": "Why is the belly of her T-shirt wet?"
+      },
+      "options": [
+        {
+          "ko": "비를 맞아서",
+          "en": "She got caught in the rain"
+        },
+        {
+          "ko": "음료를 쏟아서",
+          "en": "She spilled a drink"
+        },
+        {
+          "ko": "개를 목욕시켜서",
+          "en": "She was bathing dogs"
+        },
+        {
+          "ko": "땀을 흘려서",
+          "en": "Sweat"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "pouch",
+      "ask": {
+        "ko": "가방에 달린 파우치에는 무엇이 들어 있을까?",
+        "en": "What's in the pouch on her bag?"
+      },
+      "options": [
+        {
+          "ko": "개 간식",
+          "en": "Dog treats"
+        },
+        {
+          "ko": "화장품",
+          "en": "Makeup"
+        },
+        {
+          "ko": "동전",
+          "en": "Coins"
+        },
+        {
+          "ko": "이어폰",
+          "en": "Earbuds"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4"
+      ]
     }
   ],
   "clues": [

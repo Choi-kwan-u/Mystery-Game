@@ -101,6 +101,65 @@
         "e5",
         "e3"
       ]
+    },
+    {
+      "key": "away",
+      "ask": {
+        "ko": "집을 떠난 지 얼마나 됐을까?",
+        "en": "How long has he been away from home?"
+      },
+      "options": [
+        {
+          "ko": "오늘 아침부터",
+          "en": "Since this morning"
+        },
+        {
+          "ko": "어젯밤부터",
+          "en": "Since last night"
+        },
+        {
+          "ko": "며칠째",
+          "en": "For several days"
+        },
+        {
+          "ko": "몇 달째",
+          "en": "For months"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e5"
+      ]
+    },
+    {
+      "key": "awake",
+      "ask": {
+        "ko": "밤새 무엇으로 졸음을 쫓았을까?",
+        "en": "What kept him awake all night?"
+      },
+      "options": [
+        {
+          "ko": "음악",
+          "en": "Music"
+        },
+        {
+          "ko": "껌",
+          "en": "Chewing gum"
+        },
+        {
+          "ko": "동료와의 수다",
+          "en": "Chatting with a co-driver"
+        },
+        {
+          "ko": "에너지 음료",
+          "en": "Energy drinks"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2"
+      ]
     }
   ],
   "clues": [
@@ -137,11 +196,11 @@
     {
       "id": "e4",
       "x": 55,
-      "y": 42,
-      "r": 6,
+      "y": 45,
+      "r": 8,
       "label": {
-        "ko": "충혈된 눈",
-        "en": "Bloodshot eyes"
+        "ko": "충혈된 눈과 며칠 깎지 못한 수염",
+        "en": "Bloodshot eyes and several days of stubble"
       }
     },
     {
@@ -156,7 +215,7 @@
     }
   ],
   "detective": {
-    "ko": "오른팔은 하얀데 왼팔만 구릿빛이다. 운전석 창가에 팔을 걸치고 수천 시간을 달린 사람의 팔이다. 택시 기사도 그렇겠지만, 지금은 새벽 5시의 고속도로 휴게소다. 창밖엔 트레일러가 줄지어 서 있고, 테이블엔 1리터짜리 보온병이 놓여 있다 — 시내를 도는 사람이 아니라 몇백 킬로미터를 가는 사람이다. 충혈된 눈과 빈 에너지 음료 캔 두 개는 그가 밤새 달려왔다는 뜻이다. 그리고 목에 건 목베개와 이마 위의 안대. 밥을 먹고 나면 트럭 침대칸에서 눈을 붙일 것이다.",
-    "en": "His right arm is pale; his left is bronze. That's the arm that rests on the driver's-side window for thousands of hours. A cab driver might have the same tan — but this is a highway rest stop at 5 a.m. There are semi-trailers lined up outside and a one-liter thermos on the table: this man doesn't circle a city, he crosses the country. Bloodshot eyes and two empty energy drinks say he drove through the night. And the neck pillow and the sleep mask on his forehead? Once he finishes his soup, he's climbing into the sleeper cab."
+    "ko": "오른팔은 하얀데 왼팔만 구릿빛이다. 운전석 창가에 팔을 걸치고 수천 시간을 달린 사람의 팔이다. 택시 기사도 그렇겠지만, 지금은 새벽 5시의 고속도로 휴게소다. 창밖엔 트레일러가 줄지어 서 있고, 테이블엔 1리터짜리 보온병이 놓여 있다 — 시내를 도는 사람이 아니라 몇백 킬로미터를 가는 사람이다. 충혈된 눈과 빈 에너지 음료 캔 두 개는 그가 밤새 달려왔다는 뜻이다. 며칠은 깎지 못한 수염을 보면 하룻밤이 아니라 며칠째 길 위에 있다. 그리고 목에 건 목베개와 이마 위의 안대. 밥을 먹고 나면 트럭 침대칸에서 눈을 붙일 것이다.",
+    "en": "His right arm is pale; his left is bronze. That's the arm that rests on the driver's-side window for thousands of hours. A cab driver might have the same tan — but this is a highway rest stop at 5 a.m. There are semi-trailers lined up outside and a one-liter thermos on the table: this man doesn't circle a city, he crosses the country. Bloodshot eyes and two empty energy drinks say he drove through the night. And that stubble isn't one night's worth — he's been on the road for days. And the neck pillow and the sleep mask on his forehead? Once he finishes his soup, he's climbing into the sleeper cab."
   }
 }

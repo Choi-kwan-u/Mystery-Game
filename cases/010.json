@@ -101,6 +101,64 @@
         "e5",
         "e4"
       ]
+    },
+    {
+      "key": "watch",
+      "ask": {
+        "ko": "그녀가 평소 손목에 늘 차는 것은?",
+        "en": "What does she usually wear on her wrist?"
+      },
+      "options": [
+        {
+          "ko": "팔찌",
+          "en": "A bracelet"
+        },
+        {
+          "ko": "스포츠 시계",
+          "en": "A sports watch"
+        },
+        {
+          "ko": "머리끈",
+          "en": "A hair tie"
+        },
+        {
+          "ko": "아무것도 안 찬다",
+          "en": "Nothing at all"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "race",
+      "ask": {
+        "ko": "어제 경기에서 그녀는?",
+        "en": "How did yesterday's race go for her?"
+      },
+      "options": [
+        {
+          "ko": "출전하지 못했다",
+          "en": "She didn't get to run"
+        },
+        {
+          "ko": "응원만 했다",
+          "en": "She only cheered"
+        },
+        {
+          "ko": "중간에 포기했다",
+          "en": "She dropped out"
+        },
+        {
+          "ko": "완주했다",
+          "en": "She finished"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4"
+      ]
     }
   ],
   "clues": [
@@ -156,7 +214,7 @@
     }
   ],
   "detective": {
-    "ko": "발톱 두 개가 까맣게 멍들었다. 발을 혹사하는 사람이다 — 발레리나도 그렇다. 하지만 그녀는 햇볕에 탔고, 그 모양이 민소매 그대로다. 무대 조명이 아니라 햇볕 아래서 몇 시간을 움직였다. 손목엔 시계가 없는데 시계 자국만 하얗게 남았다 — 늘 기록을 재는 사람이다. 축구 선수라면 양말 선을 따라 탔을 것이고, 등산가는 민소매로 산에 오르지 않는다. 가방에서 삐져나온 메달 리본과 아직 벌건 어깨. 어제 42.195km를 달렸다. 그리고 월요일 오전 10시에 압박 슬리브를 낀 채 카페에 앉아 있다면, 오늘은 다리를 쉬게 하려고 휴가를 낸 것이다.",
-    "en": "Two toenails bruised black — she's hard on her feet. So is a ballet dancer. But she's sunburned, and in the exact shape of a running singlet: hours of moving under the sun, not under stage lights. There's no watch on her wrist, yet a pale watch band is there anyway — she's someone who always keeps time. A soccer player's tan would stop at the sock line, and a mountaineer doesn't climb in a tank top. Then there's the medal ribbon peeking out of her bag and the still-red shoulders: yesterday she ran 26.2 miles. And sitting at a café at 10 a.m. on a Monday in compression sleeves? She took the day off to let her legs recover."
+    "ko": "발톱 두 개가 까맣게 멍들었다. 발을 혹사하는 사람이다 — 발레리나도 그렇다. 하지만 그녀는 햇볕에 탔고, 그 모양이 민소매 그대로다. 무대 조명이 아니라 햇볕 아래서 몇 시간을 움직였다. 손목엔 시계가 없는데 시계 자국만 하얗게 남았다 — 늘 기록을 재는 사람이다. 축구 선수라면 양말 선을 따라 탔을 것이고, 등산가는 민소매로 산에 오르지 않는다. 가방에서 삐져나온 메달 리본과 아직 벌건 어깨. 어제 42.195km를 끝까지 달렸다 — 메달은 완주한 사람만 받는다. 그리고 월요일 오전 10시에 압박 슬리브를 낀 채 카페에 앉아 있다면, 오늘은 다리를 쉬게 하려고 휴가를 낸 것이다.",
+    "en": "Two toenails bruised black — she's hard on her feet. So is a ballet dancer. But she's sunburned, and in the exact shape of a running singlet: hours of moving under the sun, not under stage lights. There's no watch on her wrist, yet a pale watch band is there anyway — she's someone who always keeps time. A soccer player's tan would stop at the sock line, and a mountaineer doesn't climb in a tank top. Then there's the medal ribbon peeking out of her bag and the still-red shoulders: yesterday she ran all 26.2 miles — they only hand out medals at the finish line. And sitting at a café at 10 a.m. on a Monday in compression sleeves? She took the day off to let her legs recover."
   }
 }

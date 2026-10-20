@@ -6,7 +6,6 @@
   const now = new Date();
   const TODAY = ymd(now);
   const YESTERDAY = ymd(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1));
-  const MAX_PINS = 4;
   // shortcut: 확인용으로 미공개 사건도 열림, 공개 전에 false로
   const PREVIEW = false;
 
@@ -80,18 +79,18 @@
 
   function runGame(c, isToday) {
     const viewer = $('#viewer'), stage = $('#stage'), photo = $('#photo'), marks = $('#marks');
-    const markBtn = $('#markBtn'), markStatus = $('#markStatus'), bubble = $('#bubble');
+    const bubble = $('#bubble');
     const submitBtn = $('#submitBtn'), submitMsg = $('#submitMsg'), resultBox = $('#result');
     const nq = c.questions.length;
 
     const store = Store.get();
-    const rec = store.cases[c.id];
+    // 질문 수가 바뀌기 전의 예전 기록은 무시하고 새로 풀게 한다
+    const old = store.cases[c.id];
+    const rec = old && old.sel.length === nq ? old : null;
     let sel = rec ? rec.sel.slice() : new Array(nq).fill(null);
-    let pins = rec ? rec.pins.slice() : [];
-    let res = rec || null;      // 제출 결과
+    let res = rec;      // 제출 결과
     let submitted = !!res;
     let replay = false;
-    let marking = false;
     let activeClue = null;
 
     $('#notice').hidden = true;
@@ -187,20 +186,11 @@
       const r = stage.getBoundingClientRect();
       const p = { x: (cx - r.left) / r.width * 100, y: (cy - r.top) / r.height * 100 };
       if (p.x < 0 || p.x > 100 || p.y < 0 || p.y > 100) return;
-      if (submitted) {
-        const k = c.clues.find(k => inClue(p, k));
-        activeClue = k ? k.id : null;
-        renderMarks();
-        return;
-      }
-      if (!marking) return toggleFull();
-      // 이미 꽂힌 핀 근처(화면상 22px)를 다시 탭하면 제거
-      const hit = pins.findIndex(q => Math.hypot((q.x - p.x) / 100 * r.width, (q.y - p.y) / 100 * r.height) < 22);
-      if (hit >= 0) pins.splice(hit, 1);
-      else if (pins.length >= MAX_PINS) { markStatus.textContent = t('mark.max'); return; }
-      else pins.push({ x: Math.round(p.x * 10) / 10, y: Math.round(p.y * 10) / 10 });
+      if (!submitted) return toggleFull();
+      // 제출 후에는 탭한 단서 원의 설명을 보여준다
+      const k = c.clues.find(k => inClue(p, k));
+      activeClue = k ? k.id : null;
       renderMarks();
-      renderMarkStatus();
     }
 
 
@@ -209,29 +199,16 @@
       marks.textContent = '';
       if (submitted) {
         c.clues.forEach((k, i) => {
-          const ring = el('div', 'ring ' + (res.found[i] ? 'found' : 'missed') + (activeClue === k.id ? ' active' : ''), String(i + 1));
+          const ring = el('div', 'ring' + (activeClue === k.id ? ' active' : ''), String(i + 1));
           ring.style.left = k.x + '%';
           ring.style.top = k.y + '%';
           ring.style.width = k.r * 2 + '%';
           marks.append(ring);
         });
       }
-      pins.forEach(p => {
-        const pin = el('div', 'pin');
-        pin.style.left = p.x + '%';
-        pin.style.top = p.y + '%';
-        marks.append(pin);
-      });
       const k = submitted && c.clues.find(k => k.id === activeClue);
       bubble.hidden = !k;
       if (k) bubble.textContent = `${c.clues.indexOf(k) + 1}. ${pick(k.label)}`;
-    }
-
-    function renderMarkStatus() {
-      markBtn.textContent = t(marking ? 'mark.on' : 'mark.off');
-      markBtn.setAttribute('aria-pressed', marking);
-      viewer.classList.toggle('marking', marking);
-      markStatus.textContent = marking ? t('mark.status', { n: pins.length }) : '';
     }
 
     function renderQuestions() {
@@ -269,17 +246,11 @@
       resultBox.hidden = !submitted;
       submitBtn.hidden = submitted;
       $('#submitNote').hidden = submitted;
-      markBtn.hidden = submitted;
-      $('#hint').hidden = false;
       if (!submitted) return;
-      marking = false;
-      renderMarkStatus();
 
-      const f = res.found.filter(Boolean).length;
       resultBox.append(el('h2', null, t('result.heading')));
       const card = el('div', 'grade-card grade-' + res.grade);
-      card.append(el('p', 'grade', t('grade.' + res.grade)), el('p', 'score', t('result.score', { s: res.score, m: res.max })),
-        el('p', 'clue-count', t('result.clues', { f, all: res.found.length })));
+      card.append(el('p', 'grade', t('grade.' + res.grade)), el('p', 'score', t('result.score', { s: res.score, m: res.max })));
       resultBox.append(card, el('p', 'small', t('result.tapHint')));
 
       resultBox.append(el('h2', null, t('result.detective')), el('p', 'detective', pick(c.detective)));
@@ -301,7 +272,7 @@
         again.type = 'button';
         again.addEventListener('click', () => {
           replay = true; submitted = false; res = null; activeClue = null;
-          sel = new Array(nq).fill(null); pins = [];
+          sel = new Array(nq).fill(null);
           renderAll();
           window.scrollTo({ top: 0, behavior: 'smooth' });
         });
@@ -309,20 +280,16 @@
       }
     }
 
-    function renderAll() { renderQuestions(); renderMarks(); renderMarkStatus(); renderResult(); }
-
-    markBtn.addEventListener('click', () => { marking = !marking; renderMarkStatus(); });
+    function renderAll() { renderQuestions(); renderMarks(); renderResult(); }
 
     submitBtn.addEventListener('click', () => {
       if (submitted) return;
       if (sel.some(v => v === null)) { submitMsg.textContent = t('submit.need'); return; }
       const correct = c.questions.map((q, i) => sel[i] === q.answer);
-      const found = c.clues.map(k => pins.some(p => inClue(p, k)));
-      const score = correct.filter(Boolean).length * 2 + found.filter(Boolean).length;
-      const max = nq * 2 + c.clues.length;
-      res = { sel: sel.slice(), pins: pins.slice(), correct, found, score, max, grade: gradeOf(score, max), at: Date.now() };
+      const score = correct.filter(Boolean).length;
+      res = { sel: sel.slice(), correct, score, max: nq, grade: gradeOf(score, nq), at: Date.now() };
       submitted = true;
-      if (!replay && !store.cases[c.id]) {
+      if (!replay && !rec) {
         store.cases[c.id] = res;
         store.grades[res.grade] = (store.grades[res.grade] || 0) + 1;
         if (isToday && store.last !== TODAY) {
@@ -337,11 +304,9 @@
     });
 
     function shareText() {
-      const squares = res.correct.map(ok => (ok ? '🟩' : '🟥')).join('');
-      const f = res.found.filter(Boolean).length;
       return [
         t('share.head', { n: c.id }),
-        `${squares}  ${t('share.clues', { f, all: res.found.length })}`,
+        res.correct.map(ok => (ok ? '🟩' : '🟥')).join(''),
         `${t('grade.' + res.grade)} · ${t('share.streak', { n: currentStreak() })}`,
         new URL('./', location.href).href
       ].join('\n');

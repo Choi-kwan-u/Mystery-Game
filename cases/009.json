@@ -100,6 +100,64 @@
         "e4",
         "e5"
       ]
+    },
+    {
+      "key": "posture",
+      "ask": {
+        "ko": "그는 일할 때 주로 어떤 자세일까?",
+        "en": "What position does he spend his workday in?"
+      },
+      "options": [
+        {
+          "ko": "사다리 위에 서서",
+          "en": "Up on a ladder"
+        },
+        {
+          "ko": "의자에 앉아서",
+          "en": "Sitting in a chair"
+        },
+        {
+          "ko": "무릎을 꿇고",
+          "en": "Kneeling"
+        },
+        {
+          "ko": "허리를 펴고 서서",
+          "en": "Standing up straight"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "neck",
+      "ask": {
+        "ko": "목 뒤가 탄 이유는?",
+        "en": "Why is the back of his neck sunburned?"
+      },
+      "options": [
+        {
+          "ko": "바닷가 휴가",
+          "en": "A beach vacation"
+        },
+        {
+          "ko": "땡볕 아래 고개를 숙이고 일해서",
+          "en": "Working head-down in the sun"
+        },
+        {
+          "ko": "태닝숍",
+          "en": "A tanning salon"
+        },
+        {
+          "ko": "알레르기",
+          "en": "An allergy"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3"
+      ]
     }
   ],
   "clues": [

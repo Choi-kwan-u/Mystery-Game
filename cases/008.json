@@ -101,6 +101,65 @@
         "e2",
         "e5"
       ]
+    },
+    {
+      "key": "pool",
+      "ask": {
+        "ko": "그녀가 일하는 곳은?",
+        "en": "Where does she work?"
+      },
+      "options": [
+        {
+          "ko": "바닷가",
+          "en": "A beach"
+        },
+        {
+          "ko": "야외 수영장",
+          "en": "An outdoor pool"
+        },
+        {
+          "ko": "호숫가",
+          "en": "A lake"
+        },
+        {
+          "ko": "실내 수영장",
+          "en": "An indoor pool"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "tool",
+      "ask": {
+        "ko": "수업 중 그녀가 가장 많이 쓰는 것은?",
+        "en": "What does she use most during a lesson?"
+      },
+      "options": [
+        {
+          "ko": "스톱워치",
+          "en": "A stopwatch"
+        },
+        {
+          "ko": "호루라기",
+          "en": "A whistle"
+        },
+        {
+          "ko": "확성기",
+          "en": "A megaphone"
+        },
+        {
+          "ko": "마이크",
+          "en": "A microphone"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4"
+      ]
     }
   ],
   "clues": [

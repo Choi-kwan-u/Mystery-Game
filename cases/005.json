@@ -101,6 +101,65 @@
         "e5",
         "e2"
       ]
+    },
+    {
+      "key": "hand",
+      "ask": {
+        "ko": "그는 어느 손으로 공을 던질까?",
+        "en": "Which hand does he bowl with?"
+      },
+      "options": [
+        {
+          "ko": "왼손",
+          "en": "His left"
+        },
+        {
+          "ko": "오른손",
+          "en": "His right"
+        },
+        {
+          "ko": "두 손 모두",
+          "en": "Both hands"
+        },
+        {
+          "ko": "그날그날 다르다",
+          "en": "It changes day to day"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "balls",
+      "ask": {
+        "ko": "가방에는 공이 몇 개 들어 있을까?",
+        "en": "How many balls are in his bag?"
+      },
+      "options": [
+        {
+          "ko": "1개",
+          "en": "One"
+        },
+        {
+          "ko": "2개",
+          "en": "Two"
+        },
+        {
+          "ko": "3개",
+          "en": "Three"
+        },
+        {
+          "ko": "4개",
+          "en": "Four"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e6"
+      ]
     }
   ],
   "clues": [
@@ -166,7 +225,7 @@
     }
   ],
   "detective": {
-    "ko": "하얀 피부부터 보자. 햇볕 아래서 뛰는 테니스나 야구 선수의 팔이 아니다. 실내 종목이다. 클라이밍 선수도 손가락에 테이프를 감지만, 클라이머는 바퀴 달린 가방에 둥근 공을 두 개씩 넣고 다니지 않는다. 가방에 불룩 솟은 공 두 개, 손가락 세 개에 감은 테이프, 손목을 단단히 잡아주는 보호대 — 무거운 공을 던지는 손이다. 그는 볼링 선수다. 목에는 선수 출입증이 걸려 있고 어깨엔 수건, 테이프도 보호대도 풀지 않았다. 대회는 아직 끝나지 않았고 지금은 점심시간이다. 그런데 테이프 감은 손가락으로 얼음 컵을 꼭 쥐고 있다. 오후 경기에서 걱정되는 건 점수가 아니라 저 손가락이다.",
-    "en": "Start with his skin: pale. These aren't the arms of a tennis player or a pitcher who trains under the sun — this is an indoor sport. Climbers tape their fingers too, but climbers don't haul around a wheeled bag with two round balls bulging out of it. Two balls in the bag, tape on three fingers, a stiff brace on the same wrist: that's a hand that throws something heavy. He's a bowler. The competitor's badge is still around his neck, there's a towel on his shoulder, and he hasn't taken off the tape or the brace — the tournament isn't over; this is the lunch break. But look how he's gripping that ice-cold cup with his taped fingers. What worries him about the afternoon isn't his score. It's those fingers."
+    "ko": "하얀 피부부터 보자. 햇볕 아래서 뛰는 테니스나 야구 선수의 팔이 아니다. 실내 종목이다. 클라이밍 선수도 손가락에 테이프를 감지만, 클라이머는 바퀴 달린 가방에 둥근 공을 두 개씩 넣고 다니지 않는다. 가방에 불룩 솟은 공 두 개, 손가락 세 개에 감은 테이프, 손목을 단단히 잡아주는 보호대 — 무거운 공을 던지는 손이다. 그는 볼링 선수다. 포크를 오른손에 들었다고 속지 말자. 테이프도 보호대도 왼손에 있다. 밥은 오른손으로 먹어도 공은 왼손으로 던진다. 목에는 선수 출입증이 걸려 있고 어깨엔 수건, 테이프도 보호대도 풀지 않았다. 대회는 아직 끝나지 않았고 지금은 점심시간이다. 그런데 테이프 감은 손가락으로 얼음 컵을 꼭 쥐고 있다. 오후 경기에서 걱정되는 건 점수가 아니라 저 손가락이다.",
+    "en": "Start with his skin: pale. These aren't the arms of a tennis player or a pitcher who trains under the sun — this is an indoor sport. Climbers tape their fingers too, but climbers don't haul around a wheeled bag with two round balls bulging out of it. Two balls in the bag, tape on three fingers, a stiff brace on the same wrist: that's a hand that throws something heavy. He's a bowler. Don't be fooled by the fork in his right hand — the tape and the brace are on his left. He eats right-handed, but he bowls lefty. The competitor's badge is still around his neck, there's a towel on his shoulder, and he hasn't taken off the tape or the brace — the tournament isn't over; this is the lunch break. But look how he's gripping that ice-cold cup with his taped fingers. What worries him about the afternoon isn't his score. It's those fingers."
   }
 }

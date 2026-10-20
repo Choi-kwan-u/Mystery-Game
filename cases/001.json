@@ -100,8 +100,66 @@
       "answer": 0,
       "evidence": [
         "e5",
-        "e4",
         "e6"
+      ]
+    },
+    {
+      "key": "workplace",
+      "ask": {
+        "ko": "그녀가 일하는 곳은?",
+        "en": "Where does she work?"
+      },
+      "options": [
+        {
+          "ko": "동네 치과",
+          "en": "A neighborhood dental office"
+        },
+        {
+          "ko": "종합병원",
+          "en": "A hospital"
+        },
+        {
+          "ko": "학교 보건실",
+          "en": "A school nurse's office"
+        },
+        {
+          "ko": "약국",
+          "en": "A pharmacy"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e6"
+      ]
+    },
+    {
+      "key": "waiting",
+      "ask": {
+        "ko": "그녀는 지금 무엇을 기다리고 있을까?",
+        "en": "What is she waiting for right now?"
+      },
+      "options": [
+        {
+          "ko": "친구",
+          "en": "A friend"
+        },
+        {
+          "ko": "주문한 음식",
+          "en": "Her food order"
+        },
+        {
+          "ko": "버스",
+          "en": "The bus"
+        },
+        {
+          "ko": "비가 그치기를",
+          "en": "The rain to stop"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4"
       ]
     }
   ],
@@ -168,7 +226,7 @@
     }
   ],
   "detective": {
-    "ko": "가방부터 보자. 구겨 넣은 남색 근무복, 그리고 집게에 물린 출입증. 손목엔 방금 벗은 마스크가 걸려 있고, 초침 달린 아날로그 시계를 찼다 — 맥박을 세는 게 일인 사람의 손목이다. 그녀는 간호사다. 그런데 토요일 오전 9시, 근무복은 몸이 아니라 가방 속에 구겨져 있다. 다 입고 벗은 옷이다. 눈 밑은 퀭하게 내려앉았고 머리는 헝클어졌다. 출근길이 아니라 퇴근길이다 — 밤샘 근무를 마친 것이다. 그리고 카페에 와서 커피가 아니라 따뜻한 차를 시켰다. 곧 잠들 사람의 선택이다. 그녀의 시선은 창밖 버스 정류장에 가 있다. 집에 가는 버스를 기다리는 중이다.",
-    "en": "Start with the bag: navy scrubs stuffed inside, and an ID badge on a clip. A mask still dangles from her wrist, and she wears an analog watch with a second hand — the wrist of someone who counts pulses for a living. She's a nurse. But it's 9 a.m. on a Saturday and her scrubs are crumpled in a tote, not on her back. Those are clothes she's finished with, and the hollow, shadowed eyes and messy hair agree: she isn't heading in, she's heading out. She worked the night shift. And at a café, she ordered hot tea, not coffee — the choice of someone who's about to go to sleep. Her eyes are on the bus stop outside. She's waiting for the bus home."
+    "ko": "가방부터 보자. 구겨 넣은 남색 근무복, 그리고 집게에 물린 출입증. 손목엔 방금 벗은 마스크가 걸려 있고, 초침 달린 아날로그 시계를 찼다 — 맥박을 세는 게 일인 사람의 손목이다. 그녀는 간호사다. 그런데 토요일 오전 9시, 근무복은 몸이 아니라 가방 속에 구겨져 있다. 다 입고 벗은 옷이다. 눈 밑은 퀭하게 내려앉았고 머리는 헝클어졌다. 출근길이 아니라 퇴근길이다 — 밤샘 근무를 마친 것이다. 밤새 문을 여는 곳이니 동네 치과나 약국이 아니라 종합병원이다. 그리고 카페에 와서 커피가 아니라 따뜻한 차를 시켰다. 곧 잠들 사람의 선택이다. 그녀의 시선은 창밖 버스 정류장에 가 있다. 집에 가는 버스를 기다리는 중이다.",
+    "en": "Start with the bag: navy scrubs stuffed inside, and an ID badge on a clip. A mask still dangles from her wrist, and she wears an analog watch with a second hand — the wrist of someone who counts pulses for a living. She's a nurse. But it's 9 a.m. on a Saturday and her scrubs are crumpled in a tote, not on her back. Those are clothes she's finished with, and the hollow, shadowed eyes and messy hair agree: she isn't heading in, she's heading out. She worked the night shift. And a place that runs night shifts isn't a dental office or a pharmacy — it's a hospital. And at a café, she ordered hot tea, not coffee — the choice of someone who's about to go to sleep. Her eyes are on the bus stop outside. She's waiting for the bus home."
   }
 }
