@@ -7,7 +7,7 @@
   const TODAY = ymd(now);
   const YESTERDAY = ymd(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1));
   // shortcut: 확인용으로 미공개 사건도 열림, 공개 전에 false로
-  const PREVIEW = false;
+  const PREVIEW = true;
 
   function el(tag, cls, text) {
     const n = document.createElement(tag);
