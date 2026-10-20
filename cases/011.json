@@ -27,8 +27,8 @@
           "en": "Marathon runner"
         },
         {
-          "ko": "등산가",
-          "en": "Mountaineer"
+          "ko": "축구 선수",
+          "en": "Soccer player"
         },
         {
           "ko": "테니스 선수",
@@ -58,8 +58,8 @@
           "en": "She bought it for camping"
         },
         {
-          "ko": "산에서 쓰는 비상용품이다",
-          "en": "It's emergency gear for the mountains"
+          "ko": "차 햇빛 가리개다",
+          "en": "It's a car windshield sunshade"
         },
         {
           "ko": "선물 포장지였다",
@@ -213,7 +213,7 @@
     }
   ],
   "detective": {
-    "ko": "엄지발톱이 시퍼렇게 멍들었다. 발레리나도 발톱이 상하지만, 그녀는 얼굴부터 팔다리까지 고르게 햇볕에 그을렸다. 하루 종일 밖에서 움직이는 사람이다. 그런데 어깨엔 가느다란 끈 자리만 하얗게 남았다 — 민소매 러닝 셔츠를 입고 수없이 달린 자국이다. 손목엔 GPS 스포츠 시계. 테니스 선수나 등산가도 시계를 차고 햇볕에 타지만, 가방 속 은박 담요와 가방끈에 꽂힌 옷핀 네 개가 답이다. 배번표를 달던 옷핀이고, 마라톤 결승선을 넘으면 은박 담요를 어깨에 둘러 준다. 어제 그녀는 42.195km를 달렸다. 종아리의 압박 슬리브는 햇볕을 가리려는 게 아니다 — 다리는 이미 까맣게 탔다. 지친 종아리 근육을 회복시키려고 낀 것이다. 그리고 오늘, 월요일 오전 10시. 출근 가방도 러닝화도 없이 샌들 차림 — 휴가를 내고 다리를 쉬는 날이다.",
-    "en": "Her big toenail is bruised black. Ballet dancers wreck their toenails too, but she's tanned evenly from face to arms to legs — someone who spends hours moving outdoors. Except on her shoulder, where a thin strap line stays pale: the mark of countless miles in a racerback running top. There's a GPS sports watch on her wrist. Tennis players and mountaineers wear watches and get tanned too, but the foil blanket in her bag and the four safety pins on the strap settle it. Those pins held a race bib, and at a marathon finish line someone wraps a foil blanket around your shoulders. Yesterday she ran 42.195 km. The compression sleeves aren't for the sun — her legs are already brown. They're for tired calves. And today, 10 a.m. on a Monday? No work bag, no running shoes, just sandals. She took the day off to let her legs recover."
+    "ko": "엄지발톱이 시퍼렇게 멍들었다. 발레리나도 발톱이 상하지만, 그녀는 얼굴부터 팔다리까지 고르게 햇볕에 그을렸다. 하루 종일 밖에서 움직이는 사람이다. 그런데 어깨엔 가느다란 끈 자리만 하얗게 남았다 — 민소매 러닝 셔츠를 입고 수없이 달린 자국이다. 손목엔 GPS 스포츠 시계. 테니스 선수나 축구 선수도 햇볕에 타고, 축구 선수는 발톱도 상한다. 하지만 가방 속 은박 담요와 가방끈에 꽂힌 옷핀 네 개가 답이다. 차 햇빛 가리개처럼 빳빳하지 않고 얇게 구겨진 은박 담요다. 배번표를 달던 옷핀이고, 마라톤 결승선을 넘으면 은박 담요를 어깨에 둘러 준다. 어제 그녀는 42.195km를 달렸다. 종아리의 압박 슬리브는 햇볕을 가리려는 게 아니다 — 다리는 이미 까맣게 탔다. 지친 종아리 근육을 회복시키려고 낀 것이다. 그리고 오늘, 월요일 오전 10시. 출근 가방도 러닝화도 없이 샌들 차림 — 휴가를 내고 다리를 쉬는 날이다.",
+    "en": "Her big toenail is bruised black. Ballet dancers wreck their toenails too, but she's tanned evenly from face to arms to legs — someone who spends hours moving outdoors. Except on her shoulder, where a thin strap line stays pale: the mark of countless miles in a racerback running top. There's a GPS sports watch on her wrist. Tennis and soccer players get tanned too, and soccer wrecks toenails as well. But the foil blanket in her bag — thin and crinkled, not a stiff car sunshade — and the four safety pins on the strap settle it. Those pins held a race bib, and at a marathon finish line someone wraps a foil blanket around your shoulders. Yesterday she ran 42.195 km. The compression sleeves aren't for the sun — her legs are already brown. They're for tired calves. And today, 10 a.m. on a Monday? No work bag, no running shoes, just sandals. She took the day off to let her legs recover."
   }
 }
