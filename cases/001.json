@@ -37,8 +37,9 @@
       ],
       "answer": 0,
       "evidence": [
-        "e1",
-        "e2"
+        "e2",
+        "e3",
+        "e1"
       ]
     },
     {
@@ -98,7 +99,7 @@
       ],
       "answer": 0,
       "evidence": [
-        "e3",
+        "e5",
         "e4"
       ]
     }
@@ -106,39 +107,39 @@
   "clues": [
     {
       "id": "e1",
-      "x": 34,
-      "y": 72,
-      "r": 6,
+      "x": 33,
+      "y": 66,
+      "r": 5,
       "label": {
-        "ko": "손목의 아날로그 시계 — 붉은 초침이 또렷하다. 맥박 재기 좋은 시계",
-        "en": "An analog watch with a clear red second hand — just right for taking a pulse"
+        "ko": "손목의 아날로그 시계 — 초침으로 맥박을 재기 좋은 시계",
+        "en": "An analog watch with a second hand — just right for taking a pulse"
       }
     },
     {
       "id": "e2",
-      "x": 88,
-      "y": 67,
-      "r": 10,
+      "x": 86,
+      "y": 63,
+      "r": 11,
       "label": {
-        "ko": "가방 속 남색 근무복과 청진기 — 주말에 빨려고 챙겨 가는 길",
-        "en": "Navy scrubs and a stethoscope in her tote — taking them home to wash over the weekend"
+        "ko": "가방에 구겨 넣은 남색 근무복과 집게에 물린 출입증",
+        "en": "Navy scrubs stuffed into her tote, with an ID badge on a clip"
       }
     },
     {
       "id": "e3",
-      "x": 36,
-      "y": 26,
-      "r": 8,
+      "x": 25,
+      "y": 74,
+      "r": 6,
       "label": {
-        "ko": "부은 눈과 다크서클, 지친 얼굴",
-        "en": "Puffy eyes, dark circles, a worn-out face"
+        "ko": "손목에 걸어 둔 마스크 — 몇 시간을 쓰다 막 벗었다",
+        "en": "A mask dangling from her wrist — worn for hours, just taken off"
       }
     },
     {
       "id": "e4",
-      "x": 62,
-      "y": 23,
-      "r": 11,
+      "x": 54,
+      "y": 22,
+      "r": 10,
       "label": {
         "ko": "창밖 버스 정류장을 바라보는 시선",
         "en": "Her eyes are on the bus stop outside"
@@ -146,17 +147,17 @@
     },
     {
       "id": "e5",
-      "x": 18,
-      "y": 58,
-      "r": 9,
+      "x": 17,
+      "y": 51,
+      "r": 8,
       "label": {
-        "ko": "낙엽 지는 쌀쌀한 아침, 코트를 입고도 아이스 커피",
-        "en": "Iced coffee on a chilly autumn morning — coat still on"
+        "ko": "커피가 아니라 김이 나는 따뜻한 차",
+        "en": "Not coffee — a steaming cup of tea"
       }
     }
   ],
   "detective": {
-    "ko": "시계부터 보자. 요즘 손목시계, 그것도 초침이 또렷한 아날로그를 차는 사람은 많지 않다 — 맥박을 세는 게 일인 사람이 아니라면. 가방 속 남색 V넥 상의와 청진기가 답을 확인해 준다. 근무복을 집으로 챙겨 가는 건 주말 동안 빨아 오려는 것이다. 코트까지 입은 쌀쌀한 아침에 아이스 커피를 들고, 눈은 퉁퉁 부어 있다. 토요일 오전 9시에 이런 얼굴이라면 출근 전이 아니라 퇴근 후다 — 밤샘 근무를 마친 것이다. 그리고 그녀의 시선은 창밖 버스 정류장에 가 있다. 집에 가는 버스를 기다리는 중이다.",
-    "en": "Start with the watch. Few people still wear an analog watch with a crisp second hand — unless they count pulses for a living. The navy V-neck top and the stethoscope in her tote settle it, and she's taking the scrubs home to wash over the weekend. Coat on, iced coffee in hand on a chilly morning, eyes puffy: at 9 a.m. on a Saturday, that's not someone heading to work. It's someone who just finished a night shift. And she's watching the bus stop outside the window — waiting for the bus that takes her home to bed."
+    "ko": "가방부터 보자. 구겨 넣은 남색 근무복, 그리고 집게에 물린 출입증. 손목엔 방금 벗은 마스크가 걸려 있고, 초침 달린 아날로그 시계를 찼다 — 맥박을 세는 게 일인 사람의 손목이다. 그녀는 간호사다. 그런데 토요일 오전 9시, 근무복은 몸이 아니라 가방 속에 구겨져 있다. 다 입고 벗은 옷이다. 출근길이 아니라 퇴근길이다 — 밤샘 근무를 마친 것이다. 그리고 카페에 와서 커피가 아니라 따뜻한 차를 시켰다. 곧 잠들 사람의 선택이다. 그녀의 시선은 창밖 버스 정류장에 가 있다. 집에 가는 버스를 기다리는 중이다.",
+    "en": "Start with the bag: navy scrubs stuffed inside, and an ID badge on a clip. A mask still dangles from her wrist, and she wears an analog watch with a second hand — the wrist of someone who counts pulses for a living. She's a nurse. But it's 9 a.m. on a Saturday and her scrubs are crumpled in a tote, not on her back. Those are clothes she's finished with: she isn't heading in, she's heading out. She worked the night shift. And at a café, she ordered hot tea, not coffee — the choice of someone who's about to go to sleep. Her eyes are on the bus stop outside. She's waiting for the bus home."
   }
 }
