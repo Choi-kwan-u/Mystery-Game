@@ -38,8 +38,8 @@
       "answer": 2,
       "evidence": [
         "e1",
-        "e4",
-        "e5"
+        "e2",
+        "e4"
       ]
     },
     {
@@ -72,32 +72,33 @@
       ]
     },
     {
-      "key": "shears",
+      "key": "scratches",
       "ask": {
-        "ko": "허리춤 가죽 집에 꽂아 둔 가위는 무엇일까?",
-        "en": "What are the scissors in the leather holster on his belt?"
+        "ko": "팔뚝의 가는 긁힌 자국은 무엇 때문일까?",
+        "en": "What made the thin scratches on his forearms?"
       },
       "options": [
         {
-          "ko": "나뭇가지를 자르는 전정가위",
-          "en": "Pruning shears for cutting branches"
+          "ko": "울타리 나뭇가지",
+          "en": "Hedge branches"
         },
         {
-          "ko": "미용 가위",
-          "en": "Hair-cutting scissors"
+          "ko": "선인장 가시",
+          "en": "Cactus spines"
         },
         {
-          "ko": "재단 가위",
-          "en": "Fabric shears"
+          "ko": "철조망",
+          "en": "Barbed wire"
         },
         {
-          "ko": "주방 가위",
-          "en": "Kitchen scissors"
+          "ko": "밤송이",
+          "en": "Chestnut burrs"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e4"
+        "e2",
+        "e5"
       ]
     },
     {
@@ -213,7 +214,7 @@
     }
   ],
   "detective": {
-    "ko": "바지는 깨끗한데 양 무릎에만 흙과 풀물이 똑같이 배어 있다. 넘어졌다면 한쪽만, 그것도 찢어졌을 것이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 무릎을 꿇지만 그쪽은 회색 시멘트 자국이다. 이건 흙과 풀이다. 등산객이라면 무릎이 아니라 신발과 바짓단부터 더러웠을 것이다. 허리춤엔 흙 묻은 장갑, 그리고 가죽 집에 꽂은 가위. 미용 가위나 재단 가위처럼 날이 길고 곧지 않다 — 짧고 휜 날로 나뭇가지를 끊는 전정가위다. 농부도 쓰지만 여긴 아파트 단지 한가운데다. 그는 정원사다. 모자를 쓰고 고개를 숙인 채 일하니 얼굴은 그늘지고 목 뒤만 해를 받았다. 그리고 길 건너 울타리 옆엔 갈퀴를 실은 수레가 세워져 있다. 장갑도 가위도 허리춤에 그대로 — 일을 접은 사람의 차림이 아니다. 컵라면을 다 먹으면 저 울타리로 돌아간다.",
-    "en": "His trousers are clean except for matching soil and grass stains on both knees. A fall would mark one knee, and probably tear it. This man kneels all day for work. A tile setter kneels too, but comes away with grey grout, not grass, and a hiker would get muddy shoes and hems before knees. At his belt: dirty gloves and a pair of scissors in a leather holster. Not long, straight blades like hair or fabric scissors — short, curved ones for snipping branches. Pruning shears. A farmer might carry those, but this is the middle of an apartment neighborhood. He's a gardener. He works bent over in a cap, so his face stays shaded while the back of his neck takes the sun. And across the street, a wheelbarrow with a rake sits parked by the hedge. Gloves and shears still on his belt — that's not a man who's done for the day. Once the noodles are gone, he's heading back to that hedge."
+    "ko": "바지는 깨끗한데 양 무릎에만 흙과 풀물이 똑같이 배어 있다. 넘어졌다면 한쪽만, 그것도 찢어졌을 것이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 무릎을 꿇지만 그쪽은 회색 시멘트 자국이다. 이건 흙과 풀이다. 등산객이라면 무릎이 아니라 신발과 바짓단부터 더러웠을 것이다. 허리춤엔 흙 묻은 장갑, 그리고 가죽 집에 꽂은 가위. 미용 가위나 재단 가위처럼 날이 길고 곧지 않다 — 짧고 휜 날로 나뭇가지를 끊는 전정가위다. 농부도 쓰지만 여긴 아파트 단지 한가운데다. 그는 정원사다. 걷어 올린 팔뚝의 가는 긁힘은 울타리 가지를 치다 생긴 자국이다. 모자를 쓰고 고개를 숙인 채 일하니 얼굴은 그늘지고 목 뒤만 해를 받았다. 그리고 길 건너 울타리 옆엔 갈퀴를 실은 수레가 세워져 있다. 장갑도 가위도 허리춤에 그대로 — 일을 접은 사람의 차림이 아니다. 컵라면을 다 먹으면 저 울타리로 돌아간다.",
+    "en": "His trousers are clean except for matching soil and grass stains on both knees. A fall would mark one knee, and probably tear it. This man kneels all day for work. A tile setter kneels too, but comes away with grey grout, not grass, and a hiker would get muddy shoes and hems before knees. At his belt: dirty gloves and a pair of scissors in a leather holster. Not long, straight blades like hair or fabric scissors — short, curved ones for snipping branches. Pruning shears. A farmer might carry those, but this is the middle of an apartment neighborhood. He's a gardener, and the thin scratches on his bare forearms come from trimming hedge branches. He works bent over in a cap, so his face stays shaded while the back of his neck takes the sun. And across the street, a wheelbarrow with a rake sits parked by the hedge. Gloves and shears still on his belt — that's not a man who's done for the day. Once the noodles are gone, he's heading back to that hedge."
   }
 }
