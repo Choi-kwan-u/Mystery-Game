@@ -241,7 +241,9 @@
         // 아직 차례가 안 온 질문은 숨긴다 — 뒤 질문이 앞 질문의 답을 흘리지 않게
         if (!submitted && qi > current) return;
         const wrap = el('div', 'q' + (!submitted && qi === current ? ' current' : ''));
-        wrap.append(el('p', 'ask', `${qi + 1}. ${pick(q.ask)}`));
+        const ask = el('p', 'ask', pick(q.ask) + ' ');
+        ask.append(el('span', 'qnum', `${qi + 1}/${nq}`));
+        wrap.append(ask);
         const chips = el('div', 'chips');
         chips.setAttribute('role', 'group');
         // 고르면 잠기므로 답한 문제는 바로 정답·오답을 보여 준다
@@ -268,7 +270,6 @@
         }
         box.append(wrap);
       });
-      if (!submitted) box.append(el('p', 'small progress', t('q.progress', { n: current + 1, all: nq })));
     }
 
     function choose(qi, oi) {

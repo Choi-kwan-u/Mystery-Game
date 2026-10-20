@@ -122,7 +122,7 @@ main { padding: 20px 0 40px; }
 .chip:disabled { cursor: default; opacity: .6; }
 .chip[aria-pressed="true"]:disabled { opacity: 1; }
 .q.current { border-top-color: var(--accent); }
-.progress { margin: 4px 0 0; }
+.qnum { font-weight: 400; font-size: .85em; color: var(--muted); white-space: nowrap; }
 .chip.right { opacity: 1; border-color: var(--right); background: var(--right); color: #fff; }
 .chip.wrong { opacity: 1; border-color: var(--wrong); background: var(--wrong); color: #fff; text-decoration: line-through; }
 .verdict { margin: 8px 0 0; font-weight: 700; font-size: .9rem; }

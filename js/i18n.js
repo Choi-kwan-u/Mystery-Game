@@ -27,7 +27,6 @@ const I18N = {
 
     'q.heading': '추리',
     'q.lockNote': '답을 고르면 바로 잠기고 정답이 공개돼요. 신중하게!',
-    'q.progress': '질문 {n} / {all}',
 
     'result.heading': '결과',
     'result.right': '✔ 정답',
@@ -103,7 +102,6 @@ const I18N = {
 
     'q.heading': 'Your deduction',
     'q.lockNote': 'Each answer locks in the moment you pick it, and you\'ll see right away if you got it. Choose carefully!',
-    'q.progress': 'Question {n} of {all}',
 
     'result.heading': 'Verdict',
     'result.right': '✔ Correct',
