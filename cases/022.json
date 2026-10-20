@@ -135,33 +135,32 @@
       ]
     },
     {
-      "key": "cans",
+      "key": "thermos",
       "ask": {
-        "ko": "빈 에너지 음료 캔 두 개가 말해 주는 것은?",
-        "en": "What do the two empty energy drink cans tell you?"
+        "ko": "'보온병에 커피를 챙겨 왔다'는 말과 맞는 단서는?",
+        "en": "Which detail fits 'I brought coffee in my thermos'?"
       },
       "options": [
         {
-          "ko": "운동을 했다",
-          "en": "He just worked out"
+          "ko": "빈 에너지 음료 캔",
+          "en": "The empty energy drink cans"
         },
         {
-          "ko": "밤새 졸음을 참으며 운전했다",
-          "en": "He fought off sleep driving all night"
+          "ko": "1리터짜리 보온병",
+          "en": "The one-liter thermos"
         },
         {
-          "ko": "손님이 두고 갔다",
-          "en": "Another customer left them"
+          "ko": "빵",
+          "en": "The bread roll"
         },
         {
-          "ko": "시험공부를 했다",
-          "en": "He was studying for an exam"
+          "ko": "소금통",
+          "en": "The salt shaker"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e2",
-        "e4"
+        "e2"
       ]
     }
   ],

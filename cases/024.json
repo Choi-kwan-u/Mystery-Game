@@ -50,7 +50,7 @@
       "key": "tell",
       "ask": {
         "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which detail gives the lie away?"
+        "en": "Which clue gives the lie away?"
       },
       "options": [
         {
@@ -66,8 +66,8 @@
           "en": "The sheet music on her lap"
         },
         {
-          "ko": "묶은 머리",
-          "en": "Her tied-back hair"
+          "ko": "지하철 손잡이",
+          "en": "The subway hand straps"
         }
       ],
       "answer": 2,
@@ -79,24 +79,24 @@
       "key": "powder",
       "ask": {
         "ko": "검은 옷 어깨의 하얀 가루는?",
-        "en": "What's the white powder on the shoulder of her black outfit?"
+        "en": "What's the white dust on the shoulder of her black outfit?"
       },
       "options": [
-        {
-          "ko": "비듬",
-          "en": "Dandruff"
-        },
-        {
-          "ko": "활에 바르는 송진",
-          "en": "Rosin for a bow"
-        },
         {
           "ko": "밀가루",
           "en": "Flour"
         },
         {
+          "ko": "활에 바르는 송진 가루",
+          "en": "Rosin from a violin bow"
+        },
+        {
           "ko": "분필 가루",
           "en": "Chalk dust"
+        },
+        {
+          "ko": "화장 파우더",
+          "en": "Face powder"
         }
       ],
       "answer": 1,
@@ -135,32 +135,33 @@
       ]
     },
     {
-      "key": "mark",
+      "key": "going",
       "ask": {
-        "ko": "목의 갈색 자국은 무엇을 말해 줄까?",
-        "en": "What does the brown mark on her neck tell you?"
+        "ko": "그녀는 지금 어디로 가는 길일까?",
+        "en": "Where is she headed right now?"
       },
       "options": [
         {
-          "ko": "넘어져 다쳤다",
-          "en": "She fell and hurt herself"
+          "ko": "공연하러 가는 길",
+          "en": "To a concert she's about to play"
         },
         {
-          "ko": "모기에 물렸다",
-          "en": "A mosquito bite"
+          "ko": "출근하는 길",
+          "en": "To work"
         },
         {
-          "ko": "바이올린을 오래 켰다",
-          "en": "She's played the violin for years"
+          "ko": "친구를 만나러 가는 길",
+          "en": "To meet a friend"
         },
         {
-          "ko": "타투를 했다",
-          "en": "A tattoo"
+          "ko": "공연을 마치고 집에 가는 길",
+          "en": "Home, after the concert"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
-        "e1"
+        "e4",
+        "e3"
       ]
     }
   ],
@@ -217,7 +218,7 @@
     }
   ],
   "detective": {
-    "ko": "꽃을 누가 줬는지는 사진으로 알 수 없다. 집에 가는 길이라는 말도 사실일 수 있다. 하지만 '하루 종일 집에서 쉬었다'는 사진과 맞지 않는다. 집에서 쉬던 사람이 올블랙 무대 의상을 차려입고 악보 파일을 무릎에 올려 두지는 않는다. 어깨에 묻은 하얀 가루는 비듬이 아니라 활에 바르는 송진이고, 턱 아래 갈색 자국은 오랜 세월 바이올린을 끼워 온 자리다. 검은 옷이지만 장례식은 아니다 — 꽃다발을 안고 웃고 있다. 그녀는 오늘 무대에서 연주를 마치고 오는 길이다.",
-    "en": "Who gave her the flowers? The photo can't tell us. On her way home? Could well be true. But 'spent the whole day relaxing at home' doesn't fit the picture. Nobody lounging at home dresses in an all-black stage outfit and carries a folder of sheet music. The white dust on her shoulder isn't dandruff; it's rosin for a bow, and the brown mark under her jaw is where a violin has rested for years. Black clothes, yes — but this isn't a funeral; she's smiling over a bouquet. She's on her way back from a concert."
+    "ko": "꽃을 누가 줬는지는 사진으로 알 수 없다. 하지만 '하루 종일 집에서 쉬었다'는 사진과 맞지 않는다. 집에서 쉬던 사람이 올블랙 무대 의상을 차려입고 악보 파일을 무릎에 올려 두지는 않는다. 어깨에 묻은 하얀 가루는 밀가루도 분필도 아닌, 활에 바르는 송진이다. 턱 아래 갈색 자국은 오랜 세월 바이올린을 끼워 온 자리다. 검은 옷이지만 장례식은 아니다 — 꽃다발을 안고 웃고 있다. 그녀는 오늘 무대에서 연주했다. 그럼 지금은 공연하러 가는 길일까? 꽃다발은 공연이 끝나야 받는다. 밤 10시, 연주를 마치고 집에 가는 길이다 — 그 말만큼은 사실이다.",
+    "en": "Who gave her the flowers? The photo can't tell us. But 'spent the whole day relaxing at home' doesn't fit the picture. Nobody lounging at home dresses in an all-black stage outfit and carries a folder of sheet music. The white dust on her shoulder isn't flour or chalk; it's rosin from a bow. The brown mark under her jaw is where a violin has rested for years. Black clothes, yes — but this isn't a funeral; she's smiling over a bouquet. She played a concert today. Could she be on her way to it? No — you get the flowers after the performance. At 10 p.m., she's heading home from the stage. That part, at least, was true."
   }
 }

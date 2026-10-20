@@ -107,7 +107,7 @@
       "key": "roll",
       "ask": {
         "ko": "그가 손에 든 가죽 롤에는 무엇이 들었을까?",
-        "en": "What's in the leather roll he's holding?"
+        "en": "What's inside the leather roll in his hand?"
       },
       "options": [
         {
@@ -119,8 +119,8 @@
           "en": "Knives"
         },
         {
-          "ko": "젓가락",
-          "en": "Chopsticks"
+          "ko": "뜨개바늘",
+          "en": "Knitting needles"
         },
         {
           "ko": "공구",

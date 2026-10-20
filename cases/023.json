@@ -55,16 +55,16 @@
           "en": "A bear"
         },
         {
-          "ko": "멧돼지",
-          "en": "A wild boar"
+          "ko": "여우",
+          "en": "A fox"
         },
         {
-          "ko": "너구리",
+          "ko": "라쿤",
           "en": "A raccoon"
         },
         {
-          "ko": "까마귀",
-          "en": "A crow"
+          "ko": "들고양이",
+          "en": "A feral cat"
         }
       ],
       "answer": 2,
@@ -84,8 +84,8 @@
           "en": "A bear smashed it open"
         },
         {
-          "ko": "캠핑객이 열어 두고 잤다",
-          "en": "The campers left it open"
+          "ko": "캠핑객이 뚜껑을 덜 닫고 잤다",
+          "en": "The campers didn't shut it properly"
         },
         {
           "ko": "바람에 열렸다",
@@ -224,7 +224,7 @@
     }
   ],
   "detective": {
-    "ko": "과자 봉지가 찢기고 아이스박스가 열려 있다. 도둑이라면 아이스박스째 들고 갔을 것이다. 남은 건 진흙 위의 작은 발자국 — 다섯 손가락을 쫙 편 아이 손바닥 같은 모양이다. 곰 발자국은 이보다 훨씬 크고, 멧돼지는 발굽, 까마귀는 세 갈래 새 발자국을 남긴다. 너구리다. 아이스박스는 부서진 데가 없다. 걸쇠만 풀렸고, 하얀 뚜껑엔 작은 진흙 손자국이 찍혀 있다. 너구리는 앞발로 걸쇠를 열 줄 안다. 발자국은 모닥불 재 한가운데를 지나간다. 불이 다 꺼진 뒤라는 뜻이고, 텐트 지퍼는 꼭 닫혀 있다 — 모두 잠든 한밤중이었다. 그리고 발자국은 커다란 나무 밑동에서 뚝 끊긴다. 손님은 나무 위로 올라갔다.",
-    "en": "Snack bags torn open, the cooler open. A thief would have just carried the whole cooler off. What's left are small prints in the mud — like a child's hand with five spread fingers. A bear's print would be far bigger, a boar leaves hooves, a crow leaves three-toed bird tracks. It was a raccoon. The cooler isn't broken; only the latch is undone, and there are tiny muddy handprints on the white lid. Raccoons can work a latch with their paws. The prints run right through the campfire ashes, so the fire was already out — and the tent is zipped shut. Everyone was asleep; it was the middle of the night. Finally, the prints stop dead at the foot of a big tree. The visitor went up."
+    "ko": "과자 봉지가 찢기고 아이스박스가 열려 있다. 도둑이라면 아이스박스째 들고 갔을 것이다. 남은 건 진흙 위의 작은 발자국 — 다섯 손가락을 쫙 편 아이 손바닥 같은 모양이다. 곰 발자국은 이보다 훨씬 크고, 여우나 고양이는 동그란 발바닥에 발가락 네 개가 찍힌다. 손 모양 발자국은 라쿤이다. 아이스박스는 부서진 데가 없다. 걸쇠만 풀렸고, 하얀 뚜껑엔 작은 진흙 손자국이 찍혀 있다. 캠핑객이 덜 닫은 거라면 뚜껑에 손자국이 남을 일이 없다. 라쿤은 앞발로 걸쇠를 열 줄 안다. 발자국은 모닥불 재 한가운데를 지나간다. 불이 다 꺼진 뒤라는 뜻이고, 텐트 지퍼는 꼭 닫혀 있다 — 모두 잠든 한밤중이었다. 그리고 발자국은 커다란 나무 밑동에서 뚝 끊긴다. 손님은 나무 위로 올라갔다.",
+    "en": "Snack bags torn open, the cooler open. A thief would have just carried the whole cooler off. What's left are small prints in the mud — like a child's hand with five spread fingers. A bear's print would be far bigger, and foxes and cats leave round pads with four toes. Hand-shaped prints mean a raccoon. The cooler isn't broken; only the latch is undone, and there are tiny muddy handprints on the white lid. If the campers had just left it loose, there'd be no handprints. Raccoons can work a latch with their paws. The prints run right through the campfire ashes, so the fire was already out — and the tent is zipped shut. Everyone was asleep; it was the middle of the night. Finally, the prints stop dead at the foot of a big tree. The visitor went up."
   }
 }

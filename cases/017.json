@@ -76,32 +76,33 @@
       ]
     },
     {
-      "key": "missing",
+      "key": "true",
       "ask": {
-        "ko": "쇼핑을 나온 사람이라면 있어야 할 텐데, 없는 것은?",
-        "en": "If he were out shopping, what would you expect to see that isn't there?"
+        "ko": "'손가락이 아프다'는 말이 사실이라는 근거는?",
+        "en": "What shows the sore-finger part is true?"
       },
       "options": [
         {
-          "ko": "쇼핑백",
-          "en": "Shopping bags"
+          "ko": "샐러드 접시",
+          "en": "The salad plate"
         },
         {
-          "ko": "포크",
-          "en": "A fork"
+          "ko": "곱슬머리",
+          "en": "His curly hair"
         },
         {
-          "ko": "의자",
-          "en": "A chair"
+          "ko": "목에 건 출입증",
+          "en": "The badge around his neck"
         },
         {
-          "ko": "수건",
-          "en": "A towel"
+          "ko": "손가락 세 개에 감은 테이프",
+          "en": "Tape on three of his fingers"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "evidence": [
-        "e6"
+        "e2",
+        "e5"
       ]
     },
     {
@@ -135,33 +136,33 @@
       ]
     },
     {
-      "key": "after",
+      "key": "towel",
       "ask": {
-        "ko": "밥을 먹고 나면 그가 갈 곳은?",
-        "en": "Where's he going after lunch?"
+        "ko": "어깨에 걸친 수건은 무엇에 쓸까?",
+        "en": "What's the towel on his shoulder for?"
       },
       "options": [
         {
-          "ko": "사무실",
-          "en": "The office"
+          "ko": "경기 중 손과 공의 땀을 닦으려고",
+          "en": "Wiping sweat off his hand and the ball between frames"
         },
         {
-          "ko": "집",
-          "en": "Home"
+          "ko": "수영하고 와서 머리를 닦으려고",
+          "en": "Drying his hair after a swim"
         },
         {
-          "ko": "병원",
-          "en": "The doctor"
+          "ko": "목욕탕에 가는 길이라서",
+          "en": "He's on his way to a bathhouse"
         },
         {
-          "ko": "볼링장",
-          "en": "The bowling alley"
+          "ko": "식탁을 닦으려고",
+          "en": "Wiping the table"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
-        "e1",
-        "e2"
+        "e3",
+        "e4"
       ]
     }
   ],
@@ -184,6 +185,16 @@
       "label": {
         "ko": "왼손 손가락 세 개에 감은 흰 테이프",
         "en": "White tape on three fingers of his left hand"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 38,
+      "y": 47,
+      "r": 9,
+      "label": {
+        "ko": "어깨에 걸친 수건 — 머리는 젖지 않았다",
+        "en": "A towel on his shoulder — and his hair is dry"
       }
     },
     {
@@ -218,7 +229,7 @@
     }
   ],
   "detective": {
-    "ko": "손가락이 아파 얼음으로 식힌다는 말은 사실이다 — 테이프 감은 손가락이 얼음 컵을 꼭 쥐고 있다. 혼자 점심을 먹는다는 것도 맞다. 하지만 '쉬는 날 쇼핑'은 거짓이다. 쇼핑하러 나온 사람이라면 쇼핑백 하나쯤은 있어야 하는데, 그의 곁에 있는 가방은 둥근 공이 불룩한 바퀴 가방뿐이다. 무엇보다 목에 아직 선수 출입증이 걸려 있다. 쉬는 날 출입증을 걸고 다니는 사람은 없다. 테이프도 손목 보호대도 풀지 않았다. 그는 볼링 대회 점심시간에 잠깐 나왔고, 밥을 먹으면 다시 레인으로 돌아갈 것이다.",
-    "en": "The sore fingers are real — his taped fingers are wrapped around a cup of ice. Lunch on his own, also true. But 'a day off, out shopping'? That's the lie. Someone out shopping would have at least one shopping bag; the only bag beside him is a wheeled one bulging with round balls. Above all, there's still a competitor's badge around his neck — nobody wears one of those on a day off. He hasn't taken off the tape or the wrist brace, either. He's on a lunch break in the middle of a bowling tournament, and once he's done eating, he's heading back to the lanes."
+    "ko": "손가락이 아파 얼음으로 식힌다는 말은 사실이다 — 테이프 감은 손가락이 얼음 컵을 꼭 쥐고 있다. 혼자 점심을 먹는다는 것도 맞다. 하지만 '쉬는 날 쇼핑'은 거짓이다. 쇼핑하러 나온 사람이라면 쇼핑백 하나쯤은 있어야 하는데, 그의 곁에 있는 가방은 둥근 공이 불룩한 바퀴 가방뿐이다. 무엇보다 목에 아직 선수 출입증이 걸려 있다. 쉬는 날 출입증을 걸고 다니는 사람은 없다. 테이프도 손목 보호대도 풀지 않았다. 어깨의 수건도 수영장에서 쓴 게 아니다 — 머리는 바싹 말라 있다. 공을 쥐는 손의 땀을 닦는 수건이다. 그는 볼링 대회 점심시간에 잠깐 나왔고, 밥을 먹으면 다시 레인으로 돌아갈 것이다.",
+    "en": "The sore fingers are real — his taped fingers are wrapped around a cup of ice. Lunch on his own, also true. But 'a day off, out shopping'? That's the lie. Someone out shopping would have at least one shopping bag; the only bag beside him is a wheeled one bulging with round balls. Above all, there's still a competitor's badge around his neck — nobody wears one of those on a day off. He hasn't taken off the tape or the wrist brace, either. And the towel on his shoulder isn't from a pool — his hair is bone dry. It's for wiping sweat off his bowling hand. He's on a lunch break in the middle of a bowling tournament, and once he's done eating, he's heading back to the lanes."
   }
 }

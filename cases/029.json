@@ -104,28 +104,28 @@
     {
       "key": "coffee",
       "ask": {
-        "ko": "흰 쪽 커피만 가득 남아 식어 버린 이유는?",
-        "en": "Why is White's coffee still full and cold?"
+        "ko": "커피를 다 마신 쪽은 누구일까?",
+        "en": "Who finished their coffee?"
       },
       "options": [
         {
-          "ko": "수세에 몰려 마실 틈도 없이 고민해서",
-          "en": "White was under pressure, too busy thinking to drink"
+          "ko": "흰 쪽",
+          "en": "White"
         },
         {
-          "ko": "커피를 싫어해서",
-          "en": "White hates coffee"
+          "ko": "검은 쪽",
+          "en": "Black"
         },
         {
-          "ko": "너무 뜨거워서",
-          "en": "It was too hot"
+          "ko": "둘 다",
+          "en": "Both"
         },
         {
-          "ko": "남의 커피라서",
-          "en": "It was someone else's"
+          "ko": "둘 다 안 마셨다",
+          "en": "Neither"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e4",
         "e5"
@@ -139,12 +139,12 @@
       },
       "options": [
         {
-          "ko": "조용히 의자를 넣고 떠났다",
-          "en": "Tucked the chair in and quietly left"
-        },
-        {
           "ko": "의자를 뒤로 밀치고 벌떡 일어났다",
           "en": "Shoved the chair back and shot up"
+        },
+        {
+          "ko": "조용히 의자를 넣고 떠났다",
+          "en": "Tucked the chair in and quietly left"
         },
         {
           "ko": "이긴 사람과 악수하고 함께 떠났다",
@@ -155,7 +155,7 @@
           "en": "Is still sitting there"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
         "e6"
       ]

@@ -1,6 +1,6 @@
 // localStorage 래퍼. 저장이 막혀도(시크릿 모드 등) 메모리 값으로 계속 동작한다.
 const Store = (() => {
-  const KEY = 'pd:v2';
+  const KEY = 'pd:v3';
   let data = null;
 
   function fresh() {
@@ -19,15 +19,13 @@ const Store = (() => {
     if (data) return data;
     try { data = JSON.parse(localStorage.getItem(KEY)); } catch (e) { data = null; }
     if (!data) {
-      // v1 → v2: 7번 이후 사건 번호가 바뀌어 그 기록은 버리고, 1~6번 기록·연속 기록은 살린다
-      try {
-        const v1 = JSON.parse(localStorage.getItem('pd:v1'));
-        if (v1 && v1.cases) {
-          Object.keys(v1.cases).forEach(id => { if (+id >= 7) delete v1.cases[id]; });
-          v1.partial = {};
-          data = v1;
-        }
-      } catch (e) { data = null; }
+      // v1·v2 → v3: 문항 개편(2026-10-20)으로 예전 답 번호가 안 맞아 사건 기록은 버리고, 연속 기록·등급 수는 살린다
+      for (const old of ['pd:v2', 'pd:v1']) {
+        try {
+          const prev = JSON.parse(localStorage.getItem(old));
+          if (prev && typeof prev === 'object') { prev.cases = {}; prev.partial = {}; data = prev; break; }
+        } catch (e) { /* 다음 후보 */ }
+      }
     }
     if (!data || typeof data !== 'object') data = fresh();
     data = Object.assign(fresh(), data);

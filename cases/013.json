@@ -51,8 +51,8 @@
       },
       "options": [
         {
-          "ko": "잉꼬",
-          "en": "A budgie"
+          "ko": "흰 앵무새",
+          "en": "A white cockatoo"
         },
         {
           "ko": "비둘기",
@@ -63,8 +63,8 @@
           "en": "A canary"
         },
         {
-          "ko": "까마귀",
-          "en": "A crow"
+          "ko": "갈매기",
+          "en": "A seagull"
         }
       ],
       "answer": 1,
@@ -122,8 +122,8 @@
           "en": "A grandchild's prank"
         },
         {
-          "ko": "바람에 날아가 붙었다",
-          "en": "The wind blew it up there"
+          "ko": "천장 얼룩을 가리려고",
+          "en": "To hide a stain on the ceiling"
         }
       ],
       "answer": 0,
@@ -226,7 +226,7 @@
     }
   ],
   "detective": {
-    "ko": "탁자 위 카드 한 벌이 자로 잰 듯 고르게 펼쳐져 있다. 카지노 딜러의 솜씨 같지만, 딜러는 카드를 천장에 붙이지 않는다. 천장에 납작하게 붙은 카드 한 장 — 카드를 던져 천장에 꽂는 묘기다. 문이 열린 빈 새장엔 하얀 깃털. 잉꼬나 카나리아는 하얗지 않다. 모자에서 날아오르던 하얀 비둘기다. 벽의 빛바랜 사진 속, 턱시도에 실크해트를 쓰고 무대에서 인사하는 젊은 남자. 배우나 가수 같지만, 그 실크해트가 지금 옷걸이에 걸려 있다. 사진 속 남자는 젊은 시절의 집주인이다. 다만 모자엔 먼지가 뽀얗게 앉았고, 옆 탁자엔 요일별 약통과 돋보기안경. 무대를 떠난 지는 오래됐다. 그래도 카드는 오늘도 펼쳐져 있다. 은퇴한 마술사의 손은 아직 쉬지 않는다.",
-    "en": "A deck of cards lies on the table in a perfectly even arc. A casino dealer could do that — but dealers don't leave cards stuck to the ceiling. That one up there was thrown, a classic trick. The empty birdcage, door open, holds a few white feathers. Budgies and canaries aren't white; doves are — the kind that fly out of a hat. On the wall, a faded photo: a young man in a tuxedo and top hat, bowing on stage. An actor, a singer? But that same top hat hangs on the coat rack. The young man is the owner. The hat is thick with dust, though, and the side table holds a pill organizer and reading glasses — the stage is long behind him. Yet the cards are spread out again today. A retired magician's hands never quite stop practicing."
+    "ko": "탁자 위 카드 한 벌이 자로 잰 듯 고르게 펼쳐져 있다. 카지노 딜러의 솜씨 같지만, 딜러는 카드를 천장에 붙이지 않는다. 천장에 납작하게 붙은 카드 한 장 — 얼룩을 가리려 했다면 카드 한 장이 아니라 페인트를 칠했을 것이다. 카드를 던져 천장에 꽂는 묘기다. 문이 열린 빈 새장엔 하얀 깃털. 흰 앵무새일 수도 있지만, 카드 묘기를 하는 사람의 새장이라면 모자에서 날아오르던 하얀 비둘기다. 벽의 빛바랜 사진 속, 턱시도에 실크해트를 쓰고 무대에서 인사하는 젊은 남자. 배우나 가수 같지만, 그 실크해트가 지금 옷걸이에 걸려 있다. 사진 속 남자는 젊은 시절의 집주인이다. 다만 모자엔 먼지가 뽀얗게 앉았고, 옆 탁자엔 요일별 약통과 돋보기안경. 무대를 떠난 지는 오래됐다. 그래도 카드는 오늘도 펼쳐져 있다. 은퇴한 마술사의 손은 아직 쉬지 않는다.",
+    "en": "A deck of cards lies on the table in a perfectly even arc. A casino dealer could do that — but dealers don't leave cards stuck to the ceiling. And if you wanted to hide a stain, you'd paint over it, not stick up one card. It was thrown, a classic trick. The empty birdcage, door open, holds a few white feathers. A white cockatoo is possible, but in the home of someone who does card tricks, it's a dove — the kind that flies out of a hat. On the wall, a faded photo: a young man in a tuxedo and top hat, bowing on stage. An actor, a singer? But that same top hat hangs on the coat rack. The young man is the owner. The hat is thick with dust, though, and the side table holds a pill organizer and reading glasses — the stage is long behind him. Yet the cards are spread out again today. A retired magician's hands never quite stop practicing."
   }
 }

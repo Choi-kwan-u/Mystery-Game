@@ -39,7 +39,7 @@
       "evidence": [
         "e1",
         "e2",
-        "e3"
+        "e6"
       ]
     },
     {
@@ -73,33 +73,33 @@
       ]
     },
     {
-      "key": "waiting",
+      "key": "memo",
       "ask": {
-        "ko": "누구를 기다리고 있을까?",
-        "en": "Who is she waiting for?"
+        "ko": "무릎 위의 또박또박 쓴 메모는 무엇일까?",
+        "en": "What's the neatly written note on her lap?"
       },
       "options": [
         {
-          "ko": "보험 설계사",
-          "en": "An insurance agent"
+          "ko": "오늘 결혼식에서 읽을 축사",
+          "en": "A speech for today's wedding"
         },
         {
-          "ko": "옛 제자",
-          "en": "A former student"
+          "ko": "장보기 목록",
+          "en": "A shopping list"
         },
         {
-          "ko": "옛 동료 교사",
-          "en": "A former colleague"
+          "ko": "병원 처방전",
+          "en": "A prescription"
         },
         {
-          "ko": "택시 기사",
-          "en": "A taxi driver"
+          "ko": "버스 노선표",
+          "en": "A bus timetable"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
-        "e6",
-        "e4"
+        "e3",
+        "e5"
       ]
     },
     {
@@ -122,8 +122,8 @@
           "en": "Children she taught"
         },
         {
-          "ko": "모르는 사람들",
-          "en": "Strangers"
+          "ko": "이웃집 아이들",
+          "en": "Neighborhood kids"
         }
       ],
       "answer": 2,
@@ -220,13 +220,13 @@
       "y": 85,
       "r": 11,
       "label": {
-        "ko": "뚜껑도 열지 않은 커피 한 잔, 옆에 꺼내 둔 빛바랜 단체 사진",
-        "en": "A coffee with the lid still on, and a faded group photo set beside it"
+        "ko": "뚜껑도 열지 않은 커피, 옆에 꺼내 둔 빛바랜 사진 — 그녀 또래의 어른들",
+        "en": "An unopened coffee, and a faded photo of grown-ups her age"
       }
     }
   ],
   "detective": {
-    "ko": "손가락에 밴 붉은 자국은 물감이 아니라 색연필이다 — 화가라면 한 가지 색만 묻었을 리 없다. 수십 년 동안 빨간 색연필로 동그라미를 친 손이다. 가방 속 크레용 편지는 아이들이 쓴 것인데, 남의 편지를 배달하는 사람은 그것을 리본으로 묶어 간직하지 않는다. 줄에 맞춘 또박또박한 글씨까지 — 그녀는 초등학교 교사였다. 그 눈은 지금도 길 건너 운동장의 아이들을 좇는다. 오늘은 진주 귀걸이를 하고 나왔고, 가방에는 반지 두 개가 그려진 카드가 있다. 결혼식이다. 크레용 편지를 쓰던 아이 중 하나가 어른이 되어 결혼하는 날이다. 그런데 왜 결혼식 날 크레용 편지 묶음을 챙겼을까? 그 안에 오늘의 주인공이 어린 시절 그녀에게 쓴 편지가 있기 때문이다. 수십 년 만에 돌려줄 선물이다. 옆자리의 커피는 뚜껑도 열지 않았다 — 아직 오지 않은 사람 몫이다. 그 옆에 꺼내 둔 빛바랜 사진 속엔 그녀 또래의 어른들뿐. 결혼식에 함께 갈 사람, 그 아이를 같이 가르쳤던 옛 동료를 기다리는 중이다.",
-    "en": "That red on her finger isn't paint — a painter wouldn't stop at one color. It's red pencil, the mark of decades spent circling right answers. The crayon letters in her bag were written by children, and nobody who merely delivers mail ties them up with a ribbon and keeps them. Add the neat, evenly spaced handwriting, and you have an elementary school teacher — whose eyes still drift to the kids on the playground across the street. Today she's wearing pearls, and there's a card with two rings in her bag: a wedding. One of those crayon-wielding kids is all grown up and getting married. So why bring a bundle of crayon letters to a wedding? Because one of them was written, decades ago, by the person getting married today. She's bringing it back as a gift. The coffee beside her still has its lid on; it's for someone who hasn't arrived yet. Next to it lies a faded photo of grown-ups her own age. She's waiting for someone to go to the wedding with — an old colleague who taught that child too."
+    "ko": "손가락에 밴 붉은 자국은 물감이 아니라 색연필이다 — 화가라면 한 가지 색만 묻었을 리 없다. 수십 년 동안 빨간 색연필로 동그라미를 친 손이다. 가방 속 크레용 편지는 아이들이 쓴 것인데, 남의 편지를 배달하는 사람은 그것을 리본으로 묶어 간직하지 않는다. 옆에 꺼내 둔 빛바랜 사진 속엔 그녀 또래의 어른들이 나란히 서 있다. 함께 가르쳤던 동료들이다. 그녀는 초등학교 교사였다. 그 눈은 지금도 길 건너 운동장의 아이들을 좇는다. 오늘은 진주 귀걸이를 하고 나왔고, 가방에는 반지 두 개가 그려진 카드가 있다. 결혼식이다. 크레용 편지를 쓰던 아이 중 하나가 어른이 되어 결혼하는 날이다. 그런데 왜 결혼식 날 크레용 편지 묶음을 챙겼을까? 그 안에 오늘의 주인공이 어린 시절 그녀에게 쓴 편지가 있기 때문이다. 수십 년 만에 돌려줄 선물이다. 그리고 무릎 위엔 줄에 맞춰 또박또박 쓴 메모. 장보기 목록을 이렇게 정성 들여 쓰는 사람은 없다. 옛 담임 선생님이 제자의 결혼식에서 읽을 축사다.",
+    "en": "That red on her finger isn't paint — a painter wouldn't stop at one color. It's red pencil, the mark of decades spent circling right answers. The crayon letters in her bag were written by children, and nobody who merely delivers mail ties them up with a ribbon and keeps them. The faded photo beside her shows a row of grown-ups her own age — the colleagues she taught with. She was an elementary school teacher, and her eyes still drift to the kids on the playground across the street. Today she's wearing pearls, and there's a card with two rings in her bag: a wedding. One of those crayon-wielding kids is all grown up and getting married. So why bring a bundle of crayon letters? Because one of them was written, decades ago, by the person getting married today — a gift she's finally handing back. And the note on her lap, written line by careful line? Nobody writes a shopping list like that. It's the speech an old teacher will read at her former student's wedding."
   }
 }

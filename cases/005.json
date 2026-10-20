@@ -15,27 +15,27 @@
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "en": "What does he do?"
       },
       "options": [
+        {
+          "ko": "클라이밍 선수",
+          "en": "Climber"
+        },
         {
           "ko": "테니스 선수",
           "en": "Tennis player"
         },
         {
+          "ko": "볼링 선수",
+          "en": "Bowler"
+        },
+        {
           "ko": "야구 투수",
           "en": "Baseball pitcher"
-        },
-        {
-          "ko": "클라이밍 선수",
-          "en": "Rock climber"
-        },
-        {
-          "ko": "볼링 선수",
-          "en": "Pro bowler"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
         "e6",
         "e2",
@@ -46,24 +46,24 @@
       "key": "now",
       "ask": {
         "ko": "지금은 무슨 시간일까?",
-        "en": "What's going on right now?"
+        "en": "What part of his day is this?"
       },
       "options": [
         {
-          "ko": "출근 전",
-          "en": "It's before work"
+          "ko": "연습을 마치고 집에 가는 길",
+          "en": "Heading home after practice"
         },
         {
           "ko": "대회 중 점심시간",
-          "en": "A lunch break mid-tournament"
+          "en": "The lunch break of a tournament"
         },
         {
-          "ko": "운동을 마치고 귀가 중",
-          "en": "He's heading home after training"
+          "ko": "대회가 끝난 뒤풀이",
+          "en": "An after-tournament meal"
         },
         {
           "ko": "쉬는 날 쇼핑",
-          "en": "Shopping on his day off"
+          "en": "Shopping on a day off"
         }
       ],
       "answer": 1,
@@ -75,28 +75,28 @@
     {
       "key": "worry",
       "ask": {
-        "ko": "지금 가장 신경 쓰이는 것은?",
-        "en": "What's bothering him most?"
+        "ko": "지금 그에게 가장 신경 쓰이는 곳은?",
+        "en": "What's bothering him most right now?"
       },
       "options": [
         {
-          "ko": "늦잠",
-          "en": "He overslept"
+          "ko": "허리",
+          "en": "His back"
         },
         {
-          "ko": "배고픔",
-          "en": "He's starving"
+          "ko": "오른쪽 손목",
+          "en": "His right wrist"
         },
         {
-          "ko": "왼손 손가락 통증",
-          "en": "His sore left fingers"
+          "ko": "무릎",
+          "en": "His knees"
         },
         {
-          "ko": "날씨",
-          "en": "The weather"
+          "ko": "왼손 손가락",
+          "en": "The fingers of his left hand"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
         "e5",
         "e2"
@@ -149,11 +149,11 @@
         },
         {
           "ko": "무거운 공이 들어 있어서",
-          "en": "There are heavy balls inside"
+          "en": "There's a heavy ball inside"
         },
         {
-          "ko": "그냥 멋으로",
-          "en": "Just for style"
+          "ko": "볼링화와 옷이 잔뜩 들어서",
+          "en": "It's stuffed with shoes and clothes"
         }
       ],
       "answer": 2,
@@ -225,7 +225,7 @@
     }
   ],
   "detective": {
-    "ko": "하얀 피부부터 보자. 햇볕 아래서 뛰는 테니스나 야구 선수의 팔이 아니다. 실내 종목이다. 클라이밍 선수도 손가락에 테이프를 감지만, 클라이머는 무거운 공을 바퀴 달린 가방에 넣어 끌고 다니지 않는다. 가방에 불룩 솟은 둥근 공, 손가락 세 개에 감은 테이프, 손목을 단단히 잡아주는 보호대 — 무거운 공을 던지는 손이다. 그는 볼링 선수다. 포크를 오른손에 들었다고 속지 말자. 테이프도 보호대도 왼손에 있다. 밥은 오른손으로 먹어도 공은 왼손으로 던진다. 목에는 선수 출입증이 걸려 있고 어깨엔 수건, 테이프도 보호대도 풀지 않았다. 대회는 아직 끝나지 않았고 지금은 점심시간이다. 그런데 테이프 감은 손가락으로 얼음 컵을 꼭 쥐고 있다. 오후 경기에서 걱정되는 건 점수가 아니라 저 손가락이다.",
-    "en": "Start with his skin: pale. These aren't the arms of a tennis player or a pitcher who trains under the sun — this is an indoor sport. Climbers tape their fingers too, but climbers don't drag heavy balls around in a wheeled bag. Round balls bulging out of the bag, tape on three fingers, a stiff brace on the same wrist: that's a hand that throws something heavy. He's a bowler. Don't be fooled by the fork in his right hand — the tape and the brace are on his left. He eats right-handed, but he bowls lefty. The competitor's badge is still around his neck, there's a towel on his shoulder, and he hasn't taken off the tape or the brace — the tournament isn't over; this is the lunch break. But look how he's gripping that ice-cold cup with his taped fingers. What worries him about the afternoon isn't his score. It's those fingers."
+    "ko": "하얀 피부부터 보자. 햇볕 아래서 뛰는 테니스나 야구 선수의 팔이 아니다. 실내 종목이다. 클라이밍 선수도 실내에서 손가락에 테이프를 감지만, 클라이머는 양손을 다 쓰고, 무거운 공을 바퀴 달린 가방에 넣어 끌고 다니지 않는다. 테이프는 왼손에만 감겼고, 가방엔 둥근 공이 불룩하다. 신발과 옷으로는 저런 동그란 모양이 나오지 않는다. 손목을 단단히 잡아주는 보호대까지 — 무거운 공을 던지는 손이다. 그는 볼링 선수다. 포크를 오른손에 들었다고 속지 말자. 테이프도 보호대도 왼손에 있다. 밥은 오른손으로 먹어도 공은 왼손으로 던진다. 목에는 선수 출입증이 걸려 있고, 테이프도 보호대도 풀지 않았다. 연습을 마치고 귀가하는 사람이나 뒤풀이 중인 사람이라면 출입증과 테이프부터 풀었을 것이다. 대회는 아직 끝나지 않았고 지금은 점심시간이다. 그런데 테이프 감은 손가락으로 얼음 컵을 꼭 쥐고 있다. 오후 경기에서 걱정되는 건 점수가 아니라 저 손가락이다.",
+    "en": "Start with his skin: pale. These aren't the arms of a tennis player or a pitcher who trains under the sun — this is an indoor sport. Climbers train indoors and tape their fingers too, but climbers use both hands, and they don't drag heavy balls around in a wheeled bag. The tape is on his left hand only, and the bag bulges with something round — shoes and clothes don't make that shape. Add the stiff brace on the same wrist: that's a hand that throws something heavy. He's a bowler. Don't be fooled by the fork in his right hand — he eats right-handed, but he bowls lefty. The competitor's badge is still around his neck, and the tape and brace are still on. Someone heading home from practice, or out celebrating afterward, would have taken those off. The tournament isn't over; this is the lunch break. But look how he's gripping that ice-cold cup with his taped fingers. What worries him about the afternoon isn't his score. It's those fingers."
   }
 }

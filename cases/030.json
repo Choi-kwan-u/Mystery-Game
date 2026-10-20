@@ -12,20 +12,20 @@
     "en": "We spoke to a woman on a bench across from a school. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "그냥 산책 나왔어요. 오늘은 아무 약속도 없고요. 아이들 노는 소리가 좋아서 여기 자주 앉아요.",
-    "en": "I'm just out for a walk. I don't have any plans today. I like hearing the children play, so I sit here often."
+    "ko": "커피 한 잔 사 들고 나왔어요. 오늘은 아무 약속도 없고요. 아이들 노는 소리가 좋아서 여기 자주 앉아요.",
+    "en": "I just came out with a coffee. I don't have any plans today. I like hearing the children play, so I sit here often."
   },
   "questions": [
     {
       "key": "lie",
       "ask": {
         "ko": "사진과 맞지 않는 말은?",
-        "en": "Which part of the statement does the photo contradict?"
+        "en": "Which statement doesn't match the photo?"
       },
       "options": [
         {
-          "ko": "산책을 나왔다",
-          "en": "She's out for a walk"
+          "ko": "커피 한 잔 사 들고 나왔다",
+          "en": "She came out with a coffee"
         },
         {
           "ko": "오늘 아무 약속도 없다",
@@ -37,12 +37,11 @@
         },
         {
           "ko": "모두 사진과 맞다",
-          "en": "It all fits the photo"
+          "en": "Everything matches the photo"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e6",
         "e5"
       ]
     },
@@ -50,7 +49,7 @@
       "key": "tell",
       "ask": {
         "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which detail gives the lie away?"
+        "en": "Which clue gives the lie away?"
       },
       "options": [
         {
@@ -59,27 +58,27 @@
         },
         {
           "ko": "운동장의 아이들",
-          "en": "The kids on the playground"
+          "en": "The children on the playground"
         },
         {
-          "ko": "벤치의 낙엽",
-          "en": "The leaves on the bench"
+          "ko": "벤치 위의 커피",
+          "en": "The coffee on the bench"
         },
         {
-          "ko": "옆자리에 놓인 뚜껑 안 연 커피",
-          "en": "The unopened coffee beside her"
+          "ko": "가방 속 반지 두 개가 그려진 카드",
+          "en": "The card with two rings in her bag"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e6"
+        "e5"
       ]
     },
     {
       "key": "card",
       "ask": {
-        "ko": "가방 속 반지 두 개 그려진 카드는?",
-        "en": "What's the card with two rings in her bag?"
+        "ko": "반지 두 개가 그려진 카드는 무엇일까?",
+        "en": "What is the card with two rings on it?"
       },
       "options": [
         {
@@ -87,16 +86,16 @@
           "en": "A birthday card"
         },
         {
-          "ko": "보험 서류",
-          "en": "Insurance papers"
+          "ko": "크리스마스 카드",
+          "en": "A Christmas card"
         },
         {
           "ko": "청첩장",
           "en": "A wedding invitation"
         },
         {
-          "ko": "영수증",
-          "en": "A receipt"
+          "ko": "상장",
+          "en": "A certificate"
         }
       ],
       "answer": 2,
@@ -105,60 +104,61 @@
       ]
     },
     {
-      "key": "going",
-      "ask": {
-        "ko": "그녀가 오늘 실제로 갈 곳은?",
-        "en": "Where is she actually going today?"
-      },
-      "options": [
-        {
-          "ko": "결혼식",
-          "en": "A wedding"
-        },
-        {
-          "ko": "병원",
-          "en": "The doctor"
-        },
-        {
-          "ko": "시장",
-          "en": "The market"
-        },
-        {
-          "ko": "도서관",
-          "en": "The library"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
       "key": "dressed",
       "ask": {
-        "ko": "그녀가 오늘 차려입은 흔적은?",
+        "ko": "오늘 그녀가 차려입었다는 흔적은?",
         "en": "What shows she's dressed up today?"
       },
       "options": [
         {
-          "ko": "운동화",
-          "en": "Sneakers"
+          "ko": "낡은 가방",
+          "en": "Her worn bag"
         },
         {
           "ko": "진주 귀걸이",
           "en": "Pearl earrings"
         },
         {
-          "ko": "앞치마",
-          "en": "An apron"
+          "ko": "무릎 위 메모지",
+          "en": "The note on her lap"
         },
         {
-          "ko": "등산 모자",
-          "en": "A hiking cap"
+          "ko": "종이컵 커피",
+          "en": "The paper cup of coffee"
         }
       ],
       "answer": 1,
       "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "letters",
+      "ask": {
+        "ko": "결혼식에 가며 크레용 편지 묶음을 챙긴 이유는?",
+        "en": "Why bring a bundle of crayon letters to a wedding?"
+      },
+      "options": [
+        {
+          "ko": "결혼하는 제자가 어릴 때 쓴 편지를 돌려주려고",
+          "en": "To give back a letter the bride or groom wrote as a child"
+        },
+        {
+          "ko": "손주에게 보여 주려고",
+          "en": "To show her grandchildren"
+        },
+        {
+          "ko": "버리려고",
+          "en": "To throw them away"
+        },
+        {
+          "ko": "우연히 가방에 들어 있어서",
+          "en": "They just happened to be in her bag"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
         "e5"
       ]
     }
@@ -226,7 +226,7 @@
     }
   ],
   "detective": {
-    "ko": "산책을 나왔다는 말도, 아이들 노는 소리를 좋아한다는 말도 사진과 어긋나지 않는다 — 그녀의 눈은 길 건너 운동장을 향해 있다. 하지만 '오늘 아무 약속도 없다'는 거짓이다. 옆자리엔 뚜껑도 열지 않은 커피가 한 잔 놓여 있다. 혼자 산책하는 사람이 남의 몫까지 커피를 사 두지는 않는다. 가방 속엔 반지 두 개가 그려진 청첩장, 귀에는 진주 귀걸이. 그녀는 누군가를 기다리고 있고, 함께 결혼식에 갈 것이다.",
-    "en": "Out for a walk? Likes hearing the children play? Neither clashes with the photo — her eyes are on the playground across the street. But 'no plans today' is a lie. On the bench beside her sits a coffee with the lid still on. People out for a solitary stroll don't buy a second coffee. In her bag, an invitation with two rings on it; in her ears, pearls. She's waiting for someone, and they're going to a wedding together."
+    "ko": "커피를 사 들고 나왔다는 말은 맞다 — 벤치 위에 종이컵이 있다. 아이들 노는 소리를 좋아한다는 말도 사진과 어긋나지 않는다 — 그녀의 눈은 길 건너 운동장을 향해 있다. 하지만 '오늘 아무 약속도 없다'는 거짓이다. 가방 속엔 반지 두 개가 그려진 카드 — 청첩장이다. 귀에는 진주 귀걸이까지 하고 나왔다. 오늘은 결혼식에 가는 날이다. 그리고 가방 속 리본으로 묶은 크레용 편지 묶음. 결혼식에 아이들 편지를 챙겨 가는 이유는 하나다. 오늘 결혼하는 사람이 어린 시절 그녀에게 쓴 편지가 그 안에 있다. 옛 제자에게 돌려줄 선물이다.",
+    "en": "Came out with a coffee? True — there's a paper cup on the bench. Likes hearing the children play? Nothing in the photo says otherwise; her eyes are on the playground across the street. But 'no plans today' is a lie. In her bag is a card with two rings on it — a wedding invitation — and she's wearing pearls. She's going to a wedding. And the ribbon-tied bundle of crayon letters in her bag? There's only one reason to bring children's letters to a wedding: one of them was written to her, long ago, by the person getting married today. It's a gift for a former student."
   }
 }

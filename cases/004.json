@@ -132,32 +132,32 @@
       ]
     },
     {
-      "key": "awake",
+      "key": "arm",
       "ask": {
-        "ko": "밤새 무엇으로 졸음을 쫓았을까?",
-        "en": "What kept him awake all night?"
+        "ko": "왼팔만 짙게 탄 이유는?",
+        "en": "Why is only his left arm tanned?"
       },
       "options": [
         {
-          "ko": "음악",
-          "en": "Music"
+          "ko": "왼손잡이라서",
+          "en": "He's left-handed"
         },
         {
-          "ko": "껌",
-          "en": "Chewing gum"
+          "ko": "운전석 창가에 팔을 두고 달려서",
+          "en": "He drives with that arm by the window"
         },
         {
-          "ko": "에너지 음료",
-          "en": "Energy drinks"
+          "ko": "한쪽 소매만 짧은 옷을 입어서",
+          "en": "One of his sleeves is shorter"
         },
         {
-          "ko": "동료와의 수다",
-          "en": "Chatting with a co-driver"
+          "ko": "낚시를 즐겨서",
+          "en": "He loves fishing"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e2"
+        "e1"
       ]
     }
   ],

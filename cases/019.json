@@ -4,53 +4,53 @@
   "type": "lie",
   "image": "img/001.webp",
   "title": {
-    "ko": "푹 잤다는 여자",
-    "en": "The Woman Who Slept Well"
+    "ko": "출근 전이라는 여자",
+    "en": "Just Before Work"
   },
   "intro": {
     "ko": "카페 창가의 여자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
     "en": "We struck up a conversation with the woman by the café window. Here's what she told us. Find the lie in the photo."
   },
   "statement": {
-    "ko": "어젯밤엔 일찍 자서 푹 잤어요. 지금은 버스 기다리는 중이에요. 커피는 원래 안 마셔요.",
-    "en": "I went to bed early last night and slept like a baby. Right now I'm just waiting for the bus. I don't drink coffee."
+    "ko": "출근하기 전에 잠깐 들렀어요. 지금은 버스 기다리는 중이에요. 커피는 원래 안 마셔요.",
+    "en": "I just stopped in before work. Right now I'm waiting for the bus. I don't drink coffee."
   },
   "questions": [
     {
       "key": "lie",
       "ask": {
         "ko": "사진과 맞지 않는 말은?",
-        "en": "Which part of the statement does the photo contradict?"
+        "en": "Which statement doesn't match the photo?"
       },
       "options": [
         {
-          "ko": "어젯밤 푹 잤다",
-          "en": "She slept well last night"
+          "ko": "출근하기 전에 잠깐 들렀다",
+          "en": "She stopped in before work"
         },
         {
           "ko": "버스를 기다리는 중이다",
           "en": "She's waiting for the bus"
         },
         {
-          "ko": "커피를 안 마신다",
+          "ko": "커피는 원래 안 마신다",
           "en": "She doesn't drink coffee"
         },
         {
           "ko": "모두 사진과 맞다",
-          "en": "It all fits the photo"
+          "en": "Everything matches the photo"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e6",
-        "e2"
+        "e2",
+        "e3"
       ]
     },
     {
       "key": "tell",
       "ask": {
         "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which detail gives the lie away?"
+        "en": "Which clue gives the lie away?"
       },
       "options": [
         {
@@ -62,103 +62,103 @@
           "en": "The bus stop outside"
         },
         {
-          "ko": "짙은 다크서클과 흐트러진 머리",
-          "en": "Dark circles and messy hair"
+          "ko": "가방에 구겨 넣은 근무복",
+          "en": "The work clothes crumpled in her bag"
         },
         {
           "ko": "손목시계",
-          "en": "Her watch"
+          "en": "Her wristwatch"
         }
       ],
       "answer": 2,
-      "evidence": [
-        "e6"
-      ]
-    },
-    {
-      "key": "night",
-      "ask": {
-        "ko": "그녀가 사실 밤새 한 일은?",
-        "en": "What was she really doing all night?"
-      },
-      "options": [
-        {
-          "ko": "밤샘 근무",
-          "en": "Working a night shift"
-        },
-        {
-          "ko": "밤새 게임",
-          "en": "Gaming all night"
-        },
-        {
-          "ko": "야간 비행",
-          "en": "Flying overnight"
-        },
-        {
-          "ko": "밤새 시험공부",
-          "en": "Cramming for an exam"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "clothes",
-      "ask": {
-        "ko": "가방 속 남색 옷은 어떤 옷일까?",
-        "en": "What are the navy clothes in her bag?"
-      },
-      "options": [
-        {
-          "ko": "새로 산 옷",
-          "en": "New clothes she just bought"
-        },
-        {
-          "ko": "입고 벗은 근무복",
-          "en": "Scrubs she's just taken off"
-        },
-        {
-          "ko": "세탁소에서 찾아온 옷",
-          "en": "Clothes from the dry cleaner"
-        },
-        {
-          "ko": "친구에게 빌린 옷",
-          "en": "Clothes borrowed from a friend"
-        }
-      ],
-      "answer": 1,
       "evidence": [
         "e2"
       ]
     },
     {
-      "key": "mask",
+      "key": "coffee",
       "ask": {
-        "ko": "손목에 걸린 마스크는 언제 벗었을까?",
-        "en": "When did she take off the mask on her wrist?"
+        "ko": "'커피는 원래 안 마신다'는 말과 맞는 단서는?",
+        "en": "Which detail fits 'I don't drink coffee'?"
       },
       "options": [
         {
-          "ko": "일주일 전",
-          "en": "A week ago"
+          "ko": "손목시계",
+          "en": "Her wristwatch"
         },
         {
-          "ko": "어제 아침",
-          "en": "Yesterday morning"
+          "ko": "컵에 걸린 티백 꼬리표",
+          "en": "The tea-bag tag hanging from her cup"
         },
         {
-          "ko": "한 번도 안 썼다",
-          "en": "She never wore it"
+          "ko": "손목의 마스크",
+          "en": "The mask on her wrist"
         },
         {
-          "ko": "근무를 마치고 방금",
-          "en": "Just now, after her shift"
+          "ko": "창밖 버스",
+          "en": "The bus outside"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "from",
+      "ask": {
+        "ko": "그녀는 사실 어디서 오는 길일까?",
+        "en": "Where is she actually coming from?"
+      },
+      "options": [
+        {
+          "ko": "헬스장",
+          "en": "The gym"
+        },
+        {
+          "ko": "친구 집",
+          "en": "A friend's place"
+        },
+        {
+          "ko": "공항",
+          "en": "The airport"
+        },
+        {
+          "ko": "밤샘 근무를 마친 병원",
+          "en": "The hospital, after a night shift"
         }
       ],
       "answer": 3,
+      "evidence": [
+        "e2",
+        "e6"
+      ]
+    },
+    {
+      "key": "mask",
+      "ask": {
+        "ko": "손목에 건 마스크가 말해 주는 것은?",
+        "en": "What does the mask on her wrist tell us?"
+      },
+      "options": [
+        {
+          "ko": "감기에 걸렸다",
+          "en": "She has a cold"
+        },
+        {
+          "ko": "미세먼지가 심한 날이다",
+          "en": "It's a high-pollution day"
+        },
+        {
+          "ko": "몇 시간 동안 마스크를 쓰는 일을 하고 왔다",
+          "en": "She just did hours of work in a mask"
+        },
+        {
+          "ko": "카페에서 나눠 줬다",
+          "en": "The café handed it out"
+        }
+      ],
+      "answer": 2,
       "evidence": [
         "e3"
       ]
@@ -201,8 +201,8 @@
       "y": 51,
       "r": 8,
       "label": {
-        "ko": "커피가 아니라 김이 나는 따뜻한 차",
-        "en": "Not coffee — a steaming cup of tea"
+        "ko": "컵에 걸린 티백 꼬리표 — 커피가 아니라 차",
+        "en": "A tea-bag tag on her cup — tea, not coffee"
       }
     },
     {
@@ -217,7 +217,7 @@
     }
   ],
   "detective": {
-    "ko": "버스를 기다린다는 말은 사실이다 — 그녀의 눈은 창밖 정류장에 가 있다. 커피를 안 마신다는 것도 앞뒤가 맞다. 손에 든 건 따뜻한 차다. 하지만 '푹 잤다'는 거짓이다. 눈 밑은 퀭하게 내려앉았고 머리는 헝클어졌다. 푹 자고 나온 얼굴이 아니다. 가방에는 입고 벗어 구겨진 남색 근무복, 손목엔 방금 벗은 마스크. 그녀는 어젯밤 잠을 잔 게 아니라 밤새 일했다.",
-    "en": "Waiting for the bus? True — her eyes are fixed on the stop outside. Doesn't drink coffee? Consistent: what she's holding is hot tea. But 'slept like a baby' is a lie. Those hollow, shadowed eyes and that messy hair don't belong to someone who just had a full night's sleep. In her bag, navy scrubs, crumpled from wear; on her wrist, a mask she's only just taken off. She didn't sleep last night. She worked through it."
+    "ko": "버스를 기다린다는 말은 앞뒤가 맞는다 — 그녀의 눈은 창밖 정류장에 가 있다. 커피를 안 마신다는 것도 맞다. 컵에 티백 꼬리표가 걸려 있다. 하지만 '출근 전'은 거짓이다. 가방 속 남색 근무복은 개켜져 있지 않고 구겨져 있다 — 이미 입었다 벗은 옷이다. 출근하는 사람이라면 깨끗한 근무복을 챙기거나 입고 나왔을 것이다. 손목엔 몇 시간을 쓰다 방금 벗은 마스크가 걸려 있다. 감기라면 쓰고 있었을 것이다. 눈 밑은 퀭하고 머리는 헝클어졌다. 그녀는 일하러 가는 게 아니라 병원에서 밤샘 근무를 마치고 돌아가는 길이다.",
+    "en": "Waiting for the bus? That fits — her eyes are on the stop outside. Doesn't drink coffee? Also true: there's a tea-bag tag hanging from her cup. But 'just before work' is the lie. The navy work clothes in her bag aren't folded; they're crumpled — already worn and taken off. Someone heading in would bring them clean, or wear them. On her wrist dangles a mask, just taken off after hours of wear; if she had a cold, it would still be on her face. Hollow eyes, messy hair. She isn't on her way to work. She's on her way home from a night shift at the hospital."
   }
 }

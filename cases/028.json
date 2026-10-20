@@ -73,31 +73,32 @@
       ]
     },
     {
-      "key": "apples",
+      "key": "from",
       "ask": {
-        "ko": "사과들은 왜 연석 한쪽에 몰려 있을까?",
-        "en": "Why are the apples all bunched in one spot by the curb?"
+        "ko": "자전거 주인은 무엇을 하고 오는 길이었을까?",
+        "en": "Where was the rider coming from?"
       },
       "options": [
         {
-          "ko": "누가 발로 차서",
-          "en": "Someone kicked them"
+          "ko": "출근길",
+          "en": "On the way to work"
         },
         {
-          "ko": "길이 비탈져 아래로 굴러가서",
-          "en": "The street slopes and they rolled downhill"
+          "ko": "장을 보고 오는 길",
+          "en": "Coming back from grocery shopping"
         },
         {
-          "ko": "바람에 밀려서",
-          "en": "The wind pushed them"
+          "ko": "운동하던 중",
+          "en": "Out exercising"
         },
         {
-          "ko": "누가 주워 모아 둬서",
-          "en": "Someone gathered them"
+          "ko": "등굣길",
+          "en": "On the way to school"
         }
       ],
       "answer": 1,
       "evidence": [
+        "e4",
         "e3"
       ]
     },
@@ -150,8 +151,8 @@
           "en": "The front wheel is bent"
         },
         {
-          "ko": "핸들이 부러져서",
-          "en": "The handlebars snapped"
+          "ko": "브레이크가 고장 나서",
+          "en": "The brakes broke"
         }
       ],
       "answer": 2,
@@ -187,8 +188,8 @@
       "y": 72,
       "r": 8,
       "label": {
-        "ko": "길 아래쪽 연석에 한데 몰린 사과들",
-        "en": "Apples bunched against the curb at the low end of the street"
+        "ko": "길에 흩어진 사과들",
+        "en": "Apples scattered across the road"
       }
     },
     {
@@ -213,7 +214,7 @@
     }
   ],
   "detective": {
-    "ko": "자전거가 옆으로 쓰러졌고 장바구니가 쏟아졌다. 차와 부딪혔다면 깨진 유리나 찌그러진 흔적이 있었을 것이다. 바퀴 미끄럼 자국을 따라가 보면, 시작점에 짓이겨진 바나나 껍질이 있다. 기름이나 빙판이 아니다. 바나나 껍질을 밟고 미끄러졌다. 달걀은 깨졌고 사과는 흩어졌는데, 사과들은 길 아래쪽 연석에 한데 몰려 있다. 누가 모은 게 아니다. 길이 비탈져 있어 전부 아래로 굴러갔다. 연석 위엔 뜯긴 반창고 포장지. 구급차가 올 만큼은 아니고, 무릎이나 손바닥이 살짝 까져 반창고를 붙였다. 그런데 왜 자전거를 두고 갔을까? 앞바퀴가 크게 휘었다. 더는 탈 수 없다.",
-    "en": "A bike lies on its side, groceries everywhere. A car crash would leave broken glass or dents. Follow the skid mark back and it starts at a squashed banana peel — not oil, not ice. The rider slipped on a banana peel. The eggs broke and the apples scattered — but the apples are all bunched against the curb at the low end of the street. Nobody gathered them; the street slopes, and they rolled downhill. On the curb, torn bandage wrappers: no ambulance needed, just a scraped knee or palm and a bandage. So why leave the bike behind? Its front wheel is badly bent. Nobody's riding that home."
+    "ko": "자전거가 옆으로 쓰러졌고 장바구니가 쏟아졌다. 차와 부딪혔다면 깨진 유리나 찌그러진 흔적이 있었을 것이다. 바퀴 미끄럼 자국을 따라가 보면, 시작점에 짓이겨진 바나나 껍질이 있다. 기름이나 빙판이 아니다. 바나나 껍질을 밟고 미끄러졌다. 바구니에서 쏟아진 건 사과와 달걀 — 출근하거나 운동하던 사람의 짐이 아니다. 장을 보고 돌아오던 길이다. 연석 위엔 뜯긴 반창고 포장지. 구급차가 올 만큼은 아니고, 무릎이나 손바닥이 살짝 까져 반창고를 붙였다. 그런데 왜 자전거를 두고 갔을까? 체인도 타이어도 멀쩡한데 앞바퀴가 크게 휘었다. 더는 탈 수 없다.",
+    "en": "A bike lies on its side, groceries everywhere. A car crash would leave broken glass or dents. Follow the skid mark back and it starts at a squashed banana peel — not oil, not ice. The rider slipped on a banana peel. What spilled from the basket? Apples and eggs — not what you carry to work or on a workout. They were on their way back from grocery shopping. On the curb, torn bandage wrappers: no ambulance needed, just a scraped knee or palm and a bandage. So why leave the bike behind? The chain and tires look fine, but the front wheel is badly bent. Nobody's riding that home."
   }
 }

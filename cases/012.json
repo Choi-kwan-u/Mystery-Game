@@ -3,12 +3,12 @@
   "date": "2026-11-06",
   "image": "img/012.webp",
   "title": {
-    "ko": "털투성이 퇴근길",
-    "en": "The Fur-Covered Commute"
+    "ko": "털투성이 승객",
+    "en": "The Fur-Covered Passenger"
   },
   "intro": {
-    "ko": "평일 저녁 7시, 지하철 안. 20대 여성이 손잡이를 잡고 서 있다. 이 사람은 누구일까?",
-    "en": "7 p.m. on a weekday, on the subway. A woman in her twenties holds on to a strap. Who is she?"
+    "ko": "평일, 지하철 안. 20대 여성이 손잡이를 잡고 서 있다. 이 사람은 누구일까?",
+    "en": "A weekday on the subway. A woman in her 20s stands holding a strap. Who is she?"
   },
   "questions": [
     {
@@ -50,20 +50,20 @@
       },
       "options": [
         {
-          "ko": "말티즈",
-          "en": "Maltese"
-        },
-        {
           "ko": "골든 리트리버",
           "en": "Golden retriever"
+        },
+        {
+          "ko": "시바견",
+          "en": "Shiba Inu"
         },
         {
           "ko": "푸들",
           "en": "Poodle"
         },
         {
-          "ko": "시바견",
-          "en": "Shiba Inu"
+          "ko": "닥스훈트",
+          "en": "Dachshund"
         }
       ],
       "answer": 2,
@@ -101,33 +101,34 @@
       ]
     },
     {
-      "key": "standing",
+      "key": "commute",
       "ask": {
-        "ko": "빈자리가 있는데 왜 서서 갈까?",
-        "en": "Why is she standing when there are empty seats?"
+        "ko": "지금은 출근길일까, 퇴근길일까?",
+        "en": "Is she on her way to work, or home from it?"
       },
       "options": [
         {
-          "ko": "곧 내려야 해서",
-          "en": "Her stop is coming up"
+          "ko": "출근길",
+          "en": "On her way to work"
         },
         {
-          "ko": "털이 좌석에 묻을까 봐",
-          "en": "She doesn't want to leave fur on the seats"
+          "ko": "퇴근길",
+          "en": "On her way home from work"
         },
         {
-          "ko": "허리가 아파서",
-          "en": "Her back hurts"
+          "ko": "점심 먹으러 가는 길",
+          "en": "Heading out for lunch"
         },
         {
-          "ko": "운동 삼아",
-          "en": "For the exercise"
+          "ko": "쉬는 날 외출",
+          "en": "A day-off outing"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e3",
-        "e1"
+        "e1",
+        "e2",
+        "e5"
       ]
     },
     {
@@ -187,8 +188,8 @@
       "y": 76,
       "r": 14,
       "label": {
-        "ko": "바로 옆의 빈자리 두 개",
-        "en": "Two empty seats right beside her"
+        "ko": "바로 옆의 빈자리 두 개 — 그래도 앉지 않는다",
+        "en": "Two empty seats right beside her — and she still won't sit"
       }
     },
     {
@@ -213,7 +214,7 @@
     }
   ],
   "detective": {
-    "ko": "검은 옷이 하얀 털로 뒤덮였다. 재단사의 실밥이나 보풀이 아니고, 미용사가 자른 사람 머리카락도 아니다. 전부 하얗고 곱슬곱슬한 개털이다. 팔뚝엔 작은 할퀸 자국과 반창고. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 젖지는 않는다. 욕조에 몸을 기대고 하루 종일 개를 씻긴 사람이다. 털은 말티즈처럼 곧지 않고 곱슬하다 — 오늘 그녀 손을 가장 많이 거친 건 푸들이다. 가방 옆주머니의 쇠빗에도 같은 털이 끼어 있다. 그녀의 긴 생머리용이 아니다. 그리고 바로 옆 빈자리 두 개. 피곤해 보이는데도 앉지 않는다. 앉으면 천 좌석에 하얀 털이 고스란히 남을 테니까.",
-    "en": "Her black clothes are covered in white fur. Not a tailor's lint, not a hairdresser's clippings of human hair — it's white, curly dog fur. Small scratches and bandages on her arm. A vet gets fur and scratches too, but not a soaked belly: she spent the day leaning over a tub, bathing dogs. The fur isn't straight like a Maltese's; it's curly. Today was poodle day. The metal comb in her bag has the same fur in its teeth — it isn't for her long straight hair. And the two empty seats beside her? She looks exhausted, yet she won't sit. One ride on that cloth seat and it would be covered in white fur."
+    "ko": "검은 옷이 하얀 털로 뒤덮였다. 재단사의 실밥이나 보풀이 아니고, 미용사가 자른 사람 머리카락도 아니다. 전부 하얗고 곱슬곱슬한 개털이다. 팔뚝엔 작은 할퀸 자국과 반창고. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 젖지는 않는다. 욕조에 몸을 기대고 하루 종일 개를 씻긴 사람이다. 털은 리트리버의 금빛도, 시바견의 주황빛도, 닥스훈트의 짧은 갈색도 아니다. 하얀 곱슬 털 — 오늘 그녀 손을 가장 많이 거친 건 푸들이다. 가방 옆주머니의 쇠빗에도 같은 털이 끼어 있다. 출근길에 이렇게 털을 뒤집어쓰고 배까지 젖어 있을 리 없다. 하루 일을 다 마친 퇴근길이다. 그리고 바로 옆 빈자리 두 개. 피곤해 보이는데도 앉지 않는다. 앉으면 천 좌석에 하얀 털이 고스란히 남을 테니까.",
+    "en": "Her black clothes are covered in white fur. Not a tailor's lint, not a hairdresser's clippings of human hair — it's white, curly dog fur. Small scratches and bandages on her arm. A vet gets fur and scratches too, but not a soaked belly: she spent the day leaning over a tub, bathing dogs. The fur isn't a retriever's gold, a Shiba's orange or a dachshund's short brown. It's white and curly: today was poodle day. The metal comb in her bag has the same fur in its teeth. Nobody starts the workday already covered in fur with a soaked shirt — she's on her way home. And the two empty seats beside her? She looks exhausted, yet she won't sit. One ride on that cloth seat and it would be covered in white fur."
   }
 }

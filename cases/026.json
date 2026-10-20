@@ -113,8 +113,8 @@
           "en": "Just a snack"
         },
         {
-          "ko": "어제 결혼식",
-          "en": "Yesterday's wedding"
+          "ko": "어제 생일 파티에서 남은 케이크",
+          "en": "Leftovers from yesterday's birthday party"
         },
         {
           "ko": "오늘 밤 생일 파티",
@@ -150,8 +150,8 @@
           "en": "On the chair"
         },
         {
-          "ko": "마당에서",
-          "en": "Out in the yard"
+          "ko": "식탁 밑에서",
+          "en": "Under the table"
         }
       ],
       "answer": 0,
@@ -224,7 +224,7 @@
     }
   ],
   "detective": {
-    "ko": "케이크 한쪽이 칼자국 없이 마구 뜯겨 나갔다. 사람이라면 칼이나 포크를 썼을 것이다. 조리대에 붙은 의자를 보면 아이 짓 같지만, 앉는 자리엔 신발 자국이 아니라 진흙 묻은 개 발자국이 찍혀 있다. 고양이라면 의자 없이 훌쩍 뛰어올랐을 것이다. 범인은 이 집 개, 의자를 밟고 조리대에 올라갔다. 그런데 개가 의자를 끌어 왔을까? 의자 바로 위의 찬장이 활짝 열려 있다. 주인이 찬장에서 생일 초를 꺼내려고 의자를 밟고 올라갔다가 그대로 두었다. 초 상자는 아직 뜯지도 않았고 종이 접시가 쌓여 있다 — 오늘 밤 생일 파티용 케이크였다. 부스러기와 크림은 바닥을 따라 개 침대까지 이어진다. 담요엔 크림과 케이크 덩어리. 범인은 한 입 물고 자기 침대로 가서 느긋하게 먹었다.",
-    "en": "One side of the cake has been torn away — no knife marks. A person would have used a knife or a fork. The chair pushed against the counter suggests a kid, but the seat has muddy paw prints on it, not shoe prints. A cat wouldn't need a chair; it would simply jump. The culprit is the family dog, and it climbed up via the chair. But did the dog drag the chair over? The cabinet right above it is wide open: the owner stood on the chair to get the birthday candles down and left it there. The candles are still unopened, the paper plates stacked — the cake was for tonight's birthday party. Crumbs and frosting trail across the floor to the dog bed, where the blanket is smeared with frosting and a chunk of cake. The culprit grabbed a mouthful and took it to bed to enjoy."
+    "ko": "케이크 한쪽이 칼자국 없이 마구 뜯겨 나갔다. 사람이라면 칼이나 포크를 썼을 것이다. 조리대에 붙은 의자를 보면 아이 짓 같지만, 앉는 자리엔 신발 자국이 아니라 진흙 묻은 개 발자국이 찍혀 있다. 고양이라면 의자 없이 훌쩍 뛰어올랐을 것이다. 범인은 이 집 개, 의자를 밟고 조리대에 올라갔다. 그런데 개가 의자를 끌어 왔을까? 의자 바로 위의 찬장이 활짝 열려 있다. 주인이 찬장에서 생일 초를 꺼내려고 의자를 밟고 올라갔다가 그대로 두었다. 초 상자는 아직 뜯지도 않았고 종이 접시가 쌓여 있다. 어제 파티에서 남은 케이크였다면 초 상자는 이미 뜯겼을 것이다 — 오늘 밤 생일 파티용 케이크였다. 부스러기와 크림은 바닥을 따라 개 침대까지 이어진다. 담요엔 크림과 케이크 덩어리. 범인은 한 입 물고 자기 침대로 가서 느긋하게 먹었다.",
+    "en": "One side of the cake has been torn away — no knife marks. A person would have used a knife or a fork. The chair pushed against the counter suggests a kid, but the seat has muddy paw prints on it, not shoe prints. A cat wouldn't need a chair; it would simply jump. The culprit is the family dog, and it climbed up via the chair. But did the dog drag the chair over? The cabinet right above it is wide open: the owner stood on the chair to get the birthday candles down and left it there. The candles are still unopened, the paper plates stacked. Leftovers from a party yesterday would come with an opened box of candles — this cake was for tonight. Crumbs and frosting trail across the floor to the dog bed, where the blanket is smeared with frosting and a chunk of cake. The culprit grabbed a mouthful and took it to bed to enjoy."
   }
 }

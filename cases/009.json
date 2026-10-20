@@ -145,8 +145,8 @@
           "en": "Buy roses at the flower market"
         },
         {
-          "ko": "건너편 울타리를 마저 다듬는다",
-          "en": "Finish trimming the hedge across the street"
+          "ko": "길 건너 울타리 쪽 일을 이어서 한다",
+          "en": "Get back to work on the hedge across the street"
         },
         {
           "ko": "잔디 깎는 기계를 고치러 간다",
@@ -207,13 +207,13 @@
       "y": 23,
       "r": 15,
       "label": {
-        "ko": "건너편 울타리 — 왼쪽 반만 반듯하게 다듬어졌고, 끝난 자리에 수레",
-        "en": "The hedge across the street — only the left half trimmed, a wheelbarrow where it stops"
+        "ko": "길 건너 울타리 옆에 세워 둔, 갈퀴를 실은 외바퀴 수레",
+        "en": "A wheelbarrow with a rake, parked by the hedge across the street"
       }
     }
   ],
   "detective": {
-    "ko": "바지는 깨끗한데 양 무릎에만 흙과 풀물이 똑같이 배어 있다. 넘어졌다면 한쪽만, 그것도 찢어졌을 것이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 무릎을 꿇지만 그쪽은 회색 시멘트 자국이다. 이건 흙과 풀이다. 허리춤엔 흙 묻은 장갑과 가죽 집에 꽂은 전정가위. 농부도 가위를 쓰지만 여긴 아파트 단지 한가운데다. 팔뚝의 가는 긁힘은 고양이가 아니라 소매에 붙은 꽃잎이 설명해 준다 — 장미 가시다. 모자를 쓰고 고개를 숙인 채 일하니 얼굴은 그늘지고 목 뒤만 해를 받았다. 그리고 길 건너 울타리. 왼쪽 반만 반듯하게 깎였고, 깎다 만 자리에 수레가 서 있다. 컵라면을 다 먹으면 나머지 반을 깎으러 간다.",
-    "en": "His trousers are clean except for matching soil and grass stains on both knees. A fall would mark one knee, and probably tear it. This man kneels all day for work. A tile setter kneels too, but comes away with grey grout, not grass. At his belt: dirty gloves and pruning shears in a leather holster. A farmer might carry shears, but this is the middle of an apartment neighborhood. The thin scratches on his forearms? Not a cat — the petal on his sleeve says rose thorns. He works bent over in a cap, so his face stays shaded while the back of his neck takes the sun. And across the street, a hedge: the left half neatly trimmed, a wheelbarrow parked right where the trimming stops. Once the noodles are gone, he's going back to finish it."
+    "ko": "바지는 깨끗한데 양 무릎에만 흙과 풀물이 똑같이 배어 있다. 넘어졌다면 한쪽만, 그것도 찢어졌을 것이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 무릎을 꿇지만 그쪽은 회색 시멘트 자국이다. 이건 흙과 풀이다. 허리춤엔 흙 묻은 장갑과 가죽 집에 꽂은 전정가위. 농부도 가위를 쓰지만 여긴 아파트 단지 한가운데다. 팔뚝의 가는 긁힘은 고양이가 아니라 소매에 붙은 꽃잎이 설명해 준다 — 장미 가시다. 모자를 쓰고 고개를 숙인 채 일하니 얼굴은 그늘지고 목 뒤만 해를 받았다. 그리고 길 건너 울타리 옆엔 갈퀴를 실은 수레가 세워져 있다. 장갑은 뒷주머니에, 가위는 허리춤에 그대로 — 일을 접은 사람의 차림이 아니다. 컵라면을 다 먹으면 저 울타리로 돌아간다.",
+    "en": "His trousers are clean except for matching soil and grass stains on both knees. A fall would mark one knee, and probably tear it. This man kneels all day for work. A tile setter kneels too, but comes away with grey grout, not grass. At his belt: dirty gloves and pruning shears in a leather holster. A farmer might carry shears, but this is the middle of an apartment neighborhood. The thin scratches on his forearms? Not a cat — the petal on his sleeve says rose thorns. He works bent over in a cap, so his face stays shaded while the back of his neck takes the sun. And across the street, a wheelbarrow with a rake sits parked by the hedge. Gloves still tucked in, shears still on his belt — that's not a man who's done for the day. Once the noodles are gone, he's heading back to that hedge."
   }
 }
