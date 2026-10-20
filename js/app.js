@@ -266,9 +266,9 @@
       resultBox.append(el('h2', null, t('result.heading')));
       const card = el('div', 'grade-card grade-' + res.grade);
       card.append(el('p', 'grade', t('grade.' + res.grade)), el('p', 'score', t('result.score', { s: res.score, m: res.max })));
-      resultBox.append(card, el('p', 'small', t('result.tapHint')));
+      resultBox.append(card);
 
-      resultBox.append(el('h2', null, t('result.detective')), el('p', 'detective', pick(c.detective)));
+      resultBox.append(el('h2', null, t('result.detective')), el('p', 'detective', pick(c.detective)), el('p', 'tap-hint', t('result.tapHint')));
 
       const shareBtn = el('button', 'btn primary', t('share.button'));
       shareBtn.type = 'button';

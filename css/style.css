@@ -135,6 +135,7 @@ main { padding: 20px 0 40px; }
   background: var(--paper); border-left: 4px solid var(--accent); padding: 14px 16px; margin: 0;
   font-family: var(--title-font); font-size: 1.02rem; line-height: 1.8;
 }
+.tap-hint { margin: 10px 0 4px; font-size: .9rem; font-weight: 600; color: var(--accent); }
 .share-msg { min-height: 1.2em; }
 .share-text { width: 100%; font: inherit; font-size: .9rem; padding: 8px; border: 1px solid var(--line); border-radius: 8px; }
 .countdown { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--accent); }

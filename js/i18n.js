@@ -32,7 +32,7 @@ const I18N = {
     'result.right': '✔ 정답',
     'result.wrong': '✘ 오답 · 정답: {a}',
     'result.score': '정답 {s} / {m}',
-    'result.tapHint': '사진 위 원을 누르면 정답의 근거가 된 단서 설명이 나옵니다.',
+    'result.tapHint': '🔍 사진 위 동그라미를 누르면 각 단서를 자세히 볼 수 있어요.',
     'result.detective': '탐정의 추리',
 
     'grade.sherlock': '셜록',
@@ -105,7 +105,7 @@ const I18N = {
     'result.right': '✔ Correct',
     'result.wrong': '✘ Wrong · Answer: {a}',
     'result.score': '{s} / {m} correct',
-    'result.tapHint': 'Tap a circle on the photo to see the clue behind the answers.',
+    'result.tapHint': '🔍 Tap any circle on the photo to see each clue up close.',
     'result.detective': "The Detective's Reasoning",
 
     'grade.sherlock': 'Sherlock',
