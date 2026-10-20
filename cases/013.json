@@ -110,8 +110,8 @@
       },
       "options": [
         {
-          "ko": "카드를 던져 천장에 꽂는 묘기",
-          "en": "A trick — a card thrown so it sticks"
+          "ko": "관객이 고른 카드를 천장에 붙이는 마술",
+          "en": "A trick that sends a spectator's card up to the ceiling"
         },
         {
           "ko": "장식으로 붙였다",
@@ -206,12 +206,12 @@
     },
     {
       "id": "e5",
-      "x": 53,
-      "y": 10,
-      "r": 6,
+      "x": 51,
+      "y": 8,
+      "r": 5,
       "label": {
-        "ko": "천장에 비스듬히 박혀 매달린 카드 한 장, 주변에 갈라진 자국",
-        "en": "A single card lodged at an angle in the ceiling, the plaster cracked around it"
+        "ko": "천장에 납작하게 붙은 카드 한 장 — 카드 마술의 흔적",
+        "en": "A single card stuck flat to the ceiling — the trace of a card trick"
       }
     },
     {
@@ -226,7 +226,7 @@
     }
   ],
   "detective": {
-    "ko": "탁자 위 카드 한 벌이 자로 잰 듯 고르게 펼쳐져 있다. 카지노 딜러의 솜씨 같지만, 딜러는 카드를 천장에 붙이지 않는다. 천장엔 카드 한 장이 비스듬히 박혀 매달려 있고, 주변 회반죽이 갈라졌다. 붙이거나 장식한 게 아니라, 세게 던져서 꽂힌 자국이다 — 카드를 던져 천장에 꽂는 묘기다. 문이 열린 빈 새장엔 하얀 깃털. 고양이나 이구아나라면 깃털이 남을 리 없다. 모자에서 날아오르던 하얀 비둘기다. 벽의 빛바랜 사진 속, 턱시도에 실크해트를 쓰고 무대에서 인사하는 젊은 남자. 배우나 가수 같지만, 그 실크해트가 지금 옷걸이에 걸려 있다. 사진 속 남자는 젊은 시절의 집주인이다. 다만 모자엔 먼지가 뽀얗게 앉았고, 옆 탁자엔 요일별 약통과 돋보기안경. 무대를 떠난 지는 오래됐다. 그래도 카드는 오늘도 펼쳐져 있다. 은퇴한 마술사의 손은 아직 쉬지 않는다.",
-    "en": "A deck of cards lies on the table in a perfectly even arc. A casino dealer could do that — but dealers don't leave cards stuck to the ceiling. Look up: one card is lodged at an angle in the ceiling, the plaster cracked around it. Nobody glued that up there — it was thrown hard enough to stick, a classic trick. The empty birdcage, door open, holds a few white feathers. No cat or iguana leaves feathers behind; these belonged to white doves — the kind that fly out of a hat. On the wall, a faded photo: a young man in a tuxedo and top hat, bowing on stage. An actor, a singer? But that same top hat hangs on the coat rack. The young man is the owner. The hat is thick with dust, though, and the side table holds a pill organizer and reading glasses — the stage is long behind him. Yet the cards are spread out again today. A retired magician's hands never quite stop practicing."
+    "ko": "탁자 위 카드 한 벌이 자로 잰 듯 고르게 펼쳐져 있다. 카지노 딜러의 솜씨 같지만, 딜러는 카드를 천장에 붙이지 않는다. 천장엔 카드 한 장이 납작하게 붙어 있다. 장식이라면 한 장만 붙였을 리 없고, 얼룩을 가리려 했다면 페인트를 칠했을 것이다. 관객이 고른 카드를 천장에 휙 던져 붙이는 마술 — 그 연습의 흔적이다. 문이 열린 빈 새장엔 하얀 깃털. 고양이나 이구아나라면 깃털이 남을 리 없다. 모자에서 날아오르던 하얀 비둘기다. 벽의 빛바랜 사진 속, 턱시도에 실크해트를 쓰고 무대에서 인사하는 젊은 남자. 배우나 가수 같지만, 그 실크해트가 지금 옷걸이에 걸려 있다. 사진 속 남자는 젊은 시절의 집주인이다. 다만 모자엔 먼지가 뽀얗게 앉았고, 옆 탁자엔 요일별 약통과 돋보기안경. 무대를 떠난 지는 오래됐다. 그래도 카드는 오늘도 펼쳐져 있다. 은퇴한 마술사의 손은 아직 쉬지 않는다.",
+    "en": "A deck of cards lies on the table in a perfectly even arc. A casino dealer could do that — but dealers don't leave cards stuck to the ceiling. Look up: a single card is stuck flat to the ceiling. Decoration wouldn't be one lone card, and a stain would get a coat of paint. It's a classic trick — a spectator's chosen card flung up to stick on the ceiling — and this one is left over from practice. The empty birdcage, door open, holds a few white feathers. No cat or iguana leaves feathers behind; these belonged to white doves — the kind that fly out of a hat. On the wall, a faded photo: a young man in a tuxedo and top hat, bowing on stage. An actor, a singer? But that same top hat hangs on the coat rack. The young man is the owner. The hat is thick with dust, though, and the side table holds a pill organizer and reading glasses — the stage is long behind him. Yet the cards are spread out again today. A retired magician's hands never quite stop practicing."
   }
 }
