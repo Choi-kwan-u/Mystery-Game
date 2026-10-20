@@ -103,33 +103,33 @@
       ]
     },
     {
-      "key": "going",
+      "key": "worksite",
       "ask": {
-        "ko": "지금은 일하러 가는 길일까, 마치고 오는 길일까?",
-        "en": "Is he heading to a job or coming back from one?"
+        "ko": "그는 주로 어디서 일할까?",
+        "en": "Where does he usually work?"
       },
       "options": [
         {
-          "ko": "일하러 가는 길",
-          "en": "Heading to one"
+          "ko": "자기 가게에서 손님을 맞는다",
+          "en": "In his own shop, where customers come to him"
         },
         {
-          "ko": "일을 마치고 오는 길",
-          "en": "Coming back from one"
+          "ko": "공장 작업대 앞에서",
+          "en": "At a factory workbench"
         },
         {
-          "ko": "쉬는 날 나들이",
-          "en": "Out on his day off"
+          "ko": "고객을 직접 찾아다닌다",
+          "en": "He goes to his customers"
         },
         {
-          "ko": "면접 보러 가는 길",
-          "en": "On his way to an interview"
+          "ko": "집에서",
+          "en": "From home"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
-        "e6",
-        "e3"
+        "e1",
+        "e5"
       ]
     },
     {
@@ -202,20 +202,10 @@
         "ko": "가방끈에 미리 달아 둔 노란 방문자 출입증 — 사과와 연필 그림",
         "en": "A yellow visitor badge already clipped to his bag strap — with an apple-and-pencil logo"
       }
-    },
-    {
-      "id": "e6",
-      "x": 52,
-      "y": 43,
-      "r": 10,
-      "label": {
-        "ko": "얼룩 하나 없는 새하얀 셔츠",
-        "en": "A spotless white shirt"
-      }
     }
   ],
   "detective": {
-    "ko": "가죽 공구 롤을 든 남자다. 틈으로 T자 렌치와 고무 쐐기가 보이고, 손목엔 줄자, 귀 위엔 연필. 무언가를 재고 고치는 사람이다. 바이올리니스트도 회사원도 이런 걸 들고 출근하지 않는다. 그럼 음악 교사일까? 가방끈의 노란 출입증에는 사과와 연필 — 학교다. 하지만 이건 방문자 출입증이다. 그 학교 선생님이라면 방문증을 달 이유가 없다. 그는 밖에서 학교를 찾아가 무언가를 고치는 사람이고, 학교가 공구 든 사람을 부르는 악기라면 음악실의 피아노다. T자 렌치는 피아노 줄을 조이는 조율 해머다. 흰 셔츠엔 피아노 속 먼지 한 톨 없고, 귀 위의 연필은 막 깎은 듯 뾰족하다. 일을 마치고 오는 길이 아니라 가는 길이다. 연필을 귀에 꽂고 다니는 건 손이 공구로 바쁠 때도 바로 메모하기 위해서다. 마지막으로 그 출입증을 다시 보라. 방문증은 보통 학교 정문에서 받고, 나갈 때 돌려준다. 그런데 그는 학교에 도착하기도 전, 지하철 플랫폼에서 이미 그걸 가방에 달고 있다. 늘 갖고 다니는 출입증이다. 피아노는 때마다 조율해야 하고, 그는 그때마다 이 학교를 찾는 단골 조율사다.",
-    "en": "A man with a leather tool roll. A T-shaped wrench and rubber wedges peek out of it; there's a tape measure on his wrist and a pencil tucked above his ear. He measures and fixes things — not something a violinist or an office worker carries to work. A music teacher, then? The yellow badge with an apple and a pencil says school, but it's a visitor badge. A teacher wouldn't need one at their own school. He's an outsider called in to fix something, and the instrument a school calls in someone with tools for is the piano in the music room. That T-shaped wrench is a tuning hammer, for tightening piano strings. His white shirt hasn't picked up a speck of piano dust, and the pencil above his ear is freshly sharpened: he's on his way to the job, not coming back from it. A pencil kept behind the ear is for jotting a note the moment he needs to, even with his hands full of tools. Now look at that badge again. Visitor badges are usually handed out at the front office and returned on the way out. Yet he already has it clipped to his bag — on a subway platform, before he's even reached the school. It's a badge he keeps. Pianos need tuning again and again, and he's the tuner this school calls every time."
+    "ko": "가죽 공구 롤을 든 남자다. 틈으로 T자 렌치와 고무 쐐기가 보이고, 손목엔 줄자, 귀 위엔 연필. 무언가를 재고 고치는 사람이다. 바이올리니스트도 회사원도 이런 걸 들고 출근하지 않는다. 그럼 음악 교사일까? 가방끈의 노란 출입증에는 사과와 연필 — 학교다. 하지만 이건 방문자 출입증이다. 그 학교 선생님이라면 방문증을 달 이유가 없다. 그는 밖에서 학교를 찾아가 무언가를 고치는 사람이고, 학교가 공구 든 사람을 부르는 악기라면 음악실의 피아노다. T자 렌치는 피아노 줄을 조이는 조율 해머다. 공구를 말아 들고 지하철을 타는 사람은 손님이 찾아오기를 기다리지 않는다. 피아노가 있는 곳으로 직접 찾아간다. 연필을 귀에 꽂고 다니는 건 손이 공구로 바쁠 때도 바로 메모하기 위해서다. 마지막으로 그 출입증을 다시 보라. 방문증은 보통 학교 정문에서 받고, 나갈 때 돌려준다. 그런데 그는 학교에 도착하기도 전, 지하철 플랫폼에서 이미 그걸 가방에 달고 있다. 늘 갖고 다니는 출입증이다. 피아노는 때마다 조율해야 하고, 그는 그때마다 이 학교를 찾는 단골 조율사다.",
+    "en": "A man with a leather tool roll. A T-shaped wrench and rubber wedges peek out of it; there's a tape measure on his wrist and a pencil tucked above his ear. He measures and fixes things — not something a violinist or an office worker carries to work. A music teacher, then? The yellow badge with an apple and a pencil says school, but it's a visitor badge. A teacher wouldn't need one at their own school. He's an outsider called in to fix something, and the instrument a school calls in someone with tools for is the piano in the music room. That T-shaped wrench is a tuning hammer, for tightening piano strings. Someone who rolls up his tools and takes the subway doesn't wait for customers to come to him — he goes wherever the piano is. And a pencil kept behind the ear is for jotting a note the moment he needs to, even with his hands full of tools. Now look at that badge again. Visitor badges are usually handed out at the front office and returned on the way out. Yet he already has it clipped to his bag — on a subway platform, before he's even reached the school. It's a badge he keeps. Pianos need tuning again and again, and he's the tuner this school calls every time."
   }
 }
