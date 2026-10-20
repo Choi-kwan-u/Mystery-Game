@@ -76,32 +76,33 @@
       ]
     },
     {
-      "key": "powder",
+      "key": "funeral",
       "ask": {
-        "ko": "검은 옷 어깨의 하얀 가루는?",
-        "en": "What's the white dust on the shoulder of her black outfit?"
+        "ko": "검은 옷을 입었지만 장례식에 다녀온 게 아닌 이유는?",
+        "en": "She's in black — why isn't she coming from a funeral?"
       },
       "options": [
         {
-          "ko": "밀가루",
-          "en": "Flour"
+          "ko": "밤 10시라서",
+          "en": "Because it's 10 p.m."
         },
         {
-          "ko": "활에 바르는 송진 가루",
-          "en": "Rosin from a violin bow"
+          "ko": "꽃다발을 안고 웃고 있어서",
+          "en": "She's smiling with a bouquet in her arms"
         },
         {
-          "ko": "분필 가루",
-          "en": "Chalk dust"
+          "ko": "지하철을 타서",
+          "en": "Because she's on the subway"
         },
         {
-          "ko": "화장 파우더",
-          "en": "Face powder"
+          "ko": "머리를 묶어서",
+          "en": "Because her hair is tied up"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e2"
+        "e4",
+        "e3"
       ]
     },
     {

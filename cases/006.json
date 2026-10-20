@@ -131,33 +131,32 @@
       ]
     },
     {
-      "key": "role",
+      "key": "powder",
       "ask": {
-        "ko": "오늘 무대에서 그녀는 어떤 자리였을까?",
-        "en": "What was her role on stage tonight?"
+        "ko": "검은 옷 어깨의 하얀 가루는?",
+        "en": "What's the white dust on the shoulder of her black outfit?"
       },
       "options": [
         {
-          "ko": "오케스트라 뒷줄 단원",
-          "en": "A player at the back of the orchestra"
+          "ko": "활에 바르는 송진 가루",
+          "en": "Rosin from a violin bow"
         },
         {
-          "ko": "공연을 보러 온 관객",
-          "en": "An audience member"
+          "ko": "밀가루",
+          "en": "Flour"
         },
         {
-          "ko": "무대 뒤 스태프",
-          "en": "Backstage crew"
+          "ko": "분필 가루",
+          "en": "Chalk dust"
         },
         {
-          "ko": "오케스트라 앞에 선 독주자",
-          "en": "The soloist in front of the orchestra"
+          "ko": "화장 파우더",
+          "en": "Face powder"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
-        "e4",
-        "e1"
+        "e2"
       ]
     }
   ],
@@ -214,7 +213,7 @@
     }
   ],
   "detective": {
-    "ko": "꽃다발에 올블랙 무대 의상, 무릎 위의 악보. 공연을 막 마친 클래식 연주자다. 오디션에서는 꽃을 받지 않고, 결혼식 하객은 이렇게 검게 입지 않는다. 그럼 무슨 악기일까? 목이 대답한다. 턱 아래, 악기를 끼우는 바로 그 자리에 굳은 갈색 자국이 있다. 목걸이 자국이라면 목을 따라 가늘게 둘렀을 것이다. 어깨엔 활에 바르는 송진 가루까지 묻었다. 바이올리니스트의 목이다. 관객이나 스태프라면 이런 자국도 악보도 없다. 그리고 무릎 위의 커다란 꽃다발. 이런 꽃다발은 보통 박수를 받으며 무대 앞에 선 독주자에게 건넨다. 오늘 그녀는 오케스트라 앞에서 혼자 연주했고, 공연은 성공이었다.",
-    "en": "A bouquet, an all-black stage outfit, sheet music in her lap: a classical musician on her way home from a concert. Nobody hands you flowers at an audition, and wedding guests don't dress like this. So which instrument? Her neck answers that. Just under her jaw — exactly where the instrument sits — there's a hardened brown mark. A necklace would leave a thin line around the neck, not a patch. On her shoulder, a dusting of rosin, the stuff that goes on a bow. That's a violinist's neck; an audience member or a stagehand wouldn't have the mark or the music. And that big bouquet? Flowers like that usually go to the soloist standing in front of the orchestra as the applause rolls in. Tonight she played out front, alone — and it went well."
+    "ko": "꽃다발에 올블랙 무대 의상, 무릎 위의 악보. 공연을 막 마친 클래식 연주자다. 오디션에서는 꽃을 받지 않고, 결혼식 하객은 이렇게 검게 입지 않는다. 그럼 무슨 악기일까? 목이 대답한다. 턱 아래, 악기를 끼우는 바로 그 자리에 굳은 갈색 자국이 있다. 목걸이 자국이라면 목을 따라 가늘게 둘렀을 것이다. 그리고 검은 옷 어깨에 묻은 하얀 가루. 밀가루나 분필을 만질 사람의 차림이 아니다 — 활에 바르는 송진 가루다. 바이올린을 어깨에 얹고 활을 켜면 송진이 날려 어깨에 앉는다. 그녀는 바이올리니스트다. 무릎 위의 꽃다발은 박수를 받고 무대를 내려온 사람의 것이다 — 오늘 공연은 성공이었다.",
+    "en": "A bouquet, an all-black stage outfit, sheet music in her lap: a classical musician on her way home from a concert. Nobody hands you flowers at an audition, and wedding guests don't dress like this. So which instrument? Her neck answers that. Just under her jaw — exactly where the instrument sits — there's a hardened brown mark. A necklace would leave a thin line around the neck, not a patch. Then there's the white dust on the shoulder of her black outfit. She isn't dressed for handling flour or chalk — it's rosin, rubbed onto a bow. Play with a violin on your shoulder and the rosin drifts down onto it. She's a violinist. And a bouquet like that is what you carry off a stage to applause — tonight went well."
   }
 }

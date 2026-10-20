@@ -28,8 +28,8 @@
           "en": "Someone got urgent news and rushed out"
         },
         {
-          "ko": "늦잠을 자서 허둥지둥 출근했다",
-          "en": "Someone overslept and rushed off to work"
+          "ko": "평소처럼 출근했다",
+          "en": "Someone left for work as usual"
         },
         {
           "ko": "부부싸움을 했다",
@@ -227,7 +227,7 @@
     }
   ],
   "detective": {
-    "ko": "머그잔이 엎어졌고 커피가 식탁 끝으로 뚝뚝 떨어진다. 아직 김이 오른다 — 몇 분 전 일이다. 토스트는 한 입, 접시도 잔도 하나뿐. 혼자 먹던 아침이니 부부싸움은 아니다. 의자는 뒤로 넘어졌다. 벌떡 일어나다 의자를 차고, 컵을 쳤다. 도둑이라면 노트북 가방부터 가져갔겠지만, 가방은 넘어진 의자에 그대로 걸려 있다. 늦잠을 잤다면 토스트를 굽고 커피를 내릴 틈도 없었을 테고, 출근하는 사람이 일 가방을 두고 가지는 않는다. 사라진 건 딱 두 가지. 콘센트엔 충전기 줄만 늘어져 있고, 열쇠걸이엔 고리 하나가 비었다. 휴대폰과 차 열쇠. 누가 태우러 왔거나 택시를 탔다면 차 열쇠는 필요 없다. 열린 문 너머 주차 자리엔 기름 자국만 남았다. 급한 연락을 받고, 커피도 가방도 내버려 둔 채 자기 차를 몰고 뛰쳐나갔다.",
-    "en": "A mug lies on its side, coffee dripping off the edge of the table — and it's still steaming. This happened minutes ago. One bite out of the toast, one plate, one mug: breakfast for one, so no couple's fight. The chair went over backward — someone shot up, kicked the chair and hit the cup. A burglar would have grabbed the laptop bag, but it's still hanging on the fallen chair. Someone who'd overslept wouldn't have had time to make toast and coffee, and nobody rushing to work leaves their work bag behind. Only two things are gone. The charger cable dangles from the outlet with no phone, and one hook on the key rack is empty: the phone and the car keys. If someone had picked them up, or a taxi had, the car keys would have stayed. Through the open door, the parking spot holds nothing but an oil stain. Urgent news came, and they drove off — leaving the coffee, the bag and the door behind."
+    "ko": "머그잔이 엎어졌고 커피가 식탁 끝으로 뚝뚝 떨어진다. 아직 김이 오른다 — 몇 분 전 일이다. 토스트는 한 입, 접시도 잔도 하나뿐. 혼자 먹던 아침이니 부부싸움은 아니다. 의자는 뒤로 넘어졌다. 벌떡 일어나다 의자를 차고, 컵을 쳤다. 도둑이라면 노트북 가방부터 가져갔겠지만, 가방은 넘어진 의자에 그대로 걸려 있다. 평소처럼 출근했다면 의자를 넘어뜨리고 커피를 쏟은 채 문을 열어 두고 가지는 않았을 테고, 일 가방도 챙겼을 것이다. 사라진 건 딱 두 가지. 콘센트엔 충전기 줄만 늘어져 있고, 열쇠걸이엔 고리 하나가 비었다. 휴대폰과 차 열쇠. 누가 태우러 왔거나 택시를 탔다면 차 열쇠는 필요 없다. 열린 문 너머 주차 자리엔 기름 자국만 남았다. 급한 연락을 받고, 커피도 가방도 내버려 둔 채 자기 차를 몰고 뛰쳐나갔다.",
+    "en": "A mug lies on its side, coffee dripping off the edge of the table — and it's still steaming. This happened minutes ago. One bite out of the toast, one plate, one mug: breakfast for one, so no couple's fight. The chair went over backward — someone shot up, kicked the chair and hit the cup. A burglar would have grabbed the laptop bag, but it's still hanging on the fallen chair. An ordinary trip to work doesn't leave a knocked-over chair, spilled coffee and an open door — and it takes the work bag along. Only two things are gone. The charger cable dangles from the outlet with no phone, and one hook on the key rack is empty: the phone and the car keys. If someone had picked them up, or a taxi had, the car keys would have stayed. Through the open door, the parking spot holds nothing but an oil stain. Urgent news came, and they drove off — leaving the coffee, the bag and the door behind."
   }
 }
