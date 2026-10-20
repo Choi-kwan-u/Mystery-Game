@@ -43,31 +43,32 @@
       ]
     },
     {
-      "key": "breed",
+      "key": "kind",
       "ask": {
-        "ko": "오늘 그녀가 가장 많이 만진 개는?",
-        "en": "Which dog did she handle most today?"
+        "ko": "빈자리가 있는데도 서 있는 걸 보면, 그녀는 어떤 사람일까?",
+        "en": "She's standing even though there are empty seats. What kind of person is she?"
       },
       "options": [
         {
-          "ko": "골든 리트리버",
-          "en": "Golden retriever"
+          "ko": "성격이 급한 사람",
+          "en": "Someone impatient"
         },
         {
-          "ko": "시바견",
-          "en": "Shiba Inu"
+          "ko": "운동을 좋아하는 사람",
+          "en": "Someone who likes the exercise"
         },
         {
-          "ko": "푸들",
-          "en": "Poodle"
+          "ko": "남을 배려하는 사람",
+          "en": "Someone considerate of others"
         },
         {
-          "ko": "닥스훈트",
-          "en": "Dachshund"
+          "ko": "남의 시선을 신경 안 쓰는 사람",
+          "en": "Someone who doesn't care what others think"
         }
       ],
       "answer": 2,
       "evidence": [
+        "e3",
         "e1"
       ]
     },
@@ -214,7 +215,7 @@
     }
   ],
   "detective": {
-    "ko": "검은 옷이 하얀 털로 뒤덮였다. 재단사의 실밥이나 보풀이 아니고, 미용사가 자른 사람 머리카락도 아니다. 전부 하얗고 곱슬곱슬한 개털이다. 팔뚝엔 작은 할퀸 자국과 반창고. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 젖지는 않는다. 욕조에 몸을 기대고 하루 종일 개를 씻긴 사람이다. 털은 리트리버의 금빛도, 시바견의 주황빛도, 닥스훈트의 짧은 갈색도 아니다. 하얀 곱슬 털 — 오늘 그녀 손을 가장 많이 거친 건 푸들이다. 가방 옆주머니의 쇠빗에도 같은 털이 끼어 있다. 출근길에 이렇게 털을 뒤집어쓰고 배까지 젖어 있을 리 없다. 하루 일을 다 마친 퇴근길이다. 그리고 바로 옆 빈자리 두 개. 피곤해 보이는데도 앉지 않는다. 앉으면 천 좌석에 하얀 털이 고스란히 남을 테니까.",
-    "en": "Her black clothes are covered in white fur. Not a tailor's lint, not a hairdresser's clippings of human hair — it's white, curly dog fur. Small scratches and bandages on her arm. A vet gets fur and scratches too, but not a soaked belly: she spent the day leaning over a tub, bathing dogs. The fur isn't a retriever's gold, a Shiba's orange or a dachshund's short brown. It's white and curly: today was poodle day. The metal comb in her bag has the same fur in its teeth. Nobody starts the workday already covered in fur with a soaked shirt — she's on her way home. And the two empty seats beside her? She looks exhausted, yet she won't sit. One ride on that cloth seat and it would be covered in white fur."
+    "ko": "검은 옷이 하얀 털로 뒤덮였다. 재단사의 실밥이나 보풀이 아니고, 미용사가 자른 사람 머리카락도 아니다. 전부 하얗고 곱슬곱슬한 개털이다. 팔뚝엔 작은 할퀸 자국과 반창고. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 젖지는 않는다. 욕조에 몸을 기대고 하루 종일 개를 씻긴 사람이다. 가방 옆주머니의 쇠빗에도 같은 하얀 털이 끼어 있다. 출근길에 이렇게 털을 뒤집어쓰고 배까지 젖어 있을 리 없다. 하루 일을 다 마친 퇴근길이다. 그리고 바로 옆 빈자리 두 개. 피곤해 보이는데도 앉지 않는다. 앉으면 천 좌석에 하얀 털이 고스란히 남아 다음 사람 옷에 묻을 테니까. 털투성이 차림을 신경 안 쓰는 사람이 아니라, 남을 신경 쓰는 사람이다.",
+    "en": "Her black clothes are covered in white fur. Not a tailor's lint, not a hairdresser's clippings of human hair — it's white, curly dog fur. Small scratches and bandages on her arm. A vet gets fur and scratches too, but not a soaked belly: she spent the day leaning over a tub, bathing dogs. The metal comb in her bag has the same white fur caught in its teeth. Nobody starts the workday already covered in fur with a soaked shirt — she's on her way home. And the two empty seats beside her? She looks exhausted, yet she won't sit: one ride on that cloth seat and it would be covered in white fur, ready to cling to the next passenger. She isn't someone who doesn't care how she looks — she's someone who cares about other people."
   }
 }
