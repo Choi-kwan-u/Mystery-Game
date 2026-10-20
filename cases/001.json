@@ -23,8 +23,8 @@
           "en": "Police officer"
         },
         {
-          "ko": "치과위생사",
-          "en": "Dental hygienist"
+          "ko": "야간 경비원",
+          "en": "Night security guard"
         },
         {
           "ko": "중학교 교사",
@@ -226,7 +226,7 @@
     }
   ],
   "detective": {
-    "ko": "가방부터 보자. 구겨 넣은 남색 근무복, 그리고 집게에 물린 출입증. 남색 제복에 출입증이면 경찰관일 수도 있지만, 손목엔 몇 시간을 쓰다 방금 벗은 마스크가 걸려 있다. 마스크를 하루 종일 쓰는 건 환자를 보는 사람이다. 치과위생사도 그렇다. 그런데 토요일 오전 9시, 근무복은 몸이 아니라 가방 속에 구겨져 있다. 다 입고 벗은 옷이다. 눈 밑은 퀭하게 내려앉았고 머리는 헝클어졌다. 출근길이 아니라 퇴근길 — 밤샘 근무를 마친 것이다. 치과는 밤새 문을 열지 않는다. 그녀는 간호사이고, 밤새 문을 여는 곳이니 동네 치과나 약국이 아니라 종합병원이다. 카페에 와서 커피가 아니라 따뜻한 차를 시켰다. 곧 잠들 사람의 선택이다. 그리고 손목의 시계. 요즘 흔한 스마트워치가 아니라 초침 달린 아날로그 시계다 — 환자 손목을 짚고 초침으로 맥박을 세는 게 일인 사람의 시계다.",
-    "en": "Start with the bag: navy work clothes stuffed inside, and an ID badge on a clip. A navy uniform and a badge could mean a police officer — but a mask dangles from her wrist, just taken off after hours of wear. People who wear masks all day work with patients. So might a dental hygienist. But it's 9 a.m. on a Saturday and her work clothes are crumpled in a tote, not on her back: she's finished with them. Hollow, shadowed eyes and messy hair agree — she isn't heading in, she's heading out after a night shift. Dental offices don't run night shifts. She's a nurse, and a place open all night isn't a dental office or a pharmacy; it's a hospital. At the café she ordered hot tea, not coffee — the choice of someone about to sleep. And her watch: not a smartwatch, but an analog watch with a second hand. That's for pressing two fingers to a patient's wrist and counting the beats."
+    "ko": "가방부터 보자. 구겨 넣은 남색 근무복, 그리고 집게에 물린 출입증. 남색 제복에 출입증이면 경찰관이나 경비원일 수도 있지만, 손목엔 몇 시간을 쓰다 방금 벗은 마스크가 걸려 있다. 마스크를 몇 시간씩 쓰는 건 환자를 보는 사람이다. 그런데 토요일 오전 9시, 근무복은 몸이 아니라 가방 속에 구겨져 있다. 다 입고 벗은 옷이다. 눈 밑은 퀭하게 내려앉았고 머리는 헝클어졌다. 출근길이 아니라 퇴근길 — 밤샘 근무를 마친 것이다. 밤새 마스크를 쓰고 환자를 보는 사람, 그녀는 간호사다. 밤새 문을 여는 곳이니 동네 치과나 약국이 아니라 종합병원이다. 카페에 와서 커피가 아니라 따뜻한 차를 시켰다. 곧 잠들 사람의 선택이다. 그리고 손목의 시계. 요즘 흔한 스마트워치가 아니라 초침 달린 아날로그 시계다 — 환자 손목을 짚고 초침으로 맥박을 세는 게 일인 사람의 시계다.",
+    "en": "Start with the bag: navy work clothes stuffed inside, and an ID badge on a clip. A navy uniform and a badge could mean a police officer or a security guard — but a mask dangles from her wrist, just taken off after hours of wear. People who wear masks for hours on end work with patients. But it's 9 a.m. on a Saturday and her work clothes are crumpled in a tote, not on her back: she's finished with them. Hollow, shadowed eyes and messy hair agree — she isn't heading in, she's heading out after a night shift. A night spent masked up, caring for patients: she's a nurse, and a place open all night isn't a dental office or a pharmacy; it's a hospital. At the café she ordered hot tea, not coffee — the choice of someone about to sleep. And her watch: not a smartwatch, but an analog watch with a second hand. That's for pressing two fingers to a patient's wrist and counting the beats."
   }
 }
