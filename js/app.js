@@ -80,14 +80,16 @@
   function runGame(c, isToday) {
     const viewer = $('#viewer'), stage = $('#stage'), photo = $('#photo'), marks = $('#marks');
     const bubble = $('#bubble');
-    const submitBtn = $('#submitBtn'), submitMsg = $('#submitMsg'), resultBox = $('#result');
+    const resultBox = $('#result');
     const nq = c.questions.length;
 
     const store = Store.get();
     // 질문 수가 바뀌기 전의 예전 기록은 무시하고 새로 풀게 한다
     const old = store.cases[c.id];
     const rec = old && old.sel.length === nq ? old : null;
-    let sel = rec ? rec.sel.slice() : new Array(nq).fill(null);
+    // 한 문제씩 잠기므로, 새로고침해도 이미 고른 답은 유지한다
+    const part = store.partial[c.id];
+    let sel = rec ? rec.sel.slice() : part && part.length === nq ? part.slice() : new Array(nq).fill(null);
     let res = rec;      // 제출 결과
     let submitted = !!res;
     let replay = false;
@@ -214,8 +216,11 @@
     function renderQuestions() {
       const box = $('#questions');
       box.textContent = '';
+      const current = sel.indexOf(null);
       c.questions.forEach((q, qi) => {
-        const wrap = el('div', 'q');
+        // 아직 차례가 안 온 질문은 숨긴다 — 뒤 질문이 앞 질문의 답을 흘리지 않게
+        if (!submitted && qi > current) return;
+        const wrap = el('div', 'q' + (!submitted && qi === current ? ' current' : ''));
         wrap.append(el('p', 'ask', `${qi + 1}. ${pick(q.ask)}`));
         const chips = el('div', 'chips');
         chips.setAttribute('role', 'group');
@@ -227,8 +232,10 @@
             b.disabled = true;
             if (oi === q.answer) b.classList.add('right');
             else if (sel[qi] === oi) b.classList.add('wrong');
+          } else if (qi !== current) {
+            b.disabled = true;
           } else {
-            b.addEventListener('click', () => { sel[qi] = oi; submitMsg.textContent = ''; renderQuestions(); });
+            b.addEventListener('click', () => choose(qi, oi));
           }
           chips.append(b);
         });
@@ -239,13 +246,21 @@
         }
         box.append(wrap);
       });
+      if (!submitted) box.append(el('p', 'small progress', t('q.progress', { n: current + 1, all: nq })));
+    }
+
+    function choose(qi, oi) {
+      sel[qi] = oi;
+      if (!replay) { store.partial[c.id] = sel.slice(); Store.save(); }
+      if (sel.indexOf(null) === -1) return submit();
+      renderQuestions();
+      $('#questions .q.current').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
     function renderResult() {
       resultBox.textContent = '';
       resultBox.hidden = !submitted;
-      submitBtn.hidden = submitted;
-      $('#submitNote').hidden = submitted;
+      $('#lockNote').hidden = submitted;
       if (!submitted) return;
 
       resultBox.append(el('h2', null, t('result.heading')));
@@ -282,15 +297,14 @@
 
     function renderAll() { renderQuestions(); renderMarks(); renderResult(); }
 
-    submitBtn.addEventListener('click', () => {
-      if (submitted) return;
-      if (sel.some(v => v === null)) { submitMsg.textContent = t('submit.need'); return; }
+    function submit() {
       const correct = c.questions.map((q, i) => sel[i] === q.answer);
       const score = correct.filter(Boolean).length;
       res = { sel: sel.slice(), correct, score, max: nq, grade: gradeOf(score, nq), at: Date.now() };
       submitted = true;
       if (!replay && !rec) {
         store.cases[c.id] = res;
+        delete store.partial[c.id];
         store.grades[res.grade] = (store.grades[res.grade] || 0) + 1;
         if (isToday && store.last !== TODAY) {
           store.streak = store.last === YESTERDAY ? store.streak + 1 : 1;
@@ -301,7 +315,7 @@
       }
       renderAll();
       resultBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
+    }
 
     function shareText() {
       return [
@@ -332,7 +346,8 @@
       }
     }
 
-    renderAll();
+    if (!submitted && sel.indexOf(null) === -1) submit();
+    else renderAll();
   }
 
   let countdownTimer = null;

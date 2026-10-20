@@ -54,8 +54,7 @@ main { padding: 20px 0 40px; }
   border: 1.5px solid var(--accent); background: transparent; color: var(--accent);
   font: inherit; font-weight: 600; text-decoration: none; cursor: pointer;
 }
-.btn.primary, .submit { background: var(--accent); color: #fff; }
-.submit { width: 100%; margin-top: 18px; padding: 12px; border: 0; border-radius: 10px; font: inherit; font-weight: 700; font-size: 1.05rem; cursor: pointer; }
+.btn.primary { background: var(--accent); color: #fff; }
 
 /* 게임 레이아웃: 모바일 사진 위 / 데스크톱 2열 */
 .layout { display: grid; gap: 20px; }
@@ -118,12 +117,14 @@ main { padding: 20px 0 40px; }
 }
 .chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: #fff; }
 .chip:disabled { cursor: default; opacity: .6; }
+.chip[aria-pressed="true"]:disabled { opacity: 1; }
+.q.current { border-top-color: var(--accent); }
+.progress { margin: 4px 0 0; }
 .chip.right { opacity: 1; border-color: var(--right); background: var(--right); color: #fff; }
 .chip.wrong { opacity: 1; border-color: var(--wrong); background: var(--wrong); color: #fff; text-decoration: line-through; }
 .verdict { margin: 8px 0 0; font-weight: 700; font-size: .9rem; }
 .verdict.ok { color: var(--right); }
 .verdict.no { color: var(--wrong); }
-#submitMsg { color: var(--wrong); margin: 8px 0 0; min-height: 1.2em; }
 
 /* 결과 */
 .grade-card { text-align: center; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 18px 12px; }

@@ -25,9 +25,8 @@ const I18N = {
     'viewer.full': '전체 화면 전환',
 
     'q.heading': '추리',
-    'submit': '제출하기',
-    'submit.note': '제출은 한 번만 가능합니다.',
-    'submit.need': '모든 질문에 답해 주세요.',
+    'q.lockNote': '고른 답은 바로 잠기고 다음 질문이 열립니다. 신중하게!',
+    'q.progress': '질문 {n} / {all}',
 
     'result.heading': '결과',
     'result.right': '✔ 정답',
@@ -60,7 +59,7 @@ const I18N = {
     'archive.today': '오늘',
 
     'how.title': '플레이 방법',
-    'how.body': '<ol><li><b>관찰</b> — 휠이나 두 손가락으로 사진을 확대하고, 끌어서 구석구석 살펴보세요. 사진을 탭하면 전체 화면으로 볼 수 있습니다.</li><li><b>추리</b> — 다섯 가지 질문에 답을 고르세요. 첫 질문은 언제나 그 사람의 직업입니다. 정답은 모두 사진 속 어딘가에 근거가 있습니다.</li><li><b>제출</b> — 기회는 한 번뿐입니다. 정답과 함께 사진 위에 단서가 표시되고, 탐정의 추리가 공개됩니다.</li></ol><h2>점수와 등급</h2><p>다섯 문제 중 맞힌 개수가 점수입니다.</p><ul><li>5개 — <b>셜록</b></li><li>4개 — <b>명탐정</b></li><li>2~3개 — <b>형사</b></li><li>0~1개 — <b>견습생</b></li></ul><p>새 사건은 매일 자정(내 기기 시간 기준)에 공개됩니다. 매일 풀면 연속 기록이 쌓입니다.</p>',
+    'how.body': '<ol><li><b>관찰</b> — 휠이나 두 손가락으로 사진을 확대하고, 끌어서 구석구석 살펴보세요. 사진을 탭하면 전체 화면으로 볼 수 있습니다.</li><li><b>추리</b> — 질문은 다섯 개, 한 번에 하나씩 열립니다. 답을 고르면 바로 잠기고 다음 질문이 나옵니다. 첫 질문은 언제나 그 사람의 직업이고, 정답은 모두 사진 속 어딘가에 근거가 있습니다.</li><li><b>결과</b> — 다섯 번째 답을 고르면 정답이 공개되고, 사진 위에 단서가 표시되며, 탐정의 추리가 나옵니다.</li></ol><h2>점수와 등급</h2><p>다섯 문제 중 맞힌 개수가 점수입니다.</p><ul><li>5개 — <b>셜록</b></li><li>4개 — <b>명탐정</b></li><li>2~3개 — <b>형사</b></li><li>0~1개 — <b>견습생</b></li></ul><p>새 사건은 매일 자정(내 기기 시간 기준)에 공개됩니다. 매일 풀면 연속 기록이 쌓입니다.</p>',
     'stats.title': '내 기록',
     'stats.played': '푼 사건',
     'stats.streak': '현재 연속',
@@ -99,9 +98,8 @@ const I18N = {
     'viewer.full': 'Toggle full screen',
 
     'q.heading': 'Your deduction',
-    'submit': 'Submit',
-    'submit.note': 'You only get one submission.',
-    'submit.need': 'Answer every question first.',
+    'q.lockNote': 'Each answer locks in as soon as you pick it, and the next question opens. Choose carefully!',
+    'q.progress': 'Question {n} of {all}',
 
     'result.heading': 'Verdict',
     'result.right': '✔ Correct',
@@ -134,7 +132,7 @@ const I18N = {
     'archive.today': 'Today',
 
     'how.title': 'How to Play',
-    'how.body': '<ol><li><b>Observe</b> — Zoom in with your scroll wheel or two fingers and drag to inspect every corner. Tap the photo to see it full screen.</li><li><b>Deduce</b> — Pick an answer for each of the five questions. The first is always: what does this person do? Every answer is backed by something in the photo.</li><li><b>Submit</b> — You get one shot. The answers are revealed, the clues light up on the photo, and you get the detective\'s reasoning.</li></ol><h2>Scoring and ranks</h2><p>Your score is how many of the five questions you got right.</p><ul><li>5 — <b>Sherlock</b></li><li>4 — <b>Detective</b></li><li>2–3 — <b>Inspector</b></li><li>0–1 — <b>Rookie</b></li></ul><p>A new case unlocks every day at midnight, your local time. Solve one every day to build a streak.</p>',
+    'how.body': '<ol><li><b>Observe</b> — Zoom in with your scroll wheel or two fingers and drag to inspect every corner. Tap the photo to see it full screen.</li><li><b>Deduce</b> — There are five questions, and they open one at a time. Each answer locks in as soon as you pick it. The first question is always: what does this person do? Every answer is backed by something in the photo.</li><li><b>Verdict</b> — Pick your fifth answer and the answers are revealed, the clues light up on the photo, and you get the detective\'s reasoning.</li></ol><h2>Scoring and ranks</h2><p>Your score is how many of the five questions you got right.</p><ul><li>5 — <b>Sherlock</b></li><li>4 — <b>Detective</b></li><li>2–3 — <b>Inspector</b></li><li>0–1 — <b>Rookie</b></li></ul><p>A new case unlocks every day at midnight, your local time. Solve one every day to build a streak.</p>',
     'stats.title': 'My Stats',
     'stats.played': 'Solved',
     'stats.streak': 'Current streak',

@@ -5,7 +5,8 @@ const Store = (() => {
 
   function fresh() {
     return {
-      cases: {},     // id -> { sel, pins, correct, found, score, max, grade, at }
+      cases: {},     // id -> { sel, correct, score, max, grade, at }
+      partial: {},   // id -> 제출 전까지 고른 답 (한 문제씩 잠김)
       streak: 0,
       best: 0,
       last: null,    // 마지막으로 '오늘의 사건'을 푼 현지 날짜 YYYY-MM-DD
