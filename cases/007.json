@@ -132,32 +132,32 @@
       ]
     },
     {
-      "key": "next",
+      "key": "net",
       "ask": {
-        "ko": "이 다음엔 무엇을 할까?",
-        "en": "What's he doing next?"
+        "ko": "손목에 걸린 하얀 망은 무엇일까?",
+        "en": "What's the white net around his wrist?"
       },
       "options": [
         {
-          "ko": "집에 가서 잔다",
-          "en": "Going home to sleep"
+          "ko": "양파망",
+          "en": "An onion bag"
         },
         {
-          "ko": "다시 출근한다",
-          "en": "Heading back to work"
+          "ko": "위생 머리망",
+          "en": "A hairnet"
         },
         {
-          "ko": "헬스장에 간다",
-          "en": "Hitting the gym"
+          "ko": "팔찌",
+          "en": "A bracelet"
         },
         {
-          "ko": "친구를 만난다",
-          "en": "Meeting a friend"
+          "ko": "머리끈",
+          "en": "A hair tie"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
-        "e4"
+        "e5"
       ]
     }
   ],
@@ -214,7 +214,7 @@
     }
   ],
   "detective": {
-    "ko": "팔뚝 안쪽에 가로로 그어진 분홍 줄 — 뜨거운 오븐 선반에 팔을 스친 자국이다. 요리사일 수도 있다. 하지만 운동화 앞코와 바지 밑단에 묻은 건 기름이 아니라 하얀 가루, 밀가루다. 도예가의 흙이나 미장공의 시멘트라면 회색이었을 것이다. 손목엔 위생 머리망까지. 그는 빵을 굽는다. 그런데 오후 1시에 벌써 일을 마치고 하품을 하고 있다. 제빵사의 하루는 해 뜨기 전, 새벽 4시에 시작된다. 새벽 4시에 시작한 하루라면 오후 1시는 한밤중이다. 그는 곧 집에 가서 잠들 것이다.",
-    "en": "Thin pink lines across the inside of his forearms — the marks you get from brushing against a hot oven rack. A chef could have those too. But what's on the toes of his sneakers and the hems of his trousers isn't grease; it's white powder — flour. A potter's clay or a plasterer's cement would be gray. Add the hairnet on his wrist: this man bakes bread. And it's 1 p.m. and he's already done for the day and yawning. A baker's day starts long before sunrise — around 4 a.m. When your day starts at 4 a.m., 1 p.m. is the middle of the night. He's going home to sleep."
+    "ko": "팔뚝 안쪽에 가로로 그어진 분홍 줄 — 뜨거운 오븐 선반에 팔을 스친 자국이다. 요리사일 수도 있다. 하지만 운동화 앞코와 바지 밑단에 묻은 건 기름이 아니라 하얀 가루, 밀가루다. 도예가의 흙이나 미장공의 시멘트라면 회색이었을 것이다. 손목에 걸린 하얀 망은 주방에서 머리를 감싸는 위생 머리망이다. 그는 빵을 굽는다. 그런데 오후 1시에 벌써 일을 마치고 하품을 하고 있다. 제빵사의 하루는 해 뜨기 전, 새벽 4시에 시작된다.",
+    "en": "Thin pink lines across the inside of his forearms — the marks you get from brushing against a hot oven rack. A chef could have those too. But what's on the toes of his sneakers and the hems of his trousers isn't grease; it's white powder — flour. A potter's clay or a plasterer's cement would be gray. And that white net around his wrist is a kitchen hairnet: this man bakes bread. And it's 1 p.m. and he's already done for the day and yawning. A baker's day starts long before sunrise — around 4 a.m."
   }
 }
