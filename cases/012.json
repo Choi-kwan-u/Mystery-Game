@@ -1,7 +1,7 @@
 {
   "id": 12,
   "date": "2026-11-06",
-  "image": "img/012.svg",
+  "image": "img/012.webp",
   "title": {
     "ko": "털투성이 퇴근길",
     "en": "The Fur-Covered Commute"
@@ -15,40 +15,44 @@
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
-        "en": "What does she do for a living?"
+        "en": "What does she do?"
       },
       "options": [
-        {
-          "ko": "미용사",
-          "en": "Hairdresser"
-        },
         {
           "ko": "수의사",
           "en": "Veterinarian"
         },
         {
-          "ko": "반려견 미용사",
-          "en": "Dog groomer"
+          "ko": "미용사",
+          "en": "Hairdresser"
         },
         {
           "ko": "재단사",
           "en": "Tailor"
+        },
+        {
+          "ko": "반려견 미용사",
+          "en": "Dog groomer"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
         "e1",
-        "e3",
-        "e4"
+        "e2",
+        "e5"
       ]
     },
     {
       "key": "breed",
       "ask": {
         "ko": "오늘 그녀가 가장 많이 만진 개는?",
-        "en": "What kind of dog did she handle most today?"
+        "en": "Which dog did she handle most today?"
       },
       "options": [
+        {
+          "ko": "말티즈",
+          "en": "Maltese"
+        },
         {
           "ko": "골든 리트리버",
           "en": "Golden retriever"
@@ -60,55 +64,24 @@
         {
           "ko": "시바견",
           "en": "Shiba Inu"
-        },
-        {
-          "ko": "닥스훈트",
-          "en": "Dachshund"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "day",
-      "ask": {
-        "ko": "오늘 하루는 어땠을까?",
-        "en": "How was her day?"
-      },
-      "options": [
-        {
-          "ko": "한가했다",
-          "en": "Slow"
-        },
-        {
-          "ko": "쉬는 날이었다",
-          "en": "It was her day off"
-        },
-        {
-          "ko": "하루 종일 교육을 받았다",
-          "en": "She was in training all day"
-        },
-        {
-          "ko": "무척 바빴다",
-          "en": "Extremely busy"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e2",
-        "e5",
         "e1"
       ]
     },
     {
       "key": "wet",
       "ask": {
-        "ko": "티셔츠 배 부분은 왜 젖었을까?",
-        "en": "Why is the belly of her T-shirt wet?"
+        "ko": "티셔츠 배 부분만 젖은 이유는?",
+        "en": "Why is only the belly of her T-shirt wet?"
       },
       "options": [
+        {
+          "ko": "욕조에 기대 개를 씻겨서",
+          "en": "She leaned over a tub bathing dogs"
+        },
         {
           "ko": "비를 맞아서",
           "en": "She got caught in the rain"
@@ -118,41 +91,67 @@
           "en": "She spilled a drink"
         },
         {
-          "ko": "개를 목욕시켜서",
-          "en": "She was bathing dogs"
-        },
-        {
           "ko": "땀을 흘려서",
           "en": "Sweat"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
-        "e3"
+        "e2"
       ]
     },
     {
-      "key": "pouch",
+      "key": "standing",
       "ask": {
-        "ko": "가방에 달린 파우치에는 무엇이 들어 있을까?",
-        "en": "What's in the pouch on her bag?"
+        "ko": "빈자리가 있는데 왜 서서 갈까?",
+        "en": "Why is she standing when there are empty seats?"
       },
       "options": [
         {
-          "ko": "개 간식",
-          "en": "Dog treats"
+          "ko": "곧 내려야 해서",
+          "en": "Her stop is coming up"
         },
         {
-          "ko": "화장품",
-          "en": "Makeup"
+          "ko": "털이 좌석에 묻을까 봐",
+          "en": "She doesn't want to leave fur on the seats"
         },
         {
-          "ko": "동전",
-          "en": "Coins"
+          "ko": "허리가 아파서",
+          "en": "Her back hurts"
         },
         {
-          "ko": "이어폰",
-          "en": "Earbuds"
+          "ko": "운동 삼아",
+          "en": "For the exercise"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3",
+        "e1"
+      ]
+    },
+    {
+      "key": "comb",
+      "ask": {
+        "ko": "가방 옆주머니의 쇠빗은 누구를 위한 걸까?",
+        "en": "Who is the metal comb in her bag's side pocket for?"
+      },
+      "options": [
+        {
+          "ko": "손님으로 온 개들",
+          "en": "The dogs she grooms"
+        },
+        {
+          "ko": "그녀 자신의 머리",
+          "en": "Her own hair"
+        },
+        {
+          "ko": "남자친구",
+          "en": "Her boyfriend"
+        },
+        {
+          "ko": "집에서 키우는 고양이",
+          "en": "Her cat at home"
         }
       ],
       "answer": 0,
@@ -164,57 +163,57 @@
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 78,
-      "r": 11,
+      "x": 51,
+      "y": 82,
+      "r": 13,
       "label": {
         "ko": "검은 옷에 잔뜩 붙은 하얀 곱슬 털",
-        "en": "Black clothes covered in short, curly white fur"
+        "en": "White curly fur all over her black clothes"
       }
     },
     {
       "id": "e2",
-      "x": 60,
-      "y": 30,
-      "r": 7,
+      "x": 52,
+      "y": 61,
+      "r": 8,
       "label": {
-        "ko": "손잡이를 잡은 팔뚝의 작은 할퀸 자국들",
-        "en": "Small scratches on the arm holding the strap"
+        "ko": "티셔츠 배 부분만 젖은 얼룩",
+        "en": "A wet patch only across her belly"
       }
     },
     {
       "id": "e3",
-      "x": 45,
-      "y": 52,
-      "r": 8,
+      "x": 83,
+      "y": 76,
+      "r": 14,
       "label": {
-        "ko": "티셔츠 배 부분만 젖은 얼룩",
-        "en": "A wet patch right across the belly of her T-shirt"
+        "ko": "바로 옆의 빈자리 두 개",
+        "en": "Two empty seats right beside her"
       }
     },
     {
       "id": "e4",
-      "x": 22,
-      "y": 62,
-      "r": 7,
+      "x": 34,
+      "y": 64,
+      "r": 5,
       "label": {
-        "ko": "가방 고리에 달린 개 간식 파우치",
-        "en": "A dog-treat pouch clipped to her bag"
+        "ko": "가방 옆주머니의 쇠빗, 빗살에 낀 하얀 곱슬 털",
+        "en": "A metal comb in the bag's pocket, white curly fur in its teeth"
       }
     },
     {
       "id": "e5",
-      "x": 68,
-      "y": 12,
-      "r": 6,
+      "x": 78,
+      "y": 23,
+      "r": 10,
       "label": {
-        "ko": "손가락 두 개에 감은 반창고",
-        "en": "Bandages on two fingers"
+        "ko": "팔뚝의 작은 할퀸 자국들과 반창고",
+        "en": "Small scratches on her forearm and adhesive bandages"
       }
     }
   ],
   "detective": {
-    "ko": "검은 옷이 하얀 털로 뒤덮였다. 미용사라면 짧게 잘린 머리카락이 여러 색으로 섞여 있었을 텐데, 이건 전부 하얗고 곱슬곱슬하다 — 사람 머리카락이 아니다. 팔뚝의 할퀸 자국, 반창고 두 개, 가방에 달린 간식 파우치. 개를 다루는 사람이다. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 흠뻑 젖지는 않는다. 그건 하루 종일 욕조 앞에 서서 개를 씻긴 사람의 얼룩이다. 그녀는 반려견 미용사이고, 오늘의 손님은 대부분 하얀 곱슬 털 — 푸들이었다. 이만큼 털을 뒤집어쓰고 상처까지 늘었으니, 오늘은 정신없이 바쁜 날이었다.",
-    "en": "Her black clothes are covered in white fur. A hairdresser would be wearing snippets of hair in every color — but this is all white and all curly. Not human hair. Scratches on her arm, two bandaged fingers, a treat pouch on her bag: she works with dogs. A vet gets fur and scratches too, but not a T-shirt soaked right across the belly. That's what you get from leaning over a tub all day, washing dogs. She's a dog groomer, and today's clients were mostly curly and white — poodles. With that much fur and that many new scratches, it was a very busy day."
+    "ko": "검은 옷이 하얀 털로 뒤덮였다. 재단사의 실밥이나 보풀이 아니고, 미용사가 자른 사람 머리카락도 아니다. 전부 하얗고 곱슬곱슬한 개털이다. 팔뚝엔 작은 할퀸 자국과 반창고. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 젖지는 않는다. 욕조에 몸을 기대고 하루 종일 개를 씻긴 사람이다. 털은 말티즈처럼 곧지 않고 곱슬하다 — 오늘 그녀 손을 가장 많이 거친 건 푸들이다. 가방 옆주머니의 쇠빗에도 같은 털이 끼어 있다. 그녀의 긴 생머리용이 아니다. 그리고 바로 옆 빈자리 두 개. 피곤해 보이는데도 앉지 않는다. 앉으면 천 좌석에 하얀 털이 고스란히 남을 테니까.",
+    "en": "Her black clothes are covered in white fur. Not a tailor's lint, not a hairdresser's clippings of human hair — it's white, curly dog fur. Small scratches and bandages on her arm. A vet gets fur and scratches too, but not a soaked belly: she spent the day leaning over a tub, bathing dogs. The fur isn't straight like a Maltese's; it's curly. Today was poodle day. The metal comb in her bag has the same fur in its teeth — it isn't for her long straight hair. And the two empty seats beside her? She looks exhausted, yet she won't sit. One ride on that cloth seat and it would be covered in white fur."
   }
 }

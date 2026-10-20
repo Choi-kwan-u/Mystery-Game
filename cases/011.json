@@ -1,7 +1,7 @@
 {
   "id": 11,
   "date": "2026-11-05",
-  "image": "img/011.svg",
+  "image": "img/011.webp",
   "title": {
     "ko": "월요일 아침의 샌들",
     "en": "Sandals on a Monday Morning"
@@ -15,16 +15,12 @@
       "key": "job",
       "ask": {
         "ko": "이 사람은 무엇을 하는 사람일까?",
-        "en": "What is she?"
+        "en": "What does she do?"
       },
       "options": [
         {
           "ko": "발레리나",
-          "en": "Ballet dancer"
-        },
-        {
-          "ko": "축구 선수",
-          "en": "Soccer player"
+          "en": "Ballerina"
         },
         {
           "ko": "마라토너",
@@ -33,80 +29,83 @@
         {
           "ko": "등산가",
           "en": "Mountaineer"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "yesterday",
-      "ask": {
-        "ko": "어제 무엇을 했을까?",
-        "en": "What did she do yesterday?"
-      },
-      "options": [
-        {
-          "ko": "등산",
-          "en": "Went hiking"
         },
         {
-          "ko": "마라톤 대회",
-          "en": "Ran a marathon"
-        },
-        {
-          "ko": "발레 공연",
-          "en": "Danced in a ballet"
-        },
-        {
-          "ko": "바닷가 여행",
-          "en": "Went to the beach"
+          "ko": "테니스 선수",
+          "en": "Tennis player"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e4",
-        "e3"
-      ]
-    },
-    {
-      "key": "today",
-      "ask": {
-        "ko": "오늘은 어떤 날일까?",
-        "en": "What's today for her?"
-      },
-      "options": [
-        {
-          "ko": "출근하는 길",
-          "en": "She's on her way to work"
-        },
-        {
-          "ko": "또 달리러 간다",
-          "en": "She's going for another run"
-        },
-        {
-          "ko": "병원 가는 길",
-          "en": "She's heading to the doctor"
-        },
-        {
-          "ko": "휴가를 내고 쉰다",
-          "en": "A day off to recover"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
+        "e3",
         "e5",
         "e4"
       ]
     },
     {
-      "key": "watch",
+      "key": "foil",
       "ask": {
-        "ko": "그녀가 평소 손목에 늘 차는 것은?",
-        "en": "What does she usually wear on her wrist?"
+        "ko": "가방 속 은박 담요는 어디서 났을까?",
+        "en": "Where did the foil blanket in her bag come from?"
+      },
+      "options": [
+        {
+          "ko": "어제 결승선에서 받았다",
+          "en": "She got it at a finish line yesterday"
+        },
+        {
+          "ko": "캠핑하려고 샀다",
+          "en": "She bought it for camping"
+        },
+        {
+          "ko": "산에서 쓰는 비상용품이다",
+          "en": "It's emergency gear for the mountains"
+        },
+        {
+          "ko": "선물 포장지였다",
+          "en": "It was gift wrapping"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "today",
+      "ask": {
+        "ko": "월요일 오전에 카페에 있는 이유는?",
+        "en": "Why is she at a café on a Monday morning?"
+      },
+      "options": [
+        {
+          "ko": "출근하는 길이다",
+          "en": "She's on her way to work"
+        },
+        {
+          "ko": "또 달리러 가는 길이다",
+          "en": "She's heading out for another run"
+        },
+        {
+          "ko": "병원 가는 길이다",
+          "en": "She's on her way to the hospital"
+        },
+        {
+          "ko": "휴가를 내고 쉬는 중이다",
+          "en": "She took the day off to rest"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e1"
+      ]
+    },
+    {
+      "key": "wrist",
+      "ask": {
+        "ko": "왼쪽 손목의 하얀 띠 자국은 무엇 때문일까?",
+        "en": "What left the pale band on her left wrist?"
       },
       "options": [
         {
@@ -114,107 +113,107 @@
           "en": "A bracelet"
         },
         {
-          "ko": "스포츠 시계",
-          "en": "A sports watch"
-        },
-        {
           "ko": "머리끈",
           "en": "A hair tie"
         },
         {
-          "ko": "아무것도 안 찬다",
-          "en": "Nothing at all"
+          "ko": "늘 차는 스포츠 시계",
+          "en": "The sports watch she always wears"
+        },
+        {
+          "ko": "깁스",
+          "en": "A cast"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
         "e2"
       ]
     },
     {
-      "key": "race",
+      "key": "shoulder",
       "ask": {
-        "ko": "어제 경기에서 그녀는?",
-        "en": "How did yesterday's race go for her?"
+        "ko": "어깨에 남은 탄 자국은 무엇 때문일까?",
+        "en": "What made the tan line on her shoulder?"
       },
       "options": [
         {
-          "ko": "출전하지 못했다",
-          "en": "She didn't get to run"
+          "ko": "민소매 러닝 셔츠",
+          "en": "A racerback running top"
         },
         {
-          "ko": "응원만 했다",
-          "en": "She only cheered"
+          "ko": "수영복",
+          "en": "A swimsuit"
         },
         {
-          "ko": "중간에 포기했다",
-          "en": "She dropped out"
+          "ko": "끈 원피스",
+          "en": "A sundress"
         },
         {
-          "ko": "완주했다",
-          "en": "She finished"
+          "ko": "가방끈",
+          "en": "A bag strap"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
-        "e4"
+        "e3"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 90,
-      "r": 8,
+      "x": 31,
+      "y": 94,
+      "r": 4,
       "label": {
-        "ko": "샌들 사이로 보이는 검게 멍든 발톱 두 개",
-        "en": "Two toenails bruised black, peeking out of her sandals"
+        "ko": "샌들 사이로 보이는, 시퍼렇게 멍든 엄지발톱",
+        "en": "A bruised, blackened big toenail in her sandal"
       }
     },
     {
       "id": "e2",
-      "x": 62,
-      "y": 55,
-      "r": 6,
+      "x": 70,
+      "y": 46,
+      "r": 4,
       "label": {
-        "ko": "시계는 없는데 왼쪽 손목에 하얗게 남은 시계 자국",
-        "en": "No watch, but a pale watch-shaped band on her left wrist"
+        "ko": "시계는 없는데 왼쪽 손목에 하얗게 남은 넓은 띠 자국",
+        "en": "A wide pale band on her left wrist — but no watch"
       }
     },
     {
       "id": "e3",
-      "x": 45,
-      "y": 28,
-      "r": 9,
+      "x": 66,
+      "y": 32,
+      "r": 6,
       "label": {
-        "ko": "어깨에 민소매 모양으로 갓 탄 붉은 자국",
-        "en": "A fresh sunburn on her shoulders in the shape of a running singlet"
+        "ko": "어깨의 붉은 화상 위로 하얗게 남은 가는 끈 자국",
+        "en": "A thin pale strap line across a fresh red sunburn"
       }
     },
     {
       "id": "e4",
-      "x": 82,
-      "y": 60,
-      "r": 8,
+      "x": 79,
+      "y": 62,
+      "r": 11,
       "label": {
-        "ko": "가방에서 삐져나온 메달 리본",
-        "en": "A medal ribbon hanging out of her bag"
+        "ko": "가방 속 은박 담요와 가방끈에 꽂힌 옷핀 네 개",
+        "en": "A foil blanket in her bag and four safety pins on the strap"
       }
     },
     {
       "id": "e5",
-      "x": 45,
-      "y": 72,
-      "r": 8,
+      "x": 37,
+      "y": 76,
+      "r": 12,
       "label": {
-        "ko": "종아리에 낀 압박 슬리브",
-        "en": "Compression sleeves on her calves"
+        "ko": "양쪽 종아리의 검은 압박 슬리브",
+        "en": "Black compression sleeves on both calves"
       }
     }
   ],
   "detective": {
-    "ko": "발톱 두 개가 까맣게 멍들었다. 발을 혹사하는 사람이다 — 발레리나도 그렇다. 하지만 그녀는 햇볕에 탔고, 그 모양이 민소매 그대로다. 무대 조명이 아니라 햇볕 아래서 몇 시간을 움직였다. 손목엔 시계가 없는데 시계 자국만 하얗게 남았다 — 늘 기록을 재는 사람이다. 축구 선수라면 양말 선을 따라 탔을 것이고, 등산가는 민소매로 산에 오르지 않는다. 가방에서 삐져나온 메달 리본과 아직 벌건 어깨. 어제 42.195km를 끝까지 달렸다 — 메달은 완주한 사람만 받는다. 그리고 월요일 오전 10시에 압박 슬리브를 낀 채 카페에 앉아 있다면, 오늘은 다리를 쉬게 하려고 휴가를 낸 것이다.",
-    "en": "Two toenails bruised black — she's hard on her feet. So is a ballet dancer. But she's sunburned, and in the exact shape of a running singlet: hours of moving under the sun, not under stage lights. There's no watch on her wrist, yet a pale watch band is there anyway — she's someone who always keeps time. A soccer player's tan would stop at the sock line, and a mountaineer doesn't climb in a tank top. Then there's the medal ribbon peeking out of her bag and the still-red shoulders: yesterday she ran all 26.2 miles — they only hand out medals at the finish line. And sitting at a café at 10 a.m. on a Monday in compression sleeves? She took the day off to let her legs recover."
+    "ko": "엄지발톱이 시퍼렇게 멍들었다. 발레리나도 발톱이 상하지만, 그녀는 햇볕에 탔다 — 어깨의 붉은 화상 위로 가느다란 끈 자국이 하얗게 남았다. 민소매 러닝 셔츠 자국이다. 손목엔 시계가 없는데 넓은 하얀 띠 자국만 있다. 매일 차는 스포츠 시계다. 가방 속 은박 담요는 산에서 쓰는 비상용품 같지만, 가방끈에 꽂힌 옷핀 네 개가 답이다. 배번표를 달던 옷핀이다. 마라톤 결승선을 넘으면 은박 담요를 어깨에 둘러 준다. 어제 그녀는 42.195km를 달렸다. 그리고 오늘, 월요일 오전 10시. 출근 가방도 러닝화도 없이 샌들에 압박 슬리브 — 휴가를 내고 다리를 쉬는 날이다.",
+    "en": "Her big toenail is bruised black. Ballet dancers wreck their toenails too, but she's sunburned — and across that fresh burn runs a thin pale strap line. A racerback running top. Her wrist has no watch, just a wide pale band where one always sits: a sports watch. The foil blanket in her bag could pass for mountain emergency gear, but the four safety pins on the strap give it away. Those held a race bib. Cross a marathon finish line and someone wraps a foil blanket around your shoulders. Yesterday she ran 42.195 km. And today, 10 a.m. on a Monday? No work bag, no running shoes — sandals and compression sleeves. She took the day off to let her legs recover."
   }
 }
