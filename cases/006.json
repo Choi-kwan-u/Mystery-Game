@@ -1,0 +1,162 @@
+{
+  "id": 6,
+  "date": "2026-10-24",
+  "image": "img/006.svg",
+  "title": {
+    "ko": "꽃다발을 든 승객",
+    "en": "The Passenger with the Bouquet"
+  },
+  "intro": {
+    "ko": "일요일 밤 10시, 지하철 안. 검은 옷을 입은 30대 여성이 꽃다발을 무릎에 두고 앉아 있다. 이 사람은 누구일까?",
+    "en": "10 p.m. on a Sunday, on the subway. A woman in her thirties, dressed all in black, sits with a bouquet in her lap. Who is she?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does she do for a living?"
+      },
+      "options": [
+        {
+          "ko": "성악가",
+          "en": "Opera singer"
+        },
+        {
+          "ko": "바이올리니스트",
+          "en": "Violinist"
+        },
+        {
+          "ko": "피아니스트",
+          "en": "Pianist"
+        },
+        {
+          "ko": "지휘자",
+          "en": "Conductor"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e2",
+        "e5"
+      ]
+    },
+    {
+      "key": "before",
+      "ask": {
+        "ko": "방금 무엇을 하고 오는 길일까?",
+        "en": "Where is she coming from?"
+      },
+      "options": [
+        {
+          "ko": "레슨",
+          "en": "Teaching a lesson"
+        },
+        {
+          "ko": "결혼식",
+          "en": "A wedding"
+        },
+        {
+          "ko": "오디션",
+          "en": "An audition"
+        },
+        {
+          "ko": "공연",
+          "en": "A concert"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "years",
+      "ask": {
+        "ko": "악기를 연주한 지 얼마나 됐을까?",
+        "en": "How long has she been playing?"
+      },
+      "options": [
+        {
+          "ko": "이제 막 시작했다",
+          "en": "She just started"
+        },
+        {
+          "ko": "1년쯤",
+          "en": "About a year"
+        },
+        {
+          "ko": "2~3년",
+          "en": "Two or three years"
+        },
+        {
+          "ko": "20년 이상",
+          "en": "Over twenty years"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e3"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 58,
+      "y": 30,
+      "r": 6,
+      "label": {
+        "ko": "왼쪽 턱 바로 아래, 목에 굳은 붉은 갈색 자국",
+        "en": "A hardened reddish-brown mark on the left side of her neck, just under the jaw"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 68,
+      "y": 42,
+      "r": 8,
+      "label": {
+        "ko": "검은 옷 왼쪽 어깨에 묻은 하얀 가루",
+        "en": "White powder dusted on the left shoulder of her black outfit"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 45,
+      "y": 52,
+      "r": 12,
+      "label": {
+        "ko": "올블랙 무대 의상과 단정히 묶은 머리",
+        "en": "An all-black stage outfit and neatly tied-back hair"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 38,
+      "y": 78,
+      "r": 10,
+      "label": {
+        "ko": "무릎 위 꽃다발",
+        "en": "A bouquet in her lap"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 66,
+      "y": 82,
+      "r": 8,
+      "label": {
+        "ko": "무릎 위 악보 파일 — 음표만 빼곡하다",
+        "en": "A folder of sheet music in her lap — nothing but notes"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "꽃다발에 올블랙 무대 의상, 무릎 위의 악보. 공연을 막 마친 클래식 연주자다. 오디션에서는 꽃을 받지 않고, 결혼식 하객은 이렇게 검게 입지 않는다. 그럼 무슨 악기일까? 목이 대답한다. 왼쪽 턱 바로 아래, 악기를 끼우는 바로 그 자리에 굳은 자국이 있다. 왼쪽 어깨엔 활에 바르는 송진 가루까지 묻었다. 바이올리니스트의 목이다. 그리고 이렇게 짙게 자리 잡은 자국은 몇 년으로는 생기지 않는다. 그녀는 인생의 대부분을 이 악기와 함께 보냈다.",
+    "en": "A bouquet, an all-black stage outfit, sheet music in her lap: a classical musician on her way home from a concert. Nobody hands you flowers at an audition, and wedding guests don't dress like this. So which instrument? Her neck answers that. Just under the left side of her jaw — exactly where the instrument sits — there's a hardened mark. On her left shoulder, a dusting of rosin, the stuff that goes on a bow. That's a violinist's neck. And a mark that deep doesn't come from a few years of practice. She's spent most of her life with that instrument tucked under her chin."
+  }
+}

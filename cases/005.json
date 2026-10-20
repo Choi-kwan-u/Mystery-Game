@@ -1,0 +1,162 @@
+{
+  "id": 5,
+  "date": "2026-10-23",
+  "image": "img/005.svg",
+  "title": {
+    "ko": "푸드코트의 점심",
+    "en": "Food Court Lunch"
+  },
+  "intro": {
+    "ko": "평일 오후 1시, 쇼핑몰 푸드코트. 30대 남성이 혼자 점심을 먹고 있다. 이 사람은 누구일까?",
+    "en": "1 p.m. on a weekday, a mall food court. A man in his thirties eats lunch by himself. Who is he?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do for a living?"
+      },
+      "options": [
+        {
+          "ko": "테니스 선수",
+          "en": "Tennis player"
+        },
+        {
+          "ko": "야구 투수",
+          "en": "Baseball pitcher"
+        },
+        {
+          "ko": "클라이밍 선수",
+          "en": "Rock climber"
+        },
+        {
+          "ko": "볼링 선수",
+          "en": "Pro bowler"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "now",
+      "ask": {
+        "ko": "지금은 무슨 시간일까?",
+        "en": "What's going on right now?"
+      },
+      "options": [
+        {
+          "ko": "출근 전",
+          "en": "It's before work"
+        },
+        {
+          "ko": "대회 중 점심시간",
+          "en": "A lunch break mid-tournament"
+        },
+        {
+          "ko": "운동을 마치고 귀가 중",
+          "en": "He's heading home after training"
+        },
+        {
+          "ko": "쉬는 날 쇼핑",
+          "en": "Shopping on his day off"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e2"
+      ]
+    },
+    {
+      "key": "worry",
+      "ask": {
+        "ko": "지금 가장 신경 쓰이는 것은?",
+        "en": "What's bothering him most?"
+      },
+      "options": [
+        {
+          "ko": "늦잠",
+          "en": "He overslept"
+        },
+        {
+          "ko": "배고픔",
+          "en": "He's starving"
+        },
+        {
+          "ko": "오른손 엄지 통증",
+          "en": "His sore right thumb"
+        },
+        {
+          "ko": "날씨",
+          "en": "The weather"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e2"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 25,
+      "y": 62,
+      "r": 9,
+      "label": {
+        "ko": "오른팔 팔뚝과 손목이 왼팔보다 눈에 띄게 굵다",
+        "en": "His right forearm and wrist are noticeably thicker than his left"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 35,
+      "y": 80,
+      "r": 6,
+      "label": {
+        "ko": "오른손 엄지·중지·약지에만 감은 흰 테이프",
+        "en": "White tape on only his right thumb, middle and ring fingers"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 55,
+      "y": 22,
+      "r": 8,
+      "label": {
+        "ko": "햇볕에 그을린 흔적 하나 없는 하얀 피부",
+        "en": "Pale skin without a hint of a tan"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 52,
+      "y": 46,
+      "r": 7,
+      "label": {
+        "ko": "목에 건 선수 출입증",
+        "en": "A competitor's badge on a lanyard"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 58,
+      "y": 82,
+      "r": 7,
+      "label": {
+        "ko": "얼음 컵에 대고 있는 오른손 엄지",
+        "en": "His right thumb pressed against a cup of ice"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "팔 한쪽만 굵다면 한 팔로 하는 운동이다 — 테니스, 야구, 볼링. 그런데 피부가 하얗다. 햇볕 아래 코트나 마운드에서 하는 운동이 아니다. 클라이밍이라면 양팔이 다 굵었을 것이다. 결정적인 건 테이프다. 엄지, 중지, 약지 — 딱 세 손가락. 구멍이 세 개 뚫린 공이 하나 있다. 목에는 아직 선수 출입증이 걸려 있고 테이프도 풀지 않았다. 대회는 끝나지 않았다. 그리고 엄지를 얼음 컵에 대고 있는 걸 보니, 오후 경기에서 걱정되는 건 점수가 아니라 엄지다.",
+    "en": "One arm bigger than the other means a one-armed sport — tennis, baseball, bowling. But his skin is pale, so he doesn't play in the sun. A climber would have two big arms, not one. The giveaway is the tape: thumb, middle finger, ring finger. Exactly three fingers — and there's one ball with exactly three holes. He's still wearing his competitor's badge and hasn't taken the tape off, so the tournament isn't over. And the way he's pressing that thumb against a cup of ice, what worries him about the afternoon games isn't his score. It's his thumb."
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": 9,
+  "date": "2026-10-27",
+  "image": "img/009.svg",
+  "title": {
+    "ko": "편의점 앞의 점심",
+    "en": "Lunch Outside the Corner Store"
+  },
+  "intro": {
+    "ko": "오전 11시 반, 편의점 앞 플라스틱 의자. 50대 남성이 컵라면으로 점심을 먹고 있다. 이 사람은 누구일까?",
+    "en": "11:30 a.m., a plastic chair outside a convenience store. A man in his fifties is having cup noodles for lunch. Who is he?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do for a living?"
+      },
+      "options": [
+        {
+          "ko": "타일공",
+          "en": "Tile setter"
+        },
+        {
+          "ko": "축구 선수",
+          "en": "Soccer player"
+        },
+        {
+          "ko": "정원사",
+          "en": "Gardener"
+        },
+        {
+          "ko": "등산객",
+          "en": "Hiker"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e2",
+        "e5"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "오늘 오전에는 어디서 일했을까?",
+        "en": "Where was he working this morning?"
+      },
+      "options": [
+        {
+          "ko": "잔디 축구장",
+          "en": "A soccer field"
+        },
+        {
+          "ko": "논",
+          "en": "A rice paddy"
+        },
+        {
+          "ko": "공사장",
+          "en": "A construction site"
+        },
+        {
+          "ko": "장미 정원",
+          "en": "A rose garden"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "later",
+      "ask": {
+        "ko": "오후에는 무엇을 할까?",
+        "en": "What's he doing this afternoon?"
+      },
+      "options": [
+        {
+          "ko": "다시 일하러 간다",
+          "en": "Going back to work"
+        },
+        {
+          "ko": "집에서 쉰다",
+          "en": "Resting at home"
+        },
+        {
+          "ko": "병원에 간다",
+          "en": "Seeing a doctor"
+        },
+        {
+          "ko": "친구를 만난다",
+          "en": "Meeting a friend"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e5"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 45,
+      "y": 72,
+      "r": 10,
+      "label": {
+        "ko": "바지에서 양 무릎만 흙과 풀물로 얼룩져 있다",
+        "en": "Only the knees of his trousers are stained with dirt and grass"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 62,
+      "y": 45,
+      "r": 8,
+      "label": {
+        "ko": "팔뚝의 가는 긁힌 자국들과 소매에 붙은 장미 꽃잎",
+        "en": "Thin scratches on his forearms and a rose petal stuck to his sleeve"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 40,
+      "y": 20,
+      "r": 7,
+      "label": {
+        "ko": "목 뒤만 붉게 탄 피부",
+        "en": "A sunburn on the back of his neck"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 22,
+      "y": 56,
+      "r": 7,
+      "label": {
+        "ko": "뒷주머니에 꽂아 둔 흙 묻은 장갑",
+        "en": "Dirt-caked work gloves tucked in his back pocket"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 50,
+      "y": 92,
+      "r": 8,
+      "label": {
+        "ko": "운동화에 붙은 흙덩이와 잔디 조각",
+        "en": "Clumps of soil and bits of grass stuck to his sneakers"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "바지에서 더러운 곳은 양 무릎뿐이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 그렇지만 그 얼룩은 회색 줄눈이고, 이건 흙과 초록 풀물이다. 목 뒤가 벌겋게 탄 걸 보면 실내가 아니라 땡볕 아래다. 축구 선수도 무릎에 풀물이 들지만, 축구공은 팔뚝을 할퀴지 않는다. 가는 긁힘들과 소매에 붙은 장미 꽃잎 하나 — 그는 오전 내내 장미 덤불 앞에 무릎을 꿇고 있었다. 장갑을 뒷주머니에 꽂아 둔 채 옷도 갈아입지 않았으니, 컵라면을 비우면 다시 정원으로 돌아갈 것이다.",
+    "en": "The only dirty part of his trousers is the knees. This man kneels for a living. A tile setter does too, but grout is gray — this is soil and green grass stain. The sunburned back of his neck says outdoors, under the sun. A soccer player gets grass on his knees, but a soccer ball doesn't scratch your forearms. Those fine scratches and the rose petal on his sleeve say he spent the morning kneeling in front of rose bushes. He hasn't changed and his gloves are still in his back pocket: once the noodles are gone, he's heading back to the garden."
+  }
+}

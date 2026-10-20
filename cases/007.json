@@ -1,0 +1,161 @@
+{
+  "id": 7,
+  "date": "2026-10-25",
+  "image": "img/007.svg",
+  "title": {
+    "ko": "오후 1시의 퇴근",
+    "en": "Clocking Out at 1 P.M."
+  },
+  "intro": {
+    "ko": "평일 오후 1시, 동네 공원 벤치. 30대 남성이 졸린 얼굴로 앉아 있다. 이 사람은 누구일까?",
+    "en": "1 p.m. on a weekday, a bench in a neighborhood park. A man in his thirties sits there, half asleep. Who is he?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do for a living?"
+      },
+      "options": [
+        {
+          "ko": "요리사",
+          "en": "Chef"
+        },
+        {
+          "ko": "도예가",
+          "en": "Potter"
+        },
+        {
+          "ko": "제빵사",
+          "en": "Baker"
+        },
+        {
+          "ko": "미장공",
+          "en": "Plasterer"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e2",
+        "e5"
+      ]
+    },
+    {
+      "key": "start",
+      "ask": {
+        "ko": "오늘 몇 시에 일을 시작했을까?",
+        "en": "What time did his workday start?"
+      },
+      "options": [
+        {
+          "ko": "새벽 4시",
+          "en": "4 a.m."
+        },
+        {
+          "ko": "아침 9시",
+          "en": "9 a.m."
+        },
+        {
+          "ko": "오후 2시",
+          "en": "2 p.m."
+        },
+        {
+          "ko": "밤 10시",
+          "en": "10 p.m."
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e3"
+      ]
+    },
+    {
+      "key": "sales",
+      "ask": {
+        "ko": "오늘 가게 빵은 어떻게 됐을까?",
+        "en": "How did the shop do today?"
+      },
+      "options": [
+        {
+          "ko": "절반쯤 남았다",
+          "en": "Half the bread is left over"
+        },
+        {
+          "ko": "거의 다 팔렸다",
+          "en": "Nearly sold out"
+        },
+        {
+          "ko": "가게를 쉬었다",
+          "en": "The shop was closed"
+        },
+        {
+          "ko": "전부 탔다",
+          "en": "Everything burned"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 40,
+      "y": 50,
+      "r": 9,
+      "label": {
+        "ko": "양 팔뚝 안쪽에 가로로 난 분홍 화상 자국들",
+        "en": "Thin pink burn lines across the inside of both forearms"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 50,
+      "y": 90,
+      "r": 9,
+      "label": {
+        "ko": "검은 운동화 앞코와 바지 밑단의 하얀 가루",
+        "en": "White powder on the toes of his black sneakers and his trouser hems"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 62,
+      "y": 64,
+      "r": 9,
+      "label": {
+        "ko": "종이봉투에 남은 바게트 두 개",
+        "en": "Just two baguettes left in a paper bakery bag"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 50,
+      "y": 18,
+      "r": 7,
+      "label": {
+        "ko": "크게 하품하는 얼굴",
+        "en": "A big yawn"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 28,
+      "y": 58,
+      "r": 5,
+      "label": {
+        "ko": "손목에 걸린 위생 머리망",
+        "en": "A hairnet hanging from his wrist"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "팔뚝 안쪽에 가로로 그어진 분홍 줄 — 뜨거운 오븐 선반에 팔을 스친 자국이다. 요리사일 수도 있다. 하지만 운동화 앞코에 묻은 건 기름이 아니라 하얀 가루다. 도예가의 흙이나 미장공의 시멘트라면 회색이었을 것이다. 손목엔 위생 머리망까지. 그는 빵을 굽는다. 그런데 오후 1시에 벌써 일을 마치고 하품을 하고 있다. 제빵사의 하루는 해 뜨기 전, 새벽 4시에 시작된다. 무릎 위 봉투엔 팔다 남은 바게트가 겨우 두 개. 오늘 장사는 잘됐다.",
+    "en": "Thin pink lines across the inside of his forearms — the marks you get from brushing against a hot oven rack. A chef could have those too. But what's on the toes of his sneakers isn't grease; it's white powder. A potter's clay or a plasterer's cement would be gray. Add the hairnet on his wrist: this man bakes bread. And it's 1 p.m. and he's already done for the day and yawning. A baker's day starts long before sunrise — around 4 a.m. The bag on his lap holds just two leftover baguettes. Business was good today."
+  }
+}

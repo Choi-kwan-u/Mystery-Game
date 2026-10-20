@@ -1,0 +1,162 @@
+{
+  "id": 4,
+  "date": "2026-10-22",
+  "image": "img/004.svg",
+  "title": {
+    "ko": "새벽의 휴게소",
+    "en": "Rest Stop, 5 A.M."
+  },
+  "intro": {
+    "ko": "새벽 5시, 고속도로 휴게소 식당 창가. 40대 남성이 혼자 국밥을 먹고 있다. 이 사람은 누구일까?",
+    "en": "5 a.m., a window table at a highway rest-stop diner. A man in his forties eats a bowl of soup alone. Who is he?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do for a living?"
+      },
+      "options": [
+        {
+          "ko": "택배 기사",
+          "en": "Delivery driver"
+        },
+        {
+          "ko": "장거리 트럭 운전사",
+          "en": "Long-haul trucker"
+        },
+        {
+          "ko": "건설 노동자",
+          "en": "Construction worker"
+        },
+        {
+          "ko": "택시 기사",
+          "en": "Taxi driver"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "night",
+      "ask": {
+        "ko": "밤새 무엇을 했을까?",
+        "en": "What was he doing all night?"
+      },
+      "options": [
+        {
+          "ko": "밤새 운전",
+          "en": "Driving all night"
+        },
+        {
+          "ko": "야간 공사",
+          "en": "Night construction work"
+        },
+        {
+          "ko": "술자리",
+          "en": "Drinking with friends"
+        },
+        {
+          "ko": "푹 잤다",
+          "en": "Sleeping soundly"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e2"
+      ]
+    },
+    {
+      "key": "next",
+      "ask": {
+        "ko": "밥을 먹고 나면 무엇을 할까?",
+        "en": "What will he do after he eats?"
+      },
+      "options": [
+        {
+          "ko": "바로 다시 출발한다",
+          "en": "Hit the road right away"
+        },
+        {
+          "ko": "집에 간다",
+          "en": "Head home"
+        },
+        {
+          "ko": "짐을 내린다",
+          "en": "Unload his cargo"
+        },
+        {
+          "ko": "트럭에서 쪽잠을 잔다",
+          "en": "Nap in his truck"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e3"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 30,
+      "y": 70,
+      "r": 8,
+      "label": {
+        "ko": "왼팔만 짙게 탄 팔뚝 — 오른팔은 하얗다",
+        "en": "Only his left forearm is deeply tanned — the right one is pale"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 58,
+      "y": 72,
+      "r": 9,
+      "label": {
+        "ko": "1리터 보온병과 빈 에너지 음료 캔 두 개",
+        "en": "A one-liter thermos and two empty energy drink cans"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 78,
+      "y": 25,
+      "r": 12,
+      "label": {
+        "ko": "창밖 주차장에 줄지어 선 대형 트레일러",
+        "en": "Semi-trailers lined up in the lot outside"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 48,
+      "y": 26,
+      "r": 6,
+      "label": {
+        "ko": "충혈된 눈",
+        "en": "Bloodshot eyes"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 46,
+      "y": 42,
+      "r": 8,
+      "label": {
+        "ko": "목에 건 목베개와 이마에 올린 수면 안대",
+        "en": "A neck pillow, and a sleep mask pushed up on his forehead"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "오른팔은 하얀데 왼팔만 구릿빛이다. 운전석 창가에 팔을 걸치고 수천 시간을 달린 사람의 팔이다. 택시 기사도 그렇겠지만, 지금은 새벽 5시의 고속도로 휴게소다. 창밖엔 트레일러가 줄지어 서 있고, 테이블엔 1리터짜리 보온병이 놓여 있다 — 시내를 도는 사람이 아니라 몇백 킬로미터를 가는 사람이다. 충혈된 눈과 빈 에너지 음료 캔 두 개는 그가 밤새 달려왔다는 뜻이다. 그리고 목에 건 목베개와 이마 위의 안대. 밥을 먹고 나면 트럭 침대칸에서 눈을 붙일 것이다.",
+    "en": "His right arm is pale; his left is bronze. That's the arm that rests on the driver's-side window for thousands of hours. A cab driver might have the same tan — but this is a highway rest stop at 5 a.m. There are semi-trailers lined up outside and a one-liter thermos on the table: this man doesn't circle a city, he crosses the country. Bloodshot eyes and two empty energy drinks say he drove through the night. And the neck pillow and the sleep mask on his forehead? Once he finishes his soup, he's climbing into the sleeper cab."
+  }
+}

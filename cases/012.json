@@ -1,0 +1,160 @@
+{
+  "id": 12,
+  "date": "2026-10-30",
+  "image": "img/012.svg",
+  "title": {
+    "ko": "국밥집의 구멍 난 재킷",
+    "en": "The Jacket Full of Holes"
+  },
+  "intro": {
+    "ko": "평일 저녁 6시, 공단 앞 국밥집. 50대 남성이 혼자 저녁을 먹고 있다. 이 사람은 누구일까?",
+    "en": "6 p.m. on a weekday, a soup restaurant by an industrial park. A man in his fifties eats dinner alone. Who is he?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do for a living?"
+      },
+      "options": [
+        {
+          "ko": "자동차 정비사",
+          "en": "Auto mechanic"
+        },
+        {
+          "ko": "요리사",
+          "en": "Chef"
+        },
+        {
+          "ko": "전기 기사",
+          "en": "Electrician"
+        },
+        {
+          "ko": "용접공",
+          "en": "Welder"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e3",
+        "e5"
+      ]
+    },
+    {
+      "key": "posture",
+      "ask": {
+        "ko": "오늘 주로 어떤 자세로 일했을까?",
+        "en": "How was he working most of today?"
+      },
+      "options": [
+        {
+          "ko": "바닥에 쪼그려 앉아",
+          "en": "Crouched on the floor"
+        },
+        {
+          "ko": "머리 위를 올려다보며",
+          "en": "Looking straight up, working overhead"
+        },
+        {
+          "ko": "작업대 앞에 서서",
+          "en": "Standing at a workbench"
+        },
+        {
+          "ko": "의자에 앉아",
+          "en": "Sitting in a chair"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "hurt",
+      "ask": {
+        "ko": "지금 가장 괴로운 곳은?",
+        "en": "What's bothering him most right now?"
+      },
+      "options": [
+        {
+          "ko": "허리",
+          "en": "His back"
+        },
+        {
+          "ko": "손",
+          "en": "His hands"
+        },
+        {
+          "ko": "눈",
+          "en": "His eyes"
+        },
+        {
+          "ko": "무릎",
+          "en": "His knees"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 50,
+      "y": 28,
+      "r": 12,
+      "label": {
+        "ko": "어깨 윗면과 모자 챙에만 몰린 작은 탄 구멍들",
+        "en": "Dozens of tiny burn holes, all on the tops of his shoulders and the brim of his cap"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 50,
+      "y": 44,
+      "r": 6,
+      "label": {
+        "ko": "목의 V자 부분만 붉게 탄 자국",
+        "en": "A red burn only in the V of his collar"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 28,
+      "y": 66,
+      "r": 8,
+      "label": {
+        "ko": "팔뚝의 오래된 하얀 화상 흉터들",
+        "en": "Old white burn scars on his forearms"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 70,
+      "y": 66,
+      "r": 7,
+      "label": {
+        "ko": "테이블 위 안약 병, 그리고 충혈된 눈",
+        "en": "A bottle of eye drops on the table — and red eyes"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 82,
+      "y": 88,
+      "r": 8,
+      "label": {
+        "ko": "옆자리에 놓인 두꺼운 가죽 장갑",
+        "en": "Thick leather gloves on the seat beside him"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "청재킷에 바늘로 찌른 듯한 작은 탄 구멍이 수십 개다. 튀는 불똥에 뚫린 구멍이다. 정비사라면 옷 구석구석 기름때가 배었을 텐데 그런 흔적은 없고, 요리사도 화상은 입지만 옷이 이렇게 뚫리지는 않는다. 팔뚝의 오래된 화상 흉터와 옆자리의 두꺼운 가죽 장갑 — 그는 용접공이다. 그런데 구멍의 위치가 이상하다. 어깨 윗면과 모자 챙에만 몰려 있다. 불똥이 위에서 쏟아졌다는 뜻이다. 오늘 그는 하루 종일 고개를 젖히고 머리 위를 용접했다. 그리고 테이블 위의 안약 병과 벌건 눈. 지금 그를 가장 괴롭히는 건 허리가 아니라 눈이다.",
+    "en": "His denim jacket is peppered with tiny burn holes, as if someone went at it with a needle — sparks did that. A mechanic would have grease worked into every crease, and there's none. A chef gets burns, but a chef's clothes don't end up looking like this. Old burn scars on his forearms, thick leather gloves on the seat beside him: he's a welder. But look where the holes are — only on the tops of his shoulders and the brim of his cap. The sparks were raining down from above. He spent the day with his head tipped back, welding overhead. And with that bottle of eye drops on the table and those red eyes, it's not his back that's bothering him most tonight. It's his eyes."
+  }
+}

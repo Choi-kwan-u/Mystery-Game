@@ -1,0 +1,162 @@
+{
+  "id": 10,
+  "date": "2026-10-28",
+  "image": "img/010.svg",
+  "title": {
+    "ko": "월요일 아침의 샌들",
+    "en": "Sandals on a Monday Morning"
+  },
+  "intro": {
+    "ko": "월요일 오전 10시, 카페 테라스. 30대 여성이 샌들 차림으로 느긋하게 커피를 마신다. 이 사람은 누구일까?",
+    "en": "10 a.m. on a Monday, a café terrace. A woman in her thirties lingers over coffee in sandals. Who is she?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람은 무엇을 하는 사람일까?",
+        "en": "What is she?"
+      },
+      "options": [
+        {
+          "ko": "발레리나",
+          "en": "Ballet dancer"
+        },
+        {
+          "ko": "축구 선수",
+          "en": "Soccer player"
+        },
+        {
+          "ko": "마라토너",
+          "en": "Marathon runner"
+        },
+        {
+          "ko": "등산가",
+          "en": "Mountaineer"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "yesterday",
+      "ask": {
+        "ko": "어제 무엇을 했을까?",
+        "en": "What did she do yesterday?"
+      },
+      "options": [
+        {
+          "ko": "등산",
+          "en": "Went hiking"
+        },
+        {
+          "ko": "마라톤 대회",
+          "en": "Ran a marathon"
+        },
+        {
+          "ko": "발레 공연",
+          "en": "Danced in a ballet"
+        },
+        {
+          "ko": "바닷가 여행",
+          "en": "Went to the beach"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e3"
+      ]
+    },
+    {
+      "key": "today",
+      "ask": {
+        "ko": "오늘은 어떤 날일까?",
+        "en": "What's today for her?"
+      },
+      "options": [
+        {
+          "ko": "출근하는 길",
+          "en": "She's on her way to work"
+        },
+        {
+          "ko": "또 달리러 간다",
+          "en": "She's going for another run"
+        },
+        {
+          "ko": "병원 가는 길",
+          "en": "She's heading to the doctor"
+        },
+        {
+          "ko": "휴가를 내고 쉰다",
+          "en": "A day off to recover"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e4"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 40,
+      "y": 90,
+      "r": 8,
+      "label": {
+        "ko": "샌들 사이로 보이는 검게 멍든 발톱 두 개",
+        "en": "Two toenails bruised black, peeking out of her sandals"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 62,
+      "y": 55,
+      "r": 6,
+      "label": {
+        "ko": "시계는 없는데 왼쪽 손목에 하얗게 남은 시계 자국",
+        "en": "No watch, but a pale watch-shaped band on her left wrist"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 45,
+      "y": 28,
+      "r": 9,
+      "label": {
+        "ko": "어깨에 민소매 모양으로 갓 탄 붉은 자국",
+        "en": "A fresh sunburn on her shoulders in the shape of a running singlet"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 82,
+      "y": 60,
+      "r": 8,
+      "label": {
+        "ko": "가방에서 삐져나온 메달 리본",
+        "en": "A medal ribbon hanging out of her bag"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 45,
+      "y": 72,
+      "r": 8,
+      "label": {
+        "ko": "종아리에 낀 압박 슬리브",
+        "en": "Compression sleeves on her calves"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "발톱 두 개가 까맣게 멍들었다. 발을 혹사하는 사람이다 — 발레리나도 그렇다. 하지만 그녀는 햇볕에 탔고, 그 모양이 민소매 그대로다. 무대 조명이 아니라 햇볕 아래서 몇 시간을 움직였다. 손목엔 시계가 없는데 시계 자국만 하얗게 남았다 — 늘 기록을 재는 사람이다. 축구 선수라면 양말 선을 따라 탔을 것이고, 등산가는 민소매로 산에 오르지 않는다. 가방에서 삐져나온 메달 리본과 아직 벌건 어깨. 어제 42.195km를 달렸다. 그리고 월요일 오전 10시에 압박 슬리브를 낀 채 카페에 앉아 있다면, 오늘은 다리를 쉬게 하려고 휴가를 낸 것이다.",
+    "en": "Two toenails bruised black — she's hard on her feet. So is a ballet dancer. But she's sunburned, and in the exact shape of a running singlet: hours of moving under the sun, not under stage lights. There's no watch on her wrist, yet a pale watch band is there anyway — she's someone who always keeps time. A soccer player's tan would stop at the sock line, and a mountaineer doesn't climb in a tank top. Then there's the medal ribbon peeking out of her bag and the still-red shoulders: yesterday she ran 26.2 miles. And sitting at a café at 10 a.m. on a Monday in compression sleeves? She took the day off to let her legs recover."
+  }
+}

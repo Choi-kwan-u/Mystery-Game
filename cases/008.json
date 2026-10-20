@@ -1,0 +1,162 @@
+{
+  "id": 8,
+  "date": "2026-10-26",
+  "image": "img/008.svg",
+  "title": {
+    "ko": "저녁 버스의 젖은 머리",
+    "en": "Wet Hair on the Evening Bus"
+  },
+  "intro": {
+    "ko": "평일 저녁 8시, 버스 창가 자리. 20대 여성이 창밖을 보고 있다. 이 사람은 누구일까?",
+    "en": "8 p.m. on a weekday, a window seat on the bus. A woman in her twenties gazes outside. Who is she?"
+  },
+  "questions": [
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does she do for a living?"
+      },
+      "options": [
+        {
+          "ko": "수영 선수",
+          "en": "Competitive swimmer"
+        },
+        {
+          "ko": "스키 강사",
+          "en": "Ski instructor"
+        },
+        {
+          "ko": "인명구조원",
+          "en": "Lifeguard"
+        },
+        {
+          "ko": "수영 강사",
+          "en": "Swim instructor"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "whom",
+      "ask": {
+        "ko": "오늘 누구를 가르쳤을까?",
+        "en": "Who did she teach today?"
+      },
+      "options": [
+        {
+          "ko": "직장인",
+          "en": "Office workers"
+        },
+        {
+          "ko": "어린이",
+          "en": "Kids"
+        },
+        {
+          "ko": "어르신",
+          "en": "Seniors"
+        },
+        {
+          "ko": "국가대표 선수",
+          "en": "National team athletes"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "수업이 끝난 지 얼마나 됐을까?",
+        "en": "When did her class end?"
+      },
+      "options": [
+        {
+          "ko": "몇 시간 전",
+          "en": "A few hours ago"
+        },
+        {
+          "ko": "어제",
+          "en": "Yesterday"
+        },
+        {
+          "ko": "방금",
+          "en": "Just now"
+        },
+        {
+          "ko": "아직 시작 전이다",
+          "en": "It hasn't started yet"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e2",
+        "e5"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 48,
+      "y": 28,
+      "r": 8,
+      "label": {
+        "ko": "두 눈 둘레에 동그랗게 남은 붉은 고글 자국",
+        "en": "Red circles around both eyes, left by swim goggles"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 35,
+      "y": 16,
+      "r": 8,
+      "label": {
+        "ko": "덜 마른 머리, 염소에 바래 푸석한 머리끝",
+        "en": "Damp hair, the ends dry and bleached by chlorine"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 58,
+      "y": 48,
+      "r": 9,
+      "label": {
+        "ko": "넓은 어깨와 햇볕에 그을리지 않은 하얀 피부",
+        "en": "Broad shoulders and skin that never sees the sun"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 50,
+      "y": 80,
+      "r": 11,
+      "label": {
+        "ko": "그물 가방 속 오리·물고기 모양 킥판과 호루라기",
+        "en": "A mesh bag with duck- and fish-shaped kickboards and a whistle"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 30,
+      "y": 46,
+      "r": 7,
+      "label": {
+        "ko": "젖은 머리에 흠뻑 젖은 티셔츠 어깨",
+        "en": "T-shirt shoulders soaked from her wet hair"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "두 눈 둘레의 동그란 붉은 자국 — 물안경 자국이다. 이 자국은 몇 시간이면 사라지니, 그녀는 방금까지 물속에 있었다. 아직 덜 마른 머리와 그 물에 젖은 티셔츠 어깨가 그걸 확인해 준다. 머리끝은 염소에 바랬고 피부는 하얗다. 바다도 스키장도 아닌 실내 수영장이다. 그런데 선수라면 가방에 오리 모양 킥판과 호루라기를 넣고 다니지 않는다. 그녀는 아이들에게 물에 뜨는 법을 가르친다.",
+    "en": "Those red circles around her eyes are goggle marks, and they fade within a few hours — she was in the water not long ago. Her hair's still damp, and it's soaked the shoulders of her T-shirt. The ends are bleached by chlorine and her skin is pale: not the beach, not the ski slopes, but an indoor pool. A competitive swimmer, though, wouldn't carry duck-shaped kickboards and a whistle. She spends her evenings teaching kids how to float."
+  }
+}
