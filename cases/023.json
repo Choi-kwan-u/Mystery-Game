@@ -2,7 +2,7 @@
   "id": 23,
   "date": "2026-11-17",
   "type": "scene",
-  "image": "img/023.svg",
+  "image": "img/023.webp",
   "title": {
     "ko": "밤사이 다녀간 손님",
     "en": "Visitors in the Night"
@@ -20,20 +20,20 @@
       },
       "options": [
         {
-          "ko": "도둑이 텐트를 털었다",
-          "en": "A thief raided the tent"
+          "ko": "도둑이 캠핑장을 털었다",
+          "en": "A thief raided the camp"
         },
         {
           "ko": "야생 동물이 음식을 뒤졌다",
-          "en": "A wild animal raided the food"
-        },
-        {
-          "ko": "캠핑객들이 싸웠다",
-          "en": "The campers had a fight"
+          "en": "A wild animal went through the food"
         },
         {
           "ko": "비바람이 몰아쳤다",
           "en": "A storm blew through"
+        },
+        {
+          "ko": "캠핑객들이 싸웠다",
+          "en": "The campers had a fight"
         }
       ],
       "answer": 1,
@@ -47,7 +47,7 @@
       "key": "animal",
       "ask": {
         "ko": "어떤 동물이었을까?",
-        "en": "What kind of animal was it?"
+        "en": "What animal was it?"
       },
       "options": [
         {
@@ -55,16 +55,16 @@
           "en": "A bear"
         },
         {
-          "ko": "사슴",
-          "en": "A deer"
+          "ko": "멧돼지",
+          "en": "A wild boar"
         },
         {
           "ko": "너구리",
           "en": "A raccoon"
         },
         {
-          "ko": "새",
-          "en": "A bird"
+          "ko": "까마귀",
+          "en": "A crow"
         }
       ],
       "answer": 2,
@@ -73,33 +73,32 @@
       ]
     },
     {
-      "key": "target",
+      "key": "cooler",
       "ask": {
-        "ko": "동물이 노린 것은?",
-        "en": "What was the animal after?"
+        "ko": "아이스박스 뚜껑은 어떻게 열렸을까?",
+        "en": "How did the cooler get open?"
       },
       "options": [
         {
-          "ko": "텐트",
-          "en": "The tent"
+          "ko": "곰이 부수고 열었다",
+          "en": "A bear smashed it open"
         },
         {
-          "ko": "신발",
-          "en": "Shoes"
+          "ko": "캠핑객이 열어 두고 잤다",
+          "en": "The campers left it open"
         },
         {
-          "ko": "모닥불",
-          "en": "The campfire"
+          "ko": "바람에 열렸다",
+          "en": "The wind blew it open"
         },
         {
-          "ko": "음식",
-          "en": "Food"
+          "ko": "작은 앞발로 걸쇠를 풀었다",
+          "en": "Little paws undid the latch"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e4",
-        "e1"
+        "e4"
       ]
     },
     {
@@ -110,111 +109,122 @@
       },
       "options": [
         {
+          "ko": "모두 잠든 한밤중",
+          "en": "In the dead of night"
+        },
+        {
           "ko": "저녁 식사 중",
           "en": "During dinner"
         },
         {
-          "ko": "점심때",
-          "en": "At lunchtime"
+          "ko": "해 뜬 뒤 아침",
+          "en": "After sunrise"
         },
         {
-          "ko": "모닥불이 꺼진 한밤중",
-          "en": "In the middle of the night, after the fire went out"
+          "ko": "어제 점심때",
+          "en": "Yesterday at lunch"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e3"
+      ]
+    },
+    {
+      "key": "gone",
+      "ask": {
+        "ko": "손님은 어디로 사라졌을까?",
+        "en": "Where did the visitor go?"
+      },
+      "options": [
+        {
+          "ko": "텐트 안으로",
+          "en": "Into the tent"
         },
         {
-          "ko": "일주일 전",
-          "en": "A week ago"
+          "ko": "개울 쪽으로",
+          "en": "Toward the stream"
+        },
+        {
+          "ko": "나무 위로",
+          "en": "Up the tree"
+        },
+        {
+          "ko": "차 밑으로",
+          "en": "Under the car"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "mistake",
-      "ask": {
-        "ko": "캠핑객이 저지른 실수는?",
-        "en": "What mistake did the campers make?"
-      },
-      "options": [
-        {
-          "ko": "텐트를 너무 크게 쳤다",
-          "en": "Pitching too big a tent"
-        },
-        {
-          "ko": "불을 너무 세게 피웠다",
-          "en": "Building too big a fire"
-        },
-        {
-          "ko": "우산을 안 가져왔다",
-          "en": "Forgetting an umbrella"
-        },
-        {
-          "ko": "음식을 밖에 두고 잤다",
-          "en": "Leaving food outside overnight"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e4"
+        "e6"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 45,
-      "y": 72,
-      "r": 10,
+      "x": 43,
+      "y": 61,
+      "r": 12,
       "label": {
         "ko": "찢어진 과자 봉지와 흩어진 쓰레기",
-        "en": "A torn snack bag and scattered trash"
+        "en": "Torn snack bags and scattered wrappers"
       }
     },
     {
       "id": "e2",
-      "x": 65,
-      "y": 86,
-      "r": 8,
+      "x": 54,
+      "y": 87,
+      "r": 10,
       "label": {
         "ko": "진흙 위의 작은 손바닥 모양 발자국",
-        "en": "Small, hand-shaped paw prints in the mud"
+        "en": "Small hand-shaped prints in the mud"
       }
     },
     {
       "id": "e3",
-      "x": 28,
-      "y": 40,
-      "r": 10,
+      "x": 51,
+      "y": 35,
+      "r": 11,
       "label": {
         "ko": "지퍼가 꼭 닫힌 텐트",
-        "en": "A tent still zipped shut"
+        "en": "A tent zipped shut"
       }
     },
     {
       "id": "e4",
-      "x": 82,
-      "y": 58,
-      "r": 8,
+      "x": 13,
+      "y": 46,
+      "r": 10,
       "label": {
-        "ko": "뚜껑이 열린 아이스박스",
-        "en": "An open cooler, lid flipped back"
+        "ko": "부서진 데 없이 뚜껑만 열린 아이스박스 — 뚜껑에 작은 진흙 손자국",
+        "en": "A cooler opened but not broken — tiny muddy handprints on the lid"
       }
     },
     {
       "id": "e5",
-      "x": 18,
-      "y": 78,
-      "r": 7,
+      "x": 73,
+      "y": 52,
+      "r": 10,
       "label": {
-        "ko": "발자국이 지나간 차갑게 식은 모닥불 자리",
-        "en": "A cold fire pit with paw prints right through the ashes"
+        "ko": "차갑게 식은 모닥불 재를 가로지른 발자국",
+        "en": "Prints running straight through the cold ashes"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 87,
+      "y": 76,
+      "r": 10,
+      "label": {
+        "ko": "나무 밑동에서 뚝 끊긴 발자국",
+        "en": "The prints end at the foot of a tree"
       }
     }
   ],
   "detective": {
-    "ko": "과자 봉지는 찢겨 있고 쓰레기가 흩어져 있다. 도둑일까? 텐트는 지퍼가 꼭 닫힌 그대로다. 털린 건 텐트가 아니라 뚜껑이 열린 아이스박스, 음식뿐이다. 진흙 위엔 작은 손바닥 모양의 발자국. 곰이라면 훨씬 크고, 사슴이라면 발굽 자국이다. 사람 손처럼 생긴 작은 발 — 너구리다. 발자국은 차갑게 식은 모닥불 잿더미 위로도 지나간다. 불이 꺼지고 모두 잠든 한밤중에 다녀간 것이다. 캠핑객의 실수는 하나. 음식을 아이스박스째 밖에 두고 잔 것.",
-    "en": "A snack bag torn open, trash scattered everywhere. A thief? The tent is still zipped tight. Nothing was taken from it — only the cooler, lid flipped back, was raided. Food was the target. In the mud: small prints shaped like little hands. A bear's would be huge; a deer leaves hoofprints. Tiny hand-like paws mean a raccoon. The prints even cross the cold ashes of the campfire, so the visit came in the dead of night, after the fire was out and everyone was asleep. The campers made one mistake: they left their food outside in the cooler."
+    "ko": "과자 봉지가 찢기고 아이스박스가 열려 있다. 도둑이라면 아이스박스째 들고 갔을 것이다. 남은 건 진흙 위의 작은 발자국 — 다섯 손가락을 쫙 편 아이 손바닥 같은 모양이다. 곰 발자국은 이보다 훨씬 크고, 멧돼지는 발굽, 까마귀는 세 갈래 새 발자국을 남긴다. 너구리다. 아이스박스는 부서진 데가 없다. 걸쇠만 풀렸고, 하얀 뚜껑엔 작은 진흙 손자국이 찍혀 있다. 너구리는 앞발로 걸쇠를 열 줄 안다. 발자국은 모닥불 재 한가운데를 지나간다. 불이 다 꺼진 뒤라는 뜻이고, 텐트 지퍼는 꼭 닫혀 있다 — 모두 잠든 한밤중이었다. 그리고 발자국은 커다란 나무 밑동에서 뚝 끊긴다. 손님은 나무 위로 올라갔다.",
+    "en": "Snack bags torn open, the cooler open. A thief would have just carried the whole cooler off. What's left are small prints in the mud — like a child's hand with five spread fingers. A bear's print would be far bigger, a boar leaves hooves, a crow leaves three-toed bird tracks. It was a raccoon. The cooler isn't broken; only the latch is undone, and there are tiny muddy handprints on the white lid. Raccoons can work a latch with their paws. The prints run right through the campfire ashes, so the fire was already out — and the tent is zipped shut. Everyone was asleep; it was the middle of the night. Finally, the prints stop dead at the foot of a big tree. The visitor went up."
   }
 }

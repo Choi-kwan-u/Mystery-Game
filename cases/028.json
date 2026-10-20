@@ -2,7 +2,7 @@
   "id": 28,
   "date": "2026-11-22",
   "type": "scene",
-  "image": "img/028.svg",
+  "image": "img/028.webp",
   "title": {
     "ko": "길 위에 쏟아진 장바구니",
     "en": "Spilled on the Street"
@@ -21,11 +21,11 @@
       "options": [
         {
           "ko": "차와 부딪히는 사고가 났다",
-          "en": "A crash with a car"
+          "en": "A car hit the bike"
         },
         {
           "ko": "자전거를 타다 미끄러져 넘어졌다",
-          "en": "Someone slipped and fell off their bike"
+          "en": "The rider slipped and fell"
         },
         {
           "ko": "도둑이 자전거를 버리고 갔다",
@@ -40,14 +40,14 @@
       "evidence": [
         "e1",
         "e2",
-        "e3"
+        "e4"
       ]
     },
     {
       "key": "slip",
       "ask": {
         "ko": "무엇 때문에 미끄러졌을까?",
-        "en": "What made them slip?"
+        "en": "What made the bike slip?"
       },
       "options": [
         {
@@ -64,41 +64,41 @@
         },
         {
           "ko": "기름",
-          "en": "An oil slick"
+          "en": "Oil"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e3"
+        "e2"
       ]
     },
     {
-      "key": "from",
+      "key": "apples",
       "ask": {
-        "ko": "자전거 주인은 무엇을 하고 오는 길이었을까?",
-        "en": "Where was the rider coming back from?"
+        "ko": "사과들은 왜 연석 한쪽에 몰려 있을까?",
+        "en": "Why are the apples all bunched in one spot by the curb?"
       },
       "options": [
         {
-          "ko": "출근",
-          "en": "Work"
+          "ko": "누가 발로 차서",
+          "en": "Someone kicked them"
         },
         {
-          "ko": "운동",
-          "en": "A workout"
+          "ko": "길이 비탈져 아래로 굴러가서",
+          "en": "The street slopes and they rolled downhill"
         },
         {
-          "ko": "학교",
-          "en": "School"
+          "ko": "바람에 밀려서",
+          "en": "The wind pushed them"
         },
         {
-          "ko": "장보기",
-          "en": "Grocery shopping"
+          "ko": "누가 주워 모아 둬서",
+          "en": "Someone gathered them"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
-        "e2"
+        "e3"
       ]
     },
     {
@@ -109,101 +109,111 @@
       },
       "options": [
         {
-          "ko": "크게 다쳐 구급차에 실려 갔다",
-          "en": "Badly — they left in an ambulance"
+          "ko": "구급차에 실려 갔다",
+          "en": "Taken away by ambulance"
         },
         {
-          "ko": "살짝 긁혀 반창고를 붙였다",
-          "en": "Just a scrape — they put on a bandage"
+          "ko": "팔이 부러졌다",
+          "en": "A broken arm"
         },
         {
           "ko": "전혀 안 다쳤다",
           "en": "Not at all"
         },
         {
-          "ko": "알 수 없다",
-          "en": "No way to tell"
+          "ko": "살짝 까져 반창고를 붙였다",
+          "en": "A scrape, patched with a bandage"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
-        "e4"
+        "e5"
       ]
     },
     {
-      "key": "broke",
+      "key": "bike",
       "ask": {
-        "ko": "깨진 것은 무엇일까?",
-        "en": "What broke?"
+        "ko": "자전거를 다시 타고 가지 않은 이유는?",
+        "en": "Why didn't the rider just ride off again?"
       },
       "options": [
         {
-          "ko": "유리병",
-          "en": "A glass bottle"
+          "ko": "체인이 빠져서",
+          "en": "The chain came off"
         },
         {
-          "ko": "휴대폰",
-          "en": "A phone"
+          "ko": "타이어가 터져서",
+          "en": "A flat tire"
         },
         {
-          "ko": "달걀",
-          "en": "Eggs"
+          "ko": "앞바퀴가 휘어서",
+          "en": "The front wheel is bent"
         },
         {
-          "ko": "안경",
-          "en": "Glasses"
+          "ko": "핸들이 부러져서",
+          "en": "The handlebars snapped"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e2"
+        "e1"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 55,
-      "r": 12,
+      "x": 60,
+      "y": 49,
+      "r": 14,
       "label": {
-        "ko": "옆으로 쓰러진 자전거, 핸들이 돌아가 있다",
-        "en": "A bike lying on its side, handlebars twisted"
+        "ko": "옆으로 쓰러진 자전거 — 앞바퀴가 크게 휘었다",
+        "en": "The bike on its side — its front wheel badly bent"
       }
     },
     {
       "id": "e2",
-      "x": 68,
-      "y": 78,
+      "x": 20,
+      "y": 77,
       "r": 10,
       "label": {
-        "ko": "굴러가 흩어진 사과들과 깨진 달걀",
-        "en": "Apples rolled away and broken eggs"
+        "ko": "짓이겨진 바나나 껍질에서 시작된 바퀴 미끄럼 자국",
+        "en": "A tire skid mark starting at a squashed banana peel"
       }
     },
     {
       "id": "e3",
-      "x": 22,
-      "y": 80,
-      "r": 7,
+      "x": 73,
+      "y": 72,
+      "r": 8,
       "label": {
-        "ko": "길 위의 바나나 껍질과 그 위를 지나간 바퀴 미끄럼 자국",
-        "en": "A banana peel on the road, with a tire skid mark across it"
+        "ko": "길 아래쪽 연석에 한데 몰린 사과들",
+        "en": "Apples bunched against the curb at the low end of the street"
       }
     },
     {
       "id": "e4",
-      "x": 85,
-      "y": 45,
+      "x": 29,
+      "y": 49,
+      "r": 8,
+      "label": {
+        "ko": "쏟아져 깨진 달걀",
+        "en": "Spilled, broken eggs"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 73,
+      "y": 89,
       "r": 7,
       "label": {
-        "ko": "연석에 떨어진 반창고 포장지",
-        "en": "A bandage wrapper dropped on the curb"
+        "ko": "연석 위의 뜯긴 반창고 포장지",
+        "en": "Torn bandage wrappers on the curb"
       }
     }
   ],
   "detective": {
-    "ko": "자전거가 옆으로 쓰러져 있고, 사과는 길을 따라 굴러가 흩어졌으며 달걀은 깨졌다. 장을 보고 오던 길이다. 차와 부딪혔다면 자전거가 찌그러지고 유리 조각이 흩어졌겠지만, 그런 흔적은 없다. 대신 길 위에 바나나 껍질 하나, 그리고 그 위를 그대로 미끄러진 바퀴 자국. 범인은 바나나 껍질이다. 연석엔 뜯긴 반창고 포장지 — 넘어진 사람은 살짝 긁힌 곳에 반창고를 붙이고, 흩어진 장바구니를 줍기 시작했을 것이다.",
-    "en": "The bike is on its side, apples have rolled down the street, and the eggs didn't make it. Someone was on their way home from grocery shopping. A collision with a car would leave a bent frame and broken glass — none here. Instead there's a banana peel on the road, with a tire skid running straight across it. The culprit is a banana peel. On the curb, a torn bandage wrapper: the rider got a scrape, patched it up, and started gathering the groceries."
+    "ko": "자전거가 옆으로 쓰러졌고 장바구니가 쏟아졌다. 차와 부딪혔다면 깨진 유리나 찌그러진 흔적이 있었을 것이다. 바퀴 미끄럼 자국을 따라가 보면, 시작점에 짓이겨진 바나나 껍질이 있다. 기름이나 빙판이 아니다. 바나나 껍질을 밟고 미끄러졌다. 달걀은 깨졌고 사과는 흩어졌는데, 사과들은 길 아래쪽 연석에 한데 몰려 있다. 누가 모은 게 아니다. 길이 비탈져 있어 전부 아래로 굴러갔다. 연석 위엔 뜯긴 반창고 포장지. 구급차가 올 만큼은 아니고, 무릎이나 손바닥이 살짝 까져 반창고를 붙였다. 그런데 왜 자전거를 두고 갔을까? 앞바퀴가 크게 휘었다. 더는 탈 수 없다.",
+    "en": "A bike lies on its side, groceries everywhere. A car crash would leave broken glass or dents. Follow the skid mark back and it starts at a squashed banana peel — not oil, not ice. The rider slipped on a banana peel. The eggs broke and the apples scattered — but the apples are all bunched against the curb at the low end of the street. Nobody gathered them; the street slopes, and they rolled downhill. On the curb, torn bandage wrappers: no ambulance needed, just a scraped knee or palm and a bandage. So why leave the bike behind? Its front wheel is badly bent. Nobody's riding that home."
   }
 }

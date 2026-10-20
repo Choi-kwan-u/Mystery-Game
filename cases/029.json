@@ -2,7 +2,7 @@
   "id": 29,
   "date": "2026-11-23",
   "type": "scene",
-  "image": "img/029.svg",
+  "image": "img/029.webp",
   "title": {
     "ko": "멈춰 버린 체스판",
     "en": "The Last Move"
@@ -20,23 +20,23 @@
       },
       "options": [
         {
-          "ko": "한쪽이 기권하며 게임이 끝났다",
-          "en": "The game ended when one side resigned"
-        },
-        {
           "ko": "바람에 말이 쓰러졌다",
           "en": "The wind knocked a piece over"
         },
         {
           "ko": "아이가 장난을 쳤다",
-          "en": "A kid was messing around"
+          "en": "A kid messed with the board"
+        },
+        {
+          "ko": "한쪽이 기권해 게임이 끝났다",
+          "en": "One player resigned"
         },
         {
           "ko": "게임을 막 시작하려던 참이다",
-          "en": "A game was about to start"
+          "en": "The game was about to start"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
         "e1",
         "e2"
@@ -63,7 +63,7 @@
         },
         {
           "ko": "알 수 없다",
-          "en": "No way to tell"
+          "en": "Impossible to tell"
         }
       ],
       "answer": 1,
@@ -72,139 +72,159 @@
       ]
     },
     {
-      "key": "long",
+      "key": "game",
       "ask": {
-        "ko": "게임은 얼마나 오래 이어졌을까?",
-        "en": "How long did the game go on?"
+        "ko": "어떤 게임이었을까?",
+        "en": "What kind of game was it?"
       },
       "options": [
         {
-          "ko": "1분",
-          "en": "A minute"
+          "ko": "한쪽이 일방적으로 이긴 게임",
+          "en": "A one-sided rout"
         },
         {
-          "ko": "하루 종일",
-          "en": "All day"
+          "ko": "막 시작한 게임",
+          "en": "A game that had barely started"
         },
         {
-          "ko": "시작도 안 했다",
-          "en": "It never started"
+          "ko": "몇 수만 둔 연습 게임",
+          "en": "A few practice moves"
         },
         {
-          "ko": "꽤 오래",
-          "en": "Quite a while"
+          "ko": "양쪽 다 많이 잡힌 긴 접전",
+          "en": "A long, close battle"
         }
       ],
       "answer": 3,
       "evidence": [
         "e2",
-        "e4"
+        "e3"
       ]
     },
     {
       "key": "coffee",
       "ask": {
-        "ko": "한쪽의 커피가 거의 그대로 식은 이유는?",
-        "en": "Why is one player's coffee nearly full and cold?"
+        "ko": "흰 쪽 커피만 가득 남아 식어 버린 이유는?",
+        "en": "Why is White's coffee still full and cold?"
       },
       "options": [
         {
-          "ko": "커피를 싫어해서",
-          "en": "They hate coffee"
+          "ko": "수세에 몰려 마실 틈도 없이 고민해서",
+          "en": "White was under pressure, too busy thinking to drink"
         },
         {
-          "ko": "게임에 몰두해 마시는 걸 잊어서",
-          "en": "They were too absorbed in the game to drink it"
+          "ko": "커피를 싫어해서",
+          "en": "White hates coffee"
         },
         {
           "ko": "너무 뜨거워서",
           "en": "It was too hot"
         },
         {
-          "ko": "다른 사람 것이라서",
-          "en": "It belongs to someone else"
+          "ko": "남의 커피라서",
+          "en": "It was someone else's"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e5"
+      ]
+    },
+    {
+      "key": "left",
+      "ask": {
+        "ko": "진 사람은 어떻게 자리를 떠났을까?",
+        "en": "How did the loser leave?"
+      },
+      "options": [
+        {
+          "ko": "조용히 의자를 넣고 떠났다",
+          "en": "Tucked the chair in and quietly left"
+        },
+        {
+          "ko": "의자를 뒤로 밀치고 벌떡 일어났다",
+          "en": "Shoved the chair back and shot up"
+        },
+        {
+          "ko": "이긴 사람과 악수하고 함께 떠났다",
+          "en": "Shook hands and left together"
+        },
+        {
+          "ko": "아직 의자에 앉아 있다",
+          "en": "Is still sitting there"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "lose",
-      "ask": {
-        "ko": "진 사람은 어떻게 패배를 인정했을까?",
-        "en": "How did the loser concede?"
-      },
-      "options": [
-        {
-          "ko": "판을 엎었다",
-          "en": "Flipped the board"
-        },
-        {
-          "ko": "도망쳤다",
-          "en": "Ran off"
-        },
-        {
-          "ko": "스스로 킹을 눕혔다",
-          "en": "Laid down their own king"
-        },
-        {
-          "ko": "심판을 불렀다",
-          "en": "Called a referee"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e3"
+        "e6"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 50,
-      "r": 9,
+      "x": 54,
+      "y": 61,
+      "r": 5,
       "label": {
-        "ko": "다른 말들은 그대로인데 혼자 옆으로 쓰러진 흰 킹",
-        "en": "The white king on its side while every other piece stands"
+        "ko": "다른 말은 다 서 있는데 혼자 옆으로 누운 흰 킹",
+        "en": "The white king lying on its side — every other piece standing"
       }
     },
     {
       "id": "e2",
-      "x": 20,
-      "y": 58,
-      "r": 8,
+      "x": 34,
+      "y": 60,
+      "r": 9,
       "label": {
-        "ko": "판 옆에 길게 줄지어 놓인 잡힌 말들 — 양쪽 모두",
-        "en": "Captured pieces lined up in long rows — for both sides"
+        "ko": "판 옆에 줄지어 선 잡힌 흰 말들",
+        "en": "Captured white pieces lined up by the board"
       }
     },
     {
       "id": "e3",
-      "x": 80,
-      "y": 80,
+      "x": 75,
+      "y": 59,
       "r": 9,
       "label": {
-        "ko": "테이블에서 뒤로 밀려난 의자 하나",
-        "en": "One chair pushed back from the table"
+        "ko": "반대편에 줄지어 선 잡힌 검은 말들 — 개수가 비슷하다",
+        "en": "Captured black pieces on the other side — about as many"
       }
     },
     {
       "id": "e4",
-      "x": 25,
-      "y": 30,
-      "r": 7,
+      "x": 19,
+      "y": 50,
+      "r": 6,
       "label": {
-        "ko": "한쪽 자리에 거의 그대로 식어 버린 커피",
-        "en": "On one side, a coffee left almost untouched and cold"
+        "ko": "흰 쪽 자리에 가득 남은 채 식어 버린 커피",
+        "en": "A full, cold coffee on White's side"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 86,
+      "y": 50,
+      "r": 5,
+      "label": {
+        "ko": "검은 쪽 자리의 다 마시고 구겨진 컵",
+        "en": "An empty, crumpled cup on Black's side"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 25,
+      "y": 82,
+      "r": 13,
+      "label": {
+        "ko": "흰 쪽 의자 — 뒤로 밀려나 비뚤어졌다",
+        "en": "White's chair, shoved back at a crooked angle"
       }
     }
   ],
   "detective": {
-    "ko": "판 위의 다른 말들은 모두 제자리에 서 있는데 흰 킹만 옆으로 쓰러져 있다. 바람이나 장난이라면 다른 말들도 흐트러졌을 것이다. 체스에서 자기 킹을 눕히는 건 '졌다'는 인사다. 흰 쪽이 기권했고, 검은 쪽이 이겼다. 판 옆엔 양쪽 모두 잡힌 말이 길게 줄지어 있다 — 금방 끝난 게임이 아니라 오래 이어진 접전이었다. 한쪽 자리의 커피는 거의 그대로 식어 버렸다. 마시는 것도 잊을 만큼 몰두했던 것이다. 그리고 뒤로 밀려난 의자 하나. 진 사람은 판을 엎는 대신 조용히 킹을 눕히고 자리에서 일어났다.",
-    "en": "Every other piece is still standing, but the white king lies on its side. Wind or a prank would have scattered the rest. In chess, tipping over your own king is how you say 'I resign.' White gave up; Black won. Beside the board, captured pieces stand in long rows for both sides — not a quick game but a long, hard-fought one. On one side, a coffee sits almost untouched and stone cold: someone was too absorbed to drink it. And one chair is pushed back from the table. The loser didn't flip the board; they quietly laid down their king and stood up."
+    "ko": "다른 말은 전부 서 있는데 흰 킹 하나만 옆으로 누워 있다. 바람이었다면 다른 말도 쓰러졌을 것이다. 체스에서 자기 킹을 눕히는 건 기권의 표시 — 흰 쪽이 졌고, 검은 쪽이 이겼다. 판 양옆엔 잡힌 말들이 비슷한 수로 늘어서 있다. 일방적인 게임이 아니라 오래 주고받은 접전이었다. 검은 쪽 컵은 다 마시고 구겨져 있는데, 흰 쪽 커피는 가득 찬 채 식어 버렸다. 몰리는 쪽은 한 수 한 수 고민하느라 커피에 손댈 틈이 없다. 그리고 흰 쪽 의자는 뒤로 밀려나 비뚤어져 있다. 조용히 의자를 넣고 간 게 아니다. 킹을 눕히고, 벌떡 일어나 떠났다.",
+    "en": "Every piece is standing except one: the white king, lying on its side. Wind would have toppled others, too. In chess, tipping over your own king means you resign — White lost, Black won. On both sides of the board stand rows of captured pieces, about the same number each. This wasn't a rout; it was a long, close fight. Black's cup is drained and crumpled, but White's coffee is still full and stone cold. The player under pressure was too busy agonizing over every move to take a sip. And White's chair has been shoved back at a crooked angle. No quietly tucking it in: White tipped the king, shot up, and left."
   }
 }

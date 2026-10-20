@@ -2,7 +2,7 @@
   "id": 20,
   "date": "2026-11-14",
   "type": "scene",
-  "image": "img/020.svg",
+  "image": "img/020.webp",
   "title": {
     "ko": "빗물 고인 현관",
     "en": "Rainy Day Entryway"
@@ -21,33 +21,33 @@
       "options": [
         {
           "ko": "택배가 왔다",
-          "en": "A delivery arrived"
-        },
-        {
-          "ko": "비를 맞으며 개를 산책시키고 돌아왔다",
-          "en": "Someone came back from walking the dog in the rain"
+          "en": "A parcel was delivered"
         },
         {
           "ko": "도둑이 들었다",
-          "en": "A burglary"
+          "en": "A burglar got in"
         },
         {
-          "ko": "수도관이 터졌다",
-          "en": "A pipe burst"
+          "ko": "비 오는 날 개를 산책시키고 돌아왔다",
+          "en": "Someone came back from walking the dog in the rain"
+        },
+        {
+          "ko": "아이가 학교에서 돌아왔다",
+          "en": "A child came home from school"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e1",
         "e2",
-        "e3"
+        "e3",
+        "e1"
       ]
     },
     {
       "key": "who",
       "ask": {
         "ko": "함께 나갔다 온 것은?",
-        "en": "Who went out with them?"
+        "en": "Who went out with the person?"
       },
       "options": [
         {
@@ -59,46 +59,76 @@
           "en": "A small dog"
         },
         {
-          "ko": "아기",
-          "en": "A baby"
+          "ko": "큰 개",
+          "en": "A big dog"
         },
         {
-          "ko": "오리",
-          "en": "A duck"
+          "ko": "아이",
+          "en": "A child"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e2"
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "when",
+      "key": "spray",
       "ask": {
-        "ko": "언제 돌아왔을까?",
-        "en": "When did they get back?"
+        "ko": "벽 아래쪽에 튄 흙탕물은 무엇 때문일까?",
+        "en": "What sprayed muddy water low on the wall?"
       },
       "options": [
         {
-          "ko": "방금",
-          "en": "Just now"
+          "ko": "개가 몸을 털어서",
+          "en": "The dog shook itself off"
         },
         {
-          "ko": "어제",
-          "en": "Yesterday"
+          "ko": "우산을 털어서",
+          "en": "Someone shook out the umbrella"
         },
         {
-          "ko": "아침 일찍",
-          "en": "Early this morning"
+          "ko": "지나가던 차가 튀겨서",
+          "en": "A passing car splashed it"
         },
         {
-          "ko": "일주일 전",
-          "en": "A week ago"
+          "ko": "걸레질하다 튀어서",
+          "en": "Splashes from mopping"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e1"
+        "e4"
+      ]
+    },
+    {
+      "key": "towel",
+      "ask": {
+        "ko": "바닥의 수건은 왜 떨어져 있을까?",
+        "en": "Why is there a towel on the floor?"
+      },
+      "options": [
+        {
+          "ko": "빨래를 널다 떨어뜨렸다",
+          "en": "It fell off the laundry rack"
+        },
+        {
+          "ko": "바람에 날아왔다",
+          "en": "The wind blew it in"
+        },
+        {
+          "ko": "발 닦개로 일부러 깔아 뒀다",
+          "en": "It was put down as a doormat"
+        },
+        {
+          "ko": "개를 닦아 주려다 놓쳤다",
+          "en": "Someone tried to dry the dog, and it got away"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5"
       ]
     },
     {
@@ -113,107 +143,88 @@
           "en": "Back outside"
         },
         {
-          "ko": "지붕 위",
-          "en": "On the roof"
-        },
-        {
           "ko": "욕실",
           "en": "In the bathroom"
         },
         {
-          "ko": "차고",
-          "en": "In the garage"
+          "ko": "거실 소파",
+          "en": "On the living-room sofa"
+        },
+        {
+          "ko": "부엌",
+          "en": "In the kitchen"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "towel",
-      "ask": {
-        "ko": "바닥의 수건은 왜 떨어져 있을까?",
-        "en": "Why is there a towel on the floor?"
-      },
-      "options": [
-        {
-          "ko": "개를 닦아 주려다 놓쳤다",
-          "en": "Someone tried to dry the dog, and it got away"
-        },
-        {
-          "ko": "빨래를 널다 떨어졌다",
-          "en": "It fell off the drying rack"
-        },
-        {
-          "ko": "바람에 날아왔다",
-          "en": "The wind blew it in"
-        },
-        {
-          "ko": "일부러 깔아 뒀다",
-          "en": "It was put there on purpose"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5"
+        "e6"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 18,
-      "y": 40,
-      "r": 8,
+      "x": 22,
+      "y": 52,
+      "r": 10,
       "label": {
-        "ko": "물이 뚝뚝 떨어지는 젖은 우산",
-        "en": "A wet umbrella, still dripping"
+        "ko": "현관 옆에 세워 둔, 물이 뚝뚝 떨어지는 우산",
+        "en": "A dripping umbrella by the door"
       }
     },
     {
       "id": "e2",
-      "x": 48,
-      "y": 72,
-      "r": 11,
+      "x": 50,
+      "y": 83,
+      "r": 13,
       "label": {
-        "ko": "안쪽으로 이어진 진흙 발자국 — 사람 신발과 작은 개 발바닥",
-        "en": "Muddy prints leading inside — a person's shoes and a small dog's paws"
+        "ko": "나란히 이어진 진흙 발자국 — 사람 신발과 작은 개 발바닥",
+        "en": "Muddy prints side by side — shoes and small paws"
       }
     },
     {
       "id": "e3",
-      "x": 82,
-      "y": 28,
-      "r": 7,
+      "x": 80,
+      "y": 23,
+      "r": 9,
       "label": {
-        "ko": "벽 고리에 걸린 젖은 목줄",
-        "en": "A wet leash hanging on a hook"
+        "ko": "벽 고리에 걸린 젖은 작은 하네스와 목줄",
+        "en": "A small wet harness and leash on a wall hook"
       }
     },
     {
       "id": "e4",
-      "x": 72,
-      "y": 50,
-      "r": 8,
+      "x": 83,
+      "y": 73,
+      "r": 9,
       "label": {
-        "ko": "발자국이 향한 열린 욕실 문",
-        "en": "The prints head toward the open bathroom door"
+        "ko": "무릎 높이 아래에만 부채꼴로 튄 흙탕물",
+        "en": "A fan of muddy spray on the wall, only below knee height"
       }
     },
     {
       "id": "e5",
-      "x": 30,
-      "y": 88,
-      "r": 7,
+      "x": 55,
+      "y": 58,
+      "r": 9,
       "label": {
-        "ko": "개 발자국이 그대로 지나간 바닥의 수건",
-        "en": "A towel on the floor, with paw prints running right over it"
+        "ko": "개 발자국이 멈추지 않고 그대로 지나간 수건",
+        "en": "A towel the paw prints run straight across"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 50,
+      "y": 30,
+      "r": 8,
+      "label": {
+        "ko": "두 발자국이 향한, 불 켜진 욕실",
+        "en": "The lit bathroom where both trails lead"
       }
     }
   ],
   "detective": {
-    "ko": "우산에서 아직 물이 뚝뚝 떨어진다. 방금 들어왔다. 현관에서 안쪽으로 이어진 진흙 발자국은 두 종류 — 사람 신발, 그리고 작은 개의 발자국이다. 벽 고리엔 젖은 목줄. 비를 맞으며 개 산책을 다녀온 것이다. 바닥의 수건 위로 개 발자국이 그대로 지나간다. 들어오자마자 닦아 주려 했지만 개가 빠져나간 모양이다. 발자국은 열린 욕실 문으로 이어진다. 지금쯤 그들은 욕실에서, 진흙투성이 개를 씻기는 중일 것이다.",
-    "en": "The umbrella is still dripping: someone just came in. Muddy prints run from the door into the house, and there are two kinds — a person's shoes and a small dog's paws. A wet leash hangs on the hook. Someone just walked the dog in the rain. The paw prints run right over the towel on the floor: a quick rubdown was attempted, and the dog wriggled free. The trail leads to the open bathroom door. Right about now, someone's in there washing a very muddy dog."
+    "ko": "현관 옆 우산에서 물이 뚝뚝 떨어진다. 방금 비를 뚫고 들어왔다. 바닥엔 진흙 발자국 두 줄 — 사람 신발과 작은 발바닥. 아이였다면 신발 자국이 두 줄 찍혔을 것이다. 벽 고리엔 젖은 작은 하네스와 목줄. 고양이는 비 오는 날 목줄 매고 산책하지 않는다. 작은 개다. 벽에 튄 흙탕물은 무릎 높이 아래에만 부채꼴로 퍼져 있다. 우산을 털었다면 더 높이, 우산 옆에 튀었을 것이다. 발바닥 자국이 뭉친 바로 그 자리에서 개가 몸을 부르르 털었다. 바닥의 수건 위로 개 발자국이 멈추지도 않고 지나갔다. 닦아 주려고 펼쳤는데, 개가 먼저 빠져나갔다. 두 발자국은 나란히 불 켜진 욕실로 들어간다. 지금 그 안에서 목욕 중이다.",
+    "en": "Water drips from the umbrella by the door; someone just came in out of the rain. Two muddy trails cross the floor — shoe prints and small paw prints. A child would have left a second set of shoe prints. On the hook hangs a small wet harness and leash, and cats don't go for leashed walks in the rain: it's a small dog. The muddy spray on the wall fans out only below knee height. A shaken umbrella would spray higher, right beside the umbrella. Where the paw prints bunch up, the dog shook itself off. The paw prints cross the towel on the floor without stopping — it was spread out for a rubdown, and the dog slipped past. Both trails lead side by side into the lit bathroom. Bath time is happening right now."
   }
 }

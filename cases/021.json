@@ -2,7 +2,7 @@
   "id": 21,
   "date": "2026-11-15",
   "type": "scene",
-  "image": "img/021.svg",
+  "image": "img/021.webp",
   "title": {
     "ko": "짐을 싸다 만 방",
     "en": "Packing Interrupted"
@@ -20,23 +20,23 @@
       },
       "options": [
         {
-          "ko": "이사를 가는 중",
-          "en": "Someone's moving out"
-        },
-        {
-          "ko": "휴가 여행 짐을 싸는 중",
-          "en": "Someone's packing for a vacation"
+          "ko": "이사 준비 중",
+          "en": "Getting ready to move"
         },
         {
           "ko": "도둑이 들었다",
-          "en": "A burglary"
+          "en": "A burglar got in"
         },
         {
-          "ko": "대청소 중",
-          "en": "A big spring clean"
+          "ko": "휴가 여행 짐을 싸는 중",
+          "en": "Packing for a vacation"
+        },
+        {
+          "ko": "출장 준비 중",
+          "en": "Packing for a business trip"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
         "e1",
         "e2",
@@ -47,7 +47,7 @@
       "key": "where",
       "ask": {
         "ko": "어디로 떠날까?",
-        "en": "Where are they headed?"
+        "en": "Where are they going?"
       },
       "options": [
         {
@@ -55,58 +55,29 @@
           "en": "A ski resort"
         },
         {
-          "ko": "출장지 호텔",
-          "en": "A business hotel"
-        },
-        {
           "ko": "바닷가 휴양지",
           "en": "A beach resort"
         },
         {
-          "ko": "시골 할머니 댁",
-          "en": "Grandma's place in the country"
+          "ko": "출장지 호텔",
+          "en": "A business hotel"
+        },
+        {
+          "ko": "산속 캠핑장",
+          "en": "A mountain campsite"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
         "e2",
         "e3"
       ]
     },
     {
-      "key": "how",
-      "ask": {
-        "ko": "무엇을 타고 갈까?",
-        "en": "How are they getting there?"
-      },
-      "options": [
-        {
-          "ko": "비행기",
-          "en": "By plane"
-        },
-        {
-          "ko": "자전거",
-          "en": "By bike"
-        },
-        {
-          "ko": "고속버스",
-          "en": "By coach bus"
-        },
-        {
-          "ko": "걸어서",
-          "en": "On foot"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
       "key": "search",
       "ask": {
         "ko": "주인은 지금 무엇을 찾고 있을까?",
-        "en": "What is the owner searching for right now?"
+        "en": "What is the owner looking for right now?"
       },
       "options": [
         {
@@ -114,119 +85,139 @@
           "en": "Socks"
         },
         {
+          "ko": "충전기",
+          "en": "A charger"
+        },
+        {
+          "ko": "선글라스",
+          "en": "Sunglasses"
+        },
+        {
           "ko": "여권",
-          "en": "Their passport"
-        },
-        {
-          "ko": "손전등",
-          "en": "A flashlight"
-        },
-        {
-          "ko": "사진",
-          "en": "A photo"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4",
-        "e5"
-      ]
-    },
-    {
-      "key": "leave",
-      "ask": {
-        "ko": "언제 출발할까?",
-        "en": "When are they leaving?"
-      },
-      "options": [
-        {
-          "ko": "한 달 뒤",
-          "en": "In a month"
-        },
-        {
-          "ko": "작년에 다녀왔다",
-          "en": "They went last year"
-        },
-        {
-          "ko": "이미 다녀왔다",
-          "en": "They're already back"
-        },
-        {
-          "ko": "내일",
-          "en": "Tomorrow"
+          "en": "The passport"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e6",
+        "e5",
+        "e4"
+      ]
+    },
+    {
+      "key": "how",
+      "ask": {
+        "ko": "무엇을 타고 갈까?",
+        "en": "How will they travel?"
+      },
+      "options": [
+        {
+          "ko": "비행기",
+          "en": "By plane"
+        },
+        {
+          "ko": "배",
+          "en": "By ship"
+        },
+        {
+          "ko": "고속버스",
+          "en": "By express bus"
+        },
+        {
+          "ko": "자기 차",
+          "en": "In their own car"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
         "e1"
+      ]
+    },
+    {
+      "key": "with",
+      "ask": {
+        "ko": "누구와 함께 갈까?",
+        "en": "Who's going on this trip?"
+      },
+      "options": [
+        {
+          "ko": "혼자",
+          "en": "Just the owner"
+        },
+        {
+          "ko": "친구들과",
+          "en": "The owner and friends"
+        },
+        {
+          "ko": "아이와 함께",
+          "en": "The owner and a child"
+        },
+        {
+          "ko": "회사 동료와",
+          "en": "The owner and coworkers"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2",
+        "e3"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 55,
+      "x": 65,
+      "y": 47,
       "r": 12,
       "label": {
-        "ko": "침대 위에 열린 여행 가방, 옷이 반쯤 들어 있다",
-        "en": "An open suitcase on the bed, half packed"
+        "ko": "침대 위 반쯤 싼 여행 가방과 목베개",
+        "en": "A half-packed suitcase and a travel neck pillow"
       }
     },
     {
       "id": "e2",
-      "x": 25,
-      "y": 48,
-      "r": 7,
+      "x": 71,
+      "y": 62,
+      "r": 9,
       "label": {
-        "ko": "가방 옆의 수영복과 선크림",
-        "en": "A swimsuit and sunscreen next to the suitcase"
+        "ko": "어른 수영복 옆의 아주 작은 아이 수영복과 선크림",
+        "en": "A tiny child's swimsuit beside an adult one, and sunscreen"
       }
     },
     {
       "id": "e3",
-      "x": 78,
-      "y": 40,
-      "r": 7,
+      "x": 18,
+      "y": 49,
+      "r": 11,
       "label": {
-        "ko": "의자에 걸쳐 둔 스노클 마스크와 오리발",
-        "en": "A snorkel mask and flippers on the chair"
+        "ko": "의자 위의 오리발과 스노클 마스크 두 개 — 하나는 분홍색 아이용",
+        "en": "Fins and two snorkel masks on the chair — one small and pink"
       }
     },
     {
       "id": "e4",
-      "x": 85,
-      "y": 72,
-      "r": 8,
+      "x": 35,
+      "y": 36,
+      "r": 9,
       "label": {
-        "ko": "서랍장 맨 위 칸만 활짝 열려 있다",
-        "en": "Only the top drawer of the dresser is yanked open"
+        "ko": "맨 위 칸만 활짝 열려 헤집어진 서랍장",
+        "en": "Only the top drawer pulled out and rummaged"
       }
     },
     {
       "id": "e5",
-      "x": 18,
-      "y": 80,
-      "r": 7,
+      "x": 76,
+      "y": 79,
+      "r": 8,
       "label": {
-        "ko": "협탁 위의 텅 빈 여권 지갑",
-        "en": "An empty passport wallet on the nightstand"
-      }
-    },
-    {
-      "id": "e6",
-      "x": 55,
-      "y": 12,
-      "r": 6,
-      "label": {
-        "ko": "벽시계 — 밤 11시",
-        "en": "The wall clock says 11 p.m."
+        "ko": "협탁 위에 펼쳐진 텅 빈 여권 지갑",
+        "en": "An open, empty passport cover on the nightstand"
       }
     }
   ],
   "detective": {
-    "ko": "침대 위에 여행 가방이 열려 있고 옷이 반쯤 들어 있다. 도둑이라면 가방을 채우는 게 아니라 비웠을 것이다. 가방 옆엔 수영복과 선크림, 의자엔 스노클 마스크와 오리발. 스키장도 출장도 아니라 바닷가로 떠나는 휴가다. 시계는 밤 11시 — 내일 출발을 앞두고 늦게까지 짐을 싸는 중이다. 그런데 협탁 위 여권 지갑이 텅 비어 있고, 서랍장 맨 위 칸만 활짝 열려 있다. 짐을 싸다 말고 지금 여권을 찾아 집 안을 뒤지고 있다. 여권이 필요하니, 비행기를 타고 떠날 것이다.",
-    "en": "A suitcase lies open on the bed, half full of clothes. A burglar empties bags; he doesn't pack them. Beside it, a swimsuit and sunscreen; on the chair, a snorkel mask and flippers. Not a ski trip, not business — a beach vacation. The clock says 11 p.m.: someone is packing late, leaving tomorrow. But the passport wallet on the nightstand is empty, and only the top drawer of the dresser is yanked wide open. Packing has stopped. Somewhere in the house, someone is hunting for their passport — and needing a passport means they're flying."
+    "ko": "침대 위에 가방이 열려 있고 여름옷이 반쯤 들어 있다. 서랍장은 맨 위 칸만 헤집어졌다. 도둑이라면 서랍을 전부 뒤졌을 테고, 이사라면 옷을 상자에 담았을 것이다. 가방 옆엔 수영복과 선크림, 의자엔 오리발과 스노클 마스크. 출장 가방에 오리발을 넣는 사람은 없다. 바닷가로 떠나는 휴가다. 그런데 수영복 하나는 아주 작고, 마스크 하나는 분홍색 아이용이다. 아이와 함께 가는 여행이다. 협탁 위엔 여권 지갑이 펼쳐진 채 텅 비어 있다. 여권이 있어야 하는 해외, 가방 옆엔 목베개 — 비행기다. 그리고 맨 위 서랍만 뒤진 이유. 여권은 보통 거기 둔다. 지금 주인은 여권을 찾고 있다.",
+    "en": "An open suitcase on the bed, half full of summer clothes. Only the top drawer of the dresser has been rummaged. A burglar would have torn through every drawer; someone moving would be filling boxes. Next to the suitcase: swimsuits and sunscreen. On the chair: fins and snorkel masks. Nobody packs fins for a business trip — this is a beach vacation. One swimsuit is tiny, though, and one mask is a small pink child's mask: a child is coming along. On the nightstand, a passport cover lies open and empty. A trip that needs a passport, with a neck pillow beside the suitcase — they're flying. And why only the top drawer? That's where passports usually live. Right now, the owner is hunting for the passport."
   }
 }

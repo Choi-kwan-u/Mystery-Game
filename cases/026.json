@@ -2,51 +2,21 @@
   "id": 26,
   "date": "2026-11-20",
   "type": "scene",
-  "image": "img/026.svg",
+  "image": "img/026.webp",
   "title": {
     "ko": "사라진 케이크 한 조각",
     "en": "The Missing Slice"
   },
   "intro": {
-    "ko": "오후 5시, 아무도 없는 부엌. 조리대 위 케이크에서 한 조각이 사라졌다. 여기서 무슨 일이 있었을까?",
-    "en": "5 p.m., an empty kitchen. A slice is missing from the cake on the counter. What happened here?"
+    "ko": "오후 5시, 아무도 없는 부엌. 조리대 위 케이크에서 한 조각이 사라졌다. 범인은 누구일까?",
+    "en": "5 p.m., an empty kitchen. A piece of the cake on the counter has gone missing. Who did it?"
   },
   "questions": [
     {
-      "key": "event",
-      "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
-      },
-      "options": [
-        {
-          "ko": "누군가 케이크를 몰래 먹었다",
-          "en": "Someone sneaked a slice of cake"
-        },
-        {
-          "ko": "생일 파티가 끝났다",
-          "en": "A birthday party just ended"
-        },
-        {
-          "ko": "케이크를 새로 사 왔다",
-          "en": "Someone just bought the cake"
-        },
-        {
-          "ko": "냉장고가 고장 났다",
-          "en": "The fridge broke down"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2",
-        "e3"
-      ]
-    },
-    {
       "key": "culprit",
       "ask": {
-        "ko": "범인은 누구일까?",
-        "en": "Who's the culprit?"
+        "ko": "케이크를 먹은 범인은 누구일까?",
+        "en": "Who ate the cake?"
       },
       "options": [
         {
@@ -55,7 +25,7 @@
         },
         {
           "ko": "아이",
-          "en": "The kid"
+          "en": "A child"
         },
         {
           "ko": "이 집 개",
@@ -63,13 +33,14 @@
         },
         {
           "ko": "고양이",
-          "en": "A cat"
+          "en": "The cat"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e3",
-        "e4"
+        "e1",
+        "e5",
+        "e6"
       ]
     },
     {
@@ -85,7 +56,7 @@
         },
         {
           "ko": "뛰어올라서",
-          "en": "With one big jump"
+          "en": "By jumping up"
         },
         {
           "ko": "누가 내려 줘서",
@@ -93,7 +64,7 @@
         },
         {
           "ko": "의자를 밟고 올라가서",
-          "en": "By climbing onto a chair"
+          "en": "By climbing on the chair"
         }
       ],
       "answer": 3,
@@ -102,27 +73,27 @@
       ]
     },
     {
-      "key": "cut",
+      "key": "chair",
       "ask": {
-        "ko": "케이크의 빈자리는 어떻게 생겼을까?",
-        "en": "How was the slice taken?"
+        "ko": "의자는 원래 왜 조리대 옆에 있었을까?",
+        "en": "Why was the chair by the counter in the first place?"
       },
       "options": [
         {
-          "ko": "칼로 깔끔하게 잘랐다",
-          "en": "Cut neatly with a knife"
+          "ko": "개가 끌어다 놓았다",
+          "en": "The dog dragged it there"
         },
         {
-          "ko": "마구 뜯어 먹었다",
-          "en": "Torn out and gobbled"
+          "ko": "주인이 위 찬장에서 무언가를 꺼내려고 밟았다",
+          "en": "The owner stood on it to reach the top cabinet"
         },
         {
-          "ko": "포크로 떠먹었다",
-          "en": "Eaten with a fork"
+          "ko": "아이가 숨바꼭질하다 옮겼다",
+          "en": "A kid moved it playing hide-and-seek"
         },
         {
-          "ko": "녹아서 무너졌다",
-          "en": "It melted and collapsed"
+          "ko": "원래 그 자리였다",
+          "en": "It always sits there"
         }
       ],
       "answer": 1,
@@ -134,7 +105,7 @@
       "key": "for",
       "ask": {
         "ko": "이 케이크는 원래 무엇을 위한 것이었을까?",
-        "en": "What was this cake meant for?"
+        "en": "What was this cake for?"
       },
       "options": [
         {
@@ -142,78 +113,118 @@
           "en": "Just a snack"
         },
         {
-          "ko": "오늘 밤 생일 파티",
-          "en": "A birthday party tonight"
-        },
-        {
           "ko": "어제 결혼식",
           "en": "Yesterday's wedding"
         },
         {
+          "ko": "오늘 밤 생일 파티",
+          "en": "Tonight's birthday party"
+        },
+        {
           "ko": "가게 판매용",
-          "en": "Selling in a shop"
+          "en": "For sale in a shop"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e5"
+        "e4"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "범인은 케이크를 어디서 먹었을까?",
+        "en": "Where did the culprit eat it?"
+      },
+      "options": [
+        {
+          "ko": "자기 침대로 물고 가서",
+          "en": "It carried it off to its own bed"
+        },
+        {
+          "ko": "조리대 위에서",
+          "en": "Right on the counter"
+        },
+        {
+          "ko": "의자 위에서",
+          "en": "On the chair"
+        },
+        {
+          "ko": "마당에서",
+          "en": "Out in the yard"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e6"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 30,
-      "y": 55,
-      "r": 9,
+      "x": 47,
+      "y": 60,
+      "r": 11,
       "label": {
-        "ko": "조리대 바로 옆으로 끌려온 의자, 앉는 자리에 찍힌 작은 발자국",
-        "en": "A chair dragged right up to the counter, with little paw prints on the seat"
+        "ko": "조리대에 붙은 의자, 앉는 자리에 찍힌 진흙 개 발자국",
+        "en": "The chair against the counter, muddy paw prints on its seat"
       }
     },
     {
       "id": "e2",
-      "x": 55,
-      "y": 38,
-      "r": 9,
+      "x": 31,
+      "y": 12,
+      "r": 12,
       "label": {
-        "ko": "칼자국 없이 마구 뜯겨 나간 케이크 한쪽",
-        "en": "A ragged gap in the cake, with no knife marks"
+        "ko": "의자 바로 위, 활짝 열린 위 찬장",
+        "en": "The upper cabinet right above the chair, left wide open"
       }
     },
     {
       "id": "e3",
-      "x": 60,
-      "y": 75,
-      "r": 10,
+      "x": 30,
+      "y": 41,
+      "r": 8,
       "label": {
-        "ko": "바닥을 따라 개 침대까지 이어진 부스러기",
-        "en": "A trail of crumbs across the floor to the dog bed"
+        "ko": "칼자국 없이 마구 뜯겨 나간 케이크 한쪽",
+        "en": "A ragged, chewed gap in the cake — no knife cut"
       }
     },
     {
       "id": "e4",
-      "x": 85,
-      "y": 85,
-      "r": 8,
+      "x": 7,
+      "y": 44,
+      "r": 7,
       "label": {
-        "ko": "개 침대 담요에 묻은 하얀 크림",
-        "en": "White frosting smeared on the dog bed blanket"
+        "ko": "아직 뜯지 않은 생일 초 상자와 종이 접시",
+        "en": "An unopened box of birthday candles and paper plates"
       }
     },
     {
       "id": "e5",
-      "x": 75,
-      "y": 35,
-      "r": 6,
+      "x": 73,
+      "y": 79,
+      "r": 11,
       "label": {
-        "ko": "케이크 옆에 놓인, 아직 꽂지 않은 생일 초",
-        "en": "Birthday candles lying next to the cake, not yet put in"
+        "ko": "바닥을 따라 개 침대까지 이어진 부스러기와 크림",
+        "en": "Crumbs and frosting trailing across the floor to the dog bed"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 84,
+      "y": 61,
+      "r": 10,
+      "label": {
+        "ko": "개 침대 담요에 묻은 크림과 케이크 덩어리",
+        "en": "Frosting and a chunk of cake in the dog bed"
       }
     }
   ],
   "detective": {
-    "ko": "조리대 위 케이크에서 한 조각이 사라졌다. 빈자리는 칼로 자른 게 아니라 마구 뜯겨 나갔다. 부스러기는 바닥을 따라 개 침대까지 이어지고, 침대 담요엔 하얀 크림이 묻어 있다. 아빠도 아이도 아닌, 이 집 개가 범인이다. 조리대 바로 옆엔 의자 하나가 끌려와 있고, 앉는 자리엔 작은 발자국. 의자를 딛고 올라선 것이다. 케이크 옆엔 아직 꽂지 않은 생일 초 — 오늘 밤 누군가의 생일 케이크였다.",
-    "en": "A slice is missing from the cake on the counter, and it wasn't cut with a knife — it was torn out. Crumbs trail across the floor to the dog bed, and there's white frosting on the blanket. Not Dad, not the kid: the culprit is the family dog. A chair has been dragged right up to the counter, with little paw prints on the seat — that's how the dog got up there. Beside the cake lie birthday candles that never made it into the frosting. That was tonight's birthday cake."
+    "ko": "케이크 한쪽이 칼자국 없이 마구 뜯겨 나갔다. 사람이라면 칼이나 포크를 썼을 것이다. 조리대에 붙은 의자를 보면 아이 짓 같지만, 앉는 자리엔 신발 자국이 아니라 진흙 묻은 개 발자국이 찍혀 있다. 고양이라면 의자 없이 훌쩍 뛰어올랐을 것이다. 범인은 이 집 개, 의자를 밟고 조리대에 올라갔다. 그런데 개가 의자를 끌어 왔을까? 의자 바로 위의 찬장이 활짝 열려 있다. 주인이 찬장에서 생일 초를 꺼내려고 의자를 밟고 올라갔다가 그대로 두었다. 초 상자는 아직 뜯지도 않았고 종이 접시가 쌓여 있다 — 오늘 밤 생일 파티용 케이크였다. 부스러기와 크림은 바닥을 따라 개 침대까지 이어진다. 담요엔 크림과 케이크 덩어리. 범인은 한 입 물고 자기 침대로 가서 느긋하게 먹었다.",
+    "en": "One side of the cake has been torn away — no knife marks. A person would have used a knife or a fork. The chair pushed against the counter suggests a kid, but the seat has muddy paw prints on it, not shoe prints. A cat wouldn't need a chair; it would simply jump. The culprit is the family dog, and it climbed up via the chair. But did the dog drag the chair over? The cabinet right above it is wide open: the owner stood on the chair to get the birthday candles down and left it there. The candles are still unopened, the paper plates stacked — the cake was for tonight's birthday party. Crumbs and frosting trail across the floor to the dog bed, where the blanket is smeared with frosting and a chunk of cake. The culprit grabbed a mouthful and took it to bed to enjoy."
   }
 }

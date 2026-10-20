@@ -2,7 +2,7 @@
   "id": 25,
   "date": "2026-11-19",
   "type": "scene",
-  "image": "img/025.svg",
+  "image": "img/025.webp",
   "title": {
     "ko": "타는 냄새가 남은 부엌",
     "en": "Something Burned"
@@ -21,11 +21,11 @@
       "options": [
         {
           "ko": "불이 나서 소방차가 왔다",
-          "en": "A fire, and the fire department came"
+          "en": "A fire — the fire truck came"
         },
         {
           "ko": "요리하다 음식을 태웠다",
-          "en": "Someone burned the food"
+          "en": "Something got burned while cooking"
         },
         {
           "ko": "가스가 샜다",
@@ -33,14 +33,14 @@
         },
         {
           "ko": "정전이 됐다",
-          "en": "A power outage"
+          "en": "A power cut"
         }
       ],
       "answer": 1,
       "evidence": [
         "e1",
         "e2",
-        "e4"
+        "e3"
       ]
     },
     {
@@ -51,61 +51,62 @@
       },
       "options": [
         {
-          "ko": "스튜",
-          "en": "Stew"
-        },
-        {
-          "ko": "케이크",
-          "en": "A cake"
-        },
-        {
-          "ko": "라면",
-          "en": "Instant noodles"
-        },
-        {
           "ko": "팝콘",
           "en": "Popcorn"
+        },
+        {
+          "ko": "커피콩",
+          "en": "Coffee beans"
+        },
+        {
+          "ko": "볶은 땅콩",
+          "en": "Roasted peanuts"
+        },
+        {
+          "ko": "군밤",
+          "en": "Roasted chestnuts"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
-        "e4"
+        "e2",
+        "e6"
       ]
     },
     {
       "key": "why",
       "ask": {
         "ko": "왜 태웠을까?",
-        "en": "How did it end up burned?"
+        "en": "Why did it burn?"
       },
       "options": [
         {
-          "ko": "불이 너무 약해서",
-          "en": "The flame was too low"
+          "ko": "통화하느라",
+          "en": "Someone was on a phone call"
         },
         {
-          "ko": "영화를 보다가 깜빡해서",
-          "en": "They forgot about it while watching a movie"
+          "ko": "영화를 보다 깜빡해서",
+          "en": "Someone got absorbed in a movie"
         },
         {
           "ko": "냄비가 고장 나서",
-          "en": "The pot was broken"
+          "en": "The pot was faulty"
         },
         {
-          "ko": "일부러",
+          "ko": "일부러 태웠다",
           "en": "On purpose"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e5"
+        "e6"
       ]
     },
     {
       "key": "alarm",
       "ask": {
-        "ko": "화재경보기의 배터리는 왜 빠져 있을까?",
-        "en": "Why is the smoke alarm's battery out?"
+        "ko": "화재경보기 뚜껑이 열리고 배터리가 빠진 이유는?",
+        "en": "Why is the smoke detector open, its battery out?"
       },
       "options": [
         {
@@ -113,28 +114,29 @@
           "en": "It never had one"
         },
         {
-          "ko": "새것으로 갈려고",
-          "en": "It was being replaced"
-        },
-        {
-          "ko": "아이가 장난쳐서",
-          "en": "A kid was messing with it"
+          "ko": "새 배터리로 갈려고",
+          "en": "Someone was changing the battery"
         },
         {
           "ko": "시끄럽게 울려서 뺐다",
-          "en": "It was blaring, so someone pulled it"
+          "en": "It went off and someone yanked it"
+        },
+        {
+          "ko": "아이가 장난쳐서",
+          "en": "A kid messed with it"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
-        "e3"
+        "e3",
+        "e4"
       ]
     },
     {
       "key": "fan",
       "ask": {
-        "ko": "창문을 열고 선풍기를 튼 이유는?",
-        "en": "Why are the window open and the fan on?"
+        "ko": "선풍기를 창문 쪽으로 돌려 둔 이유는?",
+        "en": "Why is the fan pointed at the open window?"
       },
       "options": [
         {
@@ -142,78 +144,88 @@
           "en": "It's hot"
         },
         {
-          "ko": "연기를 빼려고",
-          "en": "To clear out the smoke"
-        },
-        {
           "ko": "빨래를 말리려고",
-          "en": "To dry laundry"
+          "en": "Drying laundry"
         },
         {
           "ko": "벌레를 쫓으려고",
-          "en": "To keep bugs away"
+          "en": "Keeping bugs away"
+        },
+        {
+          "ko": "연기를 밖으로 빼려고",
+          "en": "Pushing the smoke outside"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
-        "e2"
+        "e5"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 50,
-      "r": 9,
+      "x": 35,
+      "y": 69,
+      "r": 8,
       "label": {
-        "ko": "가스레인지 위, 바닥이 새까맣게 탄 냄비",
-        "en": "A pot on the stove, scorched black at the bottom"
+        "ko": "바닥이 새까맣게 탄 냄비, 아직 피어오르는 연기",
+        "en": "A pot scorched black, still smoking"
       }
     },
     {
       "id": "e2",
+      "x": 21,
+      "y": 82,
+      "r": 8,
+      "label": {
+        "ko": "냄비 주변에 흩어진 까맣게 탄 팝콘 — 톡 터진 모양 그대로",
+        "en": "Charred popcorn around the pot, still in its burst shape"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 50,
+      "y": 8,
+      "r": 6,
+      "label": {
+        "ko": "뚜껑이 열린 채 매달린 천장의 화재경보기",
+        "en": "The smoke detector on the ceiling, cover hanging open"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 69,
+      "y": 89,
+      "r": 5,
+      "label": {
+        "ko": "조리대 위에 빼 놓은 경보기 배터리",
+        "en": "The detector's battery left on the counter"
+      }
+    },
+    {
+      "id": "e5",
       "x": 78,
-      "y": 20,
-      "r": 9,
+      "y": 47,
+      "r": 14,
       "label": {
         "ko": "활짝 열린 창문을 향해 돌아가는 선풍기",
         "en": "A fan blowing toward the wide-open window"
       }
     },
     {
-      "id": "e3",
-      "x": 28,
-      "y": 70,
-      "r": 7,
+      "id": "e6",
+      "x": 16,
+      "y": 43,
+      "r": 9,
       "label": {
-        "ko": "조리대 위에 빼 놓은 화재경보기 배터리",
-        "en": "The smoke alarm's battery, pulled out and left on the counter"
-      }
-    },
-    {
-      "id": "e4",
-      "x": 48,
-      "y": 66,
-      "r": 7,
-      "label": {
-        "ko": "냄비 주변에 흩어진 새까만 팝콘 알갱이",
-        "en": "Charred popcorn kernels scattered around the pot"
-      }
-    },
-    {
-      "id": "e5",
-      "x": 85,
-      "y": 75,
-      "r": 8,
-      "label": {
-        "ko": "옆방 TV에 멈춰 있는 영화 화면",
-        "en": "A movie paused on the TV in the next room"
+        "ko": "옆방 TV에 멈춰 있는 영화 장면과 소파 위 담요",
+        "en": "A paused movie on the TV next door, a blanket on the sofa"
       }
     }
   ],
   "detective": {
-    "ko": "냄비 바닥이 새까맣게 탔고, 주변엔 까맣게 그을린 팝콘 알갱이가 흩어져 있다. 진짜 불이 났다면 소방관이 다녀간 흔적이 있겠지만, 탄 건 냄비 하나뿐이다. 옆방 TV엔 영화가 일시정지돼 있다. 팝콘을 올려 두고 영화를 보다가 깜빡한 것이다. 화재경보기 배터리는 빠진 채 조리대 위에 놓여 있다 — 요란하게 울려 대니 일단 빼 버렸다. 그리고 활짝 열린 창문을 향해 돌아가는 선풍기. 부엌에 가득 찬 연기를 빼는 중이다.",
-    "en": "The pot is scorched black at the bottom, and charred popcorn kernels are scattered around it. A real fire would leave signs of firefighters; here, the only casualty is one pot. In the next room, a movie sits paused on the TV: the popcorn went on the stove, the movie went on, and the popcorn was forgotten. The smoke alarm's battery has been yanked out and left on the counter — it was shrieking, so it got silenced. And a fan is blowing toward the wide-open window. Someone is airing out a kitchen full of smoke."
+    "ko": "가스레인지 위 냄비 바닥이 새까맣게 탔고 아직 연기가 피어오른다. 불이 났다면 소화기 가루나 물바다가 남았을 것이다. 냄비 주변의 까만 알갱이들은 커피콩처럼 보이지만, 하나같이 톡 터진 모양이다 — 팝콘이다. 옆에는 팝콘을 담으려던 빈 그릇이 기다리고 있다. 옆방 TV엔 영화가 멈춰 있고 소파엔 담요. 팝콘을 올려놓고 영화를 보다가 깜빡했다. 천장의 화재경보기는 뚜껑이 열렸고 배터리는 조리대 위에 굴러다닌다. 그 아래엔 빗자루. 새 배터리로 갈려던 게 아니다 — 연기에 경보기가 울어 대자 빗자루로 쳐서 열고 배터리를 뽑았다. 선풍기는 열린 창문을 향해 돌아간다. 연기를 밖으로 내보내는 중이다.",
+    "en": "The pot on the stove is scorched black and still smoking. A real fire would have left extinguisher powder or a flood of water. The black bits around the pot could pass for coffee beans, but every one has that burst shape — popcorn. A big empty bowl sits ready for it. Next door, a movie is paused on the TV, a blanket on the sofa: someone put the popcorn on, sat down to watch, and forgot. The smoke detector on the ceiling hangs open, its battery rolling on the counter, a broom leaning right underneath. Nobody was changing batteries — the alarm started shrieking, so someone whacked it open with the broom and yanked the battery. The fan points at the open window, pushing the smoke out."
   }
 }
