@@ -38,8 +38,8 @@
       "answer": 1,
       "evidence": [
         "e3",
-        "e5",
-        "e4"
+        "e4",
+        "e5"
       ]
     },
     {
@@ -102,32 +102,32 @@
       ]
     },
     {
-      "key": "wrist",
+      "key": "sleeves",
       "ask": {
-        "ko": "왼쪽 손목의 하얀 띠 자국은 무엇 때문일까?",
-        "en": "What left the pale band on her left wrist?"
+        "ko": "종아리에 낀 검은 슬리브는 무엇에 쓸까?",
+        "en": "What are the black sleeves on her calves for?"
       },
       "options": [
         {
-          "ko": "팔찌",
-          "en": "A bracelet"
+          "ko": "햇볕 가리기",
+          "en": "Keeping the sun off"
         },
         {
-          "ko": "머리끈",
-          "en": "A hair tie"
+          "ko": "모기 막기",
+          "en": "Keeping mosquitoes away"
         },
         {
-          "ko": "늘 차는 스포츠 시계",
-          "en": "The sports watch she always wears"
+          "ko": "지친 종아리 근육 회복",
+          "en": "Helping tired calf muscles recover"
         },
         {
-          "ko": "깁스",
-          "en": "A cast"
+          "ko": "패션",
+          "en": "Just fashion"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e2"
+        "e5"
       ]
     },
     {
@@ -177,18 +177,18 @@
       "y": 46,
       "r": 4,
       "label": {
-        "ko": "시계는 없는데 왼쪽 손목에 하얗게 남은 넓은 띠 자국",
-        "en": "A wide pale band on her left wrist — but no watch"
+        "ko": "왼쪽 손목의 GPS 스포츠 시계",
+        "en": "A GPS sports watch on her left wrist"
       }
     },
     {
       "id": "e3",
-      "x": 66,
+      "x": 64,
       "y": 32,
       "r": 6,
       "label": {
-        "ko": "어깨의 붉은 화상 위로 하얗게 남은 가는 끈 자국",
-        "en": "A thin pale strap line across a fresh red sunburn"
+        "ko": "고르게 탄 피부, 어깨에만 하얗게 남은 가는 끈 자국",
+        "en": "An even tan — except a thin pale strap line on her shoulder"
       }
     },
     {
@@ -213,7 +213,7 @@
     }
   ],
   "detective": {
-    "ko": "엄지발톱이 시퍼렇게 멍들었다. 발레리나도 발톱이 상하지만, 그녀는 햇볕에 탔다 — 어깨의 붉은 화상 위로 가느다란 끈 자국이 하얗게 남았다. 민소매 러닝 셔츠 자국이다. 손목엔 시계가 없는데 넓은 하얀 띠 자국만 있다. 매일 차는 스포츠 시계다. 가방 속 은박 담요는 산에서 쓰는 비상용품 같지만, 가방끈에 꽂힌 옷핀 네 개가 답이다. 배번표를 달던 옷핀이다. 마라톤 결승선을 넘으면 은박 담요를 어깨에 둘러 준다. 어제 그녀는 42.195km를 달렸다. 그리고 오늘, 월요일 오전 10시. 출근 가방도 러닝화도 없이 샌들에 압박 슬리브 — 휴가를 내고 다리를 쉬는 날이다.",
-    "en": "Her big toenail is bruised black. Ballet dancers wreck their toenails too, but she's sunburned — and across that fresh burn runs a thin pale strap line. A racerback running top. Her wrist has no watch, just a wide pale band where one always sits: a sports watch. The foil blanket in her bag could pass for mountain emergency gear, but the four safety pins on the strap give it away. Those held a race bib. Cross a marathon finish line and someone wraps a foil blanket around your shoulders. Yesterday she ran 42.195 km. And today, 10 a.m. on a Monday? No work bag, no running shoes — sandals and compression sleeves. She took the day off to let her legs recover."
+    "ko": "엄지발톱이 시퍼렇게 멍들었다. 발레리나도 발톱이 상하지만, 그녀는 얼굴부터 팔다리까지 고르게 햇볕에 그을렸다. 하루 종일 밖에서 움직이는 사람이다. 그런데 어깨엔 가느다란 끈 자리만 하얗게 남았다 — 민소매 러닝 셔츠를 입고 수없이 달린 자국이다. 손목엔 GPS 스포츠 시계. 테니스 선수나 등산가도 시계를 차고 햇볕에 타지만, 가방 속 은박 담요와 가방끈에 꽂힌 옷핀 네 개가 답이다. 배번표를 달던 옷핀이고, 마라톤 결승선을 넘으면 은박 담요를 어깨에 둘러 준다. 어제 그녀는 42.195km를 달렸다. 종아리의 압박 슬리브는 햇볕을 가리려는 게 아니다 — 다리는 이미 까맣게 탔다. 지친 종아리 근육을 회복시키려고 낀 것이다. 그리고 오늘, 월요일 오전 10시. 출근 가방도 러닝화도 없이 샌들 차림 — 휴가를 내고 다리를 쉬는 날이다.",
+    "en": "Her big toenail is bruised black. Ballet dancers wreck their toenails too, but she's tanned evenly from face to arms to legs — someone who spends hours moving outdoors. Except on her shoulder, where a thin strap line stays pale: the mark of countless miles in a racerback running top. There's a GPS sports watch on her wrist. Tennis players and mountaineers wear watches and get tanned too, but the foil blanket in her bag and the four safety pins on the strap settle it. Those pins held a race bib, and at a marathon finish line someone wraps a foil blanket around your shoulders. Yesterday she ran 42.195 km. The compression sleeves aren't for the sun — her legs are already brown. They're for tired calves. And today, 10 a.m. on a Monday? No work bag, no running shoes, just sandals. She took the day off to let her legs recover."
   }
 }
