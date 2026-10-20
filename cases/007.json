@@ -2,14 +2,14 @@
   "id": 7,
   "date": "2026-11-01",
   "type": "room",
-  "image": "img/007.svg",
+  "image": "img/007.webp",
   "title": {
-    "ko": "연기 냄새 나는 부엌",
-    "en": "The Kitchen That Smells of Smoke"
+    "ko": "달콤한 냄새가 나는 부엌",
+    "en": "The Kitchen That Smells Sweet"
   },
   "intro": {
-    "ko": "오전 10시, 시골집 부엌. 주인은 잠깐 밖에 나갔다. 이 부엌의 주인은 누구일까?",
-    "en": "10 a.m., a farmhouse kitchen. The owner has just stepped outside. Who lives here?"
+    "ko": "오전 10시, 가을의 시골집 부엌. 주인은 잠깐 밖에 나갔다. 이 부엌의 주인은 누구일까?",
+    "en": "10 a.m., a farmhouse kitchen in autumn. The owner has just stepped outside. Who lives here?"
   },
   "questions": [
     {
@@ -20,56 +20,56 @@
       },
       "options": [
         {
-          "ko": "펜싱 선수",
-          "en": "Fencer"
+          "ko": "향초 공예가",
+          "en": "Candle maker"
         },
         {
-          "ko": "꽃집 주인",
-          "en": "Florist"
+          "ko": "제빵사",
+          "en": "Baker"
         },
         {
           "ko": "양봉가",
           "en": "Beekeeper"
         },
         {
-          "ko": "제빵사",
-          "en": "Baker"
+          "ko": "잼 가게 주인",
+          "en": "Jam shop owner"
         }
       ],
       "answer": 2,
       "evidence": [
         "e1",
-        "e4",
-        "e6"
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "boxes",
+      "key": "drum",
       "ask": {
-        "ko": "창밖 마당에 줄지어 선 하얀 상자들은?",
-        "en": "What are the white boxes lined up in the yard?"
+        "ko": "손잡이 달린 커다란 쇠통은 무엇일까?",
+        "en": "What is the big steel drum with the crank?"
       },
       "options": [
         {
-          "ko": "우체통",
-          "en": "Mailboxes"
+          "ko": "반죽 기계",
+          "en": "A dough mixer"
         },
         {
-          "ko": "벌통",
-          "en": "Beehives"
+          "ko": "밀랍을 녹이는 솥",
+          "en": "A pot for melting wax"
         },
         {
-          "ko": "장난감 상자",
-          "en": "Toy chests"
+          "ko": "빨래 탈수기",
+          "en": "A laundry spinner"
         },
         {
-          "ko": "쓰레기통",
-          "en": "Trash bins"
+          "ko": "벌집에서 꿀을 짜내는 기계",
+          "en": "A machine that spins honey out of honeycomb"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
-        "e6"
+        "e1"
       ]
     },
     {
@@ -80,55 +80,55 @@
       },
       "options": [
         {
-          "ko": "커피를 볶으려고",
-          "en": "Roasting coffee"
-        },
-        {
-          "ko": "물을 끓이려고",
-          "en": "Boiling water"
-        },
-        {
-          "ko": "연기를 피워 벌을 진정시키려고",
+          "ko": "연기를 뿜어 벌을 얌전하게 만든다",
           "en": "Puffing smoke to calm the bees"
         },
         {
-          "ko": "그냥 장식",
-          "en": "Just decoration"
+          "ko": "벌레 쫓는 향을 피운다",
+          "en": "Burning incense to keep bugs away"
+        },
+        {
+          "ko": "꿀을 데운다",
+          "en": "Warming honey"
+        },
+        {
+          "ko": "밀랍을 녹인다",
+          "en": "Melting wax"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
         "e2"
       ]
     },
     {
-      "key": "doing",
+      "key": "sugar",
       "ask": {
-        "ko": "주인은 방금 무엇을 하다 나갔을까?",
-        "en": "What was the owner doing before stepping out?"
+        "ko": "설탕 포대는 왜 이렇게 많을까?",
+        "en": "Why so many sacks of sugar?"
       },
       "options": [
         {
-          "ko": "빵을 굽고 있었다",
-          "en": "Baking bread"
+          "ko": "빵을 구우려고",
+          "en": "For baking bread"
         },
         {
-          "ko": "꿀을 병에 담고 있었다",
-          "en": "Jarring honey"
+          "ko": "벌들의 겨울 먹이로",
+          "en": "To feed the bees through winter"
         },
         {
-          "ko": "설거지를 하고 있었다",
-          "en": "Washing dishes"
+          "ko": "잼을 만들려고",
+          "en": "For making jam"
         },
         {
-          "ko": "화분에 물을 주고 있었다",
-          "en": "Watering plants"
+          "ko": "손님 차에 넣으려고",
+          "en": "For guests' tea"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e3",
-        "e4"
+        "e4",
+        "e5"
       ]
     },
     {
@@ -143,88 +143,88 @@
           "en": "For splinters"
         },
         {
-          "ko": "눈썹을 다듬으려고",
-          "en": "For plucking eyebrows"
-        },
-        {
-          "ko": "아이 숙제 재료",
-          "en": "Supplies for a kid's homework"
+          "ko": "화상에 바르려고",
+          "en": "For burns"
         },
         {
           "ko": "벌침을 빼고 바르려고",
           "en": "For pulling out bee stingers"
+        },
+        {
+          "ko": "눈썹을 다듬으려고",
+          "en": "For plucking eyebrows"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
-        "e5"
+        "e6"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 18,
-      "y": 25,
-      "r": 9,
+      "x": 73,
+      "y": 49,
+      "r": 13,
       "label": {
-        "ko": "벽에 걸린 챙 넓은 모자와 얼굴을 덮는 망사",
-        "en": "A wide-brimmed hat with a mesh face veil hanging on the wall"
+        "ko": "뚜껑에 손잡이가 달린 커다란 쇠통 — 아래 꼭지에서 꿀이 흘러나오는 채밀기",
+        "en": "A big steel drum with a crank on the lid, honey running from its tap — a honey extractor"
       }
     },
     {
       "id": "e2",
-      "x": 45,
-      "y": 55,
-      "r": 7,
+      "x": 75,
+      "y": 65,
+      "r": 6,
       "label": {
-        "ko": "조리대 위 풀무 달린 깡통 — 훈연기",
-        "en": "A can with bellows on the counter — a bee smoker"
+        "ko": "풀무 달린 깡통 — 연기를 뿜는 훈연기",
+        "en": "A can with bellows — a bee smoker"
       }
     },
     {
       "id": "e3",
-      "x": 65,
-      "y": 58,
-      "r": 8,
+      "x": 44,
+      "y": 35,
+      "r": 7,
       "label": {
-        "ko": "뚜껑을 덮지 않은 꿀병들과 꿀이 떨어지는 거름망",
-        "en": "Open jars of honey and a strainer still dripping"
+        "ko": "문 옆에 걸린, 팔꿈치까지 오는 두꺼운 가죽 장갑",
+        "en": "Thick elbow-length leather gloves by the back door"
       }
     },
     {
       "id": "e4",
-      "x": 85,
-      "y": 62,
-      "r": 8,
+      "x": 22,
+      "y": 71,
+      "r": 16,
       "label": {
-        "ko": "벽에 기대 놓은, 벌집이 그대로 붙은 나무틀",
-        "en": "Wooden frames full of honeycomb leaning on the wall"
+        "ko": "바닥에 쌓인 커다란 설탕 포대들",
+        "en": "Big sacks of sugar stacked on the floor"
       }
     },
     {
       "id": "e5",
-      "x": 40,
-      "y": 85,
-      "r": 7,
+      "x": 60,
+      "y": 32,
+      "r": 9,
       "label": {
-        "ko": "식탁 위 핀셋과 연고",
-        "en": "Tweezers and a tube of ointment on the table"
+        "ko": "창밖은 단풍 — 꽃이 다 지는 가을",
+        "en": "Autumn leaves outside — the flowers are done for the year"
       }
     },
     {
       "id": "e6",
-      "x": 62,
-      "y": 22,
-      "r": 10,
+      "x": 76,
+      "y": 92,
+      "r": 14,
       "label": {
-        "ko": "창밖 마당에 줄지어 선 하얀 상자들",
-        "en": "White boxes lined up in the yard outside the window"
+        "ko": "식탁 위 핀셋과 연고",
+        "en": "Tweezers and a tube of ointment on the table"
       }
     }
   ],
   "detective": {
-    "ko": "벽에 망사가 달린 모자가 걸려 있다. 언뜻 펜싱 마스크 같지만, 펜싱 마스크는 챙 넓은 모자에 달려 있지 않다 — 벌이 얼굴에 붙지 못하게 막는 망사 모자다. 조리대 위의 풀무 달린 깡통은 훈연기, 연기를 피워 벌을 얌전하게 만드는 도구다. 벽에 기대 놓은 나무틀엔 벌집이 그대로 붙어 있고, 창밖 마당엔 하얀 상자들이 줄지어 있다. 우체통도 쓰레기통도 아닌 벌통이다. 이 부엌의 주인은 양봉가다. 조리대 위엔 뚜껑을 덮지 않은 꿀병과 아직 꿀이 떨어지는 거름망 — 꿀을 병에 담다가 잠깐 나갔다. 그리고 식탁 위의 핀셋과 연고. 나무 가시 때문이 아니다. 오늘도 벌침 몇 개는 뽑아야 했을 것이다.",
-    "en": "A hat with a mesh veil hangs on the wall. It looks a little like a fencing mask — but fencers don't attach their masks to wide-brimmed hats. That veil is for keeping bees off your face. The can with the little bellows on the counter is a smoker: a puff of smoke calms a hive down. Wooden frames still full of honeycomb lean against the wall, and out the window, white boxes stand in a row in the yard. Not mailboxes, not trash bins — beehives. The owner is a beekeeper. On the counter sit open jars and a strainer still dripping honey: they were in the middle of jarring the harvest when they stepped out. And the tweezers and ointment on the table? Not for splinters. On a day like this, there were stingers to pull."
+    "ko": "설탕 포대와 꿀병만 보면 제빵사나 잼 가게 같다. 그런데 오븐도, 밀가루도, 과일도 없다. 대신 낯선 물건이 셋 있다. 뚜껑에 손잡이가 달린 커다란 쇠통 — 아래 꼭지에서 꿀이 흘러나온다. 탈수기처럼 벌집 틀을 넣고 돌려서 꿀을 짜내는 채밀기다. 조리대 위의 풀무 달린 깡통은 훈연기, 연기를 뿜어 벌을 얌전하게 만드는 도구다. 문 옆엔 팔꿈치까지 오는 두꺼운 가죽 장갑이 걸려 있다. 이 부엌의 주인은 양봉가다. 도마 위의 둥근 노란 덩어리도 치즈가 아니라 꿀을 짜고 남은 밀랍이다. 그럼 그 많은 설탕은? 창밖은 단풍, 꽃이 다 지는 가을이다. 겨울을 날 꿀이 모자란 벌들에게 설탕물을 끓여 먹인다. 그리고 식탁 위의 핀셋과 연고 — 오늘도 벌침 몇 개는 뽑았을 것이다.",
+    "en": "Sacks of sugar and jars of honey — a baker, maybe, or a jam shop? But there's no oven, no flour, no fruit. Instead there are three odd things. A big steel drum with a crank on its lid, honey running from the tap at the bottom: like a spin dryer, it whirls honeycomb frames until the honey flies out. It's a honey extractor. The can with the little bellows on the counter is a smoker — a puff of smoke keeps bees calm. And by the back door hang thick leather gloves that reach the elbow. The owner is a beekeeper. That round yellow lump on the board isn't cheese, either — it's beeswax left over from the harvest. So why all the sugar? Outside, the leaves are turning and the flowers are gone for the year. Bees short on honey get sugar syrup to carry them through winter. And the tweezers and ointment on the table? There were stingers to pull today."
   }
 }
