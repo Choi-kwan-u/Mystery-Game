@@ -1,7 +1,7 @@
 {
   "id": 5,
   "date": "2026-10-23",
-  "image": "img/005.svg",
+  "image": "img/005.webp",
   "title": {
     "ko": "푸드코트의 점심",
     "en": "Food Court Lunch"
@@ -37,7 +37,7 @@
       ],
       "answer": 3,
       "evidence": [
-        "e1",
+        "e6",
         "e2",
         "e3"
       ]
@@ -88,8 +88,8 @@
           "en": "He's starving"
         },
         {
-          "ko": "오른손 엄지 통증",
-          "en": "His sore right thumb"
+          "ko": "왼손 손가락 통증",
+          "en": "His sore left fingers"
         },
         {
           "ko": "날씨",
@@ -106,28 +106,28 @@
   "clues": [
     {
       "id": "e1",
-      "x": 25,
-      "y": 62,
-      "r": 9,
+      "x": 65,
+      "y": 81,
+      "r": 8,
       "label": {
-        "ko": "오른팔 팔뚝과 손목이 왼팔보다 눈에 띄게 굵다",
-        "en": "His right forearm and wrist are noticeably thicker than his left"
+        "ko": "왼쪽 손목을 단단히 잡아주는 보호대",
+        "en": "A stiff brace locking his left wrist in place"
       }
     },
     {
       "id": "e2",
-      "x": 35,
-      "y": 80,
-      "r": 6,
+      "x": 47,
+      "y": 83,
+      "r": 7,
       "label": {
-        "ko": "오른손 엄지·중지·약지에만 감은 흰 테이프",
-        "en": "White tape on only his right thumb, middle and ring fingers"
+        "ko": "왼손 손가락 세 개에 감은 흰 테이프",
+        "en": "White tape on three fingers of his left hand"
       }
     },
     {
       "id": "e3",
-      "x": 55,
-      "y": 22,
+      "x": 52,
+      "y": 26,
       "r": 8,
       "label": {
         "ko": "햇볕에 그을린 흔적 하나 없는 하얀 피부",
@@ -136,9 +136,9 @@
     },
     {
       "id": "e4",
-      "x": 52,
-      "y": 46,
-      "r": 7,
+      "x": 51,
+      "y": 69,
+      "r": 6,
       "label": {
         "ko": "목에 건 선수 출입증",
         "en": "A competitor's badge on a lanyard"
@@ -146,17 +146,27 @@
     },
     {
       "id": "e5",
-      "x": 58,
-      "y": 82,
+      "x": 32,
+      "y": 85,
       "r": 7,
       "label": {
-        "ko": "얼음 컵에 대고 있는 오른손 엄지",
-        "en": "His right thumb pressed against a cup of ice"
+        "ko": "테이프 감은 손으로 꼭 쥔 얼음 컵",
+        "en": "An ice-cold cup gripped in his taped hand"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 90,
+      "y": 73,
+      "r": 10,
+      "label": {
+        "ko": "바퀴 달린 가방에 불룩 솟은 둥근 공 두 개",
+        "en": "A wheeled bag with two round balls bulging out of it"
       }
     }
   ],
   "detective": {
-    "ko": "팔 한쪽만 굵다면 한 팔로 하는 운동이다 — 테니스, 야구, 볼링. 그런데 피부가 하얗다. 햇볕 아래 코트나 마운드에서 하는 운동이 아니다. 클라이밍이라면 양팔이 다 굵었을 것이다. 결정적인 건 테이프다. 엄지, 중지, 약지 — 딱 세 손가락. 구멍이 세 개 뚫린 공이 하나 있다. 목에는 아직 선수 출입증이 걸려 있고 테이프도 풀지 않았다. 대회는 끝나지 않았다. 그리고 엄지를 얼음 컵에 대고 있는 걸 보니, 오후 경기에서 걱정되는 건 점수가 아니라 엄지다.",
-    "en": "One arm bigger than the other means a one-armed sport — tennis, baseball, bowling. But his skin is pale, so he doesn't play in the sun. A climber would have two big arms, not one. The giveaway is the tape: thumb, middle finger, ring finger. Exactly three fingers — and there's one ball with exactly three holes. He's still wearing his competitor's badge and hasn't taken the tape off, so the tournament isn't over. And the way he's pressing that thumb against a cup of ice, what worries him about the afternoon games isn't his score. It's his thumb."
+    "ko": "하얀 피부부터 보자. 햇볕 아래서 뛰는 테니스나 야구 선수의 팔이 아니다. 실내 종목이다. 클라이밍 선수도 손가락에 테이프를 감지만, 클라이머는 바퀴 달린 가방에 둥근 공을 두 개씩 넣고 다니지 않는다. 가방에 불룩 솟은 공 두 개, 손가락 세 개에 감은 테이프, 손목을 단단히 잡아주는 보호대 — 무거운 공을 던지는 손이다. 그는 볼링 선수다. 목에는 선수 출입증이 걸려 있고 어깨엔 수건, 테이프도 보호대도 풀지 않았다. 대회는 아직 끝나지 않았고 지금은 점심시간이다. 그런데 테이프 감은 손가락으로 얼음 컵을 꼭 쥐고 있다. 오후 경기에서 걱정되는 건 점수가 아니라 저 손가락이다.",
+    "en": "Start with his skin: pale. These aren't the arms of a tennis player or a pitcher who trains under the sun — this is an indoor sport. Climbers tape their fingers too, but climbers don't haul around a wheeled bag with two round balls bulging out of it. Two balls in the bag, tape on three fingers, a stiff brace on the same wrist: that's a hand that throws something heavy. He's a bowler. The competitor's badge is still around his neck, there's a towel on his shoulder, and he hasn't taken off the tape or the brace — the tournament isn't over; this is the lunch break. But look how he's gripping that ice-cold cup with his taped fingers. What worries him about the afternoon isn't his score. It's those fingers."
   }
 }
