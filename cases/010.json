@@ -1,128 +1,70 @@
 {
   "id": 10,
   "date": "2026-11-04",
+  "type": "room",
   "image": "img/010.svg",
   "title": {
-    "ko": "편의점 앞의 점심",
-    "en": "Lunch Outside the Corner Store"
+    "ko": "빨간 불이 켜진 방",
+    "en": "The Room with the Red Light"
   },
   "intro": {
-    "ko": "오전 11시 반, 편의점 앞 플라스틱 의자. 50대 남성이 컵라면으로 점심을 먹고 있다. 이 사람은 누구일까?",
-    "en": "11:30 a.m., a plastic chair outside a convenience store. A man in his fifties is having cup noodles for lunch. Who is he?"
+    "ko": "토요일 오후, 창문을 막고 빨간 불 하나만 켜 둔 작은 방. 주인은 잠깐 자리를 비웠다. 이 방의 주인은 누구일까?",
+    "en": "Saturday afternoon, a small room with the window blacked out and a single red light on. The owner has stepped out. Who uses this room?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "ko": "이 방의 주인은 무슨 일을 할까?",
+        "en": "What does the owner of this room do?"
       },
       "options": [
         {
-          "ko": "타일공",
-          "en": "Tile setter"
+          "ko": "사진가",
+          "en": "Photographer"
         },
         {
-          "ko": "축구 선수",
-          "en": "Soccer player"
+          "ko": "화학 교사",
+          "en": "Chemistry teacher"
         },
         {
-          "ko": "정원사",
-          "en": "Gardener"
+          "ko": "영화감독",
+          "en": "Film director"
         },
         {
-          "ko": "등산객",
-          "en": "Hiker"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e2",
-        "e5"
-      ]
-    },
-    {
-      "key": "where",
-      "ask": {
-        "ko": "오늘 오전에는 어디서 일했을까?",
-        "en": "Where was he working this morning?"
-      },
-      "options": [
-        {
-          "ko": "잔디 축구장",
-          "en": "A soccer field"
-        },
-        {
-          "ko": "논",
-          "en": "A rice paddy"
-        },
-        {
-          "ko": "공사장",
-          "en": "A construction site"
-        },
-        {
-          "ko": "장미 정원",
-          "en": "A rose garden"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "later",
-      "ask": {
-        "ko": "오후에는 무엇을 할까?",
-        "en": "What's he doing this afternoon?"
-      },
-      "options": [
-        {
-          "ko": "다시 일하러 간다",
-          "en": "Going back to work"
-        },
-        {
-          "ko": "집에서 쉰다",
-          "en": "Resting at home"
-        },
-        {
-          "ko": "병원에 간다",
-          "en": "Seeing a doctor"
-        },
-        {
-          "ko": "친구를 만난다",
-          "en": "Meeting a friend"
+          "ko": "화가",
+          "en": "Painter"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e4",
-        "e5"
+        "e2",
+        "e3",
+        "e4"
       ]
     },
     {
-      "key": "posture",
+      "key": "redlight",
       "ask": {
-        "ko": "그는 일할 때 주로 어떤 자세일까?",
-        "en": "What position does he spend his workday in?"
+        "ko": "방에 왜 빨간 불만 켜 두었을까?",
+        "en": "Why is the only light in the room red?"
       },
       "options": [
         {
-          "ko": "사다리 위에 서서",
-          "en": "Up on a ladder"
+          "ko": "분위기를 내려고",
+          "en": "For the mood"
         },
         {
-          "ko": "의자에 앉아서",
-          "en": "Sitting in a chair"
+          "ko": "전기를 아끼려고",
+          "en": "To save electricity"
         },
         {
-          "ko": "무릎을 꿇고",
-          "en": "Kneeling"
+          "ko": "사진 인화지가 빛에 상하지 않게",
+          "en": "So the photo paper isn't ruined by light"
         },
         {
-          "ko": "허리를 펴고 서서",
-          "en": "Standing up straight"
+          "ko": "식물을 키우려고",
+          "en": "To grow plants"
         }
       ],
       "answer": 2,
@@ -131,89 +73,158 @@
       ]
     },
     {
-      "key": "neck",
+      "key": "line",
       "ask": {
-        "ko": "목 뒤가 탄 이유는?",
-        "en": "Why is the back of his neck sunburned?"
+        "ko": "줄에 집게로 매달아 둔 종이들은 무엇일까?",
+        "en": "What's hanging from the line with clothespins?"
       },
       "options": [
         {
-          "ko": "바닷가 휴가",
-          "en": "A beach vacation"
+          "ko": "빨래",
+          "en": "Laundry"
         },
         {
-          "ko": "땡볕 아래 고개를 숙이고 일해서",
-          "en": "Working head-down in the sun"
+          "ko": "마르고 있는 사진",
+          "en": "Photos drying"
         },
         {
-          "ko": "태닝숍",
-          "en": "A tanning salon"
+          "ko": "장식용 깃발",
+          "en": "Decorative flags"
         },
         {
-          "ko": "알레르기",
-          "en": "An allergy"
+          "ko": "메모지",
+          "en": "Memo notes"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e3"
+        "e2"
+      ]
+    },
+    {
+      "key": "room",
+      "ask": {
+        "ko": "이 방은 원래 어떤 공간이었을까?",
+        "en": "What was this room originally?"
+      },
+      "options": [
+        {
+          "ko": "부엌",
+          "en": "A kitchen"
+        },
+        {
+          "ko": "창고",
+          "en": "A storage room"
+        },
+        {
+          "ko": "침실",
+          "en": "A bedroom"
+        },
+        {
+          "ko": "욕실",
+          "en": "A bathroom"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e6"
+      ]
+    },
+    {
+      "key": "camera",
+      "ask": {
+        "ko": "주인은 어떤 카메라를 쓸까?",
+        "en": "What kind of camera does the owner use?"
+      },
+      "options": [
+        {
+          "ko": "스마트폰만 쓴다",
+          "en": "Only a phone"
+        },
+        {
+          "ko": "디지털 카메라",
+          "en": "A digital camera"
+        },
+        {
+          "ko": "필름 카메라",
+          "en": "A film camera"
+        },
+        {
+          "ko": "카메라는 없다",
+          "en": "No camera at all"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e5"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 45,
-      "y": 72,
-      "r": 10,
+      "x": 50,
+      "y": 10,
+      "r": 8,
       "label": {
-        "ko": "바지에서 양 무릎만 흙과 풀물로 얼룩져 있다",
-        "en": "Only the knees of his trousers are stained with dirt and grass"
+        "ko": "천장에 매달린 빨간 전구 하나",
+        "en": "A single red bulb hanging from the ceiling"
       }
     },
     {
       "id": "e2",
-      "x": 62,
-      "y": 45,
-      "r": 8,
+      "x": 55,
+      "y": 32,
+      "r": 12,
       "label": {
-        "ko": "팔뚝의 가는 긁힌 자국들과 소매에 붙은 장미 꽃잎",
-        "en": "Thin scratches on his forearms and a rose petal stuck to his sleeve"
+        "ko": "줄에 집게로 매달려 마르고 있는 사진들",
+        "en": "Photos hanging from a line with clothespins, drying"
       }
     },
     {
       "id": "e3",
-      "x": 40,
-      "y": 20,
-      "r": 7,
+      "x": 30,
+      "y": 62,
+      "r": 10,
       "label": {
-        "ko": "목 뒤만 붉게 탄 피부",
-        "en": "A sunburn on the back of his neck"
+        "ko": "약품이 담긴 납작한 쟁반 세 개",
+        "en": "Three shallow trays of chemicals"
       }
     },
     {
       "id": "e4",
-      "x": 22,
-      "y": 56,
+      "x": 80,
+      "y": 48,
       "r": 7,
       "label": {
-        "ko": "뒷주머니에 꽂아 둔 흙 묻은 장갑",
-        "en": "Dirt-caked work gloves tucked in his back pocket"
+        "ko": "선반 위의 오래된 필름 카메라",
+        "en": "An old film camera on the shelf"
       }
     },
     {
       "id": "e5",
-      "x": 50,
-      "y": 92,
-      "r": 8,
+      "x": 18,
+      "y": 40,
+      "r": 6,
       "label": {
-        "ko": "운동화에 붙은 흙덩이와 잔디 조각",
-        "en": "Clumps of soil and bits of grass stuck to his sneakers"
+        "ko": "집게에 함께 걸린 기다란 필름 띠",
+        "en": "A long strip of film hanging with the prints"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 60,
+      "y": 85,
+      "r": 11,
+      "label": {
+        "ko": "줄 아래의 욕조와 타일 벽",
+        "en": "A bathtub and tiled walls under the line"
       }
     }
   ],
   "detective": {
-    "ko": "바지에서 더러운 곳은 양 무릎뿐이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 그렇지만 그 얼룩은 회색 줄눈이고, 이건 흙과 초록 풀물이다. 목 뒤가 벌겋게 탄 걸 보면 실내가 아니라 땡볕 아래다. 축구 선수도 무릎에 풀물이 들지만, 축구공은 팔뚝을 할퀴지 않는다. 가는 긁힘들과 소매에 붙은 장미 꽃잎 하나 — 그는 오전 내내 장미 덤불 앞에 무릎을 꿇고 있었다. 장갑을 뒷주머니에 꽂아 둔 채 옷도 갈아입지 않았으니, 컵라면을 비우면 다시 정원으로 돌아갈 것이다.",
-    "en": "The only dirty part of his trousers is the knees. This man kneels for a living. A tile setter does too, but grout is gray — this is soil and green grass stain. The sunburned back of his neck says outdoors, under the sun. A soccer player gets grass on his knees, but a soccer ball doesn't scratch your forearms. Those fine scratches and the rose petal on his sleeve say he spent the morning kneeling in front of rose bushes. He hasn't changed and his gloves are still in his back pocket: once the noodles are gone, he's heading back to the garden."
+    "ko": "방 안에 빨간 불 하나만 켜져 있다. 분위기를 내려는 게 아니다 — 사진 인화지는 빨간빛에는 상하지 않는다. 납작한 쟁반 세 개엔 약품이 담겨 있고, 줄에는 빨래 대신 막 인화한 사진들이 집게에 물려 마르고 있다. 그 옆엔 기다란 필름 띠, 선반 위엔 오래된 필름 카메라. 화학 교사도 약품을 쓰고 영화감독도 필름을 다루지만, 자기 손으로 사진을 뽑아 말리는 사람은 사진가다. 그리고 쟁반 아래를 보라. 타일 벽, 그리고 줄 밑의 욕조. 이 암실은 원래 욕실이었다. 그는 집 욕실의 창문을 막고 자기만의 암실을 만들었다.",
+    "en": "There's only one light on in here, and it's red. That isn't for the mood — photo paper doesn't react to red light. Three shallow trays hold chemicals, and on the line, instead of laundry, freshly printed photos hang drying from clothespins. Next to them, a long strip of film; on the shelf, an old film camera. A chemistry teacher handles chemicals and a film director handles film, but someone who prints and dries their own pictures by hand is a photographer. Now look below the trays: tiled walls, and a bathtub under the line. This darkroom used to be a bathroom. They blacked out the window and built a darkroom of their own."
   }
 }

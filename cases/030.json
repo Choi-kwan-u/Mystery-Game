@@ -1,0 +1,232 @@
+{
+  "id": 30,
+  "date": "2026-11-24",
+  "type": "lie",
+  "image": "img/003.webp",
+  "title": {
+    "ko": "약속이 없다는 여자",
+    "en": "No Plans Today"
+  },
+  "intro": {
+    "ko": "학교 앞 벤치의 여자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "We spoke to a woman on a bench across from a school. Here's what she said. Find the lie in the photo."
+  },
+  "statement": {
+    "ko": "그냥 산책 나왔어요. 오늘은 아무 약속도 없고요. 아이들 노는 소리가 좋아서 여기 자주 앉아요.",
+    "en": "I'm just out for a walk. I don't have any plans today. I like hearing the children play, so I sit here often."
+  },
+  "questions": [
+    {
+      "key": "lie",
+      "ask": {
+        "ko": "사진과 맞지 않는 말은?",
+        "en": "Which part of the statement does the photo contradict?"
+      },
+      "options": [
+        {
+          "ko": "산책을 나왔다",
+          "en": "She's out for a walk"
+        },
+        {
+          "ko": "오늘 아무 약속도 없다",
+          "en": "She has no plans today"
+        },
+        {
+          "ko": "아이들 노는 소리가 좋다",
+          "en": "She likes hearing the children play"
+        },
+        {
+          "ko": "모두 사진과 맞다",
+          "en": "It all fits the photo"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e6",
+        "e5"
+      ]
+    },
+    {
+      "key": "tell",
+      "ask": {
+        "ko": "그 거짓말을 드러내는 단서는?",
+        "en": "Which detail gives the lie away?"
+      },
+      "options": [
+        {
+          "ko": "무릎 위의 메모",
+          "en": "The note on her lap"
+        },
+        {
+          "ko": "운동장의 아이들",
+          "en": "The kids on the playground"
+        },
+        {
+          "ko": "벤치의 낙엽",
+          "en": "The leaves on the bench"
+        },
+        {
+          "ko": "옆자리에 놓인 뚜껑 안 연 커피",
+          "en": "The unopened coffee beside her"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e6"
+      ]
+    },
+    {
+      "key": "card",
+      "ask": {
+        "ko": "가방 속 반지 두 개 그려진 카드는?",
+        "en": "What's the card with two rings in her bag?"
+      },
+      "options": [
+        {
+          "ko": "생일 카드",
+          "en": "A birthday card"
+        },
+        {
+          "ko": "보험 서류",
+          "en": "Insurance papers"
+        },
+        {
+          "ko": "청첩장",
+          "en": "A wedding invitation"
+        },
+        {
+          "ko": "영수증",
+          "en": "A receipt"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "going",
+      "ask": {
+        "ko": "그녀가 오늘 실제로 갈 곳은?",
+        "en": "Where is she actually going today?"
+      },
+      "options": [
+        {
+          "ko": "결혼식",
+          "en": "A wedding"
+        },
+        {
+          "ko": "병원",
+          "en": "The doctor"
+        },
+        {
+          "ko": "시장",
+          "en": "The market"
+        },
+        {
+          "ko": "도서관",
+          "en": "The library"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "dressed",
+      "ask": {
+        "ko": "그녀가 오늘 차려입은 흔적은?",
+        "en": "What shows she's dressed up today?"
+      },
+      "options": [
+        {
+          "ko": "운동화",
+          "en": "Sneakers"
+        },
+        {
+          "ko": "진주 귀걸이",
+          "en": "Pearl earrings"
+        },
+        {
+          "ko": "앞치마",
+          "en": "An apron"
+        },
+        {
+          "ko": "등산 모자",
+          "en": "A hiking cap"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 32,
+      "y": 86,
+      "r": 5,
+      "label": {
+        "ko": "손가락에 밴 붉은 색연필 자국",
+        "en": "Red pencil smudges on her finger"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 23,
+      "y": 69,
+      "r": 9,
+      "label": {
+        "ko": "가방 속 크레용 그림 편지 묶음 — 리본으로 묶어 간직했다",
+        "en": "A bundle of crayon-drawn letters in her bag, kept tied with a ribbon"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 43,
+      "y": 88,
+      "r": 6,
+      "label": {
+        "ko": "무릎 위 메모 — 줄에 맞춰 또박또박 쓴 손글씨",
+        "en": "A note on her lap — neat, evenly spaced handwriting"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 70,
+      "y": 26,
+      "r": 13,
+      "label": {
+        "ko": "그녀의 시선이 향한 곳 — 길 건너 초등학교 운동장",
+        "en": "Where she's looking — the elementary school playground across the street"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 38,
+      "y": 69,
+      "r": 6,
+      "label": {
+        "ko": "반지 두 개가 그려진 리본 카드 — 그리고 진주 귀걸이로 차려입은 모습",
+        "en": "A ribboned card with two rings on it — and she's wearing pearl earrings"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 83,
+      "y": 85,
+      "r": 11,
+      "label": {
+        "ko": "뚜껑도 열지 않은 커피 한 잔, 옆에 꺼내 둔 빛바랜 단체 사진",
+        "en": "A coffee with the lid still on, and a faded group photo set beside it"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "산책을 나왔다는 말도, 아이들 노는 소리를 좋아한다는 말도 사진과 어긋나지 않는다 — 그녀의 눈은 길 건너 운동장을 향해 있다. 하지만 '오늘 아무 약속도 없다'는 거짓이다. 옆자리엔 뚜껑도 열지 않은 커피가 한 잔 놓여 있다. 혼자 산책하는 사람이 남의 몫까지 커피를 사 두지는 않는다. 가방 속엔 반지 두 개가 그려진 청첩장, 귀에는 진주 귀걸이. 그녀는 누군가를 기다리고 있고, 함께 결혼식에 갈 것이다.",
+    "en": "Out for a walk? Likes hearing the children play? Neither clashes with the photo — her eyes are on the playground across the street. But 'no plans today' is a lie. On the bench beside her sits a coffee with the lid still on. People out for a solitary stroll don't buy a second coffee. In her bag, an invitation with two rings on it; in her ears, pearls. She's waiting for someone, and they're going to a wedding together."
+  }
+}

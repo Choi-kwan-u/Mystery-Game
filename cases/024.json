@@ -1,0 +1,223 @@
+{
+  "id": 24,
+  "date": "2026-11-18",
+  "type": "lie",
+  "image": "img/006.webp",
+  "title": {
+    "ko": "하루 종일 집에 있었다는 여자",
+    "en": "Home All Day"
+  },
+  "intro": {
+    "ko": "일요일 밤 지하철에서 꽃다발을 든 여자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "We spoke to a woman holding a bouquet on the subway late Sunday night. Here's what she said. Find the lie in the photo."
+  },
+  "statement": {
+    "ko": "꽃은 남자친구가 줬어요. 오늘은 하루 종일 집에서 쉬다가 잠깐 나온 거예요. 지금은 집에 가는 길이고요.",
+    "en": "My boyfriend gave me the flowers. I spent the whole day relaxing at home and only popped out for a bit. I'm on my way home now."
+  },
+  "questions": [
+    {
+      "key": "lie",
+      "ask": {
+        "ko": "사진과 맞지 않는 말은?",
+        "en": "Which part of the statement does the photo contradict?"
+      },
+      "options": [
+        {
+          "ko": "꽃은 남자친구가 줬다",
+          "en": "Her boyfriend gave her the flowers"
+        },
+        {
+          "ko": "하루 종일 집에서 쉬었다",
+          "en": "She spent the whole day relaxing at home"
+        },
+        {
+          "ko": "지금 집에 가는 길이다",
+          "en": "She's on her way home"
+        },
+        {
+          "ko": "모두 사진과 맞다",
+          "en": "It all fits the photo"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3",
+        "e5"
+      ]
+    },
+    {
+      "key": "tell",
+      "ask": {
+        "ko": "그 거짓말을 드러내는 단서는?",
+        "en": "Which detail gives the lie away?"
+      },
+      "options": [
+        {
+          "ko": "꽃다발의 포장지",
+          "en": "The bouquet's wrapping"
+        },
+        {
+          "ko": "지하철 창문",
+          "en": "The subway window"
+        },
+        {
+          "ko": "무릎 위의 악보",
+          "en": "The sheet music on her lap"
+        },
+        {
+          "ko": "묶은 머리",
+          "en": "Her tied-back hair"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "powder",
+      "ask": {
+        "ko": "검은 옷 어깨의 하얀 가루는?",
+        "en": "What's the white powder on the shoulder of her black outfit?"
+      },
+      "options": [
+        {
+          "ko": "비듬",
+          "en": "Dandruff"
+        },
+        {
+          "ko": "활에 바르는 송진",
+          "en": "Rosin for a bow"
+        },
+        {
+          "ko": "밀가루",
+          "en": "Flour"
+        },
+        {
+          "ko": "분필 가루",
+          "en": "Chalk dust"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "today",
+      "ask": {
+        "ko": "그녀가 오늘 실제로 한 일은?",
+        "en": "What did she actually do today?"
+      },
+      "options": [
+        {
+          "ko": "연주회",
+          "en": "Played a concert"
+        },
+        {
+          "ko": "결혼식",
+          "en": "Went to a wedding"
+        },
+        {
+          "ko": "장례식",
+          "en": "Went to a funeral"
+        },
+        {
+          "ko": "면접",
+          "en": "Had a job interview"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "mark",
+      "ask": {
+        "ko": "목의 갈색 자국은 무엇을 말해 줄까?",
+        "en": "What does the brown mark on her neck tell you?"
+      },
+      "options": [
+        {
+          "ko": "넘어져 다쳤다",
+          "en": "She fell and hurt herself"
+        },
+        {
+          "ko": "모기에 물렸다",
+          "en": "A mosquito bite"
+        },
+        {
+          "ko": "바이올린을 오래 켰다",
+          "en": "She's played the violin for years"
+        },
+        {
+          "ko": "타투를 했다",
+          "en": "A tattoo"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 36,
+      "y": 42,
+      "r": 5,
+      "label": {
+        "ko": "턱 아래 목에 굳은 갈색 자국",
+        "en": "A hardened brownish mark on her neck, below the jaw"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 29,
+      "y": 52,
+      "r": 6,
+      "label": {
+        "ko": "검은 옷 어깨에 묻은 하얀 가루",
+        "en": "White powder dusted on the shoulder of her black outfit"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 34,
+      "y": 70,
+      "r": 12,
+      "label": {
+        "ko": "올블랙 무대 의상과 단정히 묶은 머리",
+        "en": "An all-black stage outfit and neatly tied-back hair"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 69,
+      "y": 60,
+      "r": 12,
+      "label": {
+        "ko": "무릎 위 꽃다발",
+        "en": "A bouquet in her lap"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 82,
+      "y": 81,
+      "r": 9,
+      "label": {
+        "ko": "무릎 위 악보 파일 — 음표만 빼곡하다",
+        "en": "A folder of sheet music in her lap — nothing but notes"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "꽃을 누가 줬는지는 사진으로 알 수 없다. 집에 가는 길이라는 말도 사실일 수 있다. 하지만 '하루 종일 집에서 쉬었다'는 사진과 맞지 않는다. 집에서 쉬던 사람이 올블랙 무대 의상을 차려입고 악보 파일을 무릎에 올려 두지는 않는다. 어깨에 묻은 하얀 가루는 비듬이 아니라 활에 바르는 송진이고, 턱 아래 갈색 자국은 오랜 세월 바이올린을 끼워 온 자리다. 검은 옷이지만 장례식은 아니다 — 꽃다발을 안고 웃고 있다. 그녀는 오늘 무대에서 연주를 마치고 오는 길이다.",
+    "en": "Who gave her the flowers? The photo can't tell us. On her way home? Could well be true. But 'spent the whole day relaxing at home' doesn't fit the picture. Nobody lounging at home dresses in an all-black stage outfit and carries a folder of sheet music. The white dust on her shoulder isn't dandruff; it's rosin for a bow, and the brown mark under her jaw is where a violin has rested for years. Black clothes, yes — but this isn't a funeral; she's smiling over a bouquet. She's on her way back from a concert."
+  }
+}

@@ -14,5 +14,19 @@
   { "id": 13, "date": "2026-11-07", "file": "cases/013.json" },
   { "id": 14, "date": "2026-11-08", "file": "cases/014.json" },
   { "id": 15, "date": "2026-11-09", "file": "cases/015.json" },
-  { "id": 16, "date": "2026-11-10", "file": "cases/016.json" }
+  { "id": 16, "date": "2026-11-10", "file": "cases/016.json" },
+  { "id": 17, "date": "2026-11-11", "file": "cases/017.json" },
+  { "id": 18, "date": "2026-11-12", "file": "cases/018.json" },
+  { "id": 19, "date": "2026-11-13", "file": "cases/019.json" },
+  { "id": 20, "date": "2026-11-14", "file": "cases/020.json" },
+  { "id": 21, "date": "2026-11-15", "file": "cases/021.json" },
+  { "id": 22, "date": "2026-11-16", "file": "cases/022.json" },
+  { "id": 23, "date": "2026-11-17", "file": "cases/023.json" },
+  { "id": 24, "date": "2026-11-18", "file": "cases/024.json" },
+  { "id": 25, "date": "2026-11-19", "file": "cases/025.json" },
+  { "id": 26, "date": "2026-11-20", "file": "cases/026.json" },
+  { "id": 27, "date": "2026-11-21", "file": "cases/027.json" },
+  { "id": 28, "date": "2026-11-22", "file": "cases/028.json" },
+  { "id": 29, "date": "2026-11-23", "file": "cases/029.json" },
+  { "id": 30, "date": "2026-11-24", "file": "cases/030.json" }
 ]

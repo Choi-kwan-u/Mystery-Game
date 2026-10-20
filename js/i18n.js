@@ -17,6 +17,7 @@ const I18N = {
     'game.loadError': '사건을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.',
     'game.backToday': '오늘의 사건으로',
     'game.photoAlt': '사건 사진: {title}',
+    'game.statement': '진술',
 
     'viewer.hint': '휠·핀치로 확대, 끌어서 이동 · 사진을 탭하면 전체 화면',
     'viewer.zoomIn': '확대',
@@ -90,6 +91,7 @@ const I18N = {
     'game.loadError': "Couldn't load the case. Please try again in a moment.",
     'game.backToday': "Go to today's case",
     'game.photoAlt': 'Case photo: {title}',
+    'game.statement': 'The statement',
 
     'viewer.hint': 'Scroll or pinch to zoom, drag to pan · tap the photo for full screen',
     'viewer.zoomIn': 'Zoom in',

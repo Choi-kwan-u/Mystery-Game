@@ -1,0 +1,224 @@
+{
+  "id": 17,
+  "date": "2026-11-11",
+  "type": "lie",
+  "image": "img/005.webp",
+  "title": {
+    "ko": "점심시간의 알리바이",
+    "en": "The Lunch Break Alibi"
+  },
+  "intro": {
+    "ko": "푸드코트에서 만난 남자에게 오늘 뭐 하냐고 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "We asked a man at the food court what he's up to today. Here's what he said. Find the lie in the photo."
+  },
+  "statement": {
+    "ko": "혼자 점심 먹으러 왔어요. 손가락이 좀 안 좋아서 얼음으로 식히는 중이고요. 오늘은 그냥 쉬는 날이라 쇼핑하러 나왔어요.",
+    "en": "I came for lunch on my own. My fingers are a bit sore, so I'm cooling them on the ice. It's my day off — I'm just out shopping."
+  },
+  "questions": [
+    {
+      "key": "lie",
+      "ask": {
+        "ko": "사진과 맞지 않는 말은?",
+        "en": "Which part of the statement does the photo contradict?"
+      },
+      "options": [
+        {
+          "ko": "혼자 점심 먹으러 왔다",
+          "en": "He came for lunch alone"
+        },
+        {
+          "ko": "손가락이 아파 얼음으로 식히는 중이다",
+          "en": "His fingers are sore and he's icing them"
+        },
+        {
+          "ko": "쉬는 날이라 쇼핑하러 나왔다",
+          "en": "It's his day off and he's out shopping"
+        },
+        {
+          "ko": "모두 사진과 맞다",
+          "en": "It all fits the photo"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e6"
+      ]
+    },
+    {
+      "key": "tell",
+      "ask": {
+        "ko": "그 거짓말을 드러내는 단서는?",
+        "en": "Which detail gives the lie away?"
+      },
+      "options": [
+        {
+          "ko": "샐러드 접시",
+          "en": "The salad"
+        },
+        {
+          "ko": "목에 건 선수 출입증",
+          "en": "The competitor's badge around his neck"
+        },
+        {
+          "ko": "곱슬머리",
+          "en": "His curly hair"
+        },
+        {
+          "ko": "물 컵",
+          "en": "The cup of water"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "missing",
+      "ask": {
+        "ko": "쇼핑을 나온 사람이라면 있어야 할 텐데, 없는 것은?",
+        "en": "If he were out shopping, what would you expect to see that isn't there?"
+      },
+      "options": [
+        {
+          "ko": "쇼핑백",
+          "en": "Shopping bags"
+        },
+        {
+          "ko": "포크",
+          "en": "A fork"
+        },
+        {
+          "ko": "의자",
+          "en": "A chair"
+        },
+        {
+          "ko": "수건",
+          "en": "A towel"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e6"
+      ]
+    },
+    {
+      "key": "truth",
+      "ask": {
+        "ko": "그는 사실 무엇을 하는 중일까?",
+        "en": "What is he really doing?"
+      },
+      "options": [
+        {
+          "ko": "출근 전 아침 식사",
+          "en": "Grabbing breakfast before work"
+        },
+        {
+          "ko": "볼링 대회 중 점심시간",
+          "en": "On a lunch break mid-bowling tournament"
+        },
+        {
+          "ko": "이사하는 중",
+          "en": "In the middle of moving house"
+        },
+        {
+          "ko": "병원 진료 대기",
+          "en": "Waiting for a doctor's appointment"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e6",
+        "e2"
+      ]
+    },
+    {
+      "key": "after",
+      "ask": {
+        "ko": "밥을 먹고 나면 그가 갈 곳은?",
+        "en": "Where's he going after lunch?"
+      },
+      "options": [
+        {
+          "ko": "사무실",
+          "en": "The office"
+        },
+        {
+          "ko": "집",
+          "en": "Home"
+        },
+        {
+          "ko": "병원",
+          "en": "The doctor"
+        },
+        {
+          "ko": "볼링장",
+          "en": "The bowling alley"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 65,
+      "y": 81,
+      "r": 8,
+      "label": {
+        "ko": "왼쪽 손목을 단단히 잡아주는 보호대",
+        "en": "A stiff brace locking his left wrist in place"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 47,
+      "y": 83,
+      "r": 7,
+      "label": {
+        "ko": "왼손 손가락 세 개에 감은 흰 테이프",
+        "en": "White tape on three fingers of his left hand"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 51,
+      "y": 69,
+      "r": 6,
+      "label": {
+        "ko": "목에 건 선수 출입증",
+        "en": "A competitor's badge on a lanyard"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 32,
+      "y": 85,
+      "r": 7,
+      "label": {
+        "ko": "테이프 감은 손으로 꼭 쥔 얼음 컵",
+        "en": "An ice-cold cup gripped in his taped hand"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 90,
+      "y": 73,
+      "r": 10,
+      "label": {
+        "ko": "바퀴 달린 가방에 불룩 솟은 둥근 공 모양",
+        "en": "A wheeled bag with round, ball-shaped bulges"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "손가락이 아파 얼음으로 식힌다는 말은 사실이다 — 테이프 감은 손가락이 얼음 컵을 꼭 쥐고 있다. 혼자 점심을 먹는다는 것도 맞다. 하지만 '쉬는 날 쇼핑'은 거짓이다. 쇼핑하러 나온 사람이라면 쇼핑백 하나쯤은 있어야 하는데, 그의 곁에 있는 가방은 둥근 공이 불룩한 바퀴 가방뿐이다. 무엇보다 목에 아직 선수 출입증이 걸려 있다. 쉬는 날 출입증을 걸고 다니는 사람은 없다. 테이프도 손목 보호대도 풀지 않았다. 그는 볼링 대회 점심시간에 잠깐 나왔고, 밥을 먹으면 다시 레인으로 돌아갈 것이다.",
+    "en": "The sore fingers are real — his taped fingers are wrapped around a cup of ice. Lunch on his own, also true. But 'a day off, out shopping'? That's the lie. Someone out shopping would have at least one shopping bag; the only bag beside him is a wheeled one bulging with round balls. Above all, there's still a competitor's badge around his neck — nobody wears one of those on a day off. He hasn't taken off the tape or the wrist brace, either. He's on a lunch break in the middle of a bowling tournament, and once he's done eating, he's heading back to the lanes."
+  }
+}

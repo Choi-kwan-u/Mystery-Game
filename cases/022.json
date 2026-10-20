@@ -1,0 +1,224 @@
+{
+  "id": 22,
+  "date": "2026-11-16",
+  "type": "lie",
+  "image": "img/004.webp",
+  "title": {
+    "ko": "동네 주민이라는 남자",
+    "en": "The Man Who Lives Nearby"
+  },
+  "intro": {
+    "ko": "새벽 휴게소 식당의 남자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "We spoke to a man in a rest-stop diner before dawn. Here's what he said. Find the lie in the photo."
+  },
+  "statement": {
+    "ko": "혼자 아침 먹으러 왔어요. 보온병에 커피도 챙겨 왔고요. 집이 바로 근처라 걸어서 왔어요.",
+    "en": "I came for breakfast on my own. Brought coffee in my thermos, too. My place is just around the corner, so I walked."
+  },
+  "questions": [
+    {
+      "key": "lie",
+      "ask": {
+        "ko": "사진과 맞지 않는 말은?",
+        "en": "Which part of the statement does the photo contradict?"
+      },
+      "options": [
+        {
+          "ko": "혼자 왔다",
+          "en": "He came alone"
+        },
+        {
+          "ko": "보온병에 커피를 챙겨 왔다",
+          "en": "He brought coffee in a thermos"
+        },
+        {
+          "ko": "집이 근처라 걸어왔다",
+          "en": "He lives nearby and walked"
+        },
+        {
+          "ko": "모두 사진과 맞다",
+          "en": "It all fits the photo"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e3"
+      ]
+    },
+    {
+      "key": "tell",
+      "ask": {
+        "ko": "그 거짓말을 드러내는 단서는?",
+        "en": "Which detail gives the lie away?"
+      },
+      "options": [
+        {
+          "ko": "수프 그릇",
+          "en": "The bowl of soup"
+        },
+        {
+          "ko": "목에 건 목베개와 이마 위 안대",
+          "en": "The neck pillow and the sleep mask on his forehead"
+        },
+        {
+          "ko": "소금통",
+          "en": "The salt shaker"
+        },
+        {
+          "ko": "빵",
+          "en": "The bread roll"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "truck",
+      "ask": {
+        "ko": "창밖 주차장의 트럭 중 하나는 누구의 것일까?",
+        "en": "One of the trucks outside belongs to whom?"
+      },
+      "options": [
+        {
+          "ko": "식당 주인",
+          "en": "The diner's owner"
+        },
+        {
+          "ko": "경찰",
+          "en": "The police"
+        },
+        {
+          "ko": "그 자신",
+          "en": "Him"
+        },
+        {
+          "ko": "아무도 아니다",
+          "en": "Nobody"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "home",
+      "ask": {
+        "ko": "그는 사실 어디에 사는 사람일까?",
+        "en": "Where does he really live?"
+      },
+      "options": [
+        {
+          "ko": "멀리 떨어진 도시",
+          "en": "In a city far from here"
+        },
+        {
+          "ko": "바로 이 동네",
+          "en": "Right around here"
+        },
+        {
+          "ko": "휴게소 직원 숙소",
+          "en": "In staff housing at the rest stop"
+        },
+        {
+          "ko": "식당 2층",
+          "en": "Above the diner"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e5"
+      ]
+    },
+    {
+      "key": "cans",
+      "ask": {
+        "ko": "빈 에너지 음료 캔 두 개가 말해 주는 것은?",
+        "en": "What do the two empty energy drink cans tell you?"
+      },
+      "options": [
+        {
+          "ko": "운동을 했다",
+          "en": "He just worked out"
+        },
+        {
+          "ko": "밤새 졸음을 참으며 운전했다",
+          "en": "He fought off sleep driving all night"
+        },
+        {
+          "ko": "손님이 두고 갔다",
+          "en": "Another customer left them"
+        },
+        {
+          "ko": "시험공부를 했다",
+          "en": "He was studying for an exam"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e4"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 80,
+      "y": 69,
+      "r": 8,
+      "label": {
+        "ko": "왼팔만 짙게 탄 팔뚝 — 오른팔은 하얗다",
+        "en": "Only his left forearm is deeply tanned — the right one is pale"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 18,
+      "y": 84,
+      "r": 13,
+      "label": {
+        "ko": "1리터 보온병과 빈 에너지 음료 캔 두 개",
+        "en": "A one-liter thermos and two empty energy drink cans"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 82,
+      "y": 37,
+      "r": 12,
+      "label": {
+        "ko": "창밖 주차장에 줄지어 선 대형 트레일러",
+        "en": "Semi-trailers lined up in the lot outside"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 55,
+      "y": 45,
+      "r": 8,
+      "label": {
+        "ko": "충혈된 눈",
+        "en": "Bloodshot eyes"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 38,
+      "y": 45,
+      "r": 8,
+      "label": {
+        "ko": "목에 건 목베개와 이마에 올린 수면 안대",
+        "en": "A neck pillow, and a sleep mask pushed up on his forehead"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "혼자 왔다는 건 사실이다. 보온병도 정말 챙겨 왔다. 하지만 '집이 근처라 걸어왔다'는 거짓이다. 근처에 사는 사람이 목에 목베개를 두르고 이마에 수면 안대를 얹은 채 아침을 먹으러 오지는 않는다. 그건 차 안에서 자는 사람의 짐이다. 창밖엔 대형 트레일러가 줄지어 서 있고, 테이블엔 빈 에너지 음료 캔이 두 개, 눈은 벌겋게 충혈됐다. 운전석 창가 쪽 왼팔만 그을린 것도 같은 이야기다. 그는 이 동네 사람이 아니라 밤새 먼 길을 달려온 트럭 운전사이고, 창밖 트럭 중 하나가 그의 것이다.",
+    "en": "Came alone? True. Brought a thermos? Also true. But 'my place is just around the corner, so I walked'? That's the lie. Locals don't stroll in for breakfast with a travel pillow around their neck and a sleep mask on their forehead — that's the kit of someone who sleeps in a vehicle. Outside, semi-trailers stand in a row; on the table, two empty energy drinks; his eyes are bloodshot. Only his left arm, the driver's-window arm, is tanned. He isn't from around here. He's a trucker who drove through the night, and one of those rigs outside is his."
+  }
+}

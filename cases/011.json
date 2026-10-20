@@ -3,96 +3,127 @@
   "date": "2026-11-05",
   "image": "img/011.svg",
   "title": {
-    "ko": "빨간 불이 켜진 방",
-    "en": "The Room with the Red Light"
+    "ko": "월요일 아침의 샌들",
+    "en": "Sandals on a Monday Morning"
   },
   "intro": {
-    "ko": "토요일 오후, 창문을 막고 빨간 불 하나만 켜 둔 작은 방. 주인은 잠깐 자리를 비웠다. 이 방의 주인은 누구일까?",
-    "en": "Saturday afternoon, a small room with the window blacked out and a single red light on. The owner has stepped out. Who uses this room?"
+    "ko": "월요일 오전 10시, 카페 테라스. 30대 여성이 샌들 차림으로 느긋하게 커피를 마신다. 이 사람은 누구일까?",
+    "en": "10 a.m. on a Monday, a café terrace. A woman in her thirties lingers over coffee in sandals. Who is she?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
-        "ko": "이 방의 주인은 무슨 일을 할까?",
-        "en": "What does the owner of this room do?"
+        "ko": "이 사람은 무엇을 하는 사람일까?",
+        "en": "What is she?"
       },
       "options": [
         {
-          "ko": "사진가",
-          "en": "Photographer"
+          "ko": "발레리나",
+          "en": "Ballet dancer"
         },
         {
-          "ko": "화학 교사",
-          "en": "Chemistry teacher"
+          "ko": "축구 선수",
+          "en": "Soccer player"
         },
         {
-          "ko": "영화감독",
-          "en": "Film director"
+          "ko": "마라토너",
+          "en": "Marathon runner"
         },
         {
-          "ko": "화가",
-          "en": "Painter"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2",
-        "e3",
-        "e4"
-      ]
-    },
-    {
-      "key": "redlight",
-      "ask": {
-        "ko": "방에 왜 빨간 불만 켜 두었을까?",
-        "en": "Why is the only light in the room red?"
-      },
-      "options": [
-        {
-          "ko": "분위기를 내려고",
-          "en": "For the mood"
-        },
-        {
-          "ko": "전기를 아끼려고",
-          "en": "To save electricity"
-        },
-        {
-          "ko": "사진 인화지가 빛에 상하지 않게",
-          "en": "So the photo paper isn't ruined by light"
-        },
-        {
-          "ko": "식물을 키우려고",
-          "en": "To grow plants"
+          "ko": "등산가",
+          "en": "Mountaineer"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e1"
+        "e1",
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "line",
+      "key": "yesterday",
       "ask": {
-        "ko": "줄에 집게로 매달아 둔 종이들은 무엇일까?",
-        "en": "What's hanging from the line with clothespins?"
+        "ko": "어제 무엇을 했을까?",
+        "en": "What did she do yesterday?"
       },
       "options": [
         {
-          "ko": "빨래",
-          "en": "Laundry"
+          "ko": "등산",
+          "en": "Went hiking"
         },
         {
-          "ko": "마르고 있는 사진",
-          "en": "Photos drying"
+          "ko": "마라톤 대회",
+          "en": "Ran a marathon"
         },
         {
-          "ko": "장식용 깃발",
-          "en": "Decorative flags"
+          "ko": "발레 공연",
+          "en": "Danced in a ballet"
         },
         {
-          "ko": "메모지",
-          "en": "Memo notes"
+          "ko": "바닷가 여행",
+          "en": "Went to the beach"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e3"
+      ]
+    },
+    {
+      "key": "today",
+      "ask": {
+        "ko": "오늘은 어떤 날일까?",
+        "en": "What's today for her?"
+      },
+      "options": [
+        {
+          "ko": "출근하는 길",
+          "en": "She's on her way to work"
+        },
+        {
+          "ko": "또 달리러 간다",
+          "en": "She's going for another run"
+        },
+        {
+          "ko": "병원 가는 길",
+          "en": "She's heading to the doctor"
+        },
+        {
+          "ko": "휴가를 내고 쉰다",
+          "en": "A day off to recover"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e4"
+      ]
+    },
+    {
+      "key": "watch",
+      "ask": {
+        "ko": "그녀가 평소 손목에 늘 차는 것은?",
+        "en": "What does she usually wear on her wrist?"
+      },
+      "options": [
+        {
+          "ko": "팔찌",
+          "en": "A bracelet"
+        },
+        {
+          "ko": "스포츠 시계",
+          "en": "A sports watch"
+        },
+        {
+          "ko": "머리끈",
+          "en": "A hair tie"
+        },
+        {
+          "ko": "아무것도 안 찬다",
+          "en": "Nothing at all"
         }
       ],
       "answer": 1,
@@ -101,129 +132,89 @@
       ]
     },
     {
-      "key": "room",
+      "key": "race",
       "ask": {
-        "ko": "이 방은 원래 어떤 공간이었을까?",
-        "en": "What was this room originally?"
+        "ko": "어제 경기에서 그녀는?",
+        "en": "How did yesterday's race go for her?"
       },
       "options": [
         {
-          "ko": "부엌",
-          "en": "A kitchen"
+          "ko": "출전하지 못했다",
+          "en": "She didn't get to run"
         },
         {
-          "ko": "창고",
-          "en": "A storage room"
+          "ko": "응원만 했다",
+          "en": "She only cheered"
         },
         {
-          "ko": "침실",
-          "en": "A bedroom"
+          "ko": "중간에 포기했다",
+          "en": "She dropped out"
         },
         {
-          "ko": "욕실",
-          "en": "A bathroom"
+          "ko": "완주했다",
+          "en": "She finished"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e6"
-      ]
-    },
-    {
-      "key": "camera",
-      "ask": {
-        "ko": "주인은 어떤 카메라를 쓸까?",
-        "en": "What kind of camera does the owner use?"
-      },
-      "options": [
-        {
-          "ko": "스마트폰만 쓴다",
-          "en": "Only a phone"
-        },
-        {
-          "ko": "디지털 카메라",
-          "en": "A digital camera"
-        },
-        {
-          "ko": "필름 카메라",
-          "en": "A film camera"
-        },
-        {
-          "ko": "카메라는 없다",
-          "en": "No camera at all"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e4",
-        "e5"
+        "e4"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 10,
+      "x": 40,
+      "y": 90,
       "r": 8,
       "label": {
-        "ko": "천장에 매달린 빨간 전구 하나",
-        "en": "A single red bulb hanging from the ceiling"
+        "ko": "샌들 사이로 보이는 검게 멍든 발톱 두 개",
+        "en": "Two toenails bruised black, peeking out of her sandals"
       }
     },
     {
       "id": "e2",
-      "x": 55,
-      "y": 32,
-      "r": 12,
+      "x": 62,
+      "y": 55,
+      "r": 6,
       "label": {
-        "ko": "줄에 집게로 매달려 마르고 있는 사진들",
-        "en": "Photos hanging from a line with clothespins, drying"
+        "ko": "시계는 없는데 왼쪽 손목에 하얗게 남은 시계 자국",
+        "en": "No watch, but a pale watch-shaped band on her left wrist"
       }
     },
     {
       "id": "e3",
-      "x": 30,
-      "y": 62,
-      "r": 10,
+      "x": 45,
+      "y": 28,
+      "r": 9,
       "label": {
-        "ko": "약품이 담긴 납작한 쟁반 세 개",
-        "en": "Three shallow trays of chemicals"
+        "ko": "어깨에 민소매 모양으로 갓 탄 붉은 자국",
+        "en": "A fresh sunburn on her shoulders in the shape of a running singlet"
       }
     },
     {
       "id": "e4",
-      "x": 80,
-      "y": 48,
-      "r": 7,
+      "x": 82,
+      "y": 60,
+      "r": 8,
       "label": {
-        "ko": "선반 위의 오래된 필름 카메라",
-        "en": "An old film camera on the shelf"
+        "ko": "가방에서 삐져나온 메달 리본",
+        "en": "A medal ribbon hanging out of her bag"
       }
     },
     {
       "id": "e5",
-      "x": 18,
-      "y": 40,
-      "r": 6,
+      "x": 45,
+      "y": 72,
+      "r": 8,
       "label": {
-        "ko": "집게에 함께 걸린 기다란 필름 띠",
-        "en": "A long strip of film hanging with the prints"
-      }
-    },
-    {
-      "id": "e6",
-      "x": 60,
-      "y": 85,
-      "r": 11,
-      "label": {
-        "ko": "줄 아래의 욕조와 타일 벽",
-        "en": "A bathtub and tiled walls under the line"
+        "ko": "종아리에 낀 압박 슬리브",
+        "en": "Compression sleeves on her calves"
       }
     }
   ],
   "detective": {
-    "ko": "방 안에 빨간 불 하나만 켜져 있다. 분위기를 내려는 게 아니다 — 사진 인화지는 빨간빛에는 상하지 않는다. 납작한 쟁반 세 개엔 약품이 담겨 있고, 줄에는 빨래 대신 막 인화한 사진들이 집게에 물려 마르고 있다. 그 옆엔 기다란 필름 띠, 선반 위엔 오래된 필름 카메라. 화학 교사도 약품을 쓰고 영화감독도 필름을 다루지만, 자기 손으로 사진을 뽑아 말리는 사람은 사진가다. 그리고 쟁반 아래를 보라. 타일 벽, 그리고 줄 밑의 욕조. 이 암실은 원래 욕실이었다. 그는 집 욕실의 창문을 막고 자기만의 암실을 만들었다.",
-    "en": "There's only one light on in here, and it's red. That isn't for the mood — photo paper doesn't react to red light. Three shallow trays hold chemicals, and on the line, instead of laundry, freshly printed photos hang drying from clothespins. Next to them, a long strip of film; on the shelf, an old film camera. A chemistry teacher handles chemicals and a film director handles film, but someone who prints and dries their own pictures by hand is a photographer. Now look below the trays: tiled walls, and a bathtub under the line. This darkroom used to be a bathroom. They blacked out the window and built a darkroom of their own."
+    "ko": "발톱 두 개가 까맣게 멍들었다. 발을 혹사하는 사람이다 — 발레리나도 그렇다. 하지만 그녀는 햇볕에 탔고, 그 모양이 민소매 그대로다. 무대 조명이 아니라 햇볕 아래서 몇 시간을 움직였다. 손목엔 시계가 없는데 시계 자국만 하얗게 남았다 — 늘 기록을 재는 사람이다. 축구 선수라면 양말 선을 따라 탔을 것이고, 등산가는 민소매로 산에 오르지 않는다. 가방에서 삐져나온 메달 리본과 아직 벌건 어깨. 어제 42.195km를 끝까지 달렸다 — 메달은 완주한 사람만 받는다. 그리고 월요일 오전 10시에 압박 슬리브를 낀 채 카페에 앉아 있다면, 오늘은 다리를 쉬게 하려고 휴가를 낸 것이다.",
+    "en": "Two toenails bruised black — she's hard on her feet. So is a ballet dancer. But she's sunburned, and in the exact shape of a running singlet: hours of moving under the sun, not under stage lights. There's no watch on her wrist, yet a pale watch band is there anyway — she's someone who always keeps time. A soccer player's tan would stop at the sock line, and a mountaineer doesn't climb in a tank top. Then there's the medal ribbon peeking out of her bag and the still-red shoulders: yesterday she ran all 26.2 miles — they only hand out medals at the finish line. And sitting at a café at 10 a.m. on a Monday in compression sleeves? She took the day off to let her legs recover."
   }
 }

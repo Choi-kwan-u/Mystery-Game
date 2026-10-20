@@ -3,12 +3,12 @@
   "date": "2026-11-09",
   "image": "img/015.svg",
   "title": {
-    "ko": "국밥집의 구멍 난 재킷",
-    "en": "The Jacket Full of Holes"
+    "ko": "편의점 앞의 밤 9시",
+    "en": "9 P.M. Outside the Corner Store"
   },
   "intro": {
-    "ko": "평일 저녁 6시, 공단 앞 국밥집. 50대 남성이 혼자 저녁을 먹고 있다. 이 사람은 누구일까?",
-    "en": "6 p.m. on a weekday, a soup restaurant by an industrial park. A man in his fifties eats dinner alone. Who is he?"
+    "ko": "밤 9시, 편의점 앞 의자. 20대 남성이 삼각김밥을 먹으며 휴대폰을 보고 있다. 이 사람은 누구일까?",
+    "en": "9 p.m., a chair outside a convenience store. A man in his twenties eats a rice ball while checking his phone. Who is he?"
   },
   "questions": [
     {
@@ -19,143 +19,146 @@
       },
       "options": [
         {
-          "ko": "자동차 정비사",
-          "en": "Auto mechanic"
+          "ko": "자전거 선수",
+          "en": "Pro cyclist"
         },
         {
-          "ko": "요리사",
-          "en": "Chef"
+          "ko": "택시 기사",
+          "en": "Taxi driver"
         },
         {
-          "ko": "전기 기사",
-          "en": "Electrician"
+          "ko": "경찰관",
+          "en": "Police officer"
         },
         {
-          "ko": "용접공",
-          "en": "Welder"
+          "ko": "배달 라이더",
+          "en": "Delivery rider"
         }
       ],
       "answer": 3,
       "evidence": [
         "e1",
-        "e3",
-        "e5"
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "posture",
+      "key": "hours",
       "ask": {
-        "ko": "오늘 주로 어떤 자세로 일했을까?",
-        "en": "How was he working most of today?"
+        "ko": "오늘 몇 시간째 일하는 중일까?",
+        "en": "How long has he been working today?"
       },
       "options": [
         {
-          "ko": "바닥에 쪼그려 앉아",
-          "en": "Crouched on the floor"
+          "ko": "막 시작했다",
+          "en": "He just started"
         },
         {
-          "ko": "머리 위를 올려다보며",
-          "en": "Looking straight up, working overhead"
+          "ko": "이미 퇴근했다",
+          "en": "He's already clocked out"
         },
         {
-          "ko": "작업대 앞에 서서",
-          "en": "Standing at a workbench"
+          "ko": "몇 시간째다",
+          "en": "For hours"
         },
         {
-          "ko": "의자에 앉아",
-          "en": "Sitting in a chair"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "hurt",
-      "ask": {
-        "ko": "지금 가장 괴로운 곳은?",
-        "en": "What's bothering him most right now?"
-      },
-      "options": [
-        {
-          "ko": "허리",
-          "en": "His back"
-        },
-        {
-          "ko": "손",
-          "en": "His hands"
-        },
-        {
-          "ko": "눈",
-          "en": "His eyes"
-        },
-        {
-          "ko": "무릎",
-          "en": "His knees"
+          "ko": "쉬는 날이다",
+          "en": "It's his day off"
         }
       ],
       "answer": 2,
+      "evidence": [
+        "e1",
+        "e4"
+      ]
+    },
+    {
+      "key": "next",
+      "ask": {
+        "ko": "김밥을 먹고 나면 무엇을 할까?",
+        "en": "What's next once he finishes eating?"
+      },
+      "options": [
+        {
+          "ko": "집에 간다",
+          "en": "Going home"
+        },
+        {
+          "ko": "친구를 만난다",
+          "en": "Meeting a friend"
+        },
+        {
+          "ko": "정비소에 간다",
+          "en": "Taking his bike in for repairs"
+        },
+        {
+          "ko": "다시 배달하러 간다",
+          "en": "Back out on deliveries"
+        }
+      ],
+      "answer": 3,
       "evidence": [
         "e4"
       ]
     },
     {
-      "key": "holes",
+      "key": "vehicle",
       "ask": {
-        "ko": "재킷의 작은 구멍들은 무엇 때문일까?",
-        "en": "What made the tiny holes in his jacket?"
+        "ko": "그가 타고 다니는 것은?",
+        "en": "What does he ride?"
       },
       "options": [
         {
-          "ko": "튀는 불똥",
-          "en": "Flying sparks"
+          "ko": "오토바이",
+          "en": "A motorcycle"
         },
         {
-          "ko": "벌레",
-          "en": "Moths"
+          "ko": "자전거",
+          "en": "A bicycle"
         },
         {
-          "ko": "담뱃불",
-          "en": "Cigarette burns"
+          "ko": "전동 킥보드",
+          "en": "An e-scooter"
         },
         {
-          "ko": "오래 입어서",
-          "en": "Just old age"
+          "ko": "자동차",
+          "en": "A car"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e1"
+        "e3",
+        "e5",
+        "e2"
       ]
     },
     {
-      "key": "gloves",
+      "key": "battery",
       "ask": {
-        "ko": "옆자리의 장갑은 왜 이렇게 두꺼울까?",
-        "en": "Why are the gloves beside him so thick?"
+        "ko": "휴대폰을 왜 보조배터리에 꽂아 두었을까?",
+        "en": "Why is his phone plugged into a power bank?"
       },
       "options": [
         {
-          "ko": "추위를 막으려고",
-          "en": "To keep out the cold"
+          "ko": "게임을 많이 해서",
+          "en": "He games a lot"
         },
         {
-          "ko": "칼날을 막으려고",
-          "en": "To stop knife cuts"
+          "ko": "하루 종일 지도를 켜 둬서",
+          "en": "The map's been on all day"
         },
         {
-          "ko": "불똥과 열을 막으려고",
-          "en": "To block sparks and heat"
+          "ko": "배터리가 고장 나서",
+          "en": "The battery's broken"
         },
         {
-          "ko": "멋으로",
-          "en": "Just for style"
+          "ko": "그냥 습관이라",
+          "en": "Just habit"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e5"
+        "e4"
       ]
     }
   ],
@@ -163,56 +166,56 @@
     {
       "id": "e1",
       "x": 50,
-      "y": 28,
-      "r": 12,
+      "y": 15,
+      "r": 9,
       "label": {
-        "ko": "어깨 윗면과 모자 챙에만 몰린 작은 탄 구멍들",
-        "en": "Dozens of tiny burn holes, all on the tops of his shoulders and the brim of his cap"
+        "ko": "헬멧에 눌려 땀에 젖은 머리와 이마의 붉은 가로 자국",
+        "en": "Sweaty hair flattened by a helmet, and a red line across his forehead"
       }
     },
     {
       "id": "e2",
-      "x": 50,
-      "y": 44,
-      "r": 6,
+      "x": 35,
+      "y": 52,
+      "r": 7,
       "label": {
-        "ko": "목의 V자 부분만 붉게 탄 자국",
-        "en": "A red burn only in the V of his collar"
+        "ko": "손은 하얀데 손목부터 탄 피부 — 장갑 경계선",
+        "en": "Pale hands, tanned wrists — a sharp glove line"
       }
     },
     {
       "id": "e3",
-      "x": 28,
-      "y": 66,
-      "r": 8,
+      "x": 75,
+      "y": 85,
+      "r": 10,
       "label": {
-        "ko": "팔뚝의 오래된 하얀 화상 흉터들",
-        "en": "Old white burn scars on his forearms"
+        "ko": "의자 옆 바닥의 풀페이스 헬멧",
+        "en": "A full-face helmet on the ground by his chair"
       }
     },
     {
       "id": "e4",
-      "x": 70,
-      "y": 66,
+      "x": 60,
+      "y": 50,
       "r": 7,
       "label": {
-        "ko": "테이블 위 안약 병, 그리고 충혈된 눈",
-        "en": "A bottle of eye drops on the table — and red eyes"
+        "ko": "한 손에 아직 낀 장갑, 보조배터리에 꽂힌 휴대폰 속 지도",
+        "en": "One glove still on, and a map on a phone hooked up to a power bank"
       }
     },
     {
       "id": "e5",
-      "x": 82,
-      "y": 88,
-      "r": 8,
+      "x": 45,
+      "y": 82,
+      "r": 6,
       "label": {
-        "ko": "옆자리에 놓인 두꺼운 가죽 장갑",
-        "en": "Thick leather gloves on the seat beside him"
+        "ko": "오른쪽 종아리 안쪽의 작은 화상 자국",
+        "en": "A small burn scar on the inside of his right calf"
       }
     }
   ],
   "detective": {
-    "ko": "청재킷에 바늘로 찌른 듯한 작은 탄 구멍이 수십 개다. 튀는 불똥에 뚫린 구멍이다. 정비사라면 옷 구석구석 기름때가 배었을 텐데 그런 흔적은 없고, 요리사도 화상은 입지만 옷이 이렇게 뚫리지는 않는다. 팔뚝의 오래된 화상 흉터와 옆자리의 두꺼운 가죽 장갑 — 그는 용접공이다. 그런데 구멍의 위치가 이상하다. 어깨 윗면과 모자 챙에만 몰려 있다. 불똥이 위에서 쏟아졌다는 뜻이다. 오늘 그는 하루 종일 고개를 젖히고 머리 위를 용접했다. 그리고 테이블 위의 안약 병과 벌건 눈. 지금 그를 가장 괴롭히는 건 허리가 아니라 눈이다.",
-    "en": "His denim jacket is peppered with tiny burn holes, as if someone went at it with a needle — sparks did that. A mechanic would have grease worked into every crease, and there's none. A chef gets burns, but a chef's clothes don't end up looking like this. Old burn scars on his forearms, thick leather gloves on the seat beside him: he's a welder. But look where the holes are — only on the tops of his shoulders and the brim of his cap. The sparks were raining down from above. He spent the day with his head tipped back, welding overhead. And with that bottle of eye drops on the table and those red eyes, it's not his back that's bothering him most tonight. It's his eyes."
+    "ko": "머리는 땀에 젖어 납작하게 눌렸고 이마엔 붉은 가로 자국이 있다. 몇 시간째 헬멧을 썼다. 자전거 선수일까? 그들은 손가락이 드러나는 반장갑을 끼니 손가락까지 탄다. 하지만 그의 손은 손목에서 칼로 자른 듯 하얗다 — 손 전체를 덮는 장갑이다. 바닥엔 통풍구 달린 자전거 헬멧이 아니라 풀페이스 헬멧이 있고, 오른쪽 종아리 안쪽엔 뜨거운 배기관에 덴 자국까지 있다. 오토바이를 탄다. 보조배터리에 꽂힌 휴대폰엔 지도가 떠 있다. 배터리가 바닥날 만큼 오래 일했고, 장갑 한 짝을 아직 벗지 않은 걸 보면 김밥을 삼키자마자 다음 배달을 나갈 것이다.",
+    "en": "His hair is sweaty and pressed flat, with a red line across his forehead: he's been wearing a helmet for hours. A cyclist? Cyclists wear fingerless gloves, so their fingers tan too. His hands are pale right up to a crisp line at the wrist — full gloves. On the ground is a full-face helmet, not a vented bike helmet, and there's a small burn on the inside of his right calf, right where a hot exhaust pipe would touch. He rides a motorcycle. His phone, plugged into a power bank, shows a map. He's been working long enough to drain his battery, and he hasn't taken off his other glove — the moment he's done eating, he's off on the next delivery."
   }
 }

@@ -1,0 +1,212 @@
+{
+  "id": 27,
+  "date": "2026-11-21",
+  "type": "lie",
+  "image": "img/002.webp",
+  "title": {
+    "ko": "학교엔 갈 일이 없다는 남자",
+    "en": "No Business at a School"
+  },
+  "intro": {
+    "ko": "평일 아침 지하철 플랫폼의 남자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "We spoke to a man on a subway platform on a weekday morning. Here's what he said. Find the lie in the photo."
+  },
+  "statement": {
+    "ko": "지하철 기다리는 중이에요. 연필은 메모하려고 늘 꽂고 다니고요. 학교 근처엔 갈 일이 없어요.",
+    "en": "I'm waiting for the train. I always keep a pencil behind my ear for notes. I've got no reason to go anywhere near a school."
+  },
+  "questions": [
+    {
+      "key": "lie",
+      "ask": {
+        "ko": "사진과 맞지 않는 말은?",
+        "en": "Which part of the statement does the photo contradict?"
+      },
+      "options": [
+        {
+          "ko": "지하철을 기다리는 중이다",
+          "en": "He's waiting for the train"
+        },
+        {
+          "ko": "연필은 메모용이다",
+          "en": "The pencil is for notes"
+        },
+        {
+          "ko": "학교 근처엔 갈 일이 없다",
+          "en": "He has no reason to go near a school"
+        },
+        {
+          "ko": "모두 사진과 맞다",
+          "en": "It all fits the photo"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "tell",
+      "ask": {
+        "ko": "그 거짓말을 드러내는 단서는?",
+        "en": "Which detail gives the lie away?"
+      },
+      "options": [
+        {
+          "ko": "귀 위의 연필",
+          "en": "The pencil above his ear"
+        },
+        {
+          "ko": "가방끈의 노란 출입증",
+          "en": "The yellow badge on his bag strap"
+        },
+        {
+          "ko": "흰 셔츠",
+          "en": "His white shirt"
+        },
+        {
+          "ko": "검은 가방",
+          "en": "His black bag"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "logo",
+      "ask": {
+        "ko": "출입증의 사과와 연필 그림은 무엇을 뜻할까?",
+        "en": "What does the apple-and-pencil logo on the badge stand for?"
+      },
+      "options": [
+        {
+          "ko": "과일 가게",
+          "en": "A fruit shop"
+        },
+        {
+          "ko": "미술관",
+          "en": "An art museum"
+        },
+        {
+          "ko": "학교",
+          "en": "A school"
+        },
+        {
+          "ko": "문구점",
+          "en": "A stationery store"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "roll",
+      "ask": {
+        "ko": "그가 손에 든 가죽 롤에는 무엇이 들었을까?",
+        "en": "What's in the leather roll he's holding?"
+      },
+      "options": [
+        {
+          "ko": "붓",
+          "en": "Paintbrushes"
+        },
+        {
+          "ko": "칼",
+          "en": "Knives"
+        },
+        {
+          "ko": "젓가락",
+          "en": "Chopsticks"
+        },
+        {
+          "ko": "공구",
+          "en": "Tools"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "why",
+      "ask": {
+        "ko": "그는 학교에 무엇을 하러 갈까?",
+        "en": "What's he going to the school for?"
+      },
+      "options": [
+        {
+          "ko": "수업을 들으러",
+          "en": "To take a class"
+        },
+        {
+          "ko": "자녀를 데리러",
+          "en": "To pick up his kid"
+        },
+        {
+          "ko": "피아노를 고치러",
+          "en": "To fix a piano"
+        },
+        {
+          "ko": "강연을 하러",
+          "en": "To give a talk"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e5"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 44,
+      "y": 71,
+      "r": 7,
+      "label": {
+        "ko": "오래 써서 닳고 긁힌 가죽 공구 롤 — 틈으로 T자 렌치와 고무 쐐기가 보인다",
+        "en": "A battered, scuffed leather tool roll — a T-shaped wrench and rubber wedges peek out"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 28,
+      "y": 19,
+      "r": 6,
+      "label": {
+        "ko": "귀 위에 꽂은 연필 — 막 깎은 듯 끝이 뾰족함",
+        "en": "A pencil tucked above his ear — freshly sharpened"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 20,
+      "y": 81,
+      "r": 7,
+      "label": {
+        "ko": "손목에 감아 둔 노란 줄자",
+        "en": "A yellow tape measure wrapped around his wrist"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 19,
+      "y": 56,
+      "r": 7,
+      "label": {
+        "ko": "가방끈에 미리 달아 둔 노란 방문자 출입증 — 사과와 연필 그림",
+        "en": "A yellow visitor badge already clipped to his bag strap — with an apple-and-pencil logo"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "지하철을 기다린다는 말은 사실이다. 귀 위의 연필이 메모용이라는 것도 그럴듯하다. 하지만 '학교 근처엔 갈 일이 없다'는 거짓이다. 가방끈에 노란 방문자 출입증이 달려 있고, 그 위엔 사과와 연필 — 학교의 상징이다. 학교에 갈 일이 없는 사람이 학교 출입증을 미리 달고 다닐 리 없다. 손에 든 가죽 롤 틈으로는 T자 렌치와 고무 쐐기가 보인다. 그는 오늘 학교 음악실의 피아노를 고치러 가는 조율사다.",
+    "en": "Waiting for a train? True. The pencil above his ear being for notes? Believable. But 'no reason to go anywhere near a school' is a lie. There's a yellow visitor badge on his bag strap with an apple and a pencil on it — a school's emblem. Nobody with no business at a school walks around with its visitor badge already clipped on. Through the gap in his leather roll you can see a T-shaped wrench and rubber wedges. He's a piano tuner on his way to fix the piano in a school's music room."
+  }
+}

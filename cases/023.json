@@ -1,0 +1,220 @@
+{
+  "id": 23,
+  "date": "2026-11-17",
+  "type": "scene",
+  "image": "img/023.svg",
+  "title": {
+    "ko": "밤사이 다녀간 손님",
+    "en": "Visitors in the Night"
+  },
+  "intro": {
+    "ko": "아침 7시, 숲속 캠핑장. 텐트 앞이 엉망이다. 밤사이 여기서 무슨 일이 있었을까?",
+    "en": "7 a.m. at a forest campsite. The area in front of the tent is a mess. What happened here overnight?"
+  },
+  "questions": [
+    {
+      "key": "event",
+      "ask": {
+        "ko": "여기서 무슨 일이 있었을까?",
+        "en": "What happened here?"
+      },
+      "options": [
+        {
+          "ko": "도둑이 텐트를 털었다",
+          "en": "A thief raided the tent"
+        },
+        {
+          "ko": "야생 동물이 음식을 뒤졌다",
+          "en": "A wild animal raided the food"
+        },
+        {
+          "ko": "캠핑객들이 싸웠다",
+          "en": "The campers had a fight"
+        },
+        {
+          "ko": "비바람이 몰아쳤다",
+          "en": "A storm blew through"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e2",
+        "e4"
+      ]
+    },
+    {
+      "key": "animal",
+      "ask": {
+        "ko": "어떤 동물이었을까?",
+        "en": "What kind of animal was it?"
+      },
+      "options": [
+        {
+          "ko": "곰",
+          "en": "A bear"
+        },
+        {
+          "ko": "사슴",
+          "en": "A deer"
+        },
+        {
+          "ko": "너구리",
+          "en": "A raccoon"
+        },
+        {
+          "ko": "새",
+          "en": "A bird"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "target",
+      "ask": {
+        "ko": "동물이 노린 것은?",
+        "en": "What was the animal after?"
+      },
+      "options": [
+        {
+          "ko": "텐트",
+          "en": "The tent"
+        },
+        {
+          "ko": "신발",
+          "en": "Shoes"
+        },
+        {
+          "ko": "모닥불",
+          "en": "The campfire"
+        },
+        {
+          "ko": "음식",
+          "en": "Food"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4",
+        "e1"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "언제 일어난 일일까?",
+        "en": "When did it happen?"
+      },
+      "options": [
+        {
+          "ko": "저녁 식사 중",
+          "en": "During dinner"
+        },
+        {
+          "ko": "점심때",
+          "en": "At lunchtime"
+        },
+        {
+          "ko": "모닥불이 꺼진 한밤중",
+          "en": "In the middle of the night, after the fire went out"
+        },
+        {
+          "ko": "일주일 전",
+          "en": "A week ago"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "mistake",
+      "ask": {
+        "ko": "캠핑객이 저지른 실수는?",
+        "en": "What mistake did the campers make?"
+      },
+      "options": [
+        {
+          "ko": "텐트를 너무 크게 쳤다",
+          "en": "Pitching too big a tent"
+        },
+        {
+          "ko": "불을 너무 세게 피웠다",
+          "en": "Building too big a fire"
+        },
+        {
+          "ko": "우산을 안 가져왔다",
+          "en": "Forgetting an umbrella"
+        },
+        {
+          "ko": "음식을 밖에 두고 잤다",
+          "en": "Leaving food outside overnight"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 45,
+      "y": 72,
+      "r": 10,
+      "label": {
+        "ko": "찢어진 과자 봉지와 흩어진 쓰레기",
+        "en": "A torn snack bag and scattered trash"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 65,
+      "y": 86,
+      "r": 8,
+      "label": {
+        "ko": "진흙 위의 작은 손바닥 모양 발자국",
+        "en": "Small, hand-shaped paw prints in the mud"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 28,
+      "y": 40,
+      "r": 10,
+      "label": {
+        "ko": "지퍼가 꼭 닫힌 텐트",
+        "en": "A tent still zipped shut"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 82,
+      "y": 58,
+      "r": 8,
+      "label": {
+        "ko": "뚜껑이 열린 아이스박스",
+        "en": "An open cooler, lid flipped back"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 18,
+      "y": 78,
+      "r": 7,
+      "label": {
+        "ko": "발자국이 지나간 차갑게 식은 모닥불 자리",
+        "en": "A cold fire pit with paw prints right through the ashes"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "과자 봉지는 찢겨 있고 쓰레기가 흩어져 있다. 도둑일까? 텐트는 지퍼가 꼭 닫힌 그대로다. 털린 건 텐트가 아니라 뚜껑이 열린 아이스박스, 음식뿐이다. 진흙 위엔 작은 손바닥 모양의 발자국. 곰이라면 훨씬 크고, 사슴이라면 발굽 자국이다. 사람 손처럼 생긴 작은 발 — 너구리다. 발자국은 차갑게 식은 모닥불 잿더미 위로도 지나간다. 불이 꺼지고 모두 잠든 한밤중에 다녀간 것이다. 캠핑객의 실수는 하나. 음식을 아이스박스째 밖에 두고 잔 것.",
+    "en": "A snack bag torn open, trash scattered everywhere. A thief? The tent is still zipped tight. Nothing was taken from it — only the cooler, lid flipped back, was raided. Food was the target. In the mud: small prints shaped like little hands. A bear's would be huge; a deer leaves hoofprints. Tiny hand-like paws mean a raccoon. The prints even cross the cold ashes of the campfire, so the visit came in the dead of night, after the fire was out and everyone was asleep. The campers made one mistake: they left their food outside in the cooler."
+  }
+}

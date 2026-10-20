@@ -2,10 +2,10 @@
   <rect width="1080" height="1350" fill="#c9c6c0"/>
   <circle cx="540" cy="420" r="150" fill="#b3afa8"/>
   <path d="M260 1350 C260 900 380 640 540 640 C700 640 820 900 820 1350 Z" fill="#b3afa8"/>
-  <text x="40" y="80" font-size="40" fill="#777" font-family="sans-serif">PLACEHOLDER #012</text>
-  <circle cx="540" cy="378" r="130" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="540" y="394" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">1</text>
-  <circle cx="540" cy="594" r="65" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="540" y="610" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">2</text>
-  <circle cx="302" cy="891" r="86" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="302" y="907" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">3</text>
-  <circle cx="756" cy="891" r="76" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="756" y="907" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">4</text>
-  <circle cx="886" cy="1188" r="86" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="886" y="1204" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">5</text>
+  <text x="40" y="80" font-size="40" fill="#777" font-family="sans-serif">PLACEHOLDER #013</text>
+  <circle cx="540" cy="202" r="97" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="540" y="218" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">1</text>
+  <circle cx="378" cy="702" r="76" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="378" y="718" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">2</text>
+  <circle cx="810" cy="1148" r="108" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="810" y="1164" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">3</text>
+  <circle cx="648" cy="675" r="76" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="648" y="691" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">4</text>
+  <circle cx="486" cy="1107" r="65" fill="#ffffff22" stroke="#555" stroke-width="4" stroke-dasharray="14 10"/><text x="486" y="1123" font-size="48" text-anchor="middle" fill="#444" font-family="sans-serif" font-weight="700">5</text>
 </svg>

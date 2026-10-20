@@ -1,221 +1,231 @@
 {
   "id": 16,
   "date": "2026-11-10",
+  "type": "scene",
   "image": "img/016.svg",
   "title": {
-    "ko": "편의점 앞의 밤 9시",
-    "en": "9 P.M. Outside the Corner Store"
+    "ko": "식다 만 아침 식탁",
+    "en": "The Abandoned Breakfast"
   },
   "intro": {
-    "ko": "밤 9시, 편의점 앞 의자. 20대 남성이 삼각김밥을 먹으며 휴대폰을 보고 있다. 이 사람은 누구일까?",
-    "en": "9 p.m., a chair outside a convenience store. A man in his twenties eats a rice ball while checking his phone. Who is he?"
+    "ko": "평일 아침 8시, 아무도 없는 부엌 식탁. 여기서 무슨 일이 있었을까?",
+    "en": "8 a.m. on a weekday, a kitchen table with no one at it. What happened here?"
   },
   "questions": [
     {
-      "key": "job",
+      "key": "event",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "ko": "여기서 무슨 일이 있었을까?",
+        "en": "What happened here?"
       },
       "options": [
         {
-          "ko": "자전거 선수",
-          "en": "Pro cyclist"
+          "ko": "도둑이 들었다",
+          "en": "A burglary"
         },
         {
-          "ko": "택시 기사",
-          "en": "Taxi driver"
+          "ko": "급한 연락을 받고 뛰쳐나갔다",
+          "en": "Someone got an urgent call and rushed out"
         },
         {
-          "ko": "경찰관",
-          "en": "Police officer"
+          "ko": "식사를 마치고 출근했다",
+          "en": "Someone finished breakfast and left for work"
         },
         {
-          "ko": "배달 라이더",
-          "en": "Delivery rider"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1",
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "hours",
-      "ask": {
-        "ko": "오늘 몇 시간째 일하는 중일까?",
-        "en": "How long has he been working today?"
-      },
-      "options": [
-        {
-          "ko": "막 시작했다",
-          "en": "He just started"
-        },
-        {
-          "ko": "이미 퇴근했다",
-          "en": "He's already clocked out"
-        },
-        {
-          "ko": "몇 시간째다",
-          "en": "For hours"
-        },
-        {
-          "ko": "쉬는 날이다",
-          "en": "It's his day off"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e4"
-      ]
-    },
-    {
-      "key": "next",
-      "ask": {
-        "ko": "김밥을 먹고 나면 무엇을 할까?",
-        "en": "What's next once he finishes eating?"
-      },
-      "options": [
-        {
-          "ko": "집에 간다",
-          "en": "Going home"
-        },
-        {
-          "ko": "친구를 만난다",
-          "en": "Meeting a friend"
-        },
-        {
-          "ko": "정비소에 간다",
-          "en": "Taking his bike in for repairs"
-        },
-        {
-          "ko": "다시 배달하러 간다",
-          "en": "Back out on deliveries"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "vehicle",
-      "ask": {
-        "ko": "그가 타고 다니는 것은?",
-        "en": "What does he ride?"
-      },
-      "options": [
-        {
-          "ko": "오토바이",
-          "en": "A motorcycle"
-        },
-        {
-          "ko": "자전거",
-          "en": "A bicycle"
-        },
-        {
-          "ko": "전동 킥보드",
-          "en": "An e-scooter"
-        },
-        {
-          "ko": "자동차",
-          "en": "A car"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e3",
-        "e5",
-        "e2"
-      ]
-    },
-    {
-      "key": "battery",
-      "ask": {
-        "ko": "휴대폰을 왜 보조배터리에 꽂아 두었을까?",
-        "en": "Why is his phone plugged into a power bank?"
-      },
-      "options": [
-        {
-          "ko": "게임을 많이 해서",
-          "en": "He games a lot"
-        },
-        {
-          "ko": "하루 종일 지도를 켜 둬서",
-          "en": "The map's been on all day"
-        },
-        {
-          "ko": "배터리가 고장 나서",
-          "en": "The battery's broken"
-        },
-        {
-          "ko": "그냥 습관이라",
-          "en": "Just habit"
+          "ko": "아이들이 장난을 쳤다",
+          "en": "Kids were messing around"
         }
       ],
       "answer": 1,
       "evidence": [
+        "e1",
+        "e3",
         "e4"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "언제 일어난 일일까?",
+        "en": "When did this happen?"
+      },
+      "options": [
+        {
+          "ko": "몇 분 전",
+          "en": "Minutes ago"
+        },
+        {
+          "ko": "어젯밤",
+          "en": "Last night"
+        },
+        {
+          "ko": "지난주",
+          "en": "Last week"
+        },
+        {
+          "ko": "몇 시간 전",
+          "en": "Hours ago"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "took",
+      "ask": {
+        "ko": "주인이 챙겨 간 것은?",
+        "en": "What did they grab on the way out?"
+      },
+      "options": [
+        {
+          "ko": "지갑과 우산",
+          "en": "A wallet and an umbrella"
+        },
+        {
+          "ko": "휴대폰과 차 열쇠",
+          "en": "A phone and car keys"
+        },
+        {
+          "ko": "노트북",
+          "en": "A laptop"
+        },
+        {
+          "ko": "아무것도 안 챙겼다",
+          "en": "Nothing at all"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e5"
+      ]
+    },
+    {
+      "key": "how",
+      "ask": {
+        "ko": "어떻게 떠났을까?",
+        "en": "How did they leave?"
+      },
+      "options": [
+        {
+          "ko": "걸어서",
+          "en": "On foot"
+        },
+        {
+          "ko": "자전거로",
+          "en": "By bike"
+        },
+        {
+          "ko": "자기 차로",
+          "en": "In their car"
+        },
+        {
+          "ko": "버스로",
+          "en": "By bus"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e6"
+      ]
+    },
+    {
+      "key": "people",
+      "ask": {
+        "ko": "식탁에는 몇 명이 앉아 있었을까?",
+        "en": "How many people were at the table?"
+      },
+      "options": [
+        {
+          "ko": "한 명",
+          "en": "One"
+        },
+        {
+          "ko": "두 명",
+          "en": "Two"
+        },
+        {
+          "ko": "세 명",
+          "en": "Three"
+        },
+        {
+          "ko": "네 명",
+          "en": "Four"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 15,
-      "r": 9,
+      "x": 45,
+      "y": 55,
+      "r": 8,
       "label": {
-        "ko": "헬멧에 눌려 땀에 젖은 머리와 이마의 붉은 가로 자국",
-        "en": "Sweaty hair flattened by a helmet, and a red line across his forehead"
+        "ko": "엎질러진 커피, 아직 김이 오르는 잔",
+        "en": "Spilled coffee, the mug still steaming"
       }
     },
     {
       "id": "e2",
-      "x": 35,
-      "y": 52,
+      "x": 28,
+      "y": 60,
       "r": 7,
       "label": {
-        "ko": "손은 하얀데 손목부터 탄 피부 — 장갑 경계선",
-        "en": "Pale hands, tanned wrists — a sharp glove line"
+        "ko": "한 입만 베어 문 토스트와 접시 하나",
+        "en": "A single plate with a one-bite slice of toast"
       }
     },
     {
       "id": "e3",
-      "x": 75,
-      "y": 85,
-      "r": 10,
+      "x": 62,
+      "y": 75,
+      "r": 9,
       "label": {
-        "ko": "의자 옆 바닥의 풀페이스 헬멧",
-        "en": "A full-face helmet on the ground by his chair"
+        "ko": "뒤로 넘어진 의자",
+        "en": "A chair knocked over backward"
       }
     },
     {
       "id": "e4",
-      "x": 60,
-      "y": 50,
+      "x": 85,
+      "y": 38,
       "r": 7,
       "label": {
-        "ko": "한 손에 아직 낀 장갑, 보조배터리에 꽂힌 휴대폰 속 지도",
-        "en": "One glove still on, and a map on a phone hooked up to a power bank"
+        "ko": "휴대폰 없이 늘어진 충전기 케이블",
+        "en": "A charging cable dangling with no phone on it"
       }
     },
     {
       "id": "e5",
-      "x": 45,
-      "y": 82,
-      "r": 6,
+      "x": 12,
+      "y": 28,
+      "r": 7,
       "label": {
-        "ko": "오른쪽 종아리 안쪽의 작은 화상 자국",
-        "en": "A small burn scar on the inside of his right calf"
+        "ko": "열쇠 걸이의 빈 고리 하나",
+        "en": "One empty hook on the key rack"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 88,
+      "y": 65,
+      "r": 9,
+      "label": {
+        "ko": "활짝 열린 현관문 너머, 기름 자국만 남은 빈 주차 자리",
+        "en": "Through the open front door, an empty parking spot with just an oil stain"
       }
     }
   ],
   "detective": {
-    "ko": "머리는 땀에 젖어 납작하게 눌렸고 이마엔 붉은 가로 자국이 있다. 몇 시간째 헬멧을 썼다. 자전거 선수일까? 그들은 손가락이 드러나는 반장갑을 끼니 손가락까지 탄다. 하지만 그의 손은 손목에서 칼로 자른 듯 하얗다 — 손 전체를 덮는 장갑이다. 바닥엔 통풍구 달린 자전거 헬멧이 아니라 풀페이스 헬멧이 있고, 오른쪽 종아리 안쪽엔 뜨거운 배기관에 덴 자국까지 있다. 오토바이를 탄다. 보조배터리에 꽂힌 휴대폰엔 지도가 떠 있다. 배터리가 바닥날 만큼 오래 일했고, 장갑 한 짝을 아직 벗지 않은 걸 보면 김밥을 삼키자마자 다음 배달을 나갈 것이다.",
-    "en": "His hair is sweaty and pressed flat, with a red line across his forehead: he's been wearing a helmet for hours. A cyclist? Cyclists wear fingerless gloves, so their fingers tan too. His hands are pale right up to a crisp line at the wrist — full gloves. On the ground is a full-face helmet, not a vented bike helmet, and there's a small burn on the inside of his right calf, right where a hot exhaust pipe would touch. He rides a motorcycle. His phone, plugged into a power bank, shows a map. He's been working long enough to drain his battery, and he hasn't taken off his other glove — the moment he's done eating, he's off on the next delivery."
+    "ko": "커피가 엎질러졌는데 잔에선 아직 김이 오른다. 몇 분 전 일이다. 토스트는 딱 한 입. 의자는 뒤로 넘어가 있고 현관문은 활짝 열려 있다. 도둑이라면 집 안을 뒤졌겠지만, 사라진 건 딱 두 가지다. 충전기에 꽂혀 있던 휴대폰, 그리고 열쇠 걸이의 열쇠 하나. 접시도 잔도 하나 — 혼자 아침을 먹던 사람이 휴대폰을 집어 들고 벌떡 일어나는 바람에 의자가 넘어가고 커피가 쏟아졌다. 급한 전화였다. 열린 문 너머엔 기름 자국만 남은 빈 주차 자리. 열쇠를 낚아채 차를 몰고 떠난 것이다.",
+    "en": "The coffee's spilled, but the mug is still steaming: this happened minutes ago. One bite out of the toast. The chair is knocked over backward and the front door is wide open. A burglar would have turned the place upside down, but only two things are missing: the phone that was on the charger, and one key from the rack. One plate, one mug — someone eating breakfast alone grabbed their phone and shot up so fast the chair went over and the coffee went flying. An urgent call. Through the open door, an empty parking spot with nothing but an oil stain. They snatched the keys and drove off."
   }
 }

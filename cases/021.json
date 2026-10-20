@@ -1,0 +1,232 @@
+{
+  "id": 21,
+  "date": "2026-11-15",
+  "type": "scene",
+  "image": "img/021.svg",
+  "title": {
+    "ko": "짐을 싸다 만 방",
+    "en": "Packing Interrupted"
+  },
+  "intro": {
+    "ko": "금요일 밤, 침대 위에 가방이 열려 있는 방. 여기서 무슨 일이 있었을까?",
+    "en": "Friday night, a bedroom with a suitcase open on the bed. What's going on here?"
+  },
+  "questions": [
+    {
+      "key": "event",
+      "ask": {
+        "ko": "여기서 무슨 일이 있었을까?",
+        "en": "What happened here?"
+      },
+      "options": [
+        {
+          "ko": "이사를 가는 중",
+          "en": "Someone's moving out"
+        },
+        {
+          "ko": "휴가 여행 짐을 싸는 중",
+          "en": "Someone's packing for a vacation"
+        },
+        {
+          "ko": "도둑이 들었다",
+          "en": "A burglary"
+        },
+        {
+          "ko": "대청소 중",
+          "en": "A big spring clean"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "어디로 떠날까?",
+        "en": "Where are they headed?"
+      },
+      "options": [
+        {
+          "ko": "스키장",
+          "en": "A ski resort"
+        },
+        {
+          "ko": "출장지 호텔",
+          "en": "A business hotel"
+        },
+        {
+          "ko": "바닷가 휴양지",
+          "en": "A beach resort"
+        },
+        {
+          "ko": "시골 할머니 댁",
+          "en": "Grandma's place in the country"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "how",
+      "ask": {
+        "ko": "무엇을 타고 갈까?",
+        "en": "How are they getting there?"
+      },
+      "options": [
+        {
+          "ko": "비행기",
+          "en": "By plane"
+        },
+        {
+          "ko": "자전거",
+          "en": "By bike"
+        },
+        {
+          "ko": "고속버스",
+          "en": "By coach bus"
+        },
+        {
+          "ko": "걸어서",
+          "en": "On foot"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "search",
+      "ask": {
+        "ko": "주인은 지금 무엇을 찾고 있을까?",
+        "en": "What is the owner searching for right now?"
+      },
+      "options": [
+        {
+          "ko": "양말",
+          "en": "Socks"
+        },
+        {
+          "ko": "여권",
+          "en": "Their passport"
+        },
+        {
+          "ko": "손전등",
+          "en": "A flashlight"
+        },
+        {
+          "ko": "사진",
+          "en": "A photo"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e5"
+      ]
+    },
+    {
+      "key": "leave",
+      "ask": {
+        "ko": "언제 출발할까?",
+        "en": "When are they leaving?"
+      },
+      "options": [
+        {
+          "ko": "한 달 뒤",
+          "en": "In a month"
+        },
+        {
+          "ko": "작년에 다녀왔다",
+          "en": "They went last year"
+        },
+        {
+          "ko": "이미 다녀왔다",
+          "en": "They're already back"
+        },
+        {
+          "ko": "내일",
+          "en": "Tomorrow"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e6",
+        "e1"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 50,
+      "y": 55,
+      "r": 12,
+      "label": {
+        "ko": "침대 위에 열린 여행 가방, 옷이 반쯤 들어 있다",
+        "en": "An open suitcase on the bed, half packed"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 25,
+      "y": 48,
+      "r": 7,
+      "label": {
+        "ko": "가방 옆의 수영복과 선크림",
+        "en": "A swimsuit and sunscreen next to the suitcase"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 78,
+      "y": 40,
+      "r": 7,
+      "label": {
+        "ko": "의자에 걸쳐 둔 스노클 마스크와 오리발",
+        "en": "A snorkel mask and flippers on the chair"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 85,
+      "y": 72,
+      "r": 8,
+      "label": {
+        "ko": "서랍장 맨 위 칸만 활짝 열려 있다",
+        "en": "Only the top drawer of the dresser is yanked open"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 18,
+      "y": 80,
+      "r": 7,
+      "label": {
+        "ko": "협탁 위의 텅 빈 여권 지갑",
+        "en": "An empty passport wallet on the nightstand"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 55,
+      "y": 12,
+      "r": 6,
+      "label": {
+        "ko": "벽시계 — 밤 11시",
+        "en": "The wall clock says 11 p.m."
+      }
+    }
+  ],
+  "detective": {
+    "ko": "침대 위에 여행 가방이 열려 있고 옷이 반쯤 들어 있다. 도둑이라면 가방을 채우는 게 아니라 비웠을 것이다. 가방 옆엔 수영복과 선크림, 의자엔 스노클 마스크와 오리발. 스키장도 출장도 아니라 바닷가로 떠나는 휴가다. 시계는 밤 11시 — 내일 출발을 앞두고 늦게까지 짐을 싸는 중이다. 그런데 협탁 위 여권 지갑이 텅 비어 있고, 서랍장 맨 위 칸만 활짝 열려 있다. 짐을 싸다 말고 지금 여권을 찾아 집 안을 뒤지고 있다. 여권이 필요하니, 비행기를 타고 떠날 것이다.",
+    "en": "A suitcase lies open on the bed, half full of clothes. A burglar empties bags; he doesn't pack them. Beside it, a swimsuit and sunscreen; on the chair, a snorkel mask and flippers. Not a ski trip, not business — a beach vacation. The clock says 11 p.m.: someone is packing late, leaving tomorrow. But the passport wallet on the nightstand is empty, and only the top drawer of the dresser is yanked wide open. Packing has stopped. Somewhere in the house, someone is hunting for their passport — and needing a passport means they're flying."
+  }
+}

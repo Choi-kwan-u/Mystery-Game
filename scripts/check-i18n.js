@@ -65,7 +65,10 @@ for (const e of list) {
     else if (HANGUL.test(o.en)) errors.push(`${where}: en에 한글 섞임`);
   }
   if (c.questions.length !== 5) errors.push(`${tag}: 질문은 5개여야 함`);
-  if (c.questions[0].key !== 'job') errors.push(`${tag}: 첫 질문은 job`);
+  const type = c.type || 'person';
+  if (!['person', 'room', 'scene', 'lie'].includes(type)) errors.push(`${tag}: 알 수 없는 type ${type}`);
+  if ((type === 'person' || type === 'room') && c.questions[0].key !== 'job') errors.push(`${tag}: 첫 질문은 job`);
+  if (type === 'lie' && !c.statement) errors.push(`${tag}: 거짓말 사건엔 statement 필요`);
   if (c.clues.length < 4 || c.clues.length > 6) errors.push(`${tag}: 단서는 4~6개`);
   const ids = new Set(c.clues.map(k => k.id));
   for (const q of c.questions) {

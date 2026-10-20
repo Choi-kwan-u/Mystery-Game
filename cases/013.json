@@ -1,220 +1,231 @@
 {
   "id": 13,
   "date": "2026-11-07",
+  "type": "room",
   "image": "img/013.svg",
   "title": {
-    "ko": "털투성이 퇴근길",
-    "en": "The Fur-Covered Commute"
+    "ko": "카드가 흩어진 거실",
+    "en": "The Living Room Full of Cards"
   },
   "intro": {
-    "ko": "평일 저녁 7시, 지하철 안. 20대 여성이 손잡이를 잡고 서 있다. 이 사람은 누구일까?",
-    "en": "7 p.m. on a weekday, on the subway. A woman in her twenties holds on to a strap. Who is she?"
+    "ko": "오후 3시, 오래된 아파트 거실. 집주인은 잠깐 장을 보러 나갔다. 이 집의 주인은 누구일까?",
+    "en": "3 p.m., the living room of an old apartment. The owner has popped out to the store. Who lives here?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does she do for a living?"
+        "ko": "이 방의 주인은 무슨 일을 할까?",
+        "en": "What does the owner of this room do?"
       },
       "options": [
         {
-          "ko": "미용사",
-          "en": "Hairdresser"
+          "ko": "마술사",
+          "en": "Magician"
         },
         {
-          "ko": "수의사",
-          "en": "Veterinarian"
+          "ko": "사진가",
+          "en": "Photographer"
         },
         {
-          "ko": "반려견 미용사",
-          "en": "Dog groomer"
+          "ko": "동물원 사육사",
+          "en": "Zookeeper"
         },
         {
-          "ko": "재단사",
-          "en": "Tailor"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e3",
-        "e4"
-      ]
-    },
-    {
-      "key": "breed",
-      "ask": {
-        "ko": "오늘 그녀가 가장 많이 만진 개는?",
-        "en": "What kind of dog did she handle most today?"
-      },
-      "options": [
-        {
-          "ko": "골든 리트리버",
-          "en": "Golden retriever"
-        },
-        {
-          "ko": "푸들",
-          "en": "Poodle"
-        },
-        {
-          "ko": "시바견",
-          "en": "Shiba Inu"
-        },
-        {
-          "ko": "닥스훈트",
-          "en": "Dachshund"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "day",
-      "ask": {
-        "ko": "오늘 하루는 어땠을까?",
-        "en": "How was her day?"
-      },
-      "options": [
-        {
-          "ko": "한가했다",
-          "en": "Slow"
-        },
-        {
-          "ko": "쉬는 날이었다",
-          "en": "It was her day off"
-        },
-        {
-          "ko": "하루 종일 교육을 받았다",
-          "en": "She was in training all day"
-        },
-        {
-          "ko": "무척 바빴다",
-          "en": "Extremely busy"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e2",
-        "e5",
-        "e1"
-      ]
-    },
-    {
-      "key": "wet",
-      "ask": {
-        "ko": "티셔츠 배 부분은 왜 젖었을까?",
-        "en": "Why is the belly of her T-shirt wet?"
-      },
-      "options": [
-        {
-          "ko": "비를 맞아서",
-          "en": "She got caught in the rain"
-        },
-        {
-          "ko": "음료를 쏟아서",
-          "en": "She spilled a drink"
-        },
-        {
-          "ko": "개를 목욕시켜서",
-          "en": "She was bathing dogs"
-        },
-        {
-          "ko": "땀을 흘려서",
-          "en": "Sweat"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "pouch",
-      "ask": {
-        "ko": "가방에 달린 파우치에는 무엇이 들어 있을까?",
-        "en": "What's in the pouch on her bag?"
-      },
-      "options": [
-        {
-          "ko": "개 간식",
-          "en": "Dog treats"
-        },
-        {
-          "ko": "화장품",
-          "en": "Makeup"
-        },
-        {
-          "ko": "동전",
-          "en": "Coins"
-        },
-        {
-          "ko": "이어폰",
-          "en": "Earbuds"
+          "ko": "카드 딜러",
+          "en": "Card dealer"
         }
       ],
       "answer": 0,
       "evidence": [
+        "e5",
+        "e2",
+        "e1"
+      ]
+    },
+    {
+      "key": "feathers",
+      "ask": {
+        "ko": "빈 새장에 남은 하얀 깃털은 어떤 새의 것일까?",
+        "en": "Whose white feathers are left in the empty birdcage?"
+      },
+      "options": [
+        {
+          "ko": "앵무새",
+          "en": "A parrot's"
+        },
+        {
+          "ko": "비둘기",
+          "en": "A dove's"
+        },
+        {
+          "ko": "까마귀",
+          "en": "A crow's"
+        },
+        {
+          "ko": "닭",
+          "en": "A chicken's"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "photo",
+      "ask": {
+        "ko": "벽 사진 속 무대 위의 젊은 남자는 누구일까?",
+        "en": "Who is the young man on stage in the photo on the wall?"
+      },
+      "options": [
+        {
+          "ko": "집주인의 아버지",
+          "en": "The owner's father"
+        },
+        {
+          "ko": "집주인의 아들",
+          "en": "The owner's son"
+        },
+        {
+          "ko": "유명 배우",
+          "en": "A famous actor"
+        },
+        {
+          "ko": "젊은 시절의 집주인",
+          "en": "The owner, years ago"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
         "e4"
+      ]
+    },
+    {
+      "key": "ceiling",
+      "ask": {
+        "ko": "천장에 붙은 카드 한 장은 왜 거기 있을까?",
+        "en": "Why is there a card stuck to the ceiling?"
+      },
+      "options": [
+        {
+          "ko": "장식으로 붙였다",
+          "en": "It's decoration"
+        },
+        {
+          "ko": "바람에 날아가서",
+          "en": "The wind blew it up there"
+        },
+        {
+          "ko": "마술 묘기의 흔적",
+          "en": "It's left over from a trick"
+        },
+        {
+          "ko": "아이가 던져서",
+          "en": "A kid threw it"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "age",
+      "ask": {
+        "ko": "이 집 주인의 나이대는?",
+        "en": "How old is the owner?"
+      },
+      "options": [
+        {
+          "ko": "10대",
+          "en": "A teenager"
+        },
+        {
+          "ko": "20대",
+          "en": "In their twenties"
+        },
+        {
+          "ko": "70대 이상",
+          "en": "Seventy or older"
+        },
+        {
+          "ko": "40대",
+          "en": "In their forties"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e6",
+        "e1"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 78,
-      "r": 11,
+      "x": 25,
+      "y": 25,
+      "r": 10,
       "label": {
-        "ko": "검은 옷에 잔뜩 붙은 하얀 곱슬 털",
-        "en": "Black clothes covered in short, curly white fur"
+        "ko": "벽에 걸린 빛바랜 사진 — 실크해트를 쓰고 무대에 선 젊은 남자",
+        "en": "A faded photo on the wall — a young man on stage in a top hat"
       }
     },
     {
       "id": "e2",
-      "x": 60,
-      "y": 30,
-      "r": 7,
+      "x": 82,
+      "y": 40,
+      "r": 10,
       "label": {
-        "ko": "손잡이를 잡은 팔뚝의 작은 할퀸 자국들",
-        "en": "Small scratches on the arm holding the strap"
+        "ko": "하얀 깃털 몇 개가 남은 빈 새장",
+        "en": "An empty birdcage with a few white feathers"
       }
     },
     {
       "id": "e3",
-      "x": 45,
-      "y": 52,
-      "r": 8,
+      "x": 50,
+      "y": 72,
+      "r": 9,
       "label": {
-        "ko": "티셔츠 배 부분만 젖은 얼룩",
-        "en": "A wet patch right across the belly of her T-shirt"
+        "ko": "탁자 위에 부채처럼 펼쳐 놓은 카드 한 벌",
+        "en": "A deck of cards fanned out on the table"
       }
     },
     {
       "id": "e4",
-      "x": 22,
-      "y": 62,
-      "r": 7,
+      "x": 10,
+      "y": 55,
+      "r": 8,
       "label": {
-        "ko": "가방 고리에 달린 개 간식 파우치",
-        "en": "A dog-treat pouch clipped to her bag"
+        "ko": "옷걸이에 걸린, 먼지 앉은 실크해트",
+        "en": "A dusty top hat on the coat rack"
       }
     },
     {
       "id": "e5",
-      "x": 68,
-      "y": 12,
+      "x": 55,
+      "y": 6,
       "r": 6,
       "label": {
-        "ko": "손가락 두 개에 감은 반창고",
-        "en": "Bandages on two fingers"
+        "ko": "천장에 납작하게 붙은 카드 한 장",
+        "en": "A single card stuck flat to the ceiling"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 80,
+      "y": 75,
+      "r": 8,
+      "label": {
+        "ko": "옆 탁자 위의 요일별 약통과 돋보기 안경",
+        "en": "A weekly pill organizer and reading glasses on the side table"
       }
     }
   ],
   "detective": {
-    "ko": "검은 옷이 하얀 털로 뒤덮였다. 미용사라면 짧게 잘린 머리카락이 여러 색으로 섞여 있었을 텐데, 이건 전부 하얗고 곱슬곱슬하다 — 사람 머리카락이 아니다. 팔뚝의 할퀸 자국, 반창고 두 개, 가방에 달린 간식 파우치. 개를 다루는 사람이다. 수의사도 털이 묻고 할퀴이지만, 티셔츠 배 부분만 흠뻑 젖지는 않는다. 그건 하루 종일 욕조 앞에 서서 개를 씻긴 사람의 얼룩이다. 그녀는 반려견 미용사이고, 오늘의 손님은 대부분 하얀 곱슬 털 — 푸들이었다. 이만큼 털을 뒤집어쓰고 상처까지 늘었으니, 오늘은 정신없이 바쁜 날이었다.",
-    "en": "Her black clothes are covered in white fur. A hairdresser would be wearing snippets of hair in every color — but this is all white and all curly. Not human hair. Scratches on her arm, two bandaged fingers, a treat pouch on her bag: she works with dogs. A vet gets fur and scratches too, but not a T-shirt soaked right across the belly. That's what you get from leaning over a tub all day, washing dogs. She's a dog groomer, and today's clients were mostly curly and white — poodles. With that much fur and that many new scratches, it was a very busy day."
+    "ko": "탁자 위에 부채처럼 펼쳐 놓은 카드 한 벌. 카드 딜러일까? 천장을 보라. 카드 한 장이 천장에 납작하게 붙어 있다. 바람에 날린 카드는 천장에 붙지 않는다 — 던져서 꽂는 마술 묘기의 흔적이다. 구석의 빈 새장엔 하얀 깃털 몇 개. 앵무새도 까마귀도 아닌, 마술사의 모자에서 날아오르던 하얀 비둘기의 깃털이다. 벽에 걸린 빛바랜 사진 속엔 무대 위의 젊은 남자. 그가 쓴 실크해트는 지금 옷걸이에 걸린 바로 그 모자다 — 먼지가 앉은 채로. 사진 속 남자는 아버지도 아들도 아닌, 젊은 날의 집주인이다. 그리고 옆 탁자의 요일별 약통과 돋보기 안경. 무대를 내려온 지 오래된, 일흔이 넘은 마술사의 거실이다.",
+    "en": "A deck of cards fanned out on the table. A card dealer? Look up. A single card is stuck flat against the ceiling. Cards don't end up on ceilings by accident — that's what's left of a trick, a card flung and stuck. In the corner, an empty birdcage with a few white feathers: not a parrot's, not a crow's, but a white dove's, the kind that flies out of a magician's hat. The faded photo on the wall shows a young man on stage, and the top hat he's wearing is the very one hanging on the coat rack — now gathering dust. The man in the photo isn't the owner's father or son. He's the owner, decades ago. Add the weekly pill organizer and the reading glasses on the side table: this is the living room of a magician in his seventies who left the stage a long time ago."
   }
 }

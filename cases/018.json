@@ -1,0 +1,219 @@
+{
+  "id": 18,
+  "date": "2026-11-12",
+  "type": "scene",
+  "image": "img/018.svg",
+  "title": {
+    "ko": "파티가 끝난 거실",
+    "en": "The Morning After the Party"
+  },
+  "intro": {
+    "ko": "일요일 아침 9시, 어수선한 거실. 여기서 무슨 일이 있었을까?",
+    "en": "9 a.m. on a Sunday, a messy living room. What happened here?"
+  },
+  "questions": [
+    {
+      "key": "event",
+      "ask": {
+        "ko": "여기서 무슨 일이 있었을까?",
+        "en": "What happened here?"
+      },
+      "options": [
+        {
+          "ko": "결혼식 피로연",
+          "en": "A wedding reception"
+        },
+        {
+          "ko": "회사 송년회",
+          "en": "An office party"
+        },
+        {
+          "ko": "아이 생일 파티",
+          "en": "A kid's birthday party"
+        },
+        {
+          "ko": "이삿날",
+          "en": "Moving day"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "age",
+      "ask": {
+        "ko": "생일을 맞은 아이는 몇 살일까?",
+        "en": "How old did the birthday kid turn?"
+      },
+      "options": [
+        {
+          "ko": "5살",
+          "en": "Five"
+        },
+        {
+          "ko": "7살",
+          "en": "Seven"
+        },
+        {
+          "ko": "10살",
+          "en": "Ten"
+        },
+        {
+          "ko": "1살",
+          "en": "One"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "파티는 언제 끝났을까?",
+        "en": "When did the party end?"
+      },
+      "options": [
+        {
+          "ko": "10분 전",
+          "en": "Ten minutes ago"
+        },
+        {
+          "ko": "일주일 전",
+          "en": "A week ago"
+        },
+        {
+          "ko": "어젯밤",
+          "en": "Last night"
+        },
+        {
+          "ko": "아직 안 끝났다",
+          "en": "It's still going"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "gift",
+      "ask": {
+        "ko": "가장 큰 선물은 무엇이었을까?",
+        "en": "What was the big present?"
+      },
+      "options": [
+        {
+          "ko": "인형",
+          "en": "A doll"
+        },
+        {
+          "ko": "책",
+          "en": "A book"
+        },
+        {
+          "ko": "게임기",
+          "en": "A game console"
+        },
+        {
+          "ko": "자전거",
+          "en": "A bike"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "guests",
+      "ask": {
+        "ko": "파티에 온 아이들은 몇 명쯤이었을까?",
+        "en": "Roughly how many kids came?"
+      },
+      "options": [
+        {
+          "ko": "혼자",
+          "en": "Just the birthday kid"
+        },
+        {
+          "ko": "2명",
+          "en": "Two"
+        },
+        {
+          "ko": "8명쯤",
+          "en": "About eight"
+        },
+        {
+          "ko": "50명",
+          "en": "Fifty"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 50,
+      "y": 62,
+      "r": 9,
+      "label": {
+        "ko": "초가 일곱 개 꽂힌 먹다 남은 케이크",
+        "en": "A half-eaten cake with seven candles"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 25,
+      "y": 18,
+      "r": 10,
+      "label": {
+        "ko": "바람이 빠져 축 처진 풍선들",
+        "en": "Balloons, half deflated and drooping"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 75,
+      "y": 82,
+      "r": 9,
+      "label": {
+        "ko": "찢어진 포장지 더미",
+        "en": "A pile of torn wrapping paper"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 30,
+      "y": 85,
+      "r": 8,
+      "label": {
+        "ko": "바닥에 흩어진 고깔모자 여덟 개쯤",
+        "en": "About eight paper party hats scattered on the floor"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 85,
+      "y": 40,
+      "r": 8,
+      "label": {
+        "ko": "커다란 리본을 단 아이용 자전거",
+        "en": "A kid's bike with a big bow on it"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "케이크에 초가 꽂혀 있다 — 생일이다. 바닥에 고깔모자가 여덟 개쯤 흩어져 있으니 회사 송년회도 결혼식 피로연도 아니고, 아이들이 모인 생일 파티다. 초를 세어 보면 일곱 개. 주인공은 일곱 살이 됐다. 풍선은 바람이 빠져 축 처졌고 케이크 단면은 말라 있다. 방금 끝난 파티가 아니라 어젯밤의 파티다. 찢어진 포장지 더미 옆, 리본을 단 채 서 있는 아이용 자전거가 그날 밤 가장 큰 선물이었을 것이다.",
+    "en": "There are candles in the cake: a birthday. With eight or so paper party hats scattered across the floor, this was no office party or wedding reception — it was a kids' birthday party. Count the candles: seven. The birthday kid just turned seven. The balloons have gone soft and droopy and the cut edge of the cake has dried out, so this party didn't just end — it was last night. And next to the pile of torn wrapping paper, a kid's bike still wearing its bow: the big present of the night."
+  }
+}

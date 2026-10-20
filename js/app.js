@@ -100,6 +100,13 @@
     $('#caseNo').textContent = t('game.caseNo', { n: c.id, date: c.date });
     $('#caseTitle').textContent = pick(c.title);
     $('#caseIntro').textContent = pick(c.intro);
+    // 거짓말 찾기 사건: 인물의 진술을 보여준다
+    const st = $('#caseStatement');
+    st.hidden = !c.statement;
+    if (c.statement) {
+      st.textContent = '';
+      st.append(el('span', 'statement-label', t('game.statement')), el('p', null, `“${pick(c.statement)}”`));
+    }
     photo.alt = t('game.photoAlt', { title: pick(c.title) });
     photo.src = '../' + c.image;
 

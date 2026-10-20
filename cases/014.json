@@ -3,228 +3,216 @@
   "date": "2026-11-08",
   "image": "img/014.svg",
   "title": {
-    "ko": "카드가 흩어진 거실",
-    "en": "The Living Room Full of Cards"
+    "ko": "국밥집의 구멍 난 재킷",
+    "en": "The Jacket Full of Holes"
   },
   "intro": {
-    "ko": "오후 3시, 오래된 아파트 거실. 집주인은 잠깐 장을 보러 나갔다. 이 집의 주인은 누구일까?",
-    "en": "3 p.m., the living room of an old apartment. The owner has popped out to the store. Who lives here?"
+    "ko": "평일 저녁 6시, 공단 앞 국밥집. 50대 남성이 혼자 저녁을 먹고 있다. 이 사람은 누구일까?",
+    "en": "6 p.m. on a weekday, a soup restaurant by an industrial park. A man in his fifties eats dinner alone. Who is he?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
-        "ko": "이 방의 주인은 무슨 일을 할까?",
-        "en": "What does the owner of this room do?"
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do for a living?"
       },
       "options": [
         {
-          "ko": "마술사",
-          "en": "Magician"
+          "ko": "자동차 정비사",
+          "en": "Auto mechanic"
         },
         {
-          "ko": "사진가",
-          "en": "Photographer"
+          "ko": "요리사",
+          "en": "Chef"
         },
         {
-          "ko": "동물원 사육사",
-          "en": "Zookeeper"
+          "ko": "전기 기사",
+          "en": "Electrician"
         },
         {
-          "ko": "카드 딜러",
-          "en": "Card dealer"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5",
-        "e2",
-        "e1"
-      ]
-    },
-    {
-      "key": "feathers",
-      "ask": {
-        "ko": "빈 새장에 남은 하얀 깃털은 어떤 새의 것일까?",
-        "en": "Whose white feathers are left in the empty birdcage?"
-      },
-      "options": [
-        {
-          "ko": "앵무새",
-          "en": "A parrot's"
-        },
-        {
-          "ko": "비둘기",
-          "en": "A dove's"
-        },
-        {
-          "ko": "까마귀",
-          "en": "A crow's"
-        },
-        {
-          "ko": "닭",
-          "en": "A chicken's"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "photo",
-      "ask": {
-        "ko": "벽 사진 속 무대 위의 젊은 남자는 누구일까?",
-        "en": "Who is the young man on stage in the photo on the wall?"
-      },
-      "options": [
-        {
-          "ko": "집주인의 아버지",
-          "en": "The owner's father"
-        },
-        {
-          "ko": "집주인의 아들",
-          "en": "The owner's son"
-        },
-        {
-          "ko": "유명 배우",
-          "en": "A famous actor"
-        },
-        {
-          "ko": "젊은 시절의 집주인",
-          "en": "The owner, years ago"
+          "ko": "용접공",
+          "en": "Welder"
         }
       ],
       "answer": 3,
       "evidence": [
         "e1",
+        "e3",
+        "e5"
+      ]
+    },
+    {
+      "key": "posture",
+      "ask": {
+        "ko": "오늘 주로 어떤 자세로 일했을까?",
+        "en": "How was he working most of today?"
+      },
+      "options": [
+        {
+          "ko": "바닥에 쪼그려 앉아",
+          "en": "Crouched on the floor"
+        },
+        {
+          "ko": "머리 위를 올려다보며",
+          "en": "Looking straight up, working overhead"
+        },
+        {
+          "ko": "작업대 앞에 서서",
+          "en": "Standing at a workbench"
+        },
+        {
+          "ko": "의자에 앉아",
+          "en": "Sitting in a chair"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "hurt",
+      "ask": {
+        "ko": "지금 가장 괴로운 곳은?",
+        "en": "What's bothering him most right now?"
+      },
+      "options": [
+        {
+          "ko": "허리",
+          "en": "His back"
+        },
+        {
+          "ko": "손",
+          "en": "His hands"
+        },
+        {
+          "ko": "눈",
+          "en": "His eyes"
+        },
+        {
+          "ko": "무릎",
+          "en": "His knees"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
         "e4"
       ]
     },
     {
-      "key": "ceiling",
+      "key": "holes",
       "ask": {
-        "ko": "천장에 붙은 카드 한 장은 왜 거기 있을까?",
-        "en": "Why is there a card stuck to the ceiling?"
+        "ko": "재킷의 작은 구멍들은 무엇 때문일까?",
+        "en": "What made the tiny holes in his jacket?"
       },
       "options": [
         {
-          "ko": "장식으로 붙였다",
-          "en": "It's decoration"
+          "ko": "튀는 불똥",
+          "en": "Flying sparks"
         },
         {
-          "ko": "바람에 날아가서",
-          "en": "The wind blew it up there"
+          "ko": "벌레",
+          "en": "Moths"
         },
         {
-          "ko": "마술 묘기의 흔적",
-          "en": "It's left over from a trick"
+          "ko": "담뱃불",
+          "en": "Cigarette burns"
         },
         {
-          "ko": "아이가 던져서",
-          "en": "A kid threw it"
+          "ko": "오래 입어서",
+          "en": "Just old age"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "gloves",
+      "ask": {
+        "ko": "옆자리의 장갑은 왜 이렇게 두꺼울까?",
+        "en": "Why are the gloves beside him so thick?"
+      },
+      "options": [
+        {
+          "ko": "추위를 막으려고",
+          "en": "To keep out the cold"
+        },
+        {
+          "ko": "칼날을 막으려고",
+          "en": "To stop knife cuts"
+        },
+        {
+          "ko": "불똥과 열을 막으려고",
+          "en": "To block sparks and heat"
+        },
+        {
+          "ko": "멋으로",
+          "en": "Just for style"
         }
       ],
       "answer": 2,
       "evidence": [
         "e5"
       ]
-    },
-    {
-      "key": "age",
-      "ask": {
-        "ko": "이 집 주인의 나이대는?",
-        "en": "How old is the owner?"
-      },
-      "options": [
-        {
-          "ko": "10대",
-          "en": "A teenager"
-        },
-        {
-          "ko": "20대",
-          "en": "In their twenties"
-        },
-        {
-          "ko": "70대 이상",
-          "en": "Seventy or older"
-        },
-        {
-          "ko": "40대",
-          "en": "In their forties"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e6",
-        "e1"
-      ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 25,
-      "y": 25,
-      "r": 10,
+      "x": 50,
+      "y": 28,
+      "r": 12,
       "label": {
-        "ko": "벽에 걸린 빛바랜 사진 — 실크해트를 쓰고 무대에 선 젊은 남자",
-        "en": "A faded photo on the wall — a young man on stage in a top hat"
+        "ko": "어깨 윗면과 모자 챙에만 몰린 작은 탄 구멍들",
+        "en": "Dozens of tiny burn holes, all on the tops of his shoulders and the brim of his cap"
       }
     },
     {
       "id": "e2",
-      "x": 82,
-      "y": 40,
-      "r": 10,
+      "x": 50,
+      "y": 44,
+      "r": 6,
       "label": {
-        "ko": "하얀 깃털 몇 개가 남은 빈 새장",
-        "en": "An empty birdcage with a few white feathers"
+        "ko": "목의 V자 부분만 붉게 탄 자국",
+        "en": "A red burn only in the V of his collar"
       }
     },
     {
       "id": "e3",
-      "x": 50,
-      "y": 72,
-      "r": 9,
+      "x": 28,
+      "y": 66,
+      "r": 8,
       "label": {
-        "ko": "탁자 위에 부채처럼 펼쳐 놓은 카드 한 벌",
-        "en": "A deck of cards fanned out on the table"
+        "ko": "팔뚝의 오래된 하얀 화상 흉터들",
+        "en": "Old white burn scars on his forearms"
       }
     },
     {
       "id": "e4",
-      "x": 10,
-      "y": 55,
-      "r": 8,
+      "x": 70,
+      "y": 66,
+      "r": 7,
       "label": {
-        "ko": "옷걸이에 걸린, 먼지 앉은 실크해트",
-        "en": "A dusty top hat on the coat rack"
+        "ko": "테이블 위 안약 병, 그리고 충혈된 눈",
+        "en": "A bottle of eye drops on the table — and red eyes"
       }
     },
     {
       "id": "e5",
-      "x": 55,
-      "y": 6,
-      "r": 6,
-      "label": {
-        "ko": "천장에 납작하게 붙은 카드 한 장",
-        "en": "A single card stuck flat to the ceiling"
-      }
-    },
-    {
-      "id": "e6",
-      "x": 80,
-      "y": 75,
+      "x": 82,
+      "y": 88,
       "r": 8,
       "label": {
-        "ko": "옆 탁자 위의 요일별 약통과 돋보기 안경",
-        "en": "A weekly pill organizer and reading glasses on the side table"
+        "ko": "옆자리에 놓인 두꺼운 가죽 장갑",
+        "en": "Thick leather gloves on the seat beside him"
       }
     }
   ],
   "detective": {
-    "ko": "탁자 위에 부채처럼 펼쳐 놓은 카드 한 벌. 카드 딜러일까? 천장을 보라. 카드 한 장이 천장에 납작하게 붙어 있다. 바람에 날린 카드는 천장에 붙지 않는다 — 던져서 꽂는 마술 묘기의 흔적이다. 구석의 빈 새장엔 하얀 깃털 몇 개. 앵무새도 까마귀도 아닌, 마술사의 모자에서 날아오르던 하얀 비둘기의 깃털이다. 벽에 걸린 빛바랜 사진 속엔 무대 위의 젊은 남자. 그가 쓴 실크해트는 지금 옷걸이에 걸린 바로 그 모자다 — 먼지가 앉은 채로. 사진 속 남자는 아버지도 아들도 아닌, 젊은 날의 집주인이다. 그리고 옆 탁자의 요일별 약통과 돋보기 안경. 무대를 내려온 지 오래된, 일흔이 넘은 마술사의 거실이다.",
-    "en": "A deck of cards fanned out on the table. A card dealer? Look up. A single card is stuck flat against the ceiling. Cards don't end up on ceilings by accident — that's what's left of a trick, a card flung and stuck. In the corner, an empty birdcage with a few white feathers: not a parrot's, not a crow's, but a white dove's, the kind that flies out of a magician's hat. The faded photo on the wall shows a young man on stage, and the top hat he's wearing is the very one hanging on the coat rack — now gathering dust. The man in the photo isn't the owner's father or son. He's the owner, decades ago. Add the weekly pill organizer and the reading glasses on the side table: this is the living room of a magician in his seventies who left the stage a long time ago."
+    "ko": "청재킷에 바늘로 찌른 듯한 작은 탄 구멍이 수십 개다. 튀는 불똥에 뚫린 구멍이다. 정비사라면 옷 구석구석 기름때가 배었을 텐데 그런 흔적은 없고, 요리사도 화상은 입지만 옷이 이렇게 뚫리지는 않는다. 팔뚝의 오래된 화상 흉터와 옆자리의 두꺼운 가죽 장갑 — 그는 용접공이다. 그런데 구멍의 위치가 이상하다. 어깨 윗면과 모자 챙에만 몰려 있다. 불똥이 위에서 쏟아졌다는 뜻이다. 오늘 그는 하루 종일 고개를 젖히고 머리 위를 용접했다. 그리고 테이블 위의 안약 병과 벌건 눈. 지금 그를 가장 괴롭히는 건 허리가 아니라 눈이다.",
+    "en": "His denim jacket is peppered with tiny burn holes, as if someone went at it with a needle — sparks did that. A mechanic would have grease worked into every crease, and there's none. A chef gets burns, but a chef's clothes don't end up looking like this. Old burn scars on his forearms, thick leather gloves on the seat beside him: he's a welder. But look where the holes are — only on the tops of his shoulders and the brim of his cap. The sparks were raining down from above. He spent the day with his head tipped back, welding overhead. And with that bottle of eye drops on the table and those red eyes, it's not his back that's bothering him most tonight. It's his eyes."
   }
 }

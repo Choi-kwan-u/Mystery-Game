@@ -1,161 +1,161 @@
 {
   "id": 7,
   "date": "2026-11-01",
+  "type": "room",
   "image": "img/007.svg",
   "title": {
-    "ko": "오후 1시의 퇴근",
-    "en": "Clocking Out at 1 P.M."
+    "ko": "연기 냄새 나는 부엌",
+    "en": "The Kitchen That Smells of Smoke"
   },
   "intro": {
-    "ko": "평일 오후 1시, 동네 공원 벤치. 30대 남성이 졸린 얼굴로 앉아 있다. 이 사람은 누구일까?",
-    "en": "1 p.m. on a weekday, a bench in a neighborhood park. A man in his thirties sits there, half asleep. Who is he?"
+    "ko": "오전 10시, 시골집 부엌. 주인은 잠깐 밖에 나갔다. 이 부엌의 주인은 누구일까?",
+    "en": "10 a.m., a farmhouse kitchen. The owner has just stepped outside. Who lives here?"
   },
   "questions": [
     {
       "key": "job",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "ko": "이 방의 주인은 무슨 일을 할까?",
+        "en": "What does the owner of this room do?"
       },
       "options": [
         {
-          "ko": "요리사",
-          "en": "Chef"
+          "ko": "펜싱 선수",
+          "en": "Fencer"
         },
         {
-          "ko": "도예가",
-          "en": "Potter"
+          "ko": "꽃집 주인",
+          "en": "Florist"
+        },
+        {
+          "ko": "양봉가",
+          "en": "Beekeeper"
         },
         {
           "ko": "제빵사",
           "en": "Baker"
-        },
-        {
-          "ko": "미장공",
-          "en": "Plasterer"
         }
       ],
       "answer": 2,
       "evidence": [
         "e1",
-        "e2",
-        "e5"
-      ]
-    },
-    {
-      "key": "start",
-      "ask": {
-        "ko": "오늘 몇 시에 일을 시작했을까?",
-        "en": "What time did his workday start?"
-      },
-      "options": [
-        {
-          "ko": "새벽 4시",
-          "en": "4 a.m."
-        },
-        {
-          "ko": "아침 9시",
-          "en": "9 a.m."
-        },
-        {
-          "ko": "오후 2시",
-          "en": "2 p.m."
-        },
-        {
-          "ko": "밤 10시",
-          "en": "10 p.m."
-        }
-      ],
-      "answer": 0,
-      "evidence": [
         "e4",
-        "e5"
+        "e6"
       ]
     },
     {
-      "key": "powder",
+      "key": "boxes",
       "ask": {
-        "ko": "신발과 바지 밑단에 묻은 하얀 가루는 무엇일까?",
-        "en": "What's the white powder on his shoes and trouser hems?"
+        "ko": "창밖 마당에 줄지어 선 하얀 상자들은?",
+        "en": "What are the white boxes lined up in the yard?"
       },
       "options": [
         {
-          "ko": "시멘트 가루",
-          "en": "Cement dust"
+          "ko": "우체통",
+          "en": "Mailboxes"
         },
         {
-          "ko": "분필 가루",
-          "en": "Chalk dust"
+          "ko": "벌통",
+          "en": "Beehives"
         },
         {
-          "ko": "밀가루",
-          "en": "Flour"
+          "ko": "장난감 상자",
+          "en": "Toy chests"
         },
         {
-          "ko": "눈",
-          "en": "Snow"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "burns",
-      "ask": {
-        "ko": "팔뚝 안쪽의 화상은 어디서 생겼을까?",
-        "en": "Where did the burns on his inner forearms come from?"
-      },
-      "options": [
-        {
-          "ko": "다리미",
-          "en": "An iron"
-        },
-        {
-          "ko": "담뱃불",
-          "en": "Cigarettes"
-        },
-        {
-          "ko": "오븐 선반",
-          "en": "An oven rack"
-        },
-        {
-          "ko": "햇볕",
-          "en": "The sun"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "net",
-      "ask": {
-        "ko": "손목에 걸린 하얀 망은 무엇일까?",
-        "en": "What's the white net around his wrist?"
-      },
-      "options": [
-        {
-          "ko": "양파망",
-          "en": "An onion bag"
-        },
-        {
-          "ko": "위생 머리망",
-          "en": "A hairnet"
-        },
-        {
-          "ko": "팔찌",
-          "en": "A bracelet"
-        },
-        {
-          "ko": "머리끈",
-          "en": "A hair tie"
+          "ko": "쓰레기통",
+          "en": "Trash bins"
         }
       ],
       "answer": 1,
+      "evidence": [
+        "e6"
+      ]
+    },
+    {
+      "key": "smoker",
+      "ask": {
+        "ko": "조리대 위 풀무 달린 깡통은 무엇에 쓸까?",
+        "en": "What's the can with the little bellows on the counter for?"
+      },
+      "options": [
+        {
+          "ko": "커피를 볶으려고",
+          "en": "Roasting coffee"
+        },
+        {
+          "ko": "물을 끓이려고",
+          "en": "Boiling water"
+        },
+        {
+          "ko": "연기를 피워 벌을 진정시키려고",
+          "en": "Puffing smoke to calm the bees"
+        },
+        {
+          "ko": "그냥 장식",
+          "en": "Just decoration"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "doing",
+      "ask": {
+        "ko": "주인은 방금 무엇을 하다 나갔을까?",
+        "en": "What was the owner doing before stepping out?"
+      },
+      "options": [
+        {
+          "ko": "빵을 굽고 있었다",
+          "en": "Baking bread"
+        },
+        {
+          "ko": "꿀을 병에 담고 있었다",
+          "en": "Jarring honey"
+        },
+        {
+          "ko": "설거지를 하고 있었다",
+          "en": "Washing dishes"
+        },
+        {
+          "ko": "화분에 물을 주고 있었다",
+          "en": "Watering plants"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "tweezers",
+      "ask": {
+        "ko": "식탁 위의 핀셋과 연고는 왜 있을까?",
+        "en": "Why are there tweezers and ointment on the table?"
+      },
+      "options": [
+        {
+          "ko": "나무 가시를 빼려고",
+          "en": "For splinters"
+        },
+        {
+          "ko": "눈썹을 다듬으려고",
+          "en": "For plucking eyebrows"
+        },
+        {
+          "ko": "아이 숙제 재료",
+          "en": "Supplies for a kid's homework"
+        },
+        {
+          "ko": "벌침을 빼고 바르려고",
+          "en": "For pulling out bee stingers"
+        }
+      ],
+      "answer": 3,
       "evidence": [
         "e5"
       ]
@@ -164,57 +164,67 @@
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 50,
+      "x": 18,
+      "y": 25,
       "r": 9,
       "label": {
-        "ko": "양 팔뚝 안쪽에 가로로 난 분홍 화상 자국들",
-        "en": "Thin pink burn lines across the inside of both forearms"
+        "ko": "벽에 걸린 챙 넓은 모자와 얼굴을 덮는 망사",
+        "en": "A wide-brimmed hat with a mesh face veil hanging on the wall"
       }
     },
     {
       "id": "e2",
-      "x": 50,
-      "y": 90,
-      "r": 9,
+      "x": 45,
+      "y": 55,
+      "r": 7,
       "label": {
-        "ko": "검은 운동화 앞코와 바지 밑단의 하얀 가루",
-        "en": "White powder on the toes of his black sneakers and his trouser hems"
+        "ko": "조리대 위 풀무 달린 깡통 — 훈연기",
+        "en": "A can with bellows on the counter — a bee smoker"
       }
     },
     {
       "id": "e3",
-      "x": 62,
-      "y": 64,
-      "r": 9,
+      "x": 65,
+      "y": 58,
+      "r": 8,
       "label": {
-        "ko": "무릎 위 종이봉투에 담긴 바게트",
-        "en": "Baguettes in a paper bag on his lap"
+        "ko": "뚜껑을 덮지 않은 꿀병들과 꿀이 떨어지는 거름망",
+        "en": "Open jars of honey and a strainer still dripping"
       }
     },
     {
       "id": "e4",
-      "x": 50,
-      "y": 18,
-      "r": 7,
+      "x": 85,
+      "y": 62,
+      "r": 8,
       "label": {
-        "ko": "크게 하품하는 얼굴",
-        "en": "A big yawn"
+        "ko": "벽에 기대 놓은, 벌집이 그대로 붙은 나무틀",
+        "en": "Wooden frames full of honeycomb leaning on the wall"
       }
     },
     {
       "id": "e5",
-      "x": 28,
-      "y": 58,
-      "r": 5,
+      "x": 40,
+      "y": 85,
+      "r": 7,
       "label": {
-        "ko": "손목에 걸린 위생 머리망",
-        "en": "A hairnet hanging from his wrist"
+        "ko": "식탁 위 핀셋과 연고",
+        "en": "Tweezers and a tube of ointment on the table"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 62,
+      "y": 22,
+      "r": 10,
+      "label": {
+        "ko": "창밖 마당에 줄지어 선 하얀 상자들",
+        "en": "White boxes lined up in the yard outside the window"
       }
     }
   ],
   "detective": {
-    "ko": "팔뚝 안쪽에 가로로 그어진 분홍 줄 — 뜨거운 오븐 선반에 팔을 스친 자국이다. 요리사일 수도 있다. 하지만 운동화 앞코와 바지 밑단에 묻은 건 기름이 아니라 하얀 가루, 밀가루다. 도예가의 흙이나 미장공의 시멘트라면 회색이었을 것이다. 손목에 걸린 하얀 망은 주방에서 머리를 감싸는 위생 머리망이다. 그는 빵을 굽는다. 그런데 오후 1시에 벌써 일을 마치고 하품을 하고 있다. 제빵사의 하루는 해 뜨기 전, 새벽 4시에 시작된다.",
-    "en": "Thin pink lines across the inside of his forearms — the marks you get from brushing against a hot oven rack. A chef could have those too. But what's on the toes of his sneakers and the hems of his trousers isn't grease; it's white powder — flour. A potter's clay or a plasterer's cement would be gray. And that white net around his wrist is a kitchen hairnet: this man bakes bread. And it's 1 p.m. and he's already done for the day and yawning. A baker's day starts long before sunrise — around 4 a.m."
+    "ko": "벽에 망사가 달린 모자가 걸려 있다. 언뜻 펜싱 마스크 같지만, 펜싱 마스크는 챙 넓은 모자에 달려 있지 않다 — 벌이 얼굴에 붙지 못하게 막는 망사 모자다. 조리대 위의 풀무 달린 깡통은 훈연기, 연기를 피워 벌을 얌전하게 만드는 도구다. 벽에 기대 놓은 나무틀엔 벌집이 그대로 붙어 있고, 창밖 마당엔 하얀 상자들이 줄지어 있다. 우체통도 쓰레기통도 아닌 벌통이다. 이 부엌의 주인은 양봉가다. 조리대 위엔 뚜껑을 덮지 않은 꿀병과 아직 꿀이 떨어지는 거름망 — 꿀을 병에 담다가 잠깐 나갔다. 그리고 식탁 위의 핀셋과 연고. 나무 가시 때문이 아니다. 오늘도 벌침 몇 개는 뽑아야 했을 것이다.",
+    "en": "A hat with a mesh veil hangs on the wall. It looks a little like a fencing mask — but fencers don't attach their masks to wide-brimmed hats. That veil is for keeping bees off your face. The can with the little bellows on the counter is a smoker: a puff of smoke calms a hive down. Wooden frames still full of honeycomb lean against the wall, and out the window, white boxes stand in a row in the yard. Not mailboxes, not trash bins — beehives. The owner is a beekeeper. On the counter sit open jars and a strainer still dripping honey: they were in the middle of jarring the harvest when they stepped out. And the tweezers and ointment on the table? Not for splinters. On a day like this, there were stingers to pull."
   }
 }
