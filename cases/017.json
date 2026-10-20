@@ -12,8 +12,8 @@
     "en": "7 p.m., a kitchen. We asked a man in a fishing vest what he did today. Here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "오늘 바다에 다녀왔어요. 낚시는 오늘 처음 해 봤고요. 이 생선, 제가 직접 낚은 거예요.",
-    "en": "I went to the sea today. It was my first time fishing. And this fish — I caught it myself."
+    "ko": "오늘 바다에 다녀왔어요. 낚시 장비는 오늘 새로 샀고요. 이 생선, 제가 직접 낚은 거예요.",
+    "en": "I went to the sea today. I bought all this fishing gear today. And this fish — I caught it myself."
   },
   "questions": [
     {
@@ -28,8 +28,8 @@
           "en": "He went to the sea"
         },
         {
-          "ko": "낚시는 오늘 처음이다",
-          "en": "It was his first time fishing"
+          "ko": "낚시 장비를 오늘 새로 샀다",
+          "en": "He bought the fishing gear today"
         },
         {
           "ko": "생선을 직접 낚았다",
@@ -57,12 +57,12 @@
           "en": "The sand on his boots"
         },
         {
-          "ko": "새 낚싯대",
-          "en": "The new fishing rod"
-        },
-        {
           "ko": "빨갛게 탄 얼굴",
           "en": "His sunburned face"
+        },
+        {
+          "ko": "벽시계",
+          "en": "The wall clock"
         },
         {
           "ko": "랩을 씌운 스티로폼 접시와 가격표 스티커",
@@ -75,15 +75,15 @@
       ]
     },
     {
-      "key": "first",
+      "key": "gear",
       "ask": {
-        "ko": "'낚시는 처음'이라는 말과 맞는 단서는?",
-        "en": "Which detail fits 'first time fishing'?"
+        "ko": "'장비를 오늘 새로 샀다'는 말과 맞는 단서는?",
+        "en": "Which detail fits 'I bought the gear today'?"
       },
       "options": [
         {
-          "ko": "손잡이 비닐도 안 벗긴 새 낚싯대",
-          "en": "A brand-new rod with the plastic still on the handle"
+          "ko": "꼬리표가 그대로 달린 조끼와 낚싯대",
+          "en": "The tags still hanging from his vest and rod"
         },
         {
           "ko": "장화의 모래",
@@ -100,7 +100,8 @@
       ],
       "answer": 0,
       "evidence": [
-        "e2"
+        "e2",
+        "e6"
       ]
     },
     {
@@ -179,8 +180,8 @@
       "y": 68,
       "r": 12,
       "label": {
-        "ko": "손잡이 비닐도 안 벗긴 새 낚싯대와 매달린 꼬리표",
-        "en": "A new rod, plastic still on the handle, a tag hanging from it"
+        "ko": "꼬리표가 그대로 달린 새 낚싯대",
+        "en": "A new rod with its tag still hanging"
       }
     },
     {
@@ -212,10 +213,20 @@
         "ko": "햇볕에 빨갛게 탄 얼굴",
         "en": "A sunburned face"
       }
+    },
+    {
+      "id": "e6",
+      "x": 55,
+      "y": 35,
+      "r": 5,
+      "label": {
+        "ko": "조끼에 그대로 달린 꼬리표",
+        "en": "A shop tag still hanging from his vest"
+      }
     }
   ],
   "detective": {
-    "ko": "장화엔 모래가 잔뜩 묻었고 얼굴은 빨갛게 탔다. 바다에 다녀온 건 사실이다. 낚싯대는 손잡이 비닐도 안 벗긴 새것이고, 조끼에도 꼬리표가 그대로 달려 있다. 낚시가 처음이라는 것도 맞다. 하지만 생선을 보라. 랩을 팽팽하게 씌운 스티로폼 접시에 가격표 스티커까지 붙어 있다. 바다에서 막 낚은 생선이 아니라 가게에서 파는 포장이다. 이웃이나 다른 낚시꾼이 나눠 줬다면 가격표가 붙어 있을 리 없고, 냉동실에서 꺼냈다면 서리가 앉아 있었을 것이다. 그리고 미끼 통은 뚜껑조차 뜯지 않았다. 미끼 한 번 끼워 보지 못한 채 하루가 갔고, 빈손으로 돌아가기 아쉬워 오는 길에 한 마리 샀다.",
-    "en": "Sand caked on his boots, a sunburned face: he really did go to the sea. The rod is brand-new, plastic still on the handle, and his vest still has its tag — first time fishing, also true. But look at the fish. It sits on a styrofoam tray under tight cling film, with a price sticker. That isn't a fresh catch; it's store packaging. A neighbor or a fellow angler wouldn't hand it over with a price tag, and a fish from the freezer would be frosted. Then there's the bait tub — the lid isn't even opened. He spent the whole day without baiting a single hook, and rather than go home empty-handed, he bought one on the way."
+    "ko": "장화엔 모래가 잔뜩 묻었고 얼굴은 빨갛게 탔다. 바다에 다녀온 건 사실이다. 낚싯대와 조끼엔 가게 꼬리표가 그대로 달려 있다. 장비를 오늘 새로 샀다는 것도 맞다. 하지만 생선을 보라. 랩을 팽팽하게 씌운 스티로폼 접시에 가격표 스티커까지 붙어 있다. 바다에서 막 낚은 생선이 아니라 가게에서 파는 포장이다. 이웃이나 다른 낚시꾼이 나눠 줬다면 가격표가 붙어 있을 리 없고, 냉동실에서 꺼냈다면 서리가 앉아 있었을 것이다. 그리고 미끼 통은 뚜껑조차 뜯지 않았다. 미끼 한 번 끼워 보지 못한 채 하루가 갔고, 빈손으로 돌아가기 아쉬워 오는 길에 한 마리 샀다.",
+    "en": "Sand caked on his boots, a sunburned face: he really did go to the sea. The rod and the vest still have their shop tags hanging — he really did buy the gear today. But look at the fish. It sits on a styrofoam tray under tight cling film, with a price sticker. That isn't a fresh catch; it's store packaging. A neighbor or a fellow angler wouldn't hand it over with a price tag, and a fish from the freezer would be frosted. Then there's the bait tub — the lid isn't even opened. He spent the whole day without baiting a single hook, and rather than go home empty-handed, he bought one on the way."
   }
 }
