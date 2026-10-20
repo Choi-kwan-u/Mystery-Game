@@ -49,6 +49,8 @@ const I18N = {
 
     'next.label': '다음 사건까지',
     'next.ready': '새 사건이 공개됐어요 — 열어 보기',
+    'next.button': '다음 사건 풀기 →',
+    'next.none': '공개된 사건을 모두 풀었어요! 새 사건은 매일 자정에 열려요.',
 
     'replay.button': '다시 풀기',
     'replay.note': '다시 풀기 결과는 기록에 남지 않습니다.',
@@ -123,6 +125,8 @@ const I18N = {
 
     'next.label': 'Next case in',
     'next.ready': 'A new case is out — open it',
+    'next.button': 'Next case →',
+    'next.none': "You've solved every case so far! A new one unlocks every midnight.",
 
     'replay.button': 'Play again',
     'replay.note': "Replays aren't saved to your stats.",

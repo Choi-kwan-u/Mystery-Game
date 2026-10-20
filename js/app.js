@@ -8,6 +8,19 @@
   const YESTERDAY = ymd(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1));
   // shortcut: 확인용으로 미공개 사건도 열림, 공개 전에 false로
   const PREVIEW = true;
+  // 방문 통계(GoatCounter) 코드. 비어 있으면 아무것도 보내지 않는다
+  const GC = '';
+  if (GC) {
+    const s = document.createElement('script');
+    s.async = true;
+    s.src = '//gc.zgo.at/count.js';
+    s.dataset.goatcounter = `https://${GC}.goatcounter.com/count`;
+    document.head.append(s);
+  }
+  // '다음 사건' 수요 측정용 이벤트 (결제 붙이기 전 확인)
+  function track(name) {
+    if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true });
+  }
 
   function el(tag, cls, text) {
     const n = document.createElement(tag);
@@ -74,10 +87,10 @@
     if (!entry) return notice('game.noCase');
     let data;
     try { data = await getJSON(entry.file); } catch (e) { return notice('game.loadError'); }
-    runGame(data, entry === today);
+    runGame(data, entry === today, list);
   }
 
-  function runGame(c, isToday) {
+  function runGame(c, isToday, list) {
     const viewer = $('#viewer'), stage = $('#stage'), photo = $('#photo'), marks = $('#marks');
     const bubble = $('#bubble');
     const resultBox = $('#result');
@@ -284,6 +297,21 @@
       shareBtn.addEventListener('click', () => share(shareMsg));
       resultBox.append(shareBtn, shareMsg);
 
+      // 아직 안 푼 공개 사건 중 가장 최근 것으로
+      const nextBtn = el('button', 'btn', t('next.button'));
+      nextBtn.type = 'button';
+      const nextMsg = el('p', 'small');
+      nextMsg.setAttribute('role', 'status');
+      nextBtn.addEventListener('click', () => {
+        const done = Store.get().cases;
+        const nx = released(list, PREVIEW).reverse().find(e => e.id !== c.id && !done[e.id]);
+        if (!nx) { track('next-none'); nextMsg.textContent = t('next.none'); return; }
+        track('next-click');
+        // 통계 전송이 페이지 이동에 끊기지 않게 잠깐 기다린다
+        setTimeout(() => { location.href = `index.html?case=${nx.id}`; }, 150);
+      });
+      resultBox.append(nextBtn, nextMsg);
+
       const cd = el('p', 'countdown');
       resultBox.append(cd);
       startCountdown(cd);
@@ -310,6 +338,7 @@
       res = { sel: sel.slice(), correct, score, max: nq, grade: gradeOf(score, nq), at: Date.now() };
       submitted = true;
       if (!replay && !rec) {
+        track('case-done');
         store.cases[c.id] = res;
         delete store.partial[c.id];
         store.grades[res.grade] = (store.grades[res.grade] || 0) + 1;
