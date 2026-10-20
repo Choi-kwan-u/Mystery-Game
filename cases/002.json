@@ -73,31 +73,32 @@
       ]
     },
     {
-      "key": "years",
+      "key": "school",
       "ask": {
-        "ko": "이 일을 한 지 얼마나 됐을까?",
-        "en": "How long has he been doing this job?"
+        "ko": "그에게 이 학교는 어떤 곳일까?",
+        "en": "What is this school to him?"
       },
       "options": [
         {
-          "ko": "오늘이 첫날",
-          "en": "Today is his first day"
+          "ko": "처음 가 보는 곳",
+          "en": "A place he's never been"
         },
         {
-          "ko": "한 달쯤",
-          "en": "About a month"
+          "ko": "정기적으로 드나드는 곳",
+          "en": "A place he visits regularly"
         },
         {
-          "ko": "1년쯤",
-          "en": "About a year"
+          "ko": "그가 졸업한 모교",
+          "en": "His old school"
         },
         {
-          "ko": "10년 이상",
-          "en": "More than ten years"
+          "ko": "자녀가 다니는 학교",
+          "en": "His kid's school"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
+        "e5",
         "e1"
       ]
     }
@@ -139,13 +140,13 @@
       "y": 56,
       "r": 7,
       "label": {
-        "ko": "가방끈에 단 노란 방문자 출입증 — 사과와 연필 그림",
-        "en": "A yellow visitor badge on his bag strap — with an apple-and-pencil logo"
+        "ko": "가방끈에 미리 달아 둔 노란 방문자 출입증 — 사과와 연필 그림",
+        "en": "A yellow visitor badge already clipped to his bag strap — with an apple-and-pencil logo"
       }
     }
   ],
   "detective": {
-    "ko": "가죽 공구 롤을 든 남자다. 틈으로 T자 렌치와 고무 쐐기가 보이고, 손목엔 줄자, 귀 위엔 연필. 무언가를 재고 고치는 사람이다. 바이올리니스트도 회사원도 이런 걸 들고 출근하지 않는다. 그럼 음악 교사일까? 가방끈의 노란 출입증에는 사과와 연필 — 학교다. 하지만 이건 방문자 출입증이다. 그 학교 선생님이라면 방문증을 달 이유가 없다. 그는 밖에서 학교를 찾아가 무언가를 고치는 사람이고, 학교가 공구 든 사람을 부르는 악기라면 음악실의 피아노다. T자 렌치는 피아노 줄을 조이는 조율 해머다. 그리고 가죽 롤을 보라. 모서리는 닳았고 표면은 긁힘투성이다. 가죽이 이렇게 길드는 데는 몇 달이 아니라 십 년이 넘게 걸린다.",
-    "en": "A man with a leather tool roll. A T-shaped wrench and rubber wedges peek out of it; there's a tape measure on his wrist and a pencil tucked above his ear. He measures and fixes things — not something a violinist or an office worker carries to work. A music teacher, then? The yellow badge with an apple and a pencil says school, but it's a visitor badge. A teacher wouldn't need one at their own school. He's an outsider called in to fix something, and the instrument a school calls in someone with tools for is the piano in the music room. That T-shaped wrench is a tuning hammer, for tightening piano strings. And look at that tool roll: worn corners, leather covered in scuffs. That kind of wear takes not months, but more than a decade."
+    "ko": "가죽 공구 롤을 든 남자다. 틈으로 T자 렌치와 고무 쐐기가 보이고, 손목엔 줄자, 귀 위엔 연필. 무언가를 재고 고치는 사람이다. 바이올리니스트도 회사원도 이런 걸 들고 출근하지 않는다. 그럼 음악 교사일까? 가방끈의 노란 출입증에는 사과와 연필 — 학교다. 하지만 이건 방문자 출입증이다. 그 학교 선생님이라면 방문증을 달 이유가 없다. 그는 밖에서 학교를 찾아가 무언가를 고치는 사람이고, 학교가 공구 든 사람을 부르는 악기라면 음악실의 피아노다. T자 렌치는 피아노 줄을 조이는 조율 해머다. 마지막으로 그 출입증을 다시 보라. 방문증은 보통 학교 정문에서 받고, 나갈 때 돌려준다. 그런데 그는 학교에 도착하기도 전, 지하철 플랫폼에서 이미 그걸 가방에 달고 있다. 늘 갖고 다니는 출입증이다. 피아노는 때마다 조율해야 하고, 그는 그때마다 이 학교를 찾는 단골 조율사다.",
+    "en": "A man with a leather tool roll. A T-shaped wrench and rubber wedges peek out of it; there's a tape measure on his wrist and a pencil tucked above his ear. He measures and fixes things — not something a violinist or an office worker carries to work. A music teacher, then? The yellow badge with an apple and a pencil says school, but it's a visitor badge. A teacher wouldn't need one at their own school. He's an outsider called in to fix something, and the instrument a school calls in someone with tools for is the piano in the music room. That T-shaped wrench is a tuning hammer, for tightening piano strings. Now look at that badge again. Visitor badges are usually handed out at the front office and returned on the way out. Yet he already has it clipped to his bag — on a subway platform, before he's even reached the school. It's a badge he keeps. Pianos need tuning again and again, and he's the tuner this school calls every time."
   }
 }
