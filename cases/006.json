@@ -1,7 +1,7 @@
 {
   "id": 6,
   "date": "2026-11-01",
-  "image": "img/006.svg",
+  "image": "img/006.webp",
   "title": {
     "ko": "꽃다발을 든 승객",
     "en": "The Passenger with the Bouquet"
@@ -164,28 +164,28 @@
   "clues": [
     {
       "id": "e1",
-      "x": 58,
-      "y": 30,
-      "r": 6,
+      "x": 36,
+      "y": 42,
+      "r": 5,
       "label": {
-        "ko": "왼쪽 턱 바로 아래, 목에 굳은 붉은 갈색 자국",
-        "en": "A hardened reddish-brown mark on the left side of her neck, just under the jaw"
+        "ko": "턱 아래 목에 굳은 갈색 자국",
+        "en": "A hardened brownish mark on her neck, below the jaw"
       }
     },
     {
       "id": "e2",
-      "x": 68,
-      "y": 42,
-      "r": 8,
+      "x": 29,
+      "y": 52,
+      "r": 6,
       "label": {
-        "ko": "검은 옷 왼쪽 어깨에 묻은 하얀 가루",
-        "en": "White powder dusted on the left shoulder of her black outfit"
+        "ko": "검은 옷 어깨에 묻은 하얀 가루",
+        "en": "White powder dusted on the shoulder of her black outfit"
       }
     },
     {
       "id": "e3",
-      "x": 45,
-      "y": 52,
+      "x": 34,
+      "y": 70,
       "r": 12,
       "label": {
         "ko": "올블랙 무대 의상과 단정히 묶은 머리",
@@ -194,9 +194,9 @@
     },
     {
       "id": "e4",
-      "x": 38,
-      "y": 78,
-      "r": 10,
+      "x": 69,
+      "y": 60,
+      "r": 12,
       "label": {
         "ko": "무릎 위 꽃다발",
         "en": "A bouquet in her lap"
@@ -204,9 +204,9 @@
     },
     {
       "id": "e5",
-      "x": 66,
-      "y": 82,
-      "r": 8,
+      "x": 82,
+      "y": 81,
+      "r": 9,
       "label": {
         "ko": "무릎 위 악보 파일 — 음표만 빼곡하다",
         "en": "A folder of sheet music in her lap — nothing but notes"
@@ -214,7 +214,7 @@
     }
   ],
   "detective": {
-    "ko": "꽃다발에 올블랙 무대 의상, 무릎 위의 악보. 공연을 막 마친 클래식 연주자다. 오디션에서는 꽃을 받지 않고, 결혼식 하객은 이렇게 검게 입지 않는다. 그럼 무슨 악기일까? 목이 대답한다. 왼쪽 턱 바로 아래, 악기를 끼우는 바로 그 자리에 굳은 자국이 있다. 왼쪽 어깨엔 활에 바르는 송진 가루까지 묻었다. 바이올리니스트의 목이다. 그리고 이렇게 짙게 자리 잡은 자국은 몇 년으로는 생기지 않는다. 그녀는 인생의 대부분을 이 악기와 함께 보냈다. 무릎 위의 꽃다발은 박수를 받고 무대를 내려온 사람의 것이다 — 오늘 공연은 성공이었다.",
-    "en": "A bouquet, an all-black stage outfit, sheet music in her lap: a classical musician on her way home from a concert. Nobody hands you flowers at an audition, and wedding guests don't dress like this. So which instrument? Her neck answers that. Just under the left side of her jaw — exactly where the instrument sits — there's a hardened mark. On her left shoulder, a dusting of rosin, the stuff that goes on a bow. That's a violinist's neck. And a mark that deep doesn't come from a few years of practice. She's spent most of her life with that instrument tucked under her chin. And a bouquet like that is what you carry off a stage to applause — tonight went well."
+    "ko": "꽃다발에 올블랙 무대 의상, 무릎 위의 악보. 공연을 막 마친 클래식 연주자다. 오디션에서는 꽃을 받지 않고, 결혼식 하객은 이렇게 검게 입지 않는다. 그럼 무슨 악기일까? 목이 대답한다. 턱 아래, 악기를 끼우는 바로 그 자리에 굳은 갈색 자국이 있다. 어깨엔 활에 바르는 송진 가루까지 묻었다. 바이올리니스트의 목이다. 그리고 이렇게 짙게 자리 잡은 자국은 몇 년으로는 생기지 않는다. 그녀는 인생의 대부분을 이 악기와 함께 보냈다. 무릎 위의 꽃다발은 박수를 받고 무대를 내려온 사람의 것이다 — 오늘 공연은 성공이었다.",
+    "en": "A bouquet, an all-black stage outfit, sheet music in her lap: a classical musician on her way home from a concert. Nobody hands you flowers at an audition, and wedding guests don't dress like this. So which instrument? Her neck answers that. Just under her jaw — exactly where the instrument sits — there's a hardened brown mark. On her shoulder, a dusting of rosin, the stuff that goes on a bow. That's a violinist's neck. And a mark that deep doesn't come from a few years of practice. She's spent most of her life with that instrument tucked under her chin. And a bouquet like that is what you carry off a stage to applause — tonight went well."
   }
 }
