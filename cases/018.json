@@ -1,6 +1,6 @@
 {
   "id": 18,
-  "date": "2026-11-12",
+  "date": "2026-11-02",
   "type": "scene",
   "image": "img/018.webp",
   "title": {
@@ -29,7 +29,7 @@
         },
         {
           "ko": "아이 생일 파티",
-          "en": "A child's birthday party"
+          "en": "A kid's birthday party"
         },
         {
           "ko": "할로윈 파티",
@@ -89,11 +89,11 @@
           "en": "Only adults"
         },
         {
-          "ko": "가족끼리만",
+          "ko": "우리 가족끼리만",
           "en": "Just the family"
         },
         {
-          "ko": "아이들과 부모들이 함께",
+          "ko": "아이와 부모들",
           "en": "Kids and their parents"
         }
       ],
@@ -112,7 +112,7 @@
       "options": [
         {
           "ko": "자전거",
-          "en": "A bicycle"
+          "en": "A bike"
         },
         {
           "ko": "인형의 집",
@@ -136,7 +136,7 @@
       "key": "food",
       "ask": {
         "ko": "가장 인기 없던 음식은?",
-        "en": "Which food was the least popular?"
+        "en": "What was the least popular food?"
       },
       "options": [
         {
@@ -145,7 +145,7 @@
         },
         {
           "ko": "감자칩",
-          "en": "Chips"
+          "en": "Potato chips"
         },
         {
           "ko": "채소 스틱",
@@ -153,7 +153,7 @@
         },
         {
           "ko": "케이크",
-          "en": "Cake"
+          "en": "Birthday cake"
         }
       ],
       "answer": 2,

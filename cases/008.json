@@ -1,6 +1,6 @@
 {
   "id": 8,
-  "date": "2026-11-02",
+  "date": "2026-10-23",
   "image": "img/008.webp",
   "title": {
     "ko": "저녁 버스의 젖은 머리",
@@ -11,6 +11,124 @@
     "en": "8 p.m. on a summer evening, a window seat on the bus. A woman in her 20s gazes outside. Who is she?"
   },
   "questions": [
+    {
+      "key": "marks",
+      "ask": {
+        "ko": "눈가의 동그란 자국은 무엇일까?",
+        "en": "What are the round marks around her eyes?"
+      },
+      "options": [
+        {
+          "ko": "물안경 자국",
+          "en": "Swim goggles"
+        },
+        {
+          "ko": "멍 자국",
+          "en": "Bruises"
+        },
+        {
+          "ko": "선글라스 탄 자국",
+          "en": "A sunglasses tan"
+        },
+        {
+          "ko": "수면 안대 자국",
+          "en": "A sleep mask"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "whom",
+      "ask": {
+        "ko": "오늘 그녀와 함께였던 사람들은?",
+        "en": "Who was she with today?"
+      },
+      "options": [
+        {
+          "ko": "성인 초보반",
+          "en": "Adult beginners"
+        },
+        {
+          "ko": "어르신들",
+          "en": "Seniors"
+        },
+        {
+          "ko": "유치원생들",
+          "en": "Little kids"
+        },
+        {
+          "ko": "중학생 선수반",
+          "en": "Teen athletes"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "pool",
+      "ask": {
+        "ko": "그녀가 하루를 보낸 곳은?",
+        "en": "Where did she spend the day?"
+      },
+      "options": [
+        {
+          "ko": "실내 수영장",
+          "en": "An indoor pool"
+        },
+        {
+          "ko": "야외 수영장",
+          "en": "An outdoor pool"
+        },
+        {
+          "ko": "해수욕장",
+          "en": "The beach"
+        },
+        {
+          "ko": "계곡",
+          "en": "A river valley"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e1"
+      ]
+    },
+    {
+      "key": "hair",
+      "ask": {
+        "ko": "머리가 아직 젖어 있는 이유는?",
+        "en": "Why is her hair still wet?"
+      },
+      "options": [
+        {
+          "ko": "비를 맞아서",
+          "en": "Caught in the rain"
+        },
+        {
+          "ko": "원래 안 말려서",
+          "en": "She never dries it"
+        },
+        {
+          "ko": "땀을 많이 흘려서",
+          "en": "Sweated a lot"
+        },
+        {
+          "ko": "막 물에서 나와서",
+          "en": "She's just been swimming"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
     {
       "key": "job",
       "ask": {
@@ -24,11 +142,11 @@
         },
         {
           "ko": "수영 강사",
-          "en": "Swimming instructor"
+          "en": "Swim teacher"
         },
         {
           "ko": "스쿠버 다이빙 강사",
-          "en": "Scuba diving instructor"
+          "en": "Scuba instructor"
         },
         {
           "ko": "수영 선수",
@@ -39,125 +157,8 @@
       "evidence": [
         "e1",
         "e3",
-        "e4"
-      ]
-    },
-    {
-      "key": "whom",
-      "ask": {
-        "ko": "오늘 그녀가 가르친 사람들은?",
-        "en": "Who did she teach today?"
-      },
-      "options": [
-        {
-          "ko": "성인 초보반",
-          "en": "Adult beginners"
-        },
-        {
-          "ko": "어르신 아쿠아로빅 반",
-          "en": "A seniors' aqua aerobics class"
-        },
-        {
-          "ko": "유치원생들",
-          "en": "Preschoolers"
-        },
-        {
-          "ko": "중학생 선수반",
-          "en": "A middle-school swim team"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "pool",
-      "ask": {
-        "ko": "그녀가 일하는 곳은?",
-        "en": "Where does she work?"
-      },
-      "options": [
-        {
-          "ko": "야외 수영장",
-          "en": "An outdoor pool"
-        },
-        {
-          "ko": "바닷가",
-          "en": "The beach"
-        },
-        {
-          "ko": "계곡",
-          "en": "A mountain stream"
-        },
-        {
-          "ko": "실내 수영장",
-          "en": "An indoor pool"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "hair",
-      "ask": {
-        "ko": "머리가 왜 아직 젖어 있을까?",
-        "en": "Why is her hair still wet?"
-      },
-      "options": [
-        {
-          "ko": "수업이 끝나자마자 나와서",
-          "en": "She left right after class"
-        },
-        {
-          "ko": "비를 맞아서",
-          "en": "She got caught in the rain"
-        },
-        {
-          "ko": "원래 머리를 안 말려서",
-          "en": "She never dries her hair"
-        },
-        {
-          "ko": "땀을 많이 흘려서",
-          "en": "She's been sweating"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "stickers",
-      "ask": {
-        "ko": "팔에 붙은 별 스티커는 어디서 왔을까?",
-        "en": "Where did the star stickers on her arm come from?"
-      },
-      "options": [
-        {
-          "ko": "조카가 장난으로 붙였다",
-          "en": "Her niece stuck them on for fun"
-        },
-        {
-          "ko": "아이들에게 상으로 나눠 주다 붙었다",
-          "en": "She hands them out to kids as rewards"
-        },
-        {
-          "ko": "다이어리를 꾸미다 붙었다",
-          "en": "They stuck to her while she decorated her planner"
-        },
-        {
-          "ko": "버스에서 누가 붙였다",
-          "en": "Someone on the bus stuck them on"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e6",
-        "e3"
+        "e4",
+        "e6"
       ]
     }
   ],

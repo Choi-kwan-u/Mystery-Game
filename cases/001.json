@@ -12,6 +12,126 @@
   },
   "questions": [
     {
+      "key": "before",
+      "ask": {
+        "ko": "카페에 오기 직전에 무엇을 했을까?",
+        "en": "What was she doing right before this?"
+      },
+      "options": [
+        {
+          "ko": "아침 운동을 했다",
+          "en": "A morning workout"
+        },
+        {
+          "ko": "밤새 일했다",
+          "en": "Working all night"
+        },
+        {
+          "ko": "출근 준비를 했다",
+          "en": "Getting ready for work"
+        },
+        {
+          "ko": "장을 보고 왔다",
+          "en": "Grocery shopping"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e6",
+        "e3"
+      ]
+    },
+    {
+      "key": "next",
+      "ask": {
+        "ko": "이 다음엔 어디로 갈까?",
+        "en": "Where is she going next?"
+      },
+      "options": [
+        {
+          "ko": "집에 가서 잔다",
+          "en": "Home to get some sleep"
+        },
+        {
+          "ko": "회사로 출근한다",
+          "en": "Off to work"
+        },
+        {
+          "ko": "친구를 만나러 간다",
+          "en": "To meet a friend"
+        },
+        {
+          "ko": "진료를 받으러 간다",
+          "en": "To see a doctor"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e6"
+      ]
+    },
+    {
+      "key": "watch",
+      "ask": {
+        "ko": "스마트워치가 아니라 초침 달린 시계를 찬 이유는?",
+        "en": "Why a watch with a second hand instead of a smartwatch?"
+      },
+      "options": [
+        {
+          "ko": "할머니에게 물려받아서",
+          "en": "Inherited from grandma"
+        },
+        {
+          "ko": "충전할 틈이 없어서",
+          "en": "No time to charge one"
+        },
+        {
+          "ko": "초를 셀 일이 잦아서",
+          "en": "She counts seconds a lot"
+        },
+        {
+          "ko": "비싸 보이고 싶어서",
+          "en": "To look expensive"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "workplace",
+      "ask": {
+        "ko": "그녀가 일하는 곳은?",
+        "en": "Where does she work?"
+      },
+      "options": [
+        {
+          "ko": "동네 치과",
+          "en": "A local dental office"
+        },
+        {
+          "ko": "종합병원",
+          "en": "A hospital"
+        },
+        {
+          "ko": "학교 보건실",
+          "en": "A school nurse's office"
+        },
+        {
+          "ko": "동네 약국",
+          "en": "A local pharmacy"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e6"
+      ]
+    },
+    {
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
@@ -39,126 +159,6 @@
       "evidence": [
         "e2",
         "e3",
-        "e6"
-      ]
-    },
-    {
-      "key": "before",
-      "ask": {
-        "ko": "카페에 오기 직전에 무엇을 했을까?",
-        "en": "What were they doing right before this?"
-      },
-      "options": [
-        {
-          "ko": "운동",
-          "en": "Working out"
-        },
-        {
-          "ko": "밤샘 근무",
-          "en": "A night shift"
-        },
-        {
-          "ko": "출근 준비",
-          "en": "Getting ready for work"
-        },
-        {
-          "ko": "장보기",
-          "en": "Grocery shopping"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2",
-        "e6",
-        "e3"
-      ]
-    },
-    {
-      "key": "next",
-      "ask": {
-        "ko": "이 다음엔 어디로 갈까?",
-        "en": "Where are they going next?"
-      },
-      "options": [
-        {
-          "ko": "집에서 잔다",
-          "en": "Home to sleep"
-        },
-        {
-          "ko": "출근한다",
-          "en": "To work"
-        },
-        {
-          "ko": "친구를 만난다",
-          "en": "To meet a friend"
-        },
-        {
-          "ko": "병원 진료를 받는다",
-          "en": "To a doctor's appointment"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5",
-        "e6"
-      ]
-    },
-    {
-      "key": "workplace",
-      "ask": {
-        "ko": "그녀가 일하는 곳은?",
-        "en": "Where does she work?"
-      },
-      "options": [
-        {
-          "ko": "동네 치과",
-          "en": "A neighborhood dental office"
-        },
-        {
-          "ko": "종합병원",
-          "en": "A hospital"
-        },
-        {
-          "ko": "학교 보건실",
-          "en": "A school nurse's office"
-        },
-        {
-          "ko": "약국",
-          "en": "A pharmacy"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2",
-        "e6"
-      ]
-    },
-    {
-      "key": "watch",
-      "ask": {
-        "ko": "그녀가 스마트워치가 아닌 초침 시계를 차는 이유는?",
-        "en": "Why does she wear a watch with a second hand instead of a smartwatch?"
-      },
-      "options": [
-        {
-          "ko": "할머니에게 물려받아서",
-          "en": "She inherited it from her grandmother"
-        },
-        {
-          "ko": "충전하기 귀찮아서",
-          "en": "She can't be bothered charging one"
-        },
-        {
-          "ko": "초침으로 환자 맥박을 재려고",
-          "en": "To time patients' pulses with the second hand"
-        },
-        {
-          "ko": "더 비싸 보여서",
-          "en": "It looks more expensive"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
         "e1"
       ]
     }

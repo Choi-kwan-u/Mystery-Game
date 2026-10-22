@@ -1,6 +1,6 @@
 {
   "id": 10,
-  "date": "2026-11-04",
+  "date": "2026-10-25",
   "type": "room",
   "image": "img/010.webp",
   "title": {
@@ -13,37 +13,6 @@
   },
   "questions": [
     {
-      "key": "job",
-      "ask": {
-        "ko": "이 방의 주인은 무슨 일을 할까?",
-        "en": "What does the owner of this room do?"
-      },
-      "options": [
-        {
-          "ko": "화학 교사",
-          "en": "Chemistry teacher"
-        },
-        {
-          "ko": "사진가",
-          "en": "Photographer"
-        },
-        {
-          "ko": "영화관 영사기사",
-          "en": "Film projectionist"
-        },
-        {
-          "ko": "화가",
-          "en": "Painter"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4",
-        "e5",
-        "e3"
-      ]
-    },
-    {
       "key": "redlight",
       "ask": {
         "ko": "천장에 매단 빨간 전구는 무엇에 쓸까?",
@@ -51,20 +20,20 @@
       },
       "options": [
         {
-          "ko": "분위기를 내려고",
-          "en": "Setting the mood"
+          "ko": "은은한 분위기를 내려고",
+          "en": "To set a cozy, warm mood"
         },
         {
           "ko": "눈이 덜 피로하라고",
-          "en": "Easing eye strain"
+          "en": "To keep eyes from tiring"
         },
         {
-          "ko": "벌레가 안 꼬이게",
-          "en": "Keeping bugs away"
+          "ko": "벌레가 꼬이지 않게",
+          "en": "To stop bugs gathering"
         },
         {
-          "ko": "빛에 약한 인화지를 상하지 않게",
-          "en": "Light that won't spoil photo paper"
+          "ko": "빛에 약한 걸 지키려고",
+          "en": "Spares sensitive paper"
         }
       ],
       "answer": 3,
@@ -77,24 +46,24 @@
       "key": "why",
       "ask": {
         "ko": "왜 하필 욕실에 차렸을까?",
-        "en": "Why set it up in the bathroom?"
+        "en": "Why set this up in a bathroom?"
       },
       "options": [
         {
-          "ko": "물을 쓸 수 있고 창문을 막기 쉬워서",
-          "en": "Running water, and one small window to block"
+          "ko": "물 쓰기 좋고 창이 작아서",
+          "en": "Running water, small window"
         },
         {
-          "ko": "집에서 제일 넓어서",
+          "ko": "집에서 제일 넓은 방이라서",
           "en": "It's the biggest room"
         },
         {
-          "ko": "습기가 있어야 사진이 잘 나와서",
-          "en": "Photos need humidity"
+          "ko": "습기가 있어야 잘 돼서",
+          "en": "It needs humidity"
         },
         {
-          "ko": "거울이 있어서",
-          "en": "It has a mirror"
+          "ko": "거울을 보면서 하려고",
+          "en": "To work by the mirror"
         }
       ],
       "answer": 0,
@@ -107,7 +76,7 @@
       "key": "machine",
       "ask": {
         "ko": "세면대 옆 키 큰 기계는 무엇일까?",
-        "en": "What's the tall machine beside the sink?"
+        "en": "What is the tall machine by the sink?"
       },
       "options": [
         {
@@ -116,11 +85,11 @@
         },
         {
           "ko": "영사기",
-          "en": "A film projector"
+          "en": "A projector"
         },
         {
-          "ko": "사진을 크게 뽑는 확대기",
-          "en": "An enlarger for making prints"
+          "ko": "확대기",
+          "en": "An enlarger"
         },
         {
           "ko": "프린터",
@@ -133,32 +102,63 @@
       ]
     },
     {
-      "key": "camera",
+      "key": "trays",
       "ask": {
-        "ko": "주인은 어떤 카메라를 쓸까?",
-        "en": "What kind of camera does the owner use?"
+        "ko": "판자 위 납작한 쟁반 세 개에 담긴 것은?",
+        "en": "What's in the three flat trays on the board?"
       },
       "options": [
         {
-          "ko": "즉석 카메라",
-          "en": "An instant camera"
+          "ko": "물감",
+          "en": "Oil paint"
         },
         {
-          "ko": "필름 카메라",
-          "en": "A film camera"
+          "ko": "약품",
+          "en": "Chemicals"
         },
         {
-          "ko": "디지털 카메라",
-          "en": "A digital camera"
+          "ko": "반죽",
+          "en": "Bread dough"
         },
         {
-          "ko": "스마트폰",
-          "en": "A smartphone"
+          "ko": "기름",
+          "en": "Cooking oil"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e5"
+        "e3"
+      ]
+    },
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 방의 주인은 무슨 일을 할까?",
+        "en": "What does the owner of this room do?"
+      },
+      "options": [
+        {
+          "ko": "화학 교사",
+          "en": "Chemistry teacher"
+        },
+        {
+          "ko": "영화관 영사기사",
+          "en": "Film projectionist"
+        },
+        {
+          "ko": "화가",
+          "en": "Painter"
+        },
+        {
+          "ko": "사진가",
+          "en": "Photographer"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4",
+        "e5",
+        "e3"
       ]
     }
   ],

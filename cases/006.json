@@ -12,37 +12,6 @@
   },
   "questions": [
     {
-      "key": "job",
-      "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does she do for a living?"
-      },
-      "options": [
-        {
-          "ko": "성악가",
-          "en": "Opera singer"
-        },
-        {
-          "ko": "바이올리니스트",
-          "en": "Violinist"
-        },
-        {
-          "ko": "피아니스트",
-          "en": "Pianist"
-        },
-        {
-          "ko": "지휘자",
-          "en": "Conductor"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1",
-        "e2",
-        "e5"
-      ]
-    },
-    {
       "key": "before",
       "ask": {
         "ko": "방금 무엇을 하고 오는 길일까?",
@@ -51,7 +20,7 @@
       "options": [
         {
           "ko": "레슨",
-          "en": "Teaching a lesson"
+          "en": "A lesson"
         },
         {
           "ko": "결혼식",
@@ -73,77 +42,48 @@
       ]
     },
     {
-      "key": "concert",
+      "key": "score",
       "ask": {
-        "ko": "오늘 공연은 어땠을까?",
-        "en": "How did tonight's concert go?"
+        "ko": "무릎 위 악보에 가사가 하나도 없는 걸 보면?",
+        "en": "The sheet music on her lap has no lyrics. So?"
       },
       "options": [
         {
-          "ko": "리허설뿐이었다",
-          "en": "It was only a rehearsal"
+          "ko": "노래는 안 한다",
+          "en": "She doesn't sing"
         },
         {
-          "ko": "취소됐다",
-          "en": "It was canceled"
+          "ko": "가사를 외웠다",
+          "en": "She memorized the words"
         },
         {
-          "ko": "성공적이었다",
-          "en": "It went well"
+          "ko": "작곡을 한다",
+          "en": "She composes"
         },
         {
-          "ko": "망쳤다",
-          "en": "It was a disaster"
+          "ko": "악보를 못 읽는다",
+          "en": "She can't read music"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "mark",
-      "ask": {
-        "ko": "목의 자국은 왜 생겼을까?",
-        "en": "What caused the mark on her neck?"
-      },
-      "options": [
-        {
-          "ko": "목걸이에 쓸려서",
-          "en": "A necklace rubbing"
-        },
-        {
-          "ko": "악기를 턱에 끼워서",
-          "en": "Holding an instrument under her chin"
-        },
-        {
-          "ko": "모기에 물려서",
-          "en": "A mosquito bite"
-        },
-        {
-          "ko": "뜨거운 물에 데어서",
-          "en": "A burn from hot water"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1"
+        "e5"
       ]
     },
     {
       "key": "powder",
       "ask": {
         "ko": "검은 옷 어깨의 하얀 가루는?",
-        "en": "What's the white dust on the shoulder of her black outfit?"
+        "en": "What's the white dust on her shoulder?"
       },
       "options": [
         {
-          "ko": "활에 바르는 송진 가루",
-          "en": "Rosin from a violin bow"
-        },
-        {
           "ko": "밀가루",
           "en": "Flour"
+        },
+        {
+          "ko": "송진 가루",
+          "en": "Rosin dust"
         },
         {
           "ko": "분필 가루",
@@ -154,9 +94,69 @@
           "en": "Face powder"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e2"
+      ]
+    },
+    {
+      "key": "mark",
+      "ask": {
+        "ko": "목의 갈색 자국은 왜 생겼을까?",
+        "en": "What caused the brown mark on her neck?"
+      },
+      "options": [
+        {
+          "ko": "목걸이 줄에 쓸려서",
+          "en": "A chafing necklace chain"
+        },
+        {
+          "ko": "모기에 여러 번 물려서",
+          "en": "Lots of mosquito bites"
+        },
+        {
+          "ko": "늘 뭔가를 턱에 끼워서",
+          "en": "Something at her chin"
+        },
+        {
+          "ko": "뜨거운 물에 데어서",
+          "en": "A burn from hot water"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does she do?"
+      },
+      "options": [
+        {
+          "ko": "오페라 성악가",
+          "en": "Opera singer"
+        },
+        {
+          "ko": "첼리스트",
+          "en": "Cellist"
+        },
+        {
+          "ko": "피아니스트",
+          "en": "Pianist"
+        },
+        {
+          "ko": "바이올리니스트",
+          "en": "Violinist"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2",
+        "e5"
       ]
     }
   ],

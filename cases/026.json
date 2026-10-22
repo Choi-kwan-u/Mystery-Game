@@ -1,6 +1,6 @@
 {
   "id": 26,
-  "date": "2026-11-20",
+  "date": "2026-11-10",
   "type": "scene",
   "image": "img/026.webp",
   "title": {
@@ -13,99 +13,10 @@
   },
   "questions": [
     {
-      "key": "culprit",
-      "ask": {
-        "ko": "케이크를 먹은 범인은 누구일까?",
-        "en": "Who ate the cake?"
-      },
-      "options": [
-        {
-          "ko": "아빠",
-          "en": "Dad"
-        },
-        {
-          "ko": "아이",
-          "en": "A child"
-        },
-        {
-          "ko": "이 집 개",
-          "en": "The family dog"
-        },
-        {
-          "ko": "고양이",
-          "en": "The cat"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e5",
-        "e6"
-      ]
-    },
-    {
-      "key": "reach",
-      "ask": {
-        "ko": "범인은 어떻게 조리대에 닿았을까?",
-        "en": "How did the culprit reach the counter?"
-      },
-      "options": [
-        {
-          "ko": "사다리를 놓고",
-          "en": "With a ladder"
-        },
-        {
-          "ko": "뛰어올라서",
-          "en": "By jumping up"
-        },
-        {
-          "ko": "누가 내려 줘서",
-          "en": "Someone handed it down"
-        },
-        {
-          "ko": "의자를 밟고 올라가서",
-          "en": "By climbing on the chair"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "chair",
-      "ask": {
-        "ko": "의자는 원래 왜 조리대 옆에 있었을까?",
-        "en": "Why was the chair by the counter in the first place?"
-      },
-      "options": [
-        {
-          "ko": "개가 끌어다 놓았다",
-          "en": "The dog dragged it there"
-        },
-        {
-          "ko": "주인이 위 찬장에서 무언가를 꺼내려고 밟았다",
-          "en": "The owner stood on it to reach the top cabinet"
-        },
-        {
-          "ko": "아이가 숨바꼭질하다 옮겼다",
-          "en": "A kid moved it playing hide-and-seek"
-        },
-        {
-          "ko": "원래 그 자리였다",
-          "en": "It always sits there"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
       "key": "for",
       "ask": {
         "ko": "이 케이크는 원래 무엇을 위한 것이었을까?",
-        "en": "What was this cake for?"
+        "en": "What was this cake meant for?"
       },
       "options": [
         {
@@ -113,12 +24,12 @@
           "en": "Just a snack"
         },
         {
-          "ko": "어제 생일 파티에서 남은 케이크",
-          "en": "Leftovers from yesterday's birthday party"
+          "ko": "어제 파티에서 남은 것",
+          "en": "Leftover from yesterday"
         },
         {
-          "ko": "오늘 밤 생일 파티",
-          "en": "Tonight's birthday party"
+          "ko": "오늘 밤 생일 파티용",
+          "en": "Tonight's party"
         },
         {
           "ko": "가게 판매용",
@@ -131,6 +42,96 @@
       ]
     },
     {
+      "key": "chair",
+      "ask": {
+        "ko": "의자는 원래 왜 조리대 옆에 있었을까?",
+        "en": "Why was the chair by the counter in the first place?"
+      },
+      "options": [
+        {
+          "ko": "찬장을 열려고 밟았다",
+          "en": "Someone reached a cupboard"
+        },
+        {
+          "ko": "개가 끌어다 놓았다",
+          "en": "The dog dragged it"
+        },
+        {
+          "ko": "아이가 놀다가 옮겼다",
+          "en": "A kid moved it playing"
+        },
+        {
+          "ko": "원래 그 자리였다",
+          "en": "It always sits there"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "reach",
+      "ask": {
+        "ko": "범인은 어떻게 조리대에 닿았을까?",
+        "en": "How did the culprit reach the counter?"
+      },
+      "options": [
+        {
+          "ko": "사다리를 놓고",
+          "en": "A ladder"
+        },
+        {
+          "ko": "뛰어올라서",
+          "en": "Jumped up"
+        },
+        {
+          "ko": "의자를 밟고",
+          "en": "Climbed the chair"
+        },
+        {
+          "ko": "누가 내려 줘서",
+          "en": "Someone handed it down"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "culprit",
+      "ask": {
+        "ko": "케이크를 먹은 범인은 누구일까?",
+        "en": "Who ate the cake?"
+      },
+      "options": [
+        {
+          "ko": "이 집 개",
+          "en": "The dog"
+        },
+        {
+          "ko": "아빠",
+          "en": "Dad"
+        },
+        {
+          "ko": "아이",
+          "en": "A kid"
+        },
+        {
+          "ko": "고양이",
+          "en": "The cat"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e3",
+        "e5",
+        "e6"
+      ]
+    },
+    {
       "key": "where",
       "ask": {
         "ko": "범인은 케이크를 어디서 먹었을까?",
@@ -138,12 +139,8 @@
       },
       "options": [
         {
-          "ko": "자기 침대로 물고 가서",
-          "en": "It carried it off to its own bed"
-        },
-        {
           "ko": "조리대 위에서",
-          "en": "Right on the counter"
+          "en": "On the counter"
         },
         {
           "ko": "의자 위에서",
@@ -152,9 +149,13 @@
         {
           "ko": "식탁 밑에서",
           "en": "Under the table"
+        },
+        {
+          "ko": "제 침대에서",
+          "en": "In its own dog bed"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "evidence": [
         "e5",
         "e6"

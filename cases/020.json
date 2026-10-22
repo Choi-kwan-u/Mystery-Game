@@ -1,6 +1,6 @@
 {
   "id": 20,
-  "date": "2026-11-14",
+  "date": "2026-11-04",
   "type": "scene",
   "image": "img/020.webp",
   "title": {
@@ -15,28 +15,28 @@
     {
       "key": "event",
       "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
+        "ko": "방금 여기서 무슨 일이 있었을까?",
+        "en": "What just happened here?"
       },
       "options": [
         {
-          "ko": "택배가 왔다",
-          "en": "A parcel was delivered"
+          "ko": "택배 기사가 다녀갔다",
+          "en": "A delivery came"
         },
         {
-          "ko": "도둑이 들었다",
-          "en": "A burglar got in"
+          "ko": "도둑이 들었다 나갔다",
+          "en": "A burglar came and went"
         },
         {
-          "ko": "비 오는 날 개를 산책시키고 돌아왔다",
-          "en": "Someone came back from walking the dog in the rain"
+          "ko": "아이가 하교해 왔다",
+          "en": "A kid came home from school"
         },
         {
-          "ko": "아이가 학교에서 돌아왔다",
-          "en": "A child came home from school"
+          "ko": "산책하고 막 돌아왔다",
+          "en": "Back from a walk"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
         "e2",
         "e3",
@@ -44,60 +44,30 @@
       ]
     },
     {
-      "key": "who",
-      "ask": {
-        "ko": "함께 나갔다 온 것은?",
-        "en": "Who went out with the person?"
-      },
-      "options": [
-        {
-          "ko": "고양이",
-          "en": "A cat"
-        },
-        {
-          "ko": "작은 개",
-          "en": "A small dog"
-        },
-        {
-          "ko": "큰 개",
-          "en": "A big dog"
-        },
-        {
-          "ko": "아이",
-          "en": "A child"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2",
-        "e3"
-      ]
-    },
-    {
       "key": "spray",
       "ask": {
         "ko": "벽 아래쪽에 튄 흙탕물은 무엇 때문일까?",
-        "en": "What sprayed muddy water low on the wall?"
+        "en": "What sprayed the mud low on the wall?"
       },
       "options": [
         {
-          "ko": "개가 몸을 털어서",
-          "en": "The dog shook itself off"
+          "ko": "우산을 털어서",
+          "en": "Shaking the umbrella"
         },
         {
-          "ko": "우산을 털어서",
-          "en": "Someone shook out the umbrella"
+          "ko": "개가 몸을 털어서",
+          "en": "A dog shaking off"
         },
         {
           "ko": "지나가던 차가 튀겨서",
-          "en": "A passing car splashed it"
+          "en": "A passing car"
         },
         {
           "ko": "걸레질하다 튀어서",
-          "en": "Splashes from mopping"
+          "en": "Mopping"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e4"
       ]
@@ -106,27 +76,27 @@
       "key": "towel",
       "ask": {
         "ko": "바닥의 수건은 왜 떨어져 있을까?",
-        "en": "Why is there a towel on the floor?"
+        "en": "Why is the towel on the floor?"
       },
       "options": [
         {
           "ko": "빨래를 널다 떨어뜨렸다",
-          "en": "It fell off the laundry rack"
+          "en": "Dropped from the laundry"
         },
         {
           "ko": "바람에 날아왔다",
-          "en": "The wind blew it in"
-        },
-        {
-          "ko": "발 닦개로 일부러 깔아 뒀다",
-          "en": "It was put down as a doormat"
+          "en": "Blown in by the wind"
         },
         {
           "ko": "개를 닦아 주려다 놓쳤다",
-          "en": "Someone tried to dry the dog, and it got away"
+          "en": "A missed dog rubdown"
+        },
+        {
+          "ko": "발 닦개로 깔아 뒀다",
+          "en": "Put down as a doormat"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
         "e5"
       ]
@@ -139,25 +109,55 @@
       },
       "options": [
         {
+          "ko": "욕실",
+          "en": "The bathroom"
+        },
+        {
           "ko": "다시 밖에",
           "en": "Back outside"
         },
         {
-          "ko": "욕실",
-          "en": "In the bathroom"
-        },
-        {
           "ko": "거실 소파",
-          "en": "On the living-room sofa"
+          "en": "The sofa"
         },
         {
           "ko": "부엌",
-          "en": "In the kitchen"
+          "en": "The kitchen"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
         "e6"
+      ]
+    },
+    {
+      "key": "who",
+      "ask": {
+        "ko": "함께 나갔다 온 것은?",
+        "en": "Who came back with them?"
+      },
+      "options": [
+        {
+          "ko": "고양이",
+          "en": "A cat"
+        },
+        {
+          "ko": "큰 개",
+          "en": "A big, heavy dog"
+        },
+        {
+          "ko": "아이",
+          "en": "A child"
+        },
+        {
+          "ko": "작은 개",
+          "en": "A small dog"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e3"
       ]
     }
   ],

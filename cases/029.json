@@ -1,6 +1,6 @@
 {
   "id": 29,
-  "date": "2026-11-23",
+  "date": "2026-11-13",
   "type": "scene",
   "image": "img/029.webp",
   "title": {
@@ -13,65 +13,6 @@
   },
   "questions": [
     {
-      "key": "event",
-      "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
-      },
-      "options": [
-        {
-          "ko": "바람에 말이 쓰러졌다",
-          "en": "The wind knocked a piece over"
-        },
-        {
-          "ko": "아이가 장난을 쳤다",
-          "en": "A kid messed with the board"
-        },
-        {
-          "ko": "한쪽이 기권해 게임이 끝났다",
-          "en": "One player resigned"
-        },
-        {
-          "ko": "게임을 막 시작하려던 참이다",
-          "en": "The game was about to start"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "winner",
-      "ask": {
-        "ko": "누가 이겼을까?",
-        "en": "Who won?"
-      },
-      "options": [
-        {
-          "ko": "흰 쪽",
-          "en": "White"
-        },
-        {
-          "ko": "검은 쪽",
-          "en": "Black"
-        },
-        {
-          "ko": "무승부",
-          "en": "It was a draw"
-        },
-        {
-          "ko": "알 수 없다",
-          "en": "Impossible to tell"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
       "key": "game",
       "ask": {
         "ko": "어떤 게임이었을까?",
@@ -79,20 +20,20 @@
       },
       "options": [
         {
-          "ko": "한쪽이 일방적으로 이긴 게임",
+          "ko": "일방적인 게임",
           "en": "A one-sided rout"
         },
         {
           "ko": "막 시작한 게임",
-          "en": "A game that had barely started"
+          "en": "Just getting started"
         },
         {
-          "ko": "몇 수만 둔 연습 게임",
-          "en": "A few practice moves"
+          "ko": "몇 수만 둔 연습",
+          "en": "A quick practice game"
         },
         {
-          "ko": "양쪽 다 많이 잡힌 긴 접전",
-          "en": "A long, close battle"
+          "ko": "오래 이어진 접전",
+          "en": "A long, hard-fought battle"
         }
       ],
       "answer": 3,
@@ -139,25 +80,84 @@
       },
       "options": [
         {
-          "ko": "의자를 뒤로 밀치고 벌떡 일어났다",
-          "en": "Shoved the chair back and shot up"
+          "ko": "조용히 의자를 넣었다",
+          "en": "Quietly pushed the chair in"
         },
         {
-          "ko": "조용히 의자를 넣고 떠났다",
-          "en": "Tucked the chair in and quietly left"
+          "ko": "벌떡 일어나 떠났다",
+          "en": "Shot up and stormed off"
         },
         {
-          "ko": "이긴 사람과 악수하고 함께 떠났다",
+          "ko": "악수하고 함께 갔다",
           "en": "Shook hands and left together"
         },
         {
-          "ko": "아직 의자에 앉아 있다",
-          "en": "Is still sitting there"
+          "ko": "아직 근처에 있다",
+          "en": "Still nearby"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e6"
+      ]
+    },
+    {
+      "key": "event",
+      "ask": {
+        "ko": "게임은 어떻게 끝났을까?",
+        "en": "How did the game end?"
+      },
+      "options": [
+        {
+          "ko": "바람에 말이 쓰러졌다",
+          "en": "Wind knocked a piece over"
+        },
+        {
+          "ko": "한쪽이 기권했다",
+          "en": "Someone resigned"
+        },
+        {
+          "ko": "아이가 장난을 쳤다",
+          "en": "A kid messed with it"
+        },
+        {
+          "ko": "막 시작하려던 참",
+          "en": "It hadn't started"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "winner",
+      "ask": {
+        "ko": "누가 이겼을까?",
+        "en": "Who won?"
+      },
+      "options": [
+        {
+          "ko": "흰 쪽",
+          "en": "White"
+        },
+        {
+          "ko": "무승부",
+          "en": "A draw"
+        },
+        {
+          "ko": "알 수 없다",
+          "en": "Can't tell"
+        },
+        {
+          "ko": "검은 쪽",
+          "en": "Black"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1"
       ]
     }
   ],
@@ -178,8 +178,8 @@
       "y": 60,
       "r": 9,
       "label": {
-        "ko": "판 옆에 줄지어 선 잡힌 흰 말들",
-        "en": "Captured white pieces lined up by the board"
+        "ko": "판 가장자리에 줄지어 세워 둔 잡힌 흰 말들",
+        "en": "Captured white pieces lined up along the edge of the board"
       }
     },
     {
@@ -188,8 +188,8 @@
       "y": 59,
       "r": 9,
       "label": {
-        "ko": "반대편에 줄지어 선 잡힌 검은 말들 — 개수가 비슷하다",
-        "en": "Captured black pieces on the other side — about as many"
+        "ko": "반대편 가장자리에 줄지어 세워 둔 잡힌 검은 말들 — 개수가 비슷하다",
+        "en": "Captured black pieces lined up along the other edge — about as many"
       }
     },
     {

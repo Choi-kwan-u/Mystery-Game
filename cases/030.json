@@ -1,6 +1,6 @@
 {
   "id": 30,
-  "date": "2026-11-24",
+  "date": "2026-11-14",
   "type": "lie",
   "image": "img/030.webp",
   "title": {
@@ -12,8 +12,8 @@
     "en": "4 p.m. on a weekday, and a flowerpot lies smashed in the living room. We asked the big sister who'd just walked in what happened. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "저 방금 학교에서 왔어요. 와 보니까 화분이 깨져 있었어요. 우리 강아지가 깬 거예요.",
-    "en": "I just got home from school. The pot was already broken when I walked in. Our dog did it."
+    "ko": "저 방금 학교에서 왔어요. 범인은 우리 강아지예요. 와 보니까 화분이 깨져 있더라고요. 동생은 아까부터 집에 있었고요.",
+    "en": "I just got home from school. Our dog did it. The pot was already broken when I walked in. My younger sibling's been home a while."
   },
   "questions": [
     {
@@ -25,54 +25,83 @@
       "options": [
         {
           "ko": "방금 학교에서 왔다",
-          "en": "She just got home from school"
-        },
-        {
-          "ko": "와 보니 화분이 깨져 있었다",
-          "en": "The pot was already broken when she came in"
+          "en": "She just got home"
         },
         {
           "ko": "강아지가 깼다",
-          "en": "The dog broke it"
+          "en": "The dog did it"
         },
         {
-          "ko": "모두 사진과 맞다",
-          "en": "Everything matches the photo"
+          "ko": "와 보니 깨져 있었다",
+          "en": "It was already broken"
+        },
+        {
+          "ko": "동생은 집에 있었다",
+          "en": "Her sibling was home"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
         "e1",
         "e2"
       ]
     },
     {
-      "key": "tell",
+      "key": "home",
       "ask": {
-        "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which clue gives the lie away?"
+        "ko": "'방금 학교에서 왔다'는 말과 맞는 단서는?",
+        "en": "Which clue backs up 'just got home from school'?"
       },
       "options": [
         {
-          "ko": "흙 한 톨 안 묻은 채 자는 개",
-          "en": "The dog asleep without a speck of soil on it"
+          "ko": "깨진 화분 조각",
+          "en": "The broken pot"
         },
         {
-          "ko": "메고 있는 책가방",
-          "en": "Her backpack"
+          "ko": "흙 묻은 축구공",
+          "en": "The muddy ball"
         },
         {
-          "ko": "열린 현관문",
-          "en": "The open front door"
+          "ko": "책가방과 열쇠",
+          "en": "Bag and keys"
         },
         {
-          "ko": "거실 소파",
-          "en": "The living-room sofa"
+          "ko": "잠든 강아지",
+          "en": "The sleeping dog"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
-        "e1"
+        "e5"
+      ]
+    },
+    {
+      "key": "ball",
+      "ask": {
+        "ko": "축구공에 흙이 묻은 이유는?",
+        "en": "Why is the soccer ball covered in soil?"
+      },
+      "options": [
+        {
+          "ko": "밖에서 차고 와서",
+          "en": "Kicked around outside"
+        },
+        {
+          "ko": "화분을 맞혀서",
+          "en": "It hit the pot"
+        },
+        {
+          "ko": "강아지가 굴려서",
+          "en": "The dog rolled it"
+        },
+        {
+          "ko": "원래 더러워서",
+          "en": "It was always dirty"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2"
       ]
     },
     {
@@ -83,23 +112,23 @@
       },
       "options": [
         {
-          "ko": "고양이",
-          "en": "A cat"
+          "ko": "집고양이",
+          "en": "The cat"
         },
         {
-          "ko": "바람",
+          "ko": "창문 바람",
           "en": "The wind"
         },
         {
-          "ko": "집 안에서 공을 차던 동생",
-          "en": "A younger sibling kicking a ball indoors"
+          "ko": "누나 자신",
+          "en": "The sister herself"
         },
         {
-          "ko": "누나 자신",
-          "en": "The big sister herself"
+          "ko": "어린 동생",
+          "en": "The younger sibling"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
         "e2",
         "e3"
@@ -113,16 +142,16 @@
       },
       "options": [
         {
-          "ko": "반쯤 열린 방 안",
-          "en": "Behind the half-open bedroom door"
+          "ko": "자기 방 안",
+          "en": "In their room"
         },
         {
-          "ko": "집 밖",
-          "en": "Outside"
+          "ko": "집 밖 놀이터",
+          "en": "At the playground"
         },
         {
-          "ko": "개 침대",
-          "en": "In the dog bed"
+          "ko": "개 침대 옆",
+          "en": "By the dog bed"
         },
         {
           "ko": "소파 뒤",
@@ -133,35 +162,6 @@
       "evidence": [
         "e3",
         "e4"
-      ]
-    },
-    {
-      "key": "home",
-      "ask": {
-        "ko": "'방금 학교에서 왔다'는 말과 맞는 단서는?",
-        "en": "Which detail fits 'I just got home from school'?"
-      },
-      "options": [
-        {
-          "ko": "깨진 화분",
-          "en": "The broken pot"
-        },
-        {
-          "ko": "아직 멘 책가방과 손에 든 열쇠",
-          "en": "The backpack still on and keys in her hand"
-        },
-        {
-          "ko": "축구공",
-          "en": "The soccer ball"
-        },
-        {
-          "ko": "개 침대",
-          "en": "The dog bed"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e5"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 {
   "id": 25,
-  "date": "2026-11-19",
+  "date": "2026-11-09",
   "type": "scene",
   "image": "img/025.webp",
   "title": {
@@ -20,20 +20,20 @@
       },
       "options": [
         {
-          "ko": "불이 나서 소방차가 왔다",
-          "en": "A fire — the fire truck came"
+          "ko": "불이 나 소방차가 왔다",
+          "en": "A fire, and the fire trucks came"
         },
         {
-          "ko": "요리하다 음식을 태웠다",
-          "en": "Something got burned while cooking"
+          "ko": "음식을 태웠다",
+          "en": "Something got burned"
         },
         {
-          "ko": "가스가 샜다",
+          "ko": "가스가 새어 나왔다",
           "en": "A gas leak"
         },
         {
-          "ko": "정전이 됐다",
-          "en": "A power cut"
+          "ko": "전기 합선이 났다",
+          "en": "A short circuit"
         }
       ],
       "answer": 1,
@@ -51,10 +51,6 @@
       },
       "options": [
         {
-          "ko": "팝콘",
-          "en": "Popcorn"
-        },
-        {
           "ko": "커피콩",
           "en": "Coffee beans"
         },
@@ -63,11 +59,15 @@
           "en": "Roasted peanuts"
         },
         {
+          "ko": "팝콘",
+          "en": "Popcorn"
+        },
+        {
           "ko": "군밤",
-          "en": "Roasted chestnuts"
+          "en": "Roast chestnuts"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
         "e2",
         "e6"
@@ -81,23 +81,23 @@
       },
       "options": [
         {
-          "ko": "통화하느라",
-          "en": "Someone was on a phone call"
-        },
-        {
-          "ko": "영화를 보다 깜빡해서",
-          "en": "Someone got absorbed in a movie"
+          "ko": "통화하다 깜빡해서",
+          "en": "Distracted by a call"
         },
         {
           "ko": "냄비가 고장 나서",
-          "en": "The pot was faulty"
+          "en": "A faulty pot"
         },
         {
-          "ko": "일부러 태웠다",
+          "ko": "일부러 태워서",
           "en": "On purpose"
+        },
+        {
+          "ko": "영화 보다 깜빡해서",
+          "en": "Lost in a movie"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
         "e6"
       ]
@@ -106,27 +106,27 @@
       "key": "alarm",
       "ask": {
         "ko": "화재경보기 뚜껑이 열리고 배터리가 빠진 이유는?",
-        "en": "Why is the smoke detector open, its battery out?"
+        "en": "Why is the smoke alarm open with its battery out?"
       },
       "options": [
         {
-          "ko": "원래 없었다",
-          "en": "It never had one"
+          "ko": "울려 대서 뺐다",
+          "en": "Yanked out for blaring"
         },
         {
-          "ko": "새 배터리로 갈려고",
-          "en": "Someone was changing the battery"
+          "ko": "새 배터리로 바꾸려고",
+          "en": "Changing the battery"
         },
         {
-          "ko": "시끄럽게 울려서 뺐다",
-          "en": "It went off and someone yanked it"
+          "ko": "원래 비어 있었다",
+          "en": "It was always empty"
         },
         {
           "ko": "아이가 장난쳐서",
           "en": "A kid messed with it"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
         "e3",
         "e4"
@@ -136,27 +136,27 @@
       "key": "fan",
       "ask": {
         "ko": "선풍기를 창문 쪽으로 돌려 둔 이유는?",
-        "en": "Why is the fan pointed at the open window?"
+        "en": "Why is the fan pointed at the window?"
       },
       "options": [
         {
-          "ko": "더워서",
-          "en": "It's hot"
+          "ko": "더위를 식히려고",
+          "en": "To cool off"
+        },
+        {
+          "ko": "연기를 빼내려고",
+          "en": "To clear out the smoke"
         },
         {
           "ko": "빨래를 말리려고",
-          "en": "Drying laundry"
+          "en": "To dry laundry"
         },
         {
           "ko": "벌레를 쫓으려고",
-          "en": "Keeping bugs away"
-        },
-        {
-          "ko": "연기를 밖으로 빼려고",
-          "en": "Pushing the smoke outside"
+          "en": "To keep bugs out"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
         "e5"
       ]

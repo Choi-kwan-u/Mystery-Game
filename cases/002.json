@@ -12,10 +12,127 @@
   },
   "questions": [
     {
+      "key": "where",
+      "ask": {
+        "ko": "지금 어디로 가는 길일까?",
+        "en": "Where is he headed?"
+      },
+      "options": [
+        {
+          "ko": "공연장",
+          "en": "A concert hall"
+        },
+        {
+          "ko": "학교",
+          "en": "A school"
+        },
+        {
+          "ko": "악기점",
+          "en": "A music store"
+        },
+        {
+          "ko": "공사장",
+          "en": "A building site"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "visitor",
+      "ask": {
+        "ko": "가방끈의 노란 출입증이 말해 주는 것은?",
+        "en": "What does the yellow badge on his strap tell you?"
+      },
+      "options": [
+        {
+          "ko": "그 학교 교사다",
+          "en": "He teaches there"
+        },
+        {
+          "ko": "행정실 직원이다",
+          "en": "He's office staff"
+        },
+        {
+          "ko": "학교 보안관이다",
+          "en": "He's the school guard"
+        },
+        {
+          "ko": "외부 방문자다",
+          "en": "He's a visitor"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "early",
+      "ask": {
+        "ko": "왜 이렇게 이른 시간에 학교로 갈까?",
+        "en": "Why is he going to the school so early?"
+      },
+      "options": [
+        {
+          "ko": "조용할 때 일하려고",
+          "en": "To work while it's quiet"
+        },
+        {
+          "ko": "지각하지 않으려고",
+          "en": "So he won't be late"
+        },
+        {
+          "ko": "아침 조회 때문에",
+          "en": "For morning assembly"
+        },
+        {
+          "ko": "원래 출근 시간이라",
+          "en": "His usual hours"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e5"
+      ]
+    },
+    {
+      "key": "habit",
+      "ask": {
+        "ko": "그가 일하면서 자주 하는 일은?",
+        "en": "What does he do a lot while working?"
+      },
+      "options": [
+        {
+          "ko": "사진 찍기",
+          "en": "Taking photos"
+        },
+        {
+          "ko": "전화 통화",
+          "en": "Phone calls"
+        },
+        {
+          "ko": "계산기 두드리기",
+          "en": "Using a calculator"
+        },
+        {
+          "ko": "메모하기",
+          "en": "Jotting notes"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
-        "en": "What does this man do for a living?"
+        "en": "What does he do?"
       },
       "options": [
         {
@@ -40,125 +157,6 @@
         "e1",
         "e5",
         "e4"
-      ]
-    },
-    {
-      "key": "where",
-      "ask": {
-        "ko": "지금 어디로 가는 길일까?",
-        "en": "Where is he headed?"
-      },
-      "options": [
-        {
-          "ko": "콘서트홀",
-          "en": "A concert hall"
-        },
-        {
-          "ko": "학교 음악실",
-          "en": "A school music room"
-        },
-        {
-          "ko": "악기 상점",
-          "en": "A music store"
-        },
-        {
-          "ko": "공사 현장",
-          "en": "A construction site"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e5",
-        "e1"
-      ]
-    },
-    {
-      "key": "early",
-      "ask": {
-        "ko": "그는 왜 이렇게 이른 아침에 학교로 갈까?",
-        "en": "Why is he heading to the school so early?"
-      },
-      "options": [
-        {
-          "ko": "아이들이 오기 전, 조용할 때 일하려고",
-          "en": "To work while it's quiet, before the kids arrive"
-        },
-        {
-          "ko": "지각하지 않으려고",
-          "en": "So he won't be late"
-        },
-        {
-          "ko": "아침 조회에 참석하려고",
-          "en": "To attend the morning assembly"
-        },
-        {
-          "ko": "원래 출근 시간이 이래서",
-          "en": "That's just his usual commute"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e1",
-        "e5"
-      ]
-    },
-    {
-      "key": "worksite",
-      "ask": {
-        "ko": "그는 주로 어디서 일할까?",
-        "en": "Where does he usually work?"
-      },
-      "options": [
-        {
-          "ko": "자기 가게에서 손님을 맞는다",
-          "en": "In his own shop, where customers come to him"
-        },
-        {
-          "ko": "공장 작업대 앞에서",
-          "en": "At a factory workbench"
-        },
-        {
-          "ko": "고객을 직접 찾아다닌다",
-          "en": "He goes to his customers"
-        },
-        {
-          "ko": "집에서",
-          "en": "From home"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e5"
-      ]
-    },
-    {
-      "key": "habit",
-      "ask": {
-        "ko": "그가 일하면서 자주 하는 일은?",
-        "en": "What does he do often while he works?"
-      },
-      "options": [
-        {
-          "ko": "사진 찍기",
-          "en": "Taking photos"
-        },
-        {
-          "ko": "전화 통화",
-          "en": "Phone calls"
-        },
-        {
-          "ko": "계산기 두드리기",
-          "en": "Punching numbers into a calculator"
-        },
-        {
-          "ko": "메모하기",
-          "en": "Jotting notes"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e3"
       ]
     }
   ],

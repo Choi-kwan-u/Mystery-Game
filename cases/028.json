@@ -1,6 +1,6 @@
 {
   "id": 28,
-  "date": "2026-11-22",
+  "date": "2026-11-12",
   "type": "scene",
   "image": "img/028.webp",
   "title": {
@@ -20,20 +20,20 @@
       },
       "options": [
         {
-          "ko": "차와 부딪히는 사고가 났다",
-          "en": "A car hit the bike"
+          "ko": "차와 부딪혔다",
+          "en": "Hit by a car"
         },
         {
-          "ko": "자전거를 타다 미끄러져 넘어졌다",
-          "en": "The rider slipped and fell"
+          "ko": "미끄러져 넘어졌다",
+          "en": "Skidded and fell over"
         },
         {
-          "ko": "도둑이 자전거를 버리고 갔다",
-          "en": "A thief dumped the bike"
+          "ko": "도둑이 버리고 갔다",
+          "en": "Dumped by a thief"
         },
         {
           "ko": "바람에 쓰러졌다",
-          "en": "The wind knocked it over"
+          "en": "Blown over"
         }
       ],
       "answer": 1,
@@ -47,27 +47,27 @@
       "key": "slip",
       "ask": {
         "ko": "무엇 때문에 미끄러졌을까?",
-        "en": "What made the bike slip?"
+        "en": "What caused the skid?"
       },
       "options": [
         {
-          "ko": "빙판",
-          "en": "Ice"
+          "ko": "얼어붙은 빙판",
+          "en": "Black ice"
         },
         {
-          "ko": "모래",
-          "en": "Sand"
+          "ko": "모래 더미",
+          "en": "Loose sand"
+        },
+        {
+          "ko": "쏟아진 기름",
+          "en": "Spilled oil"
         },
         {
           "ko": "바나나 껍질",
           "en": "A banana peel"
-        },
-        {
-          "ko": "기름",
-          "en": "Oil"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
         "e2"
       ]
@@ -80,19 +80,19 @@
       },
       "options": [
         {
-          "ko": "출근길",
-          "en": "On the way to work"
+          "ko": "출근하던 길이다",
+          "en": "Commuting to work"
         },
         {
-          "ko": "장을 보고 오는 길",
-          "en": "Coming back from grocery shopping"
+          "ko": "장 보고 오던 길",
+          "en": "Grocery shopping"
         },
         {
           "ko": "운동하던 중",
           "en": "Out exercising"
         },
         {
-          "ko": "등굣길",
+          "ko": "학교 가는 길",
           "en": "On the way to school"
         }
       ],
@@ -110,8 +110,12 @@
       },
       "options": [
         {
+          "ko": "살짝 까졌다",
+          "en": "A scrape"
+        },
+        {
           "ko": "구급차에 실려 갔다",
-          "en": "Taken away by ambulance"
+          "en": "Taken by ambulance"
         },
         {
           "ko": "팔이 부러졌다",
@@ -120,13 +124,9 @@
         {
           "ko": "전혀 안 다쳤다",
           "en": "Not at all"
-        },
-        {
-          "ko": "살짝 까져 반창고를 붙였다",
-          "en": "A scrape, patched with a bandage"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
         "e5"
       ]
@@ -135,7 +135,7 @@
       "key": "bike",
       "ask": {
         "ko": "자전거를 다시 타고 가지 않은 이유는?",
-        "en": "Why didn't the rider just ride off again?"
+        "en": "Why didn't they ride the bike home?"
       },
       "options": [
         {
@@ -148,11 +148,11 @@
         },
         {
           "ko": "앞바퀴가 휘어서",
-          "en": "The front wheel is bent"
+          "en": "Bent front wheel"
         },
         {
-          "ko": "브레이크가 고장 나서",
-          "en": "The brakes broke"
+          "ko": "브레이크 고장",
+          "en": "Broken brakes"
         }
       ],
       "answer": 2,

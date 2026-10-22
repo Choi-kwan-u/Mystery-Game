@@ -1,6 +1,6 @@
 {
   "id": 27,
-  "date": "2026-11-21",
+  "date": "2026-11-11",
   "type": "lie",
   "image": "img/027.webp",
   "title": {
@@ -12,8 +12,8 @@
     "en": "A clear Sunday morning at a mountaintop lookout. We spoke to a man holding a coffee. Here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "등산은 오늘이 처음이에요. 날씨가 맑아서 저 아래 마을까지 다 보이네요. 여기까지 두 발로 걸어 올라왔어요.",
-    "en": "It's my first time hiking. It's so clear you can see the village way down there. I walked all the way up here on my own two feet."
+    "ko": "여기까지 두 발로 걸어 올라왔어요. 등산은 오늘이 처음이고요. 올라오는 길이 진흙탕이라 다들 고생하더라고요. 날씨가 맑아서 저 아래 마을까지 다 보이네요.",
+    "en": "I walked all the way up here on my own two feet. It's my first time hiking. The trail's all mud, so everyone's having a rough time. It's so clear you can see the village way down there."
   },
   "questions": [
     {
@@ -24,55 +24,26 @@
       },
       "options": [
         {
-          "ko": "등산은 오늘이 처음이다",
-          "en": "It's his first time hiking"
+          "ko": "걸어 올라왔다",
+          "en": "He walked up"
         },
         {
-          "ko": "아래 마을까지 다 보인다",
-          "en": "You can see the village below"
+          "ko": "등산이 처음이다",
+          "en": "It's his first hike"
         },
         {
-          "ko": "정상까지 걸어 올라왔다",
-          "en": "He walked all the way up"
+          "ko": "길이 진흙탕이다",
+          "en": "The trail is muddy"
         },
         {
-          "ko": "모두 사진과 맞다",
-          "en": "Everything matches the photo"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e3"
-      ]
-    },
-    {
-      "key": "tell",
-      "ask": {
-        "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which clue gives the lie away?"
-      },
-      "options": [
-        {
-          "ko": "진흙 하나 안 묻은 신발",
-          "en": "His shoes without a speck of mud"
-        },
-        {
-          "ko": "맑은 하늘",
-          "en": "The clear sky"
-        },
-        {
-          "ko": "손에 든 커피",
-          "en": "The coffee in his hand"
-        },
-        {
-          "ko": "등에 멘 배낭",
-          "en": "The backpack on his back"
+          "ko": "마을까지 다 보인다",
+          "en": "You can see the village"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e1"
+        "e1",
+        "e3"
       ]
     },
     {
@@ -87,49 +58,78 @@
           "en": "A hospital bracelet"
         },
         {
-          "ko": "케이블카 탑승 밴드",
-          "en": "A cable car ticket band"
-        },
-        {
           "ko": "콘서트 입장 밴드",
           "en": "A concert wristband"
         },
         {
-          "ko": "놀이공원 자유이용권",
-          "en": "An amusement park pass"
+          "ko": "케이블카 탑승 밴드",
+          "en": "A cable car ticket band"
+        },
+        {
+          "ko": "놀이공원 이용권",
+          "en": "A theme-park pass"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
         "e2",
         "e3"
       ]
     },
     {
+      "key": "others",
+      "ask": {
+        "ko": "옆 등산객들의 진흙투성이 신발이 말해 주는 것은?",
+        "en": "What do the other hikers' muddy boots tell you?"
+      },
+      "options": [
+        {
+          "ko": "비가 오고 있다",
+          "en": "It's raining"
+        },
+        {
+          "ko": "길이 진흙탕이다",
+          "en": "The trail is muddy"
+        },
+        {
+          "ko": "등산화가 낡았다",
+          "en": "Their boots are old"
+        },
+        {
+          "ko": "계곡을 건넜다",
+          "en": "They crossed a stream"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
       "key": "how",
       "ask": {
         "ko": "그는 정상까지 어떻게 올라왔을까?",
-        "en": "How did he really get to the top?"
+        "en": "How did he get to the top?"
       },
       "options": [
         {
           "ko": "헬기",
-          "en": "By helicopter"
+          "en": "Helicopter"
         },
         {
           "ko": "산악자전거",
-          "en": "On a mountain bike"
-        },
-        {
-          "ko": "지름길로 걸어서",
-          "en": "On foot, by a shortcut"
+          "en": "Mountain bike"
         },
         {
           "ko": "케이블카",
-          "en": "By cable car"
+          "en": "Cable car"
+        },
+        {
+          "ko": "지름길로 걸어서",
+          "en": "A shortcut on foot"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
         "e2",
         "e3",
@@ -140,23 +140,23 @@
       "key": "first",
       "ask": {
         "ko": "'등산이 처음'이라는 말과 맞는 단서는?",
-        "en": "Which detail fits 'first time hiking'?"
+        "en": "Which clue backs up 'first time hiking'?"
       },
       "options": [
         {
-          "ko": "구김 하나 없는 새 등산복",
-          "en": "A spotless, brand-new hiking outfit"
+          "ko": "면바지에 가죽 구두",
+          "en": "His chinos and dress shoes"
         },
         {
-          "ko": "다른 등산객들의 진흙 신발",
-          "en": "The other hikers' muddy boots"
+          "ko": "진흙투성이 등산객들",
+          "en": "The muddy hikers"
         },
         {
-          "ko": "케이블카",
-          "en": "The cable car"
+          "ko": "도착하는 케이블카",
+          "en": "The arriving cable car"
         },
         {
-          "ko": "아래 마을",
+          "ko": "저 아래 마을",
           "en": "The village below"
         }
       ],
@@ -213,8 +213,8 @@
       "y": 28,
       "r": 7,
       "label": {
-        "ko": "구김 없는 새 등산복과 땀 한 방울 없는 얼굴",
-        "en": "A crisp new outfit and a face without a drop of sweat"
+        "ko": "구김 없는 면바지와 반짝이는 가죽 구두 — 등산복도 등산화도 아니다. 땀 한 방울 없는 얼굴",
+        "en": "Crisp chinos and shiny leather shoes — no hiking gear at all. Not a drop of sweat on his face"
       }
     },
     {
@@ -229,7 +229,7 @@
     }
   ],
   "detective": {
-    "ko": "하늘은 맑고 저 아래 마을까지 또렷이 보인다. 그 말은 사실이다. 등산복은 구김 하나 없는 새것 — 등산이 처음이라는 것도 맞다. 그런데 정상으로 오는 길은 진흙탕이다. 옆에서 숨을 고르는 등산객들은 신발이 진흙투성이고 얼굴은 땀범벅이다. 그의 신발엔 진흙 한 점 없고 이마엔 땀 한 방울 없다. 지름길로 걸어왔어도 이 길을 피할 수는 없다. 손목엔 주황색 종이 밴드가 감겨 있고, 바로 뒤엔 케이블카가 막 도착하고 있다. 병원 팔찌도 콘서트 밴드도 아니다. 케이블카 탑승 밴드다. 그는 걸어서가 아니라 케이블카를 타고 올라왔다.",
-    "en": "The sky is clear and the village far below is sharp — true. His hiking outfit is crisp and brand-new — first time hiking, also true. But the trail up here is pure mud. The hikers catching their breath beside him have boots caked in it and faces drenched in sweat. His shoes don't have a speck of mud, and there isn't a drop of sweat on his brow. No shortcut avoids this path. On his wrist is an orange paper band, and right behind him a cable car is pulling in. Not a hospital bracelet, not a concert band: a cable car ticket. He didn't walk up. He rode."
+    "ko": "하늘은 맑고 저 아래 마을까지 또렷이 보인다. 그 말은 사실이다. 등산복도 등산화도 아닌 면바지에 가죽 구두 차림 — 등산이 처음이라는 것도 맞다. 그런데 정상으로 오는 길은 진흙탕이다. 옆에서 숨을 고르는 등산객들은 신발이 진흙투성이고 얼굴은 땀범벅이다. 그의 신발엔 진흙 한 점 없고 이마엔 땀 한 방울 없다. 지름길로 걸어왔어도 이 길을 피할 수는 없다. 손목엔 주황색 종이 밴드가 감겨 있고, 바로 뒤엔 케이블카가 막 도착하고 있다. 병원 팔찌도 콘서트 밴드도 아니다. 케이블카 탑승 밴드다. 그는 걸어서가 아니라 케이블카를 타고 올라왔다.",
+    "en": "The sky is clear and the village far below is sharp — true. No hiking gear at all, just chinos and leather shoes — first time hiking, also true. But the trail up here is pure mud. The hikers catching their breath beside him have boots caked in it and faces drenched in sweat. His shoes don't have a speck of mud, and there isn't a drop of sweat on his brow. No shortcut avoids this path. On his wrist is an orange paper band, and right behind him a cable car is pulling in. Not a hospital bracelet, not a concert band: a cable car ticket. He didn't walk up. He rode."
   }
 }
