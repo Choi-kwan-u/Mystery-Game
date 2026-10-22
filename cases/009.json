@@ -1,6 +1,6 @@
 {
   "id": 9,
-  "date": "2026-11-03",
+  "date": "2026-10-24",
   "image": "img/009.webp",
   "title": {
     "ko": "편의점 앞의 점심",
@@ -12,37 +12,6 @@
   },
   "questions": [
     {
-      "key": "job",
-      "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does he do?"
-      },
-      "options": [
-        {
-          "ko": "등산객",
-          "en": "Hiker"
-        },
-        {
-          "ko": "타일공",
-          "en": "Tile setter"
-        },
-        {
-          "ko": "정원사",
-          "en": "Gardener"
-        },
-        {
-          "ko": "농부",
-          "en": "Farmer"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e2",
-        "e4"
-      ]
-    },
-    {
       "key": "knees",
       "ask": {
         "ko": "바지 무릎만 더러운 이유는?",
@@ -50,20 +19,20 @@
       },
       "options": [
         {
-          "ko": "넘어져서",
-          "en": "He fell"
+          "ko": "길에서 넘어져서",
+          "en": "He fell over"
         },
         {
-          "ko": "하루 종일 무릎을 꿇고 일해서",
-          "en": "He kneels all day at work"
+          "ko": "무릎 꿇고 일해서",
+          "en": "Kneeling all day at work"
         },
         {
           "ko": "바닥 청소를 해서",
-          "en": "He was scrubbing floors"
+          "en": "Scrubbing floors"
         },
         {
-          "ko": "축구를 해서",
-          "en": "He played soccer"
+          "ko": "축구를 하다가",
+          "en": "Playing soccer"
         }
       ],
       "answer": 1,
@@ -75,27 +44,27 @@
       "key": "scratches",
       "ask": {
         "ko": "팔뚝의 가는 긁힌 자국은 무엇 때문일까?",
-        "en": "What made the thin scratches on his forearms?"
+        "en": "What made the fine scratches on his forearm?"
       },
       "options": [
-        {
-          "ko": "울타리 나뭇가지",
-          "en": "Hedge branches"
-        },
         {
           "ko": "선인장 가시",
           "en": "Cactus spines"
         },
         {
-          "ko": "철조망",
-          "en": "Barbed wire"
+          "ko": "녹슨 철조망",
+          "en": "Rusty barbed wire"
+        },
+        {
+          "ko": "울타리 나뭇가지",
+          "en": "Hedge branches"
         },
         {
           "ko": "고양이 발톱",
           "en": "A cat's claws"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
         "e2",
         "e5"
@@ -105,27 +74,27 @@
       "key": "neck",
       "ask": {
         "ko": "목 뒤만 유난히 빨갛게 탄 이유는?",
-        "en": "Why is only the back of his neck so sunburned?"
+        "en": "Why is only the back of his neck sunburned?"
       },
       "options": [
         {
           "ko": "얼굴에만 선크림을 발라서",
-          "en": "He only put sunscreen on his face"
+          "en": "Sunscreen on face only"
         },
         {
-          "ko": "땀띠가 나서",
-          "en": "It's heat rash"
+          "ko": "고개를 숙이고 일해서",
+          "en": "Working with head bowed"
         },
         {
-          "ko": "운전할 때 뒷창문으로 해가 들어서",
-          "en": "Sun through the rear car window"
+          "ko": "땀띠가 심하게 나서",
+          "en": "Bad heat rash"
         },
         {
-          "ko": "모자를 쓰고 고개를 숙인 채 일해서",
-          "en": "He works bent over in a cap"
+          "ko": "뒷창문 햇볕을 받아서",
+          "en": "Sun through a rear window"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
         "e3"
       ]
@@ -142,21 +111,52 @@
           "en": "Go home and rest"
         },
         {
-          "ko": "꽃시장에 장미를 사러 간다",
-          "en": "Buy roses at the flower market"
+          "ko": "꽃시장에 간다",
+          "en": "Go to the flower market"
         },
         {
-          "ko": "길 건너 울타리 쪽 일을 이어서 한다",
-          "en": "Get back to work on the hedge across the street"
+          "ko": "기계를 고치러 간다",
+          "en": "Go fix a mower"
         },
         {
-          "ko": "잔디 깎는 기계를 고치러 간다",
-          "en": "Get the lawn mower fixed"
+          "ko": "울타리로 돌아간다",
+          "en": "Back to the hedge"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e4"
+      ]
+    },
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do?"
+      },
+      "options": [
+        {
+          "ko": "등산객",
+          "en": "Hiker"
+        },
+        {
+          "ko": "타일공",
+          "en": "Tile layer"
+        },
+        {
+          "ko": "정원사",
+          "en": "Gardener"
+        },
+        {
+          "ko": "농부",
+          "en": "Farmer"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e5",
+        "e1",
+        "e2",
         "e4"
       ]
     }

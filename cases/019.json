@@ -1,6 +1,6 @@
 {
   "id": 19,
-  "date": "2026-11-13",
+  "date": "2026-11-03",
   "type": "lie",
   "image": "img/019.webp",
   "title": {
@@ -12,8 +12,8 @@
     "en": "Saturday afternoon, a home getting ready for a kid's birthday party. We asked the host about the cake. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "케이크는 제가 직접 구웠어요. 오늘 아이 생일 파티를 해요. 손님들은 아직 안 왔고요.",
-    "en": "I baked the cake myself. We're having my kid's birthday party today. The guests haven't arrived yet."
+    "ko": "오늘 아이 생일 파티를 해요. 손님들은 아직 안 왔고요. 케이크는 제가 직접 구웠어요. 접시랑 고깔모자도 다 준비해 놨죠.",
+    "en": "We're having my kid's birthday party today. The guests haven't arrived yet. I baked the cake myself. And the plates and party hats are all set out."
   },
   "questions": [
     {
@@ -24,111 +24,111 @@
       },
       "options": [
         {
-          "ko": "케이크를 직접 구웠다",
-          "en": "She baked the cake herself"
-        },
-        {
           "ko": "아이 생일 파티를 한다",
           "en": "It's her kid's birthday party"
         },
         {
           "ko": "손님은 아직 안 왔다",
-          "en": "The guests haven't arrived yet"
+          "en": "No guests yet"
         },
         {
-          "ko": "모두 사진과 맞다",
-          "en": "Everything matches the photo"
+          "ko": "케이크를 직접 구웠다",
+          "en": "She baked the cake"
+        },
+        {
+          "ko": "접시와 모자를 준비했다",
+          "en": "Plates and hats are ready"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
         "e2",
         "e3"
       ]
     },
     {
-      "key": "tell",
+      "key": "sink",
       "ask": {
-        "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which clue gives the lie away?"
+        "ko": "텅 비고 마른 개수대가 말해 주는 것은?",
+        "en": "What does the empty, dry sink tell you?"
       },
       "options": [
         {
-          "ko": "식탁의 종이 접시",
-          "en": "The paper plates on the table"
+          "ko": "케이크를 굽지 않았다",
+          "en": "She didn't bake"
         },
         {
-          "ko": "쓰레기통 속 리본 달린 케이크 상자",
-          "en": "The ribboned cake box in the trash"
+          "ko": "설거지를 이미 끝냈다",
+          "en": "She already washed up"
         },
         {
-          "ko": "식탁의 고깔모자",
-          "en": "The party hats on the table"
+          "ko": "그것만으로는 알 수 없다",
+          "en": "Can't tell yet"
         },
         {
-          "ko": "케이크에 꽂힌 새 초",
-          "en": "The new candles on the cake"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "board",
-      "ask": {
-        "ko": "케이크 밑에 깔린 금색 받침은 무엇일까?",
-        "en": "What's the gold disc under the cake?"
-      },
-      "options": [
-        {
-          "ko": "집에서 쓰는 쟁반",
-          "en": "A tray from her kitchen"
-        },
-        {
-          "ko": "생일 장식",
-          "en": "A birthday decoration"
-        },
-        {
-          "ko": "빵집에서 케이크를 올려 주는 종이 받침",
-          "en": "The cardboard board a bakery puts under a cake"
-        },
-        {
-          "ko": "냄비 받침",
-          "en": "A trivet"
+          "ko": "물이 끊겼다",
+          "en": "The water's off"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e1"
+        "e4"
+      ]
+    },
+    {
+      "key": "oven",
+      "ask": {
+        "ko": "오븐 속이 냄비로 꽉 찬 것이 말해 주는 것은?",
+        "en": "The oven is full of pots and pans. What does that tell you?"
+      },
+      "options": [
+        {
+          "ko": "오늘 오븐을 안 썼다",
+          "en": "It wasn't used today"
+        },
+        {
+          "ko": "오븐이 고장 났다",
+          "en": "It's broken"
+        },
+        {
+          "ko": "요리를 많이 했다",
+          "en": "She cooked a lot"
+        },
+        {
+          "ko": "냄비를 막 씻어 넣었다",
+          "en": "Pots just washed and stored"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3"
       ]
     },
     {
       "key": "guests",
       "ask": {
         "ko": "'손님은 아직 안 왔다'는 말과 맞는 단서는?",
-        "en": "Which detail fits 'the guests haven't arrived yet'?"
+        "en": "Which clue backs up 'no guests yet'?"
       },
       "options": [
         {
           "ko": "쓰레기통 속 상자",
-          "en": "The box in the trash"
+          "en": "The box in the bin"
         },
         {
           "ko": "냄비로 꽉 찬 오븐",
-          "en": "The oven full of pots"
+          "en": "The packed oven"
+        },
+        {
+          "ko": "깨끗한 접시와 포크",
+          "en": "Unused plates"
         },
         {
           "ko": "텅 빈 개수대",
           "en": "The empty sink"
-        },
-        {
-          "ko": "아무도 안 쓴 접시와 포크, 불 붙인 적 없는 초",
-          "en": "Unused plates and forks, candles never lit"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
         "e5",
         "e1"
@@ -142,23 +142,23 @@
       },
       "options": [
         {
-          "ko": "이웃이 집에서 구워 줬다",
-          "en": "A neighbor baked it at home"
+          "ko": "이웃이 구워 줬다",
+          "en": "A neighbor baked it"
+        },
+        {
+          "ko": "빵집에서 사 왔다",
+          "en": "A bakery"
         },
         {
           "ko": "아이가 만들었다",
           "en": "The kid made it"
         },
         {
-          "ko": "빵집에서 사 왔다",
-          "en": "She bought it at a bakery"
-        },
-        {
-          "ko": "어제 먹다 남은 케이크다",
-          "en": "It's left over from yesterday"
+          "ko": "어제 먹다 남았다",
+          "en": "Yesterday's leftovers"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
         "e2",
         "e1"

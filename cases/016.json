@@ -1,6 +1,6 @@
 {
   "id": 16,
-  "date": "2026-11-10",
+  "date": "2026-10-31",
   "type": "scene",
   "image": "img/016.webp",
   "title": {
@@ -13,50 +13,19 @@
   },
   "questions": [
     {
-      "key": "event",
-      "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
-      },
-      "options": [
-        {
-          "ko": "도둑이 들었다",
-          "en": "A burglar broke in"
-        },
-        {
-          "ko": "급한 연락을 받고 뛰쳐나갔다",
-          "en": "Someone got urgent news and rushed out"
-        },
-        {
-          "ko": "평소처럼 출근했다",
-          "en": "Someone left for work as usual"
-        },
-        {
-          "ko": "부부싸움을 했다",
-          "en": "A couple had a fight"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1",
-        "e3",
-        "e6"
-      ]
-    },
-    {
       "key": "when",
       "ask": {
         "ko": "언제 일어난 일일까?",
-        "en": "When did it happen?"
+        "en": "When did this happen?"
       },
       "options": [
         {
-          "ko": "몇 분 전",
-          "en": "A few minutes ago"
-        },
-        {
           "ko": "한 시간쯤 전",
           "en": "About an hour ago"
+        },
+        {
+          "ko": "몇 분 전",
+          "en": "Just a few minutes ago"
         },
         {
           "ko": "어젯밤",
@@ -67,7 +36,7 @@
           "en": "Before dawn"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e1"
       ]
@@ -81,22 +50,22 @@
       "options": [
         {
           "ko": "휴대폰",
-          "en": "The phone"
+          "en": "Phone"
         },
         {
           "ko": "차 열쇠",
-          "en": "The car keys"
-        },
-        {
-          "ko": "아무것도 안 두고 갔다",
-          "en": "Nothing"
+          "en": "Car keys"
         },
         {
           "ko": "출근 가방",
-          "en": "The work bag"
+          "en": "Work bag"
+        },
+        {
+          "ko": "아무것도 안 두고 갔다",
+          "en": "Nothing at all"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
         "e3",
         "e4",
@@ -111,6 +80,10 @@
       },
       "options": [
         {
+          "ko": "자기 차로",
+          "en": "In their own car"
+        },
+        {
           "ko": "누가 태우러 와서",
           "en": "Someone picked them up"
         },
@@ -119,15 +92,11 @@
           "en": "By taxi"
         },
         {
-          "ko": "자기 차로",
-          "en": "In their own car"
-        },
-        {
           "ko": "버스로",
           "en": "By bus"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
         "e5",
         "e6"
@@ -141,12 +110,8 @@
       },
       "options": [
         {
-          "ko": "고양이가 건드려서",
-          "en": "A cat knocked it over"
-        },
-        {
-          "ko": "벌떡 일어나다 쳐서",
-          "en": "Someone jumped up and hit it"
+          "ko": "고양이가 발로 쳐서",
+          "en": "The cat knocked it"
         },
         {
           "ko": "컵에 금이 가서",
@@ -155,12 +120,47 @@
         {
           "ko": "일부러 쏟았다",
           "en": "On purpose"
+        },
+        {
+          "ko": "급히 일어나다 쳐서",
+          "en": "Jumping up fast"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
         "e1",
         "e3"
+      ]
+    },
+    {
+      "key": "event",
+      "ask": {
+        "ko": "여기서 무슨 일이 있었을까?",
+        "en": "What happened here?"
+      },
+      "options": [
+        {
+          "ko": "도둑이 들어 뒤지고 갔다",
+          "en": "A burglar came through"
+        },
+        {
+          "ko": "평소처럼 출근했다",
+          "en": "A normal commute"
+        },
+        {
+          "ko": "급한 일로 뛰쳐나갔다",
+          "en": "Rushed out urgently"
+        },
+        {
+          "ko": "부부싸움이 났다",
+          "en": "A couple's fight"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e3",
+        "e6"
       ]
     }
   ],

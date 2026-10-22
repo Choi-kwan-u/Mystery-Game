@@ -1,6 +1,6 @@
 {
   "id": 22,
-  "date": "2026-11-16",
+  "date": "2026-11-06",
   "type": "lie",
   "image": "img/022.webp",
   "title": {
@@ -12,8 +12,8 @@
     "en": "Monday morning, an office parking garage. We asked the man beside his new car to show it off. Here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "이 차, 어제 새로 뽑았어요. 오늘 처음 몰고 출근했고요. 아직 긁힌 데 하나 없어요.",
-    "en": "I picked this car up brand-new yesterday. Today's the first time I drove it to work. Not a single scratch on it yet."
+    "ko": "이 차, 어제 새로 뽑았어요. 아직 긁힌 데 하나 없어요. 오늘 처음 몰고 출근했고요. 출고 때 받은 리본도 그대로 뒀어요.",
+    "en": "I picked this car up brand-new yesterday. Not a single scratch on it yet. Today's the first time I drove it to work. I even kept the ribbon from the dealership."
   },
   "questions": [
     {
@@ -25,54 +25,25 @@
       "options": [
         {
           "ko": "어제 새로 뽑았다",
-          "en": "He got the car brand-new yesterday"
-        },
-        {
-          "ko": "오늘 처음 몰고 출근했다",
-          "en": "Today he drove it to work for the first time"
+          "en": "He got it yesterday"
         },
         {
           "ko": "긁힌 데 하나 없다",
-          "en": "There isn't a single scratch on it"
+          "en": "Not a scratch on it"
         },
         {
-          "ko": "모두 사진과 맞다",
-          "en": "Everything matches the photo"
+          "ko": "오늘 처음 몰고 출근했다",
+          "en": "First drive to work today"
+        },
+        {
+          "ko": "리본을 그대로 뒀다",
+          "en": "He kept the ribbon"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
         "e1",
         "e2"
-      ]
-    },
-    {
-      "key": "tell",
-      "ask": {
-        "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which clue gives the lie away?"
-      },
-      "options": [
-        {
-          "ko": "의자에 씌운 비닐",
-          "en": "The plastic on the seats"
-        },
-        {
-          "ko": "대시보드의 빨간 리본",
-          "en": "The red bow on the dashboard"
-        },
-        {
-          "ko": "목에 건 사원증",
-          "en": "The ID badge around his neck"
-        },
-        {
-          "ko": "뒤 범퍼 모서리의 긁힌 자국",
-          "en": "The scrape on the rear bumper corner"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1"
       ]
     },
     {
@@ -83,20 +54,80 @@
       },
       "options": [
         {
-          "ko": "바로 옆 파란 띠를 두른 기둥",
-          "en": "The pillar right beside it, with its blue band"
-        },
-        {
           "ko": "다른 파란 차",
           "en": "Another blue car"
         },
         {
           "ko": "공사장 페인트",
-          "en": "Paint from a construction site"
+          "en": "Construction paint"
         },
         {
           "ko": "원래 차의 무늬",
-          "en": "It's part of the car's design"
+          "en": "The car's own trim"
+        },
+        {
+          "ko": "바로 옆 기둥",
+          "en": "The pillar"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "new",
+      "ask": {
+        "ko": "새 차라는 걸 보여 주는 단서는?",
+        "en": "Which clue shows the car is new?"
+      },
+      "options": [
+        {
+          "ko": "좌석 비닐",
+          "en": "Seat plastic"
+        },
+        {
+          "ko": "긁힌 범퍼",
+          "en": "The scraped bumper"
+        },
+        {
+          "ko": "주차장 기둥",
+          "en": "The pillar"
+        },
+        {
+          "ko": "주차장 조명",
+          "en": "The garage lights"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "how",
+      "ask": {
+        "ko": "범퍼는 어떻게 긁혔을까?",
+        "en": "How did the bumper get scraped?"
+      },
+      "options": [
+        {
+          "ko": "기둥에 비벼서",
+          "en": "Scraped along the pillar"
+        },
+        {
+          "ko": "돌이 튀어서",
+          "en": "A flying stone"
+        },
+        {
+          "ko": "옆 차가 박아서",
+          "en": "Another car hit it"
+        },
+        {
+          "ko": "문을 열다가",
+          "en": "Opening a door"
         }
       ],
       "answer": 0,
@@ -106,62 +137,31 @@
       ]
     },
     {
-      "key": "new",
+      "key": "commute",
       "ask": {
-        "ko": "'어제 새로 뽑았다'는 말과 맞는 단서는?",
-        "en": "Which detail fits 'brand-new yesterday'?"
+        "ko": "'오늘 처음 몰고 출근했다'는 말과 맞는 단서는?",
+        "en": "Which clue backs up 'first drive to work today'?"
       },
       "options": [
+        {
+          "ko": "대시보드 리본",
+          "en": "The dashboard ribbon"
+        },
         {
           "ko": "긁힌 범퍼",
           "en": "The scraped bumper"
         },
         {
+          "ko": "목에 건 사원증",
+          "en": "His company ID"
+        },
+        {
           "ko": "주차장 기둥",
-          "en": "The garage pillar"
-        },
-        {
-          "ko": "의자에 그대로 씌워진 비닐과 대시보드의 리본",
-          "en": "Plastic still on the seats and a bow on the dashboard"
-        },
-        {
-          "ko": "주차장 조명",
-          "en": "The garage lights"
+          "en": "The pillar"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e3",
-        "e4"
-      ]
-    },
-    {
-      "key": "when",
-      "ask": {
-        "ko": "차는 언제 긁혔을까?",
-        "en": "When did the car get scratched?"
-      },
-      "options": [
-        {
-          "ko": "어제 출고되기 전에",
-          "en": "Before it left the dealer yesterday"
-        },
-        {
-          "ko": "오늘 아침 여기 주차하다가",
-          "en": "This morning, parking right here"
-        },
-        {
-          "ko": "밤새 누가 긁고 갔다",
-          "en": "Someone hit it overnight"
-        },
-        {
-          "ko": "세차하다가",
-          "en": "At the car wash"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2",
         "e5"
       ]
     }

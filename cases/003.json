@@ -12,37 +12,6 @@
   },
   "questions": [
     {
-      "key": "job",
-      "ask": {
-        "ko": "이 사람은 어떤 일을 했을까?",
-        "en": "What did she do for a living?"
-      },
-      "options": [
-        {
-          "ko": "화가",
-          "en": "Painter"
-        },
-        {
-          "ko": "도서관 사서",
-          "en": "Librarian"
-        },
-        {
-          "ko": "우체국 집배원",
-          "en": "Mail carrier"
-        },
-        {
-          "ko": "은퇴한 초등학교 교사",
-          "en": "Retired elementary school teacher"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1",
-        "e2",
-        "e6"
-      ]
-    },
-    {
       "key": "day",
       "ask": {
         "ko": "오늘은 무슨 날일까?",
@@ -50,38 +19,37 @@
       },
       "options": [
         {
-          "ko": "손주의 운동회",
-          "en": "Her grandchild's field day"
+          "ko": "손주 운동회",
+          "en": "Grandkid's sports day"
         },
         {
-          "ko": "옛 제자의 결혼식",
-          "en": "A former student's wedding"
+          "ko": "결혼식에 간다",
+          "en": "A wedding"
         },
         {
-          "ko": "병원 정기 검진",
-          "en": "A routine checkup"
+          "ko": "병원 정기검진",
+          "en": "A hospital checkup"
         },
         {
-          "ko": "동창회",
+          "ko": "동창회 모임",
           "en": "A class reunion"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e5",
-        "e2"
+        "e5"
       ]
     },
     {
       "key": "memo",
       "ask": {
         "ko": "무릎 위의 또박또박 쓴 메모는 무엇일까?",
-        "en": "What's the neatly written note on her lap?"
+        "en": "What is the neatly written note on her lap?"
       },
       "options": [
         {
-          "ko": "오늘 결혼식에서 읽을 축사",
-          "en": "A speech for today's wedding"
+          "ko": "결혼식 축사",
+          "en": "A wedding speech"
         },
         {
           "ko": "장보기 목록",
@@ -89,11 +57,11 @@
         },
         {
           "ko": "병원 처방전",
-          "en": "A prescription"
+          "en": "A doctor's prescription"
         },
         {
           "ko": "버스 노선표",
-          "en": "A bus timetable"
+          "en": "A bus route"
         }
       ],
       "answer": 0,
@@ -105,61 +73,91 @@
     {
       "key": "letters",
       "ask": {
-        "ko": "가방 속 크레용 편지들은 누가 쓴 걸까?",
-        "en": "Who wrote the crayon letters in her bag?"
+        "ko": "가방 속 크레용 편지 묶음은 어떤 물건일까?",
+        "en": "What is the bundle of crayon letters in her bag?"
       },
       "options": [
         {
-          "ko": "그녀가 직접 그린 것",
-          "en": "She drew them herself"
+          "ko": "손주에게 줄 선물",
+          "en": "A gift for a grandkid"
         },
         {
-          "ko": "그녀의 자녀들",
-          "en": "Her own children"
+          "ko": "길에서 주운 것",
+          "en": "Something she found"
         },
         {
-          "ko": "그녀가 가르친 아이들",
-          "en": "Children she taught"
+          "ko": "버리려고 챙긴 짐",
+          "en": "Junk to throw out"
         },
         {
-          "ko": "이웃집 아이들",
-          "en": "Neighborhood kids"
+          "ko": "오래 간직한 편지",
+          "en": "Keepsake letters"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
-        "e2",
-        "e1"
+        "e2"
       ]
     },
     {
       "key": "gift",
       "ask": {
-        "ko": "오늘 결혼식에 그녀가 가져가는 특별한 선물은?",
-        "en": "What special gift is she bringing to the wedding?"
+        "ko": "오늘 그 편지 묶음은 어디에 쓰일까?",
+        "en": "What will the letters be for today?"
       },
       "options": [
         {
-          "ko": "손뜨개 목도리",
-          "en": "A hand-knitted scarf"
+          "ko": "손주에게 읽어 준다",
+          "en": "Reading to a grandkid"
         },
         {
-          "ko": "신랑이나 신부가 어릴 때 쓴 편지",
-          "en": "A letter the bride or groom wrote as a child"
+          "ko": "결혼하는 사람에게 준다",
+          "en": "A gift to the couple"
         },
         {
-          "ko": "꽃다발",
-          "en": "A bouquet"
+          "ko": "동창들과 돌려 본다",
+          "en": "Passing round with old friends"
         },
         {
-          "ko": "카메라",
-          "en": "A camera"
+          "ko": "버스에서 혼자 읽는다",
+          "en": "Reading alone on the bus"
         }
       ],
       "answer": 1,
       "evidence": [
         "e2",
         "e5"
+      ]
+    },
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람은 어떤 일을 했을까?",
+        "en": "What did she do for a living?"
+      },
+      "options": [
+        {
+          "ko": "은퇴한 화가",
+          "en": "Retired painter"
+        },
+        {
+          "ko": "은퇴한 사서",
+          "en": "Retired librarian"
+        },
+        {
+          "ko": "은퇴한 우체국 집배원",
+          "en": "Retired mail carrier"
+        },
+        {
+          "ko": "은퇴한 초등교사",
+          "en": "Retired teacher"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2",
+        "e6"
       ]
     }
   ],

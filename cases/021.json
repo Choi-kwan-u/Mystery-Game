@@ -1,6 +1,6 @@
 {
   "id": 21,
-  "date": "2026-11-15",
+  "date": "2026-11-05",
   "type": "scene",
   "image": "img/021.webp",
   "title": {
@@ -16,24 +16,24 @@
       "key": "event",
       "ask": {
         "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
+        "en": "What's going on here?"
       },
       "options": [
         {
-          "ko": "이사 준비 중",
-          "en": "Getting ready to move"
+          "ko": "이사 짐을 싸는 중",
+          "en": "Packing to move"
         },
         {
-          "ko": "도둑이 들었다",
-          "en": "A burglar got in"
+          "ko": "도둑이 들어 뒤졌다",
+          "en": "A burglary"
         },
         {
-          "ko": "휴가 여행 짐을 싸는 중",
+          "ko": "여행 짐을 싸는 중",
           "en": "Packing for a vacation"
         },
         {
-          "ko": "출장 준비 중",
-          "en": "Packing for a business trip"
+          "ko": "출장 짐을 싸는 중",
+          "en": "Packing for business"
         }
       ],
       "answer": 2,
@@ -51,12 +51,12 @@
       },
       "options": [
         {
-          "ko": "스키장",
-          "en": "A ski resort"
+          "ko": "남쪽 바닷가",
+          "en": "A beach"
         },
         {
-          "ko": "바닷가 휴양지",
-          "en": "A beach resort"
+          "ko": "겨울 스키장",
+          "en": "A ski resort"
         },
         {
           "ko": "출장지 호텔",
@@ -67,7 +67,7 @@
           "en": "A mountain campsite"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
         "e2",
         "e3"
@@ -81,23 +81,23 @@
       },
       "options": [
         {
+          "ko": "여권",
+          "en": "Their passport"
+        },
+        {
           "ko": "양말",
           "en": "Socks"
         },
         {
           "ko": "충전기",
-          "en": "A charger"
+          "en": "Charger"
         },
         {
           "ko": "선글라스",
           "en": "Sunglasses"
-        },
-        {
-          "ko": "여권",
-          "en": "The passport"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
         "e5",
         "e4"
@@ -111,23 +111,23 @@
       },
       "options": [
         {
-          "ko": "비행기",
-          "en": "By plane"
-        },
-        {
           "ko": "배",
           "en": "By ship"
         },
         {
           "ko": "고속버스",
-          "en": "By express bus"
+          "en": "By coach"
         },
         {
           "ko": "자기 차",
-          "en": "In their own car"
+          "en": "By car"
+        },
+        {
+          "ko": "비행기",
+          "en": "By plane"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "evidence": [
         "e5",
         "e1"
@@ -137,24 +137,24 @@
       "key": "with",
       "ask": {
         "ko": "누구와 함께 갈까?",
-        "en": "Who's going on this trip?"
+        "en": "Who's going with them?"
       },
       "options": [
         {
           "ko": "혼자",
-          "en": "Just the owner"
+          "en": "No one"
         },
         {
           "ko": "친구들과",
-          "en": "The owner and friends"
+          "en": "Some friends"
         },
         {
           "ko": "아이와 함께",
-          "en": "The owner and a child"
+          "en": "Their kid"
         },
         {
           "ko": "회사 동료와",
-          "en": "The owner and coworkers"
+          "en": "Coworkers"
         }
       ],
       "answer": 2,

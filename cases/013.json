@@ -1,6 +1,6 @@
 {
   "id": 13,
-  "date": "2026-11-07",
+  "date": "2026-10-28",
   "type": "room",
   "image": "img/013.webp",
   "title": {
@@ -13,10 +13,129 @@
   },
   "questions": [
     {
+      "key": "feathers",
+      "ask": {
+        "ko": "빈 새장에서 원래 무엇을 키웠을까?",
+        "en": "What used to live in the empty cage?"
+      },
+      "options": [
+        {
+          "ko": "비둘기",
+          "en": "A dove"
+        },
+        {
+          "ko": "고양이",
+          "en": "A cat"
+        },
+        {
+          "ko": "이구아나",
+          "en": "An iguana"
+        },
+        {
+          "ko": "햄스터",
+          "en": "A hamster"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "photo",
+      "ask": {
+        "ko": "벽 사진 속 무대 위의 젊은 남자는 누구일까?",
+        "en": "Who is the young man on stage in the wall photo?"
+      },
+      "options": [
+        {
+          "ko": "좋아하는 배우",
+          "en": "A favorite actor"
+        },
+        {
+          "ko": "좋아하는 가수",
+          "en": "A favorite singer"
+        },
+        {
+          "ko": "집주인의 아버지",
+          "en": "The owner's father"
+        },
+        {
+          "ko": "젊은 날의 집주인",
+          "en": "The young owner"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e4"
+      ]
+    },
+    {
+      "key": "ceiling",
+      "ask": {
+        "ko": "천장에 붙은 카드 한 장은 왜 거기 있을까?",
+        "en": "Why is a single card stuck to the ceiling?"
+      },
+      "options": [
+        {
+          "ko": "장식으로 붙였다",
+          "en": "Decoration"
+        },
+        {
+          "ko": "손주가 장난쳤다",
+          "en": "A grandkid's prank"
+        },
+        {
+          "ko": "던져서 붙였다",
+          "en": "Thrown up there"
+        },
+        {
+          "ko": "얼룩을 가리려고",
+          "en": "Hiding a stain"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "now",
+      "ask": {
+        "ko": "주인은 지금도 무대에 설까?",
+        "en": "Does the owner still perform?"
+      },
+      "options": [
+        {
+          "ko": "지금도 매일 선다",
+          "en": "Still performs nightly"
+        },
+        {
+          "ko": "은퇴했지만 연습한다",
+          "en": "Retired, still practicing"
+        },
+        {
+          "ko": "다음 주가 첫 무대다",
+          "en": "Debuts next week"
+        },
+        {
+          "ko": "선 적이 없다",
+          "en": "Has never performed"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e3",
+        "e6"
+      ]
+    },
+    {
       "key": "job",
       "ask": {
         "ko": "이 방의 주인은 무슨 일을 했을까?",
-        "en": "What did the owner of this room do for a living?"
+        "en": "What did the owner of this room do?"
       },
       "options": [
         {
@@ -41,125 +160,6 @@
         "e5",
         "e2",
         "e1"
-      ]
-    },
-    {
-      "key": "feathers",
-      "ask": {
-        "ko": "빈 새장에서 원래 무엇을 키웠을까?",
-        "en": "What used to live in the empty birdcage?"
-      },
-      "options": [
-        {
-          "ko": "고양이",
-          "en": "A cat"
-        },
-        {
-          "ko": "하얀 비둘기",
-          "en": "White doves"
-        },
-        {
-          "ko": "이구아나",
-          "en": "An iguana"
-        },
-        {
-          "ko": "햄스터",
-          "en": "A hamster"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "photo",
-      "ask": {
-        "ko": "벽 사진 속 무대 위의 젊은 남자는 누구일까?",
-        "en": "Who is the young man on stage in the photo?"
-      },
-      "options": [
-        {
-          "ko": "유명 배우",
-          "en": "A famous actor"
-        },
-        {
-          "ko": "유명 가수",
-          "en": "A famous singer"
-        },
-        {
-          "ko": "잡지 화보 모델",
-          "en": "A magazine model"
-        },
-        {
-          "ko": "젊은 시절의 집주인",
-          "en": "The owner, years ago"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1",
-        "e4"
-      ]
-    },
-    {
-      "key": "ceiling",
-      "ask": {
-        "ko": "천장에 붙은 카드 한 장은 왜 거기 있을까?",
-        "en": "Why is there a card stuck to the ceiling?"
-      },
-      "options": [
-        {
-          "ko": "관객이 고른 카드를 천장에 붙이는 마술",
-          "en": "A trick that sends a spectator's card up to the ceiling"
-        },
-        {
-          "ko": "장식으로 붙였다",
-          "en": "It's decoration"
-        },
-        {
-          "ko": "손주가 장난쳤다",
-          "en": "A grandchild's prank"
-        },
-        {
-          "ko": "천장 얼룩을 가리려고",
-          "en": "To hide a stain on the ceiling"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "now",
-      "ask": {
-        "ko": "주인은 지금도 무대에 설까?",
-        "en": "Does the owner still perform?"
-      },
-      "options": [
-        {
-          "ko": "매일 밤 무대에 선다",
-          "en": "Yes, every night"
-        },
-        {
-          "ko": "한 번도 무대에 선 적 없다",
-          "en": "Never has"
-        },
-        {
-          "ko": "은퇴했지만 손은 아직 연습한다",
-          "en": "Retired, but still practices"
-        },
-        {
-          "ko": "다음 주에 첫 무대에 선다",
-          "en": "Debuts next week"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e4",
-        "e3",
-        "e6"
       ]
     }
   ],

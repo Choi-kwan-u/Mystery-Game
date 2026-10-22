@@ -1,6 +1,6 @@
 {
   "id": 24,
-  "date": "2026-11-18",
+  "date": "2026-11-08",
   "type": "lie",
   "image": "img/024.webp",
   "title": {
@@ -12,8 +12,8 @@
     "en": "A rainy Monday morning in an office lobby. We spoke to a woman sitting on a bench. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "오늘 면접 보러 왔어요. 지하 주차장에 차를 대고 엘리베이터로 올라와서, 비는 한 방울도 안 맞았어요. 서류도 다 챙겨 왔고요.",
-    "en": "I'm here for a job interview. I parked in the underground garage and took the elevator up, so I didn't get a drop of rain on me. I've got all my papers, too."
+    "ko": "오늘 면접 보러 왔어요. 서류도 다 챙겨 왔고요. 도착해선 곧장 이 벤치에 앉았어요. 지하 주차장에 차를 대고 엘리베이터로 올라와서 비는 한 방울도 안 맞았거든요.",
+    "en": "I'm here for a job interview. I've got all my papers, too. I came straight to this bench when I arrived. I parked in the underground garage and took the elevator up, so I didn't get a drop of rain on me."
   },
   "questions": [
     {
@@ -25,53 +25,24 @@
       "options": [
         {
           "ko": "면접을 보러 왔다",
-          "en": "She's here for a job interview"
-        },
-        {
-          "ko": "주차장에서 엘리베이터로 올라와 비를 안 맞았다",
-          "en": "She came up from the garage and didn't get rained on"
+          "en": "She's here for an interview"
         },
         {
           "ko": "서류를 다 챙겨 왔다",
-          "en": "She brought all her papers"
+          "en": "She has all her papers"
         },
         {
-          "ko": "모두 사진과 맞다",
-          "en": "Everything matches the photo"
+          "ko": "곧장 벤치에 앉았다",
+          "en": "She went straight to the bench"
+        },
+        {
+          "ko": "비를 안 맞았다",
+          "en": "She stayed dry"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
         "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "tell",
-      "ask": {
-        "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which clue gives the lie away?"
-      },
-      "options": [
-        {
-          "ko": "무릎 위 투명 파일",
-          "en": "The clear folder on her lap"
-        },
-        {
-          "ko": "단정한 정장",
-          "en": "Her neat suit"
-        },
-        {
-          "ko": "정문에서 그녀 자리까지 이어진 젖은 발자국",
-          "en": "Wet footprints from the front door to her bench"
-        },
-        {
-          "ko": "로비의 벤치",
-          "en": "The lobby bench"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
         "e2"
       ]
     },
@@ -79,27 +50,27 @@
       "key": "elevator",
       "ask": {
         "ko": "엘리베이터 앞 바닥이 바싹 마른 것이 말해 주는 것은?",
-        "en": "The floor by the elevators is bone dry. What does that tell us?"
+        "en": "The floor by the elevators is bone-dry. What does that tell you?"
       },
       "options": [
         {
-          "ko": "그녀는 엘리베이터로 오지 않았다",
-          "en": "She didn't come from the elevators"
-        },
-        {
-          "ko": "청소를 막 끝냈다",
+          "ko": "방금 바닥을 닦았다",
           "en": "It was just mopped"
         },
         {
-          "ko": "엘리베이터가 고장 났다",
-          "en": "The elevators are broken"
+          "ko": "그쪽에서 온 사람이 없다",
+          "en": "Nobody came from there"
         },
         {
-          "ko": "비가 그쳤다",
+          "ko": "엘리베이터가 고장 났다",
+          "en": "Elevators broken"
+        },
+        {
+          "ko": "비가 이미 그쳤다",
           "en": "The rain has stopped"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e3",
         "e2"
@@ -108,25 +79,25 @@
     {
       "key": "legs",
       "ask": {
-        "ko": "머리와 상의는 멀쩡한데 바짓단만 젖고 흙탕물이 튄 이유는?",
-        "en": "Her hair and jacket are dry — why are only her trouser legs soaked and splashed?"
+        "ko": "머리와 상의는 멀쩡한데 바짓단만 젖은 이유는?",
+        "en": "Her hair and jacket are dry. Why are her trouser hems soaked?"
       },
       "options": [
         {
           "ko": "화장실에서 물이 튀어서",
-          "en": "Water splashed in the restroom"
+          "en": "Splashed at the sink"
         },
         {
-          "ko": "차에서 내리다 웅덩이를 밟아서",
-          "en": "She stepped in a puddle getting out of her car"
+          "ko": "내리다 웅덩이를 밟아서",
+          "en": "Stepped in one puddle"
         },
         {
-          "ko": "우산을 쓰고 빗길을 한참 걸어서",
-          "en": "She walked a long way in the rain under an umbrella"
+          "ko": "빗길을 한참 걸어서",
+          "en": "A long walk in the rain"
         },
         {
           "ko": "원래 얼룩진 바지라서",
-          "en": "The trousers were already stained"
+          "en": "They were already stained"
         }
       ],
       "answer": 2,
@@ -136,10 +107,39 @@
       ]
     },
     {
+      "key": "entrance",
+      "ask": {
+        "ko": "그녀는 어디로 들어왔을까?",
+        "en": "Which way did she come in?"
+      },
+      "options": [
+        {
+          "ko": "유리 정문",
+          "en": "Through the front doors"
+        },
+        {
+          "ko": "지하 주차장",
+          "en": "From the garage"
+        },
+        {
+          "ko": "건물 뒷문",
+          "en": "A back door"
+        },
+        {
+          "ko": "옆 건물 통로",
+          "en": "A side passage"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
       "key": "papers",
       "ask": {
         "ko": "'서류를 다 챙겨 왔다'는 말과 맞는 단서는?",
-        "en": "Which detail fits 'I've got all my papers'?"
+        "en": "Which clue backs up 'she has all her papers'?"
       },
       "options": [
         {
@@ -148,18 +148,18 @@
         },
         {
           "ko": "정문 밖 빗줄기",
-          "en": "The rain outside the door"
+          "en": "The rain outside"
+        },
+        {
+          "ko": "무릎 위 파일",
+          "en": "Her folder"
         },
         {
           "ko": "엘리베이터",
           "en": "The elevators"
-        },
-        {
-          "ko": "무릎 위 투명 파일 속 서류",
-          "en": "The papers in the clear folder on her lap"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
         "e5"
       ]

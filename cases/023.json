@@ -1,6 +1,6 @@
 {
   "id": 23,
-  "date": "2026-11-17",
+  "date": "2026-11-07",
   "type": "scene",
   "image": "img/023.webp",
   "title": {
@@ -8,8 +8,8 @@
     "en": "Visitors in the Night"
   },
   "intro": {
-    "ko": "아침 7시, 숲속 캠핑장. 텐트 앞이 엉망이다. 밤사이 여기서 무슨 일이 있었을까?",
-    "en": "7 a.m. at a forest campsite. The area in front of the tent is a mess. What happened here overnight?"
+    "ko": "아침 7시, 캐나다의 숲속 캠핑장. 텐트 앞이 엉망이다. 밤사이 여기서 무슨 일이 있었을까?",
+    "en": "7 a.m. at a forest campsite in Canada. The area in front of the tent is a mess. What happened here overnight?"
   },
   "questions": [
     {
@@ -20,20 +20,20 @@
       },
       "options": [
         {
-          "ko": "도둑이 캠핑장을 털었다",
-          "en": "A thief raided the camp"
+          "ko": "도둑이 음식을 훔쳤다",
+          "en": "A thief took the food"
         },
         {
-          "ko": "야생 동물이 음식을 뒤졌다",
-          "en": "A wild animal went through the food"
+          "ko": "동물이 음식을 뒤졌다",
+          "en": "An animal raid"
         },
         {
-          "ko": "비바람이 몰아쳤다",
+          "ko": "밤새 비바람이 쳤다",
           "en": "A storm blew through"
         },
         {
-          "ko": "캠핑객들이 싸웠다",
-          "en": "The campers had a fight"
+          "ko": "캠핑객끼리 싸웠다",
+          "en": "The campers fought"
         }
       ],
       "answer": 1,
@@ -41,6 +41,94 @@
         "e1",
         "e2",
         "e4"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "언제 일어난 일일까?",
+        "en": "When did it happen?"
+      },
+      "options": [
+        {
+          "ko": "저녁 식사 때",
+          "en": "At dinner"
+        },
+        {
+          "ko": "해 뜬 직후",
+          "en": "Just after sunrise"
+        },
+        {
+          "ko": "한밤중",
+          "en": "Late at night"
+        },
+        {
+          "ko": "어제 점심때",
+          "en": "Yesterday at lunch"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e3"
+      ]
+    },
+    {
+      "key": "cooler",
+      "ask": {
+        "ko": "아이스박스 뚜껑은 어떻게 열렸을까?",
+        "en": "How did the cooler lid get opened?"
+      },
+      "options": [
+        {
+          "ko": "곰이 부수고 열었다",
+          "en": "A bear smashed it"
+        },
+        {
+          "ko": "캠핑객이 덜 닫았다",
+          "en": "Left unlatched"
+        },
+        {
+          "ko": "앞발로 걸쇠를 풀었다",
+          "en": "Little paws on the latch"
+        },
+        {
+          "ko": "바람에 저절로 열렸다",
+          "en": "The wind blew it"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "gone",
+      "ask": {
+        "ko": "손님은 어디로 사라졌을까?",
+        "en": "Where did the visitor go?"
+      },
+      "options": [
+        {
+          "ko": "텐트 안으로",
+          "en": "Into the tent"
+        },
+        {
+          "ko": "나무 위로",
+          "en": "Up a tree"
+        },
+        {
+          "ko": "개울 쪽으로",
+          "en": "To the creek"
+        },
+        {
+          "ko": "차 밑으로",
+          "en": "Under the car"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e6"
       ]
     },
     {
@@ -59,105 +147,17 @@
           "en": "A fox"
         },
         {
-          "ko": "라쿤",
-          "en": "A raccoon"
-        },
-        {
           "ko": "들고양이",
           "en": "A feral cat"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "cooler",
-      "ask": {
-        "ko": "아이스박스 뚜껑은 어떻게 열렸을까?",
-        "en": "How did the cooler get open?"
-      },
-      "options": [
-        {
-          "ko": "곰이 부수고 열었다",
-          "en": "A bear smashed it open"
         },
         {
-          "ko": "캠핑객이 뚜껑을 덜 닫고 잤다",
-          "en": "The campers didn't shut it properly"
-        },
-        {
-          "ko": "바람에 열렸다",
-          "en": "The wind blew it open"
-        },
-        {
-          "ko": "작은 앞발로 걸쇠를 풀었다",
-          "en": "Little paws undid the latch"
+          "ko": "라쿤",
+          "en": "A raccoon"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "when",
-      "ask": {
-        "ko": "언제 일어난 일일까?",
-        "en": "When did it happen?"
-      },
-      "options": [
-        {
-          "ko": "모두 잠든 한밤중",
-          "en": "In the dead of night"
-        },
-        {
-          "ko": "저녁 식사 중",
-          "en": "During dinner"
-        },
-        {
-          "ko": "해 뜬 뒤 아침",
-          "en": "After sunrise"
-        },
-        {
-          "ko": "어제 점심때",
-          "en": "Yesterday at lunch"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5",
-        "e3"
-      ]
-    },
-    {
-      "key": "gone",
-      "ask": {
-        "ko": "손님은 어디로 사라졌을까?",
-        "en": "Where did the visitor go?"
-      },
-      "options": [
-        {
-          "ko": "텐트 안으로",
-          "en": "Into the tent"
-        },
-        {
-          "ko": "개울 쪽으로",
-          "en": "Toward the stream"
-        },
-        {
-          "ko": "나무 위로",
-          "en": "Up the tree"
-        },
-        {
-          "ko": "차 밑으로",
-          "en": "Under the car"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e6"
+        "e2"
       ]
     }
   ],

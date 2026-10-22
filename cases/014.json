@@ -1,6 +1,6 @@
 {
   "id": 14,
-  "date": "2026-11-08",
+  "date": "2026-10-29",
   "image": "img/014.webp",
   "title": {
     "ko": "국밥집의 구멍 난 재킷",
@@ -11,6 +11,122 @@
     "en": "6 p.m. on a weekday, a soup restaurant by an industrial park. A man in his fifties eats dinner alone. Who is he?"
   },
   "questions": [
+    {
+      "key": "holes",
+      "ask": {
+        "ko": "재킷의 작은 구멍들은 무엇 때문일까?",
+        "en": "What made the little holes in his jacket?"
+      },
+      "options": [
+        {
+          "ko": "담뱃불 자국",
+          "en": "Cigarette burns"
+        },
+        {
+          "ko": "좀벌레가 먹어서",
+          "en": "Moths"
+        },
+        {
+          "ko": "튀는 불똥",
+          "en": "Flying sparks"
+        },
+        {
+          "ko": "오래 입어 해져서",
+          "en": "Plain wear and tear"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "posture",
+      "ask": {
+        "ko": "오늘 주로 어떤 자세로 일했을까?",
+        "en": "What position did he mostly work in today?"
+      },
+      "options": [
+        {
+          "ko": "위를 올려다보며",
+          "en": "Looking up overhead"
+        },
+        {
+          "ko": "바닥에 쪼그려 앉아",
+          "en": "Squatting on the floor"
+        },
+        {
+          "ko": "작업대 앞에 서서",
+          "en": "Standing at a bench"
+        },
+        {
+          "ko": "의자에 앉은 채로",
+          "en": "Sitting in a chair"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "neck",
+      "ask": {
+        "ko": "얼굴은 멀쩡한데 목만 V자로 빨간 이유는?",
+        "en": "His face is fine. Why is only a V on his neck red?"
+      },
+      "options": [
+        {
+          "ko": "햇볕에 그을려서",
+          "en": "Plain old sunburn"
+        },
+        {
+          "ko": "면도하다 쓸려서",
+          "en": "Razor burn"
+        },
+        {
+          "ko": "땀띠가 올라와서",
+          "en": "Heat rash"
+        },
+        {
+          "ko": "틈새로 빛을 쬐어서",
+          "en": "Light through a gap"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "eyes",
+      "ask": {
+        "ko": "그가 안약을 넣는 이유는?",
+        "en": "Why does he use eye drops?"
+      },
+      "options": [
+        {
+          "ko": "스마트폰을 오래 봐서",
+          "en": "Too much phone time"
+        },
+        {
+          "ko": "센 불빛을 오래 봐서",
+          "en": "Glaring light"
+        },
+        {
+          "ko": "꽃가루 알레르기",
+          "en": "Pollen allergy"
+        },
+        {
+          "ko": "잠을 못 자서",
+          "en": "Not enough sleep"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4"
+      ]
+    },
     {
       "key": "job",
       "ask": {
@@ -40,122 +156,6 @@
         "e1",
         "e2",
         "e5"
-      ]
-    },
-    {
-      "key": "holes",
-      "ask": {
-        "ko": "재킷의 작은 구멍들은 무엇 때문일까?",
-        "en": "What made the tiny holes in his jacket?"
-      },
-      "options": [
-        {
-          "ko": "담뱃불",
-          "en": "Cigarette burns"
-        },
-        {
-          "ko": "좀벌레",
-          "en": "Moths"
-        },
-        {
-          "ko": "튀는 불똥",
-          "en": "Flying sparks"
-        },
-        {
-          "ko": "오래 입어 해져서",
-          "en": "Plain wear and tear"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "posture",
-      "ask": {
-        "ko": "오늘 주로 어떤 자세로 일했을까?",
-        "en": "How was he mostly working today?"
-      },
-      "options": [
-        {
-          "ko": "바닥에 쪼그려 앉아",
-          "en": "Crouching on the floor"
-        },
-        {
-          "ko": "머리 위를 올려다보며",
-          "en": "Looking up, working overhead"
-        },
-        {
-          "ko": "작업대 앞에 서서",
-          "en": "Standing at a workbench"
-        },
-        {
-          "ko": "의자에 앉아",
-          "en": "Sitting in a chair"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "neck",
-      "ask": {
-        "ko": "얼굴은 멀쩡한데 목만 V자로 빨간 이유는?",
-        "en": "His face is fine — why is only a V on his neck red?"
-      },
-      "options": [
-        {
-          "ko": "마스크와 옷깃 사이로 용접 빛을 받아서",
-          "en": "Welding light got in between mask and collar"
-        },
-        {
-          "ko": "햇볕에 타서",
-          "en": "Sunburn"
-        },
-        {
-          "ko": "면도하다 쓸려서",
-          "en": "Razor burn"
-        },
-        {
-          "ko": "땀띠가 나서",
-          "en": "Heat rash"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "eyes",
-      "ask": {
-        "ko": "그가 안약을 넣는 이유는?",
-        "en": "Why does he need eye drops?"
-      },
-      "options": [
-        {
-          "ko": "스마트폰을 오래 봐서",
-          "en": "Too much phone time"
-        },
-        {
-          "ko": "꽃가루 알레르기",
-          "en": "Hay fever"
-        },
-        {
-          "ko": "잠을 못 자서",
-          "en": "Not enough sleep"
-        },
-        {
-          "ko": "용접 불꽃을 오래 봐서",
-          "en": "Hours of welding glare"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e4"
       ]
     }
   ],

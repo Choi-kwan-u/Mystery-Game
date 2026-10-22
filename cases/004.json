@@ -7,31 +7,149 @@
     "en": "Rest Stop, 5 A.M."
   },
   "intro": {
-    "ko": "새벽 5시, 고속도로 휴게소 식당 창가. 40대 남성이 혼자 수프를 먹고 있다. 이 사람은 누구일까?",
-    "en": "5 a.m., a window table at a highway rest-stop diner. A man in his forties eats a bowl of soup alone. Who is he?"
+    "ko": "새벽 5시, 미국 고속도로 트럭 휴게소의 식당 창가. 40대 남성이 혼자 수프를 먹고 있다. 이 사람은 누구일까?",
+    "en": "5 a.m., a window table at a truck-stop diner on an American highway. A man in his forties eats a bowl of soup alone. Who is he?"
   },
   "questions": [
+    {
+      "key": "night",
+      "ask": {
+        "ko": "밤새 무엇을 했을까?",
+        "en": "What did he do last night?"
+      },
+      "options": [
+        {
+          "ko": "방금 일어났다",
+          "en": "Just woke up"
+        },
+        {
+          "ko": "밤새 깨어 있었다",
+          "en": "Up all night"
+        },
+        {
+          "ko": "밤새 술을 마셨다",
+          "en": "Drank all night"
+        },
+        {
+          "ko": "푹 자고 나왔다",
+          "en": "Slept like a log"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e2"
+      ]
+    },
+    {
+      "key": "arm",
+      "ask": {
+        "ko": "왼팔만 짙게 탄 이유는?",
+        "en": "Why is only his left arm deeply tanned?"
+      },
+      "options": [
+        {
+          "ko": "왼손잡이라서",
+          "en": "He's left-handed"
+        },
+        {
+          "ko": "한쪽 소매만 짧아서",
+          "en": "One short sleeve"
+        },
+        {
+          "ko": "낚시를 자주 해서",
+          "en": "He fishes a lot"
+        },
+        {
+          "ko": "창가에 팔을 걸쳐서",
+          "en": "Arm resting out a window"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "seat",
+      "ask": {
+        "ko": "그는 왜 굳이 창가 자리에 앉았을까?",
+        "en": "Why did he pick the window seat?"
+      },
+      "options": [
+        {
+          "ko": "세워 둔 차를 보려고",
+          "en": "To watch his vehicle"
+        },
+        {
+          "ko": "경치를 보고 싶어서",
+          "en": "To enjoy the view"
+        },
+        {
+          "ko": "햇볕을 쬐고 싶어서",
+          "en": "To sit in the sunshine"
+        },
+        {
+          "ko": "자리가 거기뿐이라서",
+          "en": "Only seat left"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "next",
+      "ask": {
+        "ko": "밥을 먹고 나면 무엇을 할까?",
+        "en": "What will he do after eating?"
+      },
+      "options": [
+        {
+          "ko": "바로 다시 출발한다",
+          "en": "Hit the road again"
+        },
+        {
+          "ko": "집에 들어간다",
+          "en": "Head home"
+        },
+        {
+          "ko": "차에서 눈을 붙인다",
+          "en": "Catch a nap in his vehicle"
+        },
+        {
+          "ko": "짐을 내리러 간다",
+          "en": "Go unload cargo"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e3"
+      ]
+    },
     {
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
-        "en": "What does he do for a living?"
+        "en": "What does he do?"
       },
       "options": [
         {
-          "ko": "택배 기사",
-          "en": "Delivery driver"
+          "ko": "시내 택배 기사",
+          "en": "Local delivery driver"
         },
         {
-          "ko": "장거리 트럭 운전사",
+          "ko": "장거리 트럭 기사",
           "en": "Long-haul trucker"
         },
         {
-          "ko": "건설 노동자",
+          "ko": "현장 건설 노동자",
           "en": "Construction worker"
         },
         {
-          "ko": "택시 기사",
+          "ko": "개인 택시 기사",
           "en": "Taxi driver"
         }
       ],
@@ -40,124 +158,6 @@
         "e1",
         "e2",
         "e3"
-      ]
-    },
-    {
-      "key": "night",
-      "ask": {
-        "ko": "밤새 무엇을 했을까?",
-        "en": "What was he doing all night?"
-      },
-      "options": [
-        {
-          "ko": "밤새 운전",
-          "en": "Driving all night"
-        },
-        {
-          "ko": "야간 공사",
-          "en": "Night construction work"
-        },
-        {
-          "ko": "술자리",
-          "en": "Drinking with friends"
-        },
-        {
-          "ko": "푹 잤다",
-          "en": "Sleeping soundly"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e4",
-        "e2"
-      ]
-    },
-    {
-      "key": "next",
-      "ask": {
-        "ko": "밥을 먹고 나면 무엇을 할까?",
-        "en": "What will he do after he eats?"
-      },
-      "options": [
-        {
-          "ko": "바로 다시 출발한다",
-          "en": "Hit the road right away"
-        },
-        {
-          "ko": "집에 간다",
-          "en": "Head home"
-        },
-        {
-          "ko": "짐을 내린다",
-          "en": "Unload his cargo"
-        },
-        {
-          "ko": "트럭에서 쪽잠을 잔다",
-          "en": "Nap in his truck"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e5",
-        "e3"
-      ]
-    },
-    {
-      "key": "seat",
-      "ask": {
-        "ko": "텅 빈 식당에서 그는 왜 굳이 창가에 앉았을까?",
-        "en": "Why did he take the window seat in an empty diner?"
-      },
-      "options": [
-        {
-          "ko": "경치를 보려고",
-          "en": "To enjoy the view"
-        },
-        {
-          "ko": "햇볕을 쬐려고",
-          "en": "To sit in the sun"
-        },
-        {
-          "ko": "자리가 거기뿐이라서",
-          "en": "It was the only seat left"
-        },
-        {
-          "ko": "자기 트럭을 지켜보려고",
-          "en": "To keep an eye on his truck"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "arm",
-      "ask": {
-        "ko": "왼팔만 짙게 탄 이유는?",
-        "en": "Why is only his left arm tanned?"
-      },
-      "options": [
-        {
-          "ko": "왼손잡이라서",
-          "en": "He's left-handed"
-        },
-        {
-          "ko": "운전석 창가에 팔을 두고 달려서",
-          "en": "He drives with that arm by the window"
-        },
-        {
-          "ko": "한쪽 소매만 짧은 옷을 입어서",
-          "en": "One of his sleeves is shorter"
-        },
-        {
-          "ko": "낚시를 즐겨서",
-          "en": "He loves fishing"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1"
       ]
     }
   ],

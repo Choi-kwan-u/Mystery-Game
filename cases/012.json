@@ -1,6 +1,6 @@
 {
   "id": 12,
-  "date": "2026-11-06",
+  "date": "2026-10-27",
   "image": "img/012.webp",
   "title": {
     "ko": "털투성이 승객",
@@ -12,30 +12,60 @@
   },
   "questions": [
     {
-      "key": "job",
+      "key": "fur",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does she do?"
+        "ko": "검은 옷에 잔뜩 붙은 하얀 털의 정체는?",
+        "en": "What is all the white fluff on her black clothes?"
       },
       "options": [
         {
-          "ko": "수의사",
-          "en": "Veterinarian"
+          "ko": "옷 보풀",
+          "en": "Lint"
         },
         {
-          "ko": "미용사",
-          "en": "Hairdresser"
+          "ko": "실밥",
+          "en": "Loose thread"
         },
         {
-          "ko": "재단사",
-          "en": "Tailor"
+          "ko": "사람 머리카락",
+          "en": "Human hair"
         },
         {
-          "ko": "반려견 미용사",
-          "en": "Dog groomer"
+          "ko": "개털",
+          "en": "Dog hair"
         }
       ],
       "answer": 3,
+      "evidence": [
+        "e1",
+        "e4"
+      ]
+    },
+    {
+      "key": "commute",
+      "ask": {
+        "ko": "지금은 출근길일까, 퇴근길일까?",
+        "en": "Is she on her way to work or home?"
+      },
+      "options": [
+        {
+          "ko": "퇴근길",
+          "en": "Going home"
+        },
+        {
+          "ko": "출근길",
+          "en": "To work"
+        },
+        {
+          "ko": "점심 먹으러 가는 길",
+          "en": "Out for lunch"
+        },
+        {
+          "ko": "쉬는 날 외출",
+          "en": "Day off"
+        }
+      ],
+      "answer": 0,
       "evidence": [
         "e1",
         "e2",
@@ -43,27 +73,27 @@
       ]
     },
     {
-      "key": "kind",
+      "key": "seat",
       "ask": {
-        "ko": "빈자리가 있는데도 서 있는 걸 보면, 그녀는 어떤 사람일까?",
-        "en": "She's standing even though there are empty seats. What kind of person is she?"
+        "ko": "빈자리가 있는데도 앉지 않는 이유는?",
+        "en": "Why won't she sit, even with empty seats?"
       },
       "options": [
         {
-          "ko": "성격이 급한 사람",
-          "en": "Someone impatient"
+          "ko": "곧 내려야 해서",
+          "en": "Getting off soon"
         },
         {
-          "ko": "운동을 좋아하는 사람",
-          "en": "Someone who likes the exercise"
+          "ko": "서 있는 게 편해서",
+          "en": "Standing feels better"
         },
         {
-          "ko": "남을 배려하는 사람",
-          "en": "Someone considerate of others"
+          "ko": "털이 묻을까 봐",
+          "en": "To spare the seat"
         },
         {
-          "ko": "남의 시선을 신경 안 쓰는 사람",
-          "en": "Someone who doesn't care what others think"
+          "ko": "운동 삼아 서서",
+          "en": "For the exercise"
         }
       ],
       "answer": 2,
@@ -80,16 +110,16 @@
       },
       "options": [
         {
-          "ko": "욕조에 기대 개를 씻겨서",
-          "en": "She leaned over a tub bathing dogs"
+          "ko": "욕조에 기대 일해서",
+          "en": "Leaning on a tub"
         },
         {
           "ko": "비를 맞아서",
-          "en": "She got caught in the rain"
+          "en": "Caught in the rain"
         },
         {
           "ko": "음료를 쏟아서",
-          "en": "She spilled a drink"
+          "en": "Spilled a drink"
         },
         {
           "ko": "땀을 흘려서",
@@ -102,63 +132,34 @@
       ]
     },
     {
-      "key": "commute",
+      "key": "job",
       "ask": {
-        "ko": "지금은 출근길일까, 퇴근길일까?",
-        "en": "Is she on her way to work, or home from it?"
+        "ko": "이 사람의 직업은?",
+        "en": "What does she do?"
       },
       "options": [
         {
-          "ko": "출근길",
-          "en": "On her way to work"
+          "ko": "동물병원 수의사",
+          "en": "Veterinarian"
         },
         {
-          "ko": "퇴근길",
-          "en": "On her way home from work"
+          "ko": "헤어 미용사",
+          "en": "Hairdresser"
         },
         {
-          "ko": "점심 먹으러 가는 길",
-          "en": "Heading out for lunch"
+          "ko": "양복 재단사",
+          "en": "Tailor"
         },
         {
-          "ko": "쉬는 날 외출",
-          "en": "A day-off outing"
+          "ko": "반려견 미용사",
+          "en": "Dog groomer"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
         "e1",
         "e2",
         "e5"
-      ]
-    },
-    {
-      "key": "comb",
-      "ask": {
-        "ko": "가방 옆주머니의 쇠빗은 누구를 위한 걸까?",
-        "en": "Who is the metal comb in her bag's side pocket for?"
-      },
-      "options": [
-        {
-          "ko": "손님으로 온 개들",
-          "en": "The dogs she grooms"
-        },
-        {
-          "ko": "그녀 자신의 머리",
-          "en": "Her own hair"
-        },
-        {
-          "ko": "남자친구",
-          "en": "Her boyfriend"
-        },
-        {
-          "ko": "집에서 키우는 고양이",
-          "en": "Her cat at home"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e4"
       ]
     }
   ],

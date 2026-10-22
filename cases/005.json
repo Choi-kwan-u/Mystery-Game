@@ -12,6 +12,125 @@
   },
   "questions": [
     {
+      "key": "indoor",
+      "ask": {
+        "ko": "그는 주로 어디서 운동할까?",
+        "en": "Where does he usually train?"
+      },
+      "options": [
+        {
+          "ko": "실내 경기장",
+          "en": "Indoors"
+        },
+        {
+          "ko": "야외 운동장",
+          "en": "Outdoor fields"
+        },
+        {
+          "ko": "해변 모래사장",
+          "en": "On the beach"
+        },
+        {
+          "ko": "산악 지대",
+          "en": "In the mountains"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "now",
+      "ask": {
+        "ko": "지금은 무슨 시간일까?",
+        "en": "What's going on right now?"
+      },
+      "options": [
+        {
+          "ko": "연습 끝나고 귀가 중",
+          "en": "Home from practice"
+        },
+        {
+          "ko": "대회 중 점심시간",
+          "en": "Lunch break mid-tournament"
+        },
+        {
+          "ko": "대회 끝난 뒤풀이",
+          "en": "Post-tournament party"
+        },
+        {
+          "ko": "쉬는 날 쇼핑 중",
+          "en": "Shopping on a day off"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e2"
+      ]
+    },
+    {
+      "key": "worry",
+      "ask": {
+        "ko": "지금 그에게 가장 신경 쓰이는 곳은?",
+        "en": "What's bothering him most right now?"
+      },
+      "options": [
+        {
+          "ko": "허리",
+          "en": "His back"
+        },
+        {
+          "ko": "무릎",
+          "en": "His knees"
+        },
+        {
+          "ko": "어깨",
+          "en": "His shoulder"
+        },
+        {
+          "ko": "손가락",
+          "en": "His fingers"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e2"
+      ]
+    },
+    {
+      "key": "hand",
+      "ask": {
+        "ko": "경기할 때 주로 쓰는 손은?",
+        "en": "Which hand does he compete with?"
+      },
+      "options": [
+        {
+          "ko": "왼손",
+          "en": "Left"
+        },
+        {
+          "ko": "오른손",
+          "en": "Right"
+        },
+        {
+          "ko": "두 손 모두",
+          "en": "Both"
+        },
+        {
+          "ko": "그날그날 다르다",
+          "en": "It varies"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
@@ -40,125 +159,6 @@
         "e6",
         "e2",
         "e3"
-      ]
-    },
-    {
-      "key": "now",
-      "ask": {
-        "ko": "지금은 무슨 시간일까?",
-        "en": "What part of his day is this?"
-      },
-      "options": [
-        {
-          "ko": "연습을 마치고 집에 가는 길",
-          "en": "Heading home after practice"
-        },
-        {
-          "ko": "대회 중 점심시간",
-          "en": "The lunch break of a tournament"
-        },
-        {
-          "ko": "대회가 끝난 뒤풀이",
-          "en": "An after-tournament meal"
-        },
-        {
-          "ko": "쉬는 날 쇼핑",
-          "en": "Shopping on a day off"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4",
-        "e2"
-      ]
-    },
-    {
-      "key": "worry",
-      "ask": {
-        "ko": "지금 그에게 가장 신경 쓰이는 곳은?",
-        "en": "What's bothering him most right now?"
-      },
-      "options": [
-        {
-          "ko": "허리",
-          "en": "His back"
-        },
-        {
-          "ko": "오른쪽 손목",
-          "en": "His right wrist"
-        },
-        {
-          "ko": "무릎",
-          "en": "His knees"
-        },
-        {
-          "ko": "왼손 손가락",
-          "en": "The fingers of his left hand"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e5",
-        "e2"
-      ]
-    },
-    {
-      "key": "hand",
-      "ask": {
-        "ko": "그는 어느 손으로 공을 던질까?",
-        "en": "Which hand does he bowl with?"
-      },
-      "options": [
-        {
-          "ko": "왼손",
-          "en": "His left"
-        },
-        {
-          "ko": "오른손",
-          "en": "His right"
-        },
-        {
-          "ko": "두 손 모두",
-          "en": "Both hands"
-        },
-        {
-          "ko": "그날그날 다르다",
-          "en": "It changes day to day"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "wheels",
-      "ask": {
-        "ko": "그의 가방에는 왜 바퀴가 달려 있을까?",
-        "en": "Why does his bag have wheels?"
-      },
-      "options": [
-        {
-          "ko": "여행 가방이라서",
-          "en": "It's a suitcase"
-        },
-        {
-          "ko": "노트북이 들어 있어서",
-          "en": "There's a laptop inside"
-        },
-        {
-          "ko": "무거운 공이 들어 있어서",
-          "en": "There's a heavy ball inside"
-        },
-        {
-          "ko": "볼링화와 옷이 잔뜩 들어서",
-          "en": "It's stuffed with shoes and clothes"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e6"
       ]
     }
   ],

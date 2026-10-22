@@ -1,6 +1,6 @@
 {
   "id": 17,
-  "date": "2026-11-11",
+  "date": "2026-11-01",
   "type": "lie",
   "image": "img/017.webp",
   "title": {
@@ -12,8 +12,8 @@
     "en": "7 p.m., a kitchen. We asked a man in a fishing vest what he did today. Here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "오늘 바다에 다녀왔어요. 낚시 장비는 오늘 새로 샀고요. 이 생선, 제가 직접 낚은 거예요.",
-    "en": "I went to the sea today. I bought all this fishing gear today. And this fish — I caught it myself."
+    "ko": "이 생선, 제가 직접 낚은 거예요. 오늘 바다에 다녀왔거든요. 낚시 장비는 오늘 새로 샀고요. 미끼도 넉넉히 챙겨 갔죠.",
+    "en": "This fish — I caught it myself. I went to the sea today. I bought all this fishing gear today. And I brought plenty of bait."
   },
   "questions": [
     {
@@ -24,113 +24,84 @@
       },
       "options": [
         {
+          "ko": "생선을 직접 낚았다",
+          "en": "He caught the fish"
+        },
+        {
           "ko": "바다에 다녀왔다",
           "en": "He went to the sea"
         },
         {
-          "ko": "낚시 장비를 오늘 새로 샀다",
-          "en": "He bought the fishing gear today"
+          "ko": "장비를 오늘 샀다",
+          "en": "He bought the gear today"
         },
         {
-          "ko": "생선을 직접 낚았다",
-          "en": "He caught the fish himself"
-        },
-        {
-          "ko": "모두 사진과 맞다",
-          "en": "Everything matches the photo"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "tell",
-      "ask": {
-        "ko": "그 거짓말을 드러내는 단서는?",
-        "en": "Which clue gives the lie away?"
-      },
-      "options": [
-        {
-          "ko": "장화에 묻은 모래",
-          "en": "The sand on his boots"
-        },
-        {
-          "ko": "빨갛게 탄 얼굴",
-          "en": "His sunburned face"
-        },
-        {
-          "ko": "벽시계",
-          "en": "The wall clock"
-        },
-        {
-          "ko": "랩을 씌운 스티로폼 접시와 가격표 스티커",
-          "en": "The cling-wrapped styrofoam tray with a price sticker"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "gear",
-      "ask": {
-        "ko": "'장비를 오늘 새로 샀다'는 말과 맞는 단서는?",
-        "en": "Which detail fits 'I bought the gear today'?"
-      },
-      "options": [
-        {
-          "ko": "꼬리표가 그대로 달린 조끼와 낚싯대",
-          "en": "The tags still hanging from his vest and rod"
-        },
-        {
-          "ko": "장화의 모래",
-          "en": "The sand on his boots"
-        },
-        {
-          "ko": "벽시계",
-          "en": "The wall clock"
-        },
-        {
-          "ko": "생선의 크기",
-          "en": "The size of the fish"
+          "ko": "미끼를 챙겨 갔다",
+          "en": "He brought bait"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e2",
-        "e6"
+        "e1"
       ]
     },
     {
       "key": "bait",
       "ask": {
         "ko": "미끼 통 뚜껑이 뜯기지도 않은 것이 말해 주는 것은?",
-        "en": "The bait tub is still sealed. What does that tell us?"
+        "en": "The bait tub was never even opened. What does that tell you?"
       },
       "options": [
         {
           "ko": "미끼를 너무 많이 샀다",
-          "en": "He bought too much bait"
+          "en": "He bought too much"
         },
         {
-          "ko": "미끼가 상해서 버릴 거다",
-          "en": "The bait went bad"
+          "ko": "미끼가 상해서 버린다",
+          "en": "It went bad"
         },
         {
-          "ko": "생선이 미끼를 다 먹었다",
-          "en": "The fish ate all the bait"
+          "ko": "한 번도 안 썼다",
+          "en": "He never used it"
         },
         {
-          "ko": "미끼를 한 번도 안 썼다",
-          "en": "He never used any bait at all"
+          "ko": "생선이 다 먹었다",
+          "en": "The fish ate it all"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
         "e3"
+      ]
+    },
+    {
+      "key": "gear",
+      "ask": {
+        "ko": "장비가 새것이라는 걸 보여 주는 것은?",
+        "en": "What shows the gear is brand-new?"
+      },
+      "options": [
+        {
+          "ko": "장화에 묻은 모래",
+          "en": "Sand on his boots"
+        },
+        {
+          "ko": "달려 있는 꼬리표",
+          "en": "The tags still attached"
+        },
+        {
+          "ko": "빨갛게 탄 얼굴",
+          "en": "His sunburned face"
+        },
+        {
+          "ko": "벽에 걸린 시계",
+          "en": "The wall clock"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e6"
       ]
     },
     {
@@ -142,24 +113,54 @@
       "options": [
         {
           "ko": "이웃이 나눠 줬다",
-          "en": "A neighbor shared it"
+          "en": "A neighbor gave it"
         },
         {
-          "ko": "돌아오는 길에 가게에서 샀다",
-          "en": "He bought it at a shop on the way home"
-        },
-        {
-          "ko": "냉동실에 있던 것을 꺼냈다",
-          "en": "It came out of the freezer"
+          "ko": "냉동실에서 꺼냈다",
+          "en": "Out of the freezer"
         },
         {
           "ko": "다른 낚시꾼이 줬다",
-          "en": "Another angler gave it to him"
+          "en": "Another angler"
+        },
+        {
+          "ko": "가게에서 사 왔다",
+          "en": "Bought it at a store"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
         "e1"
+      ]
+    },
+    {
+      "key": "sea",
+      "ask": {
+        "ko": "'바다에 다녀왔다'는 말과 맞는 단서는?",
+        "en": "Which clue backs up 'he went to the sea'?"
+      },
+      "options": [
+        {
+          "ko": "모래 묻은 장화",
+          "en": "Sandy boots"
+        },
+        {
+          "ko": "포장된 생선",
+          "en": "The packaged fish"
+        },
+        {
+          "ko": "새 낚싯대",
+          "en": "The new rod"
+        },
+        {
+          "ko": "뜯지 않은 미끼",
+          "en": "The unopened bait"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e5"
       ]
     }
   ],

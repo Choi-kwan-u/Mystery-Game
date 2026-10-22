@@ -1,6 +1,6 @@
 {
   "id": 15,
-  "date": "2026-11-09",
+  "date": "2026-10-30",
   "image": "img/015.webp",
   "title": {
     "ko": "편의점 앞의 밤 9시",
@@ -12,37 +12,6 @@
   },
   "questions": [
     {
-      "key": "job",
-      "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does he do?"
-      },
-      "options": [
-        {
-          "ko": "자전거 선수",
-          "en": "Cyclist"
-        },
-        {
-          "ko": "택시 기사",
-          "en": "Taxi driver"
-        },
-        {
-          "ko": "배달 라이더",
-          "en": "Delivery rider"
-        },
-        {
-          "ko": "경찰관",
-          "en": "Police officer"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e2",
-        "e3",
-        "e1"
-      ]
-    },
-    {
       "key": "vehicle",
       "ask": {
         "ko": "그가 타고 다니는 것은?",
@@ -51,7 +20,7 @@
       "options": [
         {
           "ko": "오토바이",
-          "en": "A motorcycle"
+          "en": "A motorbike"
         },
         {
           "ko": "자전거",
@@ -74,28 +43,28 @@
     {
       "key": "battery",
       "ask": {
-        "ko": "휴대폰을 왜 보조배터리에 꽂아 두었을까?",
+        "ko": "휴대폰에 보조배터리를 꽂아 둔 이유는?",
         "en": "Why is his phone plugged into a power bank?"
       },
       "options": [
         {
-          "ko": "게임을 많이 해서",
-          "en": "Too much gaming"
+          "ko": "게임을 오래 해서",
+          "en": "Long gaming sessions"
         },
         {
-          "ko": "하루 종일 지도를 켜 둬서",
-          "en": "The map has been on all day"
+          "ko": "영상을 계속 봐서",
+          "en": "Streaming videos"
         },
         {
-          "ko": "영상을 보느라",
-          "en": "Watching videos"
+          "ko": "지도를 켜 둬서",
+          "en": "Maps always on"
         },
         {
-          "ko": "휴대폰이 오래돼서",
-          "en": "It's an old phone"
+          "ko": "휴대폰이 낡아서",
+          "en": "An old phone"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
         "e3",
         "e4"
@@ -104,28 +73,28 @@
     {
       "key": "glove",
       "ask": {
-        "ko": "장갑을 한 짝만 끼고 있는 이유는?",
-        "en": "Why is he wearing only one glove?"
+        "ko": "장갑을 한 짝만 벗은 이유는?",
+        "en": "Why did he take off just one glove?"
       },
       "options": [
         {
+          "ko": "곧바로 출발하려고",
+          "en": "To leave right away"
+        },
+        {
           "ko": "한 짝을 잃어버려서",
-          "en": "He lost the other one"
+          "en": "He lost the other"
         },
         {
           "ko": "손을 다쳐서",
-          "en": "He hurt his hand"
+          "en": "An injured hand"
         },
         {
           "ko": "한 손만 시려서",
-          "en": "Only one hand gets cold"
-        },
-        {
-          "ko": "먹자마자 바로 출발하려고",
-          "en": "He's leaving the moment he's done eating"
+          "en": "One cold hand"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
         "e2",
         "e3"
@@ -139,26 +108,57 @@
       },
       "options": [
         {
-          "ko": "방금 출근했다",
-          "en": "He just started"
+          "ko": "방금 시작했다",
+          "en": "Just started"
         },
         {
-          "ko": "이미 퇴근했다",
-          "en": "He's done for the day"
+          "ko": "벌써 끝냈다",
+          "en": "Already done"
         },
         {
-          "ko": "몇 시간째 일하는 중이다",
-          "en": "He's been at it for hours"
+          "ko": "오늘은 쉰다",
+          "en": "Day off"
         },
         {
-          "ko": "오늘은 쉬는 날이다",
-          "en": "It's his day off"
+          "ko": "몇 시간째다",
+          "en": "Hours now"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e4"
+      ]
+    },
+    {
+      "key": "job",
+      "ask": {
+        "ko": "이 사람의 직업은?",
+        "en": "What does he do?"
+      },
+      "options": [
+        {
+          "ko": "자전거 선수",
+          "en": "Cyclist"
+        },
+        {
+          "ko": "택시 기사",
+          "en": "Taxi driver"
+        },
+        {
+          "ko": "배달 라이더",
+          "en": "Food delivery rider"
+        },
+        {
+          "ko": "경찰관",
+          "en": "Police officer"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e1",
-        "e4"
+        "e2",
+        "e3",
+        "e1"
       ]
     }
   ],

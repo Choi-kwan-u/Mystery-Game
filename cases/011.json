@@ -1,6 +1,6 @@
 {
   "id": 11,
-  "date": "2026-11-05",
+  "date": "2026-10-26",
   "image": "img/011.webp",
   "title": {
     "ko": "월요일 아침의 샌들",
@@ -12,10 +12,127 @@
   },
   "questions": [
     {
+      "key": "shoulder",
+      "ask": {
+        "ko": "어깨에 남은 하얀 끈 자국은 무엇 때문일까?",
+        "en": "What left the pale strap lines on her shoulders?"
+      },
+      "options": [
+        {
+          "ko": "끈 원피스",
+          "en": "A strappy dress"
+        },
+        {
+          "ko": "민소매 셔츠",
+          "en": "A tank top"
+        },
+        {
+          "ko": "배낭 끈",
+          "en": "Backpack straps"
+        },
+        {
+          "ko": "가방 끈",
+          "en": "A bag strap"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "sleeves",
+      "ask": {
+        "ko": "종아리에 낀 검은 슬리브는 무엇에 쓸까?",
+        "en": "What are the black sleeves on her calves for?"
+      },
+      "options": [
+        {
+          "ko": "햇볕 가리기",
+          "en": "Sun protection"
+        },
+        {
+          "ko": "모기 막기",
+          "en": "Keeping off mosquitoes"
+        },
+        {
+          "ko": "근육 회복",
+          "en": "Muscle recovery"
+        },
+        {
+          "ko": "그냥 멋",
+          "en": "Just style"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "watch",
+      "ask": {
+        "ko": "손목의 GPS 시계로 주로 재는 것은?",
+        "en": "What does she mainly track with the GPS watch?"
+      },
+      "options": [
+        {
+          "ko": "수면 시간",
+          "en": "Sleep"
+        },
+        {
+          "ko": "이동 거리",
+          "en": "Distance"
+        },
+        {
+          "ko": "걸음 수",
+          "en": "Steps"
+        },
+        {
+          "ko": "혈압",
+          "en": "Blood pressure"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "today",
+      "ask": {
+        "ko": "오늘 그녀는 무엇을 하는 날일까?",
+        "en": "What kind of day is today for her?"
+      },
+      "options": [
+        {
+          "ko": "출근하는 날",
+          "en": "A workday"
+        },
+        {
+          "ko": "또 달리는 날",
+          "en": "Another run"
+        },
+        {
+          "ko": "병원 가는 날",
+          "en": "A doctor's visit"
+        },
+        {
+          "ko": "다리를 쉬는 날",
+          "en": "A rest day"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e1"
+      ]
+    },
+    {
       "key": "job",
       "ask": {
         "ko": "이 사람은 무엇을 하는 사람일까?",
-        "en": "What does she do?"
+        "en": "What is she?"
       },
       "options": [
         {
@@ -28,7 +145,7 @@
         },
         {
           "ko": "축구 선수",
-          "en": "Soccer player"
+          "en": "Pro soccer player"
         },
         {
           "ko": "테니스 선수",
@@ -37,125 +154,8 @@
       ],
       "answer": 1,
       "evidence": [
-        "e3",
         "e4",
-        "e5"
-      ]
-    },
-    {
-      "key": "foil",
-      "ask": {
-        "ko": "가방 속 은박 담요는 어디서 났을까?",
-        "en": "Where did the foil blanket in her bag come from?"
-      },
-      "options": [
-        {
-          "ko": "어제 결승선에서 받았다",
-          "en": "She got it at a finish line yesterday"
-        },
-        {
-          "ko": "캠핑하려고 샀다",
-          "en": "She bought it for camping"
-        },
-        {
-          "ko": "차 햇빛 가리개다",
-          "en": "It's a car windshield sunshade"
-        },
-        {
-          "ko": "선물 포장지였다",
-          "en": "It was gift wrapping"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "today",
-      "ask": {
-        "ko": "월요일 오전에 카페에 있는 이유는?",
-        "en": "Why is she at a café on a Monday morning?"
-      },
-      "options": [
-        {
-          "ko": "출근하는 길이다",
-          "en": "She's on her way to work"
-        },
-        {
-          "ko": "또 달리러 가는 길이다",
-          "en": "She's heading out for another run"
-        },
-        {
-          "ko": "병원 가는 길이다",
-          "en": "She's on her way to the hospital"
-        },
-        {
-          "ko": "휴가를 내고 쉬는 중이다",
-          "en": "She took the day off to rest"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e5",
-        "e1"
-      ]
-    },
-    {
-      "key": "sleeves",
-      "ask": {
-        "ko": "종아리에 낀 검은 슬리브는 무엇에 쓸까?",
-        "en": "What are the black sleeves on her calves for?"
-      },
-      "options": [
-        {
-          "ko": "햇볕 가리기",
-          "en": "Keeping the sun off"
-        },
-        {
-          "ko": "모기 막기",
-          "en": "Keeping mosquitoes away"
-        },
-        {
-          "ko": "지친 종아리 근육 회복",
-          "en": "Helping tired calf muscles recover"
-        },
-        {
-          "ko": "패션",
-          "en": "Just fashion"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "shoulder",
-      "ask": {
-        "ko": "어깨에 남은 탄 자국은 무엇 때문일까?",
-        "en": "What made the tan line on her shoulder?"
-      },
-      "options": [
-        {
-          "ko": "민소매 러닝 셔츠",
-          "en": "A racerback running top"
-        },
-        {
-          "ko": "끈 원피스",
-          "en": "A sundress"
-        },
-        {
-          "ko": "등산 배낭끈",
-          "en": "A hiking backpack strap"
-        },
-        {
-          "ko": "가방끈",
-          "en": "A bag strap"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
+        "e1",
         "e3"
       ]
     }

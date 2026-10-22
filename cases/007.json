@@ -1,6 +1,6 @@
 {
   "id": 7,
-  "date": "2026-11-01",
+  "date": "2026-10-22",
   "type": "room",
   "image": "img/007.webp",
   "title": {
@@ -13,10 +13,127 @@
   },
   "questions": [
     {
+      "key": "drum",
+      "ask": {
+        "ko": "손잡이 달린 커다란 쇠통은 어떤 기계일까?",
+        "en": "What is the big steel drum with a crank?"
+      },
+      "options": [
+        {
+          "ko": "반죽을 치대는 기계",
+          "en": "A dough kneader"
+        },
+        {
+          "ko": "우유를 젓는 기계",
+          "en": "A butter churn"
+        },
+        {
+          "ko": "꿀을 짜는 기계",
+          "en": "A honey extractor"
+        },
+        {
+          "ko": "빨래를 짜는 탈수기",
+          "en": "A spin dryer"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "smoker",
+      "ask": {
+        "ko": "조리대 위 풀무 달린 깡통은 무엇에 쓸까?",
+        "en": "What's the can with bellows on the counter for?"
+      },
+      "options": [
+        {
+          "ko": "연기를 뿜는다",
+          "en": "Puffing smoke"
+        },
+        {
+          "ko": "꿀을 데운다",
+          "en": "Warming honey"
+        },
+        {
+          "ko": "밀랍을 녹인다",
+          "en": "Melting wax"
+        },
+        {
+          "ko": "숯불을 피운다",
+          "en": "Lighting charcoal"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "gloves",
+      "ask": {
+        "ko": "팔꿈치까지 오는 가죽 장갑은 무엇에 대비한 걸까?",
+        "en": "What are the elbow-length leather gloves for?"
+      },
+      "options": [
+        {
+          "ko": "뜨거운 솥",
+          "en": "Hot pots"
+        },
+        {
+          "ko": "날카로운 칼",
+          "en": "Sharp knives"
+        },
+        {
+          "ko": "겨울 추위",
+          "en": "Winter cold"
+        },
+        {
+          "ko": "쏘이는 것",
+          "en": "Stings"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "sugar",
+      "ask": {
+        "ko": "설탕 포대는 왜 이렇게 많을까?",
+        "en": "Why so many sacks of sugar?"
+      },
+      "options": [
+        {
+          "ko": "빵을 구우려고",
+          "en": "For baking"
+        },
+        {
+          "ko": "겨울 먹이로 주려고",
+          "en": "Feed for the winter"
+        },
+        {
+          "ko": "잼을 만들려고",
+          "en": "For making jam"
+        },
+        {
+          "ko": "손님 차에 넣으려고",
+          "en": "For guests' tea"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e5"
+      ]
+    },
+    {
       "key": "job",
       "ask": {
-        "ko": "이 방의 주인은 무슨 일을 할까?",
-        "en": "What does the owner of this room do?"
+        "ko": "이 부엌의 주인은 무슨 일을 할까?",
+        "en": "What does the owner of this kitchen do?"
       },
       "options": [
         {
@@ -41,123 +158,6 @@
         "e1",
         "e2",
         "e3"
-      ]
-    },
-    {
-      "key": "drum",
-      "ask": {
-        "ko": "손잡이 달린 커다란 쇠통은 무엇일까?",
-        "en": "What is the big steel drum with the crank?"
-      },
-      "options": [
-        {
-          "ko": "반죽 기계",
-          "en": "A dough mixer"
-        },
-        {
-          "ko": "밀랍을 녹이는 솥",
-          "en": "A pot for melting wax"
-        },
-        {
-          "ko": "빨래 탈수기",
-          "en": "A laundry spinner"
-        },
-        {
-          "ko": "벌집에서 꿀을 짜내는 기계",
-          "en": "A machine that spins honey out of honeycomb"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "smoker",
-      "ask": {
-        "ko": "조리대 위 풀무 달린 깡통은 무엇에 쓸까?",
-        "en": "What's the can with the little bellows on the counter for?"
-      },
-      "options": [
-        {
-          "ko": "연기를 뿜어 벌을 얌전하게 만든다",
-          "en": "Puffing smoke to calm the bees"
-        },
-        {
-          "ko": "벌레 쫓는 향을 피운다",
-          "en": "Burning incense to keep bugs away"
-        },
-        {
-          "ko": "꿀을 데운다",
-          "en": "Warming honey"
-        },
-        {
-          "ko": "밀랍을 녹인다",
-          "en": "Melting wax"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "sugar",
-      "ask": {
-        "ko": "설탕 포대는 왜 이렇게 많을까?",
-        "en": "Why so many sacks of sugar?"
-      },
-      "options": [
-        {
-          "ko": "빵을 구우려고",
-          "en": "For baking bread"
-        },
-        {
-          "ko": "벌들의 겨울 먹이로",
-          "en": "To feed the bees through winter"
-        },
-        {
-          "ko": "잼을 만들려고",
-          "en": "For making jam"
-        },
-        {
-          "ko": "손님 차에 넣으려고",
-          "en": "For guests' tea"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4",
-        "e5"
-      ]
-    },
-    {
-      "key": "tweezers",
-      "ask": {
-        "ko": "식탁 위의 핀셋과 연고는 왜 있을까?",
-        "en": "Why are there tweezers and ointment on the table?"
-      },
-      "options": [
-        {
-          "ko": "나무 가시를 빼려고",
-          "en": "For splinters"
-        },
-        {
-          "ko": "화상에 바르려고",
-          "en": "For burns"
-        },
-        {
-          "ko": "벌침을 빼고 바르려고",
-          "en": "For pulling out bee stingers"
-        },
-        {
-          "ko": "눈썹을 다듬으려고",
-          "en": "For plucking eyebrows"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e6"
       ]
     }
   ],
