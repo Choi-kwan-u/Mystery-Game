@@ -147,8 +147,8 @@
           "en": "A break-in"
         },
         {
-          "ko": "직원의 내부 범행",
-          "en": "An inside job by an employee"
+          "ko": "취객의 난동",
+          "en": "A drunk's rampage"
         },
         {
           "ko": "주인의 자작극",
@@ -226,7 +226,7 @@
     }
   ],
   "detective": {
-    "ko": "유리는 힘을 받은 반대쪽으로 떨어진다. 조각이 거의 다 바깥 보도에 있다. 안에서 밖으로 깬 것이다. 돌은 유리 조각 위에 올라앉아 있고 돌 위엔 조각이 하나도 없다. 유리가 먼저 깨지고 돌은 나중에 놓였다. 안쪽 바닥엔 유리 가루도 발자국도 없다. 진열장은 멀쩡하고 귀금속도 그대로다. 아무도 들어오지 않았다. 금고는 열려 있지만 문에도 다이얼에도 긁힘이 없다. 번호를 아는 사람이 열었다. 넘어진 의자는 어지럽힌 척이다. 정말 뒤졌다면 진열장과 서랍부터 흐트러졌을 텐데 카운터의 서류는 나란히 펼쳐져 있고 진열장은 그대로다. 안에서 유리를 깨고, 돌을 밖에 던져 두고, 번호로 금고를 열고, 서류를 흩뿌린 사람. 주인이다.",
-    "en": "Glass falls away from the blow. Nearly every fragment lies outside on the pavement, so the door was broken from inside. The rock sits on top of the fragments with none on top of it: the glass broke first and the rock was placed afterwards. The floor inside has no glass dust and no footprints; the display cases are intact and the jewelry untouched. Nobody came in. The safe is open, but there isn't a scratch on the door or the dial — opened by someone who knew the combination. The toppled chair is dressing: a real search would have torn through the cases and drawers first, yet the papers lie neatly on the counter and the cases are untouched. Someone broke the glass from inside, dropped a rock outside, opened the safe by its combination and threw papers around. The owner."
+    "ko": "유리는 힘을 받은 반대쪽으로 떨어진다. 조각이 거의 다 바깥 보도에 있다. 안에서 밖으로 깬 것이다. 돌은 유리 조각 위에 올라앉아 있고 돌 위엔 조각이 하나도 없다. 유리가 먼저 깨지고 돌은 나중에 놓였다. 안쪽 바닥엔 유리 가루도 발자국도 없다. 진열장은 멀쩡하고 귀금속도 그대로다. 아무도 들어오지 않았다. 금고는 열려 있지만 문에도 다이얼에도 긁힘이 없다. 번호를 아는 사람이 열었다. 넘어진 의자는 어지럽힌 척이다. 정말 뒤졌다면 진열장과 서랍부터 흐트러졌을 텐데 카운터의 서류는 나란히 펼쳐져 있고 진열장은 그대로다. 취객이 돌을 던졌다면 유리는 안쪽에 쏟아졌을 테고 금고는 손도 못 댔을 것이다. 안에서 유리를 깨고, 돌을 밖에 던져 두고, 번호로 금고를 열고, 서류를 흩뿌린 사람. 주인이다.",
+    "en": "Glass falls away from the blow. Nearly every fragment lies outside on the pavement, so the door was broken from inside. The rock sits on top of the fragments with none on top of it: the glass broke first and the rock was placed afterwards. The floor inside has no glass dust and no footprints; the display cases are intact and the jewelry untouched. Nobody came in. The safe is open, but there isn't a scratch on the door or the dial — opened by someone who knew the combination. The toppled chair is dressing: a real search would have torn through the cases and drawers first, yet the papers lie neatly on the counter and the cases are untouched. A drunk hurling a rock would have sent the glass inward and never touched the safe. Someone broke the glass from inside, dropped a rock outside, opened the safe by its combination and threw papers around. The owner."
   }
 }
