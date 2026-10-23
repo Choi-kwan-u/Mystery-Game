@@ -50,21 +50,21 @@
     {
       "key": "receipt",
       "ask": {
-        "ko": "머그잔 밑에 깔린 길고 가는 종이는 무엇일까?",
-        "en": "What's the long thin slip of paper under the mug?"
+        "ko": "머그잔 밑의 종이는?",
+        "en": "The slip under the mug?"
       },
       "options": [
         {
           "ko": "메모지",
-          "en": "A memo slip"
+          "en": "A memo"
         },
         {
           "ko": "택배 송장",
           "en": "A shipping label"
         },
         {
-          "ko": "가게에서 받은 영수증",
-          "en": "A receipt from a shop"
+          "ko": "영수증",
+          "en": "A receipt"
         },
         {
           "ko": "책갈피",
@@ -137,27 +137,27 @@
       ]
     },
     {
-      "key": "buzzer",
+      "key": "order",
       "ask": {
-        "ko": "커피는 이미 나와 있는데 진동벨 불이 켜져 있다. 왜일까?",
-        "en": "The coffee is already here, yet the buzzer is lit. Why?"
+        "ko": "그녀가 시킨 것은?",
+        "en": "What did she order?"
       },
       "options": [
         {
-          "ko": "벨이 고장 나서",
-          "en": "The buzzer is broken"
+          "ko": "커피 한 잔",
+          "en": "One coffee"
         },
         {
-          "ko": "디저트를 더 주문해서",
-          "en": "She ordered a dessert as well"
+          "ko": "커피와 디저트",
+          "en": "Coffee and a dessert"
         },
         {
-          "ko": "옆 사람 것이라서",
-          "en": "It belongs to the person next to her"
+          "ko": "에이드 한 잔",
+          "en": "A lemonade"
         },
         {
-          "ko": "반납을 깜빡해서",
-          "en": "She forgot to return it"
+          "ko": "아무것도 안 시켰다",
+          "en": "Nothing"
         }
       ],
       "answer": 1,
