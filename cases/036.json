@@ -45,8 +45,8 @@
     {
       "key": "child",
       "ask": {
-        "ko": "주인에게는 누가 있을까?",
-        "en": "Who is in the owner's life?"
+        "ko": "주인의 아이는 어느 나이대일까?",
+        "en": "How old is the owner's child?"
       },
       "options": [
         {
@@ -54,16 +54,16 @@
           "en": "A newborn"
         },
         {
-          "ko": "초등학생 아이",
-          "en": "A child in elementary school"
+          "ko": "초등학생",
+          "en": "Elementary-school age"
         },
         {
-          "ko": "고등학생 자녀",
-          "en": "A teenager in high school"
+          "ko": "고등학생",
+          "en": "High-school age"
         },
         {
-          "ko": "아이는 없다",
-          "en": "No children"
+          "ko": "대학생",
+          "en": "College age"
         }
       ],
       "answer": 1,
