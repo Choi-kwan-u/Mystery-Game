@@ -1,0 +1,236 @@
+{
+  "id": 33,
+  "date": "2026-11-17",
+  "type": "lie",
+  "image": "img/033.webp",
+  "title": {
+    "ko": "셀카 속 반사",
+    "en": "The Selfie's Reflection"
+  },
+  "intro": {
+    "ko": "토요일 오후, 친구가 보낸 셀카 한 장과 메시지. 사진 속에서 거짓말을 찾아라.",
+    "en": "Saturday afternoon: a selfie and a message from a friend. Find the lie in the photo."
+  },
+  "statement": {
+    "ko": "나 지금 제주도 호텔이야. 혼자 왔어. 방금 도착했어. 비 와서 방에만 있어.",
+    "en": "I'm at a hotel on Jeju right now. Came alone. Just got here. It's raining, so I'm staying in."
+  },
+  "questions": [
+    {
+      "key": "lie",
+      "ask": {
+        "ko": "사진과 맞지 않는 말은?",
+        "en": "Which statement doesn't match the photo?"
+      },
+      "options": [
+        {
+          "ko": "혼자 왔다",
+          "en": "Came alone"
+        },
+        {
+          "ko": "방금 도착했다",
+          "en": "Just got here"
+        },
+        {
+          "ko": "비가 온다",
+          "en": "It's raining"
+        },
+        {
+          "ko": "제주도 호텔이다",
+          "en": "A hotel on Jeju"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "count",
+      "ask": {
+        "ko": "지금 방 안에는 몇 명일까?",
+        "en": "How many people are in the room?"
+      },
+      "options": [
+        {
+          "ko": "한 명뿐",
+          "en": "Just one"
+        },
+        {
+          "ko": "두 명",
+          "en": "Two"
+        },
+        {
+          "ko": "세 명 넘게",
+          "en": "Three or more"
+        },
+        {
+          "ko": "빈 방이다",
+          "en": "Nobody at all"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "arrived",
+      "ask": {
+        "ko": "도착한 지 얼마나 됐을까?",
+        "en": "How long since they arrived?"
+      },
+      "options": [
+        {
+          "ko": "한 시간 안",
+          "en": "Under an hour"
+        },
+        {
+          "ko": "반나절",
+          "en": "Half a day"
+        },
+        {
+          "ko": "하루",
+          "en": "A day"
+        },
+        {
+          "ko": "며칠",
+          "en": "Several days"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e3"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "사진 속 다른 사람은 어디에 서 있을까?",
+        "en": "Where is the other person standing?"
+      },
+      "options": [
+        {
+          "ko": "복도",
+          "en": "In the hallway"
+        },
+        {
+          "ko": "욕실",
+          "en": "In the bathroom"
+        },
+        {
+          "ko": "창가 맞은편",
+          "en": "By the window, opposite her"
+        },
+        {
+          "ko": "침대 옆",
+          "en": "Beside the bed"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e5"
+      ]
+    },
+    {
+      "key": "whois",
+      "ask": {
+        "ko": "그 사람은 누구일까?",
+        "en": "Who is that person?"
+      },
+      "options": [
+        {
+          "ko": "옆방 손님",
+          "en": "A guest from next door"
+        },
+        {
+          "ko": "호텔 직원",
+          "en": "Hotel staff"
+        },
+        {
+          "ko": "룸서비스",
+          "en": "Room service"
+        },
+        {
+          "ko": "같이 온 일행",
+          "en": "Someone who came with her"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e6"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 42,
+      "y": 30,
+      "r": 7,
+      "label": {
+        "ko": "선글라스 알에 비친 사람 — 창을 등지고 선 남자, 사진 찍는 손이 아니다",
+        "en": "A figure reflected in her sunglasses — a man standing with his back to the window, not the hand holding the phone"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 80,
+      "y": 72,
+      "r": 9,
+      "label": {
+        "ko": "테이블의 커피잔 둘, 둘 다 마신 채",
+        "en": "Two coffee cups on the table, both drunk from"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 25,
+      "y": 85,
+      "r": 9,
+      "label": {
+        "ko": "닫힌 채 세워 둔 캐리어와 침대 위 키카드 봉투 — 방금 들어왔다",
+        "en": "A suitcase still closed and a key-card sleeve on the bed — they've only just walked in"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 60,
+      "y": 15,
+      "r": 12,
+      "label": {
+        "ko": "창의 빗방울과 흐린 하늘, 창밖의 돌담과 야자수",
+        "en": "Raindrops on the glass, a grey sky, and stone walls and palms outside"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 88,
+      "y": 55,
+      "r": 8,
+      "label": {
+        "ko": "의자에 걸린 두 번째 겉옷 — 남자 바람막이",
+        "en": "A second jacket on the chair — a man's windbreaker"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 15,
+      "y": 60,
+      "r": 7,
+      "label": {
+        "ko": "수건의 호텔 로고 'JEJU'",
+        "en": "The hotel logo on the towel: JEJU"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "창엔 빗방울, 창밖엔 돌담과 야자수, 수건엔 JEJU. 제주 호텔에 비가 오는 건 맞다. 캐리어는 닫힌 채 서 있고 침대엔 키카드 봉투가 놓여 있으니 들어온 지 얼마 안 됐다. 베개도 하나만 눌렸다. 혼자처럼 보인다. 그런데 머리에 올린 선글라스를 확대해 보라. 알에 비친 건 셀카 찍는 손이 아니다. 창을 등지고 선 남자다. 빛이 뒤에서 오니 창가 맞은편이다. 테이블엔 커피잔이 둘, 둘 다 마셨다. 의자엔 남자 바람막이. 유니폼이 아니라 편한 차림이고, 잔을 나눠 마셨으니 직원이나 룸서비스가 아니다. 같이 온 일행이다. 거짓말은 하나, '혼자 왔어'.",
+    "en": "Raindrops on the window, stone walls and palm trees outside, JEJU on the towel — rain at a Jeju hotel is true. The suitcase stands closed and the key-card sleeve lies on the bed, so they've only just arrived. One pillow dented: it looks like one person. Now enlarge the sunglasses pushed up on her head. The figure in the lens isn't the hand holding the phone; it's a man standing with his back to the window — the light comes from behind him, so he's by the window opposite her. Two coffee cups on the table, both drunk from. A man's windbreaker on the chair. Casual clothes, not a uniform, and a shared coffee: not staff, not room service. Someone who came with her. One lie: 'Came alone.'"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": 37,
+  "date": "2026-11-21",
+  "type": "scene",
+  "image": "img/037.webp",
+  "title": {
+    "ko": "벽에 남은 액자 자국",
+    "en": "The Mark on the Wall"
+  },
+  "intro": {
+    "ko": "오후 4시, 어느 집 거실. 벽에 무언가 걸려 있던 자리가 비어 있다. 무슨 일이 있었을까?",
+    "en": "4 p.m., a living room. Something that hung on the wall is gone. What happened?"
+  },
+  "questions": [
+    {
+      "key": "what",
+      "ask": {
+        "ko": "무엇이 걸려 있었을까?",
+        "en": "What used to hang there?"
+      },
+      "options": [
+        {
+          "ko": "큰 그림",
+          "en": "A large painting"
+        },
+        {
+          "ko": "TV",
+          "en": "A television"
+        },
+        {
+          "ko": "거울",
+          "en": "A mirror"
+        },
+        {
+          "ko": "벽시계",
+          "en": "A wall clock"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e3"
+      ]
+    },
+    {
+      "key": "howlong",
+      "ask": {
+        "ko": "얼마나 오래 걸려 있었을까?",
+        "en": "How long did it hang there?"
+      },
+      "options": [
+        {
+          "ko": "며칠",
+          "en": "A few days"
+        },
+        {
+          "ko": "몇 달",
+          "en": "A few months"
+        },
+        {
+          "ko": "몇 년",
+          "en": "Years"
+        },
+        {
+          "ko": "어제 걸었다",
+          "en": "It was hung yesterday"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "언제 떼었을까?",
+        "en": "When was it taken down?"
+      },
+      "options": [
+        {
+          "ko": "몇 달 전",
+          "en": "Months ago"
+        },
+        {
+          "ko": "오늘",
+          "en": "Today"
+        },
+        {
+          "ko": "지난주",
+          "en": "Last week"
+        },
+        {
+          "ko": "이사 올 때",
+          "en": "When they moved in"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "who",
+      "ask": {
+        "ko": "누가 떼었을까?",
+        "en": "Who took it down?"
+      },
+      "options": [
+        {
+          "ko": "집주인",
+          "en": "The owner"
+        },
+        {
+          "ko": "수리 기사",
+          "en": "A repairman"
+        },
+        {
+          "ko": "도둑",
+          "en": "A burglar"
+        },
+        {
+          "ko": "이삿짐센터",
+          "en": "Movers"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3",
+        "e4",
+        "e6"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "그림은 지금 어디로 가고 있을까?",
+        "en": "Where is it going now?"
+      },
+      "options": [
+        {
+          "ko": "다른 방으로",
+          "en": "Into another room"
+        },
+        {
+          "ko": "창고 안으로",
+          "en": "Into storage"
+        },
+        {
+          "ko": "액자 수리점",
+          "en": "To a framer"
+        },
+        {
+          "ko": "팔려서 택배로",
+          "en": "Sold and shipped"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3",
+        "e4",
+        "e5"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 50,
+      "y": 30,
+      "r": 16,
+      "label": {
+        "ko": "벽의 짙은 직사각형 자국 — 둘레 벽지만 햇빛에 바랬다. 못 두 개는 그대로",
+        "en": "A dark rectangle on the wall — only the wallpaper around it has faded in the sun. Two nails still in place"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 50,
+      "y": 30,
+      "r": 6,
+      "label": {
+        "ko": "자국 안쪽에 먼지 선이 없다 — 떼어 낸 지 얼마 안 됐다",
+        "en": "No dust line inside the rectangle — it came down only recently"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 45,
+      "y": 75,
+      "r": 12,
+      "label": {
+        "ko": "바닥의 뽁뽁이 조각, 커터, 테이프, 송장 출력물 '미술품·파손주의'",
+        "en": "Bubble wrap scraps, a box cutter, packing tape and a printed label: FRAGILE – ARTWORK"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 85,
+      "y": 70,
+      "r": 12,
+      "label": {
+        "ko": "현관의 납작한 박스 — 자국과 같은 크기, 송장이 붙어 있다",
+        "en": "A flat box by the door — the same size as the mark, label attached"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 20,
+      "y": 60,
+      "r": 9,
+      "label": {
+        "ko": "벽에 기대 둔 작은 그림과 옆의 새 못 구멍 — 대신 걸 것",
+        "en": "A smaller picture leaning on the wall and a fresh nail hole — a replacement"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 15,
+      "y": 85,
+      "r": 8,
+      "label": {
+        "ko": "열린 서랍 속 테이프와 가위 — 집은 그 밖에 흐트러진 데가 없다",
+        "en": "Tape and scissors in an open drawer — otherwise the room is untouched"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "벽에 짙은 직사각형이 남았다. 둘레 벽지만 햇빛에 바랬으니 몇 년은 걸려 있던 것이다. 가로로 길고 못이 둘. TV라면 브래킷 자국과 전선이 있고 시계라면 못이 하나다. 큰 그림이다. 자국 안쪽에 먼지 선이 없으니 떼어 낸 건 오늘이다. 바닥엔 뽁뽁이 조각과 커터, 테이프, 그리고 '미술품·파손주의' 송장. 도둑은 포장하지 않는다. 못을 멀쩡히 남기지도 않고, 서랍 하나만 열어 테이프를 꺼내지도 않는다. 집주인이 직접 쌌다. 현관엔 자국과 같은 크기의 납작한 박스가 송장을 단 채 기다리고, 벽 옆엔 대신 걸 작은 그림과 새 못 구멍이 있다. 그림은 팔렸고, 오늘 택배로 떠난다.",
+    "en": "A dark rectangle on the wall: only the wallpaper around it has faded in the sun, so it hung there for years. Wide, with two nails. A TV would leave bracket marks and cables; a clock needs one nail. A large painting. There's no dust line inside the rectangle, so it came down today. On the floor, scraps of bubble wrap, a box cutter, packing tape and a label reading FRAGILE – ARTWORK. Burglars don't wrap things. They don't leave the nails neatly in place, or open one drawer just for the tape. The owner packed it. By the door waits a flat box the size of the mark, label attached, and beside the wall stand a smaller picture and a fresh nail hole to replace it. The painting was sold, and it ships today."
+  }
+}

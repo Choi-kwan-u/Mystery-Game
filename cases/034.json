@@ -1,0 +1,231 @@
+{
+  "id": 34,
+  "date": "2026-11-18",
+  "type": "scene",
+  "image": "img/034.webp",
+  "title": {
+    "ko": "짖지 않은 개",
+    "en": "The Dog That Didn't Bark"
+  },
+  "intro": {
+    "ko": "아침 7시, 단독주택 뒷마당. 창고에서 자전거가 사라졌다. 아버지는 \"도둑이 담을 넘었다\"고 한다. 범인은 누구일까?",
+    "en": "7 a.m., the back yard of a house. A bicycle is gone from the shed. The father says a thief climbed the fence. Who did it?"
+  },
+  "questions": [
+    {
+      "key": "entry",
+      "ask": {
+        "ko": "침입자는 어디로 들어왔을까?",
+        "en": "How did the intruder get in?"
+      },
+      "options": [
+        {
+          "ko": "집 안에서 나와서",
+          "en": "From inside the house"
+        },
+        {
+          "ko": "창고 뒤 창문으로",
+          "en": "Through the shed's back window"
+        },
+        {
+          "ko": "담을 넘어",
+          "en": "Over the fence"
+        },
+        {
+          "ko": "대문으로",
+          "en": "Through the gate"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "lock",
+      "ask": {
+        "ko": "자물쇠는 어떻게 됐을까?",
+        "en": "What happened to the padlock?"
+      },
+      "options": [
+        {
+          "ko": "열쇠로 열렸다",
+          "en": "Opened with the key"
+        },
+        {
+          "ko": "다른 자물쇠다",
+          "en": "It was swapped"
+        },
+        {
+          "ko": "억지로 부쉈다",
+          "en": "It was forced"
+        },
+        {
+          "ko": "안 잠겨 있었다",
+          "en": "It wasn't locked"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "dog",
+      "ask": {
+        "ko": "개는 왜 짖지 않았을까?",
+        "en": "Why didn't the dog bark?"
+      },
+      "options": [
+        {
+          "ko": "묶여 있어서",
+          "en": "It was tied up"
+        },
+        {
+          "ko": "아는 사람이라서",
+          "en": "It knew the person"
+        },
+        {
+          "ko": "자리에 없어서",
+          "en": "It wasn't there"
+        },
+        {
+          "ko": "너무 늙어서",
+          "en": "It's too old"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5",
+        "e3"
+      ]
+    },
+    {
+      "key": "missing",
+      "ask": {
+        "ko": "자전거 말고 또 없어진 것은?",
+        "en": "What else is missing besides the bike?"
+      },
+      "options": [
+        {
+          "ko": "사다리",
+          "en": "The ladder"
+        },
+        {
+          "ko": "공구 상자",
+          "en": "The toolbox"
+        },
+        {
+          "ko": "헬멧",
+          "en": "The helmet"
+        },
+        {
+          "ko": "아무것도",
+          "en": "Nothing"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "culprit",
+      "ask": {
+        "ko": "범인은?",
+        "en": "Who did it?"
+      },
+      "options": [
+        {
+          "ko": "아버지 본인",
+          "en": "The father himself"
+        },
+        {
+          "ko": "동네 좀도둑",
+          "en": "A local thief"
+        },
+        {
+          "ko": "이웃집 남자",
+          "en": "The man next door"
+        },
+        {
+          "ko": "이 집 아들",
+          "en": "The son of the house"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3",
+        "e1",
+        "e2"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 35,
+      "y": 45,
+      "r": 7,
+      "label": {
+        "ko": "멀쩡히 열린 자물쇠, 꽂힌 채인 열쇠",
+        "en": "An intact padlock hanging open, the key still in it"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 25,
+      "y": 55,
+      "r": 10,
+      "label": {
+        "ko": "창고 안 — 자전거 자리만 먼지가 없고, 벽의 헬멧 걸이도 비었다. 공구는 그대로",
+        "en": "Inside the shed — a clean patch where the bike stood, an empty helmet hook, the tools untouched"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 55,
+      "y": 75,
+      "r": 12,
+      "label": {
+        "ko": "뒷문에서 창고로 이어지는 작은 슬리퍼 자국 한 줄",
+        "en": "A single line of small flip-flop prints from the back door to the shed"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 85,
+      "y": 40,
+      "r": 10,
+      "label": {
+        "ko": "담 아래 잔디 — 이슬이 그대로, 밟힌 데가 없다",
+        "en": "The grass under the fence — dew intact, nothing trampled"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 70,
+      "y": 68,
+      "r": 10,
+      "label": {
+        "ko": "개집 앞에서 태평하게 자는 개와 뜯긴 간식 봉지",
+        "en": "The dog fast asleep by its house, a torn-open treat bag beside it"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 15,
+      "y": 25,
+      "r": 7,
+      "label": {
+        "ko": "살짝 열린 뒷문과 커튼 친 2층 창",
+        "en": "The back door ajar, the upstairs curtain drawn"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "담을 넘었다면 담 아래 잔디가 밟혔을 것이다. 이슬이 그대로다. 자국은 담이 아니라 집 뒷문에서 시작해 창고로 간다. 그것도 작은 슬리퍼 자국이다. 자물쇠는 부서지지 않았다. 열쇠가 꽂힌 채 열려 있다. 열쇠를 아는 사람이다. 개는 자국이 지나간 바로 앞에서 태평하게 자고 있고 옆엔 뜯긴 간식 봉지가 있다. 개는 짖을 이유가 없었다. 아는 사람이 간식까지 줬으니까. 창고 안을 보면 자전거 자리만 비었고 공구는 그대로인데, 헬멧 걸이도 비어 있다. 훔치러 온 사람은 헬멧을 챙기지 않는다. 타러 간 사람이 챙긴다. 뒷문은 열려 있고 2층 창은 커튼이 쳐져 있다. 새벽에 슬리퍼를 끌고 나와 열쇠로 창고를 열고 헬멧을 쓰고 자전거를 타고 나간 사람. 이 집 아들이다.",
+    "en": "A thief over the fence would have trampled the grass beneath it; the dew there is untouched. The prints start not at the fence but at the back door and lead to the shed — and they're small flip-flop prints. The padlock isn't broken; it hangs open with the key still in it. Someone who knew where the key was. The dog sleeps peacefully right beside the trail, a torn-open treat bag at its nose. It had no reason to bark: a familiar person, who even brought treats. Inside the shed, only the bike's spot is clear and the tools are untouched — but the helmet hook is empty too. A thief doesn't take the helmet; a rider does. The back door is ajar and the upstairs curtain is drawn. Someone shuffled out in flip-flops before dawn, opened the shed with the key, put on the helmet and rode off. The son."
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": 39,
+  "date": "2026-11-23",
+  "type": "scene",
+  "image": "img/039.webp",
+  "title": {
+    "ko": "할머니 집의 손님",
+    "en": "Grandma's Visitor"
+  },
+  "intro": {
+    "ko": "오후 3시, 혼자 사는 할머니 댁 거실. 할머니는 부엌에 계신다. 오늘 이 집에 무슨 일이 있었을까?",
+    "en": "3 p.m., the living room of a grandmother who lives alone. She's in the kitchen. What happened here today?"
+  },
+  "questions": [
+    {
+      "key": "who",
+      "ask": {
+        "ko": "오늘 손님은 누구였을까?",
+        "en": "Who was today's visitor?"
+      },
+      "options": [
+        {
+          "ko": "요양보호사",
+          "en": "A care worker"
+        },
+        {
+          "ko": "보험 설계사",
+          "en": "An insurance agent"
+        },
+        {
+          "ko": "어린 손주",
+          "en": "A grandchild"
+        },
+        {
+          "ko": "이웃집 아주머니",
+          "en": "A neighbor"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "count",
+      "ask": {
+        "ko": "손님은 몇 명일까?",
+        "en": "How many visitors?"
+      },
+      "options": [
+        {
+          "ko": "한 명",
+          "en": "One"
+        },
+        {
+          "ko": "두 명",
+          "en": "Two"
+        },
+        {
+          "ko": "세 명",
+          "en": "Three"
+        },
+        {
+          "ko": "손님은 없었다",
+          "en": "There was no visitor"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e3"
+      ]
+    },
+    {
+      "key": "arrived",
+      "ask": {
+        "ko": "언제 왔을까?",
+        "en": "When did the visitor arrive?"
+      },
+      "options": [
+        {
+          "ko": "방금",
+          "en": "Just now"
+        },
+        {
+          "ko": "오전",
+          "en": "This morning"
+        },
+        {
+          "ko": "어제",
+          "en": "Yesterday"
+        },
+        {
+          "ko": "일주일 전",
+          "en": "A week ago"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e4"
+      ]
+    },
+    {
+      "key": "now",
+      "ask": {
+        "ko": "손님은 지금 어디에?",
+        "en": "Where is the visitor now?"
+      },
+      "options": [
+        {
+          "ko": "부엌에 있다",
+          "en": "In the kitchen"
+        },
+        {
+          "ko": "집에 돌아갔다",
+          "en": "Gone home"
+        },
+        {
+          "ko": "밖에 놀러 나갔다",
+          "en": "Out playing"
+        },
+        {
+          "ko": "안방에서 잔다",
+          "en": "Asleep in the bedroom"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3",
+        "e4",
+        "e5"
+      ]
+    },
+    {
+      "key": "stay",
+      "ask": {
+        "ko": "얼마나 머물까?",
+        "en": "How long will the visitor stay?"
+      },
+      "options": [
+        {
+          "ko": "오늘 저녁까지",
+          "en": "Until this evening"
+        },
+        {
+          "ko": "며칠 동안",
+          "en": "Several days"
+        },
+        {
+          "ko": "지금 곧 떠난다",
+          "en": "Leaving right now"
+        },
+        {
+          "ko": "알 수 없다",
+          "en": "No way to tell"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e6"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 40,
+      "y": 55,
+      "r": 9,
+      "label": {
+        "ko": "찻잔 옆의 작은 유리컵 — 우유 자국",
+        "en": "A small glass beside the teacup — a milk ring"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 55,
+      "y": 60,
+      "r": 12,
+      "label": {
+        "ko": "크레용과 그림 여러 장, 과자 부스러기",
+        "en": "Crayons, several drawings, cookie crumbs"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 85,
+      "y": 90,
+      "r": 8,
+      "label": {
+        "ko": "현관의 할머니 신발 옆, 작은 운동화 한 켤레",
+        "en": "Beside Grandma's shoes in the entryway, one small pair of sneakers"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 70,
+      "y": 25,
+      "r": 10,
+      "label": {
+        "ko": "어린이 채널이 나오는 TV — 음소거",
+        "en": "A cartoon on the TV — muted"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 20,
+      "y": 35,
+      "r": 12,
+      "label": {
+        "ko": "살짝 열린 안방 문, 볼록한 이불",
+        "en": "The bedroom door ajar, a blanket bulged over a small shape"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 10,
+      "y": 75,
+      "r": 10,
+      "label": {
+        "ko": "열린 채 옷이 꺼내진 작은 캐리어, 욕실의 칫솔 둘, 달력의 '방학'",
+        "en": "A small suitcase open with clothes pulled out, two toothbrushes in the bathroom, 'school break' on the calendar"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "찻잔 옆에 작은 유리컵, 우유 자국. 크레용과 그림 여러 장. 현관엔 할머니 신발 옆에 작은 운동화 한 켤레. 손주다. 컵 하나, 신발 한 켤레, 소파의 겉옷 하나. 한 명이다. 그림이 여러 장이고 과자는 다 먹었다. 설거지통엔 점심 그릇. 오전에 와서 한나절을 보냈다. 손님이 다녀간 것 같지만 운동화가 아직 현관에 있다. TV는 어린이 채널인데 소리를 죽였고, 안방 문은 살짝 열려 있고 이불이 작게 볼록하다. 낮잠 중이다. 복도의 작은 캐리어는 열린 채 옷이 꺼내져 있고, 욕실엔 칫솔이 둘, 달력엔 '방학'. 하루 놀러 온 게 아니라 며칠 묵으러 왔다.",
+    "en": "A small glass with a milk ring beside the teacup. Crayons and a pile of drawings. In the entryway, one small pair of sneakers next to Grandma's shoes. A grandchild. One glass, one pair of shoes, one small jacket on the sofa: just one. Several drawings, the cookies all gone, lunch dishes in the sink — the child arrived in the morning and spent the day. It looks like the visit is over, but the sneakers are still by the door. The TV shows a cartoon with the sound muted; the bedroom door stands ajar and the blanket is bulged over a small shape. Nap time. In the hallway a small suitcase lies open with clothes pulled out, there are two toothbrushes in the bathroom, and the calendar says 'school break'. Not a day trip. A stay of several days."
+  }
+}

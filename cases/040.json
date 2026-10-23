@@ -1,0 +1,232 @@
+{
+  "id": 40,
+  "date": "2026-11-24",
+  "type": "scene",
+  "image": "img/040.webp",
+  "title": {
+    "ko": "현관 앞에 쌓인 것들",
+    "en": "What Piled Up at the Door"
+  },
+  "intro": {
+    "ko": "오전 10시, 빌라 2층 복도. 어느 집 현관 앞에 물건이 쌓여 있다. 이 집에 무슨 일이 있을까?",
+    "en": "10 a.m., a second-floor hallway in a small apartment building. Things have piled up outside one door. What's going on in this home?"
+  },
+  "questions": [
+    {
+      "key": "days",
+      "ask": {
+        "ko": "물건은 며칠째 쌓였을까?",
+        "en": "For how many days have things piled up?"
+      },
+      "options": [
+        {
+          "ko": "하루",
+          "en": "One day"
+        },
+        {
+          "ko": "사흘",
+          "en": "Three days"
+        },
+        {
+          "ko": "일주일",
+          "en": "A week"
+        },
+        {
+          "ko": "한 달",
+          "en": "A month"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "inside",
+      "ask": {
+        "ko": "집 안에 사람이 있을까?",
+        "en": "Is anyone inside?"
+      },
+      "options": [
+        {
+          "ko": "안에 있다",
+          "en": "Yes, someone's inside"
+        },
+        {
+          "ko": "알 수 없다",
+          "en": "No way to tell"
+        },
+        {
+          "ko": "여행 중이라 없다",
+          "en": "No — away traveling"
+        },
+        {
+          "ko": "이미 이사 갔다",
+          "en": "No — moved out"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "who",
+      "ask": {
+        "ko": "누가 사는 집일까?",
+        "en": "Who lives here?"
+      },
+      "options": [
+        {
+          "ko": "혼자 사는 노인",
+          "en": "An elderly person living alone"
+        },
+        {
+          "ko": "아이 있는 가족",
+          "en": "A family with children"
+        },
+        {
+          "ko": "젊은 맞벌이 부부",
+          "en": "A young couple"
+        },
+        {
+          "ko": "자취하는 학생",
+          "en": "A student"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e4"
+      ]
+    },
+    {
+      "key": "bag",
+      "ask": {
+        "ko": "약 봉투는 언제 걸렸을까?",
+        "en": "When was the pharmacy bag hung on the door?"
+      },
+      "options": [
+        {
+          "ko": "사흘 전",
+          "en": "Three days ago"
+        },
+        {
+          "ko": "어제",
+          "en": "Yesterday"
+        },
+        {
+          "ko": "오늘",
+          "en": "Today"
+        },
+        {
+          "ko": "일주일 전",
+          "en": "A week ago"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e1"
+      ]
+    },
+    {
+      "key": "situation",
+      "ask": {
+        "ko": "이 집 상황은?",
+        "en": "What is the situation here?"
+      },
+      "options": [
+        {
+          "ko": "오래 빈 집",
+          "en": "Long empty"
+        },
+        {
+          "ko": "여행으로 비움",
+          "en": "Away on a trip"
+        },
+        {
+          "ko": "이사 가는 중",
+          "en": "In the middle of moving"
+        },
+        {
+          "ko": "안에서 못 나옴",
+          "en": "Inside but can't come out"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2",
+        "e4"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 45,
+      "y": 85,
+      "r": 14,
+      "label": {
+        "ko": "신문 세 부 — 날짜가 사흘 연속. 우유 세 병",
+        "en": "Three newspapers with three consecutive dates. Three bottles of milk"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 50,
+      "y": 95,
+      "r": 10,
+      "label": {
+        "ko": "문 아래 틈으로 새는 불빛",
+        "en": "Light showing under the door"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 75,
+      "y": 40,
+      "r": 10,
+      "label": {
+        "ko": "김 서린 작은 창과 흙이 젖은 화분 — 안은 따뜻하고 누군가 물을 줬다",
+        "en": "A fogged window and damp soil in the pot — it's warm inside, and someone watered the plant"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 50,
+      "y": 50,
+      "r": 8,
+      "label": {
+        "ko": "문고리의 약 배달 봉투 — 오늘 날짜, 아직 안 들였다",
+        "en": "A pharmacy delivery bag on the handle — dated today, not taken in"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 20,
+      "y": 45,
+      "r": 8,
+      "label": {
+        "ko": "벽의 지팡이 걸이와 지팡이, 노인용 서비스 전단",
+        "en": "A cane in its holder, and flyers for senior services"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 90,
+      "y": 60,
+      "r": 8,
+      "label": {
+        "ko": "옆집 문 앞은 깨끗하다",
+        "en": "Nothing outside the neighbor's door"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "신문이 세 부, 날짜가 사흘 연속이다. 우유도 세 병. 사흘째 아무도 문 앞 물건을 들이지 않았다. 여행을 갔나 싶지만 문 아래로 불빛이 새고, 옆 창은 김이 서렸다. 안이 따뜻하다는 뜻이다. 화분 흙은 젖어 있으니 누군가 물을 줬다. 사람은 안에 있다. 벽엔 지팡이, 전단지는 노인 복지 안내. 혼자 사는 노인이다. 문고리의 약 봉투는 오늘 날짜인데 아직 걸려 있다. 사흘 동안 신문과 우유를, 오늘 약까지, 문 바로 앞의 것들을 들이지 못했다. 옆집 문 앞은 깨끗하다. 이 집만 그렇다. 집을 비운 게 아니다. 안에 있는데 문까지 나오지 못하고 있다. 문을 두드려 볼 때다.",
+    "en": "Three newspapers with three consecutive dates, three bottles of milk: for three days nobody has brought in what's left at the door. Away on a trip? But light shows under the door and the little window is fogged — it's warm inside. The soil in the pot is damp; someone watered it. Someone is home. A cane in its holder on the wall and flyers for senior services: an elderly person living alone. The pharmacy bag on the handle is dated today and still hangs there. For three days the papers and milk, and now today's medicine, have sat untouched a step from the door. The neighbor's doorstep is clean; it's only this one. The home isn't empty. Someone is inside and can't make it to the door. Time to knock."
+  }
+}

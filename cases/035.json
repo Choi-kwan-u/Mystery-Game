@@ -1,0 +1,232 @@
+{
+  "id": 35,
+  "date": "2026-11-19",
+  "type": "scene",
+  "image": "img/035.webp",
+  "title": {
+    "ko": "깨진 유리의 방향",
+    "en": "Which Way the Glass Fell"
+  },
+  "intro": {
+    "ko": "아침 8시, 작은 금은방 안. 주인은 \"새벽에 누가 밖에서 돌을 던져 유리를 깨고 들어와 금고를 털었다\"고 신고했다. 무슨 일이 있었을까?",
+    "en": "8 a.m. inside a small jewelry shop. The owner reports that someone threw a rock through the door overnight, came in and emptied the safe. What really happened?"
+  },
+  "questions": [
+    {
+      "key": "side",
+      "ask": {
+        "ko": "유리는 어느 쪽에서 깨졌을까?",
+        "en": "From which side was the glass broken?"
+      },
+      "options": [
+        {
+          "ko": "안에서",
+          "en": "From inside"
+        },
+        {
+          "ko": "양쪽에서",
+          "en": "From both sides"
+        },
+        {
+          "ko": "저절로",
+          "en": "It shattered on its own"
+        },
+        {
+          "ko": "밖에서",
+          "en": "From outside"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "entered",
+      "ask": {
+        "ko": "침입자가 안으로 들어왔을까?",
+        "en": "Did an intruder come inside?"
+      },
+      "options": [
+        {
+          "ko": "들어온 적 없다",
+          "en": "Never came in"
+        },
+        {
+          "ko": "뒷문으로 들어왔다",
+          "en": "Came in through the back"
+        },
+        {
+          "ko": "들어와서 나갔다",
+          "en": "Came in and left"
+        },
+        {
+          "ko": "들어와 아직 있다",
+          "en": "Came in and is still here"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "safe",
+      "ask": {
+        "ko": "금고는 어떻게 열렸을까?",
+        "en": "How was the safe opened?"
+      },
+      "options": [
+        {
+          "ko": "훔친 열쇠로",
+          "en": "With a stolen key"
+        },
+        {
+          "ko": "번호를 알고서",
+          "en": "By someone who knew the combination"
+        },
+        {
+          "ko": "원래 열려 있어서",
+          "en": "It was already open"
+        },
+        {
+          "ko": "억지로 부숴서",
+          "en": "Forced open"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "mess",
+      "ask": {
+        "ko": "어질러진 서류와 의자는?",
+        "en": "The scattered papers and the chair?"
+      },
+      "options": [
+        {
+          "ko": "격투 흔적",
+          "en": "Signs of a struggle"
+        },
+        {
+          "ko": "도둑이 뒤진 것",
+          "en": "A thief rummaging"
+        },
+        {
+          "ko": "일부러 어지럽힌 것",
+          "en": "Staged on purpose"
+        },
+        {
+          "ko": "바람에 넘어진 것",
+          "en": "Knocked over by the wind"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e6",
+        "e3"
+      ]
+    },
+    {
+      "key": "what",
+      "ask": {
+        "ko": "무슨 일이 있었을까?",
+        "en": "What happened here?"
+      },
+      "options": [
+        {
+          "ko": "단순 파손 사고",
+          "en": "An accident"
+        },
+        {
+          "ko": "강도 침입",
+          "en": "A break-in"
+        },
+        {
+          "ko": "직원의 내부 범행",
+          "en": "An inside job by an employee"
+        },
+        {
+          "ko": "주인의 자작극",
+          "en": "The owner staged it"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e3",
+        "e5"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 50,
+      "y": 40,
+      "r": 14,
+      "label": {
+        "ko": "유리 조각은 거의 전부 바깥 보도에 — 유리는 힘을 받은 반대쪽으로 떨어진다",
+        "en": "Almost all the glass lies outside on the pavement — glass falls away from the blow"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 58,
+      "y": 62,
+      "r": 7,
+      "label": {
+        "ko": "유리 조각 위에 놓인 돌 — 돌 위엔 조각이 없다. 유리가 먼저 깨지고 돌이 나중에 놓였다",
+        "en": "The rock sits on top of the fragments, none on top of it — the glass broke first, the rock came after"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 40,
+      "y": 80,
+      "r": 12,
+      "label": {
+        "ko": "안쪽 바닥 — 유리 가루도 발자국도 없다",
+        "en": "The floor inside — no glass dust, no footprints"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 20,
+      "y": 50,
+      "r": 10,
+      "label": {
+        "ko": "멀쩡한 진열장, 그대로인 귀금속",
+        "en": "Display cases intact, jewelry untouched"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 82,
+      "y": 55,
+      "r": 9,
+      "label": {
+        "ko": "열린 빈 금고 — 긁힘 하나 없는 문과 다이얼, 앞바닥도 깨끗",
+        "en": "The open, empty safe — not a scratch on the door or dial, the floor in front clean"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 70,
+      "y": 85,
+      "r": 9,
+      "label": {
+        "ko": "엎어진 의자와 흩어진 서류 — 서류 위에 유리 조각이 없다",
+        "en": "A toppled chair and scattered papers — with no glass on the papers"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "유리는 힘을 받은 반대쪽으로 떨어진다. 조각이 거의 다 바깥 보도에 있다. 안에서 밖으로 깬 것이다. 돌은 유리 조각 위에 올라앉아 있고 돌 위엔 조각이 하나도 없다. 유리가 먼저 깨지고 돌은 나중에 놓였다. 안쪽 바닥엔 유리 가루도 발자국도 없다. 진열장은 멀쩡하고 귀금속도 그대로다. 아무도 들어오지 않았다. 금고는 열려 있지만 문에도 다이얼에도 긁힘이 없다. 번호를 아는 사람이 열었다. 엎어진 의자와 흩어진 서류는 어지럽힌 척이다. 유리가 깨질 때 날린 조각이 서류 위에 한 조각도 없으니, 서류는 유리보다 먼저 흩어졌다. 안에서 유리를 깨고, 돌을 밖에 던져 두고, 번호로 금고를 열고, 서류를 흩뿌린 사람. 주인이다.",
+    "en": "Glass falls away from the blow. Nearly every fragment lies outside on the pavement, so the door was broken from inside. The rock sits on top of the fragments with none on top of it: the glass broke first and the rock was placed afterwards. The floor inside has no glass dust and no footprints; the display cases are intact and the jewelry untouched. Nobody came in. The safe is open, but there isn't a scratch on the door or the dial — opened by someone who knew the combination. The toppled chair and scattered papers are dressing: not a single sliver of glass landed on the papers, so they were scattered before the glass broke. Someone broke the glass from inside, dropped a rock outside, opened the safe by its combination and threw papers around. The owner."
+  }
+}

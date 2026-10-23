@@ -1,0 +1,231 @@
+{
+  "id": 36,
+  "date": "2026-11-20",
+  "image": "img/036.webp",
+  "title": {
+    "ko": "지하철 분실 가방",
+    "en": "The Lost Bag"
+  },
+  "intro": {
+    "ko": "오후 3시, 지하철 역무실. 주인 없는 가방을 열어 내용물을 책상에 펼쳤다. 주인은 누구일까?",
+    "en": "3 p.m., a subway station office. An unclaimed bag has been emptied onto the desk. Who does it belong to?"
+  },
+  "questions": [
+    {
+      "key": "owner",
+      "ask": {
+        "ko": "주인은 누구일까?",
+        "en": "Who is the owner?"
+      },
+      "options": [
+        {
+          "ko": "아이 엄마",
+          "en": "A mother"
+        },
+        {
+          "ko": "할머니",
+          "en": "An elderly woman"
+        },
+        {
+          "ko": "남학생",
+          "en": "A male student"
+        },
+        {
+          "ko": "직장인 남자",
+          "en": "A man who works in an office"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e3",
+        "e1"
+      ]
+    },
+    {
+      "key": "child",
+      "ask": {
+        "ko": "주인의 아이는?",
+        "en": "What about the owner's child?"
+      },
+      "options": [
+        {
+          "ko": "갓난아기",
+          "en": "A baby"
+        },
+        {
+          "ko": "일곱 살 하나",
+          "en": "One seven-year-old"
+        },
+        {
+          "ko": "중학생 하나",
+          "en": "A middle-schooler"
+        },
+        {
+          "ko": "어린아이 둘",
+          "en": "Two children"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "left",
+      "ask": {
+        "ko": "오늘 몇 시에 집을 나섰을까?",
+        "en": "When did the owner leave home today?"
+      },
+      "options": [
+        {
+          "ko": "아침 8시",
+          "en": "Eight in the morning"
+        },
+        {
+          "ko": "점심때",
+          "en": "Around noon"
+        },
+        {
+          "ko": "새벽",
+          "en": "Before dawn"
+        },
+        {
+          "ko": "저녁",
+          "en": "In the evening"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "job",
+      "ask": {
+        "ko": "무슨 일을 할까?",
+        "en": "What does the owner do?"
+      },
+      "options": [
+        {
+          "ko": "식당 조리원",
+          "en": "Cooking in a cafeteria"
+        },
+        {
+          "ko": "택배 기사",
+          "en": "Parcel delivery"
+        },
+        {
+          "ko": "어린이집 교사",
+          "en": "Daycare teacher"
+        },
+        {
+          "ko": "사무실 직원",
+          "en": "Office work"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e6"
+      ]
+    },
+    {
+      "key": "lost",
+      "ask": {
+        "ko": "가방은 언제 잃어버렸을까?",
+        "en": "When was the bag lost?"
+      },
+      "options": [
+        {
+          "ko": "점심시간",
+          "en": "At lunchtime"
+        },
+        {
+          "ko": "어제",
+          "en": "Yesterday"
+        },
+        {
+          "ko": "출근길",
+          "en": "On the way to work"
+        },
+        {
+          "ko": "퇴근길",
+          "en": "On the way home"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e6"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 20,
+      "y": 20,
+      "r": 8,
+      "label": {
+        "ko": "머리끈과 실핀, 이름 스티커 붙은 텀블러",
+        "en": "A hair tie, hairpins and a tumbler with a name sticker"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 45,
+      "y": 25,
+      "r": 9,
+      "label": {
+        "ko": "어린이 약봉투 — 아침·점심·저녁 칸, '하준 7세'",
+        "en": "A child's medicine envelope — morning, noon and evening doses, 'Hajun, age 7'"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 65,
+      "y": 22,
+      "r": 8,
+      "label": {
+        "ko": "어린이집 알림장 한 권",
+        "en": "A single kindergarten notebook"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 30,
+      "y": 60,
+      "r": 11,
+      "label": {
+        "ko": "접힌 흰 앞치마와 위생모, 고무장갑, 손목 보호대",
+        "en": "A folded white apron and hygienic cap, rubber gloves, a wrist brace"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 75,
+      "y": 60,
+      "r": 8,
+      "label": {
+        "ko": "편의점 영수증 — 05:40",
+        "en": "A convenience-store receipt — 05:40"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 55,
+      "y": 82,
+      "r": 9,
+      "label": {
+        "ko": "빈 도시락통 — 먹고 씻지 않았다",
+        "en": "An empty lunch box — eaten, not washed"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "큰 검정 백팩에 야구 모자. 젊은 남자 가방 같다. 그런데 안에서 나온 건 머리끈과 실핀, 이름 스티커 붙은 텀블러다. 어린이 약봉투엔 '하준 7세', 어린이집 알림장은 한 권. 일곱 살 아이 하나를 키우는 엄마다. 영수증은 새벽 5시 40분. 삼각김밥 하나. 그 시각에 집을 나서 편의점에서 아침을 때운 것이다. 흰 앞치마와 위생모, 고무장갑, 손목 보호대. 식당이나 급식실에서 음식을 만드는 사람이다. 도시락통은 비어 있고 씻지 않았다. 점심은 먹었고, 지금은 오후 3시. 새벽에 나가 점심을 먹고 퇴근하는 길에 가방을 두고 내렸다.",
+    "en": "A big black backpack and a baseball cap: it looks like a young man's bag. But out of it come a hair tie, hairpins and a tumbler with a name sticker. The child's medicine envelope reads 'Hajun, age 7' and there is one kindergarten notebook. A mother with one seven-year-old. The receipt says 05:40 — one rice ball, breakfast grabbed at a convenience store before dawn. A white apron and hygienic cap, rubber gloves, a wrist brace: she cooks in a cafeteria or kitchen. The lunch box is empty and unwashed — lunch is eaten, and it's now 3 p.m. She left before dawn, ate her lunch, and left the bag on the train on her way home."
+  }
+}
