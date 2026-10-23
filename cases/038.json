@@ -12,8 +12,8 @@
     "en": "A weekday afternoon: a photo and a message sent to the team lead. Find the lie in the photo."
   },
   "statement": {
-    "ko": "팀장님, 저 오늘 재택입니다. 지금 집 책상에서 일하는 중이에요. 커피 마시면서 엑셀 정리하고 있어요.",
-    "en": "Hi boss, I'm working from home today. At my desk at home right now. Having a coffee while I sort out the spreadsheet."
+    "ko": "팀장님, 저 오늘 재택근무입니다. 커피 마시면서 엑셀 정리하고 있어요. 조용해서 집중 잘 되네요.",
+    "en": "Hi boss, I'm working from home today. Having a coffee while I sort out the spreadsheet. Nice and quiet, easy to focus."
   },
   "questions": [
     {
@@ -24,12 +24,8 @@
       },
       "options": [
         {
-          "ko": "오늘 재택이다",
+          "ko": "오늘 재택근무다",
           "en": "She's working from home today"
-        },
-        {
-          "ko": "집 책상에서 일하는 중이다",
-          "en": "She's at her desk at home"
         },
         {
           "ko": "커피를 마시고 있다",
@@ -38,9 +34,13 @@
         {
           "ko": "엑셀을 정리하고 있다",
           "en": "She's working on a spreadsheet"
+        },
+        {
+          "ko": "조용해서 집중이 잘 된다",
+          "en": "It's quiet and easy to focus"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
         "e1",
         "e2",
@@ -48,32 +48,32 @@
       ]
     },
     {
-      "key": "buzzer",
+      "key": "receipt",
       "ask": {
-        "ko": "화분 뒤의 빨간 불 켜진 검은 원반은 무엇일까?",
-        "en": "What's the black disc with red lights behind the plant?"
+        "ko": "머그잔 밑에 깔린 길고 가는 종이는 무엇일까?",
+        "en": "What's the long thin slip of paper under the mug?"
       },
       "options": [
         {
-          "ko": "무선 충전기",
-          "en": "A wireless charger"
+          "ko": "메모지",
+          "en": "A memo slip"
         },
         {
-          "ko": "스마트 스피커",
-          "en": "A smart speaker"
+          "ko": "택배 송장",
+          "en": "A shipping label"
         },
         {
-          "ko": "카페 진동벨",
-          "en": "A café order buzzer"
+          "ko": "가게에서 받은 영수증",
+          "en": "A receipt from a shop"
         },
         {
-          "ko": "공기청정기 센서",
-          "en": "An air-quality sensor"
+          "ko": "책갈피",
+          "en": "A bookmark"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e1"
+        "e2"
       ]
     },
     {
@@ -104,7 +104,7 @@
       "evidence": [
         "e1",
         "e2",
-        "e4"
+        "e3"
       ]
     },
     {
@@ -137,32 +137,33 @@
       ]
     },
     {
-      "key": "true",
+      "key": "quiet",
       "ask": {
-        "ko": "진술 중 사진으로 확인되는 참말은?",
-        "en": "Which statement does the photo confirm?"
+        "ko": "'조용해서 집중이 잘 된다'는 말은?",
+        "en": "And 'nice and quiet, easy to focus'?"
       },
       "options": [
         {
-          "ko": "집 책상이다",
-          "en": "It's her desk at home"
+          "ko": "맞다 — 집이니까",
+          "en": "True — she's at home"
         },
         {
-          "ko": "커피를 마시며 엑셀을 보고 있다",
-          "en": "She's drinking coffee and looking at a spreadsheet"
+          "ko": "맞다 — 빈 사무실이니까",
+          "en": "True — the office is empty"
         },
         {
-          "ko": "혼자 있다",
-          "en": "She's alone"
+          "ko": "의심스럽다 — 옆자리까지 찬 카페다",
+          "en": "Doubtful — it's a café with the next seat taken"
         },
         {
-          "ko": "재택 중이다",
-          "en": "She's at home"
+          "ko": "알 수 없다",
+          "en": "Can't tell"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e5"
+        "e4",
+        "e1"
       ]
     }
   ],
@@ -219,7 +220,7 @@
     }
   ],
   "detective": {
-    "ko": "나무 책상, 노트북, 화분, 라테. 얼핏 보면 집이다. 커피를 마시며 엑셀을 본다는 말은 맞다. 화면엔 표가 떠 있고 잔엔 라테 아트가 남아 있다. 그런데 화분 뒤에 빨간 불이 켜진 검은 원반이 있다. 충전기도 스피커도 아니다. 주문한 음료가 나오면 울리는 카페 진동벨이다. 머그잔 밑엔 커피잔 그림이 찍힌 길고 가는 종이, 카페 영수증. 집에서 내린 커피에 영수증이 딸려 올 리 없다. 노트북 화면 한쪽 카메라 미리보기엔 그녀 등 뒤로 펜던트 조명과 칠판 메뉴판이 비친다. 사무실도 공유 오피스도 아닌 카페다. 테이블 끝엔 남의 가죽 가방 끈과 다른 머그잔까지. 옆자리에 누군가 앉아 있다. '집 책상에서 일하는 중'이라는 말만 사진과 맞지 않는다.",
-    "en": "A wooden table, a laptop, a plant, a latte. At a glance, home. 'Having a coffee while I sort out the spreadsheet' checks out: a spreadsheet on screen, foam art in the cup. But behind the plant sits a black disc with red lights. Not a charger, not a speaker — a café buzzer, the kind that goes off when your order is ready. Under the mug, a long thin slip printed with a coffee-cup icon: a café receipt. Coffee made at home doesn't come with one. And in the camera preview on her screen, pendant lamps and a chalkboard menu hang behind her. Not an office, not a co-working space — a café. At the table's edge, a stranger's leather bag strap and a different mug: someone is sitting right beside her. The only statement the photo contradicts: 'at my desk at home'."
+    "ko": "나무 책상, 노트북, 화분, 라테. 얼핏 보면 집이다. 커피를 마시며 엑셀을 본다는 말은 맞다. 화면엔 표가 떠 있고 잔엔 라테 아트가 남아 있다. 그런데 화분 뒤에 빨간 불이 켜진 검은 원반이 있다. 충전기도 스피커도 아니다. 주문한 음료가 나오면 울리는 카페 진동벨이다. 머그잔 밑엔 커피잔 그림이 찍힌 길고 가는 종이, 카페 영수증. 집에서 내린 커피에 영수증이 딸려 올 리 없다. 노트북 화면 한쪽 카메라 미리보기엔 그녀 등 뒤로 펜던트 조명과 칠판 메뉴판이 비친다. 사무실도 공유 오피스도 아닌 카페다. 테이블 끝엔 남의 가죽 가방 끈과 다른 머그잔까지. 옆자리에 누군가 앉아 있다. 조용해서 집중이 잘 된다는 말도 옆자리까지 찬 카페에선 믿기 어렵다. 사진과 맞지 않는 말은 '오늘 재택근무'다.",
+    "en": "A wooden table, a laptop, a plant, a latte. At a glance, home. 'Having a coffee while I sort out the spreadsheet' checks out: a spreadsheet on screen, foam art in the cup. But behind the plant sits a black disc with red lights. Not a charger, not a speaker — a café buzzer, the kind that goes off when your order is ready. Under the mug, a long thin slip printed with a coffee-cup icon: a café receipt. Coffee made at home doesn't come with one. And in the camera preview on her screen, pendant lamps and a chalkboard menu hang behind her. Not an office, not a co-working space — a café. At the table's edge, a stranger's leather bag strap and a different mug: someone is sitting right beside her. 'Nice and quiet' is hard to believe in a café with the next seat taken, too. The statement the photo contradicts: 'working from home'."
   }
 }
