@@ -68,7 +68,7 @@
       "answer": 2,
       "evidence": [
         "e3",
-        "e2"
+        "e4"
       ]
     },
     {
@@ -91,8 +91,8 @@
           "en": "A ring"
         },
         {
-          "ko": "옷",
-          "en": "Clothes"
+          "ko": "겨울 외투",
+          "en": "A winter coat"
         }
       ],
       "answer": 3,
@@ -128,7 +128,7 @@
       ],
       "answer": 0,
       "evidence": [
-        "e1",
+        "e2",
         "e6"
       ]
     },
@@ -165,49 +165,49 @@
   "clues": [
     {
       "id": "e1",
-      "x": 49,
-      "y": 49,
-      "r": 6,
+      "x": 51,
+      "y": 46,
+      "r": 5,
       "label": {
-        "ko": "손목의 하얀 시계 자국, 굳은살 박인 거뭇한 손 — 그리고 약지엔 반지 자국만 선명하고 반지가 없다",
-        "en": "A pale watch band and rough dark hands — and on his ring finger, a crisp ring mark with no ring"
+        "ko": "손목의 하얀 시계 자국, 굳은살 박인 거뭇한 손 — 뙤약볕 아래서 손으로 일한 사람",
+        "en": "A pale watch band and rough, dark hands — someone who worked with his hands under a fierce sun"
       }
     },
     {
       "id": "e2",
-      "x": 62,
-      "y": 84,
-      "r": 8,
+      "x": 21,
+      "y": 59,
+      "r": 5,
       "label": {
-        "ko": "낡은 더플백의 수하물 태그 'DOH' — 카타르 도하",
-        "en": "A worn duffel with a 'DOH' baggage tag — Doha, Qatar"
+        "ko": "약지의 하얀 반지 자국 — 반지는 없다",
+        "en": "A pale ring mark on his finger — and no ring"
       }
     },
     {
       "id": "e3",
-      "x": 41,
-      "y": 89,
-      "r": 10,
+      "x": 42,
+      "y": 90,
+      "r": 11,
       "label": {
-        "ko": "작업화에 말라붙은 붉은 흙과 모래 — 진흙이 아니라 메마른 먼지. 해변 샌들도 골프화도 아니다",
-        "en": "Red clay and sand dried hard on work boots — dry dust, not tropical mud. Not beach sandals, not golf shoes"
+        "ko": "붉은 흙과 모래가 말라붙은 낡은 작업화 — 열대의 진흙이 아니라 메마른 먼지. 해변 샌들도 골프화도 아니다",
+        "en": "Old work boots crusted with dry red clay and sand — not tropical mud. Not beach sandals, not golf shoes"
       }
     },
     {
       "id": "e4",
-      "x": 17,
-      "y": 38,
-      "r": 5,
+      "x": 46,
+      "y": 37,
+      "r": 7,
       "label": {
-        "ko": "소매에 그대로 달린 가격표 고리 — 반대쪽 소매에도 있다",
-        "en": "A price-tag fastener still clipped to the sleeve — the other sleeve has one too"
+        "ko": "한겨울 공항에 반팔 폴로셔츠, 팔에 낀 새 패딩 — 뒤의 사람들은 모두 두꺼운 코트 차림",
+        "en": "Short sleeves in a midwinter airport, a new puffer jacket folded under his arm — everyone behind him is bundled in coats"
       }
     },
     {
       "id": "e5",
-      "x": 84,
-      "y": 25,
-      "r": 14,
+      "x": 85,
+      "y": 27,
+      "r": 15,
       "label": {
         "ko": "리무진 버스 시간표를 올려다보는 시선",
         "en": "His eyes on the airport-limousine timetable"
@@ -215,8 +215,8 @@
     },
     {
       "id": "e6",
-      "x": 83,
-      "y": 84,
+      "x": 81,
+      "y": 83,
       "r": 7,
       "label": {
         "ko": "발치의 면세점 쇼핑백 — 아내에게 줄 선물",
@@ -225,7 +225,7 @@
     }
   ],
   "detective": {
-    "ko": "그을린 얼굴과 면세점 쇼핑백. 동남아 휴양지에서 돌아온 사람처럼 보인다. 그런데 발을 보라. 붉은 흙과 모래가 말라붙은 낡은 작업화다. 해변 샌들도 골프화도 아니다. 손은 굳은살에 손톱 밑까지 거뭇하다. 해외 공사 현장에서 일하다 온 사람이다. 신발의 흙은 열대의 진흙이 아니라 메마른 붉은 먼지다. 가방 태그는 DOH, 카타르 도하. 사막의 현장이다. 폴로셔츠 소매엔 가격표 고리가 그대로 달렸다. 공항에서 옷은 새로 샀지만 신발은 그대로이고, 손목엔 시계 대신 하얀 자국뿐이다. 그리고 약지. 반지 자국은 선명한데 반지가 없다. 현장 어딘가에서 잃어버렸다. 발치엔 아내에게 줄 선물까지 챙겼다. 집에 가기 전에 들를 곳은 금은방이다. 눈은 리무진 버스 시간표에 가 있다.",
-    "en": "A sun-darkened face and a duty-free bag: he looks like a man back from a Southeast Asian beach. But look at his feet — old work boots crusted with red clay and sand. Not beach sandals, not golf shoes. His hands are callused and dark to the nails. He's been working on a construction site abroad. The dirt on his boots isn't tropical mud; it's dry red dust. The bag tag says DOH, Doha, Qatar — a desert site. A price-tag fastener still hangs from his polo sleeve: he bought new clothes at the airport, but not shoes, and on his wrist there's only a pale band where a watch was. Then his ring finger: a crisp ring mark, and no ring. He lost it somewhere on the site. He even picked up a gift for his wife. Before he goes home, he'll stop at a jewelry shop. His eyes are on the limousine timetable."
+    "ko": "그을린 얼굴과 면세점 쇼핑백. 동남아 휴양지에서 돌아온 사람처럼 보인다. 그런데 발을 보라. 붉은 흙과 모래가 말라붙은 낡은 작업화다. 해변 샌들도 골프화도 아니다. 손은 굳은살에 손톱 밑까지 거뭇하다. 해외 공사 현장에서 일하다 온 사람이다. 신발의 흙은 열대의 진흙이 아니라 메마른 붉은 먼지다. 사막의 현장이다. 뒤의 사람들은 모두 두꺼운 코트를 입었는데 그만 반팔 폴로셔츠다. 더운 나라에서 그 옷 그대로 내렸고, 팔에 낀 패딩은 공항에서 막 산 것이다. 신발은 그대로이고, 손목엔 시계 대신 하얀 자국뿐이다. 그리고 약지. 반지 자국은 선명한데 반지가 없다. 현장 어딘가에서 잃어버렸다. 발치엔 아내에게 줄 선물까지 챙겼다. 집에 가기 전에 들를 곳은 금은방이다. 눈은 리무진 버스 시간표에 가 있다.",
+    "en": "A sun-darkened face and a duty-free bag: he looks like a man back from a Southeast Asian beach. But look at his feet — old work boots crusted with red clay and sand. Not beach sandals, not golf shoes. His hands are callused and dark to the nails. He's been working on a construction site abroad. The dirt on his boots isn't tropical mud; it's dry red dust — a desert site. Everyone behind him is bundled in winter coats, yet he stands in a short-sleeved polo: he stepped off the plane from somewhere hot in the clothes he wore there, and the puffer folded under his arm was bought at the airport. His boots are the same, and on his wrist there's only a pale band where a watch was. Then his ring finger: a crisp ring mark, and no ring. He lost it somewhere on the site. He even picked up a gift for his wife. Before he goes home, he'll stop at a jewelry shop. His eyes are on the limousine timetable."
   }
 }
