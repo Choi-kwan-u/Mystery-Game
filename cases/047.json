@@ -1,0 +1,230 @@
+{
+  "id": 47,
+  "date": "2026-12-01",
+  "type": "scene",
+  "image": "img/047.webp",
+  "title": {
+    "ko": "깨진 화분의 범인",
+    "en": "Who Broke the Pot"
+  },
+  "intro": {
+    "ko": "저녁 7시, 거실. 화분이 깨져 흙이 쏟아졌다. 가족은 고양이 짓이라고 한다. 범인은 누구일까?",
+    "en": "7 p.m., a living room. A flowerpot lies smashed, soil everywhere. The family blames the cat. Who did it?"
+  },
+  "questions": [
+    {
+      "key": "culprit",
+      "ask": {
+        "ko": "범인은?",
+        "en": "Who did it?"
+      },
+      "options": [
+        {
+          "ko": "로봇청소기",
+          "en": "The robot vacuum"
+        },
+        {
+          "ko": "바람",
+          "en": "The wind"
+        },
+        {
+          "ko": "막내",
+          "en": "The youngest child"
+        },
+        {
+          "ko": "고양이",
+          "en": "The cat"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "fell",
+      "ask": {
+        "ko": "화분은 어디서 떨어졌을까?",
+        "en": "Where did the pot fall from?"
+      },
+      "options": [
+        {
+          "ko": "바닥의 낮은 받침대",
+          "en": "A low stand on the floor"
+        },
+        {
+          "ko": "식탁",
+          "en": "The dining table"
+        },
+        {
+          "ko": "높은 선반",
+          "en": "A high shelf"
+        },
+        {
+          "ko": "창턱",
+          "en": "The windowsill"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "cat",
+      "ask": {
+        "ko": "고양이는 그때 무엇을 하고 있었을까?",
+        "en": "What was the cat doing at the time?"
+      },
+      "options": [
+        {
+          "ko": "선반 위를 걷고 있었다",
+          "en": "Walking along the shelf"
+        },
+        {
+          "ko": "캣타워에서 자고 있었다",
+          "en": "Asleep on the cat tower"
+        },
+        {
+          "ko": "흙을 파고 있었다",
+          "en": "Digging in the soil"
+        },
+        {
+          "ko": "창밖을 보고 있었다",
+          "en": "Watching the window"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "언제 벌어진 일일까?",
+        "en": "When did it happen?"
+      },
+      "options": [
+        {
+          "ko": "오늘 아침",
+          "en": "Morning"
+        },
+        {
+          "ko": "오늘 한낮",
+          "en": "Midday"
+        },
+        {
+          "ko": "저녁 6시 반",
+          "en": "Around 6:30 p.m."
+        },
+        {
+          "ko": "바로 방금",
+          "en": "Just now"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e2"
+      ]
+    },
+    {
+      "key": "after",
+      "ask": {
+        "ko": "깨진 뒤 범인은 어떻게 했을까?",
+        "en": "What did the culprit do afterwards?"
+      },
+      "options": [
+        {
+          "ko": "그 자리에 잠듦",
+          "en": "Fell asleep on the spot"
+        },
+        {
+          "ko": "치우려고 했다",
+          "en": "Tried to clean up"
+        },
+        {
+          "ko": "멀리 달아났다",
+          "en": "Ran away"
+        },
+        {
+          "ko": "소파 밑에 멈췄다",
+          "en": "Stopped under the sofa"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 45,
+      "y": 65,
+      "r": 14,
+      "label": {
+        "ko": "쏟아진 흙 위를 가로지른 바퀴 자국 두 줄과 반원으로 밀린 가장자리 — 사람 발자국도 고양이 발자국도 없다",
+        "en": "Two wheel tracks across the spilled soil and a half-circle of pushed earth — no footprints, human or feline"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 20,
+      "y": 80,
+      "r": 11,
+      "label": {
+        "ko": "소파 밑에 멈춘 로봇청소기 — 범퍼에 흙과 화분 조각, 표시등 켜짐",
+        "en": "The robot vacuum stopped under the sofa — soil and pot shards on its bumper, its light on"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 60,
+      "y": 55,
+      "r": 9,
+      "label": {
+        "ko": "기울어진 키 낮은 화분 받침대 — 선반이 아니라 바닥에 놓는 것",
+        "en": "A low plant stand knocked askew — floor-standing, not a shelf"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 85,
+      "y": 25,
+      "r": 10,
+      "label": {
+        "ko": "캣타워 꼭대기에서 자는 고양이, 깨끗한 발바닥",
+        "en": "The cat asleep on top of the cat tower, paws clean"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 20,
+      "y": 20,
+      "r": 7,
+      "label": {
+        "ko": "청소기 본체의 예약 시각 18:30",
+        "en": "The vacuum's scheduled start time: 18:30"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 70,
+      "y": 85,
+      "r": 8,
+      "label": {
+        "ko": "흙 바깥까지 이어진 바퀴 자국의 흙 — 지나간 뒤에 묻은 것",
+        "en": "Soil carried by the wheel tracks beyond the spill — tracked after the crash"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "흙 위를 보라. 고양이 발자국은 없다. 사람 발자국도 없다. 대신 바퀴 자국 두 줄이 흙을 가로질렀고, 가장자리는 반원 모양으로 밀려 있다. 둥근 범퍼가 밀고 간 자리다. 소파 밑에 로봇청소기가 흙 범벅인 채 멈춰 있고 범퍼엔 화분 조각이 끼었다. 화분은 선반이 아니라 바닥에 놓는 낮은 받침대 위에 있었다. 받침대는 밀려 기울어졌다. 청소기가 받침대를 들이받아 화분이 넘어졌고, 청소기는 쏟아진 흙 위를 그대로 지나 소파 밑에서 멈췄다. 본체의 예약 시각은 18시 30분. 지금 7시니 반 시간 전 일이다. 고양이는 캣타워 꼭대기에서 자고 있고 발바닥이 깨끗하다. 고양이는 억울하다.",
+    "en": "Look at the soil. No cat prints, no human footprints. Instead, two wheel tracks cross the spill and its edge is pushed into a half-circle — the mark of a round bumper. Under the sofa sits the robot vacuum, caked in soil, pot shards wedged in its bumper. The pot stood not on a shelf but on a low floor stand, now knocked askew. The vacuum rammed the stand, the pot toppled, and the vacuum drove straight through the spill before stopping under the sofa. Its scheduled start time reads 18:30; it's seven now, so half an hour ago. The cat is asleep on top of the cat tower with clean paws. The cat is innocent."
+  }
+}

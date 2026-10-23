@@ -1,0 +1,235 @@
+{
+  "id": 45,
+  "date": "2026-11-29",
+  "type": "lie",
+  "image": "img/045.webp",
+  "title": {
+    "ko": "홈트 인증샷",
+    "en": "The Home-Workout Selfie"
+  },
+  "intro": {
+    "ko": "월요일 아침, 친구가 운동 인증이라며 보낸 사진과 메시지. 사진 속에서 거짓말을 찾아라.",
+    "en": "Monday morning: a friend sends a photo as proof of a workout. Find the lie in the photo."
+  },
+  "statement": {
+    "ko": "오늘 아침에도 러닝머신 뛰었어. 새로 산 요가매트도 들였고. 운동화도 새로 장만했지. 요즘 아침은 샐러드만 먹어.",
+    "en": "Ran on the treadmill again this morning. Got my new yoga mat in, too. Bought new running shoes. Lately I only eat salad for breakfast."
+  },
+  "questions": [
+    {
+      "key": "lie",
+      "ask": {
+        "ko": "사진과 맞지 않는 말은?",
+        "en": "Which statement doesn't match the photo?"
+      },
+      "options": [
+        {
+          "ko": "오늘 아침에도 러닝머신을 뛰었다",
+          "en": "Ran on the treadmill this morning"
+        },
+        {
+          "ko": "새 요가매트를 들였다",
+          "en": "Got a new yoga mat"
+        },
+        {
+          "ko": "운동화를 새로 샀다",
+          "en": "Bought new running shoes"
+        },
+        {
+          "ko": "아침은 샐러드만 먹는다",
+          "en": "Only eats salad for breakfast"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "last",
+      "ask": {
+        "ko": "러닝머신을 마지막으로 쓴 건 언제일까?",
+        "en": "When was the treadmill last used?"
+      },
+      "options": [
+        {
+          "ko": "오늘 아침",
+          "en": "This morning"
+        },
+        {
+          "ko": "어제",
+          "en": "Yesterday"
+        },
+        {
+          "ko": "몇 주 전",
+          "en": "Weeks ago"
+        },
+        {
+          "ko": "한 번도",
+          "en": "Never"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "mat",
+      "ask": {
+        "ko": "요가매트는?",
+        "en": "The yoga mat?"
+      },
+      "options": [
+        {
+          "ko": "아직 포장도 안 뜯었다",
+          "en": "Still in its wrapping"
+        },
+        {
+          "ko": "남에게 받은 것",
+          "en": "A hand-me-down"
+        },
+        {
+          "ko": "매일 쓴다",
+          "en": "Used daily"
+        },
+        {
+          "ko": "한 번 써 봤다",
+          "en": "Tried once"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3"
+      ]
+    },
+    {
+      "key": "treadmill",
+      "ask": {
+        "ko": "요즘 러닝머신의 쓰임은?",
+        "en": "What is the treadmill used for these days?"
+      },
+      "options": [
+        {
+          "ko": "걷기",
+          "en": "Walking"
+        },
+        {
+          "ko": "옷걸이",
+          "en": "A clothes rack"
+        },
+        {
+          "ko": "책상",
+          "en": "A desk"
+        },
+        {
+          "ko": "달리기",
+          "en": "Running"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "morning",
+      "ask": {
+        "ko": "오늘 아침 실제로 한 일은?",
+        "en": "What actually happened this morning?"
+      },
+      "options": [
+        {
+          "ko": "아직 아무것도",
+          "en": "Nothing yet"
+        },
+        {
+          "ko": "뛰고 샐러드 먹음",
+          "en": "Ran, then ate salad"
+        },
+        {
+          "ko": "요가매트 운동",
+          "en": "Did yoga"
+        },
+        {
+          "ko": "샐러드만 먹음",
+          "en": "Only ate the salad"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4",
+        "e1",
+        "e5"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 40,
+      "y": 40,
+      "r": 14,
+      "label": {
+        "ko": "러닝머신 벨트 위의 뽀얀 먼지, 꺼진 계기판, 바닥에 뽑혀 있는 플러그",
+        "en": "A film of dust on the treadmill belt, a dark console, the plug lying unplugged on the floor"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 45,
+      "y": 25,
+      "r": 10,
+      "label": {
+        "ko": "손잡이에 걸린 옷 여러 벌",
+        "en": "Clothes draped over the handrails"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 80,
+      "y": 55,
+      "r": 9,
+      "label": {
+        "ko": "포장 비닐과 라벨이 그대로인 요가매트",
+        "en": "A yoga mat still in its plastic wrap, label attached"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 20,
+      "y": 80,
+      "r": 10,
+      "label": {
+        "ko": "테이블의 샐러드 통과 포크 — 먹은 흔적",
+        "en": "A salad container and fork on the table — eaten"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 85,
+      "y": 85,
+      "r": 8,
+      "label": {
+        "ko": "상자 옆의 새 운동화 — 밑창이 깨끗하다",
+        "en": "New running shoes beside their box — soles spotless"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 55,
+      "y": 65,
+      "r": 8,
+      "label": {
+        "ko": "운동복 차림이지만 땀 한 방울 없는 말끔한 머리",
+        "en": "Workout clothes, but neat hair and not a drop of sweat"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "요가매트는 벽에 기대 있다. 포장 비닐과 라벨이 그대로다. '들였다'는 말은 맞다. 들이기만 했다. 새 운동화는 상자 옆에 있고 밑창이 깨끗하다. 산 건 맞다. 테이블엔 샐러드 통과 포크, 먹은 흔적. 아침은 샐러드가 맞다. 그럼 러닝머신. 벨트 위에 먼지가 뽀얗게 앉았고 계기판은 꺼져 있고 플러그는 뽑혀 바닥에 놓여 있다. 손잡이엔 옷이 여러 벌 걸렸다. 몇 주째 옷걸이로 쓰이는 기계다. 오늘 아침에 뛰었다면 먼지에 자국이 났을 것이고 옷을 치웠을 것이다. 운동복을 입었지만 머리는 말끔하고 땀 한 방울 없다. 오늘 아침 한 일은 샐러드를 먹은 것뿐이다. 거짓말은 '오늘 아침에도 뛰었다'.",
+    "en": "The yoga mat leans against the wall still in its plastic wrap, label attached. 'Got it in' is true — that's all that happened to it. The new shoes sit beside their box with spotless soles; bought, yes. A salad container and fork on the table, eaten: salad for breakfast, true. Now the treadmill. A film of dust on the belt, a dark console, the plug lying unplugged on the floor, and several garments draped over the handrails. It has been a clothes rack for weeks. A run this morning would have scuffed the dust and moved the clothes. Workout clothes, but neat hair and not a drop of sweat. The only thing that happened this morning was the salad. The lie is 'ran on the treadmill this morning.'"
+  }
+}

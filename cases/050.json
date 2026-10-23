@@ -1,0 +1,231 @@
+{
+  "id": 50,
+  "date": "2026-12-04",
+  "image": "img/050.webp",
+  "title": {
+    "ko": "택배 상자의 발신인",
+    "en": "Who Sent the Box"
+  },
+  "intro": {
+    "ko": "저녁, 자취방 책상. 송장이 떨어진 택배 상자를 열어 내용물을 꺼내 놓았다. 누가 보낸 것일까?",
+    "en": "Evening, a desk in a studio flat. A parcel with its label torn off has been opened and emptied. Who sent it?"
+  },
+  "questions": [
+    {
+      "key": "sender",
+      "ask": {
+        "ko": "누가 보냈을까?",
+        "en": "Who sent the box?"
+      },
+      "options": [
+        {
+          "ko": "시골 엄마",
+          "en": "His mother"
+        },
+        {
+          "ko": "회사 동료",
+          "en": "A coworker"
+        },
+        {
+          "ko": "쇼핑몰",
+          "en": "An online shop"
+        },
+        {
+          "ko": "여자친구",
+          "en": "A girlfriend"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e3",
+        "e5"
+      ]
+    },
+    {
+      "key": "from",
+      "ask": {
+        "ko": "어디서 보냈을까?",
+        "en": "Where was it sent from?"
+      },
+      "options": [
+        {
+          "ko": "시골 집",
+          "en": "A home in the countryside"
+        },
+        {
+          "ko": "해외",
+          "en": "Overseas"
+        },
+        {
+          "ko": "회사 사무실",
+          "en": "An office"
+        },
+        {
+          "ko": "서울 시내",
+          "en": "Downtown Seoul"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e5"
+      ]
+    },
+    {
+      "key": "made",
+      "ask": {
+        "ko": "상자 속 음식은?",
+        "en": "The food inside?"
+      },
+      "options": [
+        {
+          "ko": "가게에서 산 것",
+          "en": "Store-bought"
+        },
+        {
+          "ko": "직접 만들고 기른 것",
+          "en": "Home-made and home-grown"
+        },
+        {
+          "ko": "배달 음식",
+          "en": "Delivery food"
+        },
+        {
+          "ko": "선물 세트",
+          "en": "A gift set"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "ribbon",
+      "ask": {
+        "ko": "분홍 리본 상자는?",
+        "en": "The pink-ribboned box?"
+      },
+      "options": [
+        {
+          "ko": "커플 시계",
+          "en": "Matching watches"
+        },
+        {
+          "ko": "반지",
+          "en": "A ring"
+        },
+        {
+          "ko": "영양제",
+          "en": "Vitamins"
+        },
+        {
+          "ko": "향수",
+          "en": "Perfume"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "receiver",
+      "ask": {
+        "ko": "받는 사람은 어떤 사람일까?",
+        "en": "What kind of person received it?"
+      },
+      "options": [
+        {
+          "ko": "회사 대표",
+          "en": "A company boss"
+        },
+        {
+          "ko": "어린아이",
+          "en": "A small child"
+        },
+        {
+          "ko": "신혼부부",
+          "en": "A newlywed couple"
+        },
+        {
+          "ko": "혼자 사는 자식",
+          "en": "A grown child living alone"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e6",
+        "e3"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 40,
+      "y": 40,
+      "r": 14,
+      "label": {
+        "ko": "반찬통 여러 개 — 뚜껑의 마스킹테이프 라벨과 날짜, 꽁꽁 싸맨 비닐",
+        "en": "Several food containers — masking-tape labels and dates on the lids, wrapped tight in plastic"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 70,
+      "y": 65,
+      "r": 12,
+      "label": {
+        "ko": "신문지로 만 고구마, 흙 묻은 양파 한 망, 말린 고추",
+        "en": "Sweet potatoes rolled in newspaper, a net of onions still dusty with soil, dried chilies"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 20,
+      "y": 75,
+      "r": 10,
+      "label": {
+        "ko": "줄 공책을 찢어 쓴 손편지 — 큰 흘림체, 젊은 손글씨가 아니다",
+        "en": "A letter on paper torn from a lined notebook — big looping handwriting, not a young hand"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 80,
+      "y": 30,
+      "r": 8,
+      "label": {
+        "ko": "분홍 리본 상자 — 안엔 영양제와 핸드크림",
+        "en": "The pink-ribboned box — vitamins and hand cream inside"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 55,
+      "y": 15,
+      "r": 10,
+      "label": {
+        "ko": "과일 그림이 그려진 재활용 상자와 안쪽의 농협 마트 봉지",
+        "en": "A reused fruit box and a farm-co-op grocery bag inside it"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 10,
+      "y": 25,
+      "r": 8,
+      "label": {
+        "ko": "책상 위 컵라면 빈 용기",
+        "en": "An empty cup-noodle container on the desk"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "분홍 리본을 묶은 작은 상자와 손편지. 여자친구의 선물 같다. 그런데 리본 상자 안은 영양제와 핸드크림이다. 반지가 아니라 걱정이다. 손편지는 줄 공책을 찢은 종이에 큰 흘림체로 썼다. 젊은 손글씨가 아니다. 상자 안을 보자. 반찬통마다 마스킹테이프로 날짜와 이름을 붙이고 비닐로 꽁꽁 쌌다. 신문지로 만 고구마, 흙이 그대로 묻은 양파 한 망, 말린 고추. 가게에서 산 것이 아니라 직접 기르고 담근 것이다. 상자는 과일 상자를 다시 쓴 것이고 안엔 농협 마트 봉지. 시골에서 왔다. 책상 위엔 컵라면 빈 용기. 혼자 사는 자식에게 시골 엄마가 보낸 상자다. 리본은 엄마가 묶은 것이다.",
+    "en": "A small box tied with a pink ribbon, and a handwritten letter: a girlfriend's gift, surely. But inside the ribboned box are vitamins and hand cream — not a ring, a worry. The letter is written on paper torn from a lined notebook in big looping script; not a young hand. Now the rest of the box. Every food container is labeled with masking tape — a date and a name — and wrapped tight in plastic. Sweet potatoes rolled in newspaper, a net of onions still dusty with soil, dried chilies: nothing store-bought, all grown and made at home. The box is a reused fruit carton with a farm-co-op grocery bag inside. It came from the countryside. On the desk, an empty cup of instant noodles. A box from a mother in the country to a grown child living alone. She tied the ribbon herself."
+  }
+}

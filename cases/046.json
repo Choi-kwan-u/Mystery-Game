@@ -1,0 +1,235 @@
+{
+  "id": 46,
+  "date": "2026-11-30",
+  "type": "lie",
+  "image": "img/046.webp",
+  "title": {
+    "ko": "차 안의 알리바이",
+    "en": "Alibi in the Car"
+  },
+  "intro": {
+    "ko": "화요일 아침, 남편의 차 조수석에서 찍은 사진. 어젯밤 어디 있었냐고 묻자 이렇게 말했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "Tuesday morning, a photo taken from the passenger seat of a husband's car. Asked where he was last night, he said this. Find the lie in the photo."
+  },
+  "statement": {
+    "ko": "어젯밤엔 집에 있었어. 차는 그제부터 안 움직였고. 혼자 있었어. 담배는 끊은 지 오래야.",
+    "en": "I was home last night. The car hasn't moved since the day before. I was alone. I quit smoking ages ago."
+  },
+  "questions": [
+    {
+      "key": "lie",
+      "ask": {
+        "ko": "사진과 맞지 않는 말은?",
+        "en": "Which statement doesn't match the photo?"
+      },
+      "options": [
+        {
+          "ko": "차는 그제부터 안 움직였다",
+          "en": "The car hasn't moved since the day before"
+        },
+        {
+          "ko": "혼자 있었다",
+          "en": "Was alone"
+        },
+        {
+          "ko": "담배는 끊었다",
+          "en": "Quit smoking"
+        },
+        {
+          "ko": "어젯밤 집에 있었다",
+          "en": "Home last night"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "어젯밤 차는 어디에 갔을까?",
+        "en": "Where did the car go last night?"
+      },
+      "options": [
+        {
+          "ko": "강 건너 식당",
+          "en": "A restaurant across the river"
+        },
+        {
+          "ko": "동네 편의점",
+          "en": "The corner store"
+        },
+        {
+          "ko": "아무 데도",
+          "en": "Nowhere"
+        },
+        {
+          "ko": "회사 주차장",
+          "en": "The office lot"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e6"
+      ]
+    },
+    {
+      "key": "time",
+      "ask": {
+        "ko": "몇 시쯤 거기 있었을까?",
+        "en": "Around what time was he there?"
+      },
+      "options": [
+        {
+          "ko": "오후 6시",
+          "en": "6 p.m."
+        },
+        {
+          "ko": "밤 8~9시",
+          "en": "8 or 9 p.m."
+        },
+        {
+          "ko": "자정",
+          "en": "Midnight"
+        },
+        {
+          "ko": "새벽 2시",
+          "en": "2 a.m."
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "alone",
+      "ask": {
+        "ko": "차에 누가 더 탔을까?",
+        "en": "Was anyone else in the car?"
+      },
+      "options": [
+        {
+          "ko": "아내",
+          "en": "His wife"
+        },
+        {
+          "ko": "동료",
+          "en": "A colleague"
+        },
+        {
+          "ko": "아무도",
+          "en": "Nobody"
+        },
+        {
+          "ko": "아이들",
+          "en": "The kids"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e2"
+      ]
+    },
+    {
+      "key": "weather",
+      "ask": {
+        "ko": "어젯밤 날씨는?",
+        "en": "The weather last night?"
+      },
+      "options": [
+        {
+          "ko": "안개",
+          "en": "Fog"
+        },
+        {
+          "ko": "맑았다",
+          "en": "Clear"
+        },
+        {
+          "ko": "눈이 왔다",
+          "en": "Snow"
+        },
+        {
+          "ko": "비가 왔다",
+          "en": "Rain"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 50,
+      "y": 30,
+      "r": 10,
+      "label": {
+        "ko": "대시보드의 종이 주차권 — 어젯밤 날짜, 20:40, 식당 이름",
+        "en": "A paper parking ticket on the dash — last night's date, 20:40, a restaurant's name"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 65,
+      "y": 60,
+      "r": 8,
+      "label": {
+        "ko": "컵홀더의 테이크아웃 컵 하나, 밤새 녹다 만 얼음",
+        "en": "One take-out cup in the holder, ice half-melted overnight"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 30,
+      "y": 85,
+      "r": 12,
+      "label": {
+        "ko": "운전석 바닥 매트의 젖은 흙 자국 — 창밖은 맑다",
+        "en": "Wet mud on the driver's floor mat — while the sky outside is clear"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 80,
+      "y": 70,
+      "r": 10,
+      "label": {
+        "ko": "깨끗한 조수석, 당겨지지 않은 안전벨트",
+        "en": "A clean passenger seat, the belt untouched"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 40,
+      "y": 65,
+      "r": 7,
+      "label": {
+        "ko": "비어 있는 재떨이와 사탕 껍질",
+        "en": "An empty ashtray and candy wrappers"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 20,
+      "y": 40,
+      "r": 9,
+      "label": {
+        "ko": "계기판의 연료 경고등과 하이패스 영수증의 다리 이름",
+        "en": "The low-fuel light on the dash, and a bridge named on a toll receipt"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "조수석은 깨끗하고 벨트는 당겨진 적이 없다. 컵도 하나뿐. 혼자였다는 말은 맞다. 재떨이는 비어 있고 사탕 껍질뿐이니 담배도 끊은 게 맞다. 그런데 대시보드의 종이 주차권을 보자. 어젯밤 날짜, 20시 40분, 식당 이름. 컵홀더의 테이크아웃 컵엔 얼음이 밤새 녹다 말고 조금 남아 있다. 그제 산 음료라면 얼음은 흔적도 없다. 바닥 매트엔 젖은 흙. 창밖은 맑은데 매트가 젖었으니 비 오는 밤에 탔다. 톨게이트 영수증엔 다리 이름, 연료 경고등까지 켜졌다. 어젯밤 8시 40분, 그는 혼자 차를 몰고 비를 뚫고 강을 건너 식당에 갔다. '차는 그제부터 안 움직였다'는 거짓말이다.",
+    "en": "The passenger seat is clean and its belt has never been pulled; only one cup. 'Alone' is true. The ashtray is empty but for candy wrappers, so he really did quit. Now the paper parking ticket on the dash: last night's date, 20:40, a restaurant's name. The take-out cup still holds a little ice, half-melted overnight — a drink bought two days ago would have none. Wet mud on the floor mat under a clear sky: he drove in last night's rain. A toll receipt names a bridge, and the low-fuel light is on. At 8:40 last night he drove alone through the rain, across the river, to a restaurant. 'The car hasn't moved since the day before' is the lie."
+  }
+}

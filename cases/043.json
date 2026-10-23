@@ -1,0 +1,234 @@
+{
+  "id": 43,
+  "date": "2026-11-27",
+  "type": "scene",
+  "image": "img/043.webp",
+  "title": {
+    "ko": "주차장의 두 차",
+    "en": "Two Cars in the Lot"
+  },
+  "intro": {
+    "ko": "오후 2시, 마트 주차장. 흰 차와 검은 차가 맞닿아 있다. 흰 차 운전자는 \"뒤차가 와서 박았다\"고 한다. 무슨 일이 있었을까?",
+    "en": "2 p.m., a supermarket parking lot. A white car and a black car sit bumper to bumper. The white car's driver says the car behind hit him. What really happened?"
+  },
+  "questions": [
+    {
+      "key": "moving",
+      "ask": {
+        "ko": "움직인 차는 어느 쪽일까?",
+        "en": "Which car was moving?"
+      },
+      "options": [
+        {
+          "ko": "흰 차만",
+          "en": "The white car"
+        },
+        {
+          "ko": "둘 다 움직임",
+          "en": "Both"
+        },
+        {
+          "ko": "둘 다 정지",
+          "en": "Neither"
+        },
+        {
+          "ko": "검은 차만",
+          "en": "The black car"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "direction",
+      "ask": {
+        "ko": "그 차는 어느 방향으로 움직였을까?",
+        "en": "Which way was it moving?"
+      },
+      "options": [
+        {
+          "ko": "뒤로 후진",
+          "en": "Backward"
+        },
+        {
+          "ko": "옆으로 밀림",
+          "en": "Slid sideways"
+        },
+        {
+          "ko": "제자리 회전",
+          "en": "Turned in place"
+        },
+        {
+          "ko": "앞으로 전진",
+          "en": "Forward"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "black",
+      "ask": {
+        "ko": "검은 차는 그때 무엇을 하고 있었을까?",
+        "en": "What was the black car doing at the time?"
+      },
+      "options": [
+        {
+          "ko": "빠져나가던 중",
+          "en": "Pulling out"
+        },
+        {
+          "ko": "주차된 채 비어 있었다",
+          "en": "Parked and empty"
+        },
+        {
+          "ko": "시동 걸고 대기 중",
+          "en": "Idling and waiting"
+        },
+        {
+          "ko": "주차하려고 들어오던 중",
+          "en": "Pulling in to park"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e6"
+      ]
+    },
+    {
+      "key": "white",
+      "ask": {
+        "ko": "흰 차 운전자는 무엇을 하려던 참이었을까?",
+        "en": "What was the white car's driver about to do?"
+      },
+      "options": [
+        {
+          "ko": "사람을 태우려던 참",
+          "en": "Pick someone up"
+        },
+        {
+          "ko": "장 보러 들어가려던 참",
+          "en": "Go in to shop"
+        },
+        {
+          "ko": "장 보고 떠나려던 참",
+          "en": "Leave after shopping"
+        },
+        {
+          "ko": "주차 자리를 바꾸려던 참",
+          "en": "Move to another space"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e2"
+      ]
+    },
+    {
+      "key": "fault",
+      "ask": {
+        "ko": "과실은 누구에게 있을까?",
+        "en": "Who is at fault?"
+      },
+      "options": [
+        {
+          "ko": "양쪽 반반",
+          "en": "Both equally"
+        },
+        {
+          "ko": "마트 관리 책임",
+          "en": "The supermarket"
+        },
+        {
+          "ko": "검은 차 운전자",
+          "en": "The black car's driver"
+        },
+        {
+          "ko": "흰 차 운전자",
+          "en": "The white car's driver"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2",
+        "e4"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 50,
+      "y": 50,
+      "r": 12,
+      "label": {
+        "ko": "맞닿은 흰 차 뒷범퍼와 검은 차 앞범퍼 — 서로의 페인트가 묻어 있다",
+        "en": "The white car's rear bumper against the black car's front bumper — each wearing the other's paint"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 42,
+      "y": 48,
+      "r": 6,
+      "label": {
+        "ko": "흰 차의 후진등이 켜져 있다",
+        "en": "The white car's reverse lights are on"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 35,
+      "y": 70,
+      "r": 12,
+      "label": {
+        "ko": "흰 차 뒷바퀴에서 뒤쪽으로 난 짧은 타이어 자국 — 검은 차 바퀴 앞엔 자국이 없다",
+        "en": "A short tire mark running backward from the white car's rear wheel — nothing in front of the black car's wheels"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 72,
+      "y": 45,
+      "r": 12,
+      "label": {
+        "ko": "주차선 안에 반듯이 선 검은 차, 접힌 사이드미러",
+        "en": "The black car square in its space, mirrors folded"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 20,
+      "y": 35,
+      "r": 10,
+      "label": {
+        "ko": "열린 흰 차 트렁크에 가득한 장바구니",
+        "en": "The white car's open trunk, full of groceries"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 80,
+      "y": 30,
+      "r": 7,
+      "label": {
+        "ko": "검은 차 앞유리의 종이 주차권 — 오전 시각",
+        "en": "A paper parking ticket on the black car's windshield — a morning time"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "닿은 곳을 보자. 흰 차의 뒷범퍼와 검은 차의 앞범퍼다. 뒤차가 앞으로 와서 박았어도, 앞차가 뒤로 가서 박았어도 모양은 같다. 그러니 차 자체를 봐야 한다. 검은 차는 주차선 안에 반듯이 서 있고 사이드미러가 접혀 있다. 움직이던 차는 미러를 접지 않는다. 앞유리엔 오전 시각의 주차권. 몇 시간째 그 자리에 서 있던 빈 차다. 흰 차는 주차 칸에서 비스듬히 빠져나온 자세이고 후진등이 켜져 있다. 바닥의 타이어 자국은 흰 차 뒷바퀴에서 뒤로 나 있고, 검은 차 바퀴 앞엔 아무 자국이 없다. 트렁크는 열린 채 장바구니가 가득하다. 장을 다 보고 떠나려고 후진하다가, 뒤에 서 있던 차를 박은 것이다. 과실은 흰 차다.",
+    "en": "Look where they touch: the white car's rear bumper and the black car's front bumper. A car hitting from behind or a car reversing into one would leave the same shape, so look at the cars themselves. The black car sits square in its space with its mirrors folded — a moving car doesn't fold its mirrors — and a parking ticket on its windshield shows a morning time. It has stood there empty for hours. The white car sits at an angle, half out of its space, with its reverse lights on. The tire mark on the ground runs backward from its rear wheel, and there is nothing in front of the black car's wheels. Its trunk is open and full of groceries. Done shopping, backing out to leave, it reversed into the car parked behind it. The fault is the white car's."
+  }
+}

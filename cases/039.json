@@ -39,8 +39,7 @@
       "answer": 2,
       "evidence": [
         "e1",
-        "e2",
-        "e3"
+        "e2"
       ]
     },
     {
@@ -70,7 +69,7 @@
       "answer": 0,
       "evidence": [
         "e1",
-        "e3"
+        "e2"
       ]
     },
     {
@@ -99,8 +98,8 @@
       ],
       "answer": 1,
       "evidence": [
-        "e2",
-        "e4"
+        "e1",
+        "e3"
       ]
     },
     {
@@ -129,9 +128,9 @@
       ],
       "answer": 3,
       "evidence": [
+        "e2",
         "e3",
-        "e4",
-        "e5"
+        "e4"
       ]
     },
     {
@@ -160,6 +159,7 @@
       ],
       "answer": 1,
       "evidence": [
+        "e5",
         "e6"
       ]
     }
@@ -167,67 +167,67 @@
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 55,
-      "r": 9,
+      "x": 33,
+      "y": 78,
+      "r": 16,
       "label": {
-        "ko": "찻잔 옆의 작은 유리컵 — 우유 자국",
-        "en": "A small glass beside the teacup — a milk ring"
+        "ko": "찻잔 옆의 작은 유리컵엔 우유가 남았고, 크레용과 그림 여러 장, 과자 부스러기",
+        "en": "A small glass with milk left in it beside the teacup, crayons, several drawings, cookie crumbs"
       }
     },
     {
       "id": "e2",
-      "x": 55,
-      "y": 60,
-      "r": 12,
+      "x": 90,
+      "y": 55,
+      "r": 7,
       "label": {
-        "ko": "크레용과 그림 여러 장, 과자 부스러기",
-        "en": "Crayons, several drawings, cookie crumbs"
+        "ko": "현관의 할머니 슬리퍼 옆, 작은 운동화 한 켤레",
+        "en": "Beside Grandma's slippers in the entryway, one small pair of sneakers"
       }
     },
     {
       "id": "e3",
-      "x": 85,
-      "y": 90,
-      "r": 8,
-      "label": {
-        "ko": "현관의 할머니 신발 옆, 작은 운동화 한 켤레",
-        "en": "Beside Grandma's shoes in the entryway, one small pair of sneakers"
-      }
-    },
-    {
-      "id": "e4",
-      "x": 70,
-      "y": 25,
-      "r": 10,
+      "x": 8,
+      "y": 14,
+      "r": 9,
       "label": {
         "ko": "어린이 채널이 나오는 TV — 음소거",
         "en": "A cartoon on the TV — muted"
       }
     },
     {
-      "id": "e5",
-      "x": 20,
-      "y": 35,
-      "r": 12,
+      "id": "e4",
+      "x": 40,
+      "y": 21,
+      "r": 9,
       "label": {
-        "ko": "살짝 열린 안방 문, 볼록한 이불",
-        "en": "The bedroom door ajar, a blanket bulged over a small shape"
+        "ko": "열린 안방 문 너머 흐트러진 이불 — 누가 누웠다 일어난, 혹은 아직 누워 있는 자리",
+        "en": "Through the open bedroom door, a rumpled duvet — someone has been lying there, or still is"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 55,
+      "y": 37,
+      "r": 8,
+      "label": {
+        "ko": "복도에 열어 둔 분홍 캐리어, 꺼내 놓은 옷",
+        "en": "A pink suitcase left open in the hallway, clothes pulled out"
       }
     },
     {
       "id": "e6",
-      "x": 10,
-      "y": 75,
-      "r": 10,
+      "x": 78,
+      "y": 12,
+      "r": 11,
       "label": {
-        "ko": "열린 채 옷이 꺼내진 작은 캐리어, 욕실의 칫솔 둘, 달력의 '방학'",
-        "en": "A small suitcase open with clothes pulled out, two toothbrushes in the bathroom, 'school break' on the calendar"
+        "ko": "욕실 컵의 칫솔 둘, 달력의 '방학'과 동그라미 친 사흘",
+        "en": "Two toothbrushes in the bathroom cup, 'school break' and three circled days on the calendar"
       }
     }
   ],
   "detective": {
-    "ko": "찻잔 옆에 작은 유리컵, 우유 자국. 크레용과 그림 여러 장. 현관엔 할머니 신발 옆에 작은 운동화 한 켤레. 손주다. 컵 하나, 신발 한 켤레, 소파의 겉옷 하나. 한 명이다. 그림이 여러 장이고 과자는 다 먹었다. 설거지통엔 점심 그릇. 오전에 와서 한나절을 보냈다. 손님이 다녀간 것 같지만 운동화가 아직 현관에 있다. TV는 어린이 채널인데 소리를 죽였고, 안방 문은 살짝 열려 있고 이불이 작게 볼록하다. 낮잠 중이다. 복도의 작은 캐리어는 열린 채 옷이 꺼내져 있고, 욕실엔 칫솔이 둘, 달력엔 '방학'. 하루 놀러 온 게 아니라 며칠 묵으러 왔다.",
-    "en": "A small glass with a milk ring beside the teacup. Crayons and a pile of drawings. In the entryway, one small pair of sneakers next to Grandma's shoes. A grandchild. One glass, one pair of shoes, one small jacket on the sofa: just one. Several drawings, the cookies all gone, lunch dishes in the sink — the child arrived in the morning and spent the day. It looks like the visit is over, but the sneakers are still by the door. The TV shows a cartoon with the sound muted; the bedroom door stands ajar and the blanket is bulged over a small shape. Nap time. In the hallway a small suitcase lies open with clothes pulled out, there are two toothbrushes in the bathroom, and the calendar says 'school break'. Not a day trip. A stay of several days."
+    "ko": "찻잔 옆에 작은 유리컵, 우유 자국. 크레용과 그림 여러 장. 현관엔 할머니 신발 옆에 작은 운동화 한 켤레. 손주다. 컵 하나, 신발 한 켤레, 소파의 겉옷 하나. 한 명이다. 그림이 여러 장이고 과자는 다 먹었다. 설거지통엔 점심 그릇. 오전에 와서 한나절을 보냈다. 손님이 다녀간 것 같지만 운동화가 아직 현관에 있다. TV는 어린이 채널인데 소리를 죽였고, 안방 문은 열려 있고 이불은 흐트러진 채다. 낮잠을 재우는 중이다. 복도의 작은 캐리어는 열린 채 옷이 꺼내져 있고, 욕실엔 칫솔이 둘, 달력엔 '방학'. 하루 놀러 온 게 아니라 며칠 묵으러 왔다.",
+    "en": "A small glass with a milk ring beside the teacup. Crayons and a pile of drawings. In the entryway, one small pair of sneakers next to Grandma's shoes. A grandchild. One glass, one pair of shoes, one small jacket on the sofa: just one. Several drawings, the cookies all gone, lunch dishes in the sink — the child arrived in the morning and spent the day. It looks like the visit is over, but the sneakers are still by the door. The TV shows a cartoon with the sound muted; the bedroom door stands open and the duvet is rumpled. Nap time. In the hallway a small suitcase lies open with clothes pulled out, there are two toothbrushes in the bathroom, and the calendar says 'school break'. Not a day trip. A stay of several days."
   }
 }

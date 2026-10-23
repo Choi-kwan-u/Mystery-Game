@@ -1,0 +1,231 @@
+{
+  "id": 41,
+  "date": "2026-11-25",
+  "image": "img/041.webp",
+  "title": {
+    "ko": "병원 복도의 여자",
+    "en": "The Woman in the Hospital Corridor"
+  },
+  "intro": {
+    "ko": "새벽 6시, 종합병원 복도 벤치. 머리가 헝클어진 30대 여자가 혼자 앉아 있다. 이 사람은 누구일까?",
+    "en": "6 a.m., a bench in a hospital corridor. A woman in her thirties with messy hair sits alone. Who is she?"
+  },
+  "questions": [
+    {
+      "key": "who",
+      "ask": {
+        "ko": "이 여자는 누구일까?",
+        "en": "Who is she?"
+      },
+      "options": [
+        {
+          "ko": "환자의 보호자",
+          "en": "A patient's caregiver"
+        },
+        {
+          "ko": "병원 청소 직원",
+          "en": "A hospital cleaner"
+        },
+        {
+          "ko": "밤새 기다린 환자",
+          "en": "A patient who waited all night"
+        },
+        {
+          "ko": "야간 근무 간호사",
+          "en": "A night-shift nurse"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "whom",
+      "ask": {
+        "ko": "누구를 돌보고 있을까?",
+        "en": "Who is she looking after?"
+      },
+      "options": [
+        {
+          "ko": "어린 자녀",
+          "en": "Her young child"
+        },
+        {
+          "ko": "부모님",
+          "en": "A parent"
+        },
+        {
+          "ko": "친구",
+          "en": "A friend"
+        },
+        {
+          "ko": "남편",
+          "en": "Her husband"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e4"
+      ]
+    },
+    {
+      "key": "days",
+      "ask": {
+        "ko": "며칠째일까?",
+        "en": "How many days has it been?"
+      },
+      "options": [
+        {
+          "ko": "오늘 처음",
+          "en": "First night"
+        },
+        {
+          "ko": "이틀째",
+          "en": "Second day"
+        },
+        {
+          "ko": "사흘 넘게",
+          "en": "More than three days"
+        },
+        {
+          "ko": "한 달째",
+          "en": "A month"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3",
+        "e6"
+      ]
+    },
+    {
+      "key": "slept",
+      "ask": {
+        "ko": "간밤에 어디서 잤을까?",
+        "en": "Where did she sleep last night?"
+      },
+      "options": [
+        {
+          "ko": "이 벤치에서",
+          "en": "On this bench"
+        },
+        {
+          "ko": "병실 간이침대",
+          "en": "On a cot in the ward"
+        },
+        {
+          "ko": "주차장 차 안",
+          "en": "In her car"
+        },
+        {
+          "ko": "자기 집에서",
+          "en": "At home"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e6"
+      ]
+    },
+    {
+      "key": "next",
+      "ask": {
+        "ko": "이다음 무엇을 할까?",
+        "en": "What will she do next?"
+      },
+      "options": [
+        {
+          "ko": "출근한다",
+          "en": "Go to work"
+        },
+        {
+          "ko": "진료를 받는다",
+          "en": "See a doctor"
+        },
+        {
+          "ko": "집에 간다",
+          "en": "Go home"
+        },
+        {
+          "ko": "병실로 돌아간다",
+          "en": "Go back to the ward"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4",
+        "e2"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 40,
+      "y": 60,
+      "r": 7,
+      "label": {
+        "ko": "손목의 종이 팔찌 — 환자용이 아니라 보호자 출입 팔찌",
+        "en": "A paper wristband — not a patient's, a caregiver's pass"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 20,
+      "y": 70,
+      "r": 12,
+      "label": {
+        "ko": "벤치 옆에 접어 세운 보호자용 간이침대와 무릎 위 얇은 담요",
+        "en": "A folding caregiver cot propped by the bench, a thin blanket on her lap"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 70,
+      "y": 75,
+      "r": 10,
+      "label": {
+        "ko": "비닐봉지 속 칫솔·세면도구·작은 수건 — 며칠째 묵는 짐",
+        "en": "Toothbrush, toiletries and a small towel in a plastic bag — the kit of someone staying days"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 55,
+      "y": 55,
+      "r": 7,
+      "label": {
+        "ko": "종이컵 커피와 어린이 스티커가 붙은 핸드폰, 봉지 속 어린이 음료 팩",
+        "en": "Paper-cup coffee, a phone covered in kids' stickers, a child's juice pack in the bag"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 60,
+      "y": 15,
+      "r": 10,
+      "label": {
+        "ko": "벽의 어린이병동 표지 — 동물 그림",
+        "en": "The children's ward sign on the wall — cartoon animals"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 45,
+      "y": 25,
+      "r": 8,
+      "label": {
+        "ko": "뒤통수가 눌린 머리, 짙은 다크서클, 벗겨진 매니큐어",
+        "en": "Hair flattened at the back, dark circles, chipped nail polish"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "환자복이 아니다. 손목의 종이 팔찌도 환자용이 아니라 보호자 출입용이다. 벤치 옆엔 접어 세운 간이침대, 무릎엔 얇은 담요. 병실 바닥에 펴는 보호자 침대에서 자다 나온 것이다. 뒤통수가 눌린 머리가 그걸 말한다. 벽의 표지는 어린이병동, 핸드폰엔 어린이 스티커, 봉지엔 어린이 음료 팩. 돌보는 사람은 어린 자녀다. 봉지 속 칫솔과 세면도구, 작은 수건, 벗겨진 매니큐어와 짙은 다크서클. 하루 이틀 짐이 아니다. 사흘은 넘겼다. 새벽 6시, 아이가 깨기 전에 커피 한 잔 들고 잠깐 나온 엄마다. 커피를 비우면 병실로 돌아간다.",
+    "en": "Not a patient's gown, and the paper band on her wrist isn't a patient's either — it's a caregiver's pass. A folding cot leans beside the bench and a thin blanket lies on her lap: she slept on a caregiver cot on the ward floor, and the hair flattened at the back says so. The sign on the wall is the children's ward, her phone is covered in kids' stickers, a child's juice pack sits in her bag. She is looking after a young child. A toothbrush, toiletries and a small towel in a plastic bag, chipped nail polish, deep dark circles — not a one-night kit. More than three days. At 6 a.m., before the child wakes, a mother slipped out for a cup of coffee. When it's empty she'll go back to the ward."
+  }
+}

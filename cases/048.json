@@ -1,0 +1,231 @@
+{
+  "id": 48,
+  "date": "2026-12-02",
+  "image": "img/048.webp",
+  "title": {
+    "ko": "이사 온 옆집",
+    "en": "The New Neighbor"
+  },
+  "intro": {
+    "ko": "토요일 낮, 아파트 복도. 옆집 문 앞에 이삿짐이 쌓여 있다. 새로 온 이웃은 누구일까?",
+    "en": "Saturday noon, an apartment hallway. Moving boxes are stacked outside the next-door flat. Who's the new neighbor?"
+  },
+  "questions": [
+    {
+      "key": "who",
+      "ask": {
+        "ko": "새 이웃은 누구일까?",
+        "en": "Who is the new neighbor?"
+      },
+      "options": [
+        {
+          "ko": "혼자 사는 여성",
+          "en": "A woman living alone"
+        },
+        {
+          "ko": "아이 둘 가족",
+          "en": "A family with two kids"
+        },
+        {
+          "ko": "남학생 둘",
+          "en": "Two male students"
+        },
+        {
+          "ko": "신혼부부",
+          "en": "A newlywed couple"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e4"
+      ]
+    },
+    {
+      "key": "job",
+      "ask": {
+        "ko": "무슨 일을 할까?",
+        "en": "What does the neighbor do?"
+      },
+      "options": [
+        {
+          "ko": "피아노 선생님",
+          "en": "Piano teacher"
+        },
+        {
+          "ko": "요리사",
+          "en": "Chef"
+        },
+        {
+          "ko": "간호사",
+          "en": "Nurse"
+        },
+        {
+          "ko": "회사원",
+          "en": "Office worker"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "home",
+      "ask": {
+        "ko": "집에서 무엇을 할까?",
+        "en": "What will go on in the flat?"
+      },
+      "options": [
+        {
+          "ko": "재택근무",
+          "en": "Working from home"
+        },
+        {
+          "ko": "아이들 레슨",
+          "en": "Lessons for children"
+        },
+        {
+          "ko": "홈파티",
+          "en": "Home parties"
+        },
+        {
+          "ko": "온라인 방송",
+          "en": "Streaming"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3",
+        "e2"
+      ]
+    },
+    {
+      "key": "noise",
+      "ask": {
+        "ko": "앞으로 이 복도에서 들릴 소리는?",
+        "en": "What will this hallway soon hear?"
+      },
+      "options": [
+        {
+          "ko": "아무 소리도",
+          "en": "Nothing much"
+        },
+        {
+          "ko": "아기 울음",
+          "en": "A baby crying"
+        },
+        {
+          "ko": "피아노 연습 소리",
+          "en": "Piano practice"
+        },
+        {
+          "ko": "개 짖는 소리",
+          "en": "A barking dog"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e3"
+      ]
+    },
+    {
+      "key": "mugs",
+      "ask": {
+        "ko": "머그잔 두 개는?",
+        "en": "The two mugs?"
+      },
+      "options": [
+        {
+          "ko": "아이들 것",
+          "en": "The kids'"
+        },
+        {
+          "ko": "팔 물건",
+          "en": "For sale"
+        },
+        {
+          "ko": "커플 머그잔",
+          "en": "A couple's matching pair"
+        },
+        {
+          "ko": "손님용 잔",
+          "en": "For guests"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4",
+        "e5"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 40,
+      "y": 35,
+      "r": 14,
+      "label": {
+        "ko": "길고 납작한 디지털피아노 상자, 피아노 의자, 메트로놈",
+        "en": "A long flat digital-piano box, a piano bench, a metronome"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 65,
+      "y": 60,
+      "r": 10,
+      "label": {
+        "ko": "악보집이 가득한 상자와 접힌 보면대",
+        "en": "A box full of sheet-music books and a folded music stand"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 25,
+      "y": 70,
+      "r": 10,
+      "label": {
+        "ko": "어린이용 보조 의자 두세 개와 스티커 상자 — 수강생을 위한 것",
+        "en": "Two or three children's booster seats and a box of stickers — for pupils"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 80,
+      "y": 40,
+      "r": 9,
+      "label": {
+        "ko": "머그잔 두 개 — 짝이 맞지 않는 손님용 잔",
+        "en": "Two mugs — not a matching couple's pair, guest cups"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 85,
+      "y": 85,
+      "r": 8,
+      "label": {
+        "ko": "현관 앞 신발은 여성 단화 한 켤레뿐",
+        "en": "A single pair of women's flats outside the door — and nothing else"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 15,
+      "y": 30,
+      "r": 10,
+      "label": {
+        "ko": "큰 세탁기 상자 — 가족처럼 보이게 하는 미끼",
+        "en": "A big washing-machine box — the one thing that makes it look like a family"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "큰 세탁기 상자와 머그잔 두 개. 신혼부부가 이사 온 것 같다. 그런데 머그잔은 짝이 안 맞는다. 커플 잔이 아니라 손님용이다. 현관 앞 신발은 여성 단화 한 켤레뿐, 남자 신발은 없다. 혼자 사는 여성이다. 짐을 보자. 길고 납작한 상자에 건반 그림, 피아노 의자, 메트로놈, 악보집이 가득한 상자, 접힌 보면대. 피아노 치는 사람이다. 그리고 어린이용 보조 의자가 두세 개, 스티커 상자. 혼자 사는 집에 아이 의자가 여럿인 이유는 하나다. 아이들이 레슨을 받으러 온다. 피아노 선생님이다. 이 복도는 곧 서툰 연습곡 소리로 채워질 것이다.",
+    "en": "A big washing-machine box and two mugs: it looks like newlyweds. But the mugs don't match — not a couple's pair, cups for guests. Outside the door stands a single pair of women's flats and no men's shoes. A woman living alone. Now the boxes: a long flat one printed with a keyboard, a piano bench, a metronome, a box stuffed with sheet music, a folded music stand. A pianist. And two or three children's booster seats with a box of stickers. There's one reason a single woman owns several kids' chairs: children come to her for lessons. A piano teacher. This hallway will soon be full of halting études."
+  }
+}

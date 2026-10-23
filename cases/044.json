@@ -1,0 +1,233 @@
+{
+  "id": 44,
+  "date": "2026-11-28",
+  "type": "room",
+  "image": "img/044.webp",
+  "title": {
+    "ko": "베란다의 빨래",
+    "en": "Laundry on the Balcony"
+  },
+  "intro": {
+    "ko": "일요일 오후, 아파트 베란다. 빨래가 가득 널려 있다. 이 집에는 누가 살까?",
+    "en": "Sunday afternoon, an apartment balcony full of laundry. Who lives here?"
+  },
+  "questions": [
+    {
+      "key": "count",
+      "ask": {
+        "ko": "이 집엔 몇 명이 살까?",
+        "en": "How many people live here?"
+      },
+      "options": [
+        {
+          "ko": "한 명",
+          "en": "One"
+        },
+        {
+          "ko": "두 명",
+          "en": "Two"
+        },
+        {
+          "ko": "세 명",
+          "en": "Three"
+        },
+        {
+          "ko": "네 명",
+          "en": "Four"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "kids",
+      "ask": {
+        "ko": "아이들은?",
+        "en": "The children?"
+      },
+      "options": [
+        {
+          "ko": "중학생과 고등학생",
+          "en": "A middle-schooler and a high-schooler"
+        },
+        {
+          "ko": "대학생 둘",
+          "en": "Two university students"
+        },
+        {
+          "ko": "유치원생 둘",
+          "en": "Two preschoolers"
+        },
+        {
+          "ko": "초등학생 하나",
+          "en": "One elementary pupil"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e5"
+      ]
+    },
+    {
+      "key": "adult",
+      "ask": {
+        "ko": "어른은 누구일까?",
+        "en": "Who is the adult?"
+      },
+      "options": [
+        {
+          "ko": "할머니 혼자",
+          "en": "A grandmother alone"
+        },
+        {
+          "ko": "엄마 혼자",
+          "en": "A single mother"
+        },
+        {
+          "ko": "젊은 부부",
+          "en": "A young couple"
+        },
+        {
+          "ko": "아빠 혼자",
+          "en": "A single father"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "boys",
+      "ask": {
+        "ko": "아이들의 성별은?",
+        "en": "Are the children boys or girls?"
+      },
+      "options": [
+        {
+          "ko": "알 수 없다",
+          "en": "No way to tell"
+        },
+        {
+          "ko": "둘 다 남자",
+          "en": "Both boys"
+        },
+        {
+          "ko": "둘 다 여자",
+          "en": "Both girls"
+        },
+        {
+          "ko": "남자와 여자",
+          "en": "One of each"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e5"
+      ]
+    },
+    {
+      "key": "health",
+      "ask": {
+        "ko": "어른의 건강은?",
+        "en": "The adult's health?"
+      },
+      "options": [
+        {
+          "ko": "최근에 다쳤다",
+          "en": "Recently injured"
+        },
+        {
+          "ko": "아주 건강하다",
+          "en": "In perfect health"
+        },
+        {
+          "ko": "운동을 즐긴다",
+          "en": "Enjoys exercise"
+        },
+        {
+          "ko": "허리와 혈압을 챙긴다",
+          "en": "Nursing a bad back and blood pressure"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 35,
+      "y": 30,
+      "r": 14,
+      "label": {
+        "ko": "교복 셔츠 두 벌 — 작은 중학교 것과 큰 고등학교 것, 체육복 둘",
+        "en": "Two school shirts — a small middle-school one and a large high-school one — and two gym kits"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 70,
+      "y": 35,
+      "r": 13,
+      "label": {
+        "ko": "꽃무늬 몸뻬 바지, 두툼한 수면 양말, 흰 면 러닝, 긴 속치마 — 노인 여성의 옷",
+        "en": "Floral work trousers, thick sleep socks, a white cotton undershirt, a long slip — an elderly woman's clothes"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 50,
+      "y": 50,
+      "r": 16,
+      "label": {
+        "ko": "건조대 어디에도 와이셔츠·넥타이·블라우스가 없다 — 젊은 어른의 옷이 없다",
+        "en": "No dress shirt, tie or blouse anywhere on the rack — no young adult's clothes at all"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 15,
+      "y": 70,
+      "r": 10,
+      "label": {
+        "ko": "선반의 파스 상자, 요일별 혈압약 통, 돋보기",
+        "en": "Pain-relief patches, a weekly blood-pressure pill box and reading glasses on the shelf"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 60,
+      "y": 80,
+      "r": 12,
+      "label": {
+        "ko": "빨아 말리는 운동화 두 켤레 — 사이즈가 다른 남학생 것, 학생 양말 여러 켤레",
+        "en": "Two pairs of washed sneakers — boys' sizes, different — and a pile of school socks"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 85,
+      "y": 65,
+      "r": 9,
+      "label": {
+        "ko": "창가의 고추 채반과 오래된 재봉틀",
+        "en": "A tray of drying chilies by the window and an old sewing machine"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "빨래는 집안의 명부다. 교복 셔츠가 두 벌인데 하나는 작은 중학교 것, 하나는 큰 고등학교 것. 체육복도 둘. 아이는 둘이고 중학생과 고등학생이다. 빨아 말리는 운동화도 둘, 사이즈가 다른 남학생 것. 남자아이 둘이다. 어른 옷을 찾아보자. 꽃무늬 몸뻬 바지, 두툼한 수면 양말, 흰 면 러닝, 긴 속치마. 노인 여성의 옷이다. 그런데 와이셔츠도 넥타이도 블라우스도 없다. 젊은 어른의 옷이 한 벌도 없다. 선반의 파스 상자와 요일별 혈압약 통, 돋보기, 창가의 고추 채반과 재봉틀. 할머니 혼자 손주 둘을 키우는 집이다. 허리엔 파스를 붙이고 혈압약을 챙기면서, 일요일마다 이렇게 빨래를 한다.",
+    "en": "Laundry is a household's register. Two school shirts: a small middle-school one and a large high-school one, plus two gym kits. Two children, one in middle school and one in high school. Two pairs of washed sneakers in different boys' sizes — two boys. Now the adults' clothes: floral work trousers, thick sleep socks, a white cotton undershirt, a long slip. An elderly woman's wardrobe. And not a single dress shirt, tie or blouse — no young adult's clothes at all. On the shelf, pain-relief patches, a weekly blood-pressure pill box and reading glasses; by the window, drying chilies and an old sewing machine. A grandmother raising two grandsons on her own, patching her back and counting her pills, doing the week's laundry every Sunday."
+  }
+}

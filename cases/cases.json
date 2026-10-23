@@ -38,5 +38,15 @@
   { "id": 37, "date": "2026-11-21", "file": "cases/037.json" },
   { "id": 38, "date": "2026-11-22", "file": "cases/038.json" },
   { "id": 39, "date": "2026-11-23", "file": "cases/039.json" },
-  { "id": 40, "date": "2026-11-24", "file": "cases/040.json" }
+  { "id": 40, "date": "2026-11-24", "file": "cases/040.json" },
+  { "id": 41, "date": "2026-11-25", "file": "cases/041.json" },
+  { "id": 42, "date": "2026-11-26", "file": "cases/042.json" },
+  { "id": 43, "date": "2026-11-27", "file": "cases/043.json" },
+  { "id": 44, "date": "2026-11-28", "file": "cases/044.json" },
+  { "id": 45, "date": "2026-11-29", "file": "cases/045.json" },
+  { "id": 46, "date": "2026-11-30", "file": "cases/046.json" },
+  { "id": 47, "date": "2026-12-01", "file": "cases/047.json" },
+  { "id": 48, "date": "2026-12-02", "file": "cases/048.json" },
+  { "id": 49, "date": "2026-12-03", "file": "cases/049.json" },
+  { "id": 50, "date": "2026-12-04", "file": "cases/050.json" }
 ]

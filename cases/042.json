@@ -1,0 +1,231 @@
+{
+  "id": 42,
+  "date": "2026-11-26",
+  "type": "scene",
+  "image": "img/042.webp",
+  "title": {
+    "ko": "캠핑장의 아침",
+    "en": "Morning at the Campsite"
+  },
+  "intro": {
+    "ko": "아침 7시, 가족 캠핑장. 텐트 앞에 아무도 없다. 간밤에 무슨 일이 있었을까?",
+    "en": "7 a.m., a family campsite. Nobody outside the tent. What happened overnight?"
+  },
+  "questions": [
+    {
+      "key": "night",
+      "ask": {
+        "ko": "간밤에 무슨 일이 있었을까?",
+        "en": "What happened overnight?"
+      },
+      "options": [
+        {
+          "ko": "폭우가 쏟아졌다",
+          "en": "A downpour hit"
+        },
+        {
+          "ko": "강풍이 불었다",
+          "en": "A gale blew through"
+        },
+        {
+          "ko": "아무 일도 없었다",
+          "en": "Nothing happened"
+        },
+        {
+          "ko": "곰이 내려왔다",
+          "en": "A bear came down"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e4"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "가족은 지금 어디에 있을까?",
+        "en": "Where is the family now?"
+      },
+      "options": [
+        {
+          "ko": "차 안",
+          "en": "In the car"
+        },
+        {
+          "ko": "집에 갔다",
+          "en": "Gone home"
+        },
+        {
+          "ko": "산책 중",
+          "en": "Out for a walk"
+        },
+        {
+          "ko": "텐트 안",
+          "en": "In the tent"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "count",
+      "ask": {
+        "ko": "가족은 몇 명일까?",
+        "en": "How many are in the family?"
+      },
+      "options": [
+        {
+          "ko": "두 명",
+          "en": "Two"
+        },
+        {
+          "ko": "세 명",
+          "en": "Three"
+        },
+        {
+          "ko": "네 명",
+          "en": "Four"
+        },
+        {
+          "ko": "다섯 명",
+          "en": "Five"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3",
+        "e2"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "텐트를 비운 건 언제일까?",
+        "en": "When did they leave the tent?"
+      },
+      "options": [
+        {
+          "ko": "저녁 먹기 전에",
+          "en": "Before dinner"
+        },
+        {
+          "ko": "저녁 뒤 한밤중",
+          "en": "In the night, after dinner"
+        },
+        {
+          "ko": "오늘 새벽녘",
+          "en": "At dawn today"
+        },
+        {
+          "ko": "바로 방금",
+          "en": "Just now"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e1"
+      ]
+    },
+    {
+      "key": "neighbor",
+      "ask": {
+        "ko": "옆 사이트 사람들은?",
+        "en": "And the people at the next site?"
+      },
+      "options": [
+        {
+          "ko": "원래 비어 있었다",
+          "en": "It was always empty"
+        },
+        {
+          "ko": "아직 자고 있다",
+          "en": "Still asleep"
+        },
+        {
+          "ko": "아침 산책을 갔다",
+          "en": "Out on a morning walk"
+        },
+        {
+          "ko": "밤중에 철수했다",
+          "en": "Packed up and left in the night"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e6"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 30,
+      "y": 45,
+      "r": 14,
+      "label": {
+        "ko": "열린 텐트 안 — 흙탕물에 젖은 매트와 침낭, 텐트 둘레의 물 자국",
+        "en": "Inside the open tent — a mat and sleeping bags soaked in muddy water, water marks around the tent"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 75,
+      "y": 35,
+      "r": 14,
+      "label": {
+        "ko": "차창에 안쪽부터 서린 김, 뒷창의 담요와 작은 손바닥 자국",
+        "en": "Car windows fogged from inside, a blanket and a small handprint on the rear window"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 70,
+      "y": 70,
+      "r": 10,
+      "label": {
+        "ko": "차 옆에 뒤집어 널어 둔 젖은 신발 네 켤레 — 어른 둘, 아이 둘",
+        "en": "Four pairs of wet shoes turned upside down by the car — two adults', two children's"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 25,
+      "y": 78,
+      "r": 12,
+      "label": {
+        "ko": "타프 아래 어젯밤 저녁 그릇이 그대로, 컵엔 빗물",
+        "en": "Last night's dinner dishes still on the table under the tarp, rainwater in the cups"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 50,
+      "y": 10,
+      "r": 10,
+      "label": {
+        "ko": "개어 가는 하늘, 물방울 맺힌 나뭇잎",
+        "en": "A clearing sky, leaves beaded with water"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 90,
+      "y": 55,
+      "r": 9,
+      "label": {
+        "ko": "옆 사이트의 빈 자리 — 텐트 모양대로 젖지 않은 사각형",
+        "en": "The empty next site — a dry rectangle where a tent stood"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "텐트는 열려 있고 안은 흙탕물이다. 매트도 침낭도 젖었고 둘레엔 물이 흘러간 자국. 간밤에 폭우가 쏟아졌다. 타프 아래 저녁 그릇이 그대로이고 컵엔 빗물이 고였으니 저녁을 먹은 뒤 밤중에 비가 왔고, 치울 겨를도 없이 자리를 떴다. 어디로 갔나. 옆에 선 차의 창문이 안쪽부터 뿌옇게 김이 서렸다. 사람이 숨 쉬고 있다는 뜻이다. 뒷창엔 담요 귀퉁이와 작은 손바닥 자국. 차 옆엔 젖은 신발을 뒤집어 널었다. 어른 둘, 아이 둘, 네 켤레. 가족 넷은 차 안에서 밤을 났고 아직 거기 있다. 옆 사이트는 텐트 모양대로 마른 사각형만 남았다. 비가 그치기 전에 걷어서 떠난 것이다.",
+    "en": "The tent is open and the inside is mud. Mat and sleeping bags soaked, water tracks all around it: a downpour in the night. Dinner dishes still sit under the tarp with rainwater pooled in the cups, so the rain came after dinner and they fled without clearing up. Where to? The car beside the tent has its windows fogged from the inside — people are breathing in there. A blanket corner and a small handprint on the rear window. Wet shoes stand upside down beside the car: two adults' pairs, two children's. A family of four spent the night in the car and is still there. At the next site only a dry rectangle remains where a tent stood — they packed up and left before the rain stopped."
+  }
+}

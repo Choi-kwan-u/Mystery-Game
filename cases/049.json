@@ -1,0 +1,232 @@
+{
+  "id": 49,
+  "date": "2026-12-03",
+  "type": "scene",
+  "image": "img/049.webp",
+  "title": {
+    "ko": "비 오는 정류장의 두 사람",
+    "en": "Two at the Bus Stop"
+  },
+  "intro": {
+    "ko": "비 오는 저녁 6시, 버스 정류장. 남자와 여자가 우산 하나를 쓰고 서 있다. 두 사람은 어떤 사이일까?",
+    "en": "6 p.m. in the rain, a bus stop. A man and a woman stand under one umbrella. What are they to each other?"
+  },
+  "questions": [
+    {
+      "key": "relation",
+      "ask": {
+        "ko": "두 사람은 어떤 사이일까?",
+        "en": "What are they to each other?"
+      },
+      "options": [
+        {
+          "ko": "처음 본 사이",
+          "en": "Strangers"
+        },
+        {
+          "ko": "사귀는 연인",
+          "en": "A couple"
+        },
+        {
+          "ko": "결혼한 부부",
+          "en": "Husband and wife"
+        },
+        {
+          "ko": "직장 동료",
+          "en": "Coworkers"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e3",
+        "e6"
+      ]
+    },
+    {
+      "key": "umbrella",
+      "ask": {
+        "ko": "우산은 누구 것일까?",
+        "en": "Whose umbrella is it?"
+      },
+      "options": [
+        {
+          "ko": "남자 것",
+          "en": "His"
+        },
+        {
+          "ko": "둘이 같이 산 것",
+          "en": "Bought together"
+        },
+        {
+          "ko": "정류장 비치 우산",
+          "en": "A loaner from the stop"
+        },
+        {
+          "ko": "여자 것",
+          "en": "Hers"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e3"
+      ]
+    },
+    {
+      "key": "wet",
+      "ask": {
+        "ko": "비를 맞은 사람은?",
+        "en": "Who got rained on?"
+      },
+      "options": [
+        {
+          "ko": "여자만",
+          "en": "Only her"
+        },
+        {
+          "ko": "둘 다",
+          "en": "Both"
+        },
+        {
+          "ko": "아무도",
+          "en": "Neither"
+        },
+        {
+          "ko": "남자만",
+          "en": "Only him"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e3"
+      ]
+    },
+    {
+      "key": "bus",
+      "ask": {
+        "ko": "두 사람은 같은 버스를 탈까?",
+        "en": "Will they take the same bus?"
+      },
+      "options": [
+        {
+          "ko": "걸어간다",
+          "en": "They'll walk"
+        },
+        {
+          "ko": "같은 버스",
+          "en": "The same bus"
+        },
+        {
+          "ko": "다른 버스",
+          "en": "Different buses"
+        },
+        {
+          "ko": "택시를 탄다",
+          "en": "They'll take a taxi"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e6"
+      ]
+    },
+    {
+      "key": "before",
+      "ask": {
+        "ko": "여자는 우산을 쓰기 전 어떻게 비를 피했을까?",
+        "en": "How did she shield herself before the umbrella?"
+      },
+      "options": [
+        {
+          "ko": "그냥 뛰었다",
+          "en": "Ran"
+        },
+        {
+          "ko": "처마 밑에서",
+          "en": "Stood under an awning"
+        },
+        {
+          "ko": "모자를 쓰고",
+          "en": "Wore a hat"
+        },
+        {
+          "ko": "가방을 머리에",
+          "en": "Held her bag over her head"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "e1",
+      "x": 55,
+      "y": 20,
+      "r": 14,
+      "label": {
+        "ko": "여자 쪽으로 완전히 기울인 우산 — 남자의 오른쪽 어깨가 젖어 있다",
+        "en": "The umbrella tilted fully over her — his right shoulder is soaked"
+      }
+    },
+    {
+      "id": "e2",
+      "x": 50,
+      "y": 55,
+      "r": 12,
+      "label": {
+        "ko": "두 사람 사이의 한 걸음, 서로 다른 쪽을 향한 몸과 발",
+        "en": "A full step between them, bodies and feet turned different ways"
+      }
+    },
+    {
+      "id": "e3",
+      "x": 30,
+      "y": 45,
+      "r": 10,
+      "label": {
+        "ko": "여자의 젖은 앞머리와 윗면만 젖은 가방 — 우산 없이 가방으로 머리를 가렸다",
+        "en": "Her damp fringe and a bag wet only on top — she covered her head with it"
+      }
+    },
+    {
+      "id": "e4",
+      "x": 75,
+      "y": 50,
+      "r": 9,
+      "label": {
+        "ko": "노선표를 읽는 여자, 다른 번호의 버스를 보는 남자",
+        "en": "She reads the route map; he watches a bus with a different number"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 70,
+      "y": 70,
+      "r": 7,
+      "label": {
+        "ko": "남자의 왼손엔 서류 가방뿐 — 여분의 우산은 없다",
+        "en": "Only a briefcase in his left hand — no spare umbrella"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 85,
+      "y": 15,
+      "r": 10,
+      "label": {
+        "ko": "멀리서 오는 버스의 번호",
+        "en": "The number on the bus approaching in the distance"
+      }
+    }
+  ],
+  "detective": {
+    "ko": "우산 하나 아래 두 사람. 연인처럼 보인다. 그런데 우산이 여자 쪽으로 완전히 기울어 남자의 오른쪽 어깨는 흠뻑 젖었다. 자기 우산을 남에게 내주는 각도다. 여자의 앞머리는 젖었고 가방은 윗면만 젖었다. 우산이 없어서 가방을 머리에 올리고 뛰어왔다는 뜻이다. 그러니 우산은 남자 것이고, 비는 둘 다 맞았다. 그녀는 우산 없이, 그는 우산을 내주느라. 둘 사이엔 한 걸음이 비어 있고 몸은 서로 다른 쪽을 향한다. 여자는 노선표를 읽고 남자는 멀리서 오는 다른 번호의 버스를 본다. 연인은 노선표를 읽지 않고, 같은 버스를 기다리는 사람은 다른 쪽을 보지 않는다. 처음 보는 사이다. 비 오는 정류장에서 잠깐 우산을 나눈 두 사람이고, 곧 각자의 버스를 탄다.",
+    "en": "Two people under one umbrella: they look like a couple. But the umbrella is tilted entirely over her, and his right shoulder is soaked — the angle of a man lending his own umbrella. Her fringe is damp and her bag is wet only on top: she ran here with the bag over her head, umbrella-less. So the umbrella is his, and both of them got rained on — she for lack of one, he for giving his away. A full step of air stands between them and their bodies face different ways. She's reading the route map; he's watching a bus with a different number coming up the road. Lovers don't read route maps, and people waiting for the same bus don't look in different directions. Strangers, sharing an umbrella for a few minutes in the rain, about to board separate buses."
+  }
+}

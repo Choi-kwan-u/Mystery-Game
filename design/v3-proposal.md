@@ -249,7 +249,7 @@
    단서: 작은 컵 + 크레용 + 작은 운동화.
 2. 손님은 몇 명일까? — **한 명** / 두 명 / 세 명 / 손님은 없었다
    단서: 작은 컵 하나, 신발 한 켤레, 겉옷 하나.
-3. 언제 왔을까? — 방금 / **오전** / 어제 / 일주일 전
+3. 언제 왔을까? — 바로 방금 / **오전** / 어제 / 일주일 전
    단서: 그림 여러 장 + 과자 다 먹음 + 점심 설거지 + 낮잠 시간.
 4. 손님은 지금 어디에? — 집에 돌아갔다 / 밖에서 놀고 있다 / **안방에서 자고 있다** / 부엌에
    단서: 운동화가 현관에 + 볼록한 이불 + 음소거 TV.
@@ -341,3 +341,260 @@
 ## 10. 현관 앞에 쌓인 것들 (무슨 일)
 **Prompt:** Hallway of a small Korean apartment building at 10 a.m., looking at one front door. On the doormat three folded newspapers stacked with three consecutive dates visible, three small milk bottles in a row, and a few flyers. Hanging from the door handle a white pharmacy delivery bag with today's date on a sticker, untouched. A thin line of warm light shows under the door; the small frosted window beside the door is fogged with condensation from inside; a potted plant by the door has freshly watered dark soil. On the wall a cane holder with a walking cane. The neighbouring door has nothing in front of it. The hallway is otherwise clean.
 **체크리스트:** 신문 3부(날짜) / 우유 3개 / 약 배달 봉투(오늘) / 문 아래 불빛 / 창 김 서림 / 젖은 화분 흙 / 지팡이 / 옆집 문 앞 비어 있음.
+
+
+---
+
+# 2차분 — 사건 41~50
+
+## 41. 병원 복도의 여자
+
+**상황 글:** 새벽 6시, 종합병원 복도 벤치. 머리가 헝클어진 30대 여자가 혼자 앉아 있다. 이 사람은 누구일까?
+**표면:** 환자복은 아니지만 지친 환자 — 밤새 응급실에서 대기한 사람.
+**진실:** 어린이병동에서 사흘째 아이를 간병하는 엄마. 보호자용 간이침대에서 자다 나왔다.
+
+**사진에 심을 것**
+- 손목에 환자 팔찌가 아니라 색이 다른 **보호자 출입 팔찌**(병원마다 쓰는 종이 띠, 'GUARDIAN' 같은 짧은 글자).
+- 무릎 위 얇은 병원 담요(보호자용 간이침대 담요, 환자 침구와 다른 색)와 접힌 **간이침대**가 벤치 옆에 세워져 있음.
+- 비닐봉지에 세면도구·칫솔·작은 수건(며칠째 묵는 중), 봉지에 과자·어린이 음료 팩.
+- 손에 든 종이컵 커피와 **어린이 스티커가 붙은 핸드폰 케이스**.
+- 벤치 뒤 벽에 **어린이병동 표지**(동물 그림, 짧은 글자 '소아').
+- 머리 뒤통수가 납작하게 눌림, 눈 밑 다크서클, 사흘쯤 지난 손톱의 매니큐어 벗겨짐.
+
+**문항**
+1. 이 여자는 누구일까? — **환자의 보호자** / 병원 청소 직원 / 밤새 기다린 환자 / 야간 근무 간호사
+2. 누구를 돌보고 있을까? — **어린 자녀** / 부모님 / 친구 / 남편
+3. 며칠째일까? — 오늘 처음 / 이틀째 / **사흘 넘게** / 한 달째
+4. 간밤에 어디서 잤을까? — 이 벤치에서 / **병실 간이침대** / 주차장 차 안 / 자기 집에서
+5. 이다음 무엇을 할까? — 출근한다 / 진료를 받는다 / 집에 간다 / **병실로 돌아간다**
+
+**체크리스트(생성 후 확대 확인):** 손목의 종이 팔찌 / 벤치 옆에 접어 세운 보호자용 간이침대와 무릎 위 얇은 담요 / 비닐봉지 속 칫솔·세면도구·작은 수건 / 종이컵 커피와 어린이 스티커가 붙은 핸드폰, 봉지 속 어린이 음료 팩 / 벽의 어린이병동 표지 / 뒤통수가 눌린 머리, 짙은 다크서클, 벗겨진 매니큐어
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A quiet hospital corridor at 6 a.m., cool fluorescent light. A Korean woman in her thirties sits alone on a bench, messy hair flattened at the back, deep dark circles, chipped nail polish, wearing a loose sweatshirt (not a hospital gown), holding a paper cup of coffee. On her wrist a paper wristband of a different color from patient bands, printed with the short word GUARDIAN. A thin blanket lies on her lap and a folded caregiver cot leans against the bench beside her. A plastic bag at her feet holds a toothbrush, toiletries, a small towel, snacks and a child's juice pack. Her phone case is covered in children's stickers. On the wall behind her, a children's ward sign with cartoon animals and the short word 소아. Nobody else in the corridor.
+
+## 42. 캠핑장의 아침
+
+**상황 글:** 아침 7시, 가족 캠핑장. 텐트 앞에 아무도 없다. 간밤에 무슨 일이 있었을까?
+**표면:** 즐거운 가족 캠핑, 아직 다들 텐트에서 자는 중.
+**진실:** 밤에 폭우가 와 텐트가 물에 잠겼고, 가족은 차로 옮겨 가 차 안에서 잤다. 지금도 차 안에 있다.
+
+**사진에 심을 것**
+- 텐트 입구가 열려 있고 안쪽 바닥 매트와 침낭이 **흙탕물에 젖어** 있음, 텐트 둘레에 물 고인 자국과 흘러간 흙 줄기.
+- 텐트 바로 옆 SUV: **창문이 안쪽에서 김 서림**, 뒷좌석 창에 담요 귀퉁이와 작은 손바닥 자국.
+- 차 옆에 젖은 신발 네 켤레(어른 둘, 아이 둘)를 뒤집어 널어 둠.
+- 타프 아래 테이블엔 어젯밤 저녁 그릇이 그대로, 빗물 고인 컵.
+- 하늘은 개고 땅은 젖음, 나뭇잎에 물방울.
+- 쓰러진 의자 하나, 옆 사이트는 텐트를 걷고 떠남(빈 자리에 젖은 사각형).
+
+**문항**
+1. 간밤에 무슨 일이 있었을까? — **폭우가 쏟아졌다** / 강풍이 불었다 / 아무 일도 없었다 / 곰이 내려왔다
+2. 가족은 지금 어디에 있을까? — **차 안** / 집에 갔다 / 산책 중 / 텐트 안
+3. 가족은 몇 명일까? — 두 명 / 세 명 / **네 명** / 다섯 명
+4. 텐트를 비운 건 언제일까? — 저녁 먹기 전에 / **저녁 뒤 한밤중** / 오늘 새벽녘 / 바로 방금
+5. 옆 사이트 사람들은? — 원래 비어 있었다 / 아직 자고 있다 / 아침 산책을 갔다 / **밤중에 철수했다**
+
+**체크리스트(생성 후 확대 확인):** 열린 텐트 안 / 차창에 안쪽부터 서린 김, 뒷창의 담요와 작은 손바닥 자국 / 차 옆에 뒤집어 널어 둔 젖은 신발 네 켤레 / 타프 아래 어젯밤 저녁 그릇이 그대로, 컵엔 빗물 / 개어 가는 하늘, 물방울 맺힌 나뭇잎 / 옆 사이트의 빈 자리
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A family campsite at 7 a.m. after a stormy night, sky clearing, every leaf beaded with water, ground soaked. A dome tent with its door open: inside, the sleeping mat and sleeping bags are soaked in muddy brown water, and muddy water tracks run around the outside of the tent. Right beside it an SUV with all windows fogged from the inside; on the rear window a blanket corner and a small child's handprint pressed in the condensation. Four pairs of wet shoes — two adult, two small children's — stand upside down against the car's wheels to dry. Under a tarp a camp table still holds last night's dinner dishes with rainwater pooled in the cups; one folding chair lies knocked over. The neighbouring pitch is empty except for a dry rectangle of ground where a tent stood.
+
+## 43. 주차장의 두 차
+
+**상황 글:** 오후 2시, 마트 주차장. 흰 차와 검은 차가 맞닿아 있다. 흰 차 운전자는 "뒤차가 와서 박았다"고 한다. 무슨 일이 있었을까?
+**표면:** 검은 차가 앞으로 오다가 흰 차 뒤를 박았다.
+**진실:** 흰 차가 후진하다 뒤에 서 있던 검은 차를 박았다.
+
+**사진에 심을 것**
+- 흰 차의 **뒷범퍼**와 검은 차의 **앞범퍼**가 맞닿아 찌그러짐. 흰 차 뒷범퍼에 검은 페인트, 검은 차 앞범퍼에 흰 페인트.
+- 흰 차의 **후진등이 켜져 있고** 기어는 R(계기판은 안 보여도 후진등 흰 불빛).
+- 바닥에 흰 차 뒷바퀴에서 시작된 짧은 **타이어 자국이 뒤쪽으로**, 검은 차 바퀴 앞엔 자국 없음.
+- 검은 차는 주차선 안에 반듯이 서 있고 **사이드미러가 접혀 있음**(주차 상태). 흰 차는 주차 칸에서 비스듬히 빠져나온 자세.
+- 검은 차 운전석 비어 있고 안에 장바구니 없음, 흰 차 트렁크 열려 있고 장 본 봉지 가득(출발하려던 참).
+- 검은 차 앞유리에 주차 시각 적힌 종이 주차권(오전 시각).
+
+**문항**
+1. 움직인 차는 어느 쪽일까? — **흰 차만** / 둘 다 움직임 / 둘 다 정지 / 검은 차만
+2. 그 차는 어느 방향으로 움직였을까? — **뒤로 후진** / 옆으로 밀림 / 제자리 회전 / 앞으로 전진
+3. 검은 차는 그때 무엇을 하고 있었을까? — 빠져나가던 중 / **주차된 채 비어 있었다** / 시동 걸고 대기 중 / 주차하려고 들어오던 중
+4. 흰 차 운전자는 무엇을 하려던 참이었을까? — 사람을 태우려던 참 / 장 보러 들어가려던 참 / **장 보고 떠나려던 참** / 주차 자리를 바꾸려던 참
+5. 과실은 누구에게 있을까? — 양쪽 반반 / 마트 관리 책임 / 검은 차 운전자 / **흰 차 운전자**
+
+**체크리스트(생성 후 확대 확인):** 맞닿은 흰 차 뒷범퍼와 검은 차 앞범퍼 / 흰 차의 후진등이 켜져 있다 / 흰 차 뒷바퀴에서 뒤쪽으로 난 짧은 타이어 자국 / 주차선 안에 반듯이 선 검은 차, 접힌 사이드미러 / 열린 흰 차 트렁크에 가득한 장바구니 / 검은 차 앞유리의 종이 주차권
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A supermarket parking lot at 2 p.m., bright daylight. A white sedan and a black sedan touch bumper to bumper: the white car's REAR bumper is dented with black paint transfer, the black car's FRONT bumper is dented with white paint transfer. The white car sits at an angle, half backed out of its parking space, its reverse lights lit white, its trunk open and full of grocery bags; a short dark tire mark runs backward from its rear wheel on the asphalt. The black car sits perfectly square inside its parking lines with both side mirrors folded in, empty, a paper parking ticket on its windshield. No people in frame. Background: supermarket entrance, shopping carts.
+
+## 44. 베란다의 빨래
+
+**상황 글:** 일요일 오후, 아파트 베란다. 빨래가 가득 널려 있다. 이 집에는 누가 살까?
+**표면:** 아이 둘 키우는 젊은 부부.
+**진실:** 할머니 혼자 중·고등학생 손주 둘을 키우는 집. 성인 남녀 옷이 없고 노인 옷과 교복만 있다.
+
+**사진에 심을 것**
+- 건조대에 널린 빨래: **중학교 교복 셔츠(작은 사이즈)와 고등학교 교복 셔츠(큰 사이즈)** 각 한 벌, 체육복 둘.
+- **노인 여성의 옷**: 꽃무늬 몸뻬 바지, 두툼한 수면 양말, 흰 면 러닝(할머니 스타일), 긴 속치마.
+- **성인 남성 옷과 젊은 여성 옷은 하나도 없음**(와이셔츠·넥타이·블라우스 없음).
+- 베란다 선반에 **파스 상자, 혈압약 달력 약통**, 돋보기.
+- 빨래 바구니에 학생 양말 여러 켤레, 운동화 두 켤레(사이즈 다른 남학생 것) 세척해 말리는 중.
+- 창가에 고추 말리는 채반, 오래된 재봉틀.
+
+**문항**
+1. 이 집엔 몇 명이 살까? — 한 명 / 두 명 / **세 명** / 네 명
+2. 아이들은? — **중학생과 고등학생** / 대학생 둘 / 유치원생 둘 / 초등학생 하나
+3. 어른은 누구일까? — **할머니 혼자** / 엄마 혼자 / 젊은 부부 / 아빠 혼자
+4. 아이들의 성별은? — 알 수 없다 / **둘 다 남자** / 둘 다 여자 / 남자와 여자
+5. 어른의 건강은? — 최근에 다쳤다 / 아주 건강하다 / 운동을 즐긴다 / **허리와 혈압을 챙긴다**
+
+**체크리스트(생성 후 확대 확인):** 교복 셔츠 두 벌 / 꽃무늬 몸뻬 바지, 두툼한 수면 양말, 흰 면 러닝, 긴 속치마 / 건조대 어디에도 와이셔츠·넥타이·블라우스가 없다 / 선반의 파스 상자, 요일별 혈압약 통, 돋보기 / 빨아 말리는 운동화 두 켤레 / 창가의 고추 채반과 오래된 재봉틀
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A sunny Sunday afternoon on an enclosed apartment balcony in Korea, a laundry drying rack full of washing. Hanging: two white school-uniform shirts, one small (middle school) and one large (high school), two school gym tracksuits, several pairs of boys' school socks. Also hanging: an elderly woman's clothes — floral baggy work trousers (mombbae), thick fleece sleep socks, a white cotton undershirt, a long beige slip. No men's dress shirts, no ties, no young woman's blouses or dresses anywhere. On a shelf: a box of medicated pain-relief patches, a weekly pill organizer, reading glasses. On the floor two pairs of freshly washed boys' sneakers of different sizes drying. By the window a bamboo tray of drying red chilies and an old sewing machine.
+
+## 45. 홈트 인증샷 (거짓말)
+
+**상황 글:** 월요일 아침, 친구가 운동 인증이라며 보낸 사진과 메시지. 사진 속에서 거짓말을 찾아라.
+**진술:** "오늘 아침에도 러닝머신 뛰었어. 새로 산 요가매트도 들였고. 운동화도 새로 장만했지. 요즘 아침은 샐러드만 먹어."
+**표면:** 운동에 진심인 사람의 아침 인증샷.
+**진실:** 러닝머신은 먼지 쌓인 옷걸이가 된 지 오래. 거짓말은 '오늘 아침에도 뛰었다'.
+
+**사진에 심을 것**
+- 거실 러닝머신: **벨트 위에 뽀얀 먼지**, 손잡이에 **옷 여러 벌이 걸려 있고** 계기판은 꺼짐, 전원 플러그가 뽑혀 바닥에 놓임.
+- 벽에 기대 둔 **포장 비닐 그대로인 요가매트**(라벨 붙음) — 진술 '들였다'는 참.
+- 현관 쪽 **새 운동화**, 밑창 깨끗, 상자 옆에 — 참.
+- 테이블에 **샐러드 통**과 포크 — 참(미끼: 그 옆에 커피만).
+- 인물은 운동복 차림이지만 머리 말끔, 땀 없음, 손목시계 시각 등은 생략.
+- 창밖 아침 햇살.
+
+**문항**
+1. 사진과 맞지 않는 말은? — **오늘 아침에도 러닝머신을 뛰었다** / 새 요가매트를 들였다 / 운동화를 새로 샀다 / 아침은 샐러드만 먹는다
+2. 러닝머신을 마지막으로 쓴 건 언제일까? — 오늘 아침 / 어제 / **몇 주 전** / 한 번도
+3. 요가매트는? — **아직 포장도 안 뜯었다** / 남에게 받은 것 / 매일 쓴다 / 한 번 써 봤다
+4. 요즘 러닝머신의 쓰임은? — 걷기 / **옷걸이** / 책상 / 달리기
+5. 오늘 아침 실제로 한 일은? — 아직 아무것도 / 뛰고 샐러드 먹음 / 요가매트 운동 / **샐러드만 먹음**
+
+**체크리스트(생성 후 확대 확인):** 러닝머신 벨트 위의 뽀얀 먼지, 꺼진 계기판, 바닥에 뽑혀 있는 플러그 / 손잡이에 걸린 옷 여러 벌 / 포장 비닐과 라벨이 그대로인 요가매트 / 테이블의 샐러드 통과 포크 / 상자 옆의 새 운동화 / 운동복 차림이지만 땀 한 방울 없는 말끔한 머리
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A bright living room on a Monday morning. A Korean woman in her twenties in workout clothes takes a mirror selfie, hair neat and dry, no sweat. Behind her a treadmill with a visibly dusty belt, a dark switched-off console, its power plug lying unplugged on the floor, and several jackets and shirts draped over its handrails. Leaning against the wall a rolled yoga mat still sealed in clear plastic wrap with a hanging label. By the entrance a pair of brand-new running shoes beside their open box, soles spotless. On the table a salad container with a fork, mostly eaten, and a coffee cup. Morning sunlight through the window.
+
+## 46. 차 안의 알리바이 (거짓말)
+
+**상황 글:** 화요일 아침, 남편의 차 조수석에서 찍은 사진. 어젯밤 어디 있었냐고 묻자 이렇게 말했다. 사진 속에서 거짓말을 찾아라.
+**진술:** "어젯밤엔 집에 있었어. 차는 그제부터 안 움직였고. 혼자 있었어. 담배는 끊은 지 오래야."
+**표면:** 며칠 세워 둔 차의 평범한 실내.
+**진실:** 어젯밤 차를 몰고 나가 강 건너 식당에 갔다. 거짓말은 '차는 그제부터 안 움직였다'.
+
+**사진에 심을 것**
+- 대시보드 위 **종이 주차권**: 어젯밤 날짜와 시각(예: `20:40`)이 또렷, 상호는 짧게 '○○식당' 정도.
+- 컵홀더에 **아직 얼음이 조금 남은 테이크아웃 컵**(밤새 녹다 만) 하나.
+- 운전석 바닥 매트에 **젖은 흙 자국**(어젯밤 비), 창밖은 맑음.
+- 조수석은 깨끗, 벨트 안 당겨짐, 컵 하나뿐(혼자 — 참).
+- 재떨이 비어 있고 깨끗, 담배 냄새 흔적 없음, 대신 사탕 껍질(금연 — 참).
+- 계기판에 **연료 경고등**과 주행거리 표시, 톨게이트 **하이패스 영수증** 한 장(강 건너는 다리 이름 짧게).
+
+**문항**
+1. 사진과 맞지 않는 말은? — **차는 그제부터 안 움직였다** / 혼자 있었다 / 담배는 끊었다 / 어젯밤 집에 있었다
+2. 어젯밤 차는 어디에 갔을까? — **강 건너 식당** / 동네 편의점 / 아무 데도 / 회사 주차장
+3. 몇 시쯤 거기 있었을까? — 오후 6시 / **밤 8~9시** / 자정 / 새벽 2시
+4. 차에 누가 더 탔을까? — 아내 / 동료 / **아무도** / 아이들
+5. 어젯밤 날씨는? — 안개 / 맑았다 / 눈이 왔다 / **비가 왔다**
+
+**체크리스트(생성 후 확대 확인):** 대시보드의 종이 주차권 / 컵홀더의 테이크아웃 컵 하나, 밤새 녹다 만 얼음 / 운전석 바닥 매트의 젖은 흙 자국 / 깨끗한 조수석, 당겨지지 않은 안전벨트 / 비어 있는 재떨이와 사탕 껍질 / 계기판의 연료 경고등과 하이패스 영수증의 다리 이름
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. Interior of a parked car photographed from the passenger seat on a clear Tuesday morning. On the dashboard a paper parking ticket showing yesterday's date, the time 20:40 and a short restaurant name. In the cup holder a single take-out iced-drink cup with a little half-melted ice left in it. The driver's floor mat has wet muddy footprints; outside the windows the street is dry and the sky is clear. The passenger seat is clean with its seatbelt untouched. The ashtray is empty and clean with two candy wrappers in it. On the instrument cluster the low-fuel warning light glows; tucked by the gear lever a small toll receipt with a bridge name printed on it.
+
+## 47. 깨진 화분의 범인
+
+**상황 글:** 저녁 7시, 거실. 화분이 깨져 흙이 쏟아졌다. 가족은 고양이 짓이라고 한다. 범인은 누구일까?
+**표면:** 고양이가 선반에서 화분을 떨어뜨렸다.
+**진실:** 로봇청소기가 화분 받침대를 들이받았다. 고양이는 알리바이가 있다.
+
+**사진에 심을 것**
+- 바닥에 깨진 화분과 쏟아진 흙. 흙 위에 **로봇청소기 바퀴 자국 두 줄**이 지나가고, 흙 가장자리에 **반원 모양으로 밀린 자국**(범퍼가 밀고 간 자리).
+- **로봇청소기**가 흙 범벅인 채 소파 밑에 멈춰 있고 범퍼에 흙과 화분 조각, 상단 표시등 켜짐.
+- 화분이 있던 자리는 선반이 아니라 **바닥에 놓는 키 낮은 화분 받침대**, 받침대가 밀려 기울어짐.
+- 고양이는 **캣타워 꼭대기**에서 자고 있고, 발바닥 깨끗, 흙 위에 고양이 발자국 없음.
+- 벽의 **로봇청소기 예약 시각 표시**(앱 화면 대신 청소기 본체에 '18:30' 같은 짧은 숫자) 또는 벽시계 7시.
+- 흙 위에 사람 발자국도 없음.
+
+**문항**
+1. 범인은? — **로봇청소기** / 바람 / 막내 / 고양이
+2. 화분은 어디서 떨어졌을까? — **바닥의 낮은 받침대** / 식탁 / 높은 선반 / 창턱
+3. 고양이는 그때 무엇을 하고 있었을까? — 선반 위를 걷고 있었다 / **캣타워에서 자고 있었다** / 흙을 파고 있었다 / 창밖을 보고 있었다
+4. 언제 벌어진 일일까? — 오늘 아침 / 오늘 한낮 / **저녁 6시 반** / 바로 방금
+5. 깨진 뒤 범인은 어떻게 했을까? — 그 자리에 잠듦 / 치우려고 했다 / 멀리 달아났다 / **소파 밑에 멈췄다**
+
+**체크리스트(생성 후 확대 확인):** 쏟아진 흙 위를 가로지른 바퀴 자국 두 줄과 반원으로 밀린 가장자리 / 소파 밑에 멈춘 로봇청소기 / 기울어진 키 낮은 화분 받침대 / 캣타워 꼭대기에서 자는 고양이, 깨끗한 발바닥 / 청소기 본체의 예약 시각 18:30 / 흙 바깥까지 이어진 바퀴 자국의 흙
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A living room at 7 p.m., warm lamp light. On the wooden floor a terracotta flowerpot lies smashed with soil spilled in a wide spread; across the soil run two parallel wheel tracks and the edge of the spill is pushed into a smooth half-circle, with soil tracked beyond the spill along the wheel lines. No footprints or paw prints in the soil. A low wooden plant stand (knee height, floor-standing) is knocked askew beside the spill. Half under the sofa a round robot vacuum has stopped, its bumper caked with soil and pot shards, its top light glowing, a small display on it reading 18:30. On top of a tall cat tower a cat sleeps curled up, paws clean. A wall clock reads 7:00.
+
+## 48. 이사 온 옆집
+
+**상황 글:** 토요일 낮, 아파트 복도. 옆집 문 앞에 이삿짐이 쌓여 있다. 새로 온 이웃은 누구일까?
+**표면:** 신혼부부(큰 가전 상자, 커플 머그).
+**진실:** 혼자 사는 피아노 선생님. 피아노가 들어갔고 악보·메트로놈·수강생 의자들이 있다.
+
+**사진에 심을 것**
+- 복도에 **디지털피아노 상자**(길고 납작, 건반 그림)와 **피아노 의자**, **메트로놈**이 든 투명 박스.
+- **악보집이 가득한 상자**(책등에 짧게 'ETUDE' 같은 단어), 보면대 접힌 것.
+- **어린이용 보조 의자 두세 개**와 스티커 상자(수강생용).
+- 미끼: 큰 **세탁기 상자**, 머그잔 두 개가 보이는 상자(한 세트 디자인 아님, 손님용).
+- **신발 한 켤레만** 현관 앞(여성 단화), 이름표 없는 문패, 작은 화분 하나.
+- 상자에 적힌 글자는 '거실' '주방' 정도만.
+
+**문항**
+1. 새 이웃은 누구일까? — **혼자 사는 여성** / 아이 둘 가족 / 남학생 둘 / 신혼부부
+2. 무슨 일을 할까? — **피아노 선생님** / 요리사 / 간호사 / 회사원
+3. 집에서 무엇을 할까? — 재택근무 / **아이들 레슨** / 홈파티 / 온라인 방송
+4. 앞으로 이 복도에서 들릴 소리는? — 아무 소리도 / 아기 울음 / **피아노 연습 소리** / 개 짖는 소리
+5. 머그잔 두 개는? — 아이들 것 / 팔 물건 / 커플 머그잔 / **손님용 잔**
+
+**체크리스트(생성 후 확대 확인):** 길고 납작한 디지털피아노 상자, 피아노 의자, 메트로놈 / 악보집이 가득한 상자와 접힌 보면대 / 어린이용 보조 의자 두세 개와 스티커 상자 / 머그잔 두 개 / 현관 앞 신발은 여성 단화 한 켤레뿐 / 큰 세탁기 상자
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A Korean apartment hallway at midday with moving boxes stacked beside an open front door. Visible: a long flat box printed with a piano keyboard, a padded piano bench, a clear plastic box holding a metronome, an open box packed with sheet-music books (spines showing the short word ETUDE), a folded music stand, two or three small children's booster seats stacked, a box of sticker sheets. Also a large washing-machine box and an open box showing two mugs of different designs. Outside the door a single pair of women's flat shoes and nothing else; a small potted plant; the nameplate blank. Boxes are hand-labeled only with the short Korean words 거실 and 주방.
+
+## 49. 비 오는 정류장의 두 사람
+
+**상황 글:** 비 오는 저녁 6시, 버스 정류장. 남자와 여자가 우산 하나를 쓰고 서 있다. 두 사람은 어떤 사이일까?
+**표면:** 연인 또는 부부가 함께 퇴근하는 길.
+**진실:** 처음 보는 사이. 남자가 우산 없는 여자에게 우산을 씌워 주는 중이고, 둘은 다른 버스를 기다린다.
+
+**사진에 심을 것**
+- 남자가 우산을 **여자 쪽으로 완전히 기울여** 자기 오른쪽 어깨는 비에 젖음. 여자 어깨는 마름.
+- 두 사람 사이에 **한 걸음 거리**, 몸은 서로 다른 방향(남자는 도로 쪽, 여자는 노선표 쪽).
+- 여자 손에 **젖은 접은 우산이 아니라 아무것도 없음**, 가방을 머리 위로 들었던 듯 가방 윗면만 젖음, 머리 앞부분 젖음.
+- 정류장 노선표를 보는 여자, 남자는 **다른 번호 버스**가 오는 쪽을 봄(멀리 오는 버스 번호 짧게).
+- 남자 손에 **두 번째 우산 없음**, 왼손엔 자기 서류 가방.
+- 둘의 신발 방향이 서로 반대쪽으로 벌어짐.
+
+**문항**
+1. 두 사람은 어떤 사이일까? — **처음 본 사이** / 사귀는 연인 / 결혼한 부부 / 직장 동료
+2. 우산은 누구 것일까? — **남자 것** / 둘이 같이 산 것 / 정류장 비치 우산 / 여자 것
+3. 비를 맞은 사람은? — 여자만 / **둘 다 움직임** / 아무도 / 남자만
+4. 두 사람은 같은 버스를 탈까? — 걸어간다 / 같은 버스 / **다른 버스** / 택시를 탄다
+5. 여자는 우산을 쓰기 전 어떻게 비를 피했을까? — 그냥 뛰었다 / 처마 밑에서 / 모자를 쓰고 / **가방을 머리에**
+
+**체크리스트(생성 후 확대 확인):** 여자 쪽으로 완전히 기울인 우산 / 두 사람 사이의 한 걸음, 서로 다른 쪽을 향한 몸과 발 / 여자의 젖은 앞머리와 윗면만 젖은 가방 / 노선표를 읽는 여자, 다른 번호의 버스를 보는 남자 / 남자의 왼손엔 서류 가방뿐 / 멀리서 오는 버스의 번호
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A rainy evening at 6 p.m. at a city bus stop under a shelter, wet pavement reflecting lights. A Korean man in a suit and a Korean woman in office clothes stand under one black umbrella held by the man. The umbrella is tilted fully over the woman, leaving the man's right shoulder and sleeve soaked dark with rain; the woman's shoulders are dry but her fringe is damp and the top of her handbag is wet while its sides are dry. There is a full step of space between them; their bodies and feet point in different directions — she faces the route map on the shelter, he looks down the road at an approaching bus with a different route number. He holds a briefcase in his other hand and has no second umbrella; she holds no umbrella at all.
+
+## 50. 택배 상자의 발신인
+
+**상황 글:** 저녁, 자취방 책상. 송장이 떨어진 택배 상자를 열어 내용물을 꺼내 놓았다. 누가 보낸 것일까?
+**표면:** 여자친구가 보낸 선물 상자(리본, 손편지).
+**진실:** 시골 엄마가 보낸 반찬 상자. 손편지 글씨는 어른의 흘림체, 반찬통엔 날짜 테이프, 농사지은 것들.
+
+**사진에 심을 것**
+- **반찬통 여러 개**, 뚜껑에 마스킹테이프로 짧게 날짜와 '김치' '멸치' 같은 두 글자 라벨, 꽁꽁 싸맨 비닐.
+- **신문지로 돌돌 만 고구마**와 흙 묻은 양파 한 망, 말린 고추 한 봉.
+- **손편지** — 줄 공책을 찢은 종이에 큰 흘림체(내용은 읽히지 않게, '밥 잘'까지만 보여도 됨), 글씨가 젊은 손글씨가 아님.
+- 미끼: 상자 속 **분홍 리본 묶은 작은 상자**(안엔 비타민·영양제), 핸드크림.
+- 상자 안쪽에 **농협 마트 비닐봉지**, 상자 자체는 과일 상자 재활용(과일 그림).
+- 책상 위엔 컵라면 빈 용기(자취생).
+
+**문항**
+1. 누가 보냈을까? — **시골 엄마** / 회사 동료 / 쇼핑몰 / 여자친구
+2. 어디서 보냈을까? — **시골 집** / 해외 / 회사 사무실 / 서울 시내
+3. 상자 속 음식은? — 가게에서 산 것 / **직접 만들고 기른 것** / 배달 음식 / 선물 세트
+4. 분홍 리본 상자는? — 커플 시계 / 반지 / **영양제** / 향수
+5. 받는 사람은 어떤 사람일까? — 회사 대표 / 어린아이 / 신혼부부 / **혼자 사는 자식**
+
+**체크리스트(생성 후 확대 확인):** 반찬통 여러 개 / 신문지로 만 고구마, 흙 묻은 양파 한 망, 말린 고추 / 줄 공책을 찢어 쓴 손편지 / 분홍 리본 상자 / 과일 그림이 그려진 재활용 상자와 안쪽의 농협 마트 봉지 / 책상 위 컵라면 빈 용기
+
+**Prompt:** Photorealistic photograph, 4:5 portrait orientation, 1080×1350, natural lighting, sharp focus across the whole frame, high detail in small objects, no text overlays, no watermarks, no captions. The scene must read at first glance as the surface story below; the planted clues must be small but crisp and legible when zoomed in. Avoid any readable long text; only the short labels listed. A desk in a small studio apartment in the evening, overhead view. An opened cardboard box printed with fruit graphics (a reused fruit carton), its shipping label torn off, a farm-co-op grocery bag inside. Unpacked on the desk: several plastic food containers tightly wrapped in cling film, each lid marked with masking tape bearing a short date and a two-character label like 김치 or 멸치; sweet potatoes rolled in newspaper; a small mesh bag of onions still dusty with soil; a bag of dried red chilies; a handwritten letter on paper torn from a lined notebook in large looping adult handwriting (only the first two characters 밥 잘 legible); a small box tied with a pink ribbon, open, containing vitamin bottles and a tube of hand cream. At the edge of the desk an empty instant-noodle cup with chopsticks.
