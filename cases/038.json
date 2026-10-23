@@ -48,10 +48,40 @@
       ]
     },
     {
+      "key": "shadow",
+      "ask": {
+        "ko": "그림자가 거의 없는 것이 말해 주는 것은?",
+        "en": "There are almost no shadows. What does that tell us?"
+      },
+      "options": [
+        {
+          "ko": "흐린 날이다",
+          "en": "It's overcast"
+        },
+        {
+          "ko": "해가 머리 위에 있다 — 한낮이다",
+          "en": "The sun is straight overhead — midday"
+        },
+        {
+          "ko": "건물 그늘 안이다",
+          "en": "She's in the building's shade"
+        },
+        {
+          "ko": "해 뜨기 직전이다",
+          "en": "It's just before sunrise"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e4"
+      ]
+    },
+    {
       "key": "time",
       "ask": {
         "ko": "몇 시쯤일까?",
-        "en": "What time is it?"
+        "en": "Roughly what time is it?"
       },
       "options": [
         {
@@ -59,82 +89,52 @@
           "en": "9 a.m."
         },
         {
-          "ko": "낮 12~1시",
-          "en": "Around noon"
-        },
-        {
           "ko": "오후 4시",
           "en": "4 p.m."
+        },
+        {
+          "ko": "낮 12~1시",
+          "en": "Noon to 1 p.m."
         },
         {
           "ko": "저녁 7시",
           "en": "7 p.m."
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
         "e1",
-        "e2",
-        "e3"
+        "e2"
       ]
     },
     {
-      "key": "shadow",
+      "key": "bag",
       "ask": {
-        "ko": "그림자가 발밑에 짧게 고인 것이 말해 주는 것은?",
-        "en": "The shadows pool right under everything. What does that tell us?"
+        "ko": "봉지 속 도시락은 누구 몫일까?",
+        "en": "Who are the lunch boxes in the bag for?"
       },
       "options": [
         {
-          "ko": "흐린 날이다",
-          "en": "It's an overcast day"
+          "ko": "자기 혼자 먹을 것",
+          "en": "Just for herself"
         },
         {
-          "ko": "해가 머리 위에 있다 — 한낮이다",
-          "en": "The sun is nearly overhead — it's midday"
+          "ko": "점심과 저녁 두 끼",
+          "en": "Her lunch and dinner"
         },
         {
-          "ko": "가로등 불빛이다",
-          "en": "It's streetlight"
+          "ko": "자기 것과 사진 찍어 준 동료 것",
+          "en": "Hers and the colleague who took the photo"
         },
         {
-          "ko": "해가 막 떠올랐다",
-          "en": "The sun has just risen"
+          "ko": "집에 있는 가족 것",
+          "en": "For family at home"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "queue",
-      "ask": {
-        "ko": "식당 앞 사람들은 무엇을 하고 있을까?",
-        "en": "What are the people outside the restaurant doing?"
-      },
-      "options": [
-        {
-          "ko": "출근 전 커피를 사려고",
-          "en": "Buying coffee before work"
-        },
-        {
-          "ko": "점심 줄을 서 있다",
-          "en": "Queuing for lunch"
-        },
-        {
-          "ko": "퇴근 후 회식 중",
-          "en": "Out for a team dinner"
-        },
-        {
-          "ko": "버스를 기다린다",
-          "en": "Waiting for a bus"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2",
-        "e3"
+        "e3",
+        "e5"
       ]
     },
     {
@@ -164,8 +164,8 @@
       "answer": 3,
       "evidence": [
         "e3",
-        "e1",
-        "e2"
+        "e2",
+        "e1"
       ]
     }
   ],
@@ -176,8 +176,8 @@
       "y": 95,
       "r": 7,
       "label": {
-        "ko": "발밑에 고인 짧은 그림자 — 가로수와 표지판 그림자도 짧다",
-        "en": "Shadows pooled right under her feet, the tree and the signpost"
+        "ko": "신발 밑에만 가느다란 그림자 — 가로수·기둥도 그림자가 없다",
+        "en": "Only a thin line of shadow under her shoes — the tree and the pillar cast none either"
       }
     },
     {
@@ -186,8 +186,8 @@
       "y": 50,
       "r": 12,
       "label": {
-        "ko": "문 연 식당 앞에 늘어선 정장 차림의 줄",
-        "en": "A line of office workers outside the open restaurant"
+        "ko": "라멘 그림 입간판을 세운 식당 앞, 정장 차림의 줄",
+        "en": "A line of office workers outside the restaurant with the ramen-bowl sign"
       }
     },
     {
@@ -196,8 +196,8 @@
       "y": 74,
       "r": 7,
       "label": {
-        "ko": "손에 든 점심 포장 봉지",
-        "en": "A take-out lunch bag in her hand"
+        "ko": "봉지 속 도시락 두 개와 젓가락 두 벌",
+        "en": "Two lunch boxes and two pairs of chopsticks in the bag"
       }
     },
     {
@@ -206,13 +206,23 @@
       "y": 33,
       "r": 8,
       "label": {
-        "ko": "뒤 건물 출입문의 회사 로고와 맑은 하늘",
-        "en": "The company logo on the door behind her, and a clear sky"
+        "ko": "회사 로고와 맑은 하늘",
+        "en": "The company logo and a clear sky"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 22,
+      "y": 48,
+      "r": 9,
+      "label": {
+        "ko": "유리문에 비친 촬영자 — 목에 사원증 끈",
+        "en": "The photographer reflected in the glass door, a lanyard around the neck"
       }
     }
   ],
   "detective": {
-    "ko": "회사 로고가 붙은 출입문 앞, 맑은 하늘. 회사 앞이고 날씨가 맑았다는 말은 맞다. 유리문에 비친 촬영자는 목에 끈을 걸고 있다. 동료가 찍어 줬다는 말도 어긋나지 않는다. 그런데 그림자를 보라. 그녀의 그림자도, 가로수와 표지판의 그림자도 발밑에 짧게 고여 있다. 아침 9시라면 그림자가 옆으로 길게 누웠을 것이다. 해가 머리 위에 있다. 한낮이다. 뒤편 식당은 문을 열었고 정장 차림이 줄을 섰다. 출근 전 커피 줄도 퇴근 회식도 아닌 점심 줄이다. 그리고 그녀 손엔 커피가 아니라 포장 봉지. 출근길이 아니라 점심을 사서 회사로 돌아가는 길이다. 거짓말은 하나, '아침 9시'.",
-    "en": "A company logo by the door, a clear sky: 'in front of the office' and 'sunny' hold up. In the glass door, the person taking the photo wears a lanyard — 'a colleague took it' fits too. Now look at the shadows. Hers, the tree's, the signpost's — all pooled right at their feet. At 9 a.m. they would stretch long to the side. The sun is overhead: midday. The restaurant behind her is open with a line of office workers outside — not a morning coffee queue, not an evening dinner crowd, a lunch line. And in her hand, not a coffee but a takeout bag. She isn't on her way to work; she's bringing lunch back to the office. One lie: '9 a.m.'"
+    "ko": "회사 로고가 붙은 출입문 앞, 맑은 하늘. 회사 앞이고 날씨가 맑았다는 말은 맞다. 유리문에 비친 촬영자는 목에 사원증 끈을 걸고 있다. 동료가 찍어 줬다는 말도 어긋나지 않는다. 그런데 그림자가 없다. 그녀도, 가로수도, 기둥도 발밑에 가느다란 선뿐이다. 흐린 날이면 하늘이 저렇게 맑을 리 없고 그늘이면 얼굴이 어두웠을 것이다. 해가 머리 바로 위에 있다. 아침 9시라면 그림자가 옆으로 길게 누웠을 테니, 한낮이다. 뒤편 라멘집 앞엔 정장 차림이 줄을 섰다. 점심시간이다. 그녀 손의 봉지엔 도시락이 둘, 젓가락도 두 벌. 혼자 먹을 양이 아니고 저녁까지 사 두는 사람은 젓가락을 두 벌 받지 않는다. 사진을 찍어 준 동료 몫이다. 둘이 점심을 사서 회사로 돌아가는 길. 거짓말은 하나, '아침 9시'.",
+    "en": "A company logo by the door, a clear sky: 'in front of the office' and 'sunny' hold up. In the glass door, the person taking the photo wears a lanyard — 'a colleague took it' fits too. But there are no shadows. She, the tree, the pillar — nothing but a thin line at the base. An overcast day wouldn't give that sky, and shade would darken her face. The sun is straight overhead. At 9 a.m. shadows would stretch long to the side, so this is midday. Office workers queue outside the ramen place behind her: lunch hour. In her bag, two lunch boxes and two pairs of chopsticks — more than one person's meal, and nobody buying dinner ahead takes two sets of chopsticks. The second box is for the colleague holding the camera. Two people bringing lunch back to the office. One lie: '9 a.m.'"
   }
 }
