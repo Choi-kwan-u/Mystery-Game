@@ -4,16 +4,16 @@
   "type": "lie",
   "image": "img/033.webp",
   "title": {
-    "ko": "셀카 속 반사",
-    "en": "The Selfie's Reflection"
+    "ko": "남자친구에게 보낸 셀카",
+    "en": "A Selfie for Her Boyfriend"
   },
   "intro": {
-    "ko": "토요일 오후, 친구가 보낸 셀카 한 장과 메시지. 사진 속에서 거짓말을 찾아라.",
-    "en": "Saturday afternoon: a selfie and a message from a friend. Find the lie in the photo."
+    "ko": "토요일 오후, 남자친구에게 보낸 셀카 한 장과 메시지. 사진 속에서 거짓말을 찾아라.",
+    "en": "Saturday afternoon: a selfie and a message she sent her boyfriend. Find the lie in the photo."
   },
   "statement": {
-    "ko": "나 지금 제주도 호텔이야. 혼자 왔어. 방금 도착했어. 비 와서 방에만 있어.",
-    "en": "I'm at a hotel on Jeju right now. Came alone. Just got here. It's raining, so I'm staying in."
+    "ko": "자기야, 나 제주도 호텔이야. 혼자 힐링하러 왔어. 방금 도착했어. 비 와서 방에만 있어.",
+    "en": "Babe, I'm at a hotel on Jeju. Came alone for some me-time. Just got here. It's raining, so I'm staying in."
   },
   "questions": [
     {
@@ -24,8 +24,8 @@
       },
       "options": [
         {
-          "ko": "혼자 왔다",
-          "en": "Came alone"
+          "ko": "혼자 힐링하러 왔다",
+          "en": "She came alone for some me-time"
         },
         {
           "ko": "방금 도착했다",
@@ -107,63 +107,64 @@
       ]
     },
     {
-      "key": "where",
+      "key": "frame",
       "ask": {
-        "ko": "사진 속 다른 사람은 어디에 서 있을까?",
-        "en": "Where is the other person standing?"
+        "ko": "그 사람은 왜 사진에 안 찍혔을까?",
+        "en": "Why isn't that person in the photo?"
       },
       "options": [
         {
-          "ko": "복도",
-          "en": "In the hallway"
+          "ko": "욕실에 들어가 있어서",
+          "en": "He's in the bathroom"
         },
         {
-          "ko": "욕실",
-          "en": "In the bathroom"
+          "ko": "일부러 프레임 밖에 세워 두고 찍어서",
+          "en": "She framed the shot to keep him out on purpose"
         },
         {
-          "ko": "창가 맞은편",
-          "en": "By the window, opposite her"
+          "ko": "방금 복도로 나가서",
+          "en": "He just stepped into the hallway"
         },
         {
-          "ko": "침대 옆",
-          "en": "Beside the bed"
+          "ko": "사진을 찍어 주고 있어서",
+          "en": "He's the one taking the photo"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
         "e1",
         "e5"
       ]
     },
     {
-      "key": "whois",
+      "key": "truth",
       "ask": {
-        "ko": "그 사람은 누구일까?",
-        "en": "Who is that person?"
+        "ko": "이 셀카가 말해 주는 것은?",
+        "en": "What does this selfie really tell us?"
       },
       "options": [
         {
-          "ko": "옆방 손님",
-          "en": "A guest from next door"
+          "ko": "남자친구에게 서프라이즈 여행을 준비 중이다",
+          "en": "She's planning a surprise trip for her boyfriend"
         },
         {
-          "ko": "호텔 직원",
-          "en": "Hotel staff"
+          "ko": "여자 친구들과 여행 중이다",
+          "en": "She's traveling with girlfriends"
         },
         {
-          "ko": "룸서비스",
-          "en": "Room service"
+          "ko": "남자친구 몰래 다른 남자와 왔다",
+          "en": "She's here with another man, behind her boyfriend's back"
         },
         {
-          "ko": "같이 온 일행",
-          "en": "Someone who came with her"
+          "ko": "혼자 쉬는 중이다",
+          "en": "She really is resting alone"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "evidence": [
+        "e1",
         "e2",
-        "e6"
+        "e5"
       ]
     }
   ],
@@ -230,7 +231,7 @@
     }
   ],
   "detective": {
-    "ko": "창엔 빗방울, 창밖엔 돌담과 야자수, 수건엔 JEJU. 제주 호텔에 비가 오는 건 맞다. 캐리어는 닫힌 채 서 있고 침대엔 키카드 봉투가 놓여 있으니 들어온 지 얼마 안 됐다. 베개도 하나만 눌렸다. 혼자처럼 보인다. 그런데 머리에 올린 선글라스를 확대해 보라. 알에 비친 건 셀카 찍는 손이 아니다. 창을 등지고 선 남자다. 빛이 뒤에서 오니 창가 맞은편이다. 테이블엔 커피잔이 둘, 둘 다 마셨다. 의자엔 남자 바람막이. 유니폼이 아니라 편한 차림이고, 잔을 나눠 마셨으니 직원이나 룸서비스가 아니다. 같이 온 일행이다. 거짓말은 하나, '혼자 왔어'.",
-    "en": "Raindrops on the window, stone walls and palm trees outside, JEJU on the towel — rain at a Jeju hotel is true. The suitcase stands closed and the key-card sleeve lies on the bed, so they've only just arrived. One pillow dented: it looks like one person. Now enlarge the sunglasses pushed up on her head. The figure in the lens isn't the hand holding the phone; it's a man standing with his back to the window — the light comes from behind him, so he's by the window opposite her. Two coffee cups on the table, both drunk from. A man's windbreaker on the chair. Casual clothes, not a uniform, and a shared coffee: not staff, not room service. Someone who came with her. One lie: 'Came alone.'"
+    "ko": "창엔 빗방울, 창밖엔 돌담과 야자수, 수건엔 JEJU. 제주 호텔에 비가 오는 건 맞다. 캐리어는 닫힌 채 서 있고 침대엔 키카드 봉투가 놓여 있으니 들어온 지 얼마 안 됐다. 베개도 하나만 눌렸다. 혼자처럼 보인다. 그런데 머리에 올린 선글라스를 확대해 보라. 알에 비친 건 셀카 찍는 손이 아니다. 창을 등지고 선 남자다. 바로 맞은편에 서 있는데도 사진엔 없다 — 그가 안 들어오게 각도를 잡고 찍은 것이다. 테이블엔 커피잔이 둘, 둘 다 마셨다. 의자엔 남자 바람막이. 여자 친구들과 온 게 아니고, 혼자도 아니다. 남자친구에게 '혼자 왔어'라고 보낸 이 셀카는, 다른 남자를 프레임 밖에 세워 두고 찍은 것이다.",
+    "en": "Raindrops on the window, stone walls and palm trees outside, JEJU on the towel — rain at a Jeju hotel is true. The suitcase stands closed and the key-card sleeve lies on the bed, so she's only just arrived. One pillow dented: it looks like one person. Now enlarge the sunglasses pushed up on her head. The figure in the lens isn't the hand holding the phone; it's a man standing with his back to the window — right across from her, yet nowhere in the photo. She angled the shot to keep him out. Two coffee cups on the table, both drunk from. A man's windbreaker on the chair. Not a girls' trip, and not alone. This selfie, sent to her boyfriend with 'came alone', was taken with another man standing just outside the frame."
   }
 }
