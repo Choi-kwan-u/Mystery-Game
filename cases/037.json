@@ -45,8 +45,8 @@
     {
       "key": "howlong",
       "ask": {
-        "ko": "얼마나 오래 걸려 있었을까?",
-        "en": "How long did it hang there?"
+        "ko": "그림은 얼마나 오래 걸려 있었을까?",
+        "en": "How long did the painting hang there?"
       },
       "options": [
         {
@@ -63,7 +63,7 @@
         },
         {
           "ko": "어제 걸었다",
-          "en": "It was hung yesterday"
+          "en": "It went up yesterday"
         }
       ],
       "answer": 2,
@@ -103,8 +103,8 @@
     {
       "key": "box",
       "ask": {
-        "ko": "세워 둔 큰 상자 안에는 무엇이 들었을까?",
-        "en": "What's inside the big box standing by the wall?"
+        "ko": "벽에 세워 둔 납작한 상자 안에는 무엇이 들었을까?",
+        "en": "What's inside the flat box leaning on the wall?"
       },
       "options": [
         {
@@ -120,8 +120,8 @@
           "en": "A new TV"
         },
         {
-          "ko": "빈 상자",
-          "en": "Nothing — it's empty"
+          "ko": "바닥에 있는 작은 그림의 액자",
+          "en": "The frame for the small picture on the floor"
         }
       ],
       "answer": 1,
@@ -131,31 +131,33 @@
       ]
     },
     {
-      "key": "next",
+      "key": "why",
       "ask": {
-        "ko": "이 집 사람은 이다음 무엇을 할까?",
-        "en": "What will the people here do next?"
+        "ko": "그림을 왜 떼었을까?",
+        "en": "Why was the painting taken down?"
       },
       "options": [
         {
-          "ko": "벽지를 새로 바른다",
-          "en": "Re-paper the wall"
+          "ko": "벽지를 새로 바르려고",
+          "en": "To re-paper the wall"
         },
         {
-          "ko": "벽걸이 TV를 단다",
-          "en": "Mount a TV"
+          "ko": "팔거나 보내려고 포장 중",
+          "en": "It's being packed to sell or ship"
         },
         {
-          "ko": "이사를 간다",
-          "en": "Move out"
+          "ko": "이사를 가서",
+          "en": "They're moving out"
         },
         {
-          "ko": "작은 그림을 건다",
-          "en": "Hang a smaller picture"
+          "ko": "액자가 깨져서",
+          "en": "The frame broke"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
+        "e3",
+        "e4",
         "e5"
       ]
     }
@@ -173,9 +175,9 @@
     },
     {
       "id": "e3",
-      "x": 30,
-      "y": 84,
-      "r": 12,
+      "x": 35,
+      "y": 86,
+      "r": 11,
       "label": {
         "ko": "바닥의 뽁뽁이 조각, 커터, 테이프, 송장 출력물 '미술품·파손주의'",
         "en": "Bubble wrap scraps, a box cutter, packing tape and a printed label: FRAGILE – ARTWORK"
@@ -183,18 +185,18 @@
     },
     {
       "id": "e4",
-      "x": 81,
-      "y": 60,
-      "r": 11,
+      "x": 50,
+      "y": 66,
+      "r": 18,
       "label": {
-        "ko": "벽에 세워 둔 납작하고 큰 상자 — 자국과 거의 같은 크기, '미술품' 송장",
-        "en": "A big flat box against the wall — about the size of the mark, with an 'artwork' label"
+        "ko": "벽에 세워 둔 납작한 상자 — 자국과 같은 폭, 송장이 붙어 있다",
+        "en": "A flat box leaning on the wall — the same width as the mark, a shipping label on it"
       }
     },
     {
       "id": "e5",
-      "x": 60,
-      "y": 75,
+      "x": 24,
+      "y": 70,
       "r": 8,
       "label": {
         "ko": "바닥에 기대 둔 작은 그림, 자국 오른쪽 위의 새 못 구멍",
@@ -213,7 +215,7 @@
     }
   ],
   "detective": {
-    "ko": "벽에 큰 직사각형 자국이 있다. 못 두 개가 위쪽에 나란히, 크고 납작한 것을 걸던 자리다. TV라면 브래킷 자국이, 시계라면 못 하나만 남았을 것이다. 그림이다. 자국이 진한 건 새로 칠해서가 아니다. 창으로 해가 드는 방이다. 몇 해 동안 둘레 벽만 햇빛에 바래고, 그림이 가린 자리만 원래 색을 지켰다. 그만큼 오래 걸려 있었다. 그 그림은 어디 갔을까. 벽에 세워 둔 납작한 상자가 자국과 거의 같은 크기이고, 송장엔 '미술품·파손주의'. 바닥엔 뽁뽁이와 커터, 테이프. 방금 그 그림을 싸서 상자에 넣었다. 그리고 자국 오른쪽 위에 새로 뚫은 작은 못 구멍, 그 아래 바닥에 기대 둔 작은 풍경화. 빈 벽은 오래 가지 않는다. 다음엔 저 작은 그림이 걸린다.",
-    "en": "A large dark rectangle on the wall, two nails side by side at the top — something big and flat hung here. A TV would leave bracket marks, a clock just one nail. It was a painting. The rectangle isn't darker because it was repainted. Sun pours in through the window; for years it faded the wall all around, while the painting kept its patch the original color. That's how long it hung there. Where did it go? The flat box standing against the wall is almost exactly the size of the mark, its label reading 'artwork — fragile', with bubble wrap, a box cutter and tape on the floor. The painting has just been wrapped and boxed. And up to the right of the mark is a small, freshly drilled nail hole, with a little landscape leaning on the floor below it. The wall won't stay bare for long: that small painting goes up next."
+    "ko": "벽에 큰 직사각형 자국이 있다. 못 두 개가 위쪽에 나란히, 크고 납작한 것을 걸던 자리다. TV라면 브래킷 자국이, 시계라면 못 하나만 남았을 것이다. 그림이다. 자국이 진한 건 새로 칠해서가 아니다. 창으로 해가 드는 방이다. 몇 해 동안 둘레 벽만 햇빛에 바래고, 그림이 가린 자리만 원래 색을 지켰다. 그만큼 오래 걸려 있었다. 그 그림은 어디 갔을까. 벽에 세워 둔 납작한 상자가 자국과 폭이 같고, 송장엔 '미술품·파손주의'. 바닥엔 뽁뽁이와 커터, 테이프. 방금 그 그림을 싸서 상자에 넣었다. 이사라면 집 전체가 상자였을 테고, 벽지를 바꿀 거면 송장을 붙일 이유가 없다. 보낼 곳이 있는 것이다. 팔았거나 누군가에게 보낸다. 그리고 자국 오른쪽 위의 새 못 구멍, 그 아래 기대 둔 작은 풍경화. 빈 벽은 오래 가지 않는다.",
+    "en": "A large dark rectangle on the wall, two nails side by side at the top — something big and flat hung here. A TV would leave bracket marks, a clock just one nail. It was a painting. The rectangle isn't darker because it was repainted. Sun pours in through the window; for years it faded the wall all around, while the painting kept its patch the original color. That's how long it hung there. Where did it go? The flat box leaning on the wall is exactly as wide as the mark, labeled 'artwork — fragile', with bubble wrap, a box cutter and tape on the floor. It has just been wrapped and boxed. If they were moving, the whole room would be boxes; if they were re-papering, there'd be no shipping label. It's going somewhere — sold, or sent to someone. And up to the right of the mark, a fresh nail hole, with a little landscape leaning below it. The wall won't stay bare for long."
   }
 }
