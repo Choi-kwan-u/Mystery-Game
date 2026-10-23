@@ -45,28 +45,28 @@
     {
       "key": "lock",
       "ask": {
-        "ko": "자물쇠는 어떻게 됐을까?",
-        "en": "What happened to the padlock?"
+        "ko": "창고 자물쇠는 어떻게 열렸을까?",
+        "en": "How was the shed padlock opened?"
       },
       "options": [
         {
-          "ko": "열쇠로 열렸다",
-          "en": "Opened with the key"
+          "ko": "돌로 내리쳐 부쉈다",
+          "en": "Smashed with a rock"
         },
         {
-          "ko": "다른 자물쇠다",
-          "en": "It was swapped"
+          "ko": "절단기로 고리를 끊었다",
+          "en": "The shackle was cut with bolt cutters"
         },
         {
-          "ko": "억지로 부쉈다",
-          "en": "It was forced"
+          "ko": "열쇠로 열었다",
+          "en": "Opened with a key"
         },
         {
-          "ko": "안 잠겨 있었다",
-          "en": "It wasn't locked"
+          "ko": "문고리째 뜯어냈다",
+          "en": "The whole hasp was ripped off"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
         "e1"
       ]
@@ -170,8 +170,8 @@
       "y": 52,
       "r": 5,
       "label": {
-        "ko": "멀쩡히 열린 자물쇠, 꽂힌 채인 열쇠",
-        "en": "An intact padlock hanging open, the key still in it"
+        "ko": "흠집 하나 없이 열려 걸린 자물쇠, 멀쩡한 문고리 — 부순 게 아니다",
+        "en": "The padlock hangs open without a scratch, the hasp intact — nothing was forced"
       }
     },
     {
@@ -226,7 +226,7 @@
     }
   ],
   "detective": {
-    "ko": "아버지는 도둑이 담을 넘었다고 한다. 그런데 담 밑 잔디엔 이슬이 그대로다. 밟힌 데가 없다. 창고 자물쇠는 부서진 게 아니라 열쇠가 꽂힌 채 멀쩡히 열려 있다. 열쇠를 가진 사람이 열었다. 흙길의 발자국은 담이 아니라 집 뒷문에서 시작해 창고로 간다. 작은 슬리퍼 자국, 집에서 신고 나온 신발이다. 개는 개집 앞에서 태평하게 자고, 옆엔 뜯긴 간식 봉지. 낯선 사람이었다면 짖었을 것이다. 아는 사람, 간식을 쥐여 주는 사람이다. 창고 안은 자전거 자리만 먼지가 없고 사다리와 공구는 그대로다. 돈 되는 걸 노린 도둑이 아니라 자전거만 필요했던 사람이다. 그리고 슬리퍼 자국은 창고까지 한 줄뿐, 돌아온 자국이 없다. 자전거를 끌고 나가 타고 간 것이다. 뒷문은 살짝 열려 있고 2층 창은 커튼이 쳐져 있다. 아직 자는 줄 아는 그 방의 주인, 이 집 아들이 새벽에 자전거를 타고 나갔다.",
-    "en": "Father says a thief climbed the fence. But the grass under the fence still carries its dew — nothing has trodden on it. The shed's padlock isn't broken; it hangs open with the key still in it. Someone with a key opened it. The prints on the dirt path don't start at the fence; they run from the house's back door to the shed. Small flip-flop prints — house shoes. The dog sleeps peacefully in front of its doghouse, a torn treat bag beside it. A stranger would have set it barking. This was someone it knows, someone who hands out treats. Inside the shed only the bicycle's spot is clear of dust; the ladder and tools are untouched. Not a thief after valuables — someone who just needed the bike. And the flip-flop prints make one line to the shed with none coming back: whoever it was wheeled the bike out and rode off. The back door stands ajar, the upstairs curtain is drawn. The one everyone thinks is still asleep up there — the son of the house — rode out before dawn."
+    "ko": "아버지는 도둑이 담을 넘었다고 한다. 그런데 담 밑 잔디엔 이슬이 그대로다. 밟힌 데가 없다. 창고 자물쇠는 흠집 하나 없이 고리만 열린 채 걸려 있고, 문고리 나사도 멀쩡하다. 부수지도 끊지도 않았다. 열쇠를 가진 사람이 열었다. 흙길의 발자국은 담이 아니라 집 뒷문에서 시작해 창고로 간다. 작은 슬리퍼 자국, 집에서 신고 나온 신발이다. 개는 개집 앞에서 태평하게 자고, 옆엔 뜯긴 간식 봉지. 낯선 사람이었다면 짖었을 것이다. 아는 사람, 간식을 쥐여 주는 사람이다. 창고 안은 자전거 자리만 먼지가 없고 사다리와 공구는 그대로다. 돈 되는 걸 노린 도둑이 아니라 자전거만 필요했던 사람이다. 그리고 슬리퍼 자국은 창고까지 한 줄뿐, 돌아온 자국이 없다. 자전거를 끌고 나가 타고 간 것이다. 뒷문은 살짝 열려 있고 2층 창은 커튼이 쳐져 있다. 아직 자는 줄 아는 그 방의 주인, 이 집 아들이 새벽에 자전거를 타고 나갔다.",
+    "en": "Father says a thief climbed the fence. But the grass under the fence still carries its dew — nothing has trodden on it. The shed's padlock hangs open without a scratch, and the hasp's screws are intact. Nothing was smashed or cut. Someone with a key opened it. The prints on the dirt path don't start at the fence; they run from the house's back door to the shed. Small flip-flop prints — house shoes. The dog sleeps peacefully in front of its doghouse, a torn treat bag beside it. A stranger would have set it barking. This was someone it knows, someone who hands out treats. Inside the shed only the bicycle's spot is clear of dust; the ladder and tools are untouched. Not a thief after valuables — someone who just needed the bike. And the flip-flop prints make one line to the shed with none coming back: whoever it was wheeled the bike out and rode off. The back door stands ajar, the upstairs curtain is drawn. The one everyone thinks is still asleep up there — the son of the house — rode out before dawn."
   }
 }
