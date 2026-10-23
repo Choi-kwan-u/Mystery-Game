@@ -4,16 +4,16 @@
   "type": "lie",
   "image": "img/038.webp",
   "title": {
-    "ko": "그림자 시계",
-    "en": "The Shadow Clock"
+    "ko": "재택근무 인증샷",
+    "en": "Proof of Working From Home"
   },
   "intro": {
-    "ko": "어느 평일, 친구가 보내온 사진과 메시지. 사진 속에서 거짓말을 찾아라.",
-    "en": "A weekday: a photo and a message from a friend. Find the lie in the photo."
+    "ko": "평일 오후, 팀장에게 보낸 사진과 메시지. 사진 속에서 거짓말을 찾아라.",
+    "en": "A weekday afternoon: a photo and a message sent to the team lead. Find the lie in the photo."
   },
   "statement": {
-    "ko": "오늘 첫 출근이야! 아침 9시에 회사 앞에서 찍었어. 날씨 완전 맑지? 사진은 새 동료가 찍어 줬어.",
-    "en": "First day at the new job! Took this at 9 a.m. in front of the office. Gorgeous weather, right? A new coworker took the photo."
+    "ko": "팀장님, 저 오늘 재택입니다. 지금 집 책상에서 일하는 중이에요. 커피 마시면서 엑셀 정리하고 있어요.",
+    "en": "Hi boss, I'm working from home today. At my desk at home right now. Having a coffee while I sort out the spreadsheet."
   },
   "questions": [
     {
@@ -24,20 +24,20 @@
       },
       "options": [
         {
-          "ko": "오늘 첫 출근이다",
-          "en": "It's her first day"
+          "ko": "오늘 재택이다",
+          "en": "She's working from home today"
         },
         {
-          "ko": "아침 9시에 찍었다",
-          "en": "It was taken at 9 a.m."
+          "ko": "집 책상에서 일하는 중이다",
+          "en": "She's at her desk at home"
         },
         {
-          "ko": "날씨가 맑다",
-          "en": "The weather is clear"
+          "ko": "커피를 마시고 있다",
+          "en": "She's having a coffee"
         },
         {
-          "ko": "새 동료가 찍어 줬다",
-          "en": "A new coworker took it"
+          "ko": "엑셀을 정리하고 있다",
+          "en": "She's working on a spreadsheet"
         }
       ],
       "answer": 1,
@@ -48,190 +48,178 @@
       ]
     },
     {
-      "key": "firstday",
+      "key": "buzzer",
       "ask": {
-        "ko": "'첫 출근'이라는 말은 사진과 맞을까?",
-        "en": "Does 'first day' fit the photo?"
+        "ko": "화분 뒤의 빨간 불 켜진 검은 원반은 무엇일까?",
+        "en": "What's the black disc with red lights behind the plant?"
       },
       "options": [
         {
-          "ko": "아니다 — 사원증 끈이 낡았다",
-          "en": "No — the lanyard is worn and faded"
+          "ko": "무선 충전기",
+          "en": "A wireless charger"
         },
         {
-          "ko": "맞다 — 새 옷을 입었다",
-          "en": "Yes — she's wearing new clothes"
+          "ko": "스마트 스피커",
+          "en": "A smart speaker"
         },
         {
-          "ko": "맞다 — 낡은 사원증 끈을 보면",
-          "en": "Yes — judging by the lanyard"
+          "ko": "카페 진동벨",
+          "en": "A café order buzzer"
+        },
+        {
+          "ko": "공기청정기 센서",
+          "en": "An air-quality sensor"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1"
+      ]
+    },
+    {
+      "key": "where",
+      "ask": {
+        "ko": "이 책상은 어디에 있을까?",
+        "en": "Where is this table?"
+      },
+      "options": [
+        {
+          "ko": "집 거실",
+          "en": "Her living room at home"
+        },
+        {
+          "ko": "회사 사무실",
+          "en": "The office"
+        },
+        {
+          "ko": "공유 오피스",
+          "en": "A co-working space"
+        },
+        {
+          "ko": "카페",
+          "en": "A café"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e2",
+        "e4"
+      ]
+    },
+    {
+      "key": "alone",
+      "ask": {
+        "ko": "그녀는 혼자일까?",
+        "en": "Is she alone?"
+      },
+      "options": [
+        {
+          "ko": "혼자다",
+          "en": "Yes, alone"
+        },
+        {
+          "ko": "아니다 — 옆에 누군가의 가방과 잔이 있다",
+          "en": "No — someone's bag and cup are right beside her"
+        },
+        {
+          "ko": "아니다 — 화면에 동료가 보인다",
+          "en": "No — a colleague is on screen"
         },
         {
           "ko": "알 수 없다",
           "en": "Can't tell"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
-        "e6"
+        "e4"
       ]
     },
     {
-      "key": "time",
+      "key": "true",
       "ask": {
-        "ko": "사진은 몇 시쯤 찍었을까?",
-        "en": "Roughly when was the photo taken?"
+        "ko": "진술 중 사진으로 확인되는 참말은?",
+        "en": "Which statement does the photo confirm?"
       },
       "options": [
         {
-          "ko": "아침 9시",
-          "en": "9 a.m."
+          "ko": "집 책상이다",
+          "en": "It's her desk at home"
         },
         {
-          "ko": "오후 4시",
-          "en": "4 p.m."
+          "ko": "커피를 마시며 엑셀을 보고 있다",
+          "en": "She's drinking coffee and looking at a spreadsheet"
         },
         {
-          "ko": "낮 12~1시",
-          "en": "Noon to 1 p.m."
+          "ko": "혼자 있다",
+          "en": "She's alone"
         },
         {
-          "ko": "저녁 7시",
-          "en": "7 p.m."
+          "ko": "재택 중이다",
+          "en": "She's at home"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "bag",
-      "ask": {
-        "ko": "봉지 속 도시락은 누구 몫일까?",
-        "en": "Who are the lunch boxes in the bag for?"
-      },
-      "options": [
-        {
-          "ko": "자기 것과 사진 찍어 준 동료 것",
-          "en": "Hers and the coworker who took the photo"
-        },
-        {
-          "ko": "자기 혼자 먹을 것",
-          "en": "Just for herself"
-        },
-        {
-          "ko": "점심과 저녁 두 끼",
-          "en": "Her lunch and dinner"
-        },
-        {
-          "ko": "집에 있는 가족 것",
-          "en": "For family at home"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e3",
         "e5"
-      ]
-    },
-    {
-      "key": "doing",
-      "ask": {
-        "ko": "그녀는 무엇을 하던 중일까?",
-        "en": "What is she in the middle of?"
-      },
-      "options": [
-        {
-          "ko": "출근하는 길",
-          "en": "Heading in to work"
-        },
-        {
-          "ko": "퇴근하는 길",
-          "en": "Heading home"
-        },
-        {
-          "ko": "외근 가는 길",
-          "en": "Going out on a job"
-        },
-        {
-          "ko": "점심 사 오는 길",
-          "en": "Bringing lunch back"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e3",
-        "e2",
-        "e1"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 95,
+      "x": 87,
+      "y": 48,
       "r": 8,
       "label": {
-        "ko": "발밑에 그림자가 없다 — 가로수와 기둥도 그림자를 드리우지 않는다",
-        "en": "No shadow at her feet — the tree and the pillar cast none either"
+        "ko": "화분 뒤 빨간 불이 켜진 검은 원반 — 카페 진동벨",
+        "en": "A black disc with red lights behind the plant — a café buzzer"
       }
     },
     {
       "id": "e2",
-      "x": 84,
-      "y": 50,
-      "r": 12,
+      "x": 72,
+      "y": 77,
+      "r": 9,
       "label": {
-        "ko": "라멘 그림 입간판을 세운 식당 앞, 정장 차림의 줄",
-        "en": "A line of office workers outside the restaurant with the ramen-bowl sign"
+        "ko": "머그잔 밑에 깔린 길고 가는 종이 — 커피잔 그림이 찍힌 카페 영수증",
+        "en": "A long thin slip under the mug, a coffee-cup icon printed on it — a café receipt"
       }
     },
     {
       "id": "e3",
-      "x": 59,
-      "y": 74,
-      "r": 7,
+      "x": 65,
+      "y": 47,
+      "r": 10,
       "label": {
-        "ko": "봉지 속 도시락 두 개와 젓가락 두 벌",
-        "en": "Two lunch boxes and two pairs of chopsticks in the bag"
+        "ko": "노트북 화면 한쪽의 카메라 미리보기 — 펜던트 조명과 칠판 메뉴판이 비친다",
+        "en": "A camera preview on the laptop screen — pendant lamps and a chalkboard menu behind her"
       }
     },
     {
       "id": "e4",
-      "x": 34,
-      "y": 33,
-      "r": 8,
+      "x": 92,
+      "y": 90,
+      "r": 9,
       "label": {
-        "ko": "회사 로고와 맑은 하늘",
-        "en": "The company logo and a clear sky"
+        "ko": "테이블 끝의 남의 가죽 가방 끈과 다른 머그잔",
+        "en": "A stranger's leather bag strap and a different mug at the table's edge"
       }
     },
     {
       "id": "e5",
-      "x": 22,
-      "y": 48,
-      "r": 9,
+      "x": 40,
+      "y": 45,
+      "r": 12,
       "label": {
-        "ko": "유리문에 비친 촬영자 — 목에 사원증 끈",
-        "en": "The photographer reflected in the glass door, a lanyard around the neck"
-      }
-    },
-    {
-      "id": "e6",
-      "x": 49,
-      "y": 57,
-      "r": 6,
-      "label": {
-        "ko": "목에 건 사원증 끈 — 색이 바래고 해졌다",
-        "en": "The lanyard around her neck — faded and frayed"
+        "ko": "라테 아트가 있는 커피와 엑셀 표가 뜬 화면",
+        "en": "A latte with foam art and a spreadsheet on screen"
       }
     }
   ],
   "detective": {
-    "ko": "회사 로고가 붙은 출입문 앞, 맑은 하늘. 회사 앞이고 날씨가 맑다는 말은 맞다. 유리문에 비친 촬영자는 목에 사원증 끈을 걸고 있다. 동료가 찍어 줬다는 말도 어긋나지 않는다. 첫 출근이라는 말은? 그녀 목의 사원증 끈을 보라. 색이 바래고 끝이 해졌다. 오늘 받은 끈이 아니다. 그런데 그건 거짓말이 아니라 농담일 수도 있다. 사진이 확실히 부정하는 건 따로 있다. 그림자가 없다. 그녀도, 가로수도, 기둥도. 아침 9시라면 그림자가 옆으로 길게 누웠을 것이다. 해가 머리 바로 위, 한낮이다. 뒤편 라멘집 앞엔 정장 차림이 줄을 섰다. 점심시간이다. 봉지엔 도시락 둘, 젓가락 두 벌. 혼자 먹을 양이 아니고, 저녁까지 사 두는 사람은 젓가락을 두 벌 받지 않는다. 사진 찍어 준 동료 몫이다. 둘이 점심을 사서 회사로 돌아가는 길. 사진과 맞지 않는 말은 '아침 9시'.",
-    "en": "A company logo by the door, a clear sky: 'in front of the office' and 'gorgeous weather' hold up. In the glass door the photographer wears a lanyard, so 'a coworker took it' fits too. First day? Look at the lanyard around her own neck — faded, frayed at the edges. Not something handed out this morning. But that could be a joke rather than a lie. What the photo flatly contradicts is something else: there are no shadows. Not hers, not the tree's, not the pillar's. At 9 a.m. shadows would stretch long to the side. The sun is straight overhead — midday. Office workers queue outside the ramen place behind her: lunch hour. In her bag, two lunch boxes and two pairs of chopsticks — more than one person's meal, and nobody buying dinner ahead takes two sets of chopsticks. The second box is for the coworker holding the camera. Two people bringing lunch back to the office. The statement that doesn't match: '9 a.m.'"
+    "ko": "나무 책상, 노트북, 화분, 라테. 얼핏 보면 집이다. 커피를 마시며 엑셀을 본다는 말은 맞다. 화면엔 표가 떠 있고 잔엔 라테 아트가 남아 있다. 그런데 화분 뒤에 빨간 불이 켜진 검은 원반이 있다. 충전기도 스피커도 아니다. 주문한 음료가 나오면 울리는 카페 진동벨이다. 머그잔 밑엔 커피잔 그림이 찍힌 길고 가는 종이, 카페 영수증. 집에서 내린 커피에 영수증이 딸려 올 리 없다. 노트북 화면 한쪽 카메라 미리보기엔 그녀 등 뒤로 펜던트 조명과 칠판 메뉴판이 비친다. 사무실도 공유 오피스도 아닌 카페다. 테이블 끝엔 남의 가죽 가방 끈과 다른 머그잔까지. 옆자리에 누군가 앉아 있다. '집 책상에서 일하는 중'이라는 말만 사진과 맞지 않는다.",
+    "en": "A wooden table, a laptop, a plant, a latte. At a glance, home. 'Having a coffee while I sort out the spreadsheet' checks out: a spreadsheet on screen, foam art in the cup. But behind the plant sits a black disc with red lights. Not a charger, not a speaker — a café buzzer, the kind that goes off when your order is ready. Under the mug, a long thin slip printed with a coffee-cup icon: a café receipt. Coffee made at home doesn't come with one. And in the camera preview on her screen, pendant lamps and a chalkboard menu hang behind her. Not an office, not a co-working space — a café. At the table's edge, a stranger's leather bag strap and a different mug: someone is sitting right beside her. The only statement the photo contradicts: 'at my desk at home'."
   }
 }
