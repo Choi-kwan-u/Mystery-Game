@@ -23,21 +23,23 @@
           "en": "A schoolboy"
         },
         {
+          "ko": "엄마",
+          "en": "A mother"
+        },
+        {
+          "ko": "여자아이",
+          "en": "A young girl"
+        },
+        {
           "ko": "직장인 남자",
           "en": "A working man"
-        },
-        {
-          "ko": "여자",
-          "en": "A woman"
-        },
-        {
-          "ko": "할아버지",
-          "en": "An elderly man"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e1"
+        "e1",
+        "e4",
+        "e2"
       ]
     },
     {
@@ -66,8 +68,7 @@
       ],
       "answer": 1,
       "evidence": [
-        "e2",
-        "e3"
+        "e2"
       ]
     },
     {
@@ -137,6 +138,10 @@
       },
       "options": [
         {
+          "ko": "출근길",
+          "en": "On the way to work"
+        },
+        {
           "ko": "점심시간",
           "en": "At lunchtime"
         },
@@ -145,12 +150,8 @@
           "en": "Yesterday"
         },
         {
-          "ko": "출근길",
-          "en": "On the way to work"
-        },
-        {
-          "ko": "퇴근길",
-          "en": "On the way home"
+          "ko": "일을 마치고 돌아가는 길",
+          "en": "On the way home after work"
         }
       ],
       "answer": 3,
@@ -179,16 +180,6 @@
       "label": {
         "ko": "초등 국어 교과서 — 모서리가 닳고 표지엔 크레용 낙서",
         "en": "An elementary Korean-language textbook, corners worn, crayon doodles on the cover"
-      }
-    },
-    {
-      "id": "e3",
-      "x": 44,
-      "y": 56,
-      "r": 8,
-      "label": {
-        "ko": "아이 알림장 한 권",
-        "en": "A child's school communication notebook"
       }
     },
     {
@@ -223,7 +214,7 @@
     }
   ],
   "detective": {
-    "ko": "큰 검정 백팩에 야구 모자. 남자 것처럼 보인다. 그런데 고리 옆에 머리끈과 실핀이 있다. 짧은 머리로는 쓸 일이 없는 물건이다. 여자다. 초등 국어 교과서는 모서리가 닳고 표지엔 크레용 낙서, 옆엔 알림장. 본인이 볼 책이 아니라 아이 것이다. ㄱㄴㄷ를 배우는 아이, 초등학생이다. 영수증엔 05:40. 새벽에 편의점에 들렀다. 그 시각에 집을 나서는 일, 접힌 흰 앞치마와 위생모, 고무장갑, 손목 보호대가 답한다. 식당 조리원이다. 도시락통은 비었고 씻지 않았다. 점심을 먹은 뒤다. 새벽에 나가 점심을 먹고, 오후 3시에 역에서 가방이 발견됐다. 퇴근길에 잃어버린 것이다.",
-    "en": "A big black backpack and a baseball cap: it looks like a man's. But beside the key ring lie a hair tie and two hairpins — no use to anyone with short hair. A woman. The elementary Korean-language textbook has worn corners and crayon doodles on the cover, with a school notebook next to it. Not her reading; a child's. A child still learning the alphabet — elementary school. The receipt reads 05:40: a convenience-store stop before dawn. What job starts that early? The folded white apron, the hygienic cap, the rubber gloves and the wrist brace answer that — a restaurant kitchen worker. The lunch box is empty and unwashed, so lunch is already eaten. Out before dawn, lunch done, bag found at a station at 3 p.m.: she lost it on the way home."
+    "ko": "큰 검정 백팩에 야구 모자. 남자 것처럼 보인다. 그런데 고리 옆에 머리끈과 실핀이 있다. 여자다. 초등 국어 교과서는 모서리가 닳고 표지엔 크레용 낙서. 여자아이 본인 가방일까? 접힌 흰 앞치마와 위생모, 고무장갑, 손목 보호대는 아이가 들고 다닐 물건이 아니다. 일하는 어른, 아이의 교과서를 대신 챙긴 엄마다. ㄱㄴㄷ를 배우는 아이, 초등학생이다. 영수증엔 05:40. 새벽에 편의점에 들렀다. 그 시각에 집을 나서는 일, 앞치마와 위생모가 답한다. 식당 조리원이다. 도시락통은 비었고 씻지 않았다. 점심을 먹은 뒤다. 새벽 5시 반에 나간 사람의 하루는 오후 3시면 끝난다. 퇴근이 꼭 저녁인 건 아니다. 일을 마치고 돌아가는 길에 잃어버린 것이다.",
+    "en": "A big black backpack and a baseball cap: it looks like a man's. But beside the key ring lie a hair tie and two hairpins. A woman. The elementary Korean-language textbook has worn corners and crayon doodles on the cover. A little girl's own bag? Not with a folded white apron, a hygienic cap, rubber gloves and a wrist brace inside — those belong to a working adult. A mother carrying her child's textbook. A child still learning the alphabet: elementary school. The receipt reads 05:40, a convenience-store stop before dawn. What job starts that early? The apron and cap answer that: a restaurant kitchen worker. The lunch box is empty and unwashed, so lunch is done. A day that begins at 5:30 a.m. ends by 3 p.m. — quitting time isn't always evening. She lost the bag on the way home from work."
   }
 }
