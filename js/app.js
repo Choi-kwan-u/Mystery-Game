@@ -299,24 +299,16 @@
       shareBtn.addEventListener('click', () => share(shareMsg));
       resultBox.append(shareBtn, shareMsg);
 
-      // 아직 안 푼 공개 사건 중 가장 최근 것으로
-      const nextBtn = el('button', 'btn', t('next.button'));
-      nextBtn.type = 'button';
-      const nextMsg = el('p', 'small');
-      nextMsg.setAttribute('role', 'status');
-      nextBtn.addEventListener('click', () => {
-        const done = Store.get().cases;
-        const nx = released(list, PREVIEW).reverse().find(e => e.id !== c.id && !done[e.id]);
-        if (!nx) { track('next-none'); nextMsg.textContent = t('next.none'); return; }
-        track('next-click');
-        // 통계 전송이 페이지 이동에 끊기지 않게 잠깐 기다린다
-        setTimeout(() => { location.href = `index.html?case=${nx.id}`; }, 150);
-      });
-      resultBox.append(nextBtn, nextMsg);
-
       const cd = el('p', 'countdown');
       resultBox.append(cd);
       startCountdown(cd);
+      const more = el('a', 'small more-link', t('next.more'));
+      more.href = 'archive.html';
+      more.addEventListener('click', () => track('next-click'));
+      resultBox.append(more);
+      const donate = el('a', 'btn donate', t('donate.button'));
+      donate.href = 'about.html#donate';
+      resultBox.append(donate);
 
       if (replay) resultBox.append(el('p', 'small', t('replay.note')));
       if (!isToday) {

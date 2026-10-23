@@ -29,7 +29,7 @@ h3 { font-size: 1.05rem; margin: 1.2em 0 .5em; }
 a { color: var(--accent); }
 [hidden] { display: none !important; }
 
-.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
 
 /* 헤더 */
 .site-head { border-bottom: 1px solid var(--line); background: var(--paper); }
@@ -45,6 +45,8 @@ a { color: var(--accent); }
 main { padding: 20px 0 40px; }
 .site-foot { border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; padding: 18px 0 28px; }
 .site-foot a { color: var(--muted); }
+.more-link { display: block; margin-top: 6px; }
+.btn.donate { margin-top: 14px; background: #f3e6c8; border-color: #e0c98f; }
 
 .small { font-size: .85rem; color: var(--muted); }
 .notice { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 24px 16px; text-align: center; }
@@ -59,7 +61,7 @@ main { padding: 20px 0 40px; }
 /* 게임 레이아웃: 모바일 사진 위 / 데스크톱 2열 */
 .layout { display: grid; gap: 20px; }
 @media (min-width: 820px) {
-  .layout { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+  .layout { grid-template-columns: minmax(0, 5fr) minmax(0, 4fr); gap: 32px; align-items: start; }
   .photo-col { position: sticky; top: 16px; }
 }
 
