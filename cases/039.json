@@ -84,7 +84,7 @@
           "en": "Just now"
         },
         {
-          "ko": "오전",
+          "ko": "오늘 오전",
           "en": "This morning"
         },
         {
@@ -96,10 +96,10 @@
           "en": "A week ago"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e1",
-        "e3"
+        "e7",
+        "e5"
       ]
     },
     {
@@ -129,7 +129,6 @@
       "answer": 3,
       "evidence": [
         "e2",
-        "e3",
         "e4"
       ]
     },
@@ -186,23 +185,13 @@
       }
     },
     {
-      "id": "e3",
-      "x": 8,
-      "y": 14,
-      "r": 9,
-      "label": {
-        "ko": "어린이 채널이 나오는 TV — 음소거",
-        "en": "A cartoon on the TV — muted"
-      }
-    },
-    {
       "id": "e4",
       "x": 40,
       "y": 21,
       "r": 9,
       "label": {
-        "ko": "열린 안방 문 너머 흐트러진 이불 — 누가 누웠다 일어난, 혹은 아직 누워 있는 자리",
-        "en": "Through the open bedroom door, a rumpled duvet — someone has been lying there, or still is"
+        "ko": "열린 안방 문 너머 흐트러진 이불 — TV는 어린이 채널인데 소리를 죽였다",
+        "en": "The rumpled blanket through the open bedroom door — the TV is on a kids' channel, muted"
       }
     },
     {
@@ -217,17 +206,27 @@
     },
     {
       "id": "e6",
-      "x": 78,
-      "y": 12,
-      "r": 11,
+      "x": 88,
+      "y": 11,
+      "r": 10,
       "label": {
         "ko": "욕실 컵의 칫솔 둘, 달력의 '방학'과 동그라미 친 사흘",
         "en": "Two toothbrushes in the bathroom cup, 'school break' and three circled days on the calendar"
       }
+    },
+    {
+      "id": "e7",
+      "x": 12,
+      "y": 46,
+      "r": 11,
+      "label": {
+        "ko": "소파에 벗어 둔 아이 잠옷",
+        "en": "A child's pajamas left on the sofa"
+      }
     }
   ],
   "detective": {
-    "ko": "찻잔 옆에 작은 유리컵, 우유 자국. 크레용과 그림 여러 장. 현관엔 할머니 신발 옆에 작은 운동화 한 켤레. 손주다. 컵 하나, 신발 한 켤레, 소파의 겉옷 하나. 한 명이다. 그림이 여러 장이고 과자는 다 먹었다. 설거지통엔 점심 그릇. 오전에 와서 한나절을 보냈다. 손님이 다녀간 것 같지만 운동화가 아직 현관에 있다. TV는 어린이 채널인데 소리를 죽였고, 안방 문은 열려 있고 이불은 흐트러진 채다. 낮잠을 재우는 중이다. 복도의 작은 캐리어는 열린 채 옷이 꺼내져 있고, 욕실엔 칫솔이 둘, 달력엔 '방학'. 하루 놀러 온 게 아니라 며칠 묵으러 왔다.",
-    "en": "A small glass with a milk ring beside the teacup. Crayons and a pile of drawings. In the entryway, one small pair of sneakers next to Grandma's shoes. A grandchild. One glass, one pair of shoes, one small jacket on the sofa: just one. Several drawings, the cookies all gone, lunch dishes in the sink — the child arrived in the morning and spent the day. It looks like the visit is over, but the sneakers are still by the door. The TV shows a cartoon with the sound muted; the bedroom door stands open and the duvet is rumpled. Nap time. In the hallway a small suitcase lies open with clothes pulled out, there are two toothbrushes in the bathroom, and the calendar says 'school break'. Not a day trip. A stay of several days."
+    "ko": "찻잔 옆에 작은 유리컵, 우유 자국. 크레용과 그림 여러 장. 현관엔 할머니 신발 옆에 작은 운동화 한 켤레. 손주다. 컵 하나, 신발 한 켤레, 소파의 잠옷 하나. 한 명이다. 언제 왔을까. 소파에 아이 잠옷이 벗어져 있다. 오늘 아침에 온 아이가 벗어 둘 옷이 아니다. 여기서 자고 일어난 것이다. 어제 왔다. 복도의 캐리어는 열린 채 옷이 꺼내져 있다. 손님이 다녀간 것 같지만 운동화는 아직 현관에 있다. TV는 어린이 채널인데 소리를 죽였고, 안방 문은 열려 있고 이불은 흐트러진 채다. 낮잠을 재우는 중이다. 욕실엔 칫솔이 둘, 달력엔 '방학'과 동그라미 친 사흘. 하루 놀러 온 게 아니라 며칠 묵으러 왔다.",
+    "en": "A small glass with a milk ring beside the teacup, crayons and a pile of drawings. By the front door, a pair of small sneakers next to grandma's slippers. A grandchild. One glass, one pair of shoes, one set of pajamas on the sofa: one child. When did they come? A child's pajamas lie tossed on the sofa — not something a child who arrived this morning would have taken off. They slept here. Yesterday. The small suitcase in the hall is open with clothes pulled out. It looks like the visitor has gone, but the sneakers are still by the door. The TV is on a kids' channel with the sound muted, the bedroom door is open and the blanket is rumpled: nap time. Two toothbrushes in the bathroom, and 'vacation' with three days circled on the calendar. Not a day visit — a stay of several days."
   }
 }
