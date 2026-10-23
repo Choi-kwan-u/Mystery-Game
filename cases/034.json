@@ -102,32 +102,32 @@
       ]
     },
     {
-      "key": "now",
+      "key": "took",
       "ask": {
-        "ko": "자전거를 가져간 사람은 지금 어디 있을까?",
-        "en": "Where is the person who took the bicycle now?"
+        "ko": "범인은 자전거 말고 무엇을 가져갔을까?",
+        "en": "Besides the bicycle, what did the culprit take?"
       },
       "options": [
         {
-          "ko": "2층 방에 돌아가 자는 척",
-          "en": "Back in the upstairs bedroom, pretending to sleep"
+          "ko": "사다리",
+          "en": "The ladder"
         },
         {
-          "ko": "창고 안에 숨어 있다",
-          "en": "Hiding inside the shed"
+          "ko": "창고 열쇠",
+          "en": "The shed key"
         },
         {
-          "ko": "자전거를 타고 밖에 나가 있다",
-          "en": "Out somewhere, riding the bicycle"
+          "ko": "공구 상자",
+          "en": "The toolbox"
         },
         {
-          "ko": "개집 옆에서 개와 놀고 있다",
-          "en": "By the doghouse, playing with the dog"
+          "ko": "아무것도",
+          "en": "Nothing else"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e3",
+        "e1",
         "e2"
       ]
     },
@@ -170,8 +170,8 @@
       "y": 52,
       "r": 5,
       "label": {
-        "ko": "흠집 하나 없이 열려 걸린 자물쇠, 멀쩡한 문고리 — 부순 게 아니다",
-        "en": "The padlock hangs open without a scratch, the hasp intact — nothing was forced"
+        "ko": "흠집 하나 없이 열려 걸린 자물쇠 — 그런데 열쇠가 꽂혀 있지 않다",
+        "en": "The padlock hangs open without a scratch — but the key isn't in it"
       }
     },
     {
@@ -226,7 +226,7 @@
     }
   ],
   "detective": {
-    "ko": "아버지는 도둑이 담을 넘었다고 한다. 그런데 담 밑 잔디엔 이슬이 그대로다. 밟힌 데가 없다. 창고 자물쇠는 흠집 하나 없이 고리만 열린 채 걸려 있고, 문고리 나사도 멀쩡하다. 부수지도 끊지도 않았다. 열쇠를 가진 사람이 열었다. 흙길의 발자국은 담이 아니라 집 뒷문에서 시작해 창고로 간다. 작은 슬리퍼 자국, 집에서 신고 나온 신발이다. 개는 개집 앞에서 태평하게 자고, 옆엔 뜯긴 간식 봉지. 낯선 사람이었다면 짖었을 것이다. 아는 사람, 간식을 쥐여 주는 사람이다. 창고 안은 자전거 자리만 먼지가 없고 사다리와 공구는 그대로다. 돈 되는 걸 노린 도둑이 아니라 자전거만 필요했던 사람이다. 그리고 슬리퍼 자국은 창고까지 한 줄뿐, 돌아온 자국이 없다. 자전거를 끌고 나가 타고 간 것이다. 뒷문은 살짝 열려 있고 2층 창은 커튼이 쳐져 있다. 아직 자는 줄 아는 그 방의 주인, 이 집 아들이 새벽에 자전거를 타고 나갔다.",
-    "en": "Father says a thief climbed the fence. But the grass under the fence still carries its dew — nothing has trodden on it. The shed's padlock hangs open without a scratch, and the hasp's screws are intact. Nothing was smashed or cut. Someone with a key opened it. The prints on the dirt path don't start at the fence; they run from the house's back door to the shed. Small flip-flop prints — house shoes. The dog sleeps peacefully in front of its doghouse, a torn treat bag beside it. A stranger would have set it barking. This was someone it knows, someone who hands out treats. Inside the shed only the bicycle's spot is clear of dust; the ladder and tools are untouched. Not a thief after valuables — someone who just needed the bike. And the flip-flop prints make one line to the shed with none coming back: whoever it was wheeled the bike out and rode off. The back door stands ajar, the upstairs curtain is drawn. The one everyone thinks is still asleep up there — the son of the house — rode out before dawn."
+    "ko": "아버지는 도둑이 담을 넘었다고 한다. 그런데 담 밑 잔디엔 이슬이 그대로다. 밟힌 데가 없다. 창고 자물쇠는 흠집 하나 없이 고리만 열린 채 걸려 있고, 문고리 나사도 멀쩡하다. 부수지도 끊지도 않았다. 열쇠를 가진 사람이 열었다. 흙길의 발자국은 담이 아니라 집 뒷문에서 시작해 창고로 간다. 작은 슬리퍼 자국, 집에서 신고 나온 신발이다. 개는 개집 앞에서 태평하게 자고, 옆엔 뜯긴 간식 봉지. 낯선 사람이었다면 짖었을 것이다. 아는 사람, 간식을 쥐여 주는 사람이다. 창고 안은 자전거 자리만 먼지가 없고 사다리와 공구는 그대로다. 돈 되는 걸 노린 도둑이 아니라 자전거만 필요했던 사람이다. 그리고 자물쇠를 다시 보라. 열쇠로 열었는데 열쇠가 꽂혀 있지 않다. 열쇠를 도로 가져간 것이다. 다녀와서 다시 잠글 생각인 사람, 슬리퍼 자국이 창고까지 한 줄뿐인 걸 보면 자전거를 끌고 나가 타고 갔다. 뒷문은 살짝 열려 있고 2층 창은 커튼이 쳐져 있다. 아직 자는 줄 아는 그 방의 주인, 이 집 아들이 새벽에 자전거를 타고 나갔다.",
+    "en": "Father says a thief climbed the fence. But the grass under the fence still carries its dew — nothing has trodden on it. The shed's padlock hangs open without a scratch, and the hasp's screws are intact. Nothing was smashed or cut. Someone with a key opened it. The prints on the dirt path don't start at the fence; they run from the house's back door to the shed. Small flip-flop prints — house shoes. The dog sleeps peacefully in front of its doghouse, a torn treat bag beside it. A stranger would have set it barking. This was someone it knows, someone who hands out treats. Inside the shed only the bicycle's spot is clear of dust; the ladder and tools are untouched. Not a thief after valuables — someone who just needed the bike. Now look at the padlock again: opened with a key, yet no key is in it. The culprit took the key along — someone planning to lock up again on the way back. The flip-flop prints make one line to the shed with none coming back: they wheeled the bike out and rode off. The back door stands ajar, the upstairs curtain is drawn. The one everyone thinks is still asleep up there — the son of the house — rode out before dawn."
   }
 }
