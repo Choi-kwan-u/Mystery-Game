@@ -8,12 +8,12 @@
     "en": "The Shadow Clock"
   },
   "intro": {
-    "ko": "어느 평일, 동료가 \"아침에 찍었다\"며 보내온 사진. 사진 속에서 거짓말을 찾아라.",
-    "en": "A weekday. A colleague sent this photo, saying it was taken in the morning. Find the lie in the photo."
+    "ko": "어느 평일, 친구가 보내온 사진과 메시지. 사진 속에서 거짓말을 찾아라.",
+    "en": "A weekday: a photo and a message from a friend. Find the lie in the photo."
   },
   "statement": {
-    "ko": "오늘 아침 9시에 회사 앞에서 찍었어. 출근하는 길이었고. 날씨는 맑았어. 사진은 동료가 찍어 줬어.",
-    "en": "Took this at 9 this morning in front of the office. I was on my way in. The weather was clear. A coworker took it for me."
+    "ko": "오늘 첫 출근이야! 아침 9시에 회사 앞에서 찍었어. 날씨 완전 맑지? 사진은 새 동료가 찍어 줬어.",
+    "en": "First day at the new job! Took this at 9 a.m. in front of the office. Gorgeous weather, right? A new coworker took the photo."
   },
   "questions": [
     {
@@ -24,23 +24,23 @@
       },
       "options": [
         {
+          "ko": "오늘 첫 출근이다",
+          "en": "It's her first day"
+        },
+        {
           "ko": "아침 9시에 찍었다",
-          "en": "Taken at 9 a.m."
+          "en": "It was taken at 9 a.m."
         },
         {
-          "ko": "회사 앞이다",
-          "en": "In front of the office"
+          "ko": "날씨가 맑다",
+          "en": "The weather is clear"
         },
         {
-          "ko": "날씨가 맑았다",
-          "en": "The weather was clear"
-        },
-        {
-          "ko": "동료가 찍어 줬다",
-          "en": "A coworker took it"
+          "ko": "새 동료가 찍어 줬다",
+          "en": "A new coworker took it"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e1",
         "e2",
@@ -48,40 +48,39 @@
       ]
     },
     {
-      "key": "shadow",
+      "key": "firstday",
       "ask": {
-        "ko": "그림자가 거의 없는 것이 말해 주는 것은?",
-        "en": "There are almost no shadows. What does that tell us?"
+        "ko": "'첫 출근'이라는 말은 사진과 맞을까?",
+        "en": "Does 'first day' fit the photo?"
       },
       "options": [
         {
-          "ko": "흐린 날이다",
-          "en": "It's overcast"
+          "ko": "아니다 — 사원증 끈이 낡았다",
+          "en": "No — the lanyard is worn and faded"
         },
         {
-          "ko": "해가 머리 위에 있다 — 한낮이다",
-          "en": "The sun is straight overhead — midday"
+          "ko": "맞다 — 새 옷을 입었다",
+          "en": "Yes — she's wearing new clothes"
         },
         {
-          "ko": "건물 그늘 안이다",
-          "en": "She's in the building's shade"
+          "ko": "맞다 — 낡은 사원증 끈을 보면",
+          "en": "Yes — judging by the lanyard"
         },
         {
-          "ko": "해 뜨기 직전이다",
-          "en": "It's just before sunrise"
+          "ko": "알 수 없다",
+          "en": "Can't tell"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
-        "e1",
-        "e4"
+        "e6"
       ]
     },
     {
       "key": "time",
       "ask": {
-        "ko": "몇 시쯤일까?",
-        "en": "Roughly what time is it?"
+        "ko": "사진은 몇 시쯤 찍었을까?",
+        "en": "Roughly when was the photo taken?"
       },
       "options": [
         {
@@ -115,6 +114,10 @@
       },
       "options": [
         {
+          "ko": "자기 것과 사진 찍어 준 동료 것",
+          "en": "Hers and the coworker who took the photo"
+        },
+        {
           "ko": "자기 혼자 먹을 것",
           "en": "Just for herself"
         },
@@ -123,15 +126,11 @@
           "en": "Her lunch and dinner"
         },
         {
-          "ko": "자기 것과 사진 찍어 준 동료 것",
-          "en": "Hers and the colleague who took the photo"
-        },
-        {
           "ko": "집에 있는 가족 것",
           "en": "For family at home"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "evidence": [
         "e3",
         "e5"
@@ -140,25 +139,25 @@
     {
       "key": "doing",
       "ask": {
-        "ko": "인물은 무엇을 하던 중일까?",
+        "ko": "그녀는 무엇을 하던 중일까?",
         "en": "What is she in the middle of?"
       },
       "options": [
         {
-          "ko": "외근 가는 길",
-          "en": "Heading out on business"
-        },
-        {
           "ko": "출근하는 길",
-          "en": "Arriving at work"
+          "en": "Heading in to work"
         },
         {
           "ko": "퇴근하는 길",
-          "en": "Leaving work"
+          "en": "Heading home"
+        },
+        {
+          "ko": "외근 가는 길",
+          "en": "Going out on a job"
         },
         {
           "ko": "점심 사 오는 길",
-          "en": "Bringing back lunch"
+          "en": "Bringing lunch back"
         }
       ],
       "answer": 3,
@@ -172,12 +171,12 @@
   "clues": [
     {
       "id": "e1",
-      "x": 46,
+      "x": 40,
       "y": 95,
-      "r": 7,
+      "r": 8,
       "label": {
-        "ko": "신발 밑에만 가느다란 그림자 — 가로수·기둥도 그림자가 없다",
-        "en": "Only a thin line of shadow under her shoes — the tree and the pillar cast none either"
+        "ko": "발밑에 그림자가 없다 — 가로수와 기둥도 그림자를 드리우지 않는다",
+        "en": "No shadow at her feet — the tree and the pillar cast none either"
       }
     },
     {
@@ -219,10 +218,20 @@
         "ko": "유리문에 비친 촬영자 — 목에 사원증 끈",
         "en": "The photographer reflected in the glass door, a lanyard around the neck"
       }
+    },
+    {
+      "id": "e6",
+      "x": 49,
+      "y": 57,
+      "r": 6,
+      "label": {
+        "ko": "목에 건 사원증 끈 — 색이 바래고 해졌다",
+        "en": "The lanyard around her neck — faded and frayed"
+      }
     }
   ],
   "detective": {
-    "ko": "회사 로고가 붙은 출입문 앞, 맑은 하늘. 회사 앞이고 날씨가 맑았다는 말은 맞다. 유리문에 비친 촬영자는 목에 사원증 끈을 걸고 있다. 동료가 찍어 줬다는 말도 어긋나지 않는다. 그런데 그림자가 없다. 그녀도, 가로수도, 기둥도 발밑에 가느다란 선뿐이다. 흐린 날이면 하늘이 저렇게 맑을 리 없고 그늘이면 얼굴이 어두웠을 것이다. 해가 머리 바로 위에 있다. 아침 9시라면 그림자가 옆으로 길게 누웠을 테니, 한낮이다. 뒤편 라멘집 앞엔 정장 차림이 줄을 섰다. 점심시간이다. 그녀 손의 봉지엔 도시락이 둘, 젓가락도 두 벌. 혼자 먹을 양이 아니고 저녁까지 사 두는 사람은 젓가락을 두 벌 받지 않는다. 사진을 찍어 준 동료 몫이다. 둘이 점심을 사서 회사로 돌아가는 길. 거짓말은 하나, '아침 9시'.",
-    "en": "A company logo by the door, a clear sky: 'in front of the office' and 'sunny' hold up. In the glass door, the person taking the photo wears a lanyard — 'a colleague took it' fits too. But there are no shadows. She, the tree, the pillar — nothing but a thin line at the base. An overcast day wouldn't give that sky, and shade would darken her face. The sun is straight overhead. At 9 a.m. shadows would stretch long to the side, so this is midday. Office workers queue outside the ramen place behind her: lunch hour. In her bag, two lunch boxes and two pairs of chopsticks — more than one person's meal, and nobody buying dinner ahead takes two sets of chopsticks. The second box is for the colleague holding the camera. Two people bringing lunch back to the office. One lie: '9 a.m.'"
+    "ko": "회사 로고가 붙은 출입문 앞, 맑은 하늘. 회사 앞이고 날씨가 맑다는 말은 맞다. 유리문에 비친 촬영자는 목에 사원증 끈을 걸고 있다. 동료가 찍어 줬다는 말도 어긋나지 않는다. 첫 출근이라는 말은? 그녀 목의 사원증 끈을 보라. 색이 바래고 끝이 해졌다. 오늘 받은 끈이 아니다. 그런데 그건 거짓말이 아니라 농담일 수도 있다. 사진이 확실히 부정하는 건 따로 있다. 그림자가 없다. 그녀도, 가로수도, 기둥도. 아침 9시라면 그림자가 옆으로 길게 누웠을 것이다. 해가 머리 바로 위, 한낮이다. 뒤편 라멘집 앞엔 정장 차림이 줄을 섰다. 점심시간이다. 봉지엔 도시락 둘, 젓가락 두 벌. 혼자 먹을 양이 아니고, 저녁까지 사 두는 사람은 젓가락을 두 벌 받지 않는다. 사진 찍어 준 동료 몫이다. 둘이 점심을 사서 회사로 돌아가는 길. 사진과 맞지 않는 말은 '아침 9시'.",
+    "en": "A company logo by the door, a clear sky: 'in front of the office' and 'gorgeous weather' hold up. In the glass door the photographer wears a lanyard, so 'a coworker took it' fits too. First day? Look at the lanyard around her own neck — faded, frayed at the edges. Not something handed out this morning. But that could be a joke rather than a lie. What the photo flatly contradicts is something else: there are no shadows. Not hers, not the tree's, not the pillar's. At 9 a.m. shadows would stretch long to the side. The sun is straight overhead — midday. Office workers queue outside the ramen place behind her: lunch hour. In her bag, two lunch boxes and two pairs of chopsticks — more than one person's meal, and nobody buying dinner ahead takes two sets of chopsticks. The second box is for the coworker holding the camera. Two people bringing lunch back to the office. The statement that doesn't match: '9 a.m.'"
   }
 }
