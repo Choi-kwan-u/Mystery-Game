@@ -50,19 +50,19 @@
       },
       "options": [
         {
-          "ko": "바닥의 낮은 받침대",
+          "ko": "낮은 받침대",
           "en": "A low stand on the floor"
         },
         {
-          "ko": "식탁",
+          "ko": "식탁 위",
           "en": "The dining table"
         },
         {
-          "ko": "높은 선반",
+          "ko": "높은 선반 위",
           "en": "A high shelf"
         },
         {
-          "ko": "창턱",
+          "ko": "창문 턱 위",
           "en": "The windowsill"
         }
       ],
