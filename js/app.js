@@ -299,13 +299,21 @@
       shareBtn.addEventListener('click', () => share(shareMsg));
       resultBox.append(shareBtn, shareMsg);
 
+      // '다음 사건' 수요 측정: 누르면 카운트다운이 나타난다 (이동 없음)
+      const nextBtn = el('button', 'btn', t('next.button'));
+      nextBtn.type = 'button';
       const cd = el('p', 'countdown');
-      resultBox.append(cd);
-      startCountdown(cd);
+      cd.hidden = true;
       const more = el('a', 'small more-link', t('next.more'));
       more.href = 'archive.html';
-      more.addEventListener('click', () => track('next-click'));
-      resultBox.append(more);
+      more.hidden = true;
+      nextBtn.addEventListener('click', () => {
+        track('next-click');
+        nextBtn.hidden = true;
+        cd.hidden = false; more.hidden = false;
+        startCountdown(cd);
+      });
+      resultBox.append(nextBtn, cd, more);
       const donate = el('a', 'btn donate', t('donate.button'));
       donate.href = 'about.html#donate';
       resultBox.append(donate);

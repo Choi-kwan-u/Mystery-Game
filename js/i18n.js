@@ -48,8 +48,9 @@ const I18N = {
 
     'next.label': '다음 사건까지',
     'next.ready': '새 사건이 공개됐어요 — 열어 보기',
+    'next.button': '다음 사건 풀기 →',
     'next.more': '기다리기 아깝다면 지난 사건 풀어 보기 →',
-    'donate.button': '☕ 개발자에게 커피 한 잔',
+    'donate.button': '☕ 후원하기',
 
     'replay.button': '다시 풀기',
     'replay.note': '다시 풀기 결과는 기록에 남지 않습니다.',
@@ -123,8 +124,9 @@ const I18N = {
 
     'next.label': 'Next case in',
     'next.ready': 'A new case is out — open it',
+    'next.button': 'Next case →',
     'next.more': 'Can\'t wait? Try a past case →',
-    'donate.button': '☕ Buy the developer a coffee',
+    'donate.button': '☕ Support',
 
     'replay.button': 'Play again',
     'replay.note': "Replays aren't saved to your stats.",
