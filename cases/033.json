@@ -12,8 +12,8 @@
     "en": "Saturday afternoon: a selfie and a message she sent her boyfriend. Find the lie in the photo."
   },
   "statement": {
-    "ko": "자기야, 나 제주도 호텔이야. 혼자 힐링하러 왔어. 방금 도착했어. 비 와서 방에만 있어.",
-    "en": "Babe, I'm at a hotel on Jeju. Came alone for some me-time. Just got here. It's raining, so I'm staying in."
+    "ko": "자기야, 나 호텔에 방금 도착했어. 혼자 힐링하러 왔어. 비 와서 방에만 있어.",
+    "en": "Babe, I just got to the hotel. Came alone for some me-time. It's raining, so I'm staying in."
   },
   "questions": [
     {
@@ -28,16 +28,16 @@
           "en": "She came alone for some me-time"
         },
         {
-          "ko": "방금 도착했다",
-          "en": "Just got here"
+          "ko": "호텔에 방금 도착했다",
+          "en": "She just got to the hotel"
         },
         {
           "ko": "비가 온다",
           "en": "It's raining"
         },
         {
-          "ko": "제주도 호텔이다",
-          "en": "A hotel on Jeju"
+          "ko": "모두 사진과 맞다",
+          "en": "Everything matches the photo"
         }
       ],
       "answer": 0,
@@ -110,8 +110,8 @@
     {
       "key": "where",
       "ask": {
-        "ko": "이곳은 정말 제주도일까?",
-        "en": "Is this really Jeju?"
+        "ko": "이곳은 어디일까?",
+        "en": "Where is this?"
       },
       "options": [
         {
@@ -123,15 +123,15 @@
           "en": "A resort in Southeast Asia"
         },
         {
-          "ko": "제주도 호텔",
-          "en": "A hotel on Jeju"
-        },
-        {
           "ko": "부산 해변 호텔",
           "en": "A beach hotel in Busan"
+        },
+        {
+          "ko": "제주도 호텔",
+          "en": "A hotel on Jeju"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
         "e4",
         "e6"
@@ -232,7 +232,7 @@
     }
   ],
   "detective": {
-    "ko": "창엔 빗방울, 창밖엔 검은 현무암 돌담과 야자수, 수건엔 JEJU. 야자수만 보면 동남아 같지만 현무암 담은 제주의 것이다. 제주 호텔에 비가 오는 건 맞다. 캐리어는 닫힌 채 서 있고 침대엔 키카드 봉투가 놓여 있으니 들어온 지 얼마 안 됐다. 베개도 하나만 눌렸다. 혼자처럼 보인다. 그런데 침대 위 키카드 옆을 보라. 검은 폰이 엎어져 있다. 셀카를 찍는 폰은 그녀 손에 있으니, 이건 다른 사람 것이다. 방금 들어온 방에 전 손님 폰이 그대로 있을 리 없고, 호텔이 폰을 비치하지도 않는다. 테이블엔 커피잔이 둘, 둘 다 마셨다. 의자엔 남자 바람막이. 여자 친구들과 온 게 아니고, 혼자도 아니다. 남자친구에게 '혼자 왔어'라고 보낸 이 셀카는, 다른 남자를 프레임 밖에 세워 두고 찍은 것이다.",
-    "en": "Raindrops on the window, black volcanic-stone walls and palm trees outside, JEJU on the towel. The palms alone could pass for Southeast Asia, but those basalt walls are pure Jeju — rain at a Jeju hotel is true. The suitcase stands closed and the key-card sleeve lies on the bed, so she's only just arrived. One pillow dented: it looks like one person. Now look beside the key card on the bed: a black phone lying face down. The phone taking this selfie is in her hand, so this one belongs to someone else. A previous guest's phone wouldn't still be lying in a freshly made-up room, and hotels don't hand out phones. Two coffee cups on the table, both drunk from. A man's windbreaker on the chair. Not a girls' trip, and not alone. This selfie, sent to her boyfriend with 'came alone', was taken with another man standing just outside the frame."
+    "ko": "창엔 빗방울, 창밖엔 검은 현무암 돌담과 야자수, 수건엔 JEJU. 야자수만 보면 동남아 같지만 현무암 담은 제주의 것이다. 호텔에 비가 오는 건 맞고, 여기는 제주다. 캐리어는 닫힌 채 서 있고 침대엔 키카드 봉투가 놓여 있으니 들어온 지 얼마 안 됐다. 베개도 하나만 눌렸다. 혼자처럼 보인다. 그런데 침대 위 키카드 옆을 보라. 검은 폰이 엎어져 있다. 셀카를 찍는 폰은 그녀 손에 있으니, 이건 다른 사람 것이다. 방금 들어온 방에 전 손님 폰이 그대로 있을 리 없고, 호텔이 폰을 비치하지도 않는다. 테이블엔 커피잔이 둘, 둘 다 마셨다. 의자엔 남자 바람막이. 여자 친구들과 온 게 아니고, 혼자도 아니다. 남자친구에게 '혼자 왔어'라고 보낸 이 셀카는, 다른 남자를 프레임 밖에 세워 두고 찍은 것이다.",
+    "en": "Raindrops on the window, black volcanic-stone walls and palm trees outside, JEJU on the towel. The palms alone could pass for Southeast Asia, but those basalt walls are pure Jeju — the rain is real, and this is Jeju. The suitcase stands closed and the key-card sleeve lies on the bed, so she's only just arrived. One pillow dented: it looks like one person. Now look beside the key card on the bed: a black phone lying face down. The phone taking this selfie is in her hand, so this one belongs to someone else. A previous guest's phone wouldn't still be lying in a freshly made-up room, and hotels don't hand out phones. Two coffee cups on the table, both drunk from. A man's windbreaker on the chair. Not a girls' trip, and not alone. This selfie, sent to her boyfriend with 'came alone', was taken with another man standing just outside the frame."
   }
 }
