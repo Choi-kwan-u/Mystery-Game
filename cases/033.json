@@ -43,7 +43,8 @@
       "answer": 0,
       "evidence": [
         "e1",
-        "e2"
+        "e2",
+        "e5"
       ]
     },
     {
@@ -107,30 +108,30 @@
       ]
     },
     {
-      "key": "frame",
+      "key": "phone",
       "ask": {
-        "ko": "그 사람은 왜 사진에 안 찍혔을까?",
-        "en": "Why isn't that person in the photo?"
+        "ko": "침대 위에 엎어 둔 검은 폰은 누구 것일까?",
+        "en": "Whose is the black phone lying face down on the bed?"
       },
       "options": [
         {
-          "ko": "욕실에 들어가 있어서",
-          "en": "He's in the bathroom"
+          "ko": "그녀의 두 번째 폰",
+          "en": "Her second phone"
         },
         {
-          "ko": "일부러 프레임 밖에 세워 두고 찍어서",
-          "en": "She framed the shot to keep him out on purpose"
+          "ko": "호텔 비치용 폰",
+          "en": "A phone the hotel provides"
         },
         {
-          "ko": "방금 복도로 나가서",
-          "en": "He just stepped into the hallway"
+          "ko": "같이 온 남자의 폰",
+          "en": "The phone of the man who came with her"
         },
         {
-          "ko": "사진을 찍어 주고 있어서",
-          "en": "He's the one taking the photo"
+          "ko": "전에 묵은 손님이 두고 간 것",
+          "en": "Left behind by a previous guest"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
         "e1",
         "e5"
@@ -171,12 +172,12 @@
   "clues": [
     {
       "id": "e1",
-      "x": 46,
-      "y": 28,
+      "x": 76,
+      "y": 81,
       "r": 7,
       "label": {
-        "ko": "선글라스 알에 비친 사람 — 창을 등지고 선 남자, 사진 찍는 손이 아니다",
-        "en": "A figure reflected in her sunglasses — a man standing with his back to the window, not the hand holding the phone"
+        "ko": "침대 위, 키카드 옆에 엎어 둔 검은 폰 — 그녀가 셀카를 찍는 폰과 다른 것",
+        "en": "A black phone face down on the bed by the key card — not the one she's holding"
       }
     },
     {
@@ -231,7 +232,7 @@
     }
   ],
   "detective": {
-    "ko": "창엔 빗방울, 창밖엔 돌담과 야자수, 수건엔 JEJU. 제주 호텔에 비가 오는 건 맞다. 캐리어는 닫힌 채 서 있고 침대엔 키카드 봉투가 놓여 있으니 들어온 지 얼마 안 됐다. 베개도 하나만 눌렸다. 혼자처럼 보인다. 그런데 머리에 올린 선글라스를 확대해 보라. 알에 비친 건 셀카 찍는 손이 아니다. 창을 등지고 선 남자다. 바로 맞은편에 서 있는데도 사진엔 없다 — 그가 안 들어오게 각도를 잡고 찍은 것이다. 테이블엔 커피잔이 둘, 둘 다 마셨다. 의자엔 남자 바람막이. 여자 친구들과 온 게 아니고, 혼자도 아니다. 남자친구에게 '혼자 왔어'라고 보낸 이 셀카는, 다른 남자를 프레임 밖에 세워 두고 찍은 것이다.",
-    "en": "Raindrops on the window, stone walls and palm trees outside, JEJU on the towel — rain at a Jeju hotel is true. The suitcase stands closed and the key-card sleeve lies on the bed, so she's only just arrived. One pillow dented: it looks like one person. Now enlarge the sunglasses pushed up on her head. The figure in the lens isn't the hand holding the phone; it's a man standing with his back to the window — right across from her, yet nowhere in the photo. She angled the shot to keep him out. Two coffee cups on the table, both drunk from. A man's windbreaker on the chair. Not a girls' trip, and not alone. This selfie, sent to her boyfriend with 'came alone', was taken with another man standing just outside the frame."
+    "ko": "창엔 빗방울, 창밖엔 돌담과 야자수, 수건엔 JEJU. 제주 호텔에 비가 오는 건 맞다. 캐리어는 닫힌 채 서 있고 침대엔 키카드 봉투가 놓여 있으니 들어온 지 얼마 안 됐다. 베개도 하나만 눌렸다. 혼자처럼 보인다. 그런데 침대 위 키카드 옆을 보라. 검은 폰이 엎어져 있다. 셀카를 찍는 폰은 그녀 손에 있으니, 이건 다른 사람 것이다. 방금 들어온 방에 전 손님 폰이 그대로 있을 리 없고, 호텔이 폰을 비치하지도 않는다. 테이블엔 커피잔이 둘, 둘 다 마셨다. 의자엔 남자 바람막이. 여자 친구들과 온 게 아니고, 혼자도 아니다. 남자친구에게 '혼자 왔어'라고 보낸 이 셀카는, 다른 남자를 프레임 밖에 세워 두고 찍은 것이다.",
+    "en": "Raindrops on the window, stone walls and palm trees outside, JEJU on the towel — rain at a Jeju hotel is true. The suitcase stands closed and the key-card sleeve lies on the bed, so she's only just arrived. One pillow dented: it looks like one person. Now look beside the key card on the bed: a black phone lying face down. The phone taking this selfie is in her hand, so this one belongs to someone else. A previous guest's phone wouldn't still be lying in a freshly made-up room, and hotels don't hand out phones. Two coffee cups on the table, both drunk from. A man's windbreaker on the chair. Not a girls' trip, and not alone. This selfie, sent to her boyfriend with 'came alone', was taken with another man standing just outside the frame."
   }
 }
