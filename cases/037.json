@@ -187,8 +187,8 @@
     },
     {
       "id": "e3",
-      "x": 45,
-      "y": 75,
+      "x": 30,
+      "y": 84,
       "r": 12,
       "label": {
         "ko": "바닥의 뽁뽁이 조각, 커터, 테이프, 송장 출력물 '미술품·파손주의'",
@@ -197,9 +197,9 @@
     },
     {
       "id": "e4",
-      "x": 85,
-      "y": 70,
-      "r": 12,
+      "x": 81,
+      "y": 60,
+      "r": 11,
       "label": {
         "ko": "현관의 납작한 박스 — 자국과 같은 크기, 송장이 붙어 있다",
         "en": "A flat box by the door — the same size as the mark, label attached"
@@ -207,9 +207,9 @@
     },
     {
       "id": "e5",
-      "x": 20,
-      "y": 60,
-      "r": 9,
+      "x": 60,
+      "y": 75,
+      "r": 8,
       "label": {
         "ko": "벽에 기대 둔 작은 그림과 옆의 새 못 구멍 — 대신 걸 것",
         "en": "A smaller picture leaning on the wall and a fresh nail hole — a replacement"
@@ -217,8 +217,8 @@
     },
     {
       "id": "e6",
-      "x": 15,
-      "y": 85,
+      "x": 87,
+      "y": 73,
       "r": 8,
       "label": {
         "ko": "열린 서랍 속 테이프와 가위 — 집은 그 밖에 흐트러진 데가 없다",

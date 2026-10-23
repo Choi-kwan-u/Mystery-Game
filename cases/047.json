@@ -164,9 +164,9 @@
   "clues": [
     {
       "id": "e1",
-      "x": 45,
-      "y": 65,
-      "r": 14,
+      "x": 46,
+      "y": 73,
+      "r": 13,
       "label": {
         "ko": "쏟아진 흙 위를 가로지른 바퀴 자국 두 줄과 반원으로 밀린 가장자리 — 사람 발자국도 고양이 발자국도 없다",
         "en": "Two wheel tracks across the spilled soil and a half-circle of pushed earth — no footprints, human or feline"
@@ -174,9 +174,9 @@
     },
     {
       "id": "e2",
-      "x": 20,
-      "y": 80,
-      "r": 11,
+      "x": 77,
+      "y": 64,
+      "r": 9,
       "label": {
         "ko": "소파 밑에 멈춘 로봇청소기 — 범퍼에 흙과 화분 조각, 표시등 켜짐",
         "en": "The robot vacuum stopped under the sofa — soil and pot shards on its bumper, its light on"
@@ -184,9 +184,9 @@
     },
     {
       "id": "e3",
-      "x": 60,
-      "y": 55,
-      "r": 9,
+      "x": 30,
+      "y": 46,
+      "r": 8,
       "label": {
         "ko": "기울어진 키 낮은 화분 받침대 — 선반이 아니라 바닥에 놓는 것",
         "en": "A low plant stand knocked askew — floor-standing, not a shelf"
@@ -194,9 +194,9 @@
     },
     {
       "id": "e4",
-      "x": 85,
-      "y": 25,
-      "r": 10,
+      "x": 22,
+      "y": 19,
+      "r": 7,
       "label": {
         "ko": "캣타워 꼭대기에서 자는 고양이, 깨끗한 발바닥",
         "en": "The cat asleep on top of the cat tower, paws clean"
@@ -204,9 +204,9 @@
     },
     {
       "id": "e5",
-      "x": 20,
-      "y": 20,
-      "r": 7,
+      "x": 78,
+      "y": 59,
+      "r": 4,
       "label": {
         "ko": "청소기 본체의 예약 시각 18:30",
         "en": "The vacuum's scheduled start time: 18:30"
@@ -214,8 +214,8 @@
     },
     {
       "id": "e6",
-      "x": 70,
-      "y": 85,
+      "x": 78,
+      "y": 86,
       "r": 8,
       "label": {
         "ko": "흙 바깥까지 이어진 바퀴 자국의 흙 — 지나간 뒤에 묻은 것",

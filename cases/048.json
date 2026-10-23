@@ -165,9 +165,9 @@
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 35,
-      "r": 14,
+      "x": 39,
+      "y": 47,
+      "r": 12,
       "label": {
         "ko": "길고 납작한 디지털피아노 상자, 피아노 의자, 메트로놈",
         "en": "A long flat digital-piano box, a piano bench, a metronome"
@@ -175,9 +175,9 @@
     },
     {
       "id": "e2",
-      "x": 65,
-      "y": 60,
-      "r": 10,
+      "x": 26,
+      "y": 71,
+      "r": 9,
       "label": {
         "ko": "악보집이 가득한 상자와 접힌 보면대",
         "en": "A box full of sheet-music books and a folded music stand"
@@ -185,9 +185,9 @@
     },
     {
       "id": "e3",
-      "x": 25,
-      "y": 70,
-      "r": 10,
+      "x": 59,
+      "y": 79,
+      "r": 9,
       "label": {
         "ko": "어린이용 보조 의자 두세 개와 스티커 상자 — 수강생을 위한 것",
         "en": "Two or three children's booster seats and a box of stickers — for pupils"
@@ -195,9 +195,9 @@
     },
     {
       "id": "e4",
-      "x": 80,
-      "y": 40,
-      "r": 9,
+      "x": 41,
+      "y": 83,
+      "r": 8,
       "label": {
         "ko": "머그잔 두 개 — 짝이 맞지 않는 손님용 잔",
         "en": "Two mugs — not a matching couple's pair, guest cups"
@@ -206,8 +206,8 @@
     {
       "id": "e5",
       "x": 85,
-      "y": 85,
-      "r": 8,
+      "y": 86,
+      "r": 7,
       "label": {
         "ko": "현관 앞 신발은 여성 단화 한 켤레뿐",
         "en": "A single pair of women's flats outside the door — and nothing else"
@@ -215,9 +215,9 @@
     },
     {
       "id": "e6",
-      "x": 15,
-      "y": 30,
-      "r": 10,
+      "x": 13,
+      "y": 55,
+      "r": 9,
       "label": {
         "ko": "큰 세탁기 상자 — 가족처럼 보이게 하는 미끼",
         "en": "A big washing-machine box — the one thing that makes it look like a family"

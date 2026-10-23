@@ -169,9 +169,9 @@
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 30,
-      "r": 10,
+      "x": 19,
+      "y": 29,
+      "r": 6,
       "label": {
         "ko": "대시보드의 종이 주차권 — 어젯밤 날짜, 20:40, 식당 이름",
         "en": "A paper parking ticket on the dash — last night's date, 20:40, a restaurant's name"
@@ -179,9 +179,9 @@
     },
     {
       "id": "e2",
-      "x": 65,
-      "y": 60,
-      "r": 8,
+      "x": 58,
+      "y": 68,
+      "r": 7,
       "label": {
         "ko": "컵홀더의 테이크아웃 컵 하나, 밤새 녹다 만 얼음",
         "en": "One take-out cup in the holder, ice half-melted overnight"
@@ -189,9 +189,9 @@
     },
     {
       "id": "e3",
-      "x": 30,
-      "y": 85,
-      "r": 12,
+      "x": 17,
+      "y": 87,
+      "r": 11,
       "label": {
         "ko": "운전석 바닥 매트의 젖은 흙 자국 — 창밖은 맑다",
         "en": "Wet mud on the driver's floor mat — while the sky outside is clear"
@@ -199,8 +199,8 @@
     },
     {
       "id": "e4",
-      "x": 80,
-      "y": 70,
+      "x": 63,
+      "y": 52,
       "r": 10,
       "label": {
         "ko": "깨끗한 조수석, 당겨지지 않은 안전벨트",
@@ -209,8 +209,8 @@
     },
     {
       "id": "e5",
-      "x": 40,
-      "y": 65,
+      "x": 78,
+      "y": 70,
       "r": 7,
       "label": {
         "ko": "비어 있는 재떨이와 사탕 껍질",
@@ -219,9 +219,9 @@
     },
     {
       "id": "e6",
-      "x": 20,
-      "y": 40,
-      "r": 9,
+      "x": 30,
+      "y": 64,
+      "r": 6,
       "label": {
         "ko": "계기판의 연료 경고등과 하이패스 영수증의 다리 이름",
         "en": "The low-fuel light on the dash, and a bridge named on a toll receipt"

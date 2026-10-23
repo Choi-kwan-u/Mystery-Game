@@ -166,9 +166,9 @@
   "clues": [
     {
       "id": "e1",
-      "x": 55,
-      "y": 20,
-      "r": 14,
+      "x": 56,
+      "y": 19,
+      "r": 12,
       "label": {
         "ko": "여자 쪽으로 완전히 기울인 우산 — 남자의 오른쪽 어깨가 젖어 있다",
         "en": "The umbrella tilted fully over her — his right shoulder is soaked"
@@ -176,9 +176,9 @@
     },
     {
       "id": "e2",
-      "x": 50,
-      "y": 55,
-      "r": 12,
+      "x": 56,
+      "y": 85,
+      "r": 10,
       "label": {
         "ko": "두 사람 사이의 한 걸음, 서로 다른 쪽을 향한 몸과 발",
         "en": "A full step between them, bodies and feet turned different ways"
@@ -186,9 +186,9 @@
     },
     {
       "id": "e3",
-      "x": 30,
-      "y": 45,
-      "r": 10,
+      "x": 40,
+      "y": 49,
+      "r": 13,
       "label": {
         "ko": "여자의 젖은 앞머리와 윗면만 젖은 가방 — 우산 없이 가방으로 머리를 가렸다",
         "en": "Her damp fringe and a bag wet only on top — she covered her head with it"
@@ -196,9 +196,9 @@
     },
     {
       "id": "e4",
-      "x": 75,
-      "y": 50,
-      "r": 9,
+      "x": 73,
+      "y": 27,
+      "r": 8,
       "label": {
         "ko": "노선표를 읽는 여자, 다른 번호의 버스를 보는 남자",
         "en": "She reads the route map; he watches a bus with a different number"
@@ -206,9 +206,9 @@
     },
     {
       "id": "e5",
-      "x": 70,
-      "y": 70,
-      "r": 7,
+      "x": 78,
+      "y": 78,
+      "r": 8,
       "label": {
         "ko": "남자의 왼손엔 서류 가방뿐 — 여분의 우산은 없다",
         "en": "Only a briefcase in his left hand — no spare umbrella"
@@ -216,9 +216,9 @@
     },
     {
       "id": "e6",
-      "x": 85,
-      "y": 15,
-      "r": 10,
+      "x": 87,
+      "y": 29,
+      "r": 8,
       "label": {
         "ko": "멀리서 오는 버스의 번호",
         "en": "The number on the bus approaching in the distance"

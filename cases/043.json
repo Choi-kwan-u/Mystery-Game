@@ -169,8 +169,8 @@
     {
       "id": "e1",
       "x": 50,
-      "y": 50,
-      "r": 12,
+      "y": 51,
+      "r": 10,
       "label": {
         "ko": "맞닿은 흰 차 뒷범퍼와 검은 차 앞범퍼 — 서로의 페인트가 묻어 있다",
         "en": "The white car's rear bumper against the black car's front bumper — each wearing the other's paint"
@@ -178,9 +178,9 @@
     },
     {
       "id": "e2",
-      "x": 42,
+      "x": 31,
       "y": 48,
-      "r": 6,
+      "r": 5,
       "label": {
         "ko": "흰 차의 후진등이 켜져 있다",
         "en": "The white car's reverse lights are on"
@@ -198,8 +198,8 @@
     },
     {
       "id": "e4",
-      "x": 72,
-      "y": 45,
+      "x": 76,
+      "y": 42,
       "r": 12,
       "label": {
         "ko": "주차선 안에 반듯이 선 검은 차, 접힌 사이드미러",
@@ -208,8 +208,8 @@
     },
     {
       "id": "e5",
-      "x": 20,
-      "y": 35,
+      "x": 32,
+      "y": 41,
       "r": 10,
       "label": {
         "ko": "열린 흰 차 트렁크에 가득한 장바구니",
@@ -218,9 +218,9 @@
     },
     {
       "id": "e6",
-      "x": 80,
-      "y": 30,
-      "r": 7,
+      "x": 78,
+      "y": 38,
+      "r": 6,
       "label": {
         "ko": "검은 차 앞유리의 종이 주차권 — 오전 시각",
         "en": "A paper parking ticket on the black car's windshield — a morning time"

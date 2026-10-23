@@ -165,9 +165,9 @@
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 40,
-      "r": 14,
+      "x": 76,
+      "y": 36,
+      "r": 13,
       "label": {
         "ko": "반찬통 여러 개 — 뚜껑의 마스킹테이프 라벨과 날짜, 꽁꽁 싸맨 비닐",
         "en": "Several food containers — masking-tape labels and dates on the lids, wrapped tight in plastic"
@@ -175,8 +175,8 @@
     },
     {
       "id": "e2",
-      "x": 70,
-      "y": 65,
+      "x": 33,
+      "y": 51,
       "r": 12,
       "label": {
         "ko": "신문지로 만 고구마, 흙 묻은 양파 한 망, 말린 고추",
@@ -185,9 +185,9 @@
     },
     {
       "id": "e3",
-      "x": 20,
-      "y": 75,
-      "r": 10,
+      "x": 41,
+      "y": 73,
+      "r": 8,
       "label": {
         "ko": "줄 공책을 찢어 쓴 손편지 — 큰 흘림체, 젊은 손글씨가 아니다",
         "en": "A letter on paper torn from a lined notebook — big looping handwriting, not a young hand"
@@ -195,9 +195,9 @@
     },
     {
       "id": "e4",
-      "x": 80,
-      "y": 30,
-      "r": 8,
+      "x": 61,
+      "y": 73,
+      "r": 9,
       "label": {
         "ko": "분홍 리본 상자 — 안엔 영양제와 핸드크림",
         "en": "The pink-ribboned box — vitamins and hand cream inside"
@@ -205,9 +205,9 @@
     },
     {
       "id": "e5",
-      "x": 55,
-      "y": 15,
-      "r": 10,
+      "x": 41,
+      "y": 16,
+      "r": 11,
       "label": {
         "ko": "과일 그림이 그려진 재활용 상자와 안쪽의 농협 마트 봉지",
         "en": "A reused fruit box and a farm-co-op grocery bag inside it"
@@ -215,9 +215,9 @@
     },
     {
       "id": "e6",
-      "x": 10,
-      "y": 25,
-      "r": 8,
+      "x": 89,
+      "y": 82,
+      "r": 7,
       "label": {
         "ko": "책상 위 컵라면 빈 용기",
         "en": "An empty cup-noodle container on the desk"

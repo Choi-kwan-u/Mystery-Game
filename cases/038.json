@@ -170,9 +170,9 @@
   "clues": [
     {
       "id": "e1",
-      "x": 50,
-      "y": 85,
-      "r": 14,
+      "x": 52,
+      "y": 93,
+      "r": 9,
       "label": {
         "ko": "발밑에 짧게 고인 그림자 — 가로수와 표지판 그림자도 짧다. 해가 머리 위에 있다",
         "en": "A short shadow pooled at her feet — the tree and signpost cast short shadows too. The sun is overhead"
@@ -180,9 +180,9 @@
     },
     {
       "id": "e2",
-      "x": 80,
-      "y": 45,
-      "r": 12,
+      "x": 87,
+      "y": 59,
+      "r": 11,
       "label": {
         "ko": "문 연 식당 앞 점심 줄과 입간판 '11:30–14:00'",
         "en": "A lunch line outside an open restaurant and a sign: 11:30–14:00"
@@ -190,9 +190,9 @@
     },
     {
       "id": "e3",
-      "x": 40,
-      "y": 65,
-      "r": 8,
+      "x": 59,
+      "y": 75,
+      "r": 7,
       "label": {
         "ko": "손에 든 점심 포장 봉지",
         "en": "A take-out lunch bag in her hand"
@@ -200,9 +200,9 @@
     },
     {
       "id": "e4",
-      "x": 25,
-      "y": 30,
-      "r": 10,
+      "x": 35,
+      "y": 35,
+      "r": 8,
       "label": {
         "ko": "뒤 건물 출입문의 회사 로고와 맑은 하늘",
         "en": "The company logo on the door behind her, and a clear sky"
@@ -210,8 +210,8 @@
     },
     {
       "id": "e5",
-      "x": 60,
-      "y": 40,
+      "x": 22,
+      "y": 48,
       "r": 9,
       "label": {
         "ko": "유리문 반사 속 촬영자 — 사원증 목걸이를 걸었다",

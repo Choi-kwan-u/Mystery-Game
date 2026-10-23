@@ -165,9 +165,9 @@
   "clues": [
     {
       "id": "e1",
-      "x": 30,
-      "y": 45,
-      "r": 14,
+      "x": 31,
+      "y": 58,
+      "r": 12,
       "label": {
         "ko": "열린 텐트 안 — 흙탕물에 젖은 매트와 침낭, 텐트 둘레의 물 자국",
         "en": "Inside the open tent — a mat and sleeping bags soaked in muddy water, water marks around the tent"
@@ -175,9 +175,9 @@
     },
     {
       "id": "e2",
-      "x": 75,
-      "y": 35,
-      "r": 14,
+      "x": 89,
+      "y": 56,
+      "r": 9,
       "label": {
         "ko": "차창에 안쪽부터 서린 김, 뒷창의 담요와 작은 손바닥 자국",
         "en": "Car windows fogged from inside, a blanket and a small handprint on the rear window"
@@ -185,9 +185,9 @@
     },
     {
       "id": "e3",
-      "x": 70,
-      "y": 70,
-      "r": 10,
+      "x": 72,
+      "y": 80,
+      "r": 9,
       "label": {
         "ko": "차 옆에 뒤집어 널어 둔 젖은 신발 네 켤레 — 어른 둘, 아이 둘",
         "en": "Four pairs of wet shoes turned upside down by the car — two adults', two children's"
@@ -195,9 +195,9 @@
     },
     {
       "id": "e4",
-      "x": 25,
-      "y": 78,
-      "r": 12,
+      "x": 49,
+      "y": 44,
+      "r": 9,
       "label": {
         "ko": "타프 아래 어젯밤 저녁 그릇이 그대로, 컵엔 빗물",
         "en": "Last night's dinner dishes still on the table under the tarp, rainwater in the cups"
@@ -205,8 +205,8 @@
     },
     {
       "id": "e5",
-      "x": 50,
-      "y": 10,
+      "x": 41,
+      "y": 12,
       "r": 10,
       "label": {
         "ko": "개어 가는 하늘, 물방울 맺힌 나뭇잎",
@@ -215,8 +215,8 @@
     },
     {
       "id": "e6",
-      "x": 90,
-      "y": 55,
+      "x": 80,
+      "y": 36,
       "r": 9,
       "label": {
         "ko": "옆 사이트의 빈 자리 — 텐트 모양대로 젖지 않은 사각형",

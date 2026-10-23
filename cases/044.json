@@ -168,8 +168,8 @@
     {
       "id": "e1",
       "x": 35,
-      "y": 30,
-      "r": 14,
+      "y": 27,
+      "r": 12,
       "label": {
         "ko": "교복 셔츠 두 벌 — 작은 중학교 것과 큰 고등학교 것, 체육복 둘",
         "en": "Two school shirts — a small middle-school one and a large high-school one — and two gym kits"
@@ -177,9 +177,9 @@
     },
     {
       "id": "e2",
-      "x": 70,
-      "y": 35,
-      "r": 13,
+      "x": 50,
+      "y": 60,
+      "r": 12,
       "label": {
         "ko": "꽃무늬 몸뻬 바지, 두툼한 수면 양말, 흰 면 러닝, 긴 속치마 — 노인 여성의 옷",
         "en": "Floral work trousers, thick sleep socks, a white cotton undershirt, a long slip — an elderly woman's clothes"
@@ -187,8 +187,8 @@
     },
     {
       "id": "e3",
-      "x": 50,
-      "y": 50,
+      "x": 48,
+      "y": 41,
       "r": 16,
       "label": {
         "ko": "건조대 어디에도 와이셔츠·넥타이·블라우스가 없다 — 젊은 어른의 옷이 없다",
@@ -197,9 +197,9 @@
     },
     {
       "id": "e4",
-      "x": 15,
-      "y": 70,
-      "r": 10,
+      "x": 93,
+      "y": 82,
+      "r": 9,
       "label": {
         "ko": "선반의 파스 상자, 요일별 혈압약 통, 돋보기",
         "en": "Pain-relief patches, a weekly blood-pressure pill box and reading glasses on the shelf"
@@ -207,9 +207,9 @@
     },
     {
       "id": "e5",
-      "x": 60,
-      "y": 80,
-      "r": 12,
+      "x": 43,
+      "y": 93,
+      "r": 10,
       "label": {
         "ko": "빨아 말리는 운동화 두 켤레 — 사이즈가 다른 남학생 것, 학생 양말 여러 켤레",
         "en": "Two pairs of washed sneakers — boys' sizes, different — and a pile of school socks"
@@ -218,7 +218,7 @@
     {
       "id": "e6",
       "x": 85,
-      "y": 65,
+      "y": 61,
       "r": 9,
       "label": {
         "ko": "창가의 고추 채반과 오래된 재봉틀",

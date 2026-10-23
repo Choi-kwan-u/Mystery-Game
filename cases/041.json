@@ -165,9 +165,9 @@
   "clues": [
     {
       "id": "e1",
-      "x": 40,
-      "y": 60,
-      "r": 7,
+      "x": 49,
+      "y": 48,
+      "r": 5,
       "label": {
         "ko": "손목의 종이 팔찌 — 환자용이 아니라 보호자 출입 팔찌",
         "en": "A paper wristband — not a patient's, a caregiver's pass"
@@ -175,9 +175,9 @@
     },
     {
       "id": "e2",
-      "x": 20,
-      "y": 70,
-      "r": 12,
+      "x": 16,
+      "y": 67,
+      "r": 11,
       "label": {
         "ko": "벤치 옆에 접어 세운 보호자용 간이침대와 무릎 위 얇은 담요",
         "en": "A folding caregiver cot propped by the bench, a thin blanket on her lap"
@@ -185,9 +185,9 @@
     },
     {
       "id": "e3",
-      "x": 70,
-      "y": 75,
-      "r": 10,
+      "x": 46,
+      "y": 83,
+      "r": 11,
       "label": {
         "ko": "비닐봉지 속 칫솔·세면도구·작은 수건 — 며칠째 묵는 짐",
         "en": "Toothbrush, toiletries and a small towel in a plastic bag — the kit of someone staying days"
@@ -195,9 +195,9 @@
     },
     {
       "id": "e4",
-      "x": 55,
-      "y": 55,
-      "r": 7,
+      "x": 70,
+      "y": 70,
+      "r": 8,
       "label": {
         "ko": "종이컵 커피와 어린이 스티커가 붙은 핸드폰, 봉지 속 어린이 음료 팩",
         "en": "Paper-cup coffee, a phone covered in kids' stickers, a child's juice pack in the bag"
@@ -205,9 +205,9 @@
     },
     {
       "id": "e5",
-      "x": 60,
-      "y": 15,
-      "r": 10,
+      "x": 43,
+      "y": 6,
+      "r": 6,
       "label": {
         "ko": "벽의 어린이병동 표지 — 동물 그림",
         "en": "The children's ward sign on the wall — cartoon animals"
@@ -215,9 +215,9 @@
     },
     {
       "id": "e6",
-      "x": 45,
-      "y": 25,
-      "r": 8,
+      "x": 54,
+      "y": 21,
+      "r": 9,
       "label": {
         "ko": "뒤통수가 눌린 머리, 짙은 다크서클, 벗겨진 매니큐어",
         "en": "Hair flattened at the back, dark circles, chipped nail polish"
