@@ -74,65 +74,67 @@
       "answer": 1,
       "evidence": [
         "e1",
-        "e2"
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "facing",
+      "key": "shadow",
       "ask": {
-        "ko": "인물은 어느 쪽을 보고 있을까?",
-        "en": "Which way is she facing?"
+        "ko": "그림자가 발밑에 짧게 고인 것이 말해 주는 것은?",
+        "en": "The shadows pool right under everything. What does that tell us?"
       },
       "options": [
         {
-          "ko": "북쪽",
-          "en": "North"
+          "ko": "흐린 날이다",
+          "en": "It's an overcast day"
         },
         {
-          "ko": "동쪽",
-          "en": "East"
+          "ko": "해가 머리 위에 있다 — 한낮이다",
+          "en": "The sun is nearly overhead — it's midday"
         },
         {
-          "ko": "서쪽",
-          "en": "West"
+          "ko": "가로등 불빛이다",
+          "en": "It's streetlight"
         },
         {
-          "ko": "남쪽",
-          "en": "South"
+          "ko": "해가 막 떠올랐다",
+          "en": "The sun has just risen"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e1"
       ]
     },
     {
-      "key": "photographer",
+      "key": "queue",
       "ask": {
-        "ko": "사진을 찍어 준 사람은?",
-        "en": "Who took the photo?"
+        "ko": "식당 앞 사람들은 무엇을 하고 있을까?",
+        "en": "What are the people outside the restaurant doing?"
       },
       "options": [
         {
-          "ko": "지나가던 행인",
-          "en": "A passer-by"
+          "ko": "출근 전 커피를 사려고",
+          "en": "Buying coffee before work"
         },
         {
-          "ko": "경비원",
-          "en": "A security guard"
+          "ko": "점심 줄을 서 있다",
+          "en": "Queuing for lunch"
         },
         {
-          "ko": "같은 회사 동료",
-          "en": "A coworker"
+          "ko": "퇴근 후 회식 중",
+          "en": "Out for a team dinner"
         },
         {
-          "ko": "삼각대",
-          "en": "A tripod"
+          "ko": "버스를 기다린다",
+          "en": "Waiting for a bus"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e5"
+        "e2",
+        "e3"
       ]
     },
     {
@@ -163,35 +165,35 @@
       "evidence": [
         "e3",
         "e1",
-        "e5"
+        "e2"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 52,
-      "y": 93,
-      "r": 9,
+      "x": 46,
+      "y": 95,
+      "r": 7,
       "label": {
-        "ko": "발밑에 짧게 고인 그림자 — 가로수와 표지판 그림자도 짧다. 해가 머리 위에 있다",
-        "en": "A short shadow pooled at her feet — the tree and signpost cast short shadows too. The sun is overhead"
+        "ko": "발밑에 고인 짧은 그림자 — 가로수와 표지판 그림자도 짧다",
+        "en": "Shadows pooled right under her feet, the tree and the signpost"
       }
     },
     {
       "id": "e2",
-      "x": 87,
-      "y": 59,
-      "r": 11,
+      "x": 84,
+      "y": 50,
+      "r": 12,
       "label": {
-        "ko": "문 연 식당 앞 점심 줄과 입간판 '11:30–14:00'",
-        "en": "A lunch line outside an open restaurant and a sign: 11:30–14:00"
+        "ko": "문 연 식당 앞에 늘어선 정장 차림의 줄",
+        "en": "A line of office workers outside the open restaurant"
       }
     },
     {
       "id": "e3",
       "x": 59,
-      "y": 75,
+      "y": 74,
       "r": 7,
       "label": {
         "ko": "손에 든 점심 포장 봉지",
@@ -200,27 +202,17 @@
     },
     {
       "id": "e4",
-      "x": 35,
-      "y": 35,
+      "x": 34,
+      "y": 33,
       "r": 8,
       "label": {
         "ko": "뒤 건물 출입문의 회사 로고와 맑은 하늘",
         "en": "The company logo on the door behind her, and a clear sky"
       }
-    },
-    {
-      "id": "e5",
-      "x": 22,
-      "y": 48,
-      "r": 9,
-      "label": {
-        "ko": "유리문 반사 속 촬영자 — 사원증 목걸이를 걸었다",
-        "en": "The photographer in the glass door's reflection — wearing an employee ID lanyard"
-      }
     }
   ],
   "detective": {
-    "ko": "회사 로고가 박힌 문 앞, 맑은 하늘. 두 가지는 맞다. 유리문 반사엔 사진 찍는 사람이 비치는데 목에 사원증을 걸었다. 동료가 찍어 준 것도 맞다. 그런데 그림자를 보라. 인물도 가로수도 표지판도 그림자가 발밑에 짧게 고였다. 아침 9시의 해는 낮게 떠 그림자를 길게 늘인다. 이 그림자는 해가 머리 위에 있을 때, 정오 무렵의 것이다. 뒤 식당은 문을 열고 점심 줄이 섰고 입간판은 11시 반부터 2시. 손엔 커피가 아니라 점심 포장 봉지. 정오의 해는 남쪽에 있으니 그림자는 북쪽으로 뻗고, 그림자가 카메라 쪽으로 왔으니 그녀는 북쪽을 보고 있다. 아침 출근길이 아니라, 이미 출근해서 점심을 사 오는 길이다. 거짓말은 '아침 9시'.",
-    "en": "The company logo on the door behind her, a clear sky: those two are true. In the glass door's reflection stands the photographer, an employee ID on a lanyard — a coworker took it, also true. Now look at the shadows. Hers, the tree's, the signpost's: all pooled short at their feet. At nine in the morning the sun hangs low and stretches shadows long. These are noon shadows, cast with the sun overhead. The restaurant behind her is open with a lunch line, its sign reading 11:30 to 14:00, and she's holding a take-out lunch bag, not a coffee. The midday sun sits in the south, so shadows point north; hers falls toward the camera, so she faces north. Not the morning commute — she's already at work and fetching lunch. The lie is '9 a.m.'"
+    "ko": "회사 로고가 붙은 출입문 앞, 맑은 하늘. 회사 앞이고 날씨가 맑았다는 말은 맞다. 유리문에 비친 촬영자는 목에 끈을 걸고 있다. 동료가 찍어 줬다는 말도 어긋나지 않는다. 그런데 그림자를 보라. 그녀의 그림자도, 가로수와 표지판의 그림자도 발밑에 짧게 고여 있다. 아침 9시라면 그림자가 옆으로 길게 누웠을 것이다. 해가 머리 위에 있다. 한낮이다. 뒤편 식당은 문을 열었고 정장 차림이 줄을 섰다. 출근 전 커피 줄도 퇴근 회식도 아닌 점심 줄이다. 그리고 그녀 손엔 커피가 아니라 포장 봉지. 출근길이 아니라 점심을 사서 회사로 돌아가는 길이다. 거짓말은 하나, '아침 9시'.",
+    "en": "A company logo by the door, a clear sky: 'in front of the office' and 'sunny' hold up. In the glass door, the person taking the photo wears a lanyard — 'a colleague took it' fits too. Now look at the shadows. Hers, the tree's, the signpost's — all pooled right at their feet. At 9 a.m. they would stretch long to the side. The sun is overhead: midday. The restaurant behind her is open with a line of office workers outside — not a morning coffee queue, not an evening dinner crowd, a lunch line. And in her hand, not a coffee but a takeout bag. She isn't on her way to work; she's bringing lunch back to the office. One lie: '9 a.m.'"
   }
 }
