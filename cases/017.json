@@ -4,16 +4,16 @@
   "type": "lie",
   "image": "img/017.webp",
   "title": {
-    "ko": "직접 낚았다는 남자",
-    "en": "The Man Who Caught It Himself"
+    "ko": "낚시 조끼의 남자",
+    "en": "The Man in the Fishing Vest"
   },
   "intro": {
-    "ko": "저녁 7시, 부엌. 낚시 조끼를 입은 남자에게 오늘 뭐 했냐고 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "7 p.m., a kitchen. We asked a man in a fishing vest what he did today. Here's what he said. Find the lie in the photo."
+    "ko": "저녁, 부엌. 오늘 뭐 했냐고 묻자 남자가 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "Evening, in a kitchen. We asked a man what he did today, and here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "이 생선, 제가 직접 낚은 거예요. 오늘 바다에 다녀왔거든요. 낚시 장비는 오늘 새로 샀고요. 미끼도 넉넉히 챙겨 갔죠.",
-    "en": "This fish — I caught it myself. I went to the sea today. I bought all this fishing gear today. And I brought plenty of bait."
+    "ko": "오늘 하루 종일 바닷가에 있었어요. 이 낚싯대랑 조끼는 형한테 물려받은 거고요. 오늘은 한 마리도 못 잡았어요. 미끼도 한 통 챙겨 갔는데 말이죠.",
+    "en": "I spent the whole day at the beach. This rod and vest are hand-me-downs from my brother. I didn't catch a single fish today — and I even took a whole tub of bait."
   },
   "questions": [
     {
@@ -24,137 +24,50 @@
       },
       "options": [
         {
-          "ko": "생선을 직접 낚았다",
-          "en": "He caught the fish"
+          "ko": "바닷가에서 하루를 보냈다",
+          "en": "He spent the day at the beach"
         },
         {
-          "ko": "바다에 다녀왔다",
-          "en": "He went to the sea"
+          "ko": "한 마리도 못 잡았다",
+          "en": "He caught nothing"
         },
         {
-          "ko": "장비를 오늘 샀다",
-          "en": "He bought the gear today"
+          "ko": "장비는 형에게 물려받았다",
+          "en": "The gear came from his brother"
         },
         {
           "ko": "미끼를 챙겨 갔다",
-          "en": "He brought bait"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "bait",
-      "ask": {
-        "ko": "미끼 통 뚜껑이 뜯기지도 않은 것이 말해 주는 것은?",
-        "en": "The bait tub was never even opened. What does that tell you?"
-      },
-      "options": [
-        {
-          "ko": "미끼를 너무 많이 샀다",
-          "en": "He bought too much"
-        },
-        {
-          "ko": "미끼가 상해서 버린다",
-          "en": "It went bad"
-        },
-        {
-          "ko": "한 번도 안 썼다",
-          "en": "He never used it"
-        },
-        {
-          "ko": "생선이 다 먹었다",
-          "en": "The fish ate it all"
+          "en": "He took bait along"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e3"
+        "e6",
+        "e2"
       ]
     },
     {
-      "key": "gear",
+      "key": "day",
       "ask": {
-        "ko": "장비가 새것이라는 걸 보여 주는 것은?",
-        "en": "What shows the gear is brand-new?"
+        "ko": "그는 오늘 낮을 어디서 보냈을까?",
+        "en": "Where did he spend the day?"
       },
       "options": [
         {
-          "ko": "장화에 묻은 모래",
-          "en": "Sand on his boots"
+          "ko": "땡볕 내리쬐는 모래사장",
+          "en": "A beach under blazing sun"
         },
         {
-          "ko": "달려 있는 꼬리표",
-          "en": "The tags still attached"
+          "ko": "땡볕 내리쬐는 낚싯배",
+          "en": "A fishing boat under blazing sun"
         },
         {
-          "ko": "빨갛게 탄 얼굴",
-          "en": "His sunburned face"
+          "ko": "비 내리는 모래사장",
+          "en": "A beach in the rain"
         },
         {
-          "ko": "벽에 걸린 시계",
-          "en": "The wall clock"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2",
-        "e6"
-      ]
-    },
-    {
-      "key": "where",
-      "ask": {
-        "ko": "생선은 사실 어디서 났을까?",
-        "en": "Where did the fish really come from?"
-      },
-      "options": [
-        {
-          "ko": "이웃이 나눠 줬다",
-          "en": "A neighbor gave it"
-        },
-        {
-          "ko": "냉동실에서 꺼냈다",
-          "en": "Out of the freezer"
-        },
-        {
-          "ko": "다른 낚시꾼이 줬다",
-          "en": "Another angler"
-        },
-        {
-          "ko": "가게에서 사 왔다",
-          "en": "Bought it at a store"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "sea",
-      "ask": {
-        "ko": "'바다에 다녀왔다'는 말과 맞는 단서는?",
-        "en": "Which clue backs up 'he went to the sea'?"
-      },
-      "options": [
-        {
-          "ko": "모래 묻은 장화",
-          "en": "Sandy boots"
-        },
-        {
-          "ko": "포장된 생선",
-          "en": "The packaged fish"
-        },
-        {
-          "ko": "새 낚싯대",
-          "en": "The new rod"
-        },
-        {
-          "ko": "뜯지 않은 미끼",
-          "en": "The unopened bait"
+          "ko": "비 내리는 낚싯배",
+          "en": "A fishing boat in the rain"
         }
       ],
       "answer": 0,
@@ -162,27 +75,118 @@
         "e4",
         "e5"
       ]
+    },
+    {
+      "key": "fishing",
+      "ask": {
+        "ko": "오늘 그의 낚시는 어땠을까?",
+        "en": "How did his fishing go today?"
+      },
+      "options": [
+        {
+          "ko": "종일 미끼만 뜯겼다",
+          "en": "Fish stole his bait all day"
+        },
+        {
+          "ko": "잡았다가 놓아줬다",
+          "en": "He caught some and let them go"
+        },
+        {
+          "ko": "한 마리 낚아 왔다",
+          "en": "He brought one home"
+        },
+        {
+          "ko": "미끼 한 번 못 썼다",
+          "en": "He never used his bait once"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3",
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "home",
+      "ask": {
+        "ko": "그는 집에 와서 무엇부터 했을까?",
+        "en": "What did he do first when he got home?"
+      },
+      "options": [
+        {
+          "ko": "들어와 한숨 잤다",
+          "en": "Took a nap"
+        },
+        {
+          "ko": "오자마자 이 얘기부터",
+          "en": "Started telling us right away"
+        },
+        {
+          "ko": "샤워부터 했다",
+          "en": "Took a shower"
+        },
+        {
+          "ko": "생선부터 손질했다",
+          "en": "Cleaned the fish"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e1"
+      ]
+    },
+    {
+      "key": "fish",
+      "ask": {
+        "ko": "이 생선은 어디서 왔을까?",
+        "en": "Where did this fish come from?"
+      },
+      "options": [
+        {
+          "ko": "그가 직접 낚았다",
+          "en": "He caught it himself"
+        },
+        {
+          "ko": "같이 간 형이 줬다",
+          "en": "His brother gave it to him"
+        },
+        {
+          "ko": "동네 마트 생선 코너",
+          "en": "A supermarket fish counter"
+        },
+        {
+          "ko": "바닷가 횟집 수조",
+          "en": "A seaside restaurant's tank"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e3"
+      ]
     }
   ],
   "clues": [
     {
       "id": "e1",
       "x": 52,
-      "y": 57,
+      "y": 58,
       "r": 16,
       "label": {
-        "ko": "랩을 팽팽하게 씌운 스티로폼 접시와 가격표 스티커 — 가게에서 파는 포장",
-        "en": "A styrofoam tray in tight cling film with a price sticker — store packaging"
+        "ko": "랩을 팽팽하게 씌우고 라벨을 붙인 스티로폼 접시 — 마트 생선 코너 포장",
+        "en": "A styrofoam tray in tight cling film with a label — supermarket fish-counter packaging"
       }
     },
     {
       "id": "e2",
-      "x": 76,
-      "y": 68,
-      "r": 12,
+      "x": 77,
+      "y": 56,
+      "r": 6,
       "label": {
-        "ko": "꼬리표가 그대로 달린 새 낚싯대",
-        "en": "A new rod with its tag still hanging"
+        "ko": "꼬리표가 묶인 낚싯대 — 손잡이엔 아직 비닐이 감겨 있다",
+        "en": "A rod with a tag tied on — its handle is still wrapped in plastic"
       }
     },
     {
@@ -191,8 +195,8 @@
       "y": 63,
       "r": 5,
       "label": {
-        "ko": "뚜껑도 안 뜯은 미끼 통",
-        "en": "A bait tub with its lid still sealed"
+        "ko": "은박 뚜껑을 뜯지도 않은 미끼 통",
+        "en": "A bait tub with its foil seal still on"
       }
     },
     {
@@ -201,8 +205,8 @@
       "y": 87,
       "r": 12,
       "label": {
-        "ko": "모래가 잔뜩 묻은 장화",
-        "en": "Boots caked in beach sand"
+        "ko": "종아리까지 모래가 묻은 장화를 신은 채 — 부엌 바닥에도 모래가 흩어져 있다",
+        "en": "Still in boots caked with sand to the calf — sand scattered on the kitchen floor too"
       }
     },
     {
@@ -211,23 +215,23 @@
       "y": 14,
       "r": 8,
       "label": {
-        "ko": "햇볕에 빨갛게 탄 얼굴",
-        "en": "A sunburned face"
+        "ko": "햇볕에 빨갛게 탄 얼굴 — 걷어 올린 팔뚝도 빨갛다",
+        "en": "A sunburned face — his rolled-up forearms are red too"
       }
     },
     {
       "id": "e6",
-      "x": 55,
-      "y": 35,
-      "r": 5,
+      "x": 53,
+      "y": 38,
+      "r": 7,
       "label": {
-        "ko": "조끼에 그대로 달린 꼬리표",
-        "en": "A shop tag still hanging from his vest"
+        "ko": "조끼에 주렁주렁 달린 가게 꼬리표",
+        "en": "Shop tags still dangling from his vest"
       }
     }
   ],
   "detective": {
-    "ko": "장화엔 모래가 잔뜩 묻었고 얼굴은 빨갛게 탔다. 바다에 다녀온 건 사실이다. 낚싯대와 조끼엔 가게 꼬리표가 그대로 달려 있다. 장비를 오늘 새로 샀다는 것도 맞다. 하지만 생선을 보라. 랩을 팽팽하게 씌운 스티로폼 접시에 가격표 스티커까지 붙어 있다. 바다에서 막 낚은 생선이 아니라 가게에서 파는 포장이다. 이웃이나 다른 낚시꾼이 나눠 줬다면 가격표가 붙어 있을 리 없고, 냉동실에서 꺼냈다면 서리가 앉아 있었을 것이다. 그리고 미끼 통은 뚜껑조차 뜯지 않았다. 미끼 한 번 끼워 보지 못한 채 하루가 갔고, 빈손으로 돌아가기 아쉬워 오는 길에 한 마리 샀다.",
-    "en": "Sand caked on his boots, a sunburned face: he really did go to the sea. The rod and the vest still have their shop tags hanging — he really did buy the gear today. But look at the fish. It sits on a styrofoam tray under tight cling film, with a price sticker. That isn't a fresh catch; it's store packaging. A neighbor or a fellow angler wouldn't hand it over with a price tag, and a fish from the freezer would be frosted. Then there's the bait tub — the lid isn't even opened. He spent the whole day without baiting a single hook, and rather than go home empty-handed, he bought one on the way."
+    "ko": "장화는 종아리까지 모래투성이다. 낚싯배 위에선 이렇게 될 수 없다. 얼굴과 걷어 올린 팔뚝은 빨갛게 탔다. 비 오는 날엔 이렇게 타지 않는다. 땡볕 내리쬐는 모래사장에서 하루를 보냈다. 바닷가에 있었다는 말은 사실이다. 그런데 손에 든 생선은? 한 마리도 못 잡았다면서 송어를 들고 있다. 하지만 스티로폼 접시에 랩을 팽팽하게 씌우고 라벨까지 붙였다. 마트 생선 코너의 포장이다. 직접 낚은 고기도, 형이 잡아 준 고기도, 횟집 수조에서 건진 고기도 이렇게 싸 주지 않는다. 못 잡았다는 말도 사실이다. 미끼 통은 은박 뚜껑이 그대로 붙어 있다. 챙겨 가긴 했지만 한 번도 쓰지 않았다. 미끼만 뜯겼다거나 잡았다가 놓아줬다는 건 말이 안 된다. 거짓말은 장비에 있다. 조끼엔 가게 꼬리표가 주렁주렁하고, 낚싯대에도 꼬리표가 묶여 있으며 손잡이엔 비닐이 그대로 감겨 있다. 형에게 물려받은 장비라면 꼬리표가 붙어 있을 리 없다. 갓 산 새것이다. 그리고 그는 아직 모래 묻은 장화를 신은 채 부엌 바닥에 모래를 흘리고 있고, 생선은 포장째다. 자지도 씻지도 손질하지도 않았다. 들어오자마자 이 얘기부터 꺼낸 것이다.",
+    "en": "His boots are caked in sand up to the calf — you don't get that on a fishing boat. His face and rolled-up forearms are burned red, and rain doesn't do that. He spent the day on a beach under blazing sun. He really was at the beach. But what about the fish? He says he caught nothing, yet he's holding a trout. Look closer: it sits on a styrofoam tray under tight cling film, with a label — supermarket fish-counter packaging. A fish he caught himself, one from his brother or one scooped out of a restaurant tank wouldn't come wrapped like that. So \"caught nothing\" is true. The bait tub still has its foil seal. He took it along but never used it once — no stolen bait, no catch and release. The lie is in the gear. Shop tags dangle from his vest, another is tied to the rod, and the rod handle is still wrapped in plastic. Hand-me-downs from his brother wouldn't come with shop tags. It's all brand-new. And he's still in his sandy boots, shedding sand on the kitchen floor, with the fish in its wrapping: no nap, no shower, no cleaning the fish. He walked in and started telling his story."
   }
 }

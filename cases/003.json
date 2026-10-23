@@ -3,173 +3,175 @@
   "date": "2026-10-18",
   "image": "img/003.webp",
   "title": {
-    "ko": "학교 앞 공원 벤치",
-    "en": "The Bench Across from the School"
+    "ko": "오전 11시의 공원 벤치",
+    "en": "A Park Bench at 11 a.m."
   },
   "intro": {
-    "ko": "오전 11시, 초등학교 맞은편 공원 벤치에 앉은 60대 여성. 이 사람은 누구일까?",
-    "en": "11 a.m., a park bench across from an elementary school. A woman in her sixties sits alone. Who is she?"
+    "ko": "오전 11시, 공원 벤치에 혼자 앉은 60대 여성. 이 사람은 누구일까?",
+    "en": "11 a.m. A woman in her sixties sits alone on a park bench. Who is she?"
   },
   "questions": [
     {
-      "key": "day",
+      "key": "job",
       "ask": {
-        "ko": "오늘은 무슨 날일까?",
-        "en": "What's the occasion today?"
+        "ko": "그녀는 오랫동안 어떤 일을 했을까?",
+        "en": "What did she do for most of her working life?"
       },
       "options": [
         {
-          "ko": "손주 운동회",
-          "en": "Grandkid's sports day"
+          "ko": "화가",
+          "en": "Painter"
         },
         {
-          "ko": "결혼식에 간다",
+          "ko": "꽃집 주인",
+          "en": "Florist"
+        },
+        {
+          "ko": "교사",
+          "en": "Teacher"
+        },
+        {
+          "ko": "집배원",
+          "en": "Mail carrier"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2",
+        "e1",
+        "e4"
+      ]
+    },
+    {
+      "key": "occasion",
+      "ask": {
+        "ko": "오늘 그녀는 어디에 가는 길일까?",
+        "en": "Where is she headed today?"
+      },
+      "options": [
+        {
+          "ko": "동창회",
+          "en": "A class reunion"
+        },
+        {
+          "ko": "결혼식",
           "en": "A wedding"
         },
         {
-          "ko": "병원 정기검진",
-          "en": "A hospital checkup"
+          "ko": "칠순 잔치",
+          "en": "A 70th birthday party"
         },
         {
-          "ko": "동창회 모임",
-          "en": "A class reunion"
+          "ko": "손주 돌잔치",
+          "en": "A grandchild's first birthday"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e5"
+        "e5",
+        "e6"
       ]
     },
     {
-      "key": "memo",
+      "key": "role",
       "ask": {
-        "ko": "무릎 위의 또박또박 쓴 메모는 무엇일까?",
-        "en": "What is the neatly written note on her lap?"
+        "ko": "그 자리에서 그녀가 맡은 일은?",
+        "en": "What is her part in it?"
       },
       "options": [
         {
-          "ko": "결혼식 축사",
-          "en": "A wedding speech"
+          "ko": "피아노를 친다",
+          "en": "Play the piano"
         },
         {
-          "ko": "장보기 목록",
-          "en": "A shopping list"
+          "ko": "사진을 찍는다",
+          "en": "Take photos"
         },
         {
-          "ko": "병원 처방전",
-          "en": "A doctor's prescription"
+          "ko": "꽃을 건넨다",
+          "en": "Present flowers"
         },
         {
-          "ko": "버스 노선표",
-          "en": "A bus route"
+          "ko": "글을 읽는다",
+          "en": "Read aloud"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "evidence": [
         "e3",
         "e5"
       ]
     },
     {
-      "key": "letters",
-      "ask": {
-        "ko": "가방 속 크레용 편지 묶음은 어떤 물건일까?",
-        "en": "What is the bundle of crayon letters in her bag?"
-      },
-      "options": [
-        {
-          "ko": "손주에게 줄 선물",
-          "en": "A gift for a grandkid"
-        },
-        {
-          "ko": "길에서 주운 것",
-          "en": "Something she found"
-        },
-        {
-          "ko": "버리려고 챙긴 짐",
-          "en": "Junk to throw out"
-        },
-        {
-          "ko": "오래 간직한 편지",
-          "en": "Keepsake letters"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
       "key": "gift",
       "ask": {
-        "ko": "오늘 그 편지 묶음은 어디에 쓰일까?",
-        "en": "What will the letters be for today?"
+        "ko": "오늘 그녀가 건넬 선물은?",
+        "en": "What gift will she hand over today?"
       },
       "options": [
         {
-          "ko": "손주에게 읽어 준다",
-          "en": "Reading to a grandkid"
+          "ko": "옛 편지 묶음",
+          "en": "A bundle of old letters"
         },
         {
-          "ko": "결혼하는 사람에게 준다",
-          "en": "A gift to the couple"
+          "ko": "옛 단체 사진",
+          "en": "An old group photo"
         },
         {
-          "ko": "동창들과 돌려 본다",
-          "en": "Passing round with old friends"
+          "ko": "꽃다발",
+          "en": "A bouquet"
         },
         {
-          "ko": "버스에서 혼자 읽는다",
-          "en": "Reading alone on the bus"
+          "ko": "현금 봉투만",
+          "en": "Just an envelope of cash"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
         "e2",
         "e5"
       ]
     },
     {
-      "key": "job",
+      "key": "age",
       "ask": {
-        "ko": "이 사람은 어떤 일을 했을까?",
-        "en": "What did she do for a living?"
+        "ko": "오늘의 주인공이 그녀를 처음 만났을 때 몇 살쯤이었을까?",
+        "en": "How old was today's guest of honor when she first met them?"
       },
       "options": [
         {
-          "ko": "은퇴한 화가",
-          "en": "Retired painter"
+          "ko": "갓난아기 때",
+          "en": "A newborn"
         },
         {
-          "ko": "은퇴한 사서",
-          "en": "Retired librarian"
+          "ko": "여덟 살쯤",
+          "en": "About eight"
         },
         {
-          "ko": "은퇴한 우체국 집배원",
-          "en": "Retired mail carrier"
+          "ko": "열다섯 살쯤",
+          "en": "About fifteen"
         },
         {
-          "ko": "은퇴한 초등교사",
-          "en": "Retired teacher"
+          "ko": "스무 살쯤",
+          "en": "About twenty"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
-        "e1",
         "e2",
-        "e6"
+        "e4"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 32,
+      "x": 31,
       "y": 86,
       "r": 5,
       "label": {
-        "ko": "손가락에 밴 붉은 색연필 자국",
-        "en": "Red pencil smudges on her finger"
+        "ko": "손가락 옆에 묻은 빨간 펜 자국 — 물감이 아니라 한 가지 빨강뿐",
+        "en": "A smear of red pen on the side of her finger — one red, not paint"
       }
     },
     {
@@ -178,18 +180,18 @@
       "y": 69,
       "r": 9,
       "label": {
-        "ko": "가방 속 크레용 그림 편지 묶음 — 리본으로 묶어 간직했다",
-        "en": "A bundle of crayon-drawn letters in her bag, kept tied with a ribbon"
+        "ko": "누렇게 바랜 크레용 편지 묶음 — 줄 공책에 글자를 막 배운 아이들이 쓴 것. 반지 카드와 같은 분홍 리본으로 묶었다",
+        "en": "A bundle of yellowed crayon letters, written on lined paper by children just learning their letters — tied with the same pink ribbon as the ring card"
       }
     },
     {
       "id": "e3",
-      "x": 43,
-      "y": 88,
-      "r": 6,
+      "x": 42,
+      "y": 87,
+      "r": 7,
       "label": {
-        "ko": "무릎 위 메모 — 줄에 맞춰 또박또박 쓴 손글씨",
-        "en": "A note on her lap — neat, evenly spaced handwriting"
+        "ko": "손에 든 카드 — 줄마다 빼곡한 손글씨. 악보가 아니다",
+        "en": "The card in her hands — line after line of handwriting. Not sheet music"
       }
     },
     {
@@ -198,8 +200,8 @@
       "y": 26,
       "r": 13,
       "label": {
-        "ko": "그녀의 시선이 향한 곳 — 길 건너 초등학교 운동장",
-        "en": "Where she's looking — the elementary school playground across the street"
+        "ko": "그녀의 시선이 향한 곳 — 길 건너 초등학교 운동장의 아이들",
+        "en": "Where she's looking — the children in the elementary school playground across the street"
       }
     },
     {
@@ -208,23 +210,23 @@
       "y": 69,
       "r": 6,
       "label": {
-        "ko": "반지 두 개가 그려진 리본 카드 — 그리고 진주 귀걸이로 차려입은 모습",
-        "en": "A ribboned card with two rings on it — and she's wearing pearl earrings"
+        "ko": "금반지 두 개가 그려진 카드 — 분홍 리본이 달려 있다",
+        "en": "A card with two gold rings on it, finished with a pink bow"
       }
     },
     {
       "id": "e6",
-      "x": 83,
-      "y": 85,
-      "r": 11,
+      "x": 31,
+      "y": 28,
+      "r": 4,
       "label": {
-        "ko": "뚜껑도 열지 않은 커피, 옆에 꺼내 둔 빛바랜 사진 — 그녀 또래의 어른들",
-        "en": "An unopened coffee, and a faded photo of grown-ups her age"
+        "ko": "진주 귀걸이 — 격식 있는 자리에 가는 차림",
+        "en": "Pearl earrings — dressed for a formal occasion"
       }
     }
   ],
   "detective": {
-    "ko": "손가락에 밴 붉은 자국은 물감이 아니라 색연필이다 — 화가라면 한 가지 색만 묻었을 리 없다. 수십 년 동안 빨간 색연필로 동그라미를 친 손이다. 가방 속 크레용 편지는 아이들이 쓴 것인데, 남의 편지를 배달하는 사람은 그것을 리본으로 묶어 간직하지 않는다. 옆에 꺼내 둔 빛바랜 사진 속엔 그녀 또래의 어른들이 나란히 서 있다. 함께 가르쳤던 동료들이다. 그녀는 초등학교 교사였다. 그 눈은 지금도 길 건너 운동장의 아이들을 좇는다. 오늘은 진주 귀걸이를 하고 나왔고, 가방에는 반지 두 개가 그려진 카드가 있다. 결혼식이다. 크레용 편지를 쓰던 아이 중 하나가 어른이 되어 결혼하는 날이다. 그런데 왜 결혼식 날 크레용 편지 묶음을 챙겼을까? 그 안에 오늘의 주인공이 어린 시절 그녀에게 쓴 편지가 있기 때문이다. 수십 년 만에 돌려줄 선물이다. 그리고 무릎 위엔 줄에 맞춰 또박또박 쓴 메모. 장보기 목록을 이렇게 정성 들여 쓰는 사람은 없다. 옛 담임 선생님이 제자의 결혼식에서 읽을 축사다.",
-    "en": "That red on her finger isn't paint — a painter wouldn't stop at one color. It's red pencil, the mark of decades spent circling right answers. The crayon letters in her bag were written by children, and nobody who merely delivers mail ties them up with a ribbon and keeps them. The faded photo beside her shows a row of grown-ups her own age — the colleagues she taught with. She was an elementary school teacher, and her eyes still drift to the kids on the playground across the street. Today she's wearing pearls, and there's a card with two rings in her bag: a wedding. One of those crayon-wielding kids is all grown up and getting married. So why bring a bundle of crayon letters? Because one of them was written, decades ago, by the person getting married today — a gift she's finally handing back. And the note on her lap, written line by careful line? Nobody writes a shopping list like that. It's the speech an old teacher will read at her former student's wedding."
+    "ko": "가방 속엔 누렇게 바랜 크레용 편지가 수십 장. 줄 공책에 삐뚤빼뚤한 글씨와 하트, 글자를 막 배운 아이들 솜씨다. 화가의 그림도, 집배원이 나르는 우편물도 아니고, 꽃 한 송이 없으니 꽃집 주인도 아니다. 손가락엔 빨간 펜 자국, 눈은 길 건너 초등학교 운동장을 좇는다. 그녀는 어린아이들을 가르친 교사였다. 오늘은 진주 귀걸이를 했고, 가방엔 금반지 두 개가 그려진 카드가 있다. 동창회도 칠순 잔치도 돌잔치도 아닌 결혼식이다. 손에 든 카드엔 줄글이 빼곡하다. 악보가 아니고 카메라도 꽃도 없으니, 그녀는 이 글을 사람들 앞에서 읽을 것이다. 편지 묶음은 반지 카드와 같은 분홍 리본으로 묶여 있다. 커피 옆에 아무렇게나 놓인 옛 사진과 달리 선물로 싸 둔 것이다. 그 편지를 쓰던 여덟 살 아이가 오늘 결혼한다.",
+    "en": "In her bag, dozens of yellowed crayon letters: wobbly writing and hearts on lined paper, the work of children who've only just learned their letters. These aren't a painter's sketches or a mail carrier's deliveries, and with not a single flower in sight, she's no florist. There's red pen on her finger, and her eyes follow the elementary school playground across the street. She taught small children. Today she's wearing pearl earrings, and her bag holds a card with two gold rings on it — not a reunion, a seventieth birthday or a first birthday, but a wedding. The card in her hands is packed with lines of writing; it isn't sheet music, and there's no camera or bouquet, so she'll be reading those words aloud. The letters are tied with the same pink ribbon as the ring card — wrapped as a gift, unlike the old photo lying loose beside her coffee. The eight-year-old who wrote them is getting married today."
   }
 }

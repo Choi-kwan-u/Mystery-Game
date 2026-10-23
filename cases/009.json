@@ -12,124 +12,6 @@
   },
   "questions": [
     {
-      "key": "knees",
-      "ask": {
-        "ko": "바지 무릎만 더러운 이유는?",
-        "en": "Why are only the knees of his trousers dirty?"
-      },
-      "options": [
-        {
-          "ko": "길에서 넘어져서",
-          "en": "He fell over"
-        },
-        {
-          "ko": "무릎 꿇고 일해서",
-          "en": "Kneeling all day at work"
-        },
-        {
-          "ko": "바닥 청소를 해서",
-          "en": "Scrubbing floors"
-        },
-        {
-          "ko": "축구를 하다가",
-          "en": "Playing soccer"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "scratches",
-      "ask": {
-        "ko": "팔뚝의 가는 긁힌 자국은 무엇 때문일까?",
-        "en": "What made the fine scratches on his forearm?"
-      },
-      "options": [
-        {
-          "ko": "선인장 가시",
-          "en": "Cactus spines"
-        },
-        {
-          "ko": "녹슨 철조망",
-          "en": "Rusty barbed wire"
-        },
-        {
-          "ko": "울타리 나뭇가지",
-          "en": "Hedge branches"
-        },
-        {
-          "ko": "고양이 발톱",
-          "en": "A cat's claws"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e2",
-        "e5"
-      ]
-    },
-    {
-      "key": "neck",
-      "ask": {
-        "ko": "목 뒤만 유난히 빨갛게 탄 이유는?",
-        "en": "Why is only the back of his neck sunburned?"
-      },
-      "options": [
-        {
-          "ko": "얼굴에만 선크림을 발라서",
-          "en": "Sunscreen on face only"
-        },
-        {
-          "ko": "고개를 숙이고 일해서",
-          "en": "Working with head bowed"
-        },
-        {
-          "ko": "땀띠가 심하게 나서",
-          "en": "Bad heat rash"
-        },
-        {
-          "ko": "뒷창문 햇볕을 받아서",
-          "en": "Sun through a rear window"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "afternoon",
-      "ask": {
-        "ko": "오후에는 무엇을 할까?",
-        "en": "What will he do this afternoon?"
-      },
-      "options": [
-        {
-          "ko": "집에 가서 쉰다",
-          "en": "Go home and rest"
-        },
-        {
-          "ko": "꽃시장에 간다",
-          "en": "Go to the flower market"
-        },
-        {
-          "ko": "기계를 고치러 간다",
-          "en": "Go fix a mower"
-        },
-        {
-          "ko": "울타리로 돌아간다",
-          "en": "Back to the hedge"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e5",
-        "e4"
-      ]
-    },
-    {
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
@@ -137,39 +19,160 @@
       },
       "options": [
         {
-          "ko": "등산객",
-          "en": "Hiker"
+          "ko": "이삿짐 직원",
+          "en": "Furniture mover"
         },
         {
-          "ko": "타일공",
-          "en": "Tile layer"
-        },
-        {
-          "ko": "정원사",
+          "ko": "정원 관리사",
           "en": "Gardener"
         },
         {
-          "ko": "농부",
-          "en": "Farmer"
+          "ko": "공사장 인부",
+          "en": "Construction worker"
+        },
+        {
+          "ko": "환경미화원",
+          "en": "Street cleaner"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e4",
+        "e1",
+        "e5"
+      ]
+    },
+    {
+      "key": "posture",
+      "ask": {
+        "ko": "오늘 오전 그는 어떤 자세로 오래 일했을까?",
+        "en": "What position did he hold for long stretches of work this morning?"
+      },
+      "options": [
+        {
+          "ko": "허리를 숙인 채",
+          "en": "Bent over at the waist"
+        },
+        {
+          "ko": "어깨에 짐을 지고",
+          "en": "With a load on his shoulder"
+        },
+        {
+          "ko": "사다리에 올라서",
+          "en": "Up on a ladder"
+        },
+        {
+          "ko": "풀밭에 무릎 꿇고",
+          "en": "Kneeling on grass"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e3"
+      ]
+    },
+    {
+      "key": "hurt",
+      "ask": {
+        "ko": "오늘 오전 그는 어쩌다 다쳤을까?",
+        "en": "How did he get hurt this morning?"
+      },
+      "options": [
+        {
+          "ko": "깨진 유리에 베였다",
+          "en": "Cut on broken glass"
+        },
+        {
+          "ko": "녹슨 철근에 찔렸다",
+          "en": "Jabbed by rusty rebar"
+        },
+        {
+          "ko": "장미 덤불에 긁혔다",
+          "en": "Scratched by rosebushes"
+        },
+        {
+          "ko": "장롱 모서리에 찍혔다",
+          "en": "Gouged by a wardrobe corner"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e1",
         "e2",
+        "e6"
+      ]
+    },
+    {
+      "key": "next",
+      "ask": {
+        "ko": "점심을 먹고 나면 그는 어디로 갈까?",
+        "en": "Where will he go after lunch?"
+      },
+      "options": [
+        {
+          "ko": "하던 울타리로",
+          "en": "Back to the hedge"
+        },
+        {
+          "ko": "청소하던 거리로",
+          "en": "Back to the street he's sweeping"
+        },
+        {
+          "ko": "이삿짐 트럭으로",
+          "en": "Back to the moving truck"
+        },
+        {
+          "ko": "공사 현장으로",
+          "en": "Back to the building site"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
         "e4"
+      ]
+    },
+    {
+      "key": "place",
+      "ask": {
+        "ko": "오늘 오전 그가 일한 곳은 어떤 곳일까?",
+        "en": "What kind of place did he work at this morning?"
+      },
+      "options": [
+        {
+          "ko": "신축 공사장",
+          "en": "A new building site"
+        },
+        {
+          "ko": "아파트 단지",
+          "en": "An apartment complex"
+        },
+        {
+          "ko": "골목 쓰레기장",
+          "en": "An alley garbage spot"
+        },
+        {
+          "ko": "이사 가는 집",
+          "en": "A home being moved out of"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5",
+        "e6",
+        "e1"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 38,
-      "y": 81,
-      "r": 15,
+      "x": 39,
+      "y": 82,
+      "r": 14,
       "label": {
-        "ko": "양 무릎에만 똑같이 묻은 흙과 풀물, 찢어진 데는 없다",
-        "en": "Soil and grass stains on both knees alike — and no tears"
+        "ko": "양 무릎에만 똑같이 밴 흙과 풀물, 찢어진 데는 없다 — 시멘트가 아니라 풀, 오래 풀밭에 무릎을 꿇었다",
+        "en": "Matching soil and grass stains on both knees, no tears — grass, not cement, from long kneeling on a lawn"
       }
     },
     {
@@ -178,8 +181,8 @@
       "y": 67,
       "r": 11,
       "label": {
-        "ko": "걷어 올린 팔뚝의 가는 긁힌 자국들",
-        "en": "Thin scratches on his rolled-up forearms"
+        "ko": "걷어 올린 팔뚝에 사방으로 난 가늘고 긴 긁힘 — 깊게 베인 상처 하나가 아니다",
+        "en": "Long, fine scratches running every which way on his bare forearm — not one deep cut"
       }
     },
     {
@@ -188,8 +191,8 @@
       "y": 41,
       "r": 6,
       "label": {
-        "ko": "모자와 옷깃 사이, 목 뒤만 빨갛게 탄 피부",
-        "en": "Sunburn only on the back of his neck, between cap and collar"
+        "ko": "모자와 옷깃 사이, 목 뒤만 벌겋게 탄 피부 — 고개를 숙인 채 햇볕 아래서 일했다",
+        "en": "Sunburn only on the back of his neck, between cap and collar — head down, out in the sun"
       }
     },
     {
@@ -198,8 +201,8 @@
       "y": 79,
       "r": 12,
       "label": {
-        "ko": "허리춤의 흙 묻은 장갑과, 가죽 집에 꽂은 날이 휜 전정가위",
-        "en": "Dirty gloves at his belt, and curved pruning shears in a leather holster"
+        "ko": "허리춤의 흙 묻은 장갑과, 가죽 집에 꽂은 전정가위 — 빗자루도 집게도 아닌 가지 치는 가위",
+        "en": "Dirty gloves at his belt and pruning shears in a leather holster — not a broom or tongs, but shears for cutting branches"
       }
     },
     {
@@ -208,13 +211,23 @@
       "y": 23,
       "r": 15,
       "label": {
-        "ko": "길 건너 울타리 옆에 세워 둔, 갈퀴를 실은 외바퀴 수레",
-        "en": "A wheelbarrow with a rake, parked by the hedge across the street"
+        "ko": "길 건너 아파트 앞 울타리 — 왼쪽은 반듯하게 다듬었고 오른쪽은 아직 덥수룩하다. 그 경계에 세워 둔 외바퀴 수레",
+        "en": "The hedge in front of the apartments across the street — neat on the left, still shaggy on the right, with a wheelbarrow parked where the trimming stops"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 64,
+      "y": 60,
+      "r": 4,
+      "label": {
+        "ko": "걷어 올린 소매에 붙은 빨간 장미 꽃잎",
+        "en": "A red rose petal stuck to his rolled-up sleeve"
       }
     }
   ],
   "detective": {
-    "ko": "바지는 깨끗한데 양 무릎에만 흙과 풀물이 똑같이 배어 있다. 넘어졌다면 한쪽만, 그것도 찢어졌을 것이다. 하루 종일 무릎을 꿇고 일하는 사람이다. 타일공도 무릎을 꿇지만 그쪽은 회색 시멘트 자국이다. 이건 흙과 풀이다. 등산객이라면 무릎이 아니라 신발과 바짓단부터 더러웠을 것이다. 허리춤엔 흙 묻은 장갑, 그리고 가죽 집에 꽂은 가위. 미용 가위나 재단 가위처럼 날이 길고 곧지 않다 — 짧고 휜 날로 나뭇가지를 끊는 전정가위다. 농부도 쓰지만 여긴 아파트 단지 한가운데다. 그는 정원사다. 걷어 올린 팔뚝의 가는 긁힘은 울타리 가지를 치다 생긴 자국이다. 모자를 쓰고 고개를 숙인 채 일하니 얼굴은 그늘지고 목 뒤만 해를 받았다. 그리고 길 건너 울타리 옆엔 갈퀴를 실은 수레가 세워져 있다. 장갑도 가위도 허리춤에 그대로 — 일을 접은 사람의 차림이 아니다. 컵라면을 다 먹으면 저 울타리로 돌아간다.",
-    "en": "His trousers are clean except for matching soil and grass stains on both knees. A fall would mark one knee, and probably tear it. This man kneels all day for work. A tile setter kneels too, but comes away with grey grout, not grass, and a hiker would get muddy shoes and hems before knees. At his belt: dirty gloves and a pair of scissors in a leather holster. Not long, straight blades like hair or fabric scissors — short, curved ones for snipping branches. Pruning shears. A farmer might carry those, but this is the middle of an apartment neighborhood. He's a gardener, and the thin scratches on his bare forearms come from trimming hedge branches. He works bent over in a cap, so his face stays shaded while the back of his neck takes the sun. And across the street, a wheelbarrow with a rake sits parked by the hedge. Gloves and shears still on his belt — that's not a man who's done for the day. Once the noodles are gone, he's heading back to that hedge."
+    "ko": "작업복 셔츠에 장갑, 모자, 컵라면. 이삿짐 일꾼이나 공사장 인부, 환경미화원 같다. 그런데 바지는 양 무릎에만 흙과 풀물이 똑같이 배어 있다. 시멘트 가루가 아니라 풀이다. 허리를 숙이거나, 어깨에 짐을 지거나, 사다리에 올라선 사람의 무릎은 이렇게 되지 않는다. 오전 내내 풀밭에 무릎을 꿇었다. 모자와 옷깃 사이로 목 뒤만 벌겋게 탔다. 고개를 숙인 채 햇볕 아래 있었다. 허리춤의 가죽 집에 꽂힌 건 빗자루나 집게가 아니라 가지 치는 전정가위다. 그는 정원사다. 팔뚝엔 가늘고 긴 긁힘이 사방으로 나 있고, 걷어 올린 소매엔 빨간 장미 꽃잎이 붙어 있다. 유리에 베였다면 깊고 곧은 상처, 철근에 찔렸다면 구멍, 장롱 모서리에 찍혔다면 멍이 남았을 것이다. 가늘게 긁힌 줄뿐이다. 장미 덤불이다. 이제 길 건너를 보라. 아파트 앞 울타리는 왼쪽만 반듯하고 오른쪽은 아직 덥수룩하다. 그 경계에 자루 긴 연장을 실은 수레가 서 있다. 오전에 일한 곳은 공사장도, 쓰레기장도, 이삿짐 나르는 집도 아닌 저 아파트 단지다. 장갑도 가위도 허리에 그대로다. 컵라면을 다 먹으면 길을 건너 하던 울타리를 마저 다듬는다.",
+    "en": "Work shirt, gloves, a cap and cup noodles: a mover, maybe, a construction worker or a street cleaner. But his trousers are clean except for matching soil and grass stains on both knees — grass, not cement dust. Bending at the waist, shouldering loads or working up a ladder doesn't do that to your knees. He spent the morning kneeling on a lawn. Between cap and collar, only the back of his neck is burned: head down, under the sun. The leather holster at his belt holds no broom or litter tongs but pruning shears. He's a gardener. Long, fine scratches run every which way across his forearm, and a red rose petal clings to his rolled-up sleeve. Glass leaves a deep straight cut, rebar a puncture, a wardrobe corner a bruise. These are only fine scratches: rosebushes. Now look across the street: the hedge in front of the apartments is neat on the left and still shaggy on the right, and a wheelbarrow of long-handled tools sits right where the trimming stops. His morning was spent at that apartment complex, not a building site, a garbage spot or a house being moved out of. Gloves and shears still on his belt — once the noodles are gone, he's crossing the street to finish that hedge."
   }
 }

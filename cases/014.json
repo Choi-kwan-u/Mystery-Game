@@ -3,159 +3,166 @@
   "date": "2026-10-29",
   "image": "img/014.webp",
   "title": {
-    "ko": "국밥집의 구멍 난 재킷",
-    "en": "The Jacket Full of Holes"
+    "ko": "국밥집의 저녁",
+    "en": "Dinner at the Soup Restaurant"
   },
   "intro": {
-    "ko": "평일 저녁 6시, 공단 앞 국밥집. 50대 남성이 혼자 저녁을 먹고 있다. 이 사람은 누구일까?",
-    "en": "6 p.m. on a weekday, a soup restaurant by an industrial park. A man in his fifties eats dinner alone. Who is he?"
+    "ko": "평일 저녁 6시, 동네 국밥집. 50대 남성이 혼자 저녁을 먹고 있다. 이 사람은 누구일까?",
+    "en": "6 p.m. on a weekday, a neighborhood soup restaurant. A man in his fifties eats dinner alone. Who is he?"
   },
   "questions": [
     {
-      "key": "holes",
-      "ask": {
-        "ko": "재킷의 작은 구멍들은 무엇 때문일까?",
-        "en": "What made the little holes in his jacket?"
-      },
-      "options": [
-        {
-          "ko": "담뱃불 자국",
-          "en": "Cigarette burns"
-        },
-        {
-          "ko": "좀벌레가 먹어서",
-          "en": "Moths"
-        },
-        {
-          "ko": "튀는 불똥",
-          "en": "Flying sparks"
-        },
-        {
-          "ko": "오래 입어 해져서",
-          "en": "Plain wear and tear"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
       "key": "posture",
       "ask": {
-        "ko": "오늘 주로 어떤 자세로 일했을까?",
-        "en": "What position did he mostly work in today?"
+        "ko": "그는 평소 어떤 자세로 일할까?",
+        "en": "How does he usually work?"
       },
       "options": [
         {
-          "ko": "위를 올려다보며",
-          "en": "Looking up overhead"
+          "ko": "작업대 위로 몸을 숙이고",
+          "en": "Bent over a workbench"
         },
         {
-          "ko": "바닥에 쪼그려 앉아",
-          "en": "Squatting on the floor"
+          "ko": "고개를 젖혀 머리 위를 보고",
+          "en": "Head back, looking overhead"
         },
         {
-          "ko": "작업대 앞에 서서",
-          "en": "Standing at a bench"
+          "ko": "화구 앞에서 냄비를 내려다보고",
+          "en": "Over a stove, looking down"
         },
         {
-          "ko": "의자에 앉은 채로",
-          "en": "Sitting in a chair"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "neck",
-      "ask": {
-        "ko": "얼굴은 멀쩡한데 목만 V자로 빨간 이유는?",
-        "en": "His face is fine. Why is only a V on his neck red?"
-      },
-      "options": [
-        {
-          "ko": "햇볕에 그을려서",
-          "en": "Plain old sunburn"
-        },
-        {
-          "ko": "면도하다 쓸려서",
-          "en": "Razor burn"
-        },
-        {
-          "ko": "땀띠가 올라와서",
-          "en": "Heat rash"
-        },
-        {
-          "ko": "틈새로 빛을 쬐어서",
-          "en": "Light through a gap"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "eyes",
-      "ask": {
-        "ko": "그가 안약을 넣는 이유는?",
-        "en": "Why does he use eye drops?"
-      },
-      "options": [
-        {
-          "ko": "스마트폰을 오래 봐서",
-          "en": "Too much phone time"
-        },
-        {
-          "ko": "센 불빛을 오래 봐서",
-          "en": "Glaring light"
-        },
-        {
-          "ko": "꽃가루 알레르기",
-          "en": "Pollen allergy"
-        },
-        {
-          "ko": "잠을 못 자서",
-          "en": "Not enough sleep"
+          "ko": "사다리에 올라 벽을 마주하고",
+          "en": "Up a ladder, facing a wall"
         }
       ],
       "answer": 1,
       "evidence": [
+        "e1",
+        "e6",
+        "e2"
+      ]
+    },
+    {
+      "key": "skipped",
+      "ask": {
+        "ko": "오늘 일하면서 그가 빼먹은 것은?",
+        "en": "What did he skip while working today?"
+      },
+      "options": [
+        {
+          "ko": "장갑 끼기",
+          "en": "Wearing gloves"
+        },
+        {
+          "ko": "소매 내리기",
+          "en": "Rolling down his sleeves"
+        },
+        {
+          "ko": "목 단추 채우기",
+          "en": "Buttoning his collar"
+        },
+        {
+          "ko": "얼굴 가리기",
+          "en": "Covering his face"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2",
+        "e5",
         "e4"
+      ]
+    },
+    {
+      "key": "injury",
+      "ask": {
+        "ko": "오늘 그가 다친 까닭은?",
+        "en": "What hurt him today?"
+      },
+      "options": [
+        {
+          "ko": "뜨거운 기름이 튀어서",
+          "en": "Spattering hot oil"
+        },
+        {
+          "ko": "햇볕에 오래 그을려서",
+          "en": "Hours in the sun"
+        },
+        {
+          "ko": "독한 약품이 묻어서",
+          "en": "A harsh chemical"
+        },
+        {
+          "ko": "강한 불빛을 쬐어서",
+          "en": "Intense light"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e4"
+      ]
+    },
+    {
+      "key": "career",
+      "ask": {
+        "ko": "그는 이 일을 얼마나 해 왔을까?",
+        "en": "How long has he been doing this work?"
+      },
+      "options": [
+        {
+          "ko": "오늘이 처음이다",
+          "en": "Today is his first day"
+        },
+        {
+          "ko": "석 달째다",
+          "en": "Three months"
+        },
+        {
+          "ko": "십 년이 넘었다",
+          "en": "Over ten years"
+        },
+        {
+          "ko": "작년에 그만뒀다",
+          "en": "He quit last year"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e1",
+        "e2"
       ]
     },
     {
       "key": "job",
       "ask": {
         "ko": "이 사람의 직업은?",
-        "en": "What does he do?"
+        "en": "What does he do for a living?"
       },
       "options": [
+        {
+          "ko": "용접공",
+          "en": "Welder"
+        },
         {
           "ko": "요리사",
           "en": "Cook"
         },
         {
-          "ko": "자동차 정비사",
-          "en": "Car mechanic"
+          "ko": "목수",
+          "en": "Carpenter"
         },
         {
-          "ko": "전기 기사",
-          "en": "Electrician"
-        },
-        {
-          "ko": "용접공",
-          "en": "Welder"
+          "ko": "도장공",
+          "en": "House painter"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
         "e1",
-        "e2",
-        "e5"
+        "e5",
+        "e2"
       ]
     }
   ],
@@ -163,11 +170,21 @@
     {
       "id": "e1",
       "x": 76,
-      "y": 41,
+      "y": 43,
       "r": 12,
       "label": {
-        "ko": "어깨 윗면과 모자 챙에만 몰린 작은 탄 구멍들",
-        "en": "Tiny burn holes only on top of the shoulders and on the cap brim"
+        "ko": "어깨 윗면에 몰린, 가장자리가 까맣게 탄 구멍들 — 가슴 주머니와 소매는 멀쩡하다",
+        "en": "Holes with charred edges, crowded on top of the shoulders — the chest pockets and sleeves are untouched"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 47,
+      "y": 29,
+      "r": 11,
+      "label": {
+        "ko": "모자 챙 윗면에도 같은 탄 구멍 — 페인트 얼룩이 아니다",
+        "en": "The same burn holes on top of the cap brim — not paint spots"
       }
     },
     {
@@ -176,18 +193,18 @@
       "y": 49,
       "r": 6,
       "label": {
-        "ko": "얼굴은 멀쩡한데 옷깃 사이 목만 V자로 붉게 덴 자국",
-        "en": "A red V-shaped burn at the neck — but no sunburn on his face"
+        "ko": "얼굴은 멀쩡한데, 벌어진 옷깃 모양 그대로 목에 V자로 덴 자국",
+        "en": "A red V-shaped burn at the neck, exactly where the collar falls open — his face is untouched"
       }
     },
     {
       "id": "e3",
-      "x": 73,
-      "y": 73,
+      "x": 16,
+      "y": 67,
       "r": 7,
       "label": {
-        "ko": "팔뚝의 하얀 화상 흉터들",
-        "en": "Old white burn scars on his forearm"
+        "ko": "손톱 밑까지 거뭇한 손 — 하지만 새로 덴 자국은 없다",
+        "en": "Grimy hands, dirt under the nails — but no fresh burns"
       }
     },
     {
@@ -202,17 +219,17 @@
     },
     {
       "id": "e5",
-      "x": 78,
-      "y": 89,
-      "r": 11,
+      "x": 76,
+      "y": 81,
+      "r": 13,
       "label": {
-        "ko": "테이블 위의 두꺼운 가죽 장갑",
-        "en": "Thick leather gloves on the table"
+        "ko": "그을린 두꺼운 가죽 장갑, 팔뚝의 오래 아문 하얀 화상 흉터",
+        "en": "Thick, scorched leather gloves, and long-healed white burn scars on his forearm"
       }
     }
   ],
   "detective": {
-    "ko": "청재킷에 작은 구멍이 수십 개 뚫렸다. 가장자리가 까맣게 그을렸다 — 튀는 불똥이 낸 구멍이다. 팔뚝엔 오래된 하얀 화상 흉터도 있다. 요리사도 데지만, 요리사의 옷이 이렇게 뚫리진 않는다. 정비사라면 기름때가, 전기 기사라면 공구 벨트가 먼저 보였을 것이다. 테이블 위의 두꺼운 가죽 장갑, 이 사람은 용접공이다. 이상한 건 구멍의 위치다. 어깨 윗면과 모자 챙에만 몰려 있다. 불똥이 위에서 쏟아졌다는 뜻 — 오늘 그는 하루 종일 고개를 젖히고 머리 위를 용접했다. 얼굴은 멀쩡한데 목만 V자로 빨갛다. 햇볕이었다면 얼굴부터 탔을 것이다. 얼굴은 용접 마스크가 가리고, 마스크와 옷깃 사이 틈으로 용접 빛이 들어왔다. 충혈된 눈에 안약까지. 그 빛을 하루 종일 본 눈이다.",
-    "en": "His denim jacket is peppered with dozens of tiny holes, their edges charred black — holes burned by flying sparks. There are old white burn scars on his forearm, too. Cooks get burned, but their clothes don't end up like this. A mechanic would show grease first; an electrician, a tool belt. With those thick leather gloves on the table, this man is a welder. What's odd is where the holes are: only on top of his shoulders and on his cap brim. The sparks were raining down from above — he spent today with his head tilted back, welding overhead. His face isn't sunburned, yet there's a red V on his neck. The sun would have burned his face first. His mask covered his face, and the welding light slipped through the gap between mask and collar. Bloodshot eyes and eye drops: eyes that stared at that light all day."
+    "ko": "청재킷엔 작은 구멍이 수십 개다. 멀리선 페인트 얼룩 같지만, 가까이 보면 가장자리가 까맣게 탄 구멍 — 튀는 불똥이 낸 자국이다. 팔뚝의 하얀 화상 흉터는 요리사에게도 있을 법하지만, 요리사의 옷이 이렇게 뚫리진 않는다. 테이블의 그을린 가죽 장갑도 목수의 장갑이 아니라 불똥을 막는 장갑이다. 이 사람은 용접공이다. 이상한 건 구멍의 위치다. 어깨 윗면과 모자 챙에만 몰렸고, 가슴 주머니와 소매는 멀쩡하다. 작업대나 화구 앞에서 몸을 숙였거나 벽을 마주했다면 불똥은 가슴으로 튀었을 것이다. 불똥은 위에서 쏟아졌다. 그는 고개를 젖히고 머리 위를 용접한다. 젖힌 목엔 V자로 덴 자국이 있다. 얼굴은 멀쩡하니 햇볕은 아니고, 기름이나 약품이 튄 얼룩도 아니다. 벌어진 옷깃 모양 그대로 난 자국 — 옷깃 틈으로 강한 용접 빛이 들었다. 충혈된 눈과 안약도 그 빛 탓이다. 얼굴은 마스크가 가렸고, 거뭇한 손에 새로 덴 데가 없으니 장갑도 꼈다. 팔뚝 흉터는 오래전에 아문 것이다. 오늘 빼먹은 건 목 단추 하나다. 오래 아문 흉터, 그을린 장갑, 수십 개의 구멍. 첫날이나 석 달 된 사람이 아니다. 오늘도 덴 걸 보면 그만둔 사람도 아니다. 십 년 넘게 불똥을 맞아 온 용접공이다.",
+    "en": "His denim jacket is peppered with dozens of tiny holes. From a distance they look like paint spots, but up close their edges are charred black — holes burned by flying sparks. A cook might have white burn scars like the ones on his forearm, but a cook's clothes don't end up like this. And the scorched leather gloves on the table aren't a carpenter's gloves; they're made to stop sparks. This man is a welder. What's odd is where the holes are: only on top of his shoulders and on his cap brim, while the chest pockets and sleeves are untouched. Bent over a workbench or a stove, or facing a wall, he'd have caught sparks on his chest. These sparks rained down from above — he welds overhead, head tilted back. On his tilted-back neck is a red V-shaped burn. His face is fine, so it isn't the sun, and it's no splash of oil or chemicals. It's the exact shape of his open collar: intense welding light slipped in through the gap. His bloodshot eyes and the eye drops come from the same light. His mask covered his face, and his grimy hands have no fresh burns, so he wore his gloves. The forearm scars healed long ago. All he skipped today was the top button. Long-healed scars, scorched gloves, dozens of holes: this is no first day and no three-month beginner, and with a fresh burn today, he hasn't quit. He's taken sparks for over ten years."
   }
 }

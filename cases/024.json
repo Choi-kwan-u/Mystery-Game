@@ -4,16 +4,16 @@
   "type": "lie",
   "image": "img/024.webp",
   "title": {
-    "ko": "비를 한 방울도 안 맞았다는 여자",
-    "en": "Not a Drop of Rain"
+    "ko": "로비 벤치의 여자",
+    "en": "The Woman on the Bench"
   },
   "intro": {
-    "ko": "비 오는 월요일 아침, 회사 1층 로비. 벤치에 앉은 여자에게 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "A rainy Monday morning in an office lobby. We spoke to a woman sitting on a bench. Here's what she said. Find the lie in the photo."
+    "ko": "비 오는 월요일 아침, 회사 1층 로비. 벤치에 앉은 여자에게 다가가 말을 걸자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "A rainy Monday morning in an office lobby. We walked over and spoke to a woman on a bench. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "오늘 면접 보러 왔어요. 서류도 다 챙겨 왔고요. 도착해선 곧장 이 벤치에 앉았어요. 지하 주차장에 차를 대고 엘리베이터로 올라와서 비는 한 방울도 안 맞았거든요.",
-    "en": "I'm here for a job interview. I've got all my papers, too. I came straight to this bench when I arrived. I parked in the underground garage and took the elevator up, so I didn't get a drop of rain on me."
+    "ko": "면접 보러 왔어요. 지금 막 도착했고요. 우산은 깜빡하고 안 가져왔어요. 서류는 다 챙겨 왔고요.",
+    "en": "I'm here for a job interview. I just got here. I forgot to bring an umbrella. I've got all my papers, though."
   },
   "questions": [
     {
@@ -24,201 +24,214 @@
       },
       "options": [
         {
-          "ko": "면접을 보러 왔다",
+          "ko": "면접 보러 왔다",
           "en": "She's here for an interview"
         },
         {
+          "ko": "지금 막 도착했다",
+          "en": "She just got here"
+        },
+        {
+          "ko": "우산은 안 가져왔다",
+          "en": "She didn't bring an umbrella"
+        },
+        {
           "ko": "서류를 다 챙겨 왔다",
-          "en": "She has all her papers"
+          "en": "She brought all her papers"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e6",
+        "e4"
+      ]
+    },
+    {
+      "key": "route",
+      "ask": {
+        "ko": "그녀는 어떻게 이 로비까지 왔을까?",
+        "en": "How did she get to this lobby?"
+      },
+      "options": [
+        {
+          "ko": "지하 주차장에서 엘리베이터로",
+          "en": "Up from the garage by elevator"
         },
         {
-          "ko": "곧장 벤치에 앉았다",
-          "en": "She went straight to the bench"
+          "ko": "옆 건물 연결 통로로",
+          "en": "Through the passage from next door"
         },
         {
-          "ko": "비를 안 맞았다",
-          "en": "She stayed dry"
+          "ko": "택시에서 내려 차양 밑으로",
+          "en": "From a taxi, under the awning"
+        },
+        {
+          "ko": "빗속을 한참 걸어서",
+          "en": "A long walk in the rain"
         }
       ],
       "answer": 3,
       "evidence": [
         "e1",
-        "e2"
+        "e3"
       ]
     },
     {
-      "key": "elevator",
+      "key": "camera",
       "ask": {
-        "ko": "엘리베이터 앞 바닥이 바싹 마른 것이 말해 주는 것은?",
-        "en": "The floor by the elevators is bone-dry. What does that tell you?"
+        "ko": "이 사진을 찍은 사람은 어디서 왔을까?",
+        "en": "Where did the person taking this photo come from?"
       },
       "options": [
         {
-          "ko": "방금 바닥을 닦았다",
-          "en": "It was just mopped"
+          "ko": "엘리베이터를 타고",
+          "en": "Down by elevator"
         },
         {
-          "ko": "그쪽에서 온 사람이 없다",
-          "en": "Nobody came from there"
+          "ko": "회전문으로 들어와서",
+          "en": "In through the revolving door"
         },
         {
-          "ko": "엘리베이터가 고장 났다",
-          "en": "Elevators broken"
+          "ko": "그녀와 함께 와서",
+          "en": "Along with her"
         },
         {
-          "ko": "비가 이미 그쳤다",
-          "en": "The rain has stopped"
+          "ko": "뒤쪽 벤치에서",
+          "en": "From the bench in back"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e3",
-        "e2"
+        "e2",
+        "e1"
       ]
     },
     {
-      "key": "legs",
+      "key": "fix",
       "ask": {
-        "ko": "머리와 상의는 멀쩡한데 바짓단만 젖은 이유는?",
-        "en": "Her hair and jacket are dry. Why are her trouser hems soaked?"
+        "ko": "면접 전에 그녀가 급히 손봐야 할 것은?",
+        "en": "What does she most need to fix before the interview?"
       },
       "options": [
         {
-          "ko": "화장실에서 물이 튀어서",
-          "en": "Splashed at the sink"
+          "ko": "젖은 바지와 구두",
+          "en": "Soaked trousers and shoes"
         },
         {
-          "ko": "내리다 웅덩이를 밟아서",
-          "en": "Stepped in one puddle"
+          "ko": "젖은 머리와 화장",
+          "en": "Wet hair and makeup"
         },
         {
-          "ko": "빗길을 한참 걸어서",
-          "en": "A long walk in the rain"
+          "ko": "구겨진 재킷과 셔츠",
+          "en": "A creased jacket and shirt"
         },
         {
-          "ko": "원래 얼룩진 바지라서",
-          "en": "They were already stained"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e4"
-      ]
-    },
-    {
-      "key": "entrance",
-      "ask": {
-        "ko": "그녀는 어디로 들어왔을까?",
-        "en": "Which way did she come in?"
-      },
-      "options": [
-        {
-          "ko": "유리 정문",
-          "en": "Through the front doors"
-        },
-        {
-          "ko": "지하 주차장",
-          "en": "From the garage"
-        },
-        {
-          "ko": "건물 뒷문",
-          "en": "A back door"
-        },
-        {
-          "ko": "옆 건물 통로",
-          "en": "A side passage"
+          "ko": "번져 버린 서류",
+          "en": "Smudged papers"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e2"
+        "e1",
+        "e6",
+        "e5"
       ]
     },
     {
       "key": "papers",
       "ask": {
-        "ko": "'서류를 다 챙겨 왔다'는 말과 맞는 단서는?",
-        "en": "Which clue backs up 'she has all her papers'?"
+        "ko": "빗길에서 그녀는 서류를 어떻게 들고 왔을까?",
+        "en": "How did she carry her papers through the rain?"
       },
       "options": [
         {
-          "ko": "젖은 우산",
-          "en": "The wet umbrella"
+          "ko": "가방에 넣어서",
+          "en": "Tucked in a bag"
         },
         {
-          "ko": "정문 밖 빗줄기",
-          "en": "The rain outside"
+          "ko": "머리 위에 이고서",
+          "en": "Held over her head"
         },
         {
-          "ko": "무릎 위 파일",
-          "en": "Her folder"
+          "ko": "비닐에 싸서",
+          "en": "Wrapped in plastic"
         },
         {
-          "ko": "엘리베이터",
-          "en": "The elevators"
+          "ko": "품에 안고서",
+          "en": "Hugged to her chest"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
-        "e5"
+        "e5",
+        "e6"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 57,
-      "y": 70,
-      "r": 10,
+      "x": 53,
+      "y": 71,
+      "r": 11,
       "label": {
-        "ko": "흠뻑 젖은 바짓단과 뒤쪽에 튄 흙탕물",
-        "en": "Soaked trouser legs with muddy splashes on the back"
+        "ko": "무릎 아래로 흠뻑 젖고 흙탕물이 튄 바지, 진흙 묻은 발목과 로퍼",
+        "en": "Trousers soaked below the knee and spattered with mud; muddy ankles and loafers"
       }
     },
     {
       "id": "e2",
-      "x": 28,
-      "y": 74,
-      "r": 12,
+      "x": 32,
+      "y": 72,
+      "r": 11,
       "label": {
-        "ko": "유리 정문에서 그녀 자리까지 이어진 젖은 발자국",
-        "en": "Wet footprints from the glass front doors to her bench"
+        "ko": "회전문에서 카메라 쪽으로 이어진 젖은 발자국 — 울퉁불퉁한 밑창이라 그녀의 로퍼와 다르고, 그녀 자리로 가지도 않는다",
+        "en": "Wet prints from the revolving door toward the camera: chunky treads unlike her loafers, and they never reach her bench"
       }
     },
     {
       "id": "e3",
-      "x": 12,
-      "y": 39,
-      "r": 10,
+      "x": 14,
+      "y": 46,
+      "r": 9,
       "label": {
         "ko": "엘리베이터 앞 — 발자국 하나 없이 마른 바닥",
-        "en": "By the elevators — a dry floor, not one footprint"
+        "en": "By the elevators: a dry floor, not one footprint"
       }
     },
     {
       "id": "e4",
-      "x": 64,
-      "y": 83,
-      "r": 9,
+      "x": 68,
+      "y": 87,
+      "r": 8,
       "label": {
-        "ko": "물이 뚝뚝 떨어지는 우산과 그 아래 물웅덩이",
-        "en": "A dripping umbrella with a puddle under its tip"
+        "ko": "물방울이 맺힌 우산과 끝에 고인 물웅덩이",
+        "en": "A beaded umbrella with a puddle under its tip"
       }
     },
     {
       "id": "e5",
       "x": 60,
-      "y": 51,
+      "y": 52,
       "r": 8,
       "label": {
-        "ko": "무릎 위 투명 파일 속 서류",
-        "en": "Papers in a clear folder on her lap"
+        "ko": "무릎 위 파일 속 반듯하고 마른 서류 — 주변엔 가방도 비닐도 없다",
+        "en": "Flat, dry papers in a binder on her lap; no bag or plastic anywhere near her"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 74,
+      "y": 21,
+      "r": 7,
+      "label": {
+        "ko": "단정하게 마른 머리와 화장 — 재킷에도 빗방울 몇 개뿐",
+        "en": "Neat, dry hair and makeup; just a few raindrops on the jacket"
       }
     }
   ],
   "detective": {
-    "ko": "단정한 정장에 무릎 위 투명 파일 속 서류. 면접을 보러 왔고 서류도 챙겼다는 말은 사실이다. 그런데 지하 주차장에서 엘리베이터로 올라왔다면 젖은 발자국은 엘리베이터 쪽에서 시작했을 것이다. 엘리베이터 앞 바닥은 바싹 말라 있다. 젖은 발자국은 빗줄기가 보이는 유리 정문에서 시작해 그녀의 벤치까지 이어진다. 옆엔 물이 뚝뚝 떨어지는 우산, 그 아래 고인 물웅덩이. 머리와 상의는 멀쩡한데 바짓단은 흠뻑 젖었고 뒤쪽엔 흙탕물이 튀었다. 차에서 내리며 웅덩이 하나 밟은 정도가 아니다. 우산을 쓰고 빗길을 한참 걸어왔다. 면접 날 젖은 모습이 신경 쓰였던 걸까. 비를 한 방울도 안 맞았다는 말만 사실이 아니다.",
-    "en": "A neat suit and papers in a clear folder on her lap: she's here for an interview and she brought her papers — true. But if she'd come up from the garage by elevator, her wet footprints would start at the elevators. The floor there is bone dry. The prints start at the glass front doors, with rain pouring outside, and run straight to her bench. Beside her, a dripping umbrella and a puddle under its tip. Her hair and jacket are dry, but her trouser legs are soaked and splashed with mud up the back. That's not one puddle stepped in getting out of a car; that's a long walk in the rain under an umbrella. Maybe she didn't want to look like she'd been caught in the rain on interview day. Either way, 'not a drop of rain' is the one thing that isn't true."
+    "ko": "단정한 정장, 무릎 위엔 서류가 반듯하게 든 파일. 면접을 보러 왔고 서류도 챙겼다는 말은 사실이다. 그런데 바지는 무릎 아래가 흠뻑 젖었고, 발목과 로퍼엔 흙탕물이 튀었다. 지하 주차장이나 옆 건물 통로로 왔다면 이렇게 젖을 수 없고, 엘리베이터 앞 바닥은 발자국 하나 없이 말라 있다. 택시에서 내려 차양 밑 몇 걸음이었다면 무릎까지 흙탕물이 튈 리 없다. 빗속을 한참 걸어왔다. 그런데 머리와 화장은 멀쩡하고 재킷엔 빗방울 몇 개뿐이다. 우산 없이 걸었다면 머리부터 젖었을 것이다. 옆에 기대 둔 우산엔 물방울이 맺혔고 끝엔 물이 고였다. 방금 도착했다는 말은 맞고, 우산이 없었다는 말은 틀렸다. 서류를 머리에 이고 왔다면 다 젖었을 텐데 종이는 반듯하고, 주변엔 가방도 비닐도 없다. 우산 아래 품에 꼭 안고 왔다. 그러니 면접 전에 손볼 건 머리도, 재킷도, 서류도 아닌 바지와 구두다. 그럼 바닥의 젖은 발자국은? 울퉁불퉁한 밑창이라 그녀의 로퍼와 다르고, 그녀 자리로 가지도 않는다. 함께 온 사람의 것이 아니다. 엘리베이터 쪽도, 뒤쪽 벤치도 아니고, 회전문에서 카메라 쪽으로 곧장 이어진다. 이 사진을 찍은 사람이 방금 빗속에서 회전문으로 들어온 것이다. 벤치 위엔 물이 고였고 바닥엔 웅덩이가 생겼다. 로비를 적신 우산 주인이 되고 싶지 않았던 걸까. 우산을 안 가져왔다는 말만 사실이 아니다.",
+    "en": "A neat suit and a binder of papers on her lap: she's here for an interview and she brought her papers, both true. But her trousers are soaked below the knee, and her ankles and loafers are spattered with mud. Coming up from the garage or through a passage from next door wouldn't do that, and the floor by the elevators is bone dry. A few steps from a taxi under an awning wouldn't splash mud to her knees. She walked a long way in the rain. Yet her hair and makeup are perfect, and her jacket has only a few drops on it. Walking without an umbrella, her hair would have been the first thing soaked. The umbrella leaning beside her is beaded with water, with a puddle under its tip. 'I just got here' is true; 'I forgot my umbrella' is not. Papers held over her head would be soaked, yet these are flat and crisp, and there's no bag or plastic anywhere near her. She hugged them to her chest under the umbrella. So before the interview, it's not her hair, her jacket, or her papers that need fixing; it's her trousers and shoes. And the wet footprints on the floor? Chunky treads, unlike her loafers, and they never reach her bench, so they're not from anyone who came with her. They don't come from the elevators or the back bench either; they run straight from the revolving door toward the camera. Whoever took this photo just came in out of the rain. There's water pooled on the bench and a puddle on the floor. Maybe she didn't want to be the owner of the umbrella that soaked the lobby. Either way, 'I forgot my umbrella' is the one thing that isn't true."
   }
 }

@@ -4,164 +4,168 @@
   "type": "lie",
   "image": "img/030.webp",
   "title": {
-    "ko": "강아지가 범인이라는 누나",
-    "en": "Blame the Dog"
+    "ko": "깨진 화분",
+    "en": "The Broken Flowerpot"
   },
   "intro": {
-    "ko": "평일 오후 4시, 거실에 화분이 깨져 있다. 막 들어온 누나에게 무슨 일이냐고 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "4 p.m. on a weekday, and a flowerpot lies smashed in the living room. We asked the big sister who'd just walked in what happened. Here's what she said. Find the lie in the photo."
+    "ko": "평일 오후 4시, 거실 화분이 깨져 있다. 누나에게 무슨 일이냐고 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "4 p.m. on a weekday, and the living-room flowerpot lies smashed. We asked the older sister what happened. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "저 방금 학교에서 왔어요. 범인은 우리 강아지예요. 와 보니까 화분이 깨져 있더라고요. 동생은 아까부터 집에 있었고요.",
-    "en": "I just got home from school. Our dog did it. The pot was already broken when I walked in. My younger sibling's been home a while."
+    "ko": "저 방금 학교 끝나고 왔어요. 들어와서는 아무것도 안 건드렸어요. 강아지는 그때도 자기 침대에서 자고 있었고요. 동생은 아직 학원에서 수업 중이에요.",
+    "en": "I just got back from school. I haven't touched anything since I came in. The dog was asleep in its bed even then. My little sibling is still at tutoring."
   },
   "questions": [
     {
       "key": "lie",
       "ask": {
-        "ko": "사진과 맞지 않는 말은?",
-        "en": "Which statement doesn't match the photo?"
+        "ko": "누나의 말 중 거짓말은?",
+        "en": "Which of her claims is the lie?"
       },
       "options": [
         {
           "ko": "방금 학교에서 왔다",
-          "en": "She just got home"
+          "en": "She just got back from school"
         },
         {
-          "ko": "강아지가 깼다",
-          "en": "The dog did it"
+          "ko": "아무것도 안 건드렸다",
+          "en": "She hasn't touched anything"
         },
         {
-          "ko": "와 보니 깨져 있었다",
-          "en": "It was already broken"
+          "ko": "동생은 학원에 있다",
+          "en": "Her sibling is at tutoring"
         },
         {
-          "ko": "동생은 집에 있었다",
-          "en": "Her sibling was home"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "home",
-      "ask": {
-        "ko": "'방금 학교에서 왔다'는 말과 맞는 단서는?",
-        "en": "Which clue backs up 'just got home from school'?"
-      },
-      "options": [
-        {
-          "ko": "깨진 화분 조각",
-          "en": "The broken pot"
-        },
-        {
-          "ko": "흙 묻은 축구공",
-          "en": "The muddy ball"
-        },
-        {
-          "ko": "책가방과 열쇠",
-          "en": "Bag and keys"
-        },
-        {
-          "ko": "잠든 강아지",
-          "en": "The sleeping dog"
+          "ko": "강아지는 자고 있었다",
+          "en": "The dog was asleep"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e5"
+        "e3",
+        "e4"
       ]
     },
     {
-      "key": "ball",
+      "key": "how",
       "ask": {
-        "ko": "축구공에 흙이 묻은 이유는?",
-        "en": "Why is the soccer ball covered in soil?"
+        "ko": "화분은 어떻게 깨졌을까?",
+        "en": "How did the pot get broken?"
       },
       "options": [
         {
-          "ko": "밖에서 차고 와서",
-          "en": "Kicked around outside"
+          "ko": "날아온 공에 맞아서",
+          "en": "A ball hit it"
         },
         {
-          "ko": "화분을 맞혀서",
-          "en": "It hit the pot"
+          "ko": "강아지가 뛰어올라 쳐서",
+          "en": "The dog jumped up at it"
         },
         {
-          "ko": "강아지가 굴려서",
-          "en": "The dog rolled it"
+          "ko": "누나 가방에 부딪혀서",
+          "en": "The sister's bag knocked it"
         },
         {
-          "ko": "원래 더러워서",
-          "en": "It was always dirty"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "culprit",
-      "ask": {
-        "ko": "진짜 범인은 누구일까?",
-        "en": "Who really did it?"
-      },
-      "options": [
-        {
-          "ko": "집고양이",
-          "en": "The cat"
-        },
-        {
-          "ko": "창문 바람",
-          "en": "The wind"
-        },
-        {
-          "ko": "누나 자신",
-          "en": "The sister herself"
-        },
-        {
-          "ko": "어린 동생",
-          "en": "The younger sibling"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "hiding",
-      "ask": {
-        "ko": "범인은 지금 어디 있을까?",
-        "en": "Where is the culprit now?"
-      },
-      "options": [
-        {
-          "ko": "자기 방 안",
-          "en": "In their room"
-        },
-        {
-          "ko": "집 밖 놀이터",
-          "en": "At the playground"
-        },
-        {
-          "ko": "개 침대 옆",
-          "en": "By the dog bed"
-        },
-        {
-          "ko": "소파 뒤",
-          "en": "Behind the sofa"
+          "ko": "현관 바람에 넘어가서",
+          "en": "A draft from the door blew it over"
         }
       ],
       "answer": 0,
       "evidence": [
+        "e2",
+        "e6",
+        "e1"
+      ]
+    },
+    {
+      "key": "after",
+      "ask": {
+        "ko": "화분이 깨진 뒤 무슨 일이 있었을까?",
+        "en": "What happened after the pot broke?"
+      },
+      "options": [
+        {
+          "ko": "강아지가 흙을 헤집었다",
+          "en": "The dog dug through the soil"
+        },
+        {
+          "ko": "누가 흙을 밟고 방으로 갔다",
+          "en": "Someone walked through it to a bedroom"
+        },
+        {
+          "ko": "누나가 치우려다 그만뒀다",
+          "en": "The sister started cleaning, then quit"
+        },
+        {
+          "ko": "바람에 흙이 흩날렸다",
+          "en": "The wind scattered the soil"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
         "e3",
-        "e4"
+        "e1"
+      ]
+    },
+    {
+      "key": "spot",
+      "ask": {
+        "ko": "화분은 원래 어디에 놓여 있었을까?",
+        "en": "Where had the pot been standing?"
+      },
+      "options": [
+        {
+          "ko": "창턱 위",
+          "en": "On the windowsill"
+        },
+        {
+          "ko": "책장 위",
+          "en": "On the bookcase"
+        },
+        {
+          "ko": "현관 옆 장 위",
+          "en": "On the cabinet by the door"
+        },
+        {
+          "ko": "소파 앞 장 위",
+          "en": "On the cabinet by the sofa"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e6",
+        "e2"
+      ]
+    },
+    {
+      "key": "why",
+      "ask": {
+        "ko": "누나는 왜 그렇게 말했을까?",
+        "en": "Why did she say what she said?"
+      },
+      "options": [
+        {
+          "ko": "자기 실수를 감추려고",
+          "en": "To hide her own mistake"
+        },
+        {
+          "ko": "동생을 감싸 주려고",
+          "en": "To cover for her sibling"
+        },
+        {
+          "ko": "강아지가 혼날까 봐",
+          "en": "To keep the dog out of trouble"
+        },
+        {
+          "ko": "자기도 모르고 착각해서",
+          "en": "She honestly got it wrong"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e5",
+        "e4",
+        "e3"
       ]
     }
   ],
@@ -172,18 +176,18 @@
       "y": 75,
       "r": 10,
       "label": {
-        "ko": "흙 한 톨 안 묻은 채 자는 개 — 흙 위엔 발자국도 없다",
-        "en": "The dog asleep and spotless — no paw prints in the soil"
+        "ko": "자기 침대에서 곤히 자는 개 — 앞발에 얼룩은 있어도 쏟아진 흙 위엔 개 발자국이 하나도 없다",
+        "en": "The dog fast asleep in its bed — whatever is on its paws, there isn't one paw print in the spilled soil"
       }
     },
     {
       "id": "e2",
-      "x": 50,
-      "y": 79,
-      "r": 5,
+      "x": 48,
+      "y": 80,
+      "r": 9,
       "label": {
-        "ko": "깨진 화분 옆, 흙 묻은 축구공",
-        "en": "A soil-smeared soccer ball by the broken pot"
+        "ko": "깨진 토분 조각 한가운데 놓인 흙투성이 축구공",
+        "en": "A mud-caked soccer ball lying right among the shards"
       }
     },
     {
@@ -192,18 +196,18 @@
       "y": 63,
       "r": 8,
       "label": {
-        "ko": "방 쪽으로 이어진 작은 양말 발자국과 벗어 던진 아이 운동화",
-        "en": "Small sock prints heading toward the bedroom, and a child's kicked-off sneakers"
+        "ko": "흙에서 시작해 방으로 들어가기만 한 작은 맨발 자국과 벗어 던진 아이 운동화",
+        "en": "Small bare footprints that start in the soil and only lead into the bedroom, and a child's kicked-off sneakers"
       }
     },
     {
       "id": "e4",
-      "x": 56,
-      "y": 47,
+      "x": 58,
+      "y": 44,
       "r": 6,
       "label": {
-        "ko": "반쯤 열린 방문 — 안에 아이가 있다",
-        "en": "A half-open bedroom door — a child is inside"
+        "ko": "반쯤 열린 방문 너머 침대에 웅크린 아이",
+        "en": "Through the half-open door, a child curled up on the bed"
       }
     },
     {
@@ -212,13 +216,23 @@
       "y": 39,
       "r": 11,
       "label": {
-        "ko": "책가방을 멘 채 열쇠를 든 누나",
-        "en": "The sister, backpack still on, keys in hand"
+        "ko": "책가방을 멘 채 열쇠를 든 누나 — 동생 방 쪽을 가리키고 있다",
+        "en": "The sister, backpack on and keys in hand — pointing toward the bedroom"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 20,
+      "y": 61,
+      "r": 7,
+      "label": {
+        "ko": "소파 앞 장 위에 흩뿌려진 흙 — 화분은 여기서 떨어졌다",
+        "en": "Soil sprayed across the cabinet in front of the sofa — the pot fell from here"
       }
     }
   ],
   "detective": {
-    "ko": "책가방을 멘 채 손엔 열쇠, 현관문은 아직 열려 있다. 방금 학교에서 왔다는 말은 사실이고, 화분은 그전에 깨져 있었다. 하지만 개를 보라. 거실 반대편 침대에서 곤히 자고 있다. 하얀 털엔 흙 한 톨 묻지 않았고, 쏟아진 흙 위엔 발자국 하나 없다. 고양이도 바람도 아니다. 깨진 화분 바로 옆엔 흙 묻은 축구공이 있고, 흙 속에서 시작된 작은 양말 발자국이 반쯤 열린 방으로 이어진다. 복도엔 벗어 던진 아이 운동화. 누나는 신발을 신은 채 문 앞에 서 있으니 누나도 아니다. 집 안에서 공을 차던 동생이 화분을 깨고, 지금 저 방 안에 숨어 있다.",
-    "en": "Backpack still on, keys in hand, the front door still open: she really did just get home, and the pot was broken before she arrived. But look at the dog. It's fast asleep in its bed across the room. Its white fur doesn't have a speck of soil, and there isn't a single paw print in the spilled dirt. Not a cat, not the wind either. Right by the broken pot sits a soil-smeared soccer ball, and small sock prints lead from the dirt to a half-open bedroom door. A child's sneakers lie kicked off in the hall. The sister is still standing at the door in her shoes, so it wasn't her. A younger sibling was kicking a ball indoors, smashed the pot — and is hiding in that room right now."
+    "ko": "책가방을 멘 채 손엔 열쇠, 현관문은 아직 열려 있다. 방금 학교에서 왔다는 말은 맞다. 누나 구두는 깨끗하고 흙 위의 발자국은 작은 맨발뿐이니, 아무것도 안 건드렸다는 말도 맞다. 치우다 만 흔적도 없다. 강아지 앞발엔 얼룩이 있지만 쏟아진 흙 위에도, 개 침대까지도 개 발자국은 없다. 강아지는 정말 자고 있었다. 그런데 흙에서 시작된 작은 맨발 자국이 반쯤 열린 방으로 들어가기만 하고 나오지 않는다. 방문 앞엔 벗어 던진 아이 운동화, 침대엔 웅크린 아이. 동생은 학원이 아니라 저 방에 있다. 그게 거짓말이다. 소파 앞 장 위엔 흙이 흩뿌려져 있고 화분은 바로 그 아래 떨어져 있다. 창턱이나 책장, 현관 옆 장에서 떨어진 게 아니다. 현관에서 먼 자리니 바람도 아니고, 누나 가방이 닿을 거리도 아니다. 토분 조각 한가운데엔 흙투성이 축구공이 있다. 공에 맞아 떨어졌다. 공을 차던 동생은 흙을 밟고 방으로 숨었다. 누나는 바로 그 방을 가리키고 있다. 동생이 어디 있는지 몰라서 한 말이 아니다. 감싸 주는 중이다.",
+    "en": "Backpack on, keys in hand, front door still open: she really did just get back from school. Her school shoes are clean and the only prints in the soil are small bare feet, so she hasn't touched anything either, and nobody has started cleaning up. The dog's front paws are smudged, but there's no paw print in the spilled soil or on the way to its bed: it really was asleep. Yet small bare footprints start in the dirt and lead into the half-open bedroom — in, and never back out. A child's sneakers lie kicked off by the door, and a child is curled up on the bed. The younger sibling isn't at tutoring; they're in that room. That's the lie. Soil is sprayed across the cabinet by the sofa and the pot lies right below it, not under the windowsill, the bookcase or the cabinet by the door. That spot is far from the door, out of reach of any draft or of the sister's bag. In the middle of the shards sits a mud-caked soccer ball: a ball knocked it down. The little one was kicking a ball around, broke the pot and padded off through the soil to hide. And the sister is pointing straight at that room. She knows exactly where her sibling is. She's covering for them."
   }
 }

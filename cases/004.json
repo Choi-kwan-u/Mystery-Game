@@ -3,160 +3,162 @@
   "date": "2026-10-19",
   "image": "img/004.webp",
   "title": {
-    "ko": "새벽의 휴게소",
-    "en": "Rest Stop, 5 A.M."
+    "ko": "새벽 다섯 시",
+    "en": "Five in the Morning"
   },
   "intro": {
-    "ko": "새벽 5시, 미국 고속도로 트럭 휴게소의 식당 창가. 40대 남성이 혼자 수프를 먹고 있다. 이 사람은 누구일까?",
-    "en": "5 a.m., a window table at a truck-stop diner on an American highway. A man in his forties eats a bowl of soup alone. Who is he?"
+    "ko": "새벽 5시, 24시간 식당. 40대 남성이 혼자 앉아 늦은 저녁인지 이른 아침인지 모를 한 끼를 먹고 있다. 이 사람은 누구일까?",
+    "en": "5 a.m., an all-night restaurant. A man in his forties sits alone over a meal that could be a late dinner or an early breakfast. Who is he?"
   },
   "questions": [
     {
-      "key": "night",
+      "key": "who",
       "ask": {
-        "ko": "밤새 무엇을 했을까?",
-        "en": "What did he do last night?"
+        "ko": "그는 어떤 사람일까?",
+        "en": "Who is he?"
       },
       "options": [
         {
-          "ko": "방금 일어났다",
-          "en": "Just woke up"
+          "ko": "야간 근무를 마친 공장 근로자",
+          "en": "A factory worker just off the night shift"
         },
         {
-          "ko": "밤새 깨어 있었다",
-          "en": "Up all night"
+          "ko": "밤 버스에서 막 내린 여행객",
+          "en": "A traveler just off an overnight bus"
         },
         {
-          "ko": "밤새 술을 마셨다",
-          "en": "Drank all night"
+          "ko": "먼 길을 가는 화물차 기사",
+          "en": "A trucker on a long haul"
         },
         {
-          "ko": "푹 자고 나왔다",
-          "en": "Slept like a log"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4",
-        "e2"
-      ]
-    },
-    {
-      "key": "arm",
-      "ask": {
-        "ko": "왼팔만 짙게 탄 이유는?",
-        "en": "Why is only his left arm deeply tanned?"
-      },
-      "options": [
-        {
-          "ko": "왼손잡이라서",
-          "en": "He's left-handed"
-        },
-        {
-          "ko": "한쪽 소매만 짧아서",
-          "en": "One short sleeve"
-        },
-        {
-          "ko": "낚시를 자주 해서",
-          "en": "He fishes a lot"
-        },
-        {
-          "ko": "창가에 팔을 걸쳐서",
-          "en": "Arm resting out a window"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "seat",
-      "ask": {
-        "ko": "그는 왜 굳이 창가 자리에 앉았을까?",
-        "en": "Why did he pick the window seat?"
-      },
-      "options": [
-        {
-          "ko": "세워 둔 차를 보려고",
-          "en": "To watch his vehicle"
-        },
-        {
-          "ko": "경치를 보고 싶어서",
-          "en": "To enjoy the view"
-        },
-        {
-          "ko": "햇볕을 쬐고 싶어서",
-          "en": "To sit in the sunshine"
-        },
-        {
-          "ko": "자리가 거기뿐이라서",
-          "en": "Only seat left"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "next",
-      "ask": {
-        "ko": "밥을 먹고 나면 무엇을 할까?",
-        "en": "What will he do after eating?"
-      },
-      "options": [
-        {
-          "ko": "바로 다시 출발한다",
-          "en": "Hit the road again"
-        },
-        {
-          "ko": "집에 들어간다",
-          "en": "Head home"
-        },
-        {
-          "ko": "차에서 눈을 붙인다",
-          "en": "Catch a nap in his vehicle"
-        },
-        {
-          "ko": "짐을 내리러 간다",
-          "en": "Go unload cargo"
+          "ko": "집을 나와 차에서 지내는 회사원",
+          "en": "An office worker living out of his car"
         }
       ],
       "answer": 2,
       "evidence": [
+        "e1",
         "e5",
         "e3"
       ]
     },
     {
-      "key": "job",
+      "key": "sleep",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does he do?"
+        "ko": "요즘 그는 밤에 어디서 잘까?",
+        "en": "Where does he sleep these days?"
       },
       "options": [
         {
-          "ko": "시내 택배 기사",
-          "en": "Local delivery driver"
+          "ko": "자기 집",
+          "en": "At home"
         },
         {
-          "ko": "장거리 트럭 기사",
-          "en": "Long-haul trucker"
+          "ko": "차 안",
+          "en": "In a vehicle"
         },
         {
-          "ko": "현장 건설 노동자",
-          "en": "Construction worker"
+          "ko": "모텔",
+          "en": "In a motel"
         },
         {
-          "ko": "개인 택시 기사",
-          "en": "Taxi driver"
+          "ko": "친구 집",
+          "en": "At a friend's place"
         }
       ],
       "answer": 1,
       "evidence": [
+        "e5",
+        "e4"
+      ]
+    },
+    {
+      "key": "meal",
+      "ask": {
+        "ko": "지금 그에게 이 식사는 어떤 끼니일까?",
+        "en": "What is this meal to him right now?"
+      },
+      "options": [
+        {
+          "ko": "막 일어나서 먹는 아침",
+          "en": "Breakfast right after waking up"
+        },
+        {
+          "ko": "일하다 잠깐 먹는 새참",
+          "en": "A quick bite in the middle of work"
+        },
+        {
+          "ko": "일을 마치고 먹는 저녁",
+          "en": "Dinner after finishing work"
+        },
+        {
+          "ko": "밤새 마신 뒤 먹는 해장",
+          "en": "Something to settle a night of drinking"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e1"
+      ]
+    },
+    {
+      "key": "hours",
+      "ask": {
+        "ko": "그는 주로 언제 일할까?",
+        "en": "When does he mostly work?"
+      },
+      "options": [
+        {
+          "ko": "정해진 때 없이",
+          "en": "No fixed hours"
+        },
+        {
+          "ko": "새벽에만",
+          "en": "Only in the small hours"
+        },
+        {
+          "ko": "주로 밤에",
+          "en": "Mostly at night"
+        },
+        {
+          "ko": "주로 낮에",
+          "en": "Mostly in the daytime"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
         "e1",
-        "e2",
+        "e2"
+      ]
+    },
+    {
+      "key": "country",
+      "ask": {
+        "ko": "이곳은 어느 나라일까?",
+        "en": "Which country is this?"
+      },
+      "options": [
+        {
+          "ko": "독일",
+          "en": "Germany"
+        },
+        {
+          "ko": "일본",
+          "en": "Japan"
+        },
+        {
+          "ko": "호주",
+          "en": "Australia"
+        },
+        {
+          "ko": "미국",
+          "en": "The US"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
         "e3"
       ]
     }
@@ -168,18 +170,18 @@
       "y": 69,
       "r": 8,
       "label": {
-        "ko": "왼팔만 짙게 탄 팔뚝 — 오른팔은 하얗다",
-        "en": "Only his left forearm is deeply tanned — the right one is pale"
+        "ko": "소매 선 아래로 짙게 그을린 왼팔 — 오랜 세월 낮에 열린 운전석 창에 걸쳐 온 팔이다. 왼쪽이 운전석인 나라다",
+        "en": "The left arm, deeply tanned below the sleeve line — years of daytime driving with it on the open driver's window. The driver's seat is on the left"
       }
     },
     {
       "id": "e2",
-      "x": 18,
-      "y": 84,
-      "r": 13,
+      "x": 31,
+      "y": 76,
+      "r": 8,
       "label": {
-        "ko": "1리터 보온병과 빈 에너지 음료 캔 두 개",
-        "en": "A one-liter thermos and two empty energy drink cans"
+        "ko": "숟가락을 든 오른팔은 하얗다 — 햇볕을 받는 건 창 쪽 한 팔뿐",
+        "en": "The right arm holding the spoon is pale — only the window-side arm gets the sun"
       }
     },
     {
@@ -188,33 +190,33 @@
       "y": 37,
       "r": 12,
       "label": {
-        "ko": "창밖 주차장에 줄지어 선 대형 트레일러",
-        "en": "Semi-trailers lined up in the lot outside"
+        "ko": "창밖 주차장에 줄지어 선 대형 트레일러 트럭 — 보닛이 앞으로 길게 나온 형태라 유럽·일본의 평면 캡 트럭이 아니다. 버스는 없다",
+        "en": "Big rigs lined up in the lot — long-nosed cabs, not the flat-front trucks of Europe or Japan. No bus anywhere"
       }
     },
     {
       "id": "e4",
-      "x": 55,
-      "y": 45,
-      "r": 8,
+      "x": 11,
+      "y": 76,
+      "r": 10,
       "label": {
-        "ko": "충혈된 눈",
-        "en": "Bloodshot eyes"
+        "ko": "찌그러지고 긁힌 1리터 보온병 — 몇 년을 길에서 굴린 물건",
+        "en": "A dented, scratched one-liter thermos — gear that has spent years on the road"
       }
     },
     {
       "id": "e5",
-      "x": 38,
-      "y": 45,
-      "r": 8,
+      "x": 51,
+      "y": 42,
+      "r": 14,
       "label": {
-        "ko": "목에 건 목베개와 이마에 올린 수면 안대",
-        "en": "A neck pillow, and a sleep mask pushed up on his forehead"
+        "ko": "이마에 밀어 올린 수면 안대, 아직 벗지 않은 목베개, 눌린 채 뻗친 머리와 부은 눈 — 좌석에 기대 자다 방금 깬 사람",
+        "en": "A sleep mask pushed up onto his forehead, a neck pillow still on, bed-flattened hair and puffy eyes — someone who just woke from sleeping sitting up"
       }
     }
   ],
   "detective": {
-    "ko": "오른팔은 하얀데 왼팔만 구릿빛이다. 운전석 창가에 팔을 걸치고 수천 시간을 달린 사람의 팔이다. 택시 기사도 그렇겠지만, 지금은 새벽 5시의 고속도로 휴게소다. 창밖엔 트레일러가 줄지어 서 있고, 테이블엔 1리터짜리 보온병이 놓여 있다 — 시내를 도는 사람이 아니라 몇백 킬로미터를 가는 사람이다. 충혈된 눈과 빈 에너지 음료 캔 두 개는 그가 밤새 달려왔다는 뜻이다. 그리고 텅 빈 식당에서 굳이 창가에 앉았다. 새벽 5시라 볼 경치도 햇볕도 없는데 — 창밖에 세워 둔 자기 트럭에서 눈을 떼지 않으려는 것이다. 그리고 목에 건 목베개와 이마 위의 안대. 밥을 먹고 나면 트럭 침대칸에서 눈을 붙일 것이다.",
-    "en": "His right arm is pale; his left is bronze. That's the arm that rests on the driver's-side window for thousands of hours. A cab driver might have the same tan — but this is a highway rest stop at 5 a.m. There are semi-trailers lined up outside and a one-liter thermos on the table: this man doesn't circle a city, he crosses the country. Bloodshot eyes and two empty energy drinks say he drove through the night. And in an empty diner, he took the window seat. At 5 a.m. there's no view and no sun — he just wants to keep an eye on his rig. And the neck pillow and the sleep mask on his forehead? Once he finishes his soup, he's climbing into the sleeper cab."
+    "ko": "오른팔은 하얀데 왼팔만 소매 선 아래로 구릿빛이다. 공장 야간조라면 어느 팔도 타지 않고, 차에서 며칠 지낸 회사원이 이렇게 깊게 탈 리도 없다. 몇 년을 열린 창에 걸쳐 온 운전석의 팔이다. 그 팔이 왼쪽이니 운전석은 왼쪽, 일본과 호주는 아니다. 창밖에는 보닛이 긴 트럭들이 줄지어 섰다. 평면 캡을 쓰는 독일도 아니다. 미국이다. 버스는 없고, 찌그러진 보온병은 길에서 몇 년을 굴렀다. 밤 버스 여행객도 아니다. 먼 길을 가는 화물차 기사다. 안대는 이마에 밀려 올라가 있고 목베개는 아직 목에 있다. 머리는 눌린 채 뻗쳤고 눈은 부어 있다. 밤새 일하다 들른 사람도, 밤새 마신 사람도 안대를 쓴 채 있지는 않는다. 방금 좌석에 기대 자다 깬 사람이다. 그러니 이 식사는 일어나자마자 먹는 아침이고, 요즘 그가 자는 곳은 침대가 아니라 차 안이다. 그리고 햇볕에 저렇게 탄 팔은 그가 낮에 달린다는 뜻이다. 밤 운전이 아니라, 해 뜨기 전에 깨어 종일 달리는 사람이다.",
+    "en": "His right arm is pale; his left is bronze below the sleeve line. A factory night-shift worker tans neither arm, and an office worker who has slept in his car for a few days does not tan this deep. This is a driver's arm, resting on an open window for years. It is the left arm, so the driver's seat is on the left: not Japan, not Australia. Outside, the lot is lined with long-nosed trucks, so not Germany with its flat-front cabs either. The US. There is no bus, and the dented thermos has spent years on the road, so he is no overnight-bus traveler. He is a trucker on a long haul. The sleep mask is pushed up onto his forehead and the neck pillow is still on. His hair is flattened and sticking up, his eyes puffy. Nobody coming off a night of work, or a night of drinking, sits there with a sleep mask on. He just woke from sleeping sitting up. So this meal is breakfast straight out of sleep, and these days he sleeps in his cab, not in a bed. And an arm tanned like that means he drives in daylight: not a night driver, but a man who wakes before sunrise and drives all day."
   }
 }

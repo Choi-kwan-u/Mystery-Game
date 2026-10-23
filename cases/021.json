@@ -4,36 +4,128 @@
   "type": "scene",
   "image": "img/021.webp",
   "title": {
-    "ko": "짐을 싸다 만 방",
-    "en": "Packing Interrupted"
+    "ko": "금요일 밤의 침실",
+    "en": "Friday Night Bedroom"
   },
   "intro": {
-    "ko": "금요일 밤, 침대 위에 가방이 열려 있는 방. 여기서 무슨 일이 있었을까?",
-    "en": "Friday night, a bedroom with a suitcase open on the bed. What's going on here?"
+    "ko": "금요일 밤, 어느 집 침실. 방 주인은 잠깐 자리를 비웠다. 여기서 무슨 일이 벌어지고 있을까?",
+    "en": "Friday night, a bedroom in someone's home. Its owner has stepped out for a moment. What's going on here?"
   },
   "questions": [
     {
-      "key": "event",
+      "key": "purpose",
       "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What's going on here?"
+        "ko": "방 주인은 무엇을 준비하고 있을까?",
+        "en": "What is the room's owner getting ready for?"
       },
       "options": [
         {
-          "ko": "이사 짐을 싸는 중",
-          "en": "Packing to move"
+          "ko": "바다 여행",
+          "en": "A beach trip"
         },
         {
-          "ko": "도둑이 들어 뒤졌다",
-          "en": "A burglary"
+          "ko": "이사",
+          "en": "A move"
         },
         {
-          "ko": "여행 짐을 싸는 중",
-          "en": "Packing for a vacation"
+          "ko": "출장",
+          "en": "A business trip"
         },
         {
-          "ko": "출장 짐을 싸는 중",
-          "en": "Packing for business"
+          "ko": "아이 캠프",
+          "en": "Sending a kid to camp"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3",
+        "e2",
+        "e1"
+      ]
+    },
+    {
+      "key": "dest",
+      "ask": {
+        "ko": "목적지는 어디일까?",
+        "en": "What is the destination?"
+      },
+      "options": [
+        {
+          "ko": "이웃 도시",
+          "en": "A nearby city"
+        },
+        {
+          "ko": "다른 지방",
+          "en": "Another region"
+        },
+        {
+          "ko": "국내 섬",
+          "en": "An island off the coast"
+        },
+        {
+          "ko": "다른 나라",
+          "en": "Another country"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e6"
+      ]
+    },
+    {
+      "key": "who",
+      "ask": {
+        "ko": "이 짐을 챙겨 떠나는 사람은 누구일까?",
+        "en": "Who is this luggage for?"
+      },
+      "options": [
+        {
+          "ko": "남자 어른 혼자",
+          "en": "A man on his own"
+        },
+        {
+          "ko": "여자 어른과 아이",
+          "en": "A woman and a child"
+        },
+        {
+          "ko": "남자 어른과 아이",
+          "en": "A man and a child"
+        },
+        {
+          "ko": "여자 어른 혼자",
+          "en": "A woman on her own"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e3",
+        "e6"
+      ]
+    },
+    {
+      "key": "stage",
+      "ask": {
+        "ko": "짐 싸기는 어디까지 왔을까?",
+        "en": "How far along is the packing?"
+      },
+      "options": [
+        {
+          "ko": "가방을 펴 놓기만 했다",
+          "en": "The bag is open but still empty"
+        },
+        {
+          "ko": "작은 소지품만 넣었다",
+          "en": "Only small items are in"
+        },
+        {
+          "ko": "옷가지만 넣었다",
+          "en": "Only clothes are in"
+        },
+        {
+          "ko": "다 넣고 잠그기만 남았다",
+          "en": "Everything is in; it just needs zipping"
         }
       ],
       "answer": 2,
@@ -44,145 +136,56 @@
       ]
     },
     {
-      "key": "where",
+      "key": "smooth",
       "ask": {
-        "ko": "어디로 떠날까?",
-        "en": "Where are they going?"
+        "ko": "짐 싸기는 순조로울까?",
+        "en": "Is the packing going smoothly?"
       },
       "options": [
         {
-          "ko": "남쪽 바닷가",
-          "en": "A beach"
+          "ko": "순조롭다, 거의 다 쌌다",
+          "en": "Yes, it's nearly done"
         },
         {
-          "ko": "겨울 스키장",
-          "en": "A ski resort"
+          "ko": "가방이 작아 애먹는 중이다",
+          "en": "No, the bag is too small"
         },
         {
-          "ko": "출장지 호텔",
-          "en": "A business hotel"
+          "ko": "급해서 마구 쑤셔 넣고 있다",
+          "en": "No, things are being stuffed in a hurry"
         },
         {
-          "ko": "산속 캠핑장",
-          "en": "A mountain campsite"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "search",
-      "ask": {
-        "ko": "주인은 지금 무엇을 찾고 있을까?",
-        "en": "What is the owner looking for right now?"
-      },
-      "options": [
-        {
-          "ko": "여권",
-          "en": "Their passport"
-        },
-        {
-          "ko": "양말",
-          "en": "Socks"
-        },
-        {
-          "ko": "충전기",
-          "en": "Charger"
-        },
-        {
-          "ko": "선글라스",
-          "en": "Sunglasses"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5",
-        "e4"
-      ]
-    },
-    {
-      "key": "how",
-      "ask": {
-        "ko": "무엇을 타고 갈까?",
-        "en": "How will they travel?"
-      },
-      "options": [
-        {
-          "ko": "배",
-          "en": "By ship"
-        },
-        {
-          "ko": "고속버스",
-          "en": "By coach"
-        },
-        {
-          "ko": "자기 차",
-          "en": "By car"
-        },
-        {
-          "ko": "비행기",
-          "en": "By plane"
+          "ko": "무언가를 못 찾아 멈춰 있다",
+          "en": "No, something can't be found"
         }
       ],
       "answer": 3,
       "evidence": [
+        "e4",
         "e5",
         "e1"
-      ]
-    },
-    {
-      "key": "with",
-      "ask": {
-        "ko": "누구와 함께 갈까?",
-        "en": "Who's going with them?"
-      },
-      "options": [
-        {
-          "ko": "혼자",
-          "en": "No one"
-        },
-        {
-          "ko": "친구들과",
-          "en": "Some friends"
-        },
-        {
-          "ko": "아이와 함께",
-          "en": "Their kid"
-        },
-        {
-          "ko": "회사 동료와",
-          "en": "Coworkers"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e2",
-        "e3"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 65,
-      "y": 47,
-      "r": 12,
+      "x": 58,
+      "y": 48,
+      "r": 11,
       "label": {
-        "ko": "침대 위 반쯤 싼 여행 가방과 목베개",
-        "en": "A half-packed suitcase and a travel neck pillow"
+        "ko": "반쯤 찬 가방 속 돌돌 만 옷가지들 — 뚜껑 쪽은 아직 텅 비어 있다",
+        "en": "Rolled clothes fill half the suitcase; the lid side is still empty"
       }
     },
     {
       "id": "e2",
-      "x": 71,
-      "y": 62,
-      "r": 9,
+      "x": 72,
+      "y": 61,
+      "r": 11,
       "label": {
-        "ko": "어른 수영복 옆의 아주 작은 아이 수영복과 선크림",
-        "en": "A tiny child's swimsuit beside an adult one, and sunscreen"
+        "ko": "침대 위의 수영복 두 벌 — 어른 여자 것과 아이 것 — 그리고 선크림",
+        "en": "Two swimsuits on the bed, a grown woman's and a small child's, plus sunscreen"
       }
     },
     {
@@ -191,18 +194,18 @@
       "y": 49,
       "r": 11,
       "label": {
-        "ko": "의자 위의 오리발과 스노클 마스크 두 개 — 하나는 분홍색 아이용",
-        "en": "Fins and two snorkel masks on the chair — one small and pink"
+        "ko": "의자 위의 어른용 오리발 한 켤레와 작은 스노클 마스크 두 개",
+        "en": "Adult-sized fins and two small snorkel masks on the chair"
       }
     },
     {
       "id": "e4",
-      "x": 35,
-      "y": 36,
-      "r": 9,
+      "x": 42,
+      "y": 41,
+      "r": 11,
       "label": {
-        "ko": "맨 위 칸만 활짝 열려 헤집어진 서랍장",
-        "en": "Only the top drawer pulled out and rummaged"
+        "ko": "맨 위 칸만 열어젖혀 옷을 쏟아 낸 서랍장 — 옷장 문은 닫혀 있고 바닥에도 옷이 널렸다",
+        "en": "Only the top drawer yanked open, clothes spilling out and strewn on the floor; the closet stays shut"
       }
     },
     {
@@ -211,13 +214,23 @@
       "y": 79,
       "r": 8,
       "label": {
-        "ko": "협탁 위에 펼쳐진 텅 빈 여권 지갑",
-        "en": "An open, empty passport cover on the nightstand"
+        "ko": "협탁 위에 펼쳐진 텅 빈 가죽 여권 지갑",
+        "en": "An empty leather passport holder lying open on the nightstand"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 77,
+      "y": 54,
+      "r": 6,
+      "label": {
+        "ko": "가방 옆의 목베개",
+        "en": "A travel neck pillow beside the suitcase"
       }
     }
   ],
   "detective": {
-    "ko": "침대 위에 가방이 열려 있고 여름옷이 반쯤 들어 있다. 서랍장은 맨 위 칸만 헤집어졌다. 도둑이라면 서랍을 전부 뒤졌을 테고, 이사라면 옷을 상자에 담았을 것이다. 가방 옆엔 수영복과 선크림, 의자엔 오리발과 스노클 마스크. 출장 가방에 오리발을 넣는 사람은 없다. 바닷가로 떠나는 휴가다. 그런데 수영복 하나는 아주 작고, 마스크 하나는 분홍색 아이용이다. 아이와 함께 가는 여행이다. 협탁 위엔 여권 지갑이 펼쳐진 채 텅 비어 있다. 여권이 있어야 하는 해외, 가방 옆엔 목베개 — 비행기다. 그리고 맨 위 서랍만 뒤진 이유. 여권은 보통 거기 둔다. 지금 주인은 여권을 찾고 있다.",
-    "en": "An open suitcase on the bed, half full of summer clothes. Only the top drawer of the dresser has been rummaged. A burglar would have torn through every drawer; someone moving would be filling boxes. Next to the suitcase: swimsuits and sunscreen. On the chair: fins and snorkel masks. Nobody packs fins for a business trip — this is a beach vacation. One swimsuit is tiny, though, and one mask is a small pink child's mask: a child is coming along. On the nightstand, a passport cover lies open and empty. A trip that needs a passport, with a neck pillow beside the suitcase — they're flying. And why only the top drawer? That's where passports usually live. Right now, the owner is hunting for the passport."
+    "ko": "의자 위에 오리발과 스노클 마스크, 침대 위에 수영복 두 벌과 선크림. 상자 하나 없으니 이사가 아니고, 출장 가방에 오리발을 넣는 사람도 없다. 바닷속을 들여다보러 가는 여행이다. 수영복은 어른 여자 것 하나, 아이 것 하나. 마스크도 작은 것 둘인데 오리발은 어른 발 크기다. 아이 혼자 캠프에 보내는 짐이 아니라, 어른 여자와 아이가 함께 떠나는 짐이다. 협탁에는 가죽 여권 지갑이 펼쳐져 있고 가방 옆엔 목베개. 여권이 필요한 먼 길이니 이웃 도시도, 국내 섬도 아니다. 다른 나라다. 가방 안에는 돌돌 만 옷가지만 반쯤 들었고 뚜껑 쪽은 텅 비었다. 수영복도 장비도 아직 밖에 있으니 옷을 넣는 단계다. 그런데 서랍장 맨 위 칸은 열어젖혀져 옷이 쏟아졌고 바닥에도 옷이 널렸다. 가방 속은 저렇게 가지런한데 말이다. 그리고 여권 지갑이 비어 있다. 짐을 싸다 말고 여권을 찾아 나선 것이다. 가방이 작아서도, 서둘러서도 아니다.",
+    "en": "Fins and snorkel masks on the chair; two swimsuits and sunscreen on the bed. No boxes, so this is no move, and nobody packs fins for a business trip. They are going to look under the sea. One swimsuit is a grown woman's, the other a small child's. Both masks are small, yet the fins are adult-sized. This is no child's bag for camp: a woman and a child are leaving together. On the nightstand lies an open leather passport holder; beside the suitcase, a neck pillow. A long trip that needs a passport, so not a nearby city, not an island off the coast. Another country. Inside the bag, only rolled clothes fill half the space, and the lid side is empty. Swimsuits and gear are still out, so clothes are going in now. Yet the top drawer has been yanked open, clothes spilling out and strewn across the floor, while the bag itself is so tidy. And the passport holder is empty. Packing stopped for a passport hunt. Not a bag too small, not a rush."
   }
 }

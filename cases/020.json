@@ -4,7 +4,7 @@
   "type": "scene",
   "image": "img/020.webp",
   "title": {
-    "ko": "빗물 고인 현관",
+    "ko": "비 오는 날의 현관",
     "en": "Rainy Day Entryway"
   },
   "intro": {
@@ -15,28 +15,28 @@
     {
       "key": "event",
       "ask": {
-        "ko": "방금 여기서 무슨 일이 있었을까?",
-        "en": "What just happened here?"
+        "ko": "방금 무슨 일이 있었을까?",
+        "en": "What just happened?"
       },
       "options": [
         {
-          "ko": "택배 기사가 다녀갔다",
-          "en": "A delivery came"
+          "ko": "개가 혼자 나갔다 들어왔다",
+          "en": "The dog went out alone and came back"
         },
         {
-          "ko": "도둑이 들었다 나갔다",
-          "en": "A burglar came and went"
+          "ko": "주인이 개와 산책하고 왔다",
+          "en": "The owner came back from walking the dog"
         },
         {
-          "ko": "아이가 하교해 왔다",
-          "en": "A kid came home from school"
+          "ko": "펫시터가 개를 두고 갔다",
+          "en": "A pet sitter dropped the dog off"
         },
         {
-          "ko": "산책하고 막 돌아왔다",
-          "en": "Back from a walk"
+          "ko": "도둑이 개에게 쫓겨났다",
+          "en": "A burglar was chased off by the dog"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
         "e2",
         "e3",
@@ -44,132 +44,136 @@
       ]
     },
     {
-      "key": "spray",
+      "key": "shake",
       "ask": {
-        "ko": "벽 아래쪽에 튄 흙탕물은 무엇 때문일까?",
-        "en": "What sprayed the mud low on the wall?"
+        "ko": "개는 어디에서 젖은 몸을 털었을까?",
+        "en": "Where did the dog shake itself off?"
       },
       "options": [
         {
-          "ko": "우산을 털어서",
-          "en": "Shaking the umbrella"
+          "ko": "현관문 바로 앞",
+          "en": "Right at the front door"
         },
         {
-          "ko": "개가 몸을 털어서",
-          "en": "A dog shaking off"
+          "ko": "우산 옆",
+          "en": "Next to the umbrella"
         },
         {
-          "ko": "지나가던 차가 튀겨서",
-          "en": "A passing car"
+          "ko": "오른쪽 벽 앞",
+          "en": "By the right-hand wall"
         },
         {
-          "ko": "걸레질하다 튀어서",
-          "en": "Mopping"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "towel",
-      "ask": {
-        "ko": "바닥의 수건은 왜 떨어져 있을까?",
-        "en": "Why is the towel on the floor?"
-      },
-      "options": [
-        {
-          "ko": "빨래를 널다 떨어뜨렸다",
-          "en": "Dropped from the laundry"
-        },
-        {
-          "ko": "바람에 날아왔다",
-          "en": "Blown in by the wind"
-        },
-        {
-          "ko": "개를 닦아 주려다 놓쳤다",
-          "en": "A missed dog rubdown"
-        },
-        {
-          "ko": "발 닦개로 깔아 뒀다",
-          "en": "Put down as a doormat"
+          "ko": "깔아 둔 수건 위",
+          "en": "On the towel on the floor"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e5"
+        "e4",
+        "e2"
+      ]
+    },
+    {
+      "key": "now",
+      "ask": {
+        "ko": "개는 지금 어디에 있을까?",
+        "en": "Where is the dog now?"
+      },
+      "options": [
+        {
+          "ko": "주인 품",
+          "en": "In the owner's arms"
+        },
+        {
+          "ko": "다시 바깥",
+          "en": "Back outside"
+        },
+        {
+          "ko": "오른쪽 옆방",
+          "en": "The side room on the right"
+        },
+        {
+          "ko": "복도 끝 방",
+          "en": "The room at the end of the hall"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5",
+        "e6"
+      ]
+    },
+    {
+      "key": "missed",
+      "ask": {
+        "ko": "이 현관에서 결국 하지 못한 일은?",
+        "en": "What never got done in this entryway?"
+      },
+      "options": [
+        {
+          "ko": "개 발 닦기",
+          "en": "Wiping the dog's paws"
+        },
+        {
+          "ko": "우산 접기",
+          "en": "Folding the umbrella"
+        },
+        {
+          "ko": "개 목줄 풀기",
+          "en": "Taking off the dog's leash"
+        },
+        {
+          "ko": "현관문 닫기",
+          "en": "Shutting the front door"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
+        "e3",
+        "e1"
       ]
     },
     {
       "key": "where",
       "ask": {
-        "ko": "지금 그들은 어디에 있을까?",
-        "en": "Where are they now?"
+        "ko": "개는 방금까지 어디에 있었을까?",
+        "en": "Where was the dog until just now?"
       },
       "options": [
         {
-          "ko": "욕실",
-          "en": "The bathroom"
+          "ko": "보도블록 동네 길",
+          "en": "Paved streets nearby"
         },
         {
-          "ko": "다시 밖에",
-          "en": "Back outside"
+          "ko": "흙길 공원",
+          "en": "A park with dirt paths"
         },
         {
-          "ko": "거실 소파",
-          "en": "The sofa"
+          "ko": "실내 애견 카페",
+          "en": "An indoor dog cafe"
         },
         {
-          "ko": "부엌",
-          "en": "The kitchen"
+          "ko": "동물병원",
+          "en": "The vet"
         }
       ],
-      "answer": 0,
-      "evidence": [
-        "e6"
-      ]
-    },
-    {
-      "key": "who",
-      "ask": {
-        "ko": "함께 나갔다 온 것은?",
-        "en": "Who came back with them?"
-      },
-      "options": [
-        {
-          "ko": "고양이",
-          "en": "A cat"
-        },
-        {
-          "ko": "큰 개",
-          "en": "A big, heavy dog"
-        },
-        {
-          "ko": "아이",
-          "en": "A child"
-        },
-        {
-          "ko": "작은 개",
-          "en": "A small dog"
-        }
-      ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
         "e2",
-        "e3"
+        "e4"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 22,
-      "y": 52,
-      "r": 10,
+      "x": 24,
+      "y": 65,
+      "r": 11,
       "label": {
-        "ko": "현관 옆에 세워 둔, 물이 뚝뚝 떨어지는 우산",
-        "en": "A dripping umbrella by the door"
+        "ko": "접힌 채 문 옆에 세워 둔 젖은 우산과 그 밑에 고인 물 — 우산 주인은 다시 나가지 않았다",
+        "en": "A wet, folded umbrella left by the door with a puddle beneath it: its owner hasn't gone back out"
       }
     },
     {
@@ -178,28 +182,28 @@
       "y": 83,
       "r": 13,
       "label": {
-        "ko": "나란히 이어진 진흙 발자국 — 사람 신발과 작은 개 발바닥",
-        "en": "Muddy prints side by side — shoes and small paws"
+        "ko": "문에서부터 나란히 들어온 큼직한 신발 자국과 흙투성이 개 발자국 — 걸음이 차분하고, 나간 자국은 없다",
+        "en": "Large boot prints and muddy paw prints entering side by side from the door; calm steps, and none leading out"
       }
     },
     {
       "id": "e3",
-      "x": 80,
+      "x": 81,
       "y": 23,
       "r": 9,
       "label": {
-        "ko": "벽 고리에 걸린 젖은 작은 하네스와 목줄",
-        "en": "A small wet harness and leash on a wall hook"
+        "ko": "벽 고리에 걸린, 물이 뚝뚝 떨어지는 하네스와 목줄",
+        "en": "A harness and leash dripping on the wall hook"
       }
     },
     {
       "id": "e4",
-      "x": 83,
-      "y": 73,
-      "r": 9,
+      "x": 86,
+      "y": 68,
+      "r": 11,
       "label": {
-        "ko": "무릎 높이 아래에만 부채꼴로 튄 흙탕물",
-        "en": "A fan of muddy spray on the wall, only below knee height"
+        "ko": "개 발자국이 한데 뭉친 자리 옆 벽에 무릎 아래로 부채꼴로 튄 흙탕물",
+        "en": "Mud sprayed in a low fan on the wall right where the paw prints bunch up"
       }
     },
     {
@@ -208,23 +212,23 @@
       "y": 58,
       "r": 9,
       "label": {
-        "ko": "개 발자국이 멈추지 않고 그대로 지나간 수건",
-        "en": "A towel the paw prints run straight across"
+        "ko": "깔아 둔 수건을 그냥 지나 계속 이어지는 흙 묻은 개 발자국 — 신발 자국은 여기서 끝난다",
+        "en": "Muddy paw prints cross the towel and keep going; the boot prints stop here"
       }
     },
     {
       "id": "e6",
-      "x": 50,
-      "y": 30,
-      "r": 8,
+      "x": 52,
+      "y": 44,
+      "r": 10,
       "label": {
-        "ko": "두 발자국이 향한, 불 켜진 욕실",
-        "en": "The lit bathroom where both trails lead"
+        "ko": "되돌아 나온 자국 없이 개 발자국만 이어지는 불 켜진 복도 끝 방 — 오른쪽 옆방 문은 닫혀 있다",
+        "en": "Only paw prints lead on to the lit room at the end, none come back; the side door on the right is shut"
       }
     }
   ],
   "detective": {
-    "ko": "현관 옆 우산에서 물이 뚝뚝 떨어진다. 방금 비를 뚫고 들어왔다. 바닥엔 진흙 발자국 두 줄 — 사람 신발과 작은 발바닥. 아이였다면 신발 자국이 두 줄 찍혔을 것이다. 벽 고리엔 젖은 작은 하네스와 목줄. 고양이는 비 오는 날 목줄 매고 산책하지 않는다. 작은 개다. 벽에 튄 흙탕물은 무릎 높이 아래에만 부채꼴로 퍼져 있다. 우산을 털었다면 더 높이, 우산 옆에 튀었을 것이다. 발바닥 자국이 뭉친 바로 그 자리에서 개가 몸을 부르르 털었다. 바닥의 수건 위로 개 발자국이 멈추지도 않고 지나갔다. 닦아 주려고 펼쳤는데, 개가 먼저 빠져나갔다. 두 발자국은 나란히 불 켜진 욕실로 들어간다. 지금 그 안에서 목욕 중이다.",
-    "en": "Water drips from the umbrella by the door; someone just came in out of the rain. Two muddy trails cross the floor — shoe prints and small paw prints. A child would have left a second set of shoe prints. On the hook hangs a small wet harness and leash, and cats don't go for leashed walks in the rain: it's a small dog. The muddy spray on the wall fans out only below knee height. A shaken umbrella would spray higher, right beside the umbrella. Where the paw prints bunch up, the dog shook itself off. The paw prints cross the towel on the floor without stopping — it was spread out for a rubdown, and the dog slipped past. Both trails lead side by side into the lit bathroom. Bath time is happening right now."
+    "ko": "현관문 유리에 빗방울이 맺혀 있다. 문 옆엔 젖은 우산이 접힌 채 서 있고 그 밑에 물이 고였다. 바닥엔 큼직한 신발 자국과 개 발자국이 문에서부터 나란히 들어온다. 개 혼자 나갔다 온 게 아니다. 사람이 함께였고, 벽 고리엔 물이 뚝뚝 떨어지는 하네스와 목줄이 걸려 있다. 줄을 매고 걸은 산책이다. 펫시터라면 개를 두고 다시 나갔을 텐데 나간 신발 자국이 없고 우산도 그대로 두고 갔다. 도둑이 쫓겨났다면 발자국이 어지럽게 문으로 되돌아갔을 것이다. 주인이 개와 산책하고 돌아왔다. 개 발자국이 오른쪽 벽 앞에서 한데 뭉치고, 바로 그 벽 아래쪽에 흙탕물이 부채꼴로 튀어 있다. 문 앞에도, 우산 옆에도, 수건 위에도 튄 자국은 없다. 개는 오른쪽 벽 앞에서 몸을 털었다. 주인은 우산을 접어 세우고 목줄도 풀어 걸었고 문도 닫았다. 수건까지 깔아 뒀지만 개는 그 위를 그냥 지나 흙발로 들어갔다. 발은 끝내 닦지 못했다. 신발 자국은 수건에서 끝나고 개 발자국만 복도 안쪽으로 이어진다. 되돌아 나온 자국은 없고 오른쪽 옆방 문은 닫혀 있다. 개는 지금 불 켜진 복도 끝 방에 있다. 장화와 발바닥, 벽까지 진흙이 두껍게 묻었다. 포장된 길이나 실내에선 이렇게 되지 않는다. 비 오는 흙길 공원을 걷고 왔다.",
+    "en": "Raindrops bead on the front door glass. A wet umbrella stands folded by the door over a puddle. Large boot prints and paw prints come in side by side from the door. The dog did not go out alone: someone walked with it, and a harness and leash hang dripping on the hook. This was a leashed walk. A pet sitter would have left again, but no boot prints lead out and the umbrella stayed behind. A fleeing burglar would leave a scramble of prints back to the door. The owner came back from walking the dog. The paw prints bunch up by the right-hand wall, and right there mud has sprayed in a low fan. There's no spray by the door, by the umbrella or on the towel. The dog shook itself off by the right-hand wall. The owner folded the umbrella, unhooked the leash and shut the door, even laid out a towel, but the dog walked straight over it with muddy feet. Its paws never got wiped. The boot prints stop at the towel; only the paw prints continue down the hall, and none come back. The side door on the right is shut. The dog is in the lit room at the end of the hall. Thick mud on the boots, the paws and the wall: paved streets or an indoor cafe would not do that. They walked dirt paths in a park in the rain."
   }
 }

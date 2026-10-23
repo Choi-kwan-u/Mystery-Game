@@ -4,172 +4,174 @@
   "type": "scene",
   "image": "img/023.webp",
   "title": {
-    "ko": "밤사이 다녀간 손님",
-    "en": "Visitors in the Night"
+    "ko": "아침 7시의 캠핑장",
+    "en": "Campsite at 7 a.m."
   },
   "intro": {
-    "ko": "아침 7시, 캐나다의 숲속 캠핑장. 텐트 앞이 엉망이다. 밤사이 여기서 무슨 일이 있었을까?",
-    "en": "7 a.m. at a forest campsite in Canada. The area in front of the tent is a mess. What happened here overnight?"
+    "ko": "캐나다 숲속의 캠핑장, 아침 7시. 밤사이 이곳에 손님이 다녀갔다.",
+    "en": "A forest campsite in Canada, 7 a.m. A visitor came by during the night."
   },
   "questions": [
     {
-      "key": "event",
+      "key": "who",
       "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
+        "ko": "밤사이 다녀간 손님은?",
+        "en": "Who was the overnight visitor?"
       },
       "options": [
         {
-          "ko": "도둑이 음식을 훔쳤다",
-          "en": "A thief took the food"
+          "ko": "흑곰",
+          "en": "A black bear"
         },
         {
-          "ko": "동물이 음식을 뒤졌다",
-          "en": "An animal raid"
+          "ko": "코요테",
+          "en": "A coyote"
         },
         {
-          "ko": "밤새 비바람이 쳤다",
-          "en": "A storm blew through"
+          "ko": "라쿤",
+          "en": "A raccoon"
         },
         {
-          "ko": "캠핑객끼리 싸웠다",
-          "en": "The campers fought"
+          "ko": "큰까마귀",
+          "en": "A raven"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e1",
         "e2",
         "e4"
       ]
     },
     {
-      "key": "when",
+      "key": "where",
       "ask": {
-        "ko": "언제 일어난 일일까?",
-        "en": "When did it happen?"
+        "ko": "손님은 결국 어디로 갔을까?",
+        "en": "Where did the visitor go in the end?"
       },
       "options": [
         {
-          "ko": "저녁 식사 때",
-          "en": "At dinner"
+          "ko": "텐트 뒤 숲으로 갔다",
+          "en": "Off into the woods behind the tent"
         },
         {
-          "ko": "해 뜬 직후",
-          "en": "Just after sunrise"
+          "ko": "왼쪽 덤불에 숨었다",
+          "en": "Into the bushes on the left"
         },
         {
-          "ko": "한밤중",
-          "en": "Late at night"
+          "ko": "훌쩍 날아가 버렸다",
+          "en": "Took off into the sky"
         },
         {
-          "ko": "어제 점심때",
-          "en": "Yesterday at lunch"
+          "ko": "오른쪽 큰 나무에 올랐다",
+          "en": "Up the big tree on the right"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "evidence": [
-        "e5",
-        "e3"
+        "e6",
+        "e5"
+      ]
+    },
+    {
+      "key": "fire",
+      "ask": {
+        "ko": "손님은 모닥불 자리에서 어떻게 했을까?",
+        "en": "What did the visitor do at the fire pit?"
+      },
+      "options": [
+        {
+          "ko": "재 위를 밟고 지나갔다",
+          "en": "Walked right across the ashes"
+        },
+        {
+          "ko": "재를 파헤쳤다",
+          "en": "Dug through the ashes"
+        },
+        {
+          "ko": "둘레 돌을 무너뜨렸다",
+          "en": "Knocked the stones over"
+        },
+        {
+          "ko": "근처에도 안 갔다",
+          "en": "Never went near it"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5"
       ]
     },
     {
       "key": "cooler",
       "ask": {
-        "ko": "아이스박스 뚜껑은 어떻게 열렸을까?",
-        "en": "How did the cooler lid get opened?"
+        "ko": "손님은 아이스박스를 어떻게 털었을까?",
+        "en": "How did the visitor raid the cooler?"
       },
       "options": [
         {
-          "ko": "곰이 부수고 열었다",
-          "en": "A bear smashed it"
+          "ko": "통째로 끌고 갔다",
+          "en": "Dragged it away"
         },
         {
-          "ko": "캠핑객이 덜 닫았다",
-          "en": "Left unlatched"
+          "ko": "손을 넣어 골라 꺼냈다",
+          "en": "Reached in and picked things out"
         },
         {
-          "ko": "앞발로 걸쇠를 풀었다",
-          "en": "Little paws on the latch"
+          "ko": "상자째 엎어 쏟았다",
+          "en": "Tipped it over"
         },
         {
-          "ko": "바람에 저절로 열렸다",
-          "en": "The wind blew it"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "gone",
-      "ask": {
-        "ko": "손님은 어디로 사라졌을까?",
-        "en": "Where did the visitor go?"
-      },
-      "options": [
-        {
-          "ko": "텐트 안으로",
-          "en": "Into the tent"
-        },
-        {
-          "ko": "나무 위로",
-          "en": "Up a tree"
-        },
-        {
-          "ko": "개울 쪽으로",
-          "en": "To the creek"
-        },
-        {
-          "ko": "차 밑으로",
-          "en": "Under the car"
+          "ko": "뚜껑을 쪼아 구멍 냈다",
+          "en": "Pecked a hole in the lid"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e6"
+        "e4",
+        "e1"
       ]
     },
     {
-      "key": "animal",
+      "key": "food",
       "ask": {
-        "ko": "어떤 동물이었을까?",
-        "en": "What animal was it?"
+        "ko": "손님이 먹어 치운 것은?",
+        "en": "What did the visitor eat?"
       },
       "options": [
         {
-          "ko": "곰",
-          "en": "A bear"
+          "ko": "아이스박스 속 날고기",
+          "en": "Raw meat from the cooler"
         },
         {
-          "ko": "여우",
-          "en": "A fox"
+          "ko": "봉지 과자와 바",
+          "en": "Bagged snacks and bars"
         },
         {
-          "ko": "들고양이",
-          "en": "A feral cat"
+          "ko": "모닥불에 남은 음식",
+          "en": "Leftovers in the fire pit"
         },
         {
-          "ko": "라쿤",
-          "en": "A raccoon"
+          "ko": "텐트 안의 간식",
+          "en": "Snacks inside the tent"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
-        "e2"
+        "e1",
+        "e4",
+        "e3"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 43,
-      "y": 61,
-      "r": 12,
+      "x": 45,
+      "y": 63,
+      "r": 11,
       "label": {
-        "ko": "찢어진 과자 봉지와 흩어진 쓰레기",
-        "en": "Torn snack bags and scattered wrappers"
+        "ko": "찢긴 과자·바 봉지와 흩어진 부스러기",
+        "en": "Torn snack and bar wrappers, crumbs everywhere"
       }
     },
     {
@@ -178,8 +180,8 @@
       "y": 87,
       "r": 10,
       "label": {
-        "ko": "진흙 위의 작은 손바닥 모양 발자국",
-        "en": "Small hand-shaped prints in the mud"
+        "ko": "진흙 위의 작은 손바닥 모양 발자국 — 다섯 손가락이 길다",
+        "en": "Small hand-shaped prints in the mud, five long fingers"
       }
     },
     {
@@ -188,43 +190,43 @@
       "y": 35,
       "r": 11,
       "label": {
-        "ko": "지퍼가 꼭 닫힌 텐트",
-        "en": "A tent zipped shut"
+        "ko": "지퍼가 닫힌 채 멀쩡한 텐트 — 근처엔 발자국도 없다",
+        "en": "The tent, zipped and untouched, with no prints near it"
       }
     },
     {
       "id": "e4",
-      "x": 13,
-      "y": 46,
-      "r": 10,
+      "x": 17,
+      "y": 48,
+      "r": 11,
       "label": {
-        "ko": "부서진 데 없이 뚜껑만 열린 아이스박스 — 뚜껑에 작은 진흙 손자국",
-        "en": "A cooler opened but not broken — tiny muddy handprints on the lid"
+        "ko": "뚜껑 안쪽의 작은 진흙 손자국 — 아이스박스는 멀쩡히 서 있고 포장 음식도 그대로",
+        "en": "Tiny muddy handprints inside the lid; the cooler stands intact, still full of packaged food"
       }
     },
     {
       "id": "e5",
-      "x": 73,
-      "y": 52,
-      "r": 10,
+      "x": 76,
+      "y": 58,
+      "r": 7,
       "label": {
-        "ko": "차갑게 식은 모닥불 재를 가로지른 발자국",
-        "en": "Prints running straight through the cold ashes"
+        "ko": "식은 재 한가운데를 곧장 밟고 지나간 발자국 — 파헤친 자국도, 무너진 돌도 없다",
+        "en": "Prints straight across the cold ashes; nothing dug up, no stones knocked over"
       }
     },
     {
       "id": "e6",
-      "x": 87,
-      "y": 76,
-      "r": 10,
+      "x": 82,
+      "y": 81,
+      "r": 7,
       "label": {
-        "ko": "나무 밑동에서 뚝 끊긴 발자국",
-        "en": "The prints end at the foot of a tree"
+        "ko": "큰 나무 밑동에서 뚝 끊긴 발자국과 긁어 올린 진흙",
+        "en": "The prints stop at the foot of the big tree, mud clawed up its base"
       }
     }
   ],
   "detective": {
-    "ko": "과자 봉지가 찢기고 아이스박스가 열려 있다. 도둑이라면 아이스박스째 들고 갔을 것이다. 남은 건 진흙 위의 작은 발자국 — 다섯 손가락을 쫙 편 아이 손바닥 같은 모양이다. 곰 발자국은 이보다 훨씬 크고, 여우나 고양이는 동그란 발바닥에 발가락 네 개가 찍힌다. 손 모양 발자국은 라쿤이다. 아이스박스는 부서진 데가 없다. 걸쇠만 풀렸고, 하얀 뚜껑엔 작은 진흙 손자국이 찍혀 있다. 캠핑객이 덜 닫은 거라면 뚜껑에 손자국이 남을 일이 없다. 라쿤은 앞발로 걸쇠를 열 줄 안다. 발자국은 모닥불 재 한가운데를 지나간다. 불이 다 꺼진 뒤라는 뜻이고, 텐트 지퍼는 꼭 닫혀 있다 — 모두 잠든 한밤중이었다. 그리고 발자국은 커다란 나무 밑동에서 뚝 끊긴다. 손님은 나무 위로 올라갔다.",
-    "en": "Snack bags torn open, the cooler open. A thief would have just carried the whole cooler off. What's left are small prints in the mud — like a child's hand with five spread fingers. A bear's print would be far bigger, and foxes and cats leave round pads with four toes. Hand-shaped prints mean a raccoon. The cooler isn't broken; only the latch is undone, and there are tiny muddy handprints on the white lid. If the campers had just left it loose, there'd be no handprints. Raccoons can work a latch with their paws. The prints run right through the campfire ashes, so the fire was already out — and the tent is zipped shut. Everyone was asleep; it was the middle of the night. Finally, the prints stop dead at the foot of a big tree. The visitor went up."
+    "ko": "아이스박스 뚜껑 안쪽에 작은 진흙 손자국이 찍혀 있다. 다섯 손가락을 쫙 편 손 모양 — 진흙 위 발자국도 똑같다. 흑곰이라면 발자국이 과자 봉지보다 훨씬 크고, 아이스박스는 끌려가고 없었을 것이다. 코요테는 발가락이 넷인 개 발자국을, 큰까마귀는 세 갈래 새 발자국을 남긴다. 손 모양 발자국은 라쿤이다. 아이스박스는 제자리에 멀쩡히 서 있고 안엔 포장 음식이 아직 그득하다. 엎지도, 쪼지도, 끌고 가지도 않았다. 손을 넣어 골라 꺼냈다. 찢어 놓은 건 과자와 바 봉지뿐이다. 날고기 포장은 아이스박스 안에 그대로 있고, 텐트는 지퍼가 닫힌 채 멀쩡하다. 발자국은 모닥불 재 한가운데를 곧장 밟고 지나간다. 파헤친 자국도, 무너진 돌도 없다. 불은 이미 식어 있었고, 재 속엔 노릴 것도 없었다. 그리고 발자국은 오른쪽 큰 나무 밑동에서 뚝 끊긴다. 밑동엔 진흙을 긁어 올린 자국. 손님은 숲이나 덤불로 달아나지 않았다. 나무 위로 올라갔다.",
+    "en": "Inside the cooler lid: tiny muddy handprints. Five fingers spread wide like a hand, and the prints in the mud look exactly the same. A black bear's prints would dwarf the snack bags, and the cooler would have been dragged off. A coyote leaves a dog's four-toed print; a raven leaves three-pronged bird tracks. Hand-shaped prints mean a raccoon. The cooler still stands in place, undamaged, and it's still packed with food. Not tipped, not pecked, not dragged: the visitor reached in and picked things out. Only snack and bar wrappers got torn open. The raw meat is still sealed in the cooler, and the tent is zipped and untouched. The prints walk straight across the middle of the fire pit. Nothing dug up, no stones knocked over. The fire was already cold, and there was nothing in the ashes worth digging for. Finally, the prints stop dead at the foot of the big tree on the right, mud clawed up its base. The visitor didn't slip off into the woods or the bushes. It went up."
   }
 }

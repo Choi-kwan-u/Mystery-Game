@@ -4,103 +4,43 @@
   "type": "scene",
   "image": "img/018.webp",
   "title": {
-    "ko": "파티가 끝난 거실",
+    "ko": "파티가 끝난 다음 날",
     "en": "The Morning After the Party"
   },
   "intro": {
-    "ko": "일요일 아침 9시, 어수선한 거실. 여기서 무슨 일이 있었을까?",
-    "en": "9 a.m. on a Sunday, a messy living room. What happened here?"
+    "ko": "일요일 아침 9시, 어제 파티가 열린 곳. 여기서 무슨 일이 있었을까?",
+    "en": "9 a.m. on a Sunday, the place where a party was held yesterday. What happened here?"
   },
   "questions": [
     {
-      "key": "event",
+      "key": "whose",
       "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
+        "ko": "이 파티의 주인공은 누구였을까?",
+        "en": "Who was the party for?"
       },
       "options": [
         {
-          "ko": "어른 생일 파티",
-          "en": "An adult's birthday party"
+          "ko": "첫돌 아기",
+          "en": "A baby turning one"
         },
         {
-          "ko": "집들이",
-          "en": "A housewarming"
+          "ko": "일곱 살 아이",
+          "en": "A seven-year-old"
         },
         {
-          "ko": "아이 생일 파티",
-          "en": "A kid's birthday party"
+          "ko": "결혼 7주년 부부",
+          "en": "A couple on their 7th anniversary"
         },
         {
-          "ko": "할로윈 파티",
-          "en": "A Halloween party"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1",
-        "e3",
-        "e6"
-      ]
-    },
-    {
-      "key": "when",
-      "ask": {
-        "ko": "파티는 언제 끝났을까?",
-        "en": "When did the party end?"
-      },
-      "options": [
-        {
-          "ko": "한 시간 전",
-          "en": "An hour ago"
-        },
-        {
-          "ko": "어젯밤",
-          "en": "Last night"
-        },
-        {
-          "ko": "일주일 전",
-          "en": "A week ago"
-        },
-        {
-          "ko": "아직 진행 중",
-          "en": "It's still going"
+          "ko": "칠순 할머니",
+          "en": "Grandma turning seventy"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e2",
-        "e1"
-      ]
-    },
-    {
-      "key": "guests",
-      "ask": {
-        "ko": "파티에는 누가 왔을까?",
-        "en": "Who came to the party?"
-      },
-      "options": [
-        {
-          "ko": "아이들만",
-          "en": "Only kids"
-        },
-        {
-          "ko": "어른들만",
-          "en": "Only adults"
-        },
-        {
-          "ko": "우리 가족끼리만",
-          "en": "Just the family"
-        },
-        {
-          "ko": "아이와 부모들",
-          "en": "Kids and their parents"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
+        "e1",
         "e3",
-        "e4"
+        "e6"
       ]
     },
     {
@@ -111,54 +51,114 @@
       },
       "options": [
         {
+          "ko": "블록 장난감",
+          "en": "Building blocks"
+        },
+        {
+          "ko": "커피 머신",
+          "en": "A coffee machine"
+        },
+        {
           "ko": "자전거",
-          "en": "A bike"
+          "en": "A bicycle"
         },
         {
-          "ko": "인형의 집",
-          "en": "A dollhouse"
-        },
-        {
-          "ko": "놀이 텐트",
-          "en": "A play tent"
-        },
-        {
-          "ko": "그림 이젤",
-          "en": "An easel"
+          "ko": "와인 냉장고",
+          "en": "A wine fridge"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
         "e6"
       ]
     },
     {
-      "key": "food",
+      "key": "drinks",
       "ask": {
-        "ko": "가장 인기 없던 음식은?",
-        "en": "What was the least popular food?"
+        "ko": "파티에서 술은 얼마나 마셨을까?",
+        "en": "How much alcohol was drunk at the party?"
       },
       "options": [
         {
-          "ko": "피자",
-          "en": "Pizza"
+          "ko": "전혀 안 마셨다",
+          "en": "None at all"
         },
         {
-          "ko": "감자칩",
-          "en": "Potato chips"
+          "ko": "와인 두어 잔",
+          "en": "A couple glasses of wine"
         },
         {
-          "ko": "채소 스틱",
-          "en": "Veggie sticks"
+          "ko": "맥주 몇 캔",
+          "en": "A few cans of beer"
         },
         {
-          "ko": "케이크",
-          "en": "Birthday cake"
+          "ko": "소주 몇 병",
+          "en": "A few bottles of soju"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e5"
+        "e4",
+        "e3"
+      ]
+    },
+    {
+      "key": "place",
+      "ask": {
+        "ko": "이곳은 어떤 곳일까?",
+        "en": "What kind of place is this?"
+      },
+      "options": [
+        {
+          "ko": "아이 키우는 집",
+          "en": "A family home with a child"
+        },
+        {
+          "ko": "빌린 파티룸",
+          "en": "A rented party room"
+        },
+        {
+          "ko": "식당 별실",
+          "en": "A private room at a restaurant"
+        },
+        {
+          "ko": "부부 둘이 사는 집",
+          "en": "A couple's home"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2"
+      ]
+    },
+    {
+      "key": "guests",
+      "ask": {
+        "ko": "파티에는 누가 왔을까?",
+        "en": "Who came to the party?"
+      },
+      "options": [
+        {
+          "ko": "아이들만 왔다",
+          "en": "Only kids"
+        },
+        {
+          "ko": "어른들만 왔다",
+          "en": "Only adults"
+        },
+        {
+          "ko": "식구끼리 모였다",
+          "en": "Just the family"
+        },
+        {
+          "ko": "아이와 어른이 왔다",
+          "en": "Kids and adults"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e3",
+        "e4"
       ]
     }
   ],
@@ -169,18 +169,18 @@
       "y": 63,
       "r": 9,
       "label": {
-        "ko": "초가 다 타 버리고 크림이 말라붙은, 먹다 남은 케이크",
-        "en": "A half-eaten cake, candles burned down, frosting dried"
+        "ko": "초 일곱 개가 타다 남은 케이크",
+        "en": "A cake with seven burned-down candles"
       }
     },
     {
       "id": "e2",
-      "x": 70,
-      "y": 59,
-      "r": 11,
+      "x": 40,
+      "y": 23,
+      "r": 9,
       "label": {
-        "ko": "바람이 빠져 쭈글쭈글 처진 풍선들",
-        "en": "Balloons gone soft and droopy"
+        "ko": "책장 위 손때 묻은 장난감과 꽂혀 있는 그림책 — 원래 이 집에 있던 아이 물건",
+        "en": "Well-used toys and picture books on the shelf — things that already belonged to a child here"
       }
     },
     {
@@ -189,8 +189,8 @@
       "y": 81,
       "r": 13,
       "label": {
-        "ko": "바닥에 흩어진 작은 고깔모자들과 어린이용 주스 팩",
-        "en": "Small party hats and kids' juice boxes all over the floor"
+        "ko": "바닥에 흩어진 작은 고깔모자들과 빨대 꽂힌 어린이용 주스 팩",
+        "en": "Small party hats and kids' juice boxes with straws all over the floor"
       }
     },
     {
@@ -199,18 +199,18 @@
       "y": 39,
       "r": 8,
       "label": {
-        "ko": "옆 탁자의 와인 잔과 커피 잔",
-        "en": "Wine glasses and coffee mugs on the side table"
+        "ko": "옆 탁자의 와인 잔 두 개와 커피잔 두 개 — 술병도 캔도 없다",
+        "en": "Two wine glasses and two coffee mugs on the side table — no bottles, no cans"
       }
     },
     {
       "id": "e5",
-      "x": 88,
-      "y": 38,
-      "r": 11,
+      "x": 85,
+      "y": 37,
+      "r": 14,
       "label": {
-        "ko": "빈 피자 상자와 빈 과자 그릇 옆, 손도 안 댄 채소 스틱 한 접시",
-        "en": "Empty pizza boxes, an empty chip bowl — and an untouched veggie platter"
+        "ko": "텅 빈 피자 상자 둘과 손도 안 댄 채소 스틱",
+        "en": "Two empty pizza boxes and an untouched veggie platter"
       }
     },
     {
@@ -219,13 +219,13 @@
       "y": 33,
       "r": 9,
       "label": {
-        "ko": "리본 달린 빈 상자 안에 남은 작은 보조 바퀴 두 개",
-        "en": "Two little training wheels left in an empty gift box"
+        "ko": "가장 큰 상자 안에 남은 자전거 보조 바퀴 두 개",
+        "en": "Two bicycle training wheels left in the biggest box"
       }
     }
   ],
   "detective": {
-    "ko": "작은 고깔모자들과 어린이용 주스 팩이 바닥에 흩어져 있다. 어른 생일이나 집들이라면 고깔모자가 이렇게 작지 않다. 아이 생일 파티다. 그런데 옆 탁자엔 와인 잔과 커피 잔 — 아이들을 데려온 부모들도 함께였다. 풍선은 바람이 빠져 쭈글쭈글하고 케이크 크림은 말라붙었다. 풍선이 이렇게 처지려면 하룻밤은 지나야 한다. 파티는 어젯밤이었다. 리본 달린 커다란 상자는 비어 있고, 안에는 작은 바퀴 두 개만 남았다. 자전거 보조 바퀴다. 생일 선물은 자전거 — 그리고 주인공은 보조 바퀴를 떼고 탈 만큼 컸다. 마지막으로 식탁. 피자 상자도 과자 그릇도 텅 비었는데, 채소 스틱 접시만 손도 안 댄 채 그대로다.",
-    "en": "Tiny party hats and kids' juice boxes cover the floor. An adult's birthday or a housewarming wouldn't have hats this small: it was a child's birthday party. But the side table holds wine glasses and coffee mugs — the parents who brought the kids stayed too. The balloons have gone soft and wrinkled, and the frosting has dried; balloons take a night to sag like that. The party was last night. The big box with the bow is empty except for two little wheels — training wheels. The present was a bicycle, and the birthday kid is big enough to ride without them. Finally, the table: the pizza boxes are empty, the chip bowl is empty, and the veggie platter sits completely untouched."
+    "ko": "케이크엔 초 일곱 개가 타다 남았다. 일곱만 보면 결혼 7주년일 수도, 긴 초 하나를 열 살로 치는 칠순 상일 수도 있다. 첫돌이라면 초는 하나였을 것이다. 그런데 바닥엔 작은 고깔모자와 빨대 꽂힌 어린이용 주스 팩이 잔뜩 흩어져 있고, 가장 큰 상자 안에 남은 건 자전거 보조 바퀴 두 개다. 보조 바퀴 달린 자전거는 아이 선물이다. 일곱 살 아이의 생일이었고, 가장 큰 선물은 자전거였다. 블록은 손때 묻은 바구니에 원래부터 있던 것이고, 그 상자에 커피 머신이나 와인 냉장고가 들어 있던 것도 아니다. 옆 탁자엔 와인 잔 두 개와 커피잔 두 개. 아이들만 온 게 아니라 어른들도 함께였고, 고깔모자와 주스 팩이 이만큼이면 어른들만의 자리도, 식구끼리 모인 자리도 아니다. 술은 얼마나 마셨을까. 주스 팩도 피자 상자도 그대로 뒀는데 맥주 캔도 소주병도 없다. 그래도 한 잔엔 와인이 남아 있다. 어른들은 와인 두어 잔으로 끝냈다. 그리고 이곳은 빌린 파티룸도 식당 별실도 아니다. 그림책 꽂힌 책장과 손때 묻은 장난감, 소파와 스탠드가 있는 아이 키우는 집이다. 부부 둘만 사는 집이라면 아이 책장이 있을 리 없다.",
+    "en": "Seven candles have burned down on the cake. Seven alone could mean a 7th anniversary — or, if each candle counts as ten years, Grandma's seventieth. A first birthday would have had just one. But the floor is covered with little party hats and kids' juice boxes with straws, and the biggest box holds nothing but two bicycle training wheels. A bike with training wheels is a present for a child. It was a seven-year-old's birthday, and the biggest present was a bicycle. The blocks sit in a well-worn basket that was already here, and that box never held a coffee machine or a wine fridge. On the side table: two wine glasses and two coffee mugs. So it wasn't only kids — adults came too. And with this many hats and juice boxes, it wasn't an adults-only party or just the family either. How much did they drink? The juice boxes and pizza boxes were all left where they were, yet there isn't a single beer can or soju bottle — though one glass still has wine in it. The grown-ups stopped at a couple glasses of wine. And this isn't a rented party room or a restaurant's private room: a shelf of picture books, well-worn toys, a sofa and a lamp make it a family home with a child. A couple living on their own wouldn't keep a children's bookshelf."
   }
 }

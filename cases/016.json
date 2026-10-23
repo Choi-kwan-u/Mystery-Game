@@ -4,72 +4,43 @@
   "type": "scene",
   "image": "img/016.webp",
   "title": {
-    "ko": "식다 만 아침 식탁",
-    "en": "The Abandoned Breakfast"
+    "ko": "아침 8시의 부엌",
+    "en": "The Kitchen at 8 A.M."
   },
   "intro": {
-    "ko": "평일 아침 8시, 아무도 없는 부엌 식탁. 여기서 무슨 일이 있었을까?",
-    "en": "8 a.m. on a weekday, a kitchen table with no one at it. What happened here?"
+    "ko": "평일 아침 8시, 아무도 없는 부엌. 여기서 무슨 일이 있었을까?",
+    "en": "8 a.m. on a weekday, and no one in the kitchen. What happened here?"
   },
   "questions": [
     {
-      "key": "when",
+      "key": "event",
       "ask": {
-        "ko": "언제 일어난 일일까?",
-        "en": "When did this happen?"
+        "ko": "여기서 무슨 일이 있었을까?",
+        "en": "What happened here?"
       },
       "options": [
         {
-          "ko": "한 시간쯤 전",
-          "en": "About an hour ago"
+          "ko": "평소처럼 출근했다",
+          "en": "Left for work as usual"
         },
         {
-          "ko": "몇 분 전",
-          "en": "Just a few minutes ago"
+          "ko": "밤새 집을 비웠다",
+          "en": "Was out all night"
         },
         {
-          "ko": "어젯밤",
-          "en": "Last night"
+          "ko": "쓰러져 실려 갔다",
+          "en": "Collapsed and was carried out"
         },
         {
-          "ko": "새벽",
-          "en": "Before dawn"
+          "ko": "급한 일로 뛰쳐나갔다",
+          "en": "Rushed out on urgent business"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "left",
-      "ask": {
-        "ko": "주인이 두고 간 것은?",
-        "en": "What did the owner leave behind?"
-      },
-      "options": [
-        {
-          "ko": "휴대폰",
-          "en": "Phone"
-        },
-        {
-          "ko": "차 열쇠",
-          "en": "Car keys"
-        },
-        {
-          "ko": "출근 가방",
-          "en": "Work bag"
-        },
-        {
-          "ko": "아무것도 안 두고 갔다",
-          "en": "Nothing at all"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
+        "e1",
         "e3",
-        "e4",
-        "e5"
+        "e2"
       ]
     },
     {
@@ -80,86 +51,115 @@
       },
       "options": [
         {
-          "ko": "자기 차로",
-          "en": "In their own car"
-        },
-        {
-          "ko": "누가 태우러 와서",
-          "en": "Someone picked them up"
+          "ko": "버스를 타고",
+          "en": "Caught a bus"
         },
         {
           "ko": "택시를 불러서",
-          "en": "By taxi"
+          "en": "Called a taxi"
         },
         {
-          "ko": "버스로",
-          "en": "By bus"
+          "ko": "자기 차를 몰고",
+          "en": "Drove their own car"
+        },
+        {
+          "ko": "구급차에 실려서",
+          "en": "In an ambulance"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
         "e5",
         "e6"
       ]
     },
     {
-      "key": "spill",
+      "key": "took",
       "ask": {
-        "ko": "커피는 왜 쏟아졌을까?",
-        "en": "Why did the coffee spill?"
+        "ko": "무엇을 챙겨 나갔을까?",
+        "en": "What did they take with them?"
       },
       "options": [
         {
-          "ko": "고양이가 발로 쳐서",
-          "en": "The cat knocked it"
+          "ko": "휴대폰과 가방",
+          "en": "Phone and bag"
         },
         {
-          "ko": "컵에 금이 가서",
-          "en": "The mug cracked"
+          "ko": "휴대폰과 차 열쇠",
+          "en": "Phone and car keys"
         },
         {
-          "ko": "일부러 쏟았다",
-          "en": "On purpose"
+          "ko": "가방과 지갑",
+          "en": "Bag and wallet"
         },
         {
-          "ko": "급히 일어나다 쳐서",
-          "en": "Jumping up fast"
+          "ko": "아무것도 못 챙겼다",
+          "en": "Nothing at all"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
-        "e1",
-        "e3"
+        "e4",
+        "e3",
+        "e5"
       ]
     },
     {
-      "key": "event",
+      "key": "when",
       "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
+        "ko": "식탁을 떠난 건 언제쯤일까?",
+        "en": "When did they leave the table?"
       },
       "options": [
         {
-          "ko": "도둑이 들어 뒤지고 갔다",
-          "en": "A burglar came through"
+          "ko": "몇 분 전",
+          "en": "A few minutes ago"
         },
         {
-          "ko": "평소처럼 출근했다",
-          "en": "A normal commute"
+          "ko": "30분쯤 전",
+          "en": "About half an hour ago"
         },
         {
-          "ko": "급한 일로 뛰쳐나갔다",
-          "en": "Rushed out urgently"
+          "ko": "동트기 전",
+          "en": "Before dawn"
         },
         {
-          "ko": "부부싸움이 났다",
-          "en": "A couple's fight"
+          "ko": "어젯밤",
+          "en": "Last night"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "key": "home",
+      "ask": {
+        "ko": "이곳은 어떤 집일까?",
+        "en": "What kind of home is this?"
+      },
+      "options": [
+        {
+          "ko": "원룸",
+          "en": "A studio flat"
+        },
+        {
+          "ko": "고층 아파트",
+          "en": "A high-rise apartment"
+        },
+        {
+          "ko": "단독주택",
+          "en": "A detached house"
+        },
+        {
+          "ko": "시골 농가",
+          "en": "A farmhouse"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e1",
-        "e3",
         "e6"
       ]
     }
@@ -171,8 +171,8 @@
       "y": 68,
       "r": 9,
       "label": {
-        "ko": "엎어진 머그잔, 아직 김이 오르는 쏟아진 커피",
-        "en": "A knocked-over mug, the spilled coffee still steaming"
+        "ko": "엎어진 머그잔 — 쏟아진 커피가 아직 김을 내며 바닥으로 떨어진다",
+        "en": "A knocked-over mug — the spilled coffee is still steaming and dripping to the floor"
       }
     },
     {
@@ -181,28 +181,28 @@
       "y": 77,
       "r": 8,
       "label": {
-        "ko": "한 입만 베어 문 토스트 — 접시도 잔도 하나뿐",
-        "en": "Toast with a single bite — one plate, one mug"
+        "ko": "한 입만 베어 문 토스트",
+        "en": "Toast with a single bite taken out"
       }
     },
     {
       "id": "e3",
-      "x": 71,
-      "y": 76,
-      "r": 13,
+      "x": 76,
+      "y": 79,
+      "r": 14,
       "label": {
-        "ko": "뒤로 넘어진 의자, 등받이에 그대로 걸린 노트북 가방",
-        "en": "A chair knocked over backward, a laptop bag still on it"
+        "ko": "뒤로 넘어진 의자, 등받이에 그대로 걸린 가방",
+        "en": "A chair knocked over backward, the bag still hanging from it"
       }
     },
     {
       "id": "e4",
-      "x": 11,
-      "y": 40,
-      "r": 10,
+      "x": 17,
+      "y": 55,
+      "r": 11,
       "label": {
-        "ko": "콘센트에 꽂힌 채 늘어진 충전기 줄 — 휴대폰이 없다",
-        "en": "A charger cable dangling from the outlet — no phone"
+        "ko": "콘센트에서 식탁까지 끌어온 충전기 줄 — 끝에 휴대폰이 없다",
+        "en": "A charger cable pulled from the outlet to the table — no phone on the end"
       }
     },
     {
@@ -211,23 +211,23 @@
       "y": 22,
       "r": 6,
       "label": {
-        "ko": "집 열쇠만 남은 열쇠걸이 — 고리 하나가 비었다",
-        "en": "The key rack holds only house keys — one hook is empty"
+        "ko": "고리 하나가 빈 열쇠걸이 — 남은 건 집 열쇠뿐",
+        "en": "One empty hook on the key rack — only house keys are left"
       }
     },
     {
       "id": "e6",
-      "x": 83,
-      "y": 49,
+      "x": 87,
+      "y": 53,
       "r": 8,
       "label": {
-        "ko": "활짝 열린 현관문 너머, 기름 자국만 남은 빈 주차 자리",
-        "en": "Through the open door, an empty parking spot with an oil stain"
+        "ko": "현관문 밖 자기 집 진입로, 기름 자국만 남은 빈 주차 자리 — 길 건너엔 우편함과 주택들",
+        "en": "Outside the door, the home's own driveway: an empty spot with an oil stain — a mailbox and houses across the street"
       }
     }
   ],
   "detective": {
-    "ko": "머그잔이 엎어졌고 커피가 식탁 끝으로 뚝뚝 떨어진다. 아직 김이 오른다 — 몇 분 전 일이다. 토스트는 한 입, 접시도 잔도 하나뿐. 혼자 먹던 아침이니 부부싸움은 아니다. 의자는 뒤로 넘어졌다. 벌떡 일어나다 의자를 차고, 컵을 쳤다. 도둑이라면 노트북 가방부터 가져갔겠지만, 가방은 넘어진 의자에 그대로 걸려 있다. 평소처럼 출근했다면 의자를 넘어뜨리고 커피를 쏟은 채 문을 열어 두고 가지는 않았을 테고, 일 가방도 챙겼을 것이다. 사라진 건 딱 두 가지. 콘센트엔 충전기 줄만 늘어져 있고, 열쇠걸이엔 고리 하나가 비었다. 휴대폰과 차 열쇠. 누가 태우러 왔거나 택시를 탔다면 차 열쇠는 필요 없다. 열린 문 너머 주차 자리엔 기름 자국만 남았다. 급한 연락을 받고, 커피도 가방도 내버려 둔 채 자기 차를 몰고 뛰쳐나갔다.",
-    "en": "A mug lies on its side, coffee dripping off the edge of the table — and it's still steaming. This happened minutes ago. One bite out of the toast, one plate, one mug: breakfast for one, so no couple's fight. The chair went over backward — someone shot up, kicked the chair and hit the cup. A burglar would have grabbed the laptop bag, but it's still hanging on the fallen chair. An ordinary trip to work doesn't leave a knocked-over chair, spilled coffee and an open door — and it takes the work bag along. Only two things are gone. The charger cable dangles from the outlet with no phone, and one hook on the key rack is empty: the phone and the car keys. If someone had picked them up, or a taxi had, the car keys would have stayed. Through the open door, the parking spot holds nothing but an oil stain. Urgent news came, and they drove off — leaving the coffee, the bag and the door behind."
+    "ko": "머그잔이 엎어졌고 커피가 식탁 끝으로 뚝뚝 떨어진다. 그런데 아직 김이 오른다. 쏟아진 커피는 금방 식는다 — 몇 분 전 일이다. 30분 전이나 동트기 전, 어젯밤이었다면 김은 진작 사라졌다. 밤새 집을 비운 사람이 방금 토스트를 한 입 베어 물었을 리도 없다. 의자는 뒤로 넘어졌다. 앉아 있던 사람이 벌떡 일어나다 의자를 차고 컵을 쳤다. 쓰러져 실려 간 걸까? 아니다. 콘센트에서 식탁까지 끌어온 충전기 줄 끝엔 휴대폰이 없고, 열쇠걸이엔 고리 하나가 비었다. 실려 가는 사람은 휴대폰과 차 열쇠를 챙기지 못한다. 평소처럼 출근했다면 가방을 의자에 걸어 둔 채, 문을 활짝 열어 둔 채 가진 않았다. 급한 일로 뛰쳐나간 것이다. 챙긴 건 휴대폰과 차 열쇠뿐. 가방은 넘어진 의자에 그대로 걸려 있다. 열린 문 너머 진입로엔 기름 자국만 남았다. 늘 차를 대던 자리가 비었다. 부엌 창밖에 흰 차가 보이지만 그의 자리에 선 차는 아니다. 버스나 택시, 구급차였다면 차 열쇠도 차도 그대로 있었을 것이다. 자기 차를 몰고 떠났다. 그 문은 복도가 아니라 곧장 자기 집 진입로로 열리고, 길 건너엔 우편함과 집들이 늘어서 있다. 원룸도 고층 아파트도 시골 농가도 아닌, 주택가의 단독주택이다.",
+    "en": "A mug lies on its side, coffee dripping off the edge of the table — and it's still steaming. Spilled coffee cools fast: this happened minutes ago. Half an hour ago, before dawn or last night, and the steam would be long gone. And someone who'd been out all night didn't just take a bite of that toast. The chair went over backward: whoever sat here shot up, kicked the chair and hit the cup. Did they collapse and get carried out? No. The charger cable runs from the outlet to the table and ends in nothing, and one hook on the key rack is empty. Nobody being carried out grabs their phone and car keys. And an ordinary trip to work doesn't leave the bag on the chair and the door wide open. Something urgent came up. They took the phone and the car keys, nothing more — the bag still hangs from the fallen chair. Through the open door, the driveway holds only an oil stain where a car usually sits. There's a white car outside the kitchen window, but it isn't in their spot. A bus, a taxi or an ambulance would have left the car keys and the car behind. They drove off in their own car. And that door doesn't open onto a hallway — it opens straight onto the home's own driveway, with a mailbox and houses across the street. Not a studio, a high-rise or a farmhouse: a detached house on a residential street."
   }
 }
