@@ -4,16 +4,16 @@
   "type": "lie",
   "image": "img/019.webp",
   "title": {
-    "ko": "직접 구웠다는 케이크",
-    "en": "The Homemade Cake"
+    "ko": "생일 파티 준비",
+    "en": "Party Prep"
   },
   "intro": {
-    "ko": "토요일 오후, 아이 생일 파티 준비가 한창인 집. 집주인에게 케이크 이야기를 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "Saturday afternoon, a home getting ready for a kid's birthday party. We asked the host about the cake. Here's what she said. Find the lie in the photo."
+    "ko": "토요일 오후, 아이 생일 파티를 앞둔 집. 집주인에게 준비가 어떻게 돼 가는지 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "Saturday afternoon, a home getting ready for a kid's birthday party. We asked the host how the preparations were going. Here's what she said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "오늘 아이 생일 파티를 해요. 손님들은 아직 안 왔고요. 케이크는 제가 직접 구웠어요. 접시랑 고깔모자도 다 준비해 놨죠.",
-    "en": "We're having my kid's birthday party today. The guests haven't arrived yet. I baked the cake myself. And the plates and party hats are all set out."
+    "ko": "손님은 아직 한 명도 안 왔어요. 케이크는 오늘 아침 우리 집 오븐으로 직접 구웠고요. 설거지도 아까 다 끝냈어요. 접시랑 고깔모자도 미리 꺼내 놨죠.",
+    "en": "No guests have arrived yet. I baked the cake myself this morning, in our own oven. I've already finished all the dishes, too. And I've set out the plates and party hats."
   },
   "questions": [
     {
@@ -24,10 +24,6 @@
       },
       "options": [
         {
-          "ko": "아이 생일 파티를 한다",
-          "en": "It's her kid's birthday party"
-        },
-        {
           "ko": "손님은 아직 안 왔다",
           "en": "No guests yet"
         },
@@ -36,132 +32,140 @@
           "en": "She baked the cake"
         },
         {
-          "ko": "접시와 모자를 준비했다",
-          "en": "Plates and hats are ready"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "sink",
-      "ask": {
-        "ko": "텅 비고 마른 개수대가 말해 주는 것은?",
-        "en": "What does the empty, dry sink tell you?"
-      },
-      "options": [
-        {
-          "ko": "케이크를 굽지 않았다",
-          "en": "She didn't bake"
+          "ko": "설거지를 다 끝냈다",
+          "en": "The dishes are done"
         },
         {
-          "ko": "설거지를 이미 끝냈다",
-          "en": "She already washed up"
-        },
-        {
-          "ko": "그것만으로는 알 수 없다",
-          "en": "Can't tell yet"
-        },
-        {
-          "ko": "물이 끊겼다",
-          "en": "The water's off"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "oven",
-      "ask": {
-        "ko": "오븐 속이 냄비로 꽉 찬 것이 말해 주는 것은?",
-        "en": "The oven is full of pots and pans. What does that tell you?"
-      },
-      "options": [
-        {
-          "ko": "오늘 오븐을 안 썼다",
-          "en": "It wasn't used today"
-        },
-        {
-          "ko": "오븐이 고장 났다",
-          "en": "It's broken"
-        },
-        {
-          "ko": "요리를 많이 했다",
-          "en": "She cooked a lot"
-        },
-        {
-          "ko": "냄비를 막 씻어 넣었다",
-          "en": "Pots just washed and stored"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "guests",
-      "ask": {
-        "ko": "'손님은 아직 안 왔다'는 말과 맞는 단서는?",
-        "en": "Which clue backs up 'no guests yet'?"
-      },
-      "options": [
-        {
-          "ko": "쓰레기통 속 상자",
-          "en": "The box in the bin"
-        },
-        {
-          "ko": "냄비로 꽉 찬 오븐",
-          "en": "The packed oven"
-        },
-        {
-          "ko": "깨끗한 접시와 포크",
-          "en": "Unused plates"
-        },
-        {
-          "ko": "텅 빈 개수대",
-          "en": "The empty sink"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e5",
-        "e1"
-      ]
-    },
-    {
-      "key": "from",
-      "ask": {
-        "ko": "케이크는 사실 어디서 왔을까?",
-        "en": "Where did the cake really come from?"
-      },
-      "options": [
-        {
-          "ko": "이웃이 구워 줬다",
-          "en": "A neighbor baked it"
-        },
-        {
-          "ko": "빵집에서 사 왔다",
-          "en": "A bakery"
-        },
-        {
-          "ko": "아이가 만들었다",
-          "en": "The kid made it"
-        },
-        {
-          "ko": "어제 먹다 남았다",
-          "en": "Yesterday's leftovers"
+          "ko": "접시와 모자를 꺼냈다",
+          "en": "Plates and hats are out"
         }
       ],
       "answer": 1,
       "evidence": [
         "e2",
+        "e3",
         "e1"
+      ]
+    },
+    {
+      "key": "maker",
+      "ask": {
+        "ko": "케이크는 누가 만들었을까?",
+        "en": "Who made the cake?"
+      },
+      "options": [
+        {
+          "ko": "그녀 자신",
+          "en": "She did"
+        },
+        {
+          "ko": "이웃집 엄마",
+          "en": "A neighbor"
+        },
+        {
+          "ko": "시어머니",
+          "en": "Her mother-in-law"
+        },
+        {
+          "ko": "동네 빵집",
+          "en": "A local bakery"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e1",
+        "e3"
+      ]
+    },
+    {
+      "key": "before",
+      "ask": {
+        "ko": "손님이 오기 전에 그녀가 서둘러 해야 할 일은?",
+        "en": "What does she need to do before the guests arrive?"
+      },
+      "options": [
+        {
+          "ko": "숨겨 둔 설거지 하기",
+          "en": "Wash the dishes she hid"
+        },
+        {
+          "ko": "쓰레기통 비우기",
+          "en": "Empty the trash bin"
+        },
+        {
+          "ko": "식탁 새로 차리기",
+          "en": "Reset the table"
+        },
+        {
+          "ko": "케이크에 초 꽂기",
+          "en": "Put candles on the cake"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e3",
+        "e5"
+      ]
+    },
+    {
+      "key": "wash",
+      "ask": {
+        "ko": "파티가 끝나면 설거지할 것은?",
+        "en": "After the party, what will need washing?"
+      },
+      "options": [
+        {
+          "ko": "접시와 포크",
+          "en": "Plates and forks"
+        },
+        {
+          "ko": "접시만",
+          "en": "Just the plates"
+        },
+        {
+          "ko": "포크만",
+          "en": "Just the forks"
+        },
+        {
+          "ko": "씻을 게 없다",
+          "en": "Nothing at all"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5"
+      ]
+    },
+    {
+      "key": "habit",
+      "ask": {
+        "ko": "이 집 식구들은 평소 빵이나 케이크를 어떻게 먹을까?",
+        "en": "How does this family usually get bread and cakes?"
+      },
+      "options": [
+        {
+          "ko": "대부분 사다 먹는다",
+          "en": "They mostly buy them"
+        },
+        {
+          "ko": "주말마다 집에서 굽는다",
+          "en": "They bake every weekend"
+        },
+        {
+          "ko": "할머니가 구워 보내 준다",
+          "en": "Grandma bakes and sends them"
+        },
+        {
+          "ko": "남편이 구워 준다",
+          "en": "Her husband bakes them"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e3",
+        "e2"
       ]
     }
   ],
@@ -169,11 +173,11 @@
     {
       "id": "e1",
       "x": 32,
-      "y": 69,
-      "r": 11,
+      "y": 68,
+      "r": 12,
       "label": {
-        "ko": "금색 종이 받침 위의 흠 하나 없는 케이크",
-        "en": "A flawless cake on a gold cardboard board"
+        "ko": "빵집에서 쓰는 금색 종이 받침에 그대로 올라 있는 케이크 — 초는 이미 꽂혀 있다",
+        "en": "The cake still sits on the gold cardboard board bakeries use; the candles are already in"
       }
     },
     {
@@ -182,8 +186,8 @@
       "y": 68,
       "r": 12,
       "label": {
-        "ko": "쓰레기통 속 리본 달린 투명 창 케이크 상자",
-        "en": "A windowed cake box with a red ribbon in the trash"
+        "ko": "뚜껑이 닫히지 않는 쓰레기통 속 투명 창 케이크 상자와 빨간 리본",
+        "en": "A windowed cake box and red ribbon sticking out of a bin that can no longer close"
       }
     },
     {
@@ -192,8 +196,8 @@
       "y": 52,
       "r": 9,
       "label": {
-        "ko": "냄비와 프라이팬으로 꽉 찬 오븐",
-        "en": "An oven crammed with pots and pans"
+        "ko": "깨끗한 냄비와 프라이팬이 차곡차곡 쌓이고 빵 굽는 판까지 보관된 오븐 — 수납장으로 쓰인다",
+        "en": "Clean pots and pans stacked neatly, baking sheets stored underneath: the oven is used as a cupboard"
       }
     },
     {
@@ -202,8 +206,8 @@
       "y": 42,
       "r": 10,
       "label": {
-        "ko": "텅 비고 마른 개수대 — 반죽 그릇 하나 없다",
-        "en": "An empty, dry sink — not a single mixing bowl"
+        "ko": "그릇 하나 없이 바싹 마른 개수대",
+        "en": "A bone-dry sink with not a single dish in it"
       }
     },
     {
@@ -212,13 +216,13 @@
       "y": 77,
       "r": 12,
       "label": {
-        "ko": "아무도 안 쓴 접시와 포크, 고깔모자",
-        "en": "Untouched plates, forks and party hats"
+        "ko": "아무도 손대지 않은 종이 접시와 고깔모자, 그리고 묶음째 놓인 쇠 포크",
+        "en": "Untouched paper plates and party hats, and a bundle of metal forks"
       }
     }
   ],
   "detective": {
-    "ko": "식탁엔 깨끗한 접시와 포크, 고깔모자가 그대로 있고 초엔 불을 붙인 적이 없다. 아이 생일 파티가 곧 시작되고, 손님은 아직 오지 않았다. 여기까지는 사실이다. 그런데 직접 구웠다는 케이크는? 부엌이 반짝이게 깨끗하다. 굽고 나서 다 치웠을 수도 있다. 하지만 오븐 안이 냄비와 프라이팬으로 꽉 차 있다. 오늘 이 오븐에선 아무것도 구워지지 않았다. 케이크 밑에는 빵집에서 케이크를 올려 주는 금색 종이 받침이 깔려 있고, 쓰레기통엔 투명 창이 달린 케이크 상자와 빨간 리본이 버려져 있다. 이웃이 집에서 구워 줬다면 빵집 상자에 담겨 오지 않았을 것이다. 케이크는 빵집에서 사 왔다.",
-    "en": "Clean plates, forks and party hats sit untouched, and the candles have never been lit. A kid's birthday party is about to start and the guests haven't arrived — that much is true. But the homemade cake? The kitchen is spotless; maybe she baked and cleaned up. Except the oven is crammed full of pots and pans — nothing was baked in it today. Under the cake is the gold cardboard board a bakery puts beneath its cakes, and the trash holds a windowed cake box and a red ribbon. A neighbor's home-baked cake wouldn't arrive in a bakery box. This one came from a bakery."
+    "ko": "식탁의 종이 접시와 고깔모자는 아무도 손대지 않았고, 쇠 포크는 묶음째 그대로다. 손님은 아직 오지 않았다. 오븐 안이 냄비로 꽉 차 있어 설거지 거리를 숨겼나 싶지만, 냄비는 깨끗하게 포개져 있고 빵 굽는 판까지 그 밑에 보관돼 있다. 이 오븐은 수납장이다. 개수대도 바싹 말라 있으니 설거지를 끝냈다는 말은 사실이다. 그렇다면 오늘 아침 이 오븐으로 케이크를 구웠다는 말이 거짓이다. 케이크는 빵집에서 쓰는 금색 종이 받침에 그대로 올라 있고, 쓰레기통엔 투명 창 케이크 상자와 빨간 리본이 꽂혀 있다. 이웃이나 시어머니가 집에서 구워 줬다면 빵집 포장째 오지 않았을 것이다. 케이크는 동네 빵집에서 샀다. 오븐을 수납장으로 쓰는 집에서 주말마다 빵을 굽는 사람은 없다. 이 집은 빵도 케이크도 대개 사다 먹는다. 식탁은 다 차려졌고 초도 이미 꽂혀 있다. 손님이 오기 전에 남은 일은 하나, 뚜껑도 안 닫히는 쓰레기통에서 빵집 상자를 치우는 것이다. 파티가 끝나면 종이 접시는 버리면 그만이고, 씻을 것은 쇠 포크뿐이다.",
+    "en": "The paper plates and party hats are untouched, and the metal forks are still bundled together. The guests have not arrived. The oven crammed with pots might suggest hidden dirty dishes, but the pots are clean and neatly nested, with baking sheets stored beneath them. That oven is a cupboard. The sink is bone-dry too, so the dishes really are done. What's false is the cake she baked in that oven this morning. The cake still sits on the gold cardboard board bakeries use, and a windowed cake box and red ribbon stick out of the trash. A neighbor or a mother-in-law baking at home wouldn't hand it over in bakery packaging. The cake came from a local bakery. Nobody bakes every weekend in a house whose oven holds the pots. This family mostly buys its bread and cakes. The table is set and the candles are already in. One job is left before the guests arrive: getting that bakery box out of a bin that won't even close. After the party the paper plates go in the trash; only the metal forks will need washing."
   }
 }

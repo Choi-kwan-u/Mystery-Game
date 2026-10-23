@@ -7,127 +7,129 @@
     "en": "9 P.M. Outside the Corner Store"
   },
   "intro": {
-    "ko": "밤 9시, 편의점 앞 의자. 20대 남성이 삼각김밥을 먹으며 휴대폰을 보고 있다. 이 사람은 누구일까?",
-    "en": "9 p.m., a chair outside a convenience store. A man in his twenties eats a rice ball while checking his phone. Who is he?"
+    "ko": "밤 9시, 편의점 앞 의자. 한 남성이 늦은 저녁을 먹고 있다. 이 사람은 누구일까?",
+    "en": "9 p.m., a chair outside a convenience store. A man is eating a late dinner. Who is he?"
   },
   "questions": [
     {
-      "key": "vehicle",
+      "key": "weather",
       "ask": {
-        "ko": "그가 타고 다니는 것은?",
-        "en": "What does he ride?"
+        "ko": "조금 전까지 이 거리의 날씨는?",
+        "en": "What was the weather on this street a little earlier?"
       },
       "options": [
         {
-          "ko": "오토바이",
-          "en": "A motorbike"
+          "ko": "줄곧 맑았다",
+          "en": "Clear all along"
         },
         {
-          "ko": "자전거",
-          "en": "A bicycle"
+          "ko": "눈이 내렸다",
+          "en": "Snow"
         },
         {
-          "ko": "전동 킥보드",
-          "en": "An e-scooter"
+          "ko": "비가 내렸다",
+          "en": "Rain"
         },
         {
-          "ko": "자동차",
-          "en": "A car"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "battery",
-      "ask": {
-        "ko": "휴대폰에 보조배터리를 꽂아 둔 이유는?",
-        "en": "Why is his phone plugged into a power bank?"
-      },
-      "options": [
-        {
-          "ko": "게임을 오래 해서",
-          "en": "Long gaming sessions"
-        },
-        {
-          "ko": "영상을 계속 봐서",
-          "en": "Streaming videos"
-        },
-        {
-          "ko": "지도를 켜 둬서",
-          "en": "Maps always on"
-        },
-        {
-          "ko": "휴대폰이 낡아서",
-          "en": "An old phone"
+          "ko": "안개가 짙었다",
+          "en": "Thick fog"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e3",
-        "e4"
-      ]
-    },
-    {
-      "key": "glove",
-      "ask": {
-        "ko": "장갑을 한 짝만 벗은 이유는?",
-        "en": "Why did he take off just one glove?"
-      },
-      "options": [
-        {
-          "ko": "곧바로 출발하려고",
-          "en": "To leave right away"
-        },
-        {
-          "ko": "한 짝을 잃어버려서",
-          "en": "He lost the other"
-        },
-        {
-          "ko": "손을 다쳐서",
-          "en": "An injured hand"
-        },
-        {
-          "ko": "한 손만 시려서",
-          "en": "One cold hand"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2",
-        "e3"
+        "e5",
+        "e6"
       ]
     },
     {
       "key": "hours",
       "ask": {
-        "ko": "오늘 그는 일한 지 얼마나 됐을까?",
+        "ko": "그는 오늘 일한 지 얼마나 됐을까?",
         "en": "How long has he been working today?"
       },
       "options": [
         {
-          "ko": "방금 시작했다",
-          "en": "Just started"
-        },
-        {
-          "ko": "벌써 끝냈다",
-          "en": "Already done"
-        },
-        {
-          "ko": "오늘은 쉰다",
-          "en": "Day off"
+          "ko": "막 시작했다",
+          "en": "He's just started"
         },
         {
           "ko": "몇 시간째다",
-          "en": "Hours now"
+          "en": "Several hours now"
+        },
+        {
+          "ko": "이미 끝냈다",
+          "en": "He's already done"
+        },
+        {
+          "ko": "오늘은 쉬는 날이다",
+          "en": "It's his day off"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e1",
+        "e4",
+        "e3"
+      ]
+    },
+    {
+      "key": "vehicle",
+      "ask": {
+        "ko": "그는 무엇으로 이동할까?",
+        "en": "How does he get around?"
+      },
+      "options": [
+        {
+          "ko": "오토바이로",
+          "en": "By motorcycle"
+        },
+        {
+          "ko": "버스로",
+          "en": "By bus"
+        },
+        {
+          "ko": "두 발로",
+          "en": "On foot"
+        },
+        {
+          "ko": "자동차로",
+          "en": "By car"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e1"
+      ]
+    },
+    {
+      "key": "next",
+      "ask": {
+        "ko": "다 먹고 나면 그는?",
+        "en": "What will he do once he's eaten?"
+      },
+      "options": [
+        {
+          "ko": "연락이 오길 기다린다",
+          "en": "Wait for a call to come in"
+        },
+        {
+          "ko": "가게 안으로 돌아간다",
+          "en": "Go back inside the store"
+        },
+        {
+          "ko": "차에서 눈을 붙인다",
+          "en": "Grab a nap in his car"
+        },
+        {
+          "ko": "곧장 다시 출발한다",
+          "en": "Head straight back out"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e1",
-        "e4"
+        "e3",
+        "e2"
       ]
     },
     {
@@ -138,27 +140,27 @@
       },
       "options": [
         {
-          "ko": "자전거 선수",
-          "en": "Cyclist"
+          "ko": "대리운전 기사",
+          "en": "Hired designated driver"
+        },
+        {
+          "ko": "음식 배달원",
+          "en": "Food delivery worker"
+        },
+        {
+          "ko": "편의점 직원",
+          "en": "Store clerk"
         },
         {
           "ko": "택시 기사",
           "en": "Taxi driver"
-        },
-        {
-          "ko": "배달 라이더",
-          "en": "Food delivery rider"
-        },
-        {
-          "ko": "경찰관",
-          "en": "Police officer"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
         "e2",
         "e3",
-        "e1"
+        "e4"
       ]
     }
   ],
@@ -169,8 +171,8 @@
       "y": 24,
       "r": 8,
       "label": {
-        "ko": "땀에 젖어 납작하게 눌린 머리와 이마의 가로 붉은 자국",
-        "en": "Sweaty hair pressed flat and a red line across his forehead"
+        "ko": "땀에 젖어 납작하게 눌린 머리와 이마를 가로지른 붉은 헬멧 자국",
+        "en": "Sweat-soaked hair pressed flat and a red helmet line across his forehead"
       }
     },
     {
@@ -179,8 +181,8 @@
       "y": 76,
       "r": 12,
       "label": {
-        "ko": "바닥의 풀페이스 헬멧, 그 위에 벗어 둔 장갑 한 짝",
-        "en": "A full-face helmet on the ground, one glove on top"
+        "ko": "투명 가림막 달린 풀페이스 헬멧, 그 위에 벗어 둔 손등 보호대 장갑 한 짝",
+        "en": "A full-face helmet with a clear visor, and on top, one armored riding glove he's taken off"
       }
     },
     {
@@ -189,23 +191,43 @@
       "y": 50,
       "r": 8,
       "label": {
-        "ko": "아직 장갑을 낀 손에 든 휴대폰 — 화면엔 지도",
-        "en": "His phone, in a still-gloved hand, showing a map"
+        "ko": "아직 장갑을 낀 손 — 휴대폰엔 이미 길 안내 경로가 떠 있다",
+        "en": "A hand still in its glove — the phone already shows a route"
       }
     },
     {
       "id": "e4",
-      "x": 54,
-      "y": 66,
-      "r": 5,
+      "x": 42,
+      "y": 56,
+      "r": 7,
       "label": {
-        "ko": "휴대폰에 꽂힌 보조배터리 줄",
-        "en": "A power-bank cable plugged into the phone"
+        "ko": "허벅지 위의 보조배터리 — 줄이 휴대폰으로 이어진다",
+        "en": "A power bank on his thigh, its cable running up to the phone"
+      }
+    },
+    {
+      "id": "e5",
+      "x": 82,
+      "y": 82,
+      "r": 12,
+      "label": {
+        "ko": "불빛이 번들번들 비치는 젖은 보도블록",
+        "en": "Wet paving stones, shining with reflected light"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 90,
+      "y": 42,
+      "r": 9,
+      "label": {
+        "ko": "얇은 옷차림에 우산도 없이 걷는 행인들",
+        "en": "Passers-by in light clothes, no umbrellas"
       }
     }
   ],
   "detective": {
-    "ko": "머리가 납작하게 눌렸고 이마엔 가로로 붉은 자국이 났다. 몇 시간째 헬멧을 쓴 머리다. 자전거 선수도 헬멧을 쓰지만, 바닥에 놓인 건 통풍 구멍 뚫린 자전거 헬멧이 아니라 얼굴까지 덮는 풀페이스 — 오토바이 헬멧이다. 택시 기사라면 헬멧이 필요 없고, 경찰관이라면 제복을 입었을 것이다. 휴대폰엔 지도가 떠 있고 보조배터리가 꽂혀 있다. 하루 종일 지도를 켜 두면 배터리가 버티질 못한다. 이 사람은 배달 라이더다. 장갑 한 짝은 헬멧 위에 벗어 두었다. 잃어버린 게 아니다. 김밥 쥘 손만 벗고, 다른 손엔 그대로 끼고 있다 — 다 먹으면 바로 다음 콜이다. 땀에 젖은 머리, 이마의 깊은 자국, 바닥난 배터리. 오늘 일은 이미 몇 시간째다.",
-    "en": "His hair is pressed flat and there's a red line across his forehead: hours under a helmet. Cyclists wear helmets too, but the one on the ground isn't a vented bike helmet — it's full-face, a motorcycle helmet. A taxi driver wouldn't need one; a police officer would be in uniform. His phone shows a map and is hooked up to a power bank — keep a map running all day and no battery lasts. He's a delivery rider. One glove sits on top of the helmet, so it isn't lost. He took off only the glove on the hand that holds the rice ball and kept the other on: the moment he's done eating, he's off to the next order. Sweat-soaked hair, a deep line on his forehead, a drained battery — he's been at it for hours."
+    "ko": "발밑 보도블록이 번들번들 젖어 있다. 그런데 지나가는 사람들은 얇은 옷차림에 우산도 없다. 눈이 올 날씨가 아니고, 길을 이렇게 적시는 건 안개가 아니다. 조금 전까지 비가 내렸다. 바닥의 헬멧은 투명 가림막 달린 풀페이스, 그 위엔 손등 보호대가 박힌 장갑 한 짝. 이마를 가로지른 붉은 줄도 헬멧 자국이다. 버스나 자동차, 두 발이라면 필요 없는 장비 — 그는 오토바이로 다닌다. 장갑 낀 손에 든 휴대폰엔 길 안내 경로가 떠 있고, 줄은 허벅지 위 보조배터리로 이어진다. 대리운전 기사도 편의점 앞에서 휴대폰을 들고 콜을 기다리지만, 손님 차를 몰아야 하는 사람이 오토바이를 끌고 다닐 순 없다. 편의점 직원이라면 유니폼 차림이었을 테고, 택시 기사에겐 헬멧이 필요 없다. 이 사람은 음식 배달원이다. 땀에 젖어 납작하게 눌린 머리, 깊게 팬 헬멧 자국, 지도를 켜 두다 바닥난 배터리. 막 시작한 사람이 아니다. 경로가 떠 있고 장갑 한 짝을 아직 끼고 있으니 일을 끝낸 것도, 쉬는 날도 아니다. 몇 시간째 달리는 중이다. 가게로 돌아갈 사람도, 차에서 쉴 사람도 아니고, 연락을 기다릴 필요도 없다. 갈 길은 이미 화면에 떠 있다. 마지막 한 입을 삼키면 그는 장갑을 끼고 곧장 젖은 길로 다시 나선다.",
+    "en": "The paving stones underfoot are slick and shining. Yet the passers-by are in light clothes, and no one carries an umbrella. It's no weather for snow, and fog doesn't soak a street like this. It rained a little while ago. The helmet on the ground is full-face with a clear visor, and on top sits a glove with armored knuckles. The red line across his forehead is a helmet mark, too. Nobody needs that gear on a bus, in a car, or on foot — he gets around by motorcycle. The phone in his gloved hand shows a route, and its cable runs to a power bank on his thigh. A designated driver also waits outside convenience stores, phone in hand, for the next call — but someone who has to drive the customer's car home can't bring a motorcycle along. A store clerk would be in uniform, and a taxi driver has no use for a helmet. He's a food delivery worker. Sweat-soaked hair pressed flat, a deep helmet line, a battery drained by a map left running: he didn't just start. With a route on screen and one glove still on, he isn't done for the day or off duty either. He's been riding for hours. He isn't heading back into a store or off to nap in a car, and he has no call to wait for — the next destination is already on the screen. The moment he swallows the last bite, he'll pull on the glove and head straight back out onto the wet streets."
   }
 }

@@ -26,7 +26,7 @@ const I18N = {
     'viewer.full': '전체 화면 전환',
 
     'q.heading': '추리',
-    'q.lockNote': '답을 고르면 바로 잠기고 정답이 공개돼요. 신중하게!',
+    'q.lockNote': '답을 고르면 바로 잠겨요. 맞았는지는 다섯 문제를 다 푼 뒤에 한꺼번에 알려 드려요.',
 
     'result.heading': '결과',
     'result.right': '✔ 정답',
@@ -61,7 +61,7 @@ const I18N = {
     'archive.today': '오늘',
 
     'how.title': '플레이 방법',
-    'how.body': '<ol><li><b>관찰</b> — 휠이나 두 손가락으로 사진을 확대하고, 끌어서 구석구석 살펴보세요. 사진을 탭하면 전체 화면으로 볼 수 있습니다.</li><li><b>추리</b> — 질문은 다섯 개, 한 번에 하나씩 열립니다. 답을 고르면 바로 잠기고 정답인지 알려 준 뒤 다음 질문이 나옵니다. 무엇을 묻는지는 사건마다 다릅니다. 그 사람의 직업일 수도, 방금 일어난 일일 수도, 진술 속 거짓말일 수도 있습니다. 정답은 모두 사진 속 어딘가에 근거가 있습니다.</li><li><b>결과</b> — 다섯 문제를 다 풀면 점수와 등급이 나오고, 사진 위에 단서가 표시되며, 탐정의 추리가 나옵니다.</li></ol><h2>점수와 등급</h2><p>다섯 문제 중 맞힌 개수가 점수입니다.</p><ul><li>5개 — <b>셜록</b></li><li>4개 — <b>명탐정</b></li><li>2~3개 — <b>형사</b></li><li>0~1개 — <b>견습생</b></li></ul><p>새 사건은 매일 자정(내 기기 시간 기준)에 공개됩니다. 매일 풀면 연속 기록이 쌓입니다.</p>',
+    'how.body': '<ol><li><b>관찰</b> — 휠이나 두 손가락으로 사진을 확대하고, 끌어서 구석구석 살펴보세요. 사진을 탭하면 전체 화면으로 볼 수 있습니다.</li><li><b>추리</b> — 질문은 다섯 개, 한 번에 하나씩 열립니다. 답을 고르면 바로 잠기고 다음 질문이 나옵니다. 맞았는지는 다섯 문제를 다 푼 뒤에 한꺼번에 알려 줍니다. 무엇을 묻는지는 사건마다 다릅니다. 그 사람의 직업일 수도, 방금 일어난 일일 수도, 진술 속 거짓말일 수도 있습니다. 정답은 모두 사진 속 어딘가에 근거가 있습니다.</li><li><b>결과</b> — 다섯 문제를 다 풀면 문제별 정답과 점수, 등급이 나오고, 사진 위에 단서가 표시되며, 탐정의 추리가 나옵니다.</li></ol><h2>점수와 등급</h2><p>다섯 문제 중 맞힌 개수가 점수입니다.</p><ul><li>5개 — <b>셜록</b></li><li>4개 — <b>명탐정</b></li><li>2~3개 — <b>형사</b></li><li>0~1개 — <b>견습생</b></li></ul><p>새 사건은 매일 자정(내 기기 시간 기준)에 공개됩니다. 매일 풀면 연속 기록이 쌓입니다.</p>',
     'stats.title': '내 기록',
     'stats.played': '푼 사건',
     'stats.streak': '현재 연속',
@@ -101,7 +101,7 @@ const I18N = {
     'viewer.full': 'Toggle full screen',
 
     'q.heading': 'Your deduction',
-    'q.lockNote': 'Each answer locks in the moment you pick it, and you\'ll see right away if you got it. Choose carefully!',
+    'q.lockNote': 'Each answer locks in the moment you pick it. You\'ll find out which ones you got right after the fifth question.',
 
     'result.heading': 'Verdict',
     'result.right': '✔ Correct',
@@ -136,7 +136,7 @@ const I18N = {
     'archive.today': 'Today',
 
     'how.title': 'How to Play',
-    'how.body': '<ol><li><b>Observe</b> — Zoom in with your scroll wheel or two fingers and drag to inspect every corner. Tap the photo to see it full screen.</li><li><b>Deduce</b> — There are five questions, and they open one at a time. Each answer locks in as soon as you pick it, and you\'ll see right away whether it was right. Each case asks something different — who someone is, what just happened, or which statement is a lie. Every answer is backed by something in the photo.</li><li><b>Verdict</b> — After the fifth answer you get your score and rank, the clues light up on the photo, and you get the detective\'s reasoning.</li></ol><h2>Scoring and ranks</h2><p>Your score is how many of the five questions you got right.</p><ul><li>5 — <b>Sherlock</b></li><li>4 — <b>Detective</b></li><li>2–3 — <b>Inspector</b></li><li>0–1 — <b>Rookie</b></li></ul><p>A new case unlocks every day at midnight, your local time. Solve one every day to build a streak.</p>',
+    'how.body': '<ol><li><b>Observe</b> — Zoom in with your scroll wheel or two fingers and drag to inspect every corner. Tap the photo to see it full screen.</li><li><b>Deduce</b> — There are five questions, and they open one at a time. Each answer locks in as soon as you pick it, and you won\'t find out whether it was right until all five are done. Each case asks something different — who someone is, what just happened, or which statement is a lie. Every answer is backed by something in the photo.</li><li><b>Verdict</b> — After the fifth answer you see the right answers, your score and rank, the clues light up on the photo, and you get the detective\'s reasoning.</li></ol><h2>Scoring and ranks</h2><p>Your score is how many of the five questions you got right.</p><ul><li>5 — <b>Sherlock</b></li><li>4 — <b>Detective</b></li><li>2–3 — <b>Inspector</b></li><li>0–1 — <b>Rookie</b></li></ul><p>A new case unlocks every day at midnight, your local time. Solve one every day to build a streak.</p>',
     'stats.title': 'My Stats',
     'stats.played': 'Solved',
     'stats.streak': 'Current streak',

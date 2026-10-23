@@ -4,160 +4,162 @@
   "type": "scene",
   "image": "img/029.webp",
   "title": {
-    "ko": "멈춰 버린 체스판",
-    "en": "The Last Move"
+    "ko": "공원의 체스 한 판",
+    "en": "A Game in the Park"
   },
   "intro": {
-    "ko": "일요일 오후, 공원 테이블 위에 체스판이 남아 있다. 여기서 무슨 일이 있었을까?",
-    "en": "Sunday afternoon, a chessboard left on a park table. What happened here?"
+    "ko": "일요일 오후, 공원 한편. 두 사람이 두던 체스판이 남아 있다. 여기서 무슨 일이 있었을까?",
+    "en": "Sunday afternoon, a corner of the park. Two people's chess game has been left on the table. What happened here?"
   },
   "questions": [
     {
-      "key": "game",
+      "key": "end",
       "ask": {
-        "ko": "어떤 게임이었을까?",
-        "en": "What kind of game was it?"
+        "ko": "이 판은 어떻게 끝났을까?",
+        "en": "How did the game end?"
       },
       "options": [
         {
-          "ko": "일방적인 게임",
-          "en": "A one-sided rout"
+          "ko": "비기기로 했다",
+          "en": "They agreed to a draw"
         },
         {
-          "ko": "막 시작한 게임",
-          "en": "Just getting started"
+          "ko": "비가 와서 그만뒀다",
+          "en": "Rain stopped play"
         },
         {
-          "ko": "몇 수만 둔 연습",
-          "en": "A quick practice game"
+          "ko": "검은 쪽이 외통수로 졌다",
+          "en": "Black was checkmated"
         },
         {
-          "ko": "오래 이어진 접전",
-          "en": "A long, hard-fought battle"
+          "ko": "흰 쪽이 기권했다",
+          "en": "White resigned"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e2",
-        "e3"
+        "e1",
+        "e4"
       ]
     },
     {
-      "key": "coffee",
+      "key": "stage",
       "ask": {
-        "ko": "커피를 다 마신 쪽은 누구일까?",
-        "en": "Who finished their coffee?"
+        "ko": "판은 어디까지 진행됐을까?",
+        "en": "How far had the game gone?"
       },
       "options": [
         {
-          "ko": "흰 쪽",
-          "en": "White"
+          "ko": "막 시작한 참",
+          "en": "It had barely begun"
         },
         {
-          "ko": "검은 쪽",
-          "en": "Black"
+          "ko": "몇 수 만에 끝난 판",
+          "en": "Over in a few moves"
         },
         {
-          "ko": "둘 다",
-          "en": "Both"
+          "ko": "한참 주고받은 중반",
+          "en": "Deep in the middle game"
         },
         {
-          "ko": "둘 다 안 마셨다",
-          "en": "Neither"
+          "ko": "말이 거의 없는 끝판",
+          "en": "An endgame, few pieces left"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3",
+        "e2"
+      ]
+    },
+    {
+      "key": "rain",
+      "ask": {
+        "ko": "두 사람은 언제 체스를 두었을까?",
+        "en": "When did they play?"
+      },
+      "options": [
+        {
+          "ko": "비 오기 전",
+          "en": "Before the rain"
+        },
+        {
+          "ko": "비 오는 동안",
+          "en": "While it rained"
+        },
+        {
+          "ko": "비 그친 뒤",
+          "en": "After the rain stopped"
+        },
+        {
+          "ko": "비 안 온 날",
+          "en": "On a day with no rain"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e2"
+      ]
+    },
+    {
+      "key": "table",
+      "ask": {
+        "ko": "두 사람은 왜 이 탁자에서 두었을까?",
+        "en": "Why did they play at this table?"
+      },
+      "options": [
+        {
+          "ko": "비를 피할 수 있어서",
+          "en": "It's sheltered from rain"
+        },
+        {
+          "ko": "판이 새겨진 탁자라서",
+          "en": "The board is built into it"
+        },
+        {
+          "ko": "다른 자리가 꽉 차서",
+          "en": "Every other seat was taken"
+        },
+        {
+          "ko": "가져온 판을 펴기 좋아서",
+          "en": "A handy spot for their own board"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e4",
-        "e5"
+        "e5",
+        "e6"
       ]
     },
     {
       "key": "left",
       "ask": {
-        "ko": "진 사람은 어떻게 자리를 떠났을까?",
-        "en": "How did the loser leave?"
+        "ko": "두 사람이 자리를 뜬 건 언제쯤일까?",
+        "en": "When did the two of them leave?"
       },
       "options": [
         {
-          "ko": "조용히 의자를 넣었다",
-          "en": "Quietly pushed the chair in"
+          "ko": "조금 전",
+          "en": "A little while ago"
         },
         {
-          "ko": "벌떡 일어나 떠났다",
-          "en": "Shot up and stormed off"
+          "ko": "지난밤",
+          "en": "Last night"
         },
         {
-          "ko": "악수하고 함께 갔다",
-          "en": "Shook hands and left together"
+          "ko": "며칠 전",
+          "en": "A few days ago"
         },
         {
-          "ko": "아직 근처에 있다",
-          "en": "Still nearby"
+          "ko": "지난주",
+          "en": "Last week"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
-        "e6"
-      ]
-    },
-    {
-      "key": "event",
-      "ask": {
-        "ko": "게임은 어떻게 끝났을까?",
-        "en": "How did the game end?"
-      },
-      "options": [
-        {
-          "ko": "바람에 말이 쓰러졌다",
-          "en": "Wind knocked a piece over"
-        },
-        {
-          "ko": "한쪽이 기권했다",
-          "en": "Someone resigned"
-        },
-        {
-          "ko": "아이가 장난을 쳤다",
-          "en": "A kid messed with it"
-        },
-        {
-          "ko": "막 시작하려던 참",
-          "en": "It hadn't started"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "winner",
-      "ask": {
-        "ko": "누가 이겼을까?",
-        "en": "Who won?"
-      },
-      "options": [
-        {
-          "ko": "흰 쪽",
-          "en": "White"
-        },
-        {
-          "ko": "무승부",
-          "en": "A draw"
-        },
-        {
-          "ko": "알 수 없다",
-          "en": "Can't tell"
-        },
-        {
-          "ko": "검은 쪽",
-          "en": "Black"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1"
+        "e2",
+        "e4"
       ]
     }
   ],
@@ -168,18 +170,18 @@
       "y": 61,
       "r": 5,
       "label": {
-        "ko": "다른 말은 다 서 있는데 혼자 옆으로 누운 흰 킹",
-        "en": "The white king lying on its side — every other piece standing"
+        "ko": "다른 말은 다 서 있는데 혼자 눕혀진 흰 킹 — 기권의 표시",
+        "en": "The white king laid on its side while every other piece stands — the sign of resignation"
       }
     },
     {
       "id": "e2",
-      "x": 34,
-      "y": 60,
-      "r": 9,
+      "x": 86,
+      "y": 50,
+      "r": 5,
       "label": {
-        "ko": "판 가장자리에 줄지어 세워 둔 잡힌 흰 말들",
-        "en": "Captured white pieces lined up along the edge of the board"
+        "ko": "다 마시고 구겨 둔 빈 종이컵 — 가벼운데도 쓰러지지 않고 말라 있다",
+        "en": "An empty paper cup, drained and crumpled — light as it is, it's still standing, and dry"
       }
     },
     {
@@ -188,43 +190,43 @@
       "y": 59,
       "r": 9,
       "label": {
-        "ko": "반대편 가장자리에 줄지어 세워 둔 잡힌 검은 말들 — 개수가 비슷하다",
-        "en": "Captured black pieces lined up along the other edge — about as many"
+        "ko": "양쪽 가장자리에 한 줄씩 늘어선 잡힌 말들 — 그래도 판 위엔 아직 말이 많다",
+        "en": "A row of captured pieces along each edge — yet the board is still crowded"
       }
     },
     {
       "id": "e4",
-      "x": 19,
-      "y": 50,
-      "r": 6,
+      "x": 21,
+      "y": 53,
+      "r": 7,
       "label": {
-        "ko": "흰 쪽 자리에 가득 남은 채 식어 버린 커피",
-        "en": "A full, cold coffee on White's side"
+        "ko": "탁자에 고인 빗물 — 그런데 바로 옆 커피 컵엔 빗방울 하나 없고 커피도 가득하다",
+        "en": "Rainwater pooled on the table — yet the coffee cup beside it is dry and still full"
       }
     },
     {
       "id": "e5",
-      "x": 86,
+      "x": 36,
       "y": 50,
-      "r": 5,
+      "r": 6,
       "label": {
-        "ko": "검은 쪽 자리의 다 마시고 구겨진 컵",
-        "en": "An empty, crumpled cup on Black's side"
+        "ko": "돌 탁자 표면에 붙박이로 새겨진 체스판",
+        "en": "A chessboard built right into the stone tabletop"
       }
     },
     {
       "id": "e6",
-      "x": 25,
-      "y": 82,
+      "x": 79,
+      "y": 25,
       "r": 13,
       "label": {
-        "ko": "흰 쪽 의자 — 뒤로 밀려나 비뚤어졌다",
-        "en": "White's chair, shoved back at a crooked angle"
+        "ko": "텅 빈 벤치와 산책로",
+        "en": "Empty benches, an empty path"
       }
     }
   ],
   "detective": {
-    "ko": "다른 말은 전부 서 있는데 흰 킹 하나만 옆으로 누워 있다. 바람이었다면 다른 말도 쓰러졌을 것이다. 체스에서 자기 킹을 눕히는 건 기권의 표시 — 흰 쪽이 졌고, 검은 쪽이 이겼다. 판 양옆엔 잡힌 말들이 비슷한 수로 늘어서 있다. 일방적인 게임이 아니라 오래 주고받은 접전이었다. 검은 쪽 컵은 다 마시고 구겨져 있는데, 흰 쪽 커피는 가득 찬 채 식어 버렸다. 몰리는 쪽은 한 수 한 수 고민하느라 커피에 손댈 틈이 없다. 그리고 흰 쪽 의자는 뒤로 밀려나 비뚤어져 있다. 조용히 의자를 넣고 간 게 아니다. 킹을 눕히고, 벌떡 일어나 떠났다.",
-    "en": "Every piece is standing except one: the white king, lying on its side. Wind would have toppled others, too. In chess, tipping over your own king means you resign — White lost, Black won. On both sides of the board stand rows of captured pieces, about the same number each. This wasn't a rout; it was a long, close fight. Black's cup is drained and crumpled, but White's coffee is still full and stone cold. The player under pressure was too busy agonizing over every move to take a sip. And White's chair has been shoved back at a crooked angle. No quietly tucking it in: White tipped the king, shot up, and left."
+    "ko": "판 위 말은 모두 서 있는데 흰 킹 하나만 눕혀져 있다. 체스에서 자기 킹을 눕히는 건 기권의 표시다. 비긴 판이라면 킹을 눕힐 까닭이 없고, 검은 킹은 멀쩡히 서 있으니 검은 쪽이 외통수로 진 것도 아니다. 구겨진 컵은 화풀이가 아니라 다 마신 컵일 뿐이다. 흰 쪽이 기권했다. 판 양옆엔 잡힌 말이 한 줄씩 늘어섰지만 판 위엔 아직 말이 수두룩하다. 막 시작한 판도, 몇 수 만에 끝난 판도, 끝판도 아니다. 한참 주고받은 중반이다. 돌 탁자엔 빗물이 고였고 의자 밑 바닥도 젖어 있다. 그런데 바로 옆 종이컵과 말에는 빗방울 하나 없다. 비가 그친 뒤 젖은 탁자에서 두었다. 비 때문에 그만둔 판이 아니다. 탁자 위로는 하늘이 그대로 뚫려 있고 사방 벤치는 텅 비었다. 비를 피하려고도, 자리가 없어서도 아니다. 체스판이 돌 탁자에 아예 새겨져 있으니 판을 들고 올 필요도 없었다. 젖은 탁자 위 가벼운 빈 컵은 쓰러지지도 젖지도 않았고, 커피는 가득 찬 그대로다. 두 사람이 떠난 지 얼마 안 됐다.",
+    "en": "Every piece on the board is standing except one: the white king, laid on its side. In chess, tipping over your own king means you resign. Nobody tips a king for a draw, and Black's king still stands tall, so Black wasn't checkmated. The crumpled cup isn't a tantrum; it's just empty. White resigned. Rows of captured pieces line both edges, yet the board is still crowded: not a game that had barely begun, not one over in a few moves, not an endgame. It was deep in the middle game. Rainwater has pooled on the stone table and the ground under the chairs is wet, yet the paper cups and the pieces don't have a drop on them. They played on the wet table after the rain stopped, so rain didn't end this game. The table stands open to the sky and every bench in sight is empty: they didn't come for shelter or for lack of seats. The board is built right into the stone, so there was nothing to bring but pieces. On that wet table a light, empty cup still stands dry, and the coffee is still full to the brim. They left only a little while ago."
   }
 }

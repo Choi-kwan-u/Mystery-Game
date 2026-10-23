@@ -4,12 +4,12 @@
   "type": "scene",
   "image": "img/025.webp",
   "title": {
-    "ko": "타는 냄새가 남은 부엌",
-    "en": "Something Burned"
+    "ko": "저녁 7시의 부엌",
+    "en": "The Kitchen at 7 p.m."
   },
   "intro": {
-    "ko": "저녁 7시, 창문이 활짝 열린 부엌. 방금 여기서 무슨 일이 있었을까?",
-    "en": "7 p.m., a kitchen with the window thrown wide open. What just happened here?"
+    "ko": "저녁 7시, 어느 집 부엌. 여기서 무슨 일이 있었을까?",
+    "en": "7 p.m., a kitchen in someone's home. What happened here?"
   },
   "questions": [
     {
@@ -20,57 +20,26 @@
       },
       "options": [
         {
-          "ko": "불이 나 소방차가 왔다",
-          "en": "A fire, and the fire trucks came"
+          "ko": "생선을 굽다 태웠다",
+          "en": "Burned fish for dinner"
         },
         {
-          "ko": "음식을 태웠다",
-          "en": "Something got burned"
+          "ko": "커피콩을 볶다 태웠다",
+          "en": "Scorched coffee beans while roasting"
         },
         {
-          "ko": "가스가 새어 나왔다",
-          "en": "A gas leak"
+          "ko": "팝콘을 튀기다 태웠다",
+          "en": "Burned a batch of popcorn"
         },
         {
-          "ko": "전기 합선이 났다",
-          "en": "A short circuit"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e1",
-        "e2",
-        "e3"
-      ]
-    },
-    {
-      "key": "what",
-      "ask": {
-        "ko": "무엇을 태웠을까?",
-        "en": "What got burned?"
-      },
-      "options": [
-        {
-          "ko": "커피콩",
-          "en": "Coffee beans"
-        },
-        {
-          "ko": "볶은 땅콩",
-          "en": "Roasted peanuts"
-        },
-        {
-          "ko": "팝콘",
-          "en": "Popcorn"
-        },
-        {
-          "ko": "군밤",
-          "en": "Roast chestnuts"
+          "ko": "빈 냄비를 달궈 태웠다",
+          "en": "Scorched an empty pot"
         }
       ],
       "answer": 2,
       "evidence": [
         "e2",
-        "e6"
+        "e1"
       ]
     },
     {
@@ -81,84 +50,116 @@
       },
       "options": [
         {
-          "ko": "통화하다 깜빡해서",
-          "en": "Distracted by a call"
+          "ko": "다른 요리를 하느라",
+          "en": "Busy cooking something else"
         },
         {
-          "ko": "냄비가 고장 나서",
-          "en": "A faulty pot"
+          "ko": "영화에 빠져서",
+          "en": "Caught up in a movie"
         },
         {
-          "ko": "일부러 태워서",
-          "en": "On purpose"
+          "ko": "설거지를 하느라",
+          "en": "Busy doing the dishes"
         },
         {
-          "ko": "영화 보다 깜빡해서",
-          "en": "Lost in a movie"
+          "ko": "잠깐 외출해서",
+          "en": "Stepped out for a bit"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
-        "e6"
+        "e6",
+        "e2"
       ]
     },
     {
       "key": "alarm",
       "ask": {
-        "ko": "화재경보기 뚜껑이 열리고 배터리가 빠진 이유는?",
-        "en": "Why is the smoke alarm open with its battery out?"
+        "ko": "연기가 나자 이 집 사람은 어떻게 했을까?",
+        "en": "When the smoke started, what did the person at home do?"
       },
       "options": [
         {
-          "ko": "울려 대서 뺐다",
-          "en": "Yanked out for blaring"
+          "ko": "레인지 후드를 켰다",
+          "en": "Turned on the range hood"
         },
         {
-          "ko": "새 배터리로 바꾸려고",
-          "en": "Changing the battery"
+          "ko": "젖은 행주를 덮었다",
+          "en": "Smothered it with a wet towel"
         },
         {
-          "ko": "원래 비어 있었다",
-          "en": "It was always empty"
+          "ko": "소화기를 뿌렸다",
+          "en": "Used a fire extinguisher"
         },
         {
-          "ko": "아이가 장난쳐서",
-          "en": "A kid messed with it"
+          "ko": "경보기 배터리를 뺐다",
+          "en": "Pulled the alarm's battery"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "evidence": [
         "e3",
         "e4"
       ]
     },
     {
-      "key": "fan",
+      "key": "when",
       "ask": {
-        "ko": "선풍기를 창문 쪽으로 돌려 둔 이유는?",
-        "en": "Why is the fan pointed at the window?"
+        "ko": "이 일은 언제 벌어졌을까?",
+        "en": "When did this happen?"
       },
       "options": [
         {
-          "ko": "더위를 식히려고",
-          "en": "To cool off"
+          "ko": "몇 분 전",
+          "en": "A few minutes ago"
         },
         {
-          "ko": "연기를 빼내려고",
-          "en": "To clear out the smoke"
+          "ko": "한 시간쯤 전",
+          "en": "About an hour ago"
         },
         {
-          "ko": "빨래를 말리려고",
-          "en": "To dry laundry"
+          "ko": "점심때쯤",
+          "en": "Around lunchtime"
         },
         {
-          "ko": "벌레를 쫓으려고",
-          "en": "To keep bugs out"
+          "ko": "어젯밤",
+          "en": "Last night"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
+        "e1",
         "e5"
+      ]
+    },
+    {
+      "key": "home",
+      "ask": {
+        "ko": "이 부엌은 어떤 집에 있을까?",
+        "en": "What kind of home is this kitchen in?"
+      },
+      "options": [
+        {
+          "ko": "고층 아파트",
+          "en": "A high-rise apartment"
+        },
+        {
+          "ko": "원룸 오피스텔",
+          "en": "A studio apartment"
+        },
+        {
+          "ko": "단독주택",
+          "en": "A detached house"
+        },
+        {
+          "ko": "반지하 집",
+          "en": "A basement flat"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e5",
+        "e6"
       ]
     }
   ],
@@ -169,8 +170,8 @@
       "y": 69,
       "r": 8,
       "label": {
-        "ko": "바닥이 새까맣게 탄 냄비, 아직 피어오르는 연기",
-        "en": "A pot scorched black, still smoking"
+        "ko": "바닥이 새까맣게 탄 냄비 — 아직도 연기가 피어오른다",
+        "en": "A saucepan scorched black — still smoking"
       }
     },
     {
@@ -179,8 +180,8 @@
       "y": 82,
       "r": 8,
       "label": {
-        "ko": "냄비 주변에 흩어진 까맣게 탄 팝콘 — 톡 터진 모양 그대로",
-        "en": "Charred popcorn around the pot, still in its burst shape"
+        "ko": "냄비 둘레에 흩어진 탄 알갱이 — 커피콩 같지만 하나같이 톡 터진 팝콘 모양",
+        "en": "Burnt bits scattered around the pot — bean-dark, but every one has a burst popcorn shape"
       }
     },
     {
@@ -190,42 +191,42 @@
       "r": 6,
       "label": {
         "ko": "뚜껑이 열린 채 매달린 천장의 화재경보기",
-        "en": "The smoke detector on the ceiling, cover hanging open"
+        "en": "The smoke alarm on the ceiling, its cover hanging open"
       }
     },
     {
       "id": "e4",
-      "x": 69,
+      "x": 65,
       "y": 89,
-      "r": 5,
+      "r": 6,
       "label": {
-        "ko": "조리대 위에 빼 놓은 경보기 배터리",
-        "en": "The detector's battery left on the counter"
+        "ko": "조리대에 빼 놓은 경보기 배터리와 덮개",
+        "en": "The alarm's battery and battery door left on the counter"
       }
     },
     {
       "id": "e5",
-      "x": 78,
-      "y": 47,
-      "r": 14,
+      "x": 80,
+      "y": 40,
+      "r": 13,
       "label": {
-        "ko": "활짝 열린 창문을 향해 돌아가는 선풍기",
-        "en": "A fan blowing toward the wide-open window"
+        "ko": "활짝 열린 창으로 아직 빠져나가는 연기 — 창밖엔 길 건너 주택과 잔디밭이 눈높이에",
+        "en": "Smoke still drifting out the wide-open window — outside, houses and lawns across the street at eye level"
       }
     },
     {
       "id": "e6",
-      "x": 16,
-      "y": 43,
-      "r": 9,
+      "x": 17,
+      "y": 50,
+      "r": 13,
       "label": {
-        "ko": "옆방 TV에 멈춰 있는 영화 장면과 소파 위 담요",
-        "en": "A paused movie on the TV next door, a blanket on the sofa"
+        "ko": "부엌 너머 따로 있는 거실 — TV엔 영화, 소파 등받이엔 걷어 던진 담요",
+        "en": "A separate living room beyond the kitchen — a movie on the TV, a blanket flung over the sofa"
       }
     }
   ],
   "detective": {
-    "ko": "가스레인지 위 냄비 바닥이 새까맣게 탔고 아직 연기가 피어오른다. 불이 났다면 소화기 가루나 물바다가 남았을 것이다. 냄비 주변의 까만 알갱이들은 커피콩처럼 보이지만, 하나같이 톡 터진 모양이다 — 팝콘이다. 옆에는 팝콘을 담으려던 빈 그릇이 기다리고 있다. 옆방 TV엔 영화가 멈춰 있고 소파엔 담요. 팝콘을 올려놓고 영화를 보다가 깜빡했다. 천장의 화재경보기는 뚜껑이 열렸고 배터리는 조리대 위에 굴러다닌다. 그 아래엔 빗자루. 새 배터리로 갈려던 게 아니다 — 연기에 경보기가 울어 대자 빗자루로 쳐서 열고 배터리를 뽑았다. 선풍기는 열린 창문을 향해 돌아간다. 연기를 밖으로 내보내는 중이다.",
-    "en": "The pot on the stove is scorched black and still smoking. A real fire would have left extinguisher powder or a flood of water. The black bits around the pot could pass for coffee beans, but every one has that burst shape — popcorn. A big empty bowl sits ready for it. Next door, a movie is paused on the TV, a blanket on the sofa: someone put the popcorn on, sat down to watch, and forgot. The smoke detector on the ceiling hangs open, its battery rolling on the counter, a broom leaning right underneath. Nobody was changing batteries — the alarm started shrieking, so someone whacked it open with the broom and yanked the battery. The fan points at the open window, pushing the smoke out."
+    "ko": "가스레인지 위 냄비 바닥이 새까맣게 탔고 아직도 연기가 피어오른다. 창문을 활짝 열었는데도 연기가 다 빠지지 않았다 — 몇 분 전에 벌어진 일이다. 냄비 둘레의 까만 알갱이들은 커피콩처럼 보이지만 하나같이 톡 터진 모양이다. 팝콘이다. 빈 냄비가 아니었고, 생선을 구운 프라이팬도 없다. 옆에는 팝콘을 담으려던 큰 그릇이 비어 있다. 거실 TV엔 영화가 켜져 있고 담요는 소파 등받이에 걷어 던져져 있다. 개수대는 비어 있고 다른 화구엔 아무것도 없으니 설거지나 다른 요리를 하던 것도 아니다. 영화를 보다 팝콘을 깜빡했다. 천장 경보기는 뚜껑이 열린 채 매달렸고, 배터리와 덮개는 조리대에 나뒹군다. 울어 대는 경보기의 배터리를 뽑아 버렸다. 소화기 가루는 없고, 행주는 그릇 옆에 얌전하고, 레인지 위엔 후드조차 없다. 창밖엔 길 건너 주택과 잔디밭이 눈높이로 보이고 거실은 따로 있다. 고층도 반지하도 원룸도 아닌 단독주택이다.",
+    "en": "The saucepan on the stove is scorched black and still smoking. Even with the window flung wide, the smoke hasn't cleared — this happened minutes ago. The black bits around the pot look like coffee beans, but every one has a burst shape: popcorn. The pot wasn't empty, and there's no frying pan that ever held fish. A big empty bowl waits beside it. In the living room a movie is on and a blanket has been flung over the back of the sofa. The sink is empty and the other burners are bare, so nobody was doing dishes or cooking something else. Someone put popcorn on, sat down to the movie, and forgot. The smoke alarm hangs open on the ceiling; its battery and door lie on the counter. When it started shrieking, someone yanked the battery. There's no extinguisher powder, the towel sits neatly by the bowl, and there isn't even a hood over the stove. Out the window, houses and lawns across the street are at eye level, and the living room is a separate room. Not a high floor, not a basement, not a studio — a house."
   }
 }

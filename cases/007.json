@@ -4,131 +4,14 @@
   "type": "room",
   "image": "img/007.webp",
   "title": {
-    "ko": "달콤한 냄새가 나는 부엌",
-    "en": "The Kitchen That Smells Sweet"
+    "ko": "시골집 부엌",
+    "en": "The Farmhouse Kitchen"
   },
   "intro": {
-    "ko": "오전 10시, 가을의 시골집 부엌. 주인은 잠깐 밖에 나갔다. 이 부엌의 주인은 누구일까?",
-    "en": "10 a.m., a farmhouse kitchen in autumn. The owner has just stepped outside. Who lives here?"
+    "ko": "가을 오전 10시, 시골집 부엌. 주인은 밖에 나가고 없다. 이 부엌의 주인은 누구일까?",
+    "en": "10 a.m. on an autumn day, a farmhouse kitchen. The owner is out. Who lives here?"
   },
   "questions": [
-    {
-      "key": "drum",
-      "ask": {
-        "ko": "손잡이 달린 커다란 쇠통은 어떤 기계일까?",
-        "en": "What is the big steel drum with a crank?"
-      },
-      "options": [
-        {
-          "ko": "반죽을 치대는 기계",
-          "en": "A dough kneader"
-        },
-        {
-          "ko": "우유를 젓는 기계",
-          "en": "A butter churn"
-        },
-        {
-          "ko": "꿀을 짜는 기계",
-          "en": "A honey extractor"
-        },
-        {
-          "ko": "빨래를 짜는 탈수기",
-          "en": "A spin dryer"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "smoker",
-      "ask": {
-        "ko": "조리대 위 풀무 달린 깡통은 무엇에 쓸까?",
-        "en": "What's the can with bellows on the counter for?"
-      },
-      "options": [
-        {
-          "ko": "연기를 뿜는다",
-          "en": "Puffing smoke"
-        },
-        {
-          "ko": "꿀을 데운다",
-          "en": "Warming honey"
-        },
-        {
-          "ko": "밀랍을 녹인다",
-          "en": "Melting wax"
-        },
-        {
-          "ko": "숯불을 피운다",
-          "en": "Lighting charcoal"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "gloves",
-      "ask": {
-        "ko": "팔꿈치까지 오는 가죽 장갑은 무엇에 대비한 걸까?",
-        "en": "What are the elbow-length leather gloves for?"
-      },
-      "options": [
-        {
-          "ko": "뜨거운 솥",
-          "en": "Hot pots"
-        },
-        {
-          "ko": "날카로운 칼",
-          "en": "Sharp knives"
-        },
-        {
-          "ko": "겨울 추위",
-          "en": "Winter cold"
-        },
-        {
-          "ko": "쏘이는 것",
-          "en": "Stings"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "sugar",
-      "ask": {
-        "ko": "설탕 포대는 왜 이렇게 많을까?",
-        "en": "Why so many sacks of sugar?"
-      },
-      "options": [
-        {
-          "ko": "빵을 구우려고",
-          "en": "For baking"
-        },
-        {
-          "ko": "겨울 먹이로 주려고",
-          "en": "Feed for the winter"
-        },
-        {
-          "ko": "잼을 만들려고",
-          "en": "For making jam"
-        },
-        {
-          "ko": "손님 차에 넣으려고",
-          "en": "For guests' tea"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4",
-        "e5"
-      ]
-    },
     {
       "key": "job",
       "ask": {
@@ -137,27 +20,144 @@
       },
       "options": [
         {
-          "ko": "치즈 장인",
-          "en": "Cheesemaker"
+          "ko": "과수원 주인",
+          "en": "Orchard keeper"
         },
         {
-          "ko": "제빵사",
-          "en": "Baker"
+          "ko": "치즈 장인",
+          "en": "Cheesemaker"
         },
         {
           "ko": "양봉가",
           "en": "Beekeeper"
         },
         {
-          "ko": "잼 가게 주인",
-          "en": "Jam shop owner"
+          "ko": "양조가",
+          "en": "Brewer"
         }
       ],
       "answer": 2,
       "evidence": [
         "e1",
         "e2",
-        "e3"
+        "e4"
+      ]
+    },
+    {
+      "key": "morning",
+      "ask": {
+        "ko": "오늘 아침 일찍 주인은 어디에 다녀왔을까?",
+        "en": "Where did the owner go early this morning?"
+      },
+      "options": [
+        {
+          "ko": "외양간",
+          "en": "The cow barn"
+        },
+        {
+          "ko": "벌통",
+          "en": "The beehives"
+        },
+        {
+          "ko": "저장고",
+          "en": "The cellar"
+        },
+        {
+          "ko": "과수원",
+          "en": "The orchard"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3",
+        "e2"
+      ]
+    },
+    {
+      "key": "injury",
+      "ask": {
+        "ko": "오늘 아침 주인에게 무슨 일이 있었을까?",
+        "en": "What happened to the owner this morning?"
+      },
+      "options": [
+        {
+          "ko": "뜨거운 것에 데었다",
+          "en": "Burned by something hot"
+        },
+        {
+          "ko": "날붙이에 베였다",
+          "en": "Cut by a blade"
+        },
+        {
+          "ko": "허리를 삐끗했다",
+          "en": "Wrenched the back"
+        },
+        {
+          "ko": "뾰족한 것에 찔렸다",
+          "en": "Pricked by something sharp"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e6"
+      ]
+    },
+    {
+      "key": "away",
+      "ask": {
+        "ko": "주인이 자리를 비운 지 얼마나 됐을까?",
+        "en": "How long has the owner been gone?"
+      },
+      "options": [
+        {
+          "ko": "몇 분 안 됐다",
+          "en": "A few minutes"
+        },
+        {
+          "ko": "한 시간쯤 됐다",
+          "en": "About an hour"
+        },
+        {
+          "ko": "반나절쯤 됐다",
+          "en": "Half a day"
+        },
+        {
+          "ko": "어제부터다",
+          "en": "Since yesterday"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4"
+      ]
+    },
+    {
+      "key": "heat",
+      "ask": {
+        "ko": "오늘 아침 이 부엌에서 데운 것은 무엇일까?",
+        "en": "What has been heated in this kitchen this morning?"
+      },
+      "options": [
+        {
+          "ko": "큰 솥에 물 한가득",
+          "en": "A big pot of water"
+        },
+        {
+          "ko": "아침으로 먹을 국",
+          "en": "Soup for breakfast"
+        },
+        {
+          "ko": "오븐에 빵 한 판",
+          "en": "A tray of bread in the oven"
+        },
+        {
+          "ko": "아무것도 안 데웠다",
+          "en": "Nothing at all"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e5"
       ]
     }
   ],
@@ -165,51 +165,51 @@
     {
       "id": "e1",
       "x": 73,
-      "y": 49,
-      "r": 13,
+      "y": 47,
+      "r": 12,
       "label": {
-        "ko": "뚜껑에 손잡이가 달린 커다란 쇠통 — 아래 꼭지에서 꿀이 흘러나오는 채밀기",
-        "en": "A big steel drum with a crank on the lid, honey running from its tap — a honey extractor"
+        "ko": "뚜껑에 손잡이가 달린 커다란 쇠통 — 버터 통도 술통도 아니다. 벌집 틀을 넣고 돌려 꿀을 빼내는 채밀기",
+        "en": "A big steel drum with a crank on top — not a churn, not a brewing vat. A honey extractor that spins the honey out of comb frames"
       }
     },
     {
       "id": "e2",
       "x": 75,
       "y": 65,
-      "r": 6,
+      "r": 7,
       "label": {
-        "ko": "풀무 달린 깡통 — 연기를 뿜는 훈연기",
-        "en": "A can with bellows — a bee smoker"
+        "ko": "풀무 달린 깡통 — 연기로 벌을 달래는 훈연기. 그을음이 앉은 채 조리대에 그냥 놓여 있다. 오늘 아침 벌통에 들고 갔다 온 것",
+        "en": "A can with bellows — a bee smoker. Sooty, and just set down on the counter: it went out to the hives this morning"
       }
     },
     {
       "id": "e3",
       "x": 44,
-      "y": 35,
+      "y": 34,
       "r": 7,
       "label": {
-        "ko": "문 옆에 걸린, 팔꿈치까지 오는 두꺼운 가죽 장갑",
-        "en": "Thick elbow-length leather gloves by the back door"
+        "ko": "뒷문 옆 못에 걸린, 팔꿈치까지 오는 가죽 장갑 — 벌통에 다녀와 문을 들어서며 벗어 건 것",
+        "en": "Elbow-length leather gloves on a nail by the back door — pulled off and hung up on the way in from the hives"
       }
     },
     {
       "id": "e4",
-      "x": 22,
-      "y": 71,
-      "r": 16,
+      "x": 58,
+      "y": 70,
+      "r": 8,
       "label": {
-        "ko": "바닥에 쌓인 커다란 설탕 포대들",
-        "en": "Big sacks of sugar stacked on the floor"
+        "ko": "꼭지가 열린 채 금빛 꿀이 체로 흘러내린다 — 과즙도 유청도 술도 아니다. 체는 아직 넘치지 않았고 식탁의 병 아홉 개는 뚜껑도 없다. 주인은 몇 분 전에 잠깐 나갔다",
+        "en": "The tap is open and golden honey runs into the strainer — not juice, not whey, not beer. The strainer hasn't overflowed and the nine jars sit lidless: the owner stepped out only minutes ago"
       }
     },
     {
       "id": "e5",
-      "x": 60,
-      "y": 32,
-      "r": 9,
+      "x": 20,
+      "y": 60,
+      "r": 18,
       "label": {
-        "ko": "창밖은 단풍 — 꽃이 다 지는 가을",
-        "en": "Autumn leaves outside — the flowers are done for the year"
+        "ko": "화덕 옆구리와 오븐 문에 기대 세운 흰 포대 — 불을 땠다면 이렇게 둘 수 없다. 솥은 뚜껑을 덮은 채 김 한 줄기 없다. 오늘 아침 이 부엌에서 데운 것은 없다. 포대 속은 양봉가가 가을에 들여놓는 설탕",
+        "en": "White sacks leaning on the stove's side and oven door — impossible if it had been lit. The pots sit lidded, without a wisp of steam. Nothing was heated here this morning. The sacks hold the sugar a beekeeper lays in for autumn"
       }
     },
     {
@@ -218,13 +218,13 @@
       "y": 92,
       "r": 14,
       "label": {
-        "ko": "식탁 위 핀셋과 연고",
-        "en": "Tweezers and a tube of ointment on the table"
+        "ko": "식탁 위 핀셋과 짜서 쓴 연고 — 덴 데, 베인 데, 삔 허리에는 핀셋이 필요 없다. 살에 박힌 것을 뽑았다. 이 집에서 박히는 것은 벌침이다",
+        "en": "Tweezers and a squeezed tube of ointment on the table — a burn, a cut or a bad back needs no tweezers. Something was pulled out of the skin. In this house, that is a stinger"
       }
     }
   ],
   "detective": {
-    "ko": "설탕 포대와 꿀병만 보면 제빵사나 잼 가게 같다. 그런데 오븐도, 밀가루도, 과일도 없다. 대신 낯선 물건이 셋 있다. 뚜껑에 손잡이가 달린 커다란 쇠통 — 아래 꼭지에서 꿀이 흘러나온다. 탈수기처럼 벌집 틀을 넣고 돌려서 꿀을 짜내는 채밀기다. 조리대 위의 풀무 달린 깡통은 훈연기, 연기를 뿜어 벌을 얌전하게 만드는 도구다. 문 옆엔 팔꿈치까지 오는 두꺼운 가죽 장갑이 걸려 있다. 이 부엌의 주인은 양봉가다. 도마 위의 둥근 노란 덩어리도 치즈가 아니라 꿀을 짜고 남은 밀랍이다. 그럼 그 많은 설탕은? 창밖은 단풍, 꽃이 다 지는 가을이다. 겨울을 날 꿀이 모자란 벌들에게 설탕물을 끓여 먹인다. 그리고 식탁 위의 핀셋과 연고 — 오늘도 벌침 몇 개는 뽑았을 것이다.",
-    "en": "Sacks of sugar and jars of honey — a baker, maybe, or a jam shop? But there's no oven, no flour, no fruit. Instead there are three odd things. A big steel drum with a crank on its lid, honey running from the tap at the bottom: like a spin dryer, it whirls honeycomb frames until the honey flies out. It's a honey extractor. The can with the little bellows on the counter is a smoker — a puff of smoke keeps bees calm. And by the back door hang thick leather gloves that reach the elbow. The owner is a beekeeper. That round yellow lump on the board isn't cheese, either — it's beeswax left over from the harvest. So why all the sugar? Outside, the leaves are turning and the flowers are gone for the year. Bees short on honey get sugar syrup to carry them through winter. And the tweezers and ointment on the table? There were stingers to pull today."
+    "ko": "흰 포대, 큰 솥, 오븐 달린 화덕, 금빛 병들. 과수원 집의 잼 철 같고, 도마 위 노란 덩어리는 치즈 집, 바닥의 통과 체는 술 담그는 집을 떠올리게 한다. 그런데 쇠통 꼭지에서 체로 흘러내리는 건 과즙도 유청도 술도 아닌 걸쭉한 꿀이다. 과일 한 알, 우유 한 방울 없다. 쇠통은 벌집 틀을 돌려 꿀을 빼는 채밀기, 풀무 달린 깡통은 훈연기. 주인은 양봉가고 노란 덩어리는 밀랍이다. 그을음 앉은 훈연기와 뒷문 옆의 긴 가죽 장갑. 오늘 아침 일찍 둘을 들고 벌통에 다녀왔다. 식탁 위엔 핀셋과 짜서 쓴 연고. 덴 데, 베인 데, 삔 허리엔 핀셋이 필요 없다. 찔려 박힌 걸 뽑았다. 틀에 묻어 온 벌의 침이다. 꼭지는 열린 채고 체는 아직 안 넘쳤다. 병 아홉 개는 뚜껑도 없다. 주인은 몇 분 전에 잠깐 나갔다. 화덕 옆구리와 오븐 문에 포대를 기대 세웠으니 화덕은 식어 있고, 솥은 뚜껑 덮인 채 김 한 줄기 없다. 오늘 아침 데운 건 없다. 큰 솥과 설탕 포대는 꽃 진 뒤 벌에게 먹일 설탕물 차례를 기다린다.",
+    "en": "Three white sacks, big pots, a range with an oven, jars the color of gold. An orchard house in jam season, you'd think. The yellow wheel on the board says cheesemaker; the bucket and strainer on the floor say someone who brews. But what runs from the drum's tap into the strainer is neither juice nor whey nor beer. It is thick honey, the same honey that fills the jars. Not one apple, not a drop of milk. The drum is an extractor that spins honey out of comb frames, and the can with the bellows on the counter is a smoker for calming bees. The owner is a beekeeper, and the yellow wheel is beeswax, not cheese. The sooty smoker sits on the counter and elbow-length leather gloves hang by the back door: early this morning both went out to the hives and came back. On the table, tweezers and a squeezed tube of ointment. A burn, a cut or a wrenched back has no use for tweezers. Something sharp was pulled out of the skin — the stinger of a bee that rode in on the frames. The tap is still open and the strainer hasn't overflowed; nine jars stand without lids. An hour away and the floor would be a lake of honey. The owner stepped out minutes ago. And the range? Sacks lean against its side and its oven door, so it is cold, and the pots sit lidded without a wisp of steam. Nothing has been heated here this morning. The big pots and the sugar wait for their turn: syrup for the bees once the flowers are gone."
   }
 }

@@ -4,16 +4,16 @@
   "type": "lie",
   "image": "img/022.webp",
   "title": {
-    "ko": "긁힌 데 하나 없다는 새 차",
-    "en": "Not a Scratch on It"
+    "ko": "지하 주차장의 차 주인",
+    "en": "The Owner in the Garage"
   },
   "intro": {
-    "ko": "월요일 아침, 회사 지하 주차장. 새 차 옆에 선 남자에게 차 자랑을 부탁하자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
-    "en": "Monday morning, an office parking garage. We asked the man beside his new car to show it off. Here's what he said. Find the lie in the photo."
+    "ko": "월요일 아침, 회사 건물 지하 주차장. 차 옆에 서 있던 남자에게 차에 대해 묻자 이렇게 대답했다. 사진 속에서 거짓말을 찾아라.",
+    "en": "Monday morning, in the parking garage under an office building. We asked the man standing by his car about it. Here's what he said. Find the lie in the photo."
   },
   "statement": {
-    "ko": "이 차, 어제 새로 뽑았어요. 아직 긁힌 데 하나 없어요. 오늘 처음 몰고 출근했고요. 출고 때 받은 리본도 그대로 뒀어요.",
-    "en": "I picked this car up brand-new yesterday. Not a single scratch on it yet. Today's the first time I drove it to work. I even kept the ribbon from the dealership."
+    "ko": "오늘 아침 제가 직접 몰고 왔어요. 이 차, 벌써 5년째 타는 차예요. 도로에선 아무 일도 없었고요. 저는 이 건물에서 일해요.",
+    "en": "I drove it in myself this morning. I've had this car for five years now. Nothing happened on the road. I work in this building."
   },
   "questions": [
     {
@@ -24,20 +24,50 @@
       },
       "options": [
         {
-          "ko": "어제 새로 뽑았다",
-          "en": "He got it yesterday"
+          "ko": "오늘 직접 몰고 왔다",
+          "en": "He drove it in himself today"
         },
         {
-          "ko": "긁힌 데 하나 없다",
-          "en": "Not a scratch on it"
+          "ko": "5년째 타는 차다",
+          "en": "He's had the car five years"
         },
         {
-          "ko": "오늘 처음 몰고 출근했다",
-          "en": "First drive to work today"
+          "ko": "도로에선 아무 일 없었다",
+          "en": "Nothing happened on the road"
         },
         {
-          "ko": "리본을 그대로 뒀다",
-          "en": "He kept the ribbon"
+          "ko": "이 건물에서 일한다",
+          "en": "He works in this building"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "what",
+      "ask": {
+        "ko": "그의 차는 무엇에 긁혔을까?",
+        "en": "What scraped his car?"
+      },
+      "options": [
+        {
+          "ko": "파란 차",
+          "en": "A blue car"
+        },
+        {
+          "ko": "주차장 기둥",
+          "en": "A garage pillar"
+        },
+        {
+          "ko": "마트 카트",
+          "en": "A shopping cart"
+        },
+        {
+          "ko": "집 대문",
+          "en": "His front gate"
         }
       ],
       "answer": 1,
@@ -47,121 +77,93 @@
       ]
     },
     {
-      "key": "paint",
+      "key": "when",
       "ask": {
-        "ko": "긁힌 자국에 묻은 파란 페인트는 어디서 왔을까?",
-        "en": "Where did the blue paint in the scrape come from?"
+        "ko": "그는 언제 어디서 차를 긁었을까?",
+        "en": "When and where did the car get scraped?"
       },
       "options": [
         {
-          "ko": "다른 파란 차",
-          "en": "Another blue car"
+          "ko": "지난 주말 마트에서",
+          "en": "At the mall last weekend"
         },
         {
-          "ko": "공사장 페인트",
-          "en": "Construction paint"
+          "ko": "어젯밤 집 앞에서",
+          "en": "Outside his home last night"
         },
         {
-          "ko": "원래 차의 무늬",
-          "en": "The car's own trim"
+          "ko": "출근길 도로에서",
+          "en": "On the road to work"
         },
         {
-          "ko": "바로 옆 기둥",
-          "en": "The pillar"
+          "ko": "오늘 아침 여기 대다가",
+          "en": "Parking here this morning"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e1",
-        "e2"
+        "e5",
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "new",
+      "key": "now",
       "ask": {
-        "ko": "새 차라는 걸 보여 주는 단서는?",
-        "en": "Which clue shows the car is new?"
+        "ko": "차에서 내린 그는 지금 무엇을 하고 있을까?",
+        "en": "Now that he's out of the car, what is he doing?"
       },
       "options": [
         {
-          "ko": "좌석 비닐",
-          "en": "Seat plastic"
+          "ko": "긁힌 데를 살펴본다",
+          "en": "Looking over the scrape"
         },
         {
-          "ko": "긁힌 범퍼",
-          "en": "The scraped bumper"
+          "ko": "보험사에 전화한다",
+          "en": "Calling his insurer"
         },
         {
-          "ko": "주차장 기둥",
-          "en": "The pillar"
+          "ko": "트렁크에서 짐을 꺼낸다",
+          "en": "Unloading the trunk"
         },
         {
-          "ko": "주차장 조명",
-          "en": "The garage lights"
+          "ko": "사무실로 올라가려 한다",
+          "en": "Heading up to the office"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e3",
-        "e4"
+        "e6",
+        "e1"
       ]
     },
     {
-      "key": "how",
+      "key": "next",
       "ask": {
-        "ko": "범퍼는 어떻게 긁혔을까?",
-        "en": "How did the bumper get scraped?"
+        "ko": "이 일로 그가 해야 할 일은?",
+        "en": "What does he need to do about this?"
       },
       "options": [
         {
-          "ko": "기둥에 비벼서",
-          "en": "Scraped along the pillar"
+          "ko": "뺑소니로 신고한다",
+          "en": "Report a hit-and-run"
         },
         {
-          "ko": "돌이 튀어서",
-          "en": "A flying stone"
+          "ko": "마트 CCTV를 확인한다",
+          "en": "Check the mall's CCTV"
         },
         {
-          "ko": "옆 차가 박아서",
-          "en": "Another car hit it"
+          "ko": "관리실에 알린다",
+          "en": "Tell building management"
         },
         {
-          "ko": "문을 열다가",
-          "en": "Opening a door"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "commute",
-      "ask": {
-        "ko": "'오늘 처음 몰고 출근했다'는 말과 맞는 단서는?",
-        "en": "Which clue backs up 'first drive to work today'?"
-      },
-      "options": [
-        {
-          "ko": "대시보드 리본",
-          "en": "The dashboard ribbon"
-        },
-        {
-          "ko": "긁힌 범퍼",
-          "en": "The scraped bumper"
-        },
-        {
-          "ko": "목에 건 사원증",
-          "en": "His company ID"
-        },
-        {
-          "ko": "주차장 기둥",
-          "en": "The pillar"
+          "ko": "집 대문을 고친다",
+          "en": "Get his gate repaired"
         }
       ],
       "answer": 2,
       "evidence": [
+        "e2",
         "e5"
       ]
     }
@@ -183,43 +185,53 @@
       "y": 54,
       "r": 9,
       "label": {
-        "ko": "범퍼 높이의 파란 띠 기둥 — 하얀 차 페인트가 묻었다",
-        "en": "A pillar with a blue band at bumper height, smeared with white car paint"
+        "ko": "범퍼 높이의 파란 띠 — 하얀 차 페인트가 묻었다",
+        "en": "A blue band at bumper height, smeared with white car paint"
       }
     },
     {
       "id": "e3",
-      "x": 20,
+      "x": 22,
       "y": 60,
-      "r": 11,
+      "r": 10,
       "label": {
-        "ko": "의자에 그대로 씌워진 비닐",
-        "en": "Protective plastic still on the seats"
+        "ko": "운전석에 그대로 씌워진 출고 비닐 — 앉았던 자리대로 구겨졌다",
+        "en": "Factory plastic still on the driver's seat, crushed where he sat"
       }
     },
     {
       "id": "e4",
       "x": 13,
-      "y": 45,
-      "r": 6,
+      "y": 44,
+      "r": 8,
       "label": {
-        "ko": "대시보드 위의 빨간 리본",
-        "en": "A red bow on the dashboard"
+        "ko": "대시보드 위의 빨간 출고 리본",
+        "en": "A red delivery bow on the dashboard"
       }
     },
     {
       "id": "e5",
-      "x": 46,
-      "y": 46,
+      "x": 80,
+      "y": 71,
+      "r": 4,
+      "label": {
+        "ko": "지금도 기둥에 바짝 붙어 있는 뒤 범퍼 모서리",
+        "en": "The rear corner still pressed against the pillar"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 66,
+      "y": 49,
       "r": 5,
       "label": {
-        "ko": "목에 건 사원증 — 출근길",
-        "en": "An ID badge on a lanyard — he's at work"
+        "ko": "닫힌 트렁크를 짚은 빈손 — 긁힌 모서리를 내려다보며 웃는다",
+        "en": "An empty hand resting on the closed trunk; he's looking down at the scraped corner, laughing"
       }
     }
   ],
   "detective": {
-    "ko": "의자엔 비닐이 그대로 씌워져 있고 대시보드엔 빨간 리본이 놓여 있다. 어제 막 출고된 새 차가 맞다. 목엔 사원증, 여긴 회사 지하 주차장 — 오늘 이 차로 처음 출근했다는 말도 앞뒤가 맞는다. 그런데 뒤 범퍼 모서리를 보라. 길게 긁혔고, 그 자리에 파란 페인트가 묻어 있다. 다른 파란 차일까? 바로 옆 기둥에 범퍼 높이로 파란 띠가 둘러져 있고, 거기엔 하얀 차 페인트가 묻어 있다. 서로의 색을 나눠 가진 것이다. 출고 전에 긁혔다면 이렇게 받아 오지 않았을 것이고, 어젯밤엔 이 차가 여기 없었다. 오늘 아침, 첫 출근길에 기둥 옆에 비뚤게 대다가 긁었다. 긁힌 데 하나 없다는 말만 사실이 아니다.",
-    "en": "Plastic still covers the seats and a red bow sits on the dashboard: this car really did leave the dealer yesterday. An ID badge around his neck, an office parking garage — driving it to work for the first time today checks out too. But look at the rear bumper corner: a long scrape, streaked with blue paint. Another blue car? The pillar right beside it has a blue band at exactly bumper height — and it's smeared with white car paint. They traded colors. A dealer wouldn't hand over a scraped car, and last night this car wasn't even here. He scraped it this morning, squeezing in crookedly beside the pillar on his very first commute. 'Not a scratch on it' is the one thing that isn't true."
+    "ko": "그는 웃으며 5년째 타는 차라고 한다. 그런데 운전석엔 출고 비닐이 그대로 씌워져 있고, 대시보드엔 빨간 리본이 놓여 있다. 5년을 매일 앉았다면 비닐은 진작 찢겨 나갔다. 갓 뽑은 새 차다. 지난 주말 마트에서도, 어젯밤 집 앞에서도 긁혔을 리 없다. 뒤 범퍼 모서리엔 길게 긁힌 자국과 파란 페인트. 파란 차일까, 파란 대문일까? 바로 옆 기둥에 범퍼 높이로 파란 띠가 둘러져 있고, 그 띠엔 하얀 차 페인트가 묻어 있다. 차와 기둥이 서로 색을 나눠 가졌다. 차는 지금도 그 기둥에 바짝 붙어 있다. 출근길 도로가 아니라 오늘 아침 여기 대다가 긁었다. 도로에선 아무 일 없었다는 말은 맞는 셈이다. 목엔 사원증, 운전석 비닐은 앉았던 자리대로 구겨졌고 문은 열려 있다. 이 건물에서 일하고 직접 몰고 왔다는 말도 사실이다. 그는 빈손으로 닫힌 트렁크를 짚고 긁힌 모서리를 내려다보며 웃는다. 전화도, 짐 꺼내기도, 출근도 아직이다. 신고할 뺑소니도, 뒤질 마트 CCTV도, 고칠 대문도 없다. 그의 페인트를 뒤집어쓴 건 건물 기둥이니 관리실에 알려야 한다. 새 차를 첫 출근길에 긁었다고는 말하기 싫었던 모양이다. 5년 된 차라면 흠집쯤 대수롭지 않으니까.",
+    "en": "He laughs and says he's had this car for five years. Yet the driver's seat is still in its factory plastic, and a red bow sits on the dashboard. Five years of sitting on that plastic would have shredded it long ago. This car is brand-new, so it wasn't scraped at the mall last weekend or outside his home last night. On the rear bumper corner: a long scrape streaked with blue paint. A blue car? A blue gate? The pillar right beside it wears a blue band at bumper height, and that band is smeared with white car paint. The car and the pillar traded colors, and the car is still pressed against that pillar. Not on the road to work: he scraped it pulling into this spot this morning, so 'nothing happened on the road' is true. An ID badge hangs from his neck, the seat plastic is crushed where he sat, and the driver's door is still open: he works here, and he drove it in himself. Empty-handed, resting a hand on the closed trunk, he looks down at the scraped corner and laughs. No phone call, no unloading, not heading upstairs yet. There's no hit-and-run to report, no mall CCTV to check, no gate to fix. What's wearing his paint is the building's pillar, so it's building management he needs to tell. He just didn't want to admit he'd scraped a brand-new car on its first commute. On a five-year-old car, a scrape is nothing."
   }
 }

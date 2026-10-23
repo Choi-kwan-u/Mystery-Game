@@ -246,17 +246,16 @@
         wrap.append(ask);
         const chips = el('div', 'chips');
         chips.setAttribute('role', 'group');
-        // 고르면 잠기므로 답한 문제는 바로 정답·오답을 보여 준다
-        const answered = sel[qi] !== null;
+        // 고르면 잠기지만 정답·오답은 다섯 문제를 다 푼 뒤 한꺼번에 — 앞 정답이 뒤 문제를 풀어 주지 않게
         q.options.forEach((o, oi) => {
           const b = el('button', 'chip', pick(o));
           b.type = 'button';
           b.setAttribute('aria-pressed', sel[qi] === oi);
-          if (answered) {
+          if (submitted) {
             b.disabled = true;
             if (oi === q.answer) b.classList.add('right');
             else if (sel[qi] === oi) b.classList.add('wrong');
-          } else if (submitted || qi !== current) {
+          } else if (qi !== current) {
             b.disabled = true;
           } else {
             b.addEventListener('click', () => choose(qi, oi));
@@ -264,7 +263,7 @@
           chips.append(b);
         });
         wrap.append(chips);
-        if (answered) {
+        if (submitted) {
           const ok = sel[qi] === q.answer;
           wrap.append(el('p', 'verdict ' + (ok ? 'ok' : 'no'), ok ? t('result.right') : t('result.wrong', { a: pick(q.options[q.answer]) })));
         }

@@ -12,220 +12,224 @@
   },
   "questions": [
     {
-      "key": "indoor",
+      "key": "job",
       "ask": {
-        "ko": "그는 주로 어디서 운동할까?",
-        "en": "Where does he usually train?"
+        "ko": "이 사람은 무슨 일을 할까?",
+        "en": "What does he do for a living?"
       },
       "options": [
         {
-          "ko": "실내 경기장",
-          "en": "Indoors"
+          "ko": "매장 직원",
+          "en": "Store clerk"
         },
         {
-          "ko": "야외 운동장",
-          "en": "Outdoor fields"
+          "ko": "출장 영업사원",
+          "en": "Traveling salesman"
         },
         {
-          "ko": "해변 모래사장",
-          "en": "On the beach"
+          "ko": "볼링 선수",
+          "en": "Professional bowler"
         },
         {
-          "ko": "산악 지대",
-          "en": "In the mountains"
+          "ko": "물리치료사",
+          "en": "Physical therapist"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "now",
-      "ask": {
-        "ko": "지금은 무슨 시간일까?",
-        "en": "What's going on right now?"
-      },
-      "options": [
-        {
-          "ko": "연습 끝나고 귀가 중",
-          "en": "Home from practice"
-        },
-        {
-          "ko": "대회 중 점심시간",
-          "en": "Lunch break mid-tournament"
-        },
-        {
-          "ko": "대회 끝난 뒤풀이",
-          "en": "Post-tournament party"
-        },
-        {
-          "ko": "쉬는 날 쇼핑 중",
-          "en": "Shopping on a day off"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e4",
-        "e2"
-      ]
-    },
-    {
-      "key": "worry",
-      "ask": {
-        "ko": "지금 그에게 가장 신경 쓰이는 곳은?",
-        "en": "What's bothering him most right now?"
-      },
-      "options": [
-        {
-          "ko": "허리",
-          "en": "His back"
-        },
-        {
-          "ko": "무릎",
-          "en": "His knees"
-        },
-        {
-          "ko": "어깨",
-          "en": "His shoulder"
-        },
-        {
-          "ko": "손가락",
-          "en": "His fingers"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e5",
-        "e2"
-      ]
-    },
-    {
-      "key": "hand",
-      "ask": {
-        "ko": "경기할 때 주로 쓰는 손은?",
-        "en": "Which hand does he compete with?"
-      },
-      "options": [
-        {
-          "ko": "왼손",
-          "en": "Left"
-        },
-        {
-          "ko": "오른손",
-          "en": "Right"
-        },
-        {
-          "ko": "두 손 모두",
-          "en": "Both"
-        },
-        {
-          "ko": "그날그날 다르다",
-          "en": "It varies"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
+        "e6",
         "e1",
         "e2"
       ]
     },
     {
-      "key": "job",
+      "key": "care",
       "ask": {
-        "ko": "이 사람의 직업은?",
-        "en": "What does he do?"
+        "ko": "지금 그가 가장 조심하는 곳은?",
+        "en": "What is he being most careful with right now?"
       },
       "options": [
         {
-          "ko": "클라이밍 선수",
-          "en": "Climber"
+          "ko": "오른쪽 어깨",
+          "en": "His right shoulder"
         },
         {
-          "ko": "테니스 선수",
-          "en": "Tennis player"
+          "ko": "왼쪽 어깨",
+          "en": "His left shoulder"
         },
         {
-          "ko": "볼링 선수",
-          "en": "Bowler"
+          "ko": "오른손",
+          "en": "His right hand"
         },
         {
-          "ko": "야구 투수",
-          "en": "Baseball pitcher"
+          "ko": "왼손",
+          "en": "His left hand"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e1",
+        "e5"
+      ]
+    },
+    {
+      "key": "now",
+      "ask": {
+        "ko": "그는 무엇을 하다 점심을 먹는 중일까?",
+        "en": "What is he taking a lunch break from?"
+      },
+      "options": [
+        {
+          "ko": "대회 경기",
+          "en": "A tournament"
+        },
+        {
+          "ko": "매장 근무",
+          "en": "A store shift"
+        },
+        {
+          "ko": "출장 일정",
+          "en": "A business trip"
+        },
+        {
+          "ko": "환자 치료",
+          "en": "Treating patients"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e3",
+        "e1"
+      ]
+    },
+    {
+      "key": "worry",
+      "ask": {
+        "ko": "오후를 앞두고 그가 가장 신경 쓰는 것은?",
+        "en": "What is on his mind most before the afternoon?"
+      },
+      "options": [
+        {
+          "ko": "오늘 매출",
+          "en": "Today's sales"
+        },
+        {
+          "ko": "손가락 상태",
+          "en": "The state of his fingers"
+        },
+        {
+          "ko": "계약 성사",
+          "en": "Closing a deal"
+        },
+        {
+          "ko": "환자 예약",
+          "en": "His patient bookings"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e1"
+      ]
+    },
+    {
+      "key": "grip",
+      "ask": {
+        "ko": "그가 일할 때 가장 오래 손에 쥐는 것은?",
+        "en": "What does he hold the most while he works?"
+      },
+      "options": [
+        {
+          "ko": "바코드 스캐너",
+          "en": "A barcode scanner"
+        },
+        {
+          "ko": "계약서와 펜",
+          "en": "Contracts and a pen"
+        },
+        {
+          "ko": "무거운 공",
+          "en": "A heavy ball"
+        },
+        {
+          "ko": "마사지 크림",
+          "en": "Massage cream"
         }
       ],
       "answer": 2,
       "evidence": [
         "e6",
         "e2",
-        "e3"
+        "e1"
       ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 65,
+      "x": 66,
       "y": 81,
-      "r": 8,
+      "r": 9,
       "label": {
-        "ko": "왼쪽 손목을 단단히 잡아주는 보호대",
-        "en": "A stiff brace locking his left wrist in place"
+        "ko": "왼손목을 단단히 잡아 주는 보호대 — 손등 쪽에 딱딱한 판을 댄 볼링용이다",
+        "en": "A brace locking his left wrist — a bowling brace with a rigid plate on the back of the hand"
       }
     },
     {
       "id": "e2",
-      "x": 47,
+      "x": 42,
       "y": 83,
-      "r": 7,
+      "r": 9,
       "label": {
-        "ko": "왼손 손가락 세 개에 감은 흰 테이프",
-        "en": "White tape on three fingers of his left hand"
+        "ko": "왼손 손가락 세 개에 감은 테이프, 그 손으로 꼭 쥔 얼음물 컵",
+        "en": "Tape on three fingers of his left hand, gripping a cup of ice water"
       }
     },
     {
       "id": "e3",
-      "x": 52,
-      "y": 26,
-      "r": 8,
+      "x": 38,
+      "y": 44,
+      "r": 7,
       "label": {
-        "ko": "햇볕에 그을린 흔적 하나 없는 하얀 피부",
-        "en": "Pale skin without a hint of a tan"
+        "ko": "어깨에 걸친 마른 수건",
+        "en": "A dry towel over his shoulder"
       }
     },
     {
       "id": "e4",
       "x": 51,
-      "y": 69,
-      "r": 6,
+      "y": 68,
+      "r": 5,
       "label": {
-        "ko": "목에 건 선수 출입증",
-        "en": "A competitor's badge on a lanyard"
+        "ko": "목에 건 출입증",
+        "en": "A badge on a lanyard"
       }
     },
     {
       "id": "e5",
-      "x": 32,
-      "y": 85,
-      "r": 7,
+      "x": 30,
+      "y": 39,
+      "r": 8,
       "label": {
-        "ko": "테이프 감은 손으로 꼭 쥔 얼음 컵",
-        "en": "An ice-cold cup gripped in his taped hand"
+        "ko": "포크는 오른손에 — 테이프도 보호대도 없는 맨손이다",
+        "en": "The fork is in his right hand — bare, with no tape or brace"
       }
     },
     {
       "id": "e6",
-      "x": 90,
+      "x": 92,
       "y": 73,
       "r": 10,
       "label": {
-        "ko": "바퀴 달린 가방에 불룩 솟은 둥근 공 모양",
-        "en": "A wheeled bag with round, ball-shaped bulges"
+        "ko": "바퀴 달린 가방에 불룩 솟은 둥근 공 두 개",
+        "en": "A wheeled bag bulging with two round balls"
       }
     }
   ],
   "detective": {
-    "ko": "하얀 피부부터 보자. 햇볕 아래서 뛰는 테니스나 야구 선수의 팔이 아니다. 실내 종목이다. 클라이밍 선수도 실내에서 손가락에 테이프를 감지만, 클라이머는 양손을 다 쓰고, 무거운 공을 바퀴 달린 가방에 넣어 끌고 다니지 않는다. 테이프는 왼손에만 감겼고, 가방엔 둥근 공이 불룩하다. 신발과 옷으로는 저런 동그란 모양이 나오지 않는다. 손목을 단단히 잡아주는 보호대까지 — 무거운 공을 던지는 손이다. 그는 볼링 선수다. 포크를 오른손에 들었다고 속지 말자. 테이프도 보호대도 왼손에 있다. 밥은 오른손으로 먹어도 공은 왼손으로 던진다. 목에는 선수 출입증이 걸려 있고, 테이프도 보호대도 풀지 않았다. 연습을 마치고 귀가하는 사람이나 뒤풀이 중인 사람이라면 출입증과 테이프부터 풀었을 것이다. 대회는 아직 끝나지 않았고 지금은 점심시간이다. 그런데 테이프 감은 손가락으로 얼음 컵을 꼭 쥐고 있다. 오후 경기에서 걱정되는 건 점수가 아니라 저 손가락이다.",
-    "en": "Start with his skin: pale. These aren't the arms of a tennis player or a pitcher who trains under the sun — this is an indoor sport. Climbers train indoors and tape their fingers too, but climbers use both hands, and they don't drag heavy balls around in a wheeled bag. The tape is on his left hand only, and the bag bulges with something round — shoes and clothes don't make that shape. Add the stiff brace on the same wrist: that's a hand that throws something heavy. He's a bowler. Don't be fooled by the fork in his right hand — he eats right-handed, but he bowls lefty. The competitor's badge is still around his neck, and the tape and brace are still on. Someone heading home from practice, or out celebrating afterward, would have taken those off. The tournament isn't over; this is the lunch break. But look how he's gripping that ice-cold cup with his taped fingers. What worries him about the afternoon isn't his score. It's those fingers."
+    "ko": "가방부터 보자. 바퀴 달린 가방 앞면에 커다란 공 두 개가 동그랗게 불룩하다. 옷가지도 노트북도 치료 도구도 저런 모양을 만들지 않는다. 볼링공 두 개를 넣고 끄는 볼링 가방이다. 폴로셔츠에 출입증만 보면 매장 직원 같고, 바퀴 달린 가방만 보면 출장 온 영업사원 같고, 테이프와 손목 보호대만 보면 물리치료사 같다. 하지만 테이프는 남의 손이 아니라 그 자신의 손가락에 감겨 있고, 손등에 단단한 판을 댄 저 보호대는 무거운 공을 던질 때 손목을 잡아 주는 볼링용이다. 그는 볼링 선수다. 일할 때 그가 쥐는 건 스캐너도 펜도 크림도 아닌 무거운 공이다. 포크를 오른손에 들었다고 속지 말자. 테이프도 보호대도 왼손에만 있고 오른손은 맨손이다. 어깨에 걸친 건 그냥 마른 수건이고, 왼쪽에 둔 무거운 가방은 바퀴로 끌고 다닌다. 어느 어깨도 아니다. 그가 지금 가장 아끼는 건 공을 던지는 왼손이다. 출입증을 목에 건 채, 테이프와 보호대를 풀지 않고, 어깨엔 수건을 걸치고 점심을 먹는다. 매장 근무나 출장 중의 점심이 아니라 대회 경기 사이의 점심시간이다. 그리고 테이프 감은 손가락으로 얼음물 컵을 꼭 쥐고 있다. 오후를 앞두고 그가 걱정하는 건 매출도 계약도 예약도 아닌, 저 손가락이다.",
+    "en": "Start with the bag. Two big round shapes bulge out of the front of that wheeled bag. Clothes, laptops and therapy gear don't make that shape. It's a roller bag carrying two bowling balls. Look only at the polo shirt and the badge and you'd say store clerk. Look only at the wheeled bag and you'd say traveling salesman. Look only at the tape and the brace and you'd say physical therapist. But the tape is on his own fingers, not a patient's, and that brace with a rigid plate on the back of the hand is a bowling brace, made to hold the wrist steady under a heavy ball. He's a professional bowler. What he holds while he works isn't a scanner, a pen or a tube of cream. It's a heavy ball. Don't be fooled by the fork in his right hand. The tape and the brace are on his left; his right hand is bare. The towel on his shoulder is just a dry towel, and the heavy bag at his left side rolls on wheels, so it isn't his shoulders either. The hand he's protecting is his bowling hand, the left. He eats with the badge still around his neck, the tape and brace still on, a towel over his shoulder. This isn't a break from a store shift or a sales trip. It's lunch between games at a tournament. And look at him squeezing that cup of ice water with his taped fingers. What's on his mind before the afternoon isn't sales, a deal or a booking. It's those fingers."
   }
 }

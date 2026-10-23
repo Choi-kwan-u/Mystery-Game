@@ -14,121 +14,122 @@
     {
       "key": "before",
       "ask": {
-        "ko": "카페에 오기 직전에 무엇을 했을까?",
-        "en": "What was she doing right before this?"
+        "ko": "카페에 오기 전, 그녀는 무엇을 하고 있었을까?",
+        "en": "What was she doing before she came in?"
       },
       "options": [
         {
-          "ko": "아침 운동을 했다",
-          "en": "A morning workout"
+          "ko": "밤새 시험공부를 했다",
+          "en": "Studying all night for an exam"
+        },
+        {
+          "ko": "푹 자고 일어났다",
+          "en": "Sleeping in"
         },
         {
           "ko": "밤새 일했다",
           "en": "Working all night"
         },
         {
-          "ko": "출근 준비를 했다",
-          "en": "Getting ready for work"
+          "ko": "새벽 운동을 했다",
+          "en": "An early-morning workout"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "stay",
+      "ask": {
+        "ko": "그녀는 이 카페에 얼마나 머물까?",
+        "en": "How long will she stay at the café?"
+      },
+      "options": [
+        {
+          "ko": "점심때까지",
+          "en": "Until lunchtime"
         },
         {
-          "ko": "장을 보고 왔다",
-          "en": "Grocery shopping"
+          "ko": "친구가 올 때까지",
+          "en": "Until a friend arrives"
+        },
+        {
+          "ko": "한두 시간 공부하다 간다",
+          "en": "An hour or two of studying"
+        },
+        {
+          "ko": "잠깐, 곧 일어선다",
+          "en": "Just a few minutes"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e4",
+        "e6"
+      ]
+    },
+    {
+      "key": "ride",
+      "ask": {
+        "ko": "카페를 나서면 그녀는 무엇을 탈까?",
+        "en": "What will she take when she leaves?"
+      },
+      "options": [
+        {
+          "ko": "택시",
+          "en": "A taxi"
+        },
+        {
+          "ko": "버스",
+          "en": "A bus"
+        },
+        {
+          "ko": "지하철",
+          "en": "The subway"
+        },
+        {
+          "ko": "안 탄다, 걸어간다",
+          "en": "Nothing, she'll walk"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e2",
-        "e6",
-        "e3"
+        "e6"
       ]
     },
     {
       "key": "next",
       "ask": {
-        "ko": "이 다음엔 어디로 갈까?",
-        "en": "Where is she going next?"
+        "ko": "오늘 오전, 그녀는 이다음에 무엇을 할까?",
+        "en": "What will she do next this morning?"
       },
       "options": [
         {
           "ko": "집에 가서 잔다",
-          "en": "Home to get some sleep"
+          "en": "Go home and sleep"
         },
         {
-          "ko": "회사로 출근한다",
-          "en": "Off to work"
+          "ko": "일하러 간다",
+          "en": "Go to work"
         },
         {
-          "ko": "친구를 만나러 간다",
-          "en": "To meet a friend"
+          "ko": "친구와 브런치를 먹는다",
+          "en": "Brunch with a friend"
         },
         {
-          "ko": "진료를 받으러 간다",
-          "en": "To see a doctor"
+          "ko": "도서관에 간다",
+          "en": "Go to the library"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e5",
-        "e6"
-      ]
-    },
-    {
-      "key": "watch",
-      "ask": {
-        "ko": "스마트워치가 아니라 초침 달린 시계를 찬 이유는?",
-        "en": "Why a watch with a second hand instead of a smartwatch?"
-      },
-      "options": [
-        {
-          "ko": "할머니에게 물려받아서",
-          "en": "Inherited from grandma"
-        },
-        {
-          "ko": "충전할 틈이 없어서",
-          "en": "No time to charge one"
-        },
-        {
-          "ko": "초를 셀 일이 잦아서",
-          "en": "She counts seconds a lot"
-        },
-        {
-          "ko": "비싸 보이고 싶어서",
-          "en": "To look expensive"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
+        "e4",
+        "e3",
         "e1"
-      ]
-    },
-    {
-      "key": "workplace",
-      "ask": {
-        "ko": "그녀가 일하는 곳은?",
-        "en": "Where does she work?"
-      },
-      "options": [
-        {
-          "ko": "동네 치과",
-          "en": "A local dental office"
-        },
-        {
-          "ko": "종합병원",
-          "en": "A hospital"
-        },
-        {
-          "ko": "학교 보건실",
-          "en": "A school nurse's office"
-        },
-        {
-          "ko": "동네 약국",
-          "en": "A local pharmacy"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e2",
-        "e6"
       ]
     },
     {
@@ -143,22 +144,22 @@
           "en": "Police officer"
         },
         {
+          "ko": "간호사",
+          "en": "Nurse"
+        },
+        {
           "ko": "야간 경비원",
           "en": "Night security guard"
         },
         {
           "ko": "중학교 교사",
           "en": "Middle-school teacher"
-        },
-        {
-          "ko": "간호사",
-          "en": "Nurse"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
         "e2",
-        "e3",
+        "e5",
         "e1"
       ]
     }
@@ -166,67 +167,67 @@
   "clues": [
     {
       "id": "e1",
-      "x": 33,
-      "y": 66,
-      "r": 5,
+      "x": 86,
+      "y": 63,
+      "r": 12,
       "label": {
-        "ko": "손목의 아날로그 시계 — 초침으로 맥박을 재기 좋은 시계",
-        "en": "An analog watch with a second hand — just right for taking a pulse"
+        "ko": "가방에 개지도 않고 쑤셔 넣은 남색 면 근무복과 줄 달린 출입증",
+        "en": "Navy cotton work clothes stuffed into her tote unfolded, with an ID badge on a lanyard"
       }
     },
     {
       "id": "e2",
-      "x": 86,
-      "y": 63,
-      "r": 11,
+      "x": 27,
+      "y": 72,
+      "r": 8,
       "label": {
-        "ko": "가방에 구겨 넣은 남색 근무복과 집게에 물린 출입증",
-        "en": "Navy scrubs stuffed into her tote, with an ID badge on a clip"
+        "ko": "손목에 걸어 둔 마스크 — 몇 시간을 쓰다 막 벗었다",
+        "en": "A mask hanging from her wrist — worn for hours, just taken off"
       }
     },
     {
       "id": "e3",
-      "x": 25,
-      "y": 74,
-      "r": 6,
+      "x": 36,
+      "y": 22,
+      "r": 8,
       "label": {
-        "ko": "손목에 걸어 둔 마스크 — 몇 시간을 쓰다 막 벗었다",
-        "en": "A mask dangling from her wrist — worn for hours, just taken off"
+        "ko": "퀭한 눈과 짙은 다크서클, 헝클어진 머리 — 밤을 새운 얼굴",
+        "en": "Hollow eyes, dark circles, messy hair — the face of someone who's been up all night"
       }
     },
     {
       "id": "e4",
-      "x": 54,
-      "y": 22,
-      "r": 10,
+      "x": 18,
+      "y": 43,
+      "r": 6,
       "label": {
-        "ko": "창밖 버스 정류장을 바라보는 시선",
-        "en": "Her eyes are on the bus stop outside"
+        "ko": "테이크아웃 종이컵 속 녹차 티백 — 커피가 아니라 차, 오래 앉아 있을 컵도 아니다",
+        "en": "A green-tea bag in a takeaway cup — tea, not coffee, and not a cup for lingering"
       }
     },
     {
       "id": "e5",
-      "x": 17,
-      "y": 51,
-      "r": 8,
+      "x": 18,
+      "y": 56,
+      "r": 5,
       "label": {
-        "ko": "커피가 아니라 김이 나는 따뜻한 차",
-        "en": "Not coffee — a steaming cup of tea"
+        "ko": "짧게 깎고 아무것도 바르지 않은 손톱",
+        "en": "Nails cut short and left bare"
       }
     },
     {
       "id": "e6",
-      "x": 32,
-      "y": 23,
-      "r": 7,
+      "x": 57,
+      "y": 21,
+      "r": 10,
       "label": {
-        "ko": "퀭한 눈과 짙은 다크서클, 흐트러진 머리",
-        "en": "Hollow eyes, dark circles, and messy hair"
+        "ko": "창밖 버스 정류장에서 떨어지지 않는 시선",
+        "en": "Her eyes stay on the bus stop outside"
       }
     }
   ],
   "detective": {
-    "ko": "가방부터 보자. 구겨 넣은 남색 근무복, 그리고 집게에 물린 출입증. 남색 제복에 출입증이면 경찰관이나 경비원일 수도 있지만, 손목엔 몇 시간을 쓰다 방금 벗은 마스크가 걸려 있다. 마스크를 몇 시간씩 쓰는 건 환자를 보는 사람이다. 그런데 토요일 오전 9시, 근무복은 몸이 아니라 가방 속에 구겨져 있다. 다 입고 벗은 옷이다. 눈 밑은 퀭하게 내려앉았고 머리는 헝클어졌다. 출근길이 아니라 퇴근길 — 밤샘 근무를 마친 것이다. 밤새 마스크를 쓰고 환자를 보는 사람, 그녀는 간호사다. 밤새 문을 여는 곳이니 동네 치과나 약국이 아니라 종합병원이다. 카페에 와서 커피가 아니라 따뜻한 차를 시켰다. 곧 잠들 사람의 선택이다. 그리고 손목의 시계. 요즘 흔한 스마트워치가 아니라 초침 달린 아날로그 시계다 — 환자 손목을 짚고 초침으로 맥박을 세는 게 일인 사람의 시계다.",
-    "en": "Start with the bag: navy work clothes stuffed inside, and an ID badge on a clip. A navy uniform and a badge could mean a police officer or a security guard — but a mask dangles from her wrist, just taken off after hours of wear. People who wear masks for hours on end work with patients. But it's 9 a.m. on a Saturday and her work clothes are crumpled in a tote, not on her back: she's finished with them. Hollow, shadowed eyes and messy hair agree — she isn't heading in, she's heading out after a night shift. A night spent masked up, caring for patients: she's a nurse, and a place open all night isn't a dental office or a pharmacy; it's a hospital. At the café she ordered hot tea, not coffee — the choice of someone about to sleep. And her watch: not a smartwatch, but an analog watch with a second hand. That's for pressing two fingers to a patient's wrist and counting the beats."
+    "ko": "가방부터 보자. 남색 근무복이 개지도 않은 채 쑤셔 넣어져 있고, 줄 달린 출입증이 함께 들어 있다. 밤새 공부한 학생은 근무복과 출입증을 들고 다니지 않고, 책도 노트북도 없다. 퀭한 눈과 헝클어진 머리는 푹 자고 나온 얼굴이 아니고, 손목엔 마스크가 걸려 있다. 토요일 오전 9시, 그녀는 밤새 일하고 나온 길이다. 남색 옷에 출입증이면 경찰관이나 경비원 같지만, 가방 속 옷은 단추도 휘장도 없는 헐렁한 면 상의다. 마스크는 몇 시간을 쓰다 막 벗은 것이고, 손톱은 짧게 깎은 맨손톱이다. 하루에도 수십 번 손을 씻고 환자를 만지는 사람의 손이다. 그녀는 간호사다. 컵은 테이크아웃 종이컵이고 코트도 벗지 않았다. 오래 앉아 있을 사람이 아니다. 눈은 창밖 버스 정류장에서 떨어지지 않는다. 버스가 오면 바로 일어설 사람이다. 그리고 커피가 아니라 차를 시켰다. 잠을 깨우려는 게 아니라 곧 잠들 사람의 선택이다. 그녀는 집에 가서 잔다.",
+    "en": "Start with the bag: navy work clothes shoved in without being folded, and an ID badge on a lanyard. A student who studied all night doesn't carry a uniform and a badge, and there isn't a book or laptop in sight. Hollow eyes and messy hair aren't the face of someone who slept in, and a mask dangles from her wrist — at 9 a.m. on a Saturday, she's coming off a night of work. Navy clothes and a badge suggest a police officer or a guard, but what's in the bag is a loose cotton top with no buttons or insignia. The mask was worn for hours before she pulled it off, and her nails are cut short and bare: the hands of someone who washes them dozens of times a shift and touches patients. She's a nurse. Her tea is in a takeaway cup and her coat is still on, and her eyes never leave the bus stop outside — she'll be up the moment her bus comes. And she ordered tea, not coffee. That isn't for staying awake; it's for someone about to sleep. She's going home to bed."
   }
 }

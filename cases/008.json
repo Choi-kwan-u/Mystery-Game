@@ -3,132 +3,14 @@
   "date": "2026-10-23",
   "image": "img/008.webp",
   "title": {
-    "ko": "저녁 버스의 젖은 머리",
-    "en": "Wet Hair on the Evening Bus"
+    "ko": "저녁 버스의 창가 자리",
+    "en": "Window Seat on the Evening Bus"
   },
   "intro": {
     "ko": "여름날 저녁 8시, 버스 창가 자리. 20대 여성이 창밖을 보고 있다. 이 사람은 누구일까?",
     "en": "8 p.m. on a summer evening, a window seat on the bus. A woman in her 20s gazes outside. Who is she?"
   },
   "questions": [
-    {
-      "key": "marks",
-      "ask": {
-        "ko": "눈가의 동그란 자국은 무엇일까?",
-        "en": "What are the round marks around her eyes?"
-      },
-      "options": [
-        {
-          "ko": "물안경 자국",
-          "en": "Swim goggles"
-        },
-        {
-          "ko": "멍 자국",
-          "en": "Bruises"
-        },
-        {
-          "ko": "선글라스 탄 자국",
-          "en": "A sunglasses tan"
-        },
-        {
-          "ko": "수면 안대 자국",
-          "en": "A sleep mask"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
-      "key": "whom",
-      "ask": {
-        "ko": "오늘 그녀와 함께였던 사람들은?",
-        "en": "Who was she with today?"
-      },
-      "options": [
-        {
-          "ko": "성인 초보반",
-          "en": "Adult beginners"
-        },
-        {
-          "ko": "어르신들",
-          "en": "Seniors"
-        },
-        {
-          "ko": "유치원생들",
-          "en": "Little kids"
-        },
-        {
-          "ko": "중학생 선수반",
-          "en": "Teen athletes"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "pool",
-      "ask": {
-        "ko": "그녀가 하루를 보낸 곳은?",
-        "en": "Where did she spend the day?"
-      },
-      "options": [
-        {
-          "ko": "실내 수영장",
-          "en": "An indoor pool"
-        },
-        {
-          "ko": "야외 수영장",
-          "en": "An outdoor pool"
-        },
-        {
-          "ko": "해수욕장",
-          "en": "The beach"
-        },
-        {
-          "ko": "계곡",
-          "en": "A river valley"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e5",
-        "e1"
-      ]
-    },
-    {
-      "key": "hair",
-      "ask": {
-        "ko": "머리가 아직 젖어 있는 이유는?",
-        "en": "Why is her hair still wet?"
-      },
-      "options": [
-        {
-          "ko": "비를 맞아서",
-          "en": "Caught in the rain"
-        },
-        {
-          "ko": "원래 안 말려서",
-          "en": "She never dries it"
-        },
-        {
-          "ko": "땀을 많이 흘려서",
-          "en": "Sweated a lot"
-        },
-        {
-          "ko": "막 물에서 나와서",
-          "en": "She's just been swimming"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
     {
       "key": "job",
       "ask": {
@@ -141,23 +23,143 @@
           "en": "Lifeguard"
         },
         {
+          "ko": "헬스 트레이너",
+          "en": "Personal trainer"
+        },
+        {
           "ko": "수영 강사",
           "en": "Swim teacher"
         },
         {
-          "ko": "스쿠버 다이빙 강사",
-          "en": "Scuba instructor"
+          "ko": "문구점 직원",
+          "en": "Stationery store clerk"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e3",
+        "e6"
+      ]
+    },
+    {
+      "key": "wore",
+      "ask": {
+        "ko": "오늘 그녀가 몇 시간씩 쓰고 있던 것은?",
+        "en": "What did she have on for hours today?"
+      },
+      "options": [
+        {
+          "ko": "마스크",
+          "en": "A face mask"
         },
         {
-          "ko": "수영 선수",
-          "en": "Competitive swimmer"
+          "ko": "물안경",
+          "en": "Swim goggles"
+        },
+        {
+          "ko": "모자",
+          "en": "A cap"
+        },
+        {
+          "ko": "헤드셋",
+          "en": "A headset"
         }
       ],
       "answer": 1,
       "evidence": [
         "e1",
-        "e3",
-        "e4",
+        "e2"
+      ]
+    },
+    {
+      "key": "task",
+      "ask": {
+        "ko": "오늘 그녀가 가장 오래 한 일은?",
+        "en": "What did she spend most of today doing?"
+      },
+      "options": [
+        {
+          "ko": "회원들 운동 자세를 잡아 줬다",
+          "en": "Correcting gym members' form"
+        },
+        {
+          "ko": "높은 의자에서 물을 지켜봤다",
+          "en": "Watching the water from a high chair"
+        },
+        {
+          "ko": "물속에서 아이들을 띄워 줬다",
+          "en": "Holding kids up in the water"
+        },
+        {
+          "ko": "계산대에서 물건을 팔았다",
+          "en": "Selling things at a counter"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e1",
+        "e5",
+        "e3"
+      ]
+    },
+    {
+      "key": "when",
+      "ask": {
+        "ko": "그녀가 일을 마친 건 언제쯤일까?",
+        "en": "When did she finish work?"
+      },
+      "options": [
+        {
+          "ko": "아침 일찍",
+          "en": "Early this morning"
+        },
+        {
+          "ko": "점심 무렵",
+          "en": "Around lunchtime"
+        },
+        {
+          "ko": "오후 서너 시",
+          "en": "Mid-afternoon"
+        },
+        {
+          "ko": "방금 전",
+          "en": "Just now"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e2",
+        "e1"
+      ]
+    },
+    {
+      "key": "age",
+      "ask": {
+        "ko": "오늘 그녀가 상대한 사람들은 대개 몇 살쯤일까?",
+        "en": "Roughly how old were most of the people she dealt with today?"
+      },
+      "options": [
+        {
+          "ko": "다섯 살 안팎",
+          "en": "About five"
+        },
+        {
+          "ko": "열다섯 살 안팎",
+          "en": "About fifteen"
+        },
+        {
+          "ko": "서른 살 안팎",
+          "en": "About thirty"
+        },
+        {
+          "ko": "일흔 살 안팎",
+          "en": "About seventy"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e5",
         "e6"
       ]
     }
@@ -169,8 +171,8 @@
       "y": 30,
       "r": 11,
       "label": {
-        "ko": "두 눈을 따로 둘러싼 동그란 자국과 콧등의 붉은 줄 — 물안경 자국",
-        "en": "A ring around each eye joined by a red line over the nose — goggle marks"
+        "ko": "두 눈을 하나씩 둘러싼 고리와 콧등을 가로지른 붉은 줄 — 몇 시간 눌러쓴 물안경 자국. 마스크는 볼과 귀에, 모자는 이마에 자국을 남긴다",
+        "en": "A ring around each eye joined by a red line over the nose — goggles worn for hours. A mask marks cheeks and ears; a cap marks the forehead"
       }
     },
     {
@@ -179,18 +181,18 @@
       "y": 52,
       "r": 13,
       "label": {
-        "ko": "덜 마른 머리와 젖은 티셔츠",
-        "en": "Damp hair and a wet T-shirt"
+        "ko": "덜 마른 머리와 물에 젖은 티셔츠 — 땀이 아니라 물이고, 한여름에도 아직 마르지 않았다",
+        "en": "Damp hair and a wet T-shirt — water, not sweat, and still not dry in summer heat"
       }
     },
     {
       "id": "e3",
-      "x": 65,
-      "y": 85,
-      "r": 15,
+      "x": 55,
+      "y": 86,
+      "r": 12,
       "label": {
-        "ko": "그물 가방 속 오리·물고기 킥판과 아이용 팔 튜브",
-        "en": "Duck and fish kickboards and tiny arm floaties in a mesh bag"
+        "ko": "그물 가방 속 오리·물고기 모양 킥판 — 물에 뜨는 법을 배울 때 잡는 판",
+        "en": "Duck and fish kickboards in a mesh bag — what you hold while learning to float"
       }
     },
     {
@@ -199,18 +201,18 @@
       "y": 69,
       "r": 5,
       "label": {
-        "ko": "목에 건 호루라기",
-        "en": "A whistle around her neck"
+        "ko": "목에 건 호루라기 — 인명구조원만 쓰는 물건은 아니다",
+        "en": "A whistle around her neck — not only lifeguards wear one"
       }
     },
     {
       "id": "e5",
-      "x": 84,
-      "y": 61,
+      "x": 72,
+      "y": 82,
       "r": 8,
       "label": {
-        "ko": "한여름인데도 하얀 팔",
-        "en": "Pale arms in the middle of summer"
+        "ko": "손바닥만 한 팔 튜브 — 아직 혼자 뜨지 못하는 어린아이용",
+        "en": "Tiny arm floaties — for little kids who can't float on their own yet"
       }
     },
     {
@@ -219,13 +221,13 @@
       "y": 83,
       "r": 8,
       "label": {
-        "ko": "팔에 붙은 별 스티커, 가방 속 스티커 한 장",
-        "en": "Star stickers on her arm, and a sticker sheet in the bag"
+        "ko": "팔에 붙은 별 스티커, 가방 속 스티커 한 장 — 파는 물건이 아니라 잘했다고 붙여 주는 칭찬 스티커",
+        "en": "Star stickers on her arm and a sheet in the bag — not stock for sale but rewards for a job well done"
       }
     }
   ],
   "detective": {
-    "ko": "눈가의 동그란 자국이 두 눈에 하나씩, 콧등에서 이어진다. 물안경 자국이다. 스쿠버 마스크였다면 코까지 덮는 큰 자국 하나가 남았을 것이다. 목에 건 호루라기만 보면 인명구조원 같지만, 그물 가방 속엔 오리와 물고기 모양 킥판, 그리고 아주 작은 팔 튜브가 들어 있다. 그녀는 물에 뜨는 법을 가르치는 사람이다. 그 작은 팔 튜브를 낄 사람은 유치원생쯤이다. 한여름인데 팔은 하얗다 — 하루 종일 물에 있어도 해를 보지 않는 곳, 실내 수영장이다. 창밖 길은 바싹 말라 있으니 머리가 젖은 건 비 때문이 아니다. 물안경 자국은 금방 사라지는데 아직 선명하다 — 수업이 끝나자마자 나왔다. 팔에 붙은 별 스티커는? 잘했다고 아이들에게 하나씩 붙여 주다 보면, 몇 개는 선생님 팔에 남는다.",
-    "en": "There's a ring around each eye, joined across the bridge of the nose. Goggle marks — a scuba mask would leave one big ring over the nose too. The whistle says lifeguard, but the mesh bag holds a duck kickboard, a fish kickboard and tiny arm floaties. She teaches people to float, and arms that small belong to preschoolers. It's the middle of summer, yet her arms are pale: she spends all day in the water without seeing the sun. An indoor pool. The street outside is bone dry, so the wet hair isn't from rain — and goggle marks fade fast, but these are still sharp. She left the moment class ended. The star stickers? Hand out enough of them to kids and a few always end up on the teacher."
+    "ko": "두 눈에 하나씩, 콧등으로 이어진 붉은 고리. 마스크라면 볼과 귀에, 모자라면 이마에, 헤드셋이라면 귀 위에 자국이 남는다. 이건 몇 시간이나 눌러쓴 물안경 자국이다. 머리는 덜 말랐고 티셔츠는 젖어 있다. 헬스장의 땀이 아니라 물이다. 한여름 저녁, 두세 시간만 지났어도 머리는 마르고 자국은 옅어졌을 것이다. 일을 마치고 물에서 나오자마자 버스에 올랐다. 목에 건 호루라기만 보면 인명구조원 같다. 하지만 높은 의자에서 물을 지켜보는 사람은 몇 시간씩 물안경을 쓰고 있지 않는다. 팔과 가방의 별 스티커는 문구점 진열대 물건 같지만, 그물 가방 속엔 오리와 물고기 모양 킥판, 손바닥만 한 팔 튜브가 함께 있다. 그녀는 물속에서 사람들을 띄워 주며 뜨는 법을 가르치는 수영 강사다. 그 작은 팔 튜브와 오리 킥판을 쓰는 건 열다섯 살 학생도, 어른 회원도, 아침 수영을 하는 어르신도 아니다. 다섯 살 안팎의 아이들이다. 별 스티커는 잘했다고 하나씩 붙여 주는 칭찬이다. 붙여 주다 보면 몇 개는 선생님 팔에 남는다.",
+    "en": "A ring around each eye, joined across the bridge of the nose. A face mask marks the cheeks and ears, a cap marks the forehead, a headset marks the top of the ears. These are goggle marks, from goggles worn for hours. Her hair is still damp and her T-shirt is wet — with water, not gym sweat. Two or three hours on a summer evening and the hair would be dry, the marks faded: she got out of the water and onto the bus the moment work ended. The whistle says lifeguard, but nobody watching from a high chair wears goggles for hours. The star stickers look like stationery-store stock, but they share the mesh bag with a duck kickboard, a fish kickboard and arm floaties no bigger than a hand. She's a swim teacher, in the water holding people up while they learn to float. And floaties that small aren't for fifteen-year-olds, gym members or seniors doing morning laps; they're for kids of about five. The stickers are rewards for a job well done — hand out enough of them and a few always end up on the teacher."
   }
 }

@@ -4,160 +4,165 @@
   "type": "scene",
   "image": "img/028.webp",
   "title": {
-    "ko": "길 위에 쏟아진 장바구니",
-    "en": "Spilled on the Street"
+    "ko": "주인 없는 자전거",
+    "en": "The Riderless Bike"
   },
   "intro": {
-    "ko": "토요일 오전, 조용한 동네 골목. 길에 자전거와 물건이 흩어져 있다. 여기서 무슨 일이 있었을까?",
-    "en": "Saturday morning, a quiet side street. A bike and groceries are scattered across the pavement. What happened here?"
+    "ko": "토요일 오전, 조용한 주택가 골목. 길가에 자전거 한 대가 쓰러져 있고, 주인은 보이지 않는다. 여기서 무슨 일이 있었을까?",
+    "en": "Saturday morning, a quiet residential street. A bike lies at the side of the road, and its owner is nowhere in sight. What happened here?"
   },
   "questions": [
     {
-      "key": "event",
+      "key": "cause",
       "ask": {
-        "ko": "여기서 무슨 일이 있었을까?",
-        "en": "What happened here?"
+        "ko": "자전거는 무엇 때문에 넘어졌을까?",
+        "en": "What brought the bike down?"
       },
       "options": [
         {
-          "ko": "차와 부딪혔다",
-          "en": "Hit by a car"
+          "ko": "지나던 차에 받혀서",
+          "en": "A passing car hit it"
         },
         {
-          "ko": "미끄러져 넘어졌다",
-          "en": "Skidded and fell over"
+          "ko": "웅덩이에 미끄러져서",
+          "en": "It slid through a puddle"
         },
         {
-          "ko": "도둑이 버리고 갔다",
-          "en": "Dumped by a thief"
+          "ko": "버려진 쓰레기를 밟아서",
+          "en": "It ran over litter"
         },
         {
-          "ko": "바람에 쓰러졌다",
-          "en": "Blown over"
+          "ko": "튀어나온 개를 피하다가",
+          "en": "It swerved to miss a dog"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "evidence": [
-        "e1",
         "e2",
+        "e6",
         "e4"
       ]
     },
     {
-      "key": "slip",
+      "key": "errand",
       "ask": {
-        "ko": "무엇 때문에 미끄러졌을까?",
-        "en": "What caused the skid?"
+        "ko": "자전거 주인은 어디에 가던 길이었을까?",
+        "en": "Where was the rider headed?"
       },
       "options": [
         {
-          "ko": "얼어붙은 빙판",
-          "en": "Black ice"
+          "ko": "배달하러 가던 길",
+          "en": "Out on a delivery"
         },
         {
-          "ko": "모래 더미",
-          "en": "Loose sand"
+          "ko": "운동하러 나온 길",
+          "en": "Out for some exercise"
         },
         {
-          "ko": "쏟아진 기름",
-          "en": "Spilled oil"
+          "ko": "자전거 고치러 가던 길",
+          "en": "Taking the bike in for repair"
         },
         {
-          "ko": "바나나 껍질",
-          "en": "A banana peel"
+          "ko": "장 보고 돌아가던 길",
+          "en": "Heading home from the shops"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e2"
+        "e5",
+        "e4",
+        "e1"
       ]
     },
     {
-      "key": "from",
+      "key": "when",
       "ask": {
-        "ko": "자전거 주인은 무엇을 하고 오는 길이었을까?",
-        "en": "Where was the rider coming from?"
+        "ko": "이 일은 언제 일어났을까?",
+        "en": "When did this happen?"
       },
       "options": [
         {
-          "ko": "출근하던 길이다",
-          "en": "Commuting to work"
+          "ko": "조금 전",
+          "en": "A little while ago"
         },
         {
-          "ko": "장 보고 오던 길",
-          "en": "Grocery shopping"
+          "ko": "어젯밤",
+          "en": "Last night"
         },
         {
-          "ko": "운동하던 중",
-          "en": "Out exercising"
+          "ko": "며칠 전",
+          "en": "A few days ago"
         },
         {
-          "ko": "학교 가는 길",
-          "en": "On the way to school"
+          "ko": "몇 주 전",
+          "en": "A few weeks ago"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "evidence": [
         "e4",
         "e3"
       ]
     },
     {
-      "key": "hurt",
+      "key": "heading",
       "ask": {
-        "ko": "넘어진 사람은 다쳤을까?",
-        "en": "Was the rider hurt?"
+        "ko": "넘어지기 직전 자전거는 어땠을까?",
+        "en": "What was the bike doing just before it went down?"
       },
       "options": [
         {
-          "ko": "살짝 까졌다",
-          "en": "A scrape"
+          "ko": "사진 찍는 쪽으로 달리고 있었다",
+          "en": "Riding toward the camera"
         },
         {
-          "ko": "구급차에 실려 갔다",
-          "en": "Taken by ambulance"
+          "ko": "골목 안쪽으로 달리고 있었다",
+          "en": "Riding away up the street"
         },
         {
-          "ko": "팔이 부러졌다",
-          "en": "A broken arm"
+          "ko": "왼쪽으로 방향을 틀고 있었다",
+          "en": "Turning off to the left"
         },
         {
-          "ko": "전혀 안 다쳤다",
-          "en": "Not at all"
+          "ko": "길가에 세워진 채 서 있었다",
+          "en": "Standing parked at the roadside"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
-        "e5"
+        "e6",
+        "e2",
+        "e3"
       ]
     },
     {
-      "key": "bike",
+      "key": "road",
       "ask": {
-        "ko": "자전거를 다시 타고 가지 않은 이유는?",
-        "en": "Why didn't they ride the bike home?"
+        "ko": "넘어질 때 길은 어떤 상태였을까?",
+        "en": "What was the road like when it happened?"
       },
       "options": [
         {
-          "ko": "체인이 빠져서",
-          "en": "The chain came off"
+          "ko": "빗물에 젖어 있었다",
+          "en": "Wet with rain"
         },
         {
-          "ko": "타이어가 터져서",
-          "en": "A flat tire"
+          "ko": "모래가 깔려 있었다",
+          "en": "Covered in loose sand"
         },
         {
-          "ko": "앞바퀴가 휘어서",
-          "en": "Bent front wheel"
+          "ko": "바싹 말라 있었다",
+          "en": "Bone dry"
         },
         {
-          "ko": "브레이크 고장",
-          "en": "Broken brakes"
+          "ko": "살얼음이 끼어 있었다",
+          "en": "Glazed with thin ice"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e1"
+        "e4",
+        "e6"
       ]
     }
   ],
@@ -168,8 +173,8 @@
       "y": 49,
       "r": 14,
       "label": {
-        "ko": "옆으로 쓰러진 자전거 — 앞바퀴가 크게 휘었다",
-        "en": "The bike on its side — its front wheel badly bent"
+        "ko": "연석에 처박혀 앞바퀴가 엿가락처럼 접힌 자전거 — 바퀴는 여기서 망가졌다",
+        "en": "The bike slammed into the curb, its front wheel folded like a potato chip — the wheel was wrecked right here"
       }
     },
     {
@@ -178,8 +183,8 @@
       "y": 77,
       "r": 10,
       "label": {
-        "ko": "짓이겨진 바나나 껍질에서 시작된 바퀴 미끄럼 자국",
-        "en": "A tire skid mark starting at a squashed banana peel"
+        "ko": "미끄럼 자국이 시작되는 자리의 짓이겨진 바나나 껍질 — 시커멓게 변한, 누가 버린 쓰레기",
+        "en": "A squashed banana peel right where the skid begins — blackened litter someone dropped"
       }
     },
     {
@@ -188,8 +193,8 @@
       "y": 72,
       "r": 8,
       "label": {
-        "ko": "길에 흩어진 사과들",
-        "en": "Apples scattered across the road"
+        "ko": "자전거보다 이쪽 길가로 굴러온 사과들",
+        "en": "Apples rolled along the gutter to our side of the bike"
       }
     },
     {
@@ -198,23 +203,33 @@
       "y": 49,
       "r": 8,
       "label": {
-        "ko": "쏟아져 깨진 달걀",
-        "en": "Spilled, broken eggs"
+        "ko": "깨진 달걀 — 웅덩이처럼 보이는 건 노른자가 뜬 흰자이고, 아직 흥건하다",
+        "en": "Broken eggs — the 'puddle' is egg white with yolks floating in it, and it's still runny"
       }
     },
     {
       "id": "e5",
-      "x": 73,
-      "y": 89,
+      "x": 79,
+      "y": 46,
+      "r": 8,
+      "label": {
+        "ko": "텅 빈 앞 바구니 — 달걀과 사과는 여기서 쏟아졌다",
+        "en": "The empty front basket — the eggs and apples spilled from here"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 36,
+      "y": 66,
       "r": 7,
       "label": {
-        "ko": "연석 위의 뜯긴 반창고 포장지",
-        "en": "Torn bandage wrappers on the curb"
+        "ko": "바싹 마른 아스팔트에 찍힌 타이어 무늬 미끄럼 자국 — 우리 쪽 껍질에서 시작해 저 안쪽 자전거에서 끝난다",
+        "en": "A tread-marked skid on bone-dry asphalt — it starts at the peel on our side and ends at the bike farther up"
       }
     }
   ],
   "detective": {
-    "ko": "자전거가 옆으로 쓰러졌고 장바구니가 쏟아졌다. 차와 부딪혔다면 깨진 유리나 찌그러진 흔적이 있었을 것이다. 바퀴 미끄럼 자국을 따라가 보면, 시작점에 짓이겨진 바나나 껍질이 있다. 기름이나 빙판이 아니다. 바나나 껍질을 밟고 미끄러졌다. 바구니에서 쏟아진 건 사과와 달걀 — 출근하거나 운동하던 사람의 짐이 아니다. 장을 보고 돌아오던 길이다. 연석 위엔 뜯긴 반창고 포장지. 구급차가 올 만큼은 아니고, 무릎이나 손바닥이 살짝 까져 반창고를 붙였다. 그런데 왜 자전거를 두고 갔을까? 체인도 타이어도 멀쩡한데 앞바퀴가 크게 휘었다. 더는 탈 수 없다.",
-    "en": "A bike lies on its side, groceries everywhere. A car crash would leave broken glass or dents. Follow the skid mark back and it starts at a squashed banana peel — not oil, not ice. The rider slipped on a banana peel. What spilled from the basket? Apples and eggs — not what you carry to work or on a workout. They were on their way back from grocery shopping. On the curb, torn bandage wrappers: no ambulance needed, just a scraped knee or palm and a bandage. So why leave the bike behind? The chain and tires look fine, but the front wheel is badly bent. Nobody's riding that home."
+    "ko": "주인 없는 자전거가 연석에 처박혀 있다. 차에 받혔다면 유리 조각이나 찌그러진 자국이 남았을 텐데, 길에는 자전거 자신의 미끄럼 자국뿐이다. 바퀴 옆 웅덩이처럼 보이는 건 노른자가 뜬 달걀 흰자다. 넘어진 뒤에 쏟아진 것이고, 그 밖의 아스팔트는 바싹 말라 있다. 빗길도, 살얼음도, 모래도 아니다. 자국을 거꾸로 따라가면 시커멓게 변한 바나나 껍질에 닿는다. 개를 피해 꺾은 게 아니라 누가 버린 껍질을 밟고 미끄러졌다. 자국은 우리 쪽 껍질에서 시작해 골목 안쪽 자전거에서 끝나고, 오른쪽 연석으로 휘어 있다. 골목 안쪽으로 달리던 자전거다. 사과가 이쪽에 있는 건 배수로를 따라 굴러왔기 때문이다. 세워 둔 자전거라면 이런 자국이 남을 리 없다. 달걀과 사과는 지금 텅 빈 앞 바구니에서 쏟아졌다. 배달 상자도 없는 장바구니 자전거, 운동하러 나온 차림도 아니다. 장을 보고 돌아가던 길이다. 바퀴는 여기서 접혔으니 고치러 가던 길도 아니다. 흰자는 아직 흥건하고 노른자는 탱탱하다. 방금 일어난 일이다.",
+    "en": "A riderless bike lies jammed against the curb. A car would have left glass or dents behind, but the only mark on the road is the bike's own skid. The 'puddle' by the wheel is egg white with yolks floating in it; it spilled after the fall, and the rest of the asphalt is bone dry. No rain, no ice, no sand. Follow the skid back and it ends at a blackened banana peel: the rider didn't swerve for a dog, they ran over someone's litter. The skid starts at the peel on our side, curves toward the right curb and ends at the bike farther up, so the bike was heading away up the street. The apples are on our side only because they rolled back along the gutter, and a parked bike would never leave a skid like that. The eggs and apples came out of the front basket, now empty. No delivery box, and this is no exercise ride: it was a trip home from the shops. The wheel folded right here, so nobody was taking it in for repair. The egg white is still runny and the yolks still plump. This just happened."
   }
 }

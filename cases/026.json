@@ -13,93 +13,6 @@
   },
   "questions": [
     {
-      "key": "for",
-      "ask": {
-        "ko": "이 케이크는 원래 무엇을 위한 것이었을까?",
-        "en": "What was this cake meant for?"
-      },
-      "options": [
-        {
-          "ko": "그냥 간식",
-          "en": "Just a snack"
-        },
-        {
-          "ko": "어제 파티에서 남은 것",
-          "en": "Leftover from yesterday"
-        },
-        {
-          "ko": "오늘 밤 생일 파티용",
-          "en": "Tonight's party"
-        },
-        {
-          "ko": "가게 판매용",
-          "en": "For sale in a shop"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "chair",
-      "ask": {
-        "ko": "의자는 원래 왜 조리대 옆에 있었을까?",
-        "en": "Why was the chair by the counter in the first place?"
-      },
-      "options": [
-        {
-          "ko": "찬장을 열려고 밟았다",
-          "en": "Someone reached a cupboard"
-        },
-        {
-          "ko": "개가 끌어다 놓았다",
-          "en": "The dog dragged it"
-        },
-        {
-          "ko": "아이가 놀다가 옮겼다",
-          "en": "A kid moved it playing"
-        },
-        {
-          "ko": "원래 그 자리였다",
-          "en": "It always sits there"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e2"
-      ]
-    },
-    {
-      "key": "reach",
-      "ask": {
-        "ko": "범인은 어떻게 조리대에 닿았을까?",
-        "en": "How did the culprit reach the counter?"
-      },
-      "options": [
-        {
-          "ko": "사다리를 놓고",
-          "en": "A ladder"
-        },
-        {
-          "ko": "뛰어올라서",
-          "en": "Jumped up"
-        },
-        {
-          "ko": "의자를 밟고",
-          "en": "Climbed the chair"
-        },
-        {
-          "ko": "누가 내려 줘서",
-          "en": "Someone handed it down"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e1"
-      ]
-    },
-    {
       "key": "culprit",
       "ask": {
         "ko": "케이크를 먹은 범인은 누구일까?",
@@ -107,58 +20,146 @@
       },
       "options": [
         {
+          "ko": "막내",
+          "en": "The youngest kid"
+        },
+        {
           "ko": "이 집 개",
-          "en": "The dog"
+          "en": "The family dog"
         },
         {
           "ko": "아빠",
           "en": "Dad"
         },
         {
-          "ko": "아이",
-          "en": "A kid"
-        },
-        {
-          "ko": "고양이",
-          "en": "The cat"
+          "ko": "손님",
+          "en": "A guest"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "evidence": [
         "e1",
-        "e3",
-        "e5",
         "e6"
+      ]
+    },
+    {
+      "key": "for",
+      "ask": {
+        "ko": "이 케이크는 원래 무엇을 위한 것이었을까?",
+        "en": "What was this cake meant for?"
+      },
+      "options": [
+        {
+          "ko": "어제 먹다 남은 것",
+          "en": "Leftovers from yesterday"
+        },
+        {
+          "ko": "그냥 집 간식",
+          "en": "Just a treat at home"
+        },
+        {
+          "ko": "오늘 밤 생일 파티",
+          "en": "Tonight's birthday party"
+        },
+        {
+          "ko": "가게에 내다 팔 것",
+          "en": "Something to sell in a shop"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "key": "reach",
+      "ask": {
+        "ko": "범인은 어떻게 케이크에 닿았을까?",
+        "en": "How did the culprit get at the cake?"
+      },
+      "options": [
+        {
+          "ko": "서랍을 딛고",
+          "en": "Climbed the drawers"
+        },
+        {
+          "ko": "그냥 손을 뻗어",
+          "en": "Just reached up"
+        },
+        {
+          "ko": "케이크를 내려서",
+          "en": "Took the cake down"
+        },
+        {
+          "ko": "의자를 밟고",
+          "en": "Climbed the chair"
+        }
+      ],
+      "answer": 3,
+      "evidence": [
+        "e1",
+        "e3"
       ]
     },
     {
       "key": "where",
       "ask": {
-        "ko": "범인은 케이크를 어디서 먹었을까?",
-        "en": "Where did the culprit eat it?"
+        "ko": "범인은 뜯어 낸 조각을 어디서 먹었을까?",
+        "en": "Where did the culprit eat the piece it tore off?"
       },
       "options": [
         {
-          "ko": "조리대 위에서",
-          "en": "On the counter"
+          "ko": "부엌 구석에서",
+          "en": "In the corner of the kitchen"
         },
         {
-          "ko": "의자 위에서",
-          "en": "On the chair"
+          "ko": "그 자리에 서서",
+          "en": "Standing right there"
         },
         {
-          "ko": "식탁 밑에서",
-          "en": "Under the table"
+          "ko": "조리대 밑에 숨어서",
+          "en": "Hiding under the counter"
         },
         {
-          "ko": "제 침대에서",
-          "en": "In its own dog bed"
+          "ko": "창가에 앉아서",
+          "en": "Sitting by the window"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "evidence": [
         "e5",
         "e6"
+      ]
+    },
+    {
+      "key": "owner",
+      "ask": {
+        "ko": "집을 비우기 전, 주인은 무엇을 했을까?",
+        "en": "Before heading out, what did the owner do?"
+      },
+      "options": [
+        {
+          "ko": "초를 꽂아 두었다",
+          "en": "Put candles in the cake"
+        },
+        {
+          "ko": "높은 찬장을 뒤졌다",
+          "en": "Rummaged in a high cabinet"
+        },
+        {
+          "ko": "한 조각 잘라 맛봤다",
+          "en": "Cut a slice to taste"
+        },
+        {
+          "ko": "덮개를 씌워 두었다",
+          "en": "Covered the cake"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e4"
       ]
     }
   ],
@@ -169,18 +170,18 @@
       "y": 60,
       "r": 11,
       "label": {
-        "ko": "조리대에 붙은 의자, 앉는 자리에 찍힌 진흙 개 발자국",
-        "en": "The chair against the counter, muddy paw prints on its seat"
+        "ko": "조리대에 붙은 의자 — 앉는 자리에 개 발자국, 신발 자국은 없다",
+        "en": "The chair pushed against the counter — paw prints on the seat, no shoe prints"
       }
     },
     {
       "id": "e2",
-      "x": 31,
+      "x": 33,
       "y": 12,
       "r": 12,
       "label": {
-        "ko": "의자 바로 위, 활짝 열린 위 찬장",
-        "en": "The upper cabinet right above the chair, left wide open"
+        "ko": "의자 바로 위, 활짝 열린 높은 찬장",
+        "en": "The high cabinet right above the chair, left wide open"
       }
     },
     {
@@ -189,8 +190,8 @@
       "y": 41,
       "r": 8,
       "label": {
-        "ko": "칼자국 없이 마구 뜯겨 나간 케이크 한쪽",
-        "en": "A ragged, chewed gap in the cake — no knife cut"
+        "ko": "제자리에 놓인 케이크 — 칼자국 없이 뜯긴 한쪽뿐, 잘라 낸 조각은 없다",
+        "en": "The cake still in place — one ragged, torn gap and not a single knife cut"
       }
     },
     {
@@ -199,8 +200,8 @@
       "y": 44,
       "r": 7,
       "label": {
-        "ko": "아직 뜯지 않은 생일 초 상자와 종이 접시",
-        "en": "An unopened box of birthday candles and paper plates"
+        "ko": "아직 상자에 든 생일 초와 쌓인 그대로인 종이 접시",
+        "en": "Birthday candles still in their box, paper plates still stacked"
       }
     },
     {
@@ -209,8 +210,8 @@
       "y": 79,
       "r": 11,
       "label": {
-        "ko": "바닥을 따라 개 침대까지 이어진 부스러기와 크림",
-        "en": "Crumbs and frosting trailing across the floor to the dog bed"
+        "ko": "의자 밑에서 부엌 구석까지 이어진 부스러기와 크림",
+        "en": "Crumbs and frosting trailing from under the chair to the corner"
       }
     },
     {
@@ -219,13 +220,13 @@
       "y": 61,
       "r": 10,
       "label": {
-        "ko": "개 침대 담요에 묻은 크림과 케이크 덩어리",
-        "en": "Frosting and a chunk of cake in the dog bed"
+        "ko": "구석 개 침대 위의 케이크 덩어리와 크림",
+        "en": "A chunk of cake and smeared frosting in the dog bed in the corner"
       }
     }
   ],
   "detective": {
-    "ko": "케이크 한쪽이 칼자국 없이 마구 뜯겨 나갔다. 사람이라면 칼이나 포크를 썼을 것이다. 조리대에 붙은 의자를 보면 아이 짓 같지만, 앉는 자리엔 신발 자국이 아니라 진흙 묻은 개 발자국이 찍혀 있다. 고양이라면 의자 없이 훌쩍 뛰어올랐을 것이다. 범인은 이 집 개, 의자를 밟고 조리대에 올라갔다. 그런데 개가 의자를 끌어 왔을까? 의자 바로 위의 찬장이 활짝 열려 있다. 주인이 찬장에서 생일 초를 꺼내려고 의자를 밟고 올라갔다가 그대로 두었다. 초 상자는 아직 뜯지도 않았고 종이 접시가 쌓여 있다. 어제 파티에서 남은 케이크였다면 초 상자는 이미 뜯겼을 것이다 — 오늘 밤 생일 파티용 케이크였다. 부스러기와 크림은 바닥을 따라 개 침대까지 이어진다. 담요엔 크림과 케이크 덩어리. 범인은 한 입 물고 자기 침대로 가서 느긋하게 먹었다.",
-    "en": "One side of the cake has been torn away — no knife marks. A person would have used a knife or a fork. The chair pushed against the counter suggests a kid, but the seat has muddy paw prints on it, not shoe prints. A cat wouldn't need a chair; it would simply jump. The culprit is the family dog, and it climbed up via the chair. But did the dog drag the chair over? The cabinet right above it is wide open: the owner stood on the chair to get the birthday candles down and left it there. The candles are still unopened, the paper plates stacked. Leftovers from a party yesterday would come with an opened box of candles — this cake was for tonight. Crumbs and frosting trail across the floor to the dog bed, where the blanket is smeared with frosting and a chunk of cake. The culprit grabbed a mouthful and took it to bed to enjoy."
+    "ko": "케이크는 한쪽이 칼자국 없이 마구 뜯겼을 뿐, 칼로 잘라 낸 자리는 하나도 없다. 어제 먹다 남은 케이크였다면 반듯하게 잘린 자리가 있었을 것이다. 옆에는 생일 초가 상자에 든 채, 종이 접시는 쌓인 그대로다. 그냥 간식도 가게에 팔 물건도 아닌, 오늘 밤 생일 파티를 위한 케이크다. 의자 앉는 자리엔 신발 자국이 아니라 개 발자국이 찍혀 있다. 막내도 아빠도 손님도 아니다. 서랍엔 흔적이 없고 케이크는 제자리에 있다. 범인은 의자를 밟고 올라갔다. 그 의자는 왜 거기 있었을까? 바로 위 높은 찬장이 활짝 열려 있다. 집을 나서기 전 주인이 의자를 딛고 찬장을 뒤지고는 그대로 둔 것이다. 초는 아직 상자 안이고 케이크엔 덮개도 없다. 부스러기와 크림은 의자 밑에서 바닥을 따라 부엌 구석까지 이어지고, 구석의 개 침대엔 케이크 덩어리가 놓여 있다. 범인은 이 집 개. 한 입 크게 뜯어 제 잠자리로 가져가 먹었다.",
+    "en": "One side of the cake has been ripped away, and there isn't a single knife cut anywhere. Yesterday's leftovers would show clean slices. Beside it, the birthday candles are still in their box and the paper plates are still stacked: not an everyday treat, not shop stock, but a cake for tonight's birthday party. The chair seat has paw prints on it, not shoe prints — so not the youngest, not Dad, not a guest. The drawers are untouched and the cake hasn't moved; the culprit climbed the chair. So why was the chair there? The high cabinet right above it is wide open: before heading out, the owner stood on the chair to rummage up there and left it in place. The candles are still boxed, and the cake was never covered. Crumbs and frosting run from under the chair across the floor to the corner, where a chunk of cake sits in the dog bed. The culprit is the family dog. It tore off a big mouthful and took it to bed."
   }
 }

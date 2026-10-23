@@ -4,161 +4,162 @@
   "type": "room",
   "image": "img/010.webp",
   "title": {
-    "ko": "검은 비닐로 창을 막은 욕실",
-    "en": "The Bathroom with a Blacked-Out Window"
+    "ko": "토요일의 욕실",
+    "en": "The Bathroom on a Saturday"
   },
   "intro": {
-    "ko": "토요일 오후, 창문을 검은 비닐로 막은 작은 욕실. 주인은 잠깐 자리를 비웠다. 이 방의 주인은 누구일까?",
-    "en": "Saturday afternoon, a small bathroom with its window sealed in black plastic. The owner has stepped out for a moment. Who uses this room?"
+    "ko": "토요일, 지은 지 오래된 집의 욕실. 주인은 잠깐 자리를 비웠다.",
+    "en": "Saturday, the bathroom of an old house. The owner has stepped out for a moment."
   },
   "questions": [
-    {
-      "key": "redlight",
-      "ask": {
-        "ko": "천장에 매단 빨간 전구는 무엇에 쓸까?",
-        "en": "What's the red bulb hanging from the ceiling for?"
-      },
-      "options": [
-        {
-          "ko": "은은한 분위기를 내려고",
-          "en": "To set a cozy, warm mood"
-        },
-        {
-          "ko": "눈이 덜 피로하라고",
-          "en": "To keep eyes from tiring"
-        },
-        {
-          "ko": "벌레가 꼬이지 않게",
-          "en": "To stop bugs gathering"
-        },
-        {
-          "ko": "빛에 약한 걸 지키려고",
-          "en": "Spares sensitive paper"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e1",
-        "e2"
-      ]
-    },
-    {
-      "key": "why",
-      "ask": {
-        "ko": "왜 하필 욕실에 차렸을까?",
-        "en": "Why set this up in a bathroom?"
-      },
-      "options": [
-        {
-          "ko": "물 쓰기 좋고 창이 작아서",
-          "en": "Running water, small window"
-        },
-        {
-          "ko": "집에서 제일 넓은 방이라서",
-          "en": "It's the biggest room"
-        },
-        {
-          "ko": "습기가 있어야 잘 돼서",
-          "en": "It needs humidity"
-        },
-        {
-          "ko": "거울을 보면서 하려고",
-          "en": "To work by the mirror"
-        }
-      ],
-      "answer": 0,
-      "evidence": [
-        "e3",
-        "e2"
-      ]
-    },
-    {
-      "key": "machine",
-      "ask": {
-        "ko": "세면대 옆 키 큰 기계는 무엇일까?",
-        "en": "What is the tall machine by the sink?"
-      },
-      "options": [
-        {
-          "ko": "현미경",
-          "en": "A microscope"
-        },
-        {
-          "ko": "영사기",
-          "en": "A projector"
-        },
-        {
-          "ko": "확대기",
-          "en": "An enlarger"
-        },
-        {
-          "ko": "프린터",
-          "en": "A printer"
-        }
-      ],
-      "answer": 2,
-      "evidence": [
-        "e4"
-      ]
-    },
-    {
-      "key": "trays",
-      "ask": {
-        "ko": "판자 위 납작한 쟁반 세 개에 담긴 것은?",
-        "en": "What's in the three flat trays on the board?"
-      },
-      "options": [
-        {
-          "ko": "물감",
-          "en": "Oil paint"
-        },
-        {
-          "ko": "약품",
-          "en": "Chemicals"
-        },
-        {
-          "ko": "반죽",
-          "en": "Bread dough"
-        },
-        {
-          "ko": "기름",
-          "en": "Cooking oil"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e3"
-      ]
-    },
     {
       "key": "job",
       "ask": {
         "ko": "이 방의 주인은 무슨 일을 할까?",
-        "en": "What does the owner of this room do?"
+        "en": "What does the owner of this room do for a living?"
       },
       "options": [
         {
-          "ko": "화학 교사",
-          "en": "Chemistry teacher"
+          "ko": "미용사",
+          "en": "Hairdresser"
         },
         {
-          "ko": "영화관 영사기사",
-          "en": "Film projectionist"
-        },
-        {
-          "ko": "화가",
-          "en": "Painter"
+          "ko": "페인트공",
+          "en": "House painter"
         },
         {
           "ko": "사진가",
           "en": "Photographer"
+        },
+        {
+          "ko": "판화가",
+          "en": "Printmaker"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e4",
+        "e5",
+        "e1"
+      ]
+    },
+    {
+      "key": "hour",
+      "ask": {
+        "ko": "지금은 하루 중 언제쯤일까?",
+        "en": "What time of day is it right now?"
+      },
+      "options": [
+        {
+          "ko": "해 뜨기 전 새벽",
+          "en": "Before sunrise"
+        },
+        {
+          "ko": "해가 떠 있는 낮",
+          "en": "While the sun is up"
+        },
+        {
+          "ko": "해 진 뒤 저녁",
+          "en": "After sunset"
+        },
+        {
+          "ko": "깊은 한밤중",
+          "en": "Deep in the night"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e6",
+        "e1"
+      ]
+    },
+    {
+      "key": "routine",
+      "ask": {
+        "ko": "이 방에서 일할 때 주인이 꼭 하는 일은?",
+        "en": "What does the owner always do when working in here?"
+      },
+      "options": [
+        {
+          "ko": "창문을 활짝 연다",
+          "en": "Open the window wide"
+        },
+        {
+          "ko": "바닥에 신문지를 깐다",
+          "en": "Spread newspaper on the floor"
+        },
+        {
+          "ko": "샤워 커튼을 걷어 둔다",
+          "en": "Push the shower curtain aside"
+        },
+        {
+          "ko": "거울을 천으로 가린다",
+          "en": "Cover the mirror with a cloth"
+        }
+      ],
+      "answer": 2,
+      "evidence": [
+        "e2",
+        "e6"
+      ]
+    },
+    {
+      "key": "wash",
+      "ask": {
+        "ko": "주인은 요즘 몸을 어디서 씻을까?",
+        "en": "Where does the owner wash these days?"
+      },
+      "options": [
+        {
+          "ko": "이 욕실에서 그대로",
+          "en": "Still in this bathroom"
+        },
+        {
+          "ko": "집 안의 다른 욕실에서",
+          "en": "In another bathroom at home"
+        },
+        {
+          "ko": "다니는 헬스장에서",
+          "en": "At the gym"
+        },
+        {
+          "ko": "동네 목욕탕에서",
+          "en": "At the local bathhouse"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "key": "trip",
+      "ask": {
+        "ko": "주인이 다녀온 여행지는 어디일까?",
+        "en": "Where did the owner go on their recent trip?"
+      },
+      "options": [
+        {
+          "ko": "동남아의 바닷가",
+          "en": "A beach in Southeast Asia"
+        },
+        {
+          "ko": "도쿄의 번화가",
+          "en": "Downtown Tokyo"
+        },
+        {
+          "ko": "가을 설악산",
+          "en": "Mount Seorak in autumn"
+        },
+        {
+          "ko": "유럽의 옛 마을",
+          "en": "An old town in Europe"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e4",
-        "e5",
-        "e3"
+        "e5"
       ]
     }
   ],
@@ -166,56 +167,66 @@
     {
       "id": "e1",
       "x": 50,
-      "y": 28,
+      "y": 29,
       "r": 5,
       "label": {
-        "ko": "천장에 매단, 꺼져 있는 빨간 전구",
-        "en": "A red bulb hanging from the ceiling, switched off"
+        "ko": "천장에 매단 빨간 전구 — 지금은 꺼져 있고 천장 등이 켜져 있다",
+        "en": "A red bulb hanging from the ceiling — off for now, with the main light on"
       }
     },
     {
       "id": "e2",
-      "x": 76,
-      "y": 56,
-      "r": 8,
+      "x": 41,
+      "y": 46,
+      "r": 6,
       "label": {
-        "ko": "검은 비닐과 테이프로 꽁꽁 막은 창문",
-        "en": "A window sealed with black plastic and tape"
+        "ko": "왼쪽 끝으로 몰아 둔 샤워 커튼, 샤워기 선반의 샴푸 두 병과 고리에 걸린 파란 수세미 — 여기서 아직 씻는다",
+        "en": "The shower curtain bunched at the far left; two bottles of shampoo on the shower shelf and a blue loofah on the hook — the owner still washes here"
       }
     },
     {
       "id": "e3",
       "x": 67,
       "y": 76,
-      "r": 14,
+      "r": 16,
       "label": {
-        "ko": "욕조 위에 걸친 판자, 약품이 담긴 납작한 쟁반 세 개와 집게",
-        "en": "A board across the bathtub with three flat trays of liquid and tongs"
+        "ko": "욕조 안쪽 절반에만 걸친 물 얼룩진 판자, 약품이 담긴 쟁반 셋과 집게, 계량컵",
+        "en": "A water-stained board across the far half of the tub: three trays of chemicals, tongs and a measuring cup"
       }
     },
     {
       "id": "e4",
       "x": 31,
-      "y": 52,
-      "r": 15,
+      "y": 48,
+      "r": 13,
       "label": {
-        "ko": "세면대 옆, 렌즈가 아래를 향한 키 큰 기계 — 확대기",
-        "en": "A tall machine by the sink, lens pointing down — an enlarger"
+        "ko": "세면대 옆, 렌즈가 벽이 아니라 아래 받침을 향한 키 큰 기계 — 확대기. 주위엔 갈색 약병들",
+        "en": "A tall machine by the sink, its lens pointing down at a baseboard, not at a wall — an enlarger, with brown chemical bottles around it"
       }
     },
     {
       "id": "e5",
       "x": 60,
-      "y": 41,
+      "y": 40,
+      "r": 16,
+      "label": {
+        "ko": "줄에 걸어 말리는 흑백 사진 다섯 장: 눈 없는 산, 들판의 무너진 성, 인물 둘, 돌 깔린 좁은 골목",
+        "en": "Five black-and-white prints drying on the line: snowless hills, a ruined castle in a field, two portraits, a narrow cobbled lane"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 84,
+      "y": 50,
       "r": 12,
       "label": {
-        "ko": "줄에 집게로 걸어 말리는 흑백 사진과 기다란 필름 띠",
-        "en": "Black-and-white prints and long film strips drying on a line"
+        "ko": "검은 비닐과 테이프로 봉한 창 — 오른쪽 가장자리 틈으로 하얀 햇빛이 새어 들고, 그 앞에 갓 현상한 필름 띠가 걸려 있다",
+        "en": "The window sealed with black plastic and tape — white daylight leaks through a gap along its right edge, and freshly developed film strips hang in front of it"
       }
     }
   ],
   "detective": {
-    "ko": "창문을 검은 비닐로 꽁꽁 막았다. 낮에도 빛 한 줄기 들어오지 않게. 천장엔 빨간 전구 하나 — 사진 인화지는 빛을 받으면 망가지지만 빨간빛에는 둔하다. 욕조 위에 판자를 걸치고 쟁반 세 개를 나란히 놓았다. 화학 교사의 실험 같지만, 줄에 걸린 건 실험 결과가 아니라 흑백 사진이다. 옆에는 기다란 필름 띠. 영사기사의 필름 같아도, 세면대 옆 기계의 렌즈는 벽이 아니라 아래쪽 종이를 향한다. 필름 속 작은 사진을 종이에 크게 비추는 확대기다. 왜 욕실일까? 약품을 씻어 낼 물이 있고, 막아야 할 창문이 작다. 이 방의 주인은 지금도 필름으로 찍고 직접 뽑는 사진가다.",
-    "en": "The window is sealed with black plastic so not a sliver of daylight gets in. A single red bulb hangs from the ceiling: light ruins photo paper, but red light barely touches it. A board across the tub holds three trays in a row. It looks like a chemistry experiment — but what's drying on the line isn't data, it's black-and-white photographs, next to long strips of film. A projectionist handles film too, yet the machine by the sink points its lens down at a sheet of paper, not at a wall. It's an enlarger, throwing a tiny negative onto paper as a big print. Why the bathroom? Running water to rinse the chemicals, and just one small window to black out. This room belongs to a photographer who still shoots film and prints it by hand."
+    "ko": "욕조 위 판자와 쟁반, 집게, 세면대의 타이머. 미용사의 염색 도구 같고, 창을 덮은 검은 비닐과 테이프는 페인트공의 작업장 같다. 그런데 줄에 걸린 건 흑백 사진이고 그 옆엔 짧게 자른 필름 띠가 마른다. 판화가라면 잉크와 롤러가 있어야 할 자리에 렌즈를 아래로 향한 확대기가 서 있고 천장엔 빨간 전구가 달렸다. 욕실을 암실로 쓰는 사진가다. 등이 켜져 있다고 밤은 아니다. 창을 막았으니 켠 것이고, 창 오른쪽 틈으로는 하얀 햇빛이 새어 든다. 해가 떠 있는 낮이다. 그 창은 테이프로 봉해져 열 수 없다. 바닥에 신문지도, 거울을 가린 천도 없다. 대신 샤워 커튼을 왼쪽 끝까지 몰아 두었다. 줄을 매고 욕조를 쓰려면 그래야 한다. 그래도 샤워기 선반엔 샴푸 두 병, 고리엔 파란 수세미가 걸려 있고 판자는 욕조 안쪽 절반만 덮었다. 주인은 여기서 여전히 씻는다. 사진 속엔 눈 없는 산, 들판의 무너진 성, 돌 깔린 좁은 골목. 바다도 번화가도 단풍도 없다. 유럽의 옛 마을을 다녀온 것이다.",
+    "en": "A board over the tub, trays, tongs, a timer by the sink: it could be a hairdresser's colouring kit, and the black plastic taped over the window looks like a house painter's work site. But what hangs on the line are black-and-white photographs, with short strips of film drying beside them. Where a printmaker would keep ink and a roller stands an enlarger, its lens pointing down, and a red bulb hangs from the ceiling. A photographer, using the bathroom as a darkroom. The lights being on doesn't make it night: they're on because the window is covered, and along the window's right edge white daylight leaks in. The sun is up. That window is taped shut, so it can't be opened; there's no newspaper on the floor and no cloth over the mirror. Instead the shower curtain is bunched at the far left, as it must be for the line and the tub to be used. Yet two bottles of shampoo sit on the shower shelf, a blue loofah hangs from the hook, and the board covers only the far half of the tub: the owner still washes here. The prints show snowless hills, a ruined castle in a field, a narrow cobbled lane. No sea, no city lights, no autumn leaves. The owner has been to an old town in Europe."
   }
 }

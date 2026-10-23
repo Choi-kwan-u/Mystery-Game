@@ -3,129 +3,135 @@
   "date": "2026-10-26",
   "image": "img/011.webp",
   "title": {
-    "ko": "월요일 아침의 샌들",
-    "en": "Sandals on a Monday Morning"
+    "ko": "월요일 오전의 카페",
+    "en": "Monday Morning at the Café"
   },
   "intro": {
-    "ko": "월요일 오전 10시, 카페 테라스. 30대 여성이 샌들 차림으로 느긋하게 커피를 마신다. 이 사람은 누구일까?",
-    "en": "10 a.m. on a Monday, a café terrace. A woman in her thirties lingers over coffee in sandals. Who is she?"
+    "ko": "월요일 오전 10시, 도심의 카페 테라스. 한 여성이 커피를 마시고 있다. 이 사람은 누구일까?",
+    "en": "10 a.m. on a Monday, a café terrace in town. A woman is having a coffee. Who is she?"
   },
   "questions": [
     {
-      "key": "shoulder",
+      "key": "sunday",
       "ask": {
-        "ko": "어깨에 남은 하얀 끈 자국은 무엇 때문일까?",
-        "en": "What left the pale strap lines on her shoulders?"
+        "ko": "어제 일요일, 그녀는 어떤 하루를 보냈을까?",
+        "en": "How did she spend yesterday, Sunday?"
       },
       "options": [
         {
-          "ko": "끈 원피스",
-          "en": "A strappy dress"
+          "ko": "무대에서 공연을 했다",
+          "en": "Danced in a performance"
         },
         {
-          "ko": "민소매 셔츠",
-          "en": "A tank top"
+          "ko": "축구 경기를 풀타임 뛰었다",
+          "en": "Played a full soccer match"
         },
         {
-          "ko": "배낭 끈",
-          "en": "Backpack straps"
+          "ko": "마라톤 대회를 완주했다",
+          "en": "Finished a marathon"
         },
         {
-          "ko": "가방 끈",
-          "en": "A bag strap"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
-        "e3"
-      ]
-    },
-    {
-      "key": "sleeves",
-      "ask": {
-        "ko": "종아리에 낀 검은 슬리브는 무엇에 쓸까?",
-        "en": "What are the black sleeves on her calves for?"
-      },
-      "options": [
-        {
-          "ko": "햇볕 가리기",
-          "en": "Sun protection"
-        },
-        {
-          "ko": "모기 막기",
-          "en": "Keeping off mosquitoes"
-        },
-        {
-          "ko": "근육 회복",
-          "en": "Muscle recovery"
-        },
-        {
-          "ko": "그냥 멋",
-          "en": "Just style"
+          "ko": "테니스 시합을 치렀다",
+          "en": "Played a tennis match"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e5"
+        "e3",
+        "e2",
+        "e1"
       ]
     },
     {
-      "key": "watch",
+      "key": "care",
       "ask": {
-        "ko": "손목의 GPS 시계로 주로 재는 것은?",
-        "en": "What does she mainly track with the GPS watch?"
+        "ko": "오늘 그녀가 가장 신경 써서 돌보는 곳은?",
+        "en": "What is she looking after most today?"
       },
       "options": [
         {
-          "ko": "수면 시간",
-          "en": "Sleep"
+          "ko": "다친 무릎",
+          "en": "An injured knee"
         },
         {
-          "ko": "이동 거리",
-          "en": "Distance"
+          "ko": "지친 종아리",
+          "en": "Tired calves"
         },
         {
-          "ko": "걸음 수",
-          "en": "Steps"
+          "ko": "삔 발목",
+          "en": "A sprained ankle"
         },
         {
-          "ko": "혈압",
-          "en": "Blood pressure"
+          "ko": "아픈 팔꿈치",
+          "en": "A sore elbow"
         }
       ],
       "answer": 1,
       "evidence": [
-        "e2"
+        "e4",
+        "e6"
       ]
     },
     {
       "key": "today",
       "ask": {
-        "ko": "오늘 그녀는 무엇을 하는 날일까?",
-        "en": "What kind of day is today for her?"
+        "ko": "오늘 그녀는 무엇을 할 생각일까?",
+        "en": "What does she plan to do today?"
       },
       "options": [
         {
-          "ko": "출근하는 날",
-          "en": "A workday"
+          "ko": "아무것도 안 하고 쉰다",
+          "en": "Do nothing but rest"
         },
         {
-          "ko": "또 달리는 날",
-          "en": "Another run"
+          "ko": "오후에 또 훈련한다",
+          "en": "Train again this afternoon"
         },
         {
-          "ko": "병원 가는 날",
-          "en": "A doctor's visit"
+          "ko": "다음 경기에 나간다",
+          "en": "Compete again"
         },
         {
-          "ko": "다리를 쉬는 날",
-          "en": "A rest day"
+          "ko": "출근해서 일한다",
+          "en": "Go in to work"
+        }
+      ],
+      "answer": 0,
+      "evidence": [
+        "e4",
+        "e1",
+        "e3"
+      ]
+    },
+    {
+      "key": "training",
+      "ask": {
+        "ko": "그녀는 그동안 주로 어디서 연습해 왔을까?",
+        "en": "Where has she mostly been training?"
+      },
+      "options": [
+        {
+          "ko": "잔디 구장",
+          "en": "On a grass pitch"
+        },
+        {
+          "ko": "테니스 코트",
+          "en": "On a tennis court"
+        },
+        {
+          "ko": "무용 연습실",
+          "en": "In a dance studio"
+        },
+        {
+          "ko": "도로와 공원",
+          "en": "On roads and in parks"
         }
       ],
       "answer": 3,
       "evidence": [
-        "e5",
-        "e1"
+        "e6",
+        "e4",
+        "e3"
       ]
     },
     {
@@ -136,16 +142,16 @@
       },
       "options": [
         {
-          "ko": "발레리나",
-          "en": "Ballerina"
+          "ko": "축구 선수",
+          "en": "Soccer player"
         },
         {
           "ko": "마라토너",
           "en": "Marathon runner"
         },
         {
-          "ko": "축구 선수",
-          "en": "Pro soccer player"
+          "ko": "발레리나",
+          "en": "Ballerina"
         },
         {
           "ko": "테니스 선수",
@@ -154,9 +160,9 @@
       ],
       "answer": 1,
       "evidence": [
-        "e4",
-        "e1",
-        "e3"
+        "e3",
+        "e2",
+        "e4"
       ]
     }
   ],
@@ -168,52 +174,62 @@
       "r": 4,
       "label": {
         "ko": "샌들 사이로 보이는, 시퍼렇게 멍든 엄지발톱",
-        "en": "A bruised, blackened big toenail in her sandal"
+        "en": "A bruised, blackened big toenail showing through her sandal"
       }
     },
     {
       "id": "e2",
-      "x": 70,
-      "y": 46,
+      "x": 72,
+      "y": 68.5,
       "r": 4,
       "label": {
-        "ko": "왼쪽 손목의 GPS 스포츠 시계",
-        "en": "A GPS sports watch on her left wrist"
+        "ko": "토트백 입구에 꽂아 둔 옷핀 몇 개 — 번호표를 달던 핀",
+        "en": "A few safety pins stuck at the top of her tote — the pins that held a race number"
       }
     },
     {
       "id": "e3",
-      "x": 64,
-      "y": 32,
-      "r": 6,
+      "x": 83,
+      "y": 58,
+      "r": 10,
       "label": {
-        "ko": "고르게 탄 피부, 어깨에만 하얗게 남은 가는 끈 자국",
-        "en": "An even tan — except a thin pale strap line on her shoulder"
+        "ko": "가방 밖으로 삐져나온, 얇게 구겨진 은박 담요 — 결승선에서 둘러 주는 것",
+        "en": "A thin, crumpled foil blanket spilling out of her bag — the kind handed out at a finish line"
       }
     },
     {
       "id": "e4",
-      "x": 79,
-      "y": 62,
-      "r": 11,
+      "x": 36,
+      "y": 76,
+      "r": 12,
       "label": {
-        "ko": "가방 속 은박 담요와 가방끈에 꽂힌 옷핀 네 개",
-        "en": "A foil blanket in her bag and four safety pins on the strap"
+        "ko": "종아리만 감싸고 발목에서 끝나는 검은 압박 슬리브 — 무릎은 맨살",
+        "en": "Black compression sleeves that cover only the calves and stop at the ankle — knees bare"
       }
     },
     {
       "id": "e5",
-      "x": 37,
-      "y": 76,
-      "r": 12,
+      "x": 70,
+      "y": 45.5,
+      "r": 4,
       "label": {
-        "ko": "양쪽 종아리의 검은 압박 슬리브",
-        "en": "Black compression sleeves on both calves"
+        "ko": "왼쪽 손목의 투박한 스포츠 시계",
+        "en": "A chunky sports watch on her left wrist"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 48,
+      "y": 27,
+      "r": 9,
+      "label": {
+        "ko": "얼굴과 손, 팔까지 고르게 그을린 피부 — 바깥에서 오래 보낸 흔적",
+        "en": "Face, hands and arms evenly weathered by the sun — long hours outdoors"
       }
     }
   ],
   "detective": {
-    "ko": "엄지발톱이 시퍼렇게 멍들었다. 발레리나도 발톱이 상하지만, 그녀는 얼굴부터 팔다리까지 고르게 햇볕에 그을렸다. 하루 종일 밖에서 움직이는 사람이다. 그런데 어깨엔 가느다란 끈 자리만 하얗게 남았다 — 민소매 러닝 셔츠를 입고 수없이 달린 자국이다. 손목엔 GPS 스포츠 시계. 테니스 선수나 축구 선수도 햇볕에 타고, 축구 선수는 발톱도 상한다. 하지만 가방 속 은박 담요와 가방끈에 꽂힌 옷핀 네 개가 답이다. 차 햇빛 가리개처럼 빳빳하지 않고 얇게 구겨진 은박 담요다. 배번표를 달던 옷핀이고, 마라톤 결승선을 넘으면 은박 담요를 어깨에 둘러 준다. 어제 그녀는 42.195km를 달렸다. 종아리의 압박 슬리브는 햇볕을 가리려는 게 아니다 — 다리는 이미 까맣게 탔다. 지친 종아리 근육을 회복시키려고 낀 것이다. 그리고 오늘, 월요일 오전 10시. 출근 가방도 러닝화도 없이 샌들 차림 — 휴가를 내고 다리를 쉬는 날이다.",
-    "en": "Her big toenail is bruised black. Ballet dancers wreck their toenails too, but she's tanned evenly from face to arms to legs — someone who spends hours moving outdoors. Except on her shoulder, where a thin strap line stays pale: the mark of countless miles in a racerback running top. There's a GPS sports watch on her wrist. Tennis and soccer players get tanned too, and soccer wrecks toenails as well. But the foil blanket in her bag — thin and crinkled, not a stiff car sunshade — and the four safety pins on the strap settle it. Those pins held a race bib, and at a marathon finish line someone wraps a foil blanket around your shoulders. Yesterday she ran 42.195 km. The compression sleeves aren't for the sun — her legs are already brown. They're for tired calves. And today, 10 a.m. on a Monday? No work bag, no running shoes, just sandals. She took the day off to let her legs recover."
+    "ko": "월요일 오전 10시, 카페 테라스. 쪽진 머리와 시퍼렇게 멍든 엄지발톱만 보면 무대에 서는 발레리나 같고, 종아리를 감싼 검은 천은 레그 워머나 축구 양말처럼도 보인다. 하지만 그건 발목에서 끝나는 압박 슬리브다. 얼굴과 팔까지 고르게 그을린 피부는 연습실이 아니라 바깥에서 오래 보낸 시간의 흔적이다. 결정적인 건 토트백이다. 얇게 구겨진 은박 담요는 마라톤 결승선에서 어깨에 둘러 주는 것이고, 가방 입구의 옷핀 몇 개는 번호표를 가슴에 달던 핀이다. 테니스 시합에서도 축구 경기에서도 이런 건 받지 않는다. 어제 일요일, 그녀는 42.195km를 끝까지 달렸다. 그녀는 마라토너다. 슬리브는 무릎도 발목도 아닌 종아리만 감쌌고, 팔꿈치엔 아무것도 없다. 지금 그녀가 돌보는 건 지친 종아리다. 그 많은 거리는 잔디 구장이나 테니스 코트가 아니라 햇볕 아래 도로와 공원에서 쌓았다. 운동화 대신 샌들, 손에는 커피. 오후 훈련도, 다음 경기도, 출근도 아니다. 오늘은 아무것도 안 하고 쉬는 날이다.",
+    "en": "10 a.m. on a Monday, at a café terrace. The bun and the bruised black toenail could say ballerina; the black fabric on her calves could pass for leg warmers or soccer socks. But it stops at the ankle — compression sleeves. And her even tan, face to arms, comes from long hours outdoors, not from a studio. The tote bag settles it. A thin, crumpled foil blanket is what they wrap around you at a marathon finish line, and the safety pins at the top of the bag held a race number to her chest. Nobody hands those out after a tennis match or a soccer game. Yesterday, Sunday, she ran 42.195 km to the end. She's a marathon runner. The sleeves cover her calves — not her knees, not her ankles — and there's nothing on her elbows. What she's nursing is tired calves. All those miles were built on roads and in parks under the sun, not on a grass pitch or a tennis court. Sandals instead of running shoes, a coffee in her hand: no afternoon training, no next race, no office. Today is for doing nothing but rest."
   }
 }

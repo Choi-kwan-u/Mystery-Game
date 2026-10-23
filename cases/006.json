@@ -3,129 +3,104 @@
   "date": "2026-10-21",
   "image": "img/006.webp",
   "title": {
-    "ko": "꽃다발을 든 승객",
-    "en": "The Passenger with the Bouquet"
+    "ko": "일요일 밤 10시",
+    "en": "Sunday, 10 P.M."
   },
   "intro": {
-    "ko": "일요일 밤 10시, 지하철 안. 검은 옷을 입은 30대 여성이 꽃다발을 무릎에 두고 앉아 있다. 이 사람은 누구일까?",
-    "en": "10 p.m. on a Sunday, on the subway. A woman in her thirties, dressed all in black, sits with a bouquet in her lap. Who is she?"
+    "ko": "일요일 밤 10시, 지하철 안. 30대 여성이 텅 빈 칸에 혼자 앉아 있다. 이 사람은 누구일까?",
+    "en": "10 p.m. on a Sunday, on the subway. A woman in her thirties sits alone in an empty car. Who is she?"
   },
   "questions": [
     {
-      "key": "before",
+      "key": "mood",
       "ask": {
-        "ko": "방금 무엇을 하고 오는 길일까?",
-        "en": "Where is she coming from?"
+        "ko": "지금 그녀의 마음은 어떨까?",
+        "en": "How is she feeling right now?"
       },
       "options": [
         {
-          "ko": "레슨",
-          "en": "A lesson"
+          "ko": "뿌듯하다",
+          "en": "Proud"
         },
         {
-          "ko": "결혼식",
-          "en": "A wedding"
+          "ko": "설렌다",
+          "en": "Excited"
         },
         {
-          "ko": "오디션",
-          "en": "An audition"
+          "ko": "지쳤다",
+          "en": "Worn out"
         },
         {
-          "ko": "공연",
-          "en": "A concert"
-        }
-      ],
-      "answer": 3,
-      "evidence": [
-        "e3",
-        "e4"
-      ]
-    },
-    {
-      "key": "score",
-      "ask": {
-        "ko": "무릎 위 악보에 가사가 하나도 없는 걸 보면?",
-        "en": "The sheet music on her lap has no lyrics. So?"
-      },
-      "options": [
-        {
-          "ko": "노래는 안 한다",
-          "en": "She doesn't sing"
-        },
-        {
-          "ko": "가사를 외웠다",
-          "en": "She memorized the words"
-        },
-        {
-          "ko": "작곡을 한다",
-          "en": "She composes"
-        },
-        {
-          "ko": "악보를 못 읽는다",
-          "en": "She can't read music"
+          "ko": "쓸쓸하다",
+          "en": "Lonely"
         }
       ],
       "answer": 0,
       "evidence": [
-        "e5"
-      ]
-    },
-    {
-      "key": "powder",
-      "ask": {
-        "ko": "검은 옷 어깨의 하얀 가루는?",
-        "en": "What's the white dust on her shoulder?"
-      },
-      "options": [
-        {
-          "ko": "밀가루",
-          "en": "Flour"
-        },
-        {
-          "ko": "송진 가루",
-          "en": "Rosin dust"
-        },
-        {
-          "ko": "분필 가루",
-          "en": "Chalk dust"
-        },
-        {
-          "ko": "화장 파우더",
-          "en": "Face powder"
-        }
-      ],
-      "answer": 1,
-      "evidence": [
+        "e6",
+        "e4",
         "e2"
       ]
     },
     {
-      "key": "mark",
+      "key": "clothes",
       "ask": {
-        "ko": "목의 갈색 자국은 왜 생겼을까?",
-        "en": "What caused the brown mark on her neck?"
+        "ko": "그녀가 지금 입은 옷은 어떤 옷일까?",
+        "en": "What is she wearing right now?"
       },
       "options": [
         {
-          "ko": "목걸이 줄에 쓸려서",
-          "en": "A chafing necklace chain"
+          "ko": "외출용 나들이옷",
+          "en": "An outfit for an evening out"
         },
         {
-          "ko": "모기에 여러 번 물려서",
-          "en": "Lots of mosquito bites"
+          "ko": "집에서 입던 편한 옷",
+          "en": "The comfortable clothes she wears at home"
         },
         {
-          "ko": "늘 뭔가를 턱에 끼워서",
-          "en": "Something at her chin"
+          "ko": "오늘 일하며 입은 옷",
+          "en": "What she worked in today"
         },
         {
-          "ko": "뜨거운 물에 데어서",
-          "en": "A burn from hot water"
+          "ko": "일 마치고 갈아입은 옷",
+          "en": "Clothes she changed into after work"
         }
       ],
       "answer": 2,
       "evidence": [
+        "e2",
         "e1"
+      ]
+    },
+    {
+      "key": "from",
+      "ask": {
+        "ko": "오늘 밤 그녀는 어디서 오는 길일까?",
+        "en": "Where is she coming from tonight?"
+      },
+      "options": [
+        {
+          "ko": "조문",
+          "en": "A wake"
+        },
+        {
+          "ko": "일터",
+          "en": "Her workplace"
+        },
+        {
+          "ko": "친구 모임",
+          "en": "Dinner with friends"
+        },
+        {
+          "ko": "병문안",
+          "en": "A hospital visit"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e2",
+        "e4",
+        "e6"
       ]
     },
     {
@@ -136,16 +111,16 @@
       },
       "options": [
         {
-          "ko": "오페라 성악가",
-          "en": "Opera singer"
-        },
-        {
-          "ko": "첼리스트",
-          "en": "Cellist"
-        },
-        {
           "ko": "피아니스트",
           "en": "Pianist"
+        },
+        {
+          "ko": "성악가",
+          "en": "Singer"
+        },
+        {
+          "ko": "무용수",
+          "en": "Dancer"
         },
         {
           "ko": "바이올리니스트",
@@ -158,37 +133,67 @@
         "e2",
         "e5"
       ]
+    },
+    {
+      "key": "home",
+      "ask": {
+        "ko": "집에 들어가면 그녀가 제일 먼저 할 일은?",
+        "en": "What will she do first when she gets home?"
+      },
+      "options": [
+        {
+          "ko": "옷 갈아입기",
+          "en": "Change her clothes"
+        },
+        {
+          "ko": "꽃병에 물 받기",
+          "en": "Fill a vase"
+        },
+        {
+          "ko": "늦은 저녁 먹기",
+          "en": "Eat a late dinner"
+        },
+        {
+          "ko": "씻고 눕기",
+          "en": "Wash up and go to bed"
+        }
+      ],
+      "answer": 1,
+      "evidence": [
+        "e3",
+        "e4"
+      ]
     }
   ],
   "clues": [
     {
       "id": "e1",
-      "x": 64,
-      "y": 42,
+      "x": 63,
+      "y": 41,
       "r": 5,
       "label": {
-        "ko": "턱 아래 목에 굳은 갈색 자국",
-        "en": "A hardened brownish mark on her neck, below the jaw"
+        "ko": "왼쪽 턱 바로 아래 굳은 갈색 자국 — 바이올린을 턱에 끼우는 자리에 오래 연주해야 생기는 자국",
+        "en": "A hardened brown patch just under the left side of her jaw — the mark years of holding a violin leave"
       }
     },
     {
       "id": "e2",
-      "x": 71,
-      "y": 52,
-      "r": 6,
+      "x": 70,
+      "y": 51,
+      "r": 7,
       "label": {
-        "ko": "검은 옷 어깨에 묻은 하얀 가루",
-        "en": "White powder dusted on the shoulder of her black outfit"
+        "ko": "검은 옷 왼쪽 어깨에 뿌옇게 앉은 하얀 가루 — 활에 바르는 송진. 이 옷을 입고 연주했다는 뜻",
+        "en": "White dust on the left shoulder of her black top — bow rosin. She played in this very outfit"
       }
     },
     {
       "id": "e3",
-      "x": 66,
-      "y": 70,
-      "r": 12,
+      "x": 55,
+      "y": 93,
+      "r": 6,
       "label": {
-        "ko": "올블랙 무대 의상과 단정히 묶은 머리",
-        "en": "An all-black stage outfit and neatly tied-back hair"
+        "ko": "종이 아래로 드러난 맨 줄기 — 물 없이 들고 다닌 꽃",
+        "en": "Bare stems sticking out below the paper — flowers carried with no water"
       }
     },
     {
@@ -197,8 +202,8 @@
       "y": 60,
       "r": 12,
       "label": {
-        "ko": "무릎 위 꽃다발",
-        "en": "A bouquet in her lap"
+        "ko": "흰 백합과 검은 리본을 두른 싱싱한 꽃다발 — 조문 꽃 같지만 집으로 가져가는 선물",
+        "en": "A fresh bouquet of white lilies tied with a black ribbon — looks funereal, but it's a gift she's taking home"
       }
     },
     {
@@ -207,13 +212,23 @@
       "y": 81,
       "r": 9,
       "label": {
-        "ko": "무릎 위 악보 파일 — 음표만 빼곡하다",
-        "en": "A folder of sheet music in her lap — nothing but notes"
+        "ko": "무릎 위 비닐 파일 속 악보 — 춤이 아니라 음악을 하는 사람",
+        "en": "Sheet music in a clear sleeve on her lap — a musician, not a dancer"
+      }
+    },
+    {
+      "id": "e6",
+      "x": 48,
+      "y": 35,
+      "r": 5,
+      "label": {
+        "ko": "앞을 보며 짓는 엷은 미소",
+        "en": "A soft smile as she looks ahead"
       }
     }
   ],
   "detective": {
-    "ko": "꽃다발에 올블랙 무대 의상, 무릎 위의 악보. 공연을 막 마친 클래식 연주자다. 오디션에서는 꽃을 받지 않고, 결혼식 하객은 이렇게 검게 입지 않는다. 그럼 무슨 악기일까? 목이 대답한다. 턱 아래, 악기를 끼우는 바로 그 자리에 굳은 갈색 자국이 있다. 목걸이 자국이라면 목을 따라 가늘게 둘렀을 것이다. 그리고 검은 옷 어깨에 묻은 하얀 가루. 밀가루나 분필을 만질 사람의 차림이 아니다 — 활에 바르는 송진 가루다. 바이올린을 어깨에 얹고 활을 켜면 송진이 날려 어깨에 앉는다. 그녀는 바이올리니스트다. 무릎 위의 꽃다발은 박수를 받고 무대를 내려온 사람의 것이다 — 오늘 공연은 성공이었다.",
-    "en": "A bouquet, an all-black stage outfit, sheet music in her lap: a classical musician on her way home from a concert. Nobody hands you flowers at an audition, and wedding guests don't dress like this. So which instrument? Her neck answers that. Just under her jaw — exactly where the instrument sits — there's a hardened brown mark. A necklace would leave a thin line around the neck, not a patch. Then there's the white dust on the shoulder of her black outfit. She isn't dressed for handling flour or chalk — it's rosin, rubbed onto a bow. Play with a violin on your shoulder and the rosin drifts down onto it. She's a violinist. And a bouquet like that is what you carry off a stage to applause — tonight went well."
+    "ko": "검은 옷, 흰 백합, 검은 리본. 조문을 마치고 오는 길이라면 저렇게 웃지 않고, 꽃다발을 안고 집에 가지도 않는다. 병문안 꽃이라면 두고 왔어야 한다. 엷은 미소는 지친 얼굴도 쓸쓸한 얼굴도 아니다. 이 꽃은 오늘 밤 그녀가 받은 것이고, 그녀는 뿌듯하다. 설레는 사람의 얼굴과 다른 점은, 그녀의 하루가 이미 끝났다는 데 있다. 왼쪽 어깨에 뿌옇게 앉은 하얀 가루가 그걸 말한다. 송진이다. 활에 바르는 송진이 이 옷에 내려앉았으니, 그녀는 이 옷을 입고 연주했고 아직 갈아입지 않았다. 일터에서 곧장 온 것이다. 무릎 위 악보로 춤추는 사람은 아니다. 피아니스트나 성악가라면 송진이 묻을 일이 없고, 무엇보다 왼쪽 턱 아래 굳은 갈색 자국이 있다. 악기를 턱에 끼우는 자리다. 그녀는 바이올리니스트다. 꽃다발 줄기는 종이 아래로 맨살이 드러나 있다. 물 없이 몇 시간을 버틴 꽃이니, 집에 들어가면 옷보다 먼저 꽃병에 물부터 받을 것이다.",
+    "en": "Black clothes, white lilies, a black ribbon. Someone coming from a wake doesn't smile like that, and doesn't carry the bouquet home. Hospital flowers would have been left at the bedside. That soft smile isn't a worn-out face or a lonely one. The flowers were given to her tonight, and she's proud. What separates her from someone excited about what's ahead is that her day is already over. The white dust on her left shoulder says so: rosin, the kind rubbed onto a bow. It settled on this top, so she played in it and hasn't changed. She came straight from work. The sheet music in her lap rules out a dancer. A pianist or a singer would have no rosin on her, and above all there's that hardened brown patch under the left side of her jaw, exactly where an instrument is held. She's a violinist. The stems of the bouquet stick out bare below the paper. These flowers have gone hours without water, so the first thing she'll do at home, before changing, is fill a vase."
   }
 }
