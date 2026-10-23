@@ -12,8 +12,8 @@
     "en": "A weekday afternoon: a photo and a message sent to the team lead. Find the lie in the photo."
   },
   "statement": {
-    "ko": "팀장님, 저 오늘 재택근무입니다. 커피 마시면서 엑셀 정리하고 있어요. 조용해서 집중 잘 되네요.",
-    "en": "Hi boss, I'm working from home today. Having a coffee while I sort out the spreadsheet. Nice and quiet, easy to focus."
+    "ko": "팀장님, 저 오늘 재택근무입니다. 커피 마시면서 엑셀 정리하고 있어요. 저는 혼자 있어야 집중이 잘 돼서요.",
+    "en": "Hi boss, I'm working from home today. Having a coffee while I sort out the spreadsheet. I focus best when I'm on my own."
   },
   "questions": [
     {
@@ -36,8 +36,8 @@
           "en": "She's working on a spreadsheet"
         },
         {
-          "ko": "조용해서 집중이 잘 된다",
-          "en": "It's quiet and easy to focus"
+          "ko": "혼자 있어야 집중이 잘 된다",
+          "en": "She focuses best on her own"
         }
       ],
       "answer": 0,
@@ -137,33 +137,33 @@
       ]
     },
     {
-      "key": "quiet",
+      "key": "buzzer",
       "ask": {
-        "ko": "'조용해서 집중이 잘 된다'는 말은?",
-        "en": "And 'nice and quiet, easy to focus'?"
+        "ko": "커피는 이미 나와 있는데 진동벨 불이 켜져 있다. 왜일까?",
+        "en": "The coffee is already here, yet the buzzer is lit. Why?"
       },
       "options": [
         {
-          "ko": "맞다 — 집이니까",
-          "en": "True — she's at home"
+          "ko": "벨이 고장 나서",
+          "en": "The buzzer is broken"
         },
         {
-          "ko": "맞다 — 빈 사무실이니까",
-          "en": "True — the office is empty"
+          "ko": "디저트를 더 주문해서",
+          "en": "She ordered a dessert as well"
         },
         {
-          "ko": "의심스럽다 — 옆자리까지 찬 카페다",
-          "en": "Doubtful — it's a café with the next seat taken"
+          "ko": "옆 사람 것이라서",
+          "en": "It belongs to the person next to her"
         },
         {
-          "ko": "알 수 없다",
-          "en": "Can't tell"
+          "ko": "반납을 깜빡해서",
+          "en": "She forgot to return it"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "evidence": [
-        "e4",
-        "e1"
+        "e1",
+        "e5"
       ]
     }
   ],
@@ -174,8 +174,8 @@
       "y": 48,
       "r": 8,
       "label": {
-        "ko": "화분 뒤 빨간 불이 켜진 검은 원반 — 카페 진동벨",
-        "en": "A black disc with red lights behind the plant — a café buzzer"
+        "ko": "화분 뒤 빨간 불이 켜진 검은 원반 — 카페 진동벨. 커피는 이미 나와 있는데 불이 켜져 있다",
+        "en": "A black disc with red lights behind the plant — a café buzzer, still lit though the coffee has already arrived"
       }
     },
     {
@@ -220,7 +220,7 @@
     }
   ],
   "detective": {
-    "ko": "나무 책상, 노트북, 화분, 라테. 얼핏 보면 집이다. 커피를 마시며 엑셀을 본다는 말은 맞다. 화면엔 표가 떠 있고 잔엔 라테 아트가 남아 있다. 그런데 화분 뒤에 빨간 불이 켜진 검은 원반이 있다. 충전기도 스피커도 아니다. 주문한 음료가 나오면 울리는 카페 진동벨이다. 머그잔 밑엔 커피잔 그림이 찍힌 길고 가는 종이, 카페 영수증. 집에서 내린 커피에 영수증이 딸려 올 리 없다. 노트북 화면 한쪽 카메라 미리보기엔 그녀 등 뒤로 펜던트 조명과 칠판 메뉴판이 비친다. 사무실도 공유 오피스도 아닌 카페다. 테이블 끝엔 남의 가죽 가방 끈과 다른 머그잔까지. 옆자리에 누군가 앉아 있다. 조용해서 집중이 잘 된다는 말도 옆자리까지 찬 카페에선 믿기 어렵다. 사진과 맞지 않는 말은 '오늘 재택근무'다.",
-    "en": "A wooden table, a laptop, a plant, a latte. At a glance, home. 'Having a coffee while I sort out the spreadsheet' checks out: a spreadsheet on screen, foam art in the cup. But behind the plant sits a black disc with red lights. Not a charger, not a speaker — a café buzzer, the kind that goes off when your order is ready. Under the mug, a long thin slip printed with a coffee-cup icon: a café receipt. Coffee made at home doesn't come with one. And in the camera preview on her screen, pendant lamps and a chalkboard menu hang behind her. Not an office, not a co-working space — a café. At the table's edge, a stranger's leather bag strap and a different mug: someone is sitting right beside her. 'Nice and quiet' is hard to believe in a café with the next seat taken, too. The statement the photo contradicts: 'working from home'."
+    "ko": "나무 책상, 노트북, 화분, 라테. 얼핏 보면 집이다. 커피를 마시며 엑셀을 본다는 말은 맞다. 화면엔 표가 떠 있고 잔엔 라테 아트가 남아 있다. 그런데 화분 뒤에 빨간 불이 켜진 검은 원반이 있다. 충전기도 스피커도 아니다. 주문한 음료가 나오면 울리는 카페 진동벨이다. 머그잔 밑엔 커피잔 그림이 찍힌 길고 가는 종이, 카페 영수증. 집에서 내린 커피에 영수증이 딸려 올 리 없다. 노트북 화면 한쪽 카메라 미리보기엔 그녀 등 뒤로 펜던트 조명과 칠판 메뉴판이 비친다. 사무실도 공유 오피스도 아닌 카페다. 테이블 끝엔 남의 가죽 가방 끈과 다른 머그잔까지. 옆자리에 누군가 앉아 있다. 혼자 있어야 집중이 된다는 사람이 옆자리까지 찬 카페에 앉아 있다. 그리고 진동벨, 커피는 이미 나와 있는데 아직 빨간 불이 켜져 있다. 커피를 받고 나서 하나 더 시킨 것이다. 디저트다. 사진과 맞지 않는 말은 '오늘 재택근무'다.",
+    "en": "A wooden table, a laptop, a plant, a latte. At a glance, home. 'Having a coffee while I sort out the spreadsheet' checks out: a spreadsheet on screen, foam art in the cup. But behind the plant sits a black disc with red lights. Not a charger, not a speaker — a café buzzer, the kind that goes off when your order is ready. Under the mug, a long thin slip printed with a coffee-cup icon: a café receipt. Coffee made at home doesn't come with one. And in the camera preview on her screen, pendant lamps and a chalkboard menu hang behind her. Not an office, not a co-working space — a café. At the table's edge, a stranger's leather bag strap and a different mug: someone is sitting right beside her. Someone who 'focuses best on her own' is sitting in a café with the next seat taken. And that buzzer is still lit even though the coffee has already arrived — she ordered something else after the coffee. Dessert. The statement the photo contradicts: 'working from home'."
   }
 }
