@@ -68,8 +68,7 @@
       "answer": 0,
       "evidence": [
         "e3",
-        "e1",
-        "e2"
+        "e1"
       ]
     },
     {
@@ -103,64 +102,62 @@
       ]
     },
     {
-      "key": "greet",
+      "key": "towhom",
       "ask": {
-        "ko": "누가 마중 나왔을까?",
-        "en": "Who came to meet him?"
+        "ko": "그는 누구에게 가는 길일까?",
+        "en": "Who is he going home to?"
       },
       "options": [
         {
-          "ko": "아내",
-          "en": "His wife"
+          "ko": "혼자 사는 원룸",
+          "en": "An empty studio flat"
         },
         {
-          "ko": "회사 사람",
-          "en": "Someone from work"
+          "ko": "회사 숙소 동료들",
+          "en": "Coworkers at a company dorm"
         },
         {
-          "ko": "아무도",
-          "en": "Nobody"
+          "ko": "기다리는 아내",
+          "en": "A wife waiting at home"
         },
         {
-          "ko": "부모님",
-          "en": "His parents"
+          "ko": "사귀는 여자친구",
+          "en": "A girlfriend"
         }
       ],
       "answer": 2,
       "evidence": [
-        "e6",
-        "e5"
+        "e1",
+        "e6"
       ]
     },
     {
-      "key": "next",
+      "key": "ride",
       "ask": {
-        "ko": "이다음 어디로 갈까?",
-        "en": "Where will he go next?"
+        "ko": "무엇을 타고 갈까?",
+        "en": "How will he get there?"
       },
       "options": [
         {
-          "ko": "시내 호텔",
-          "en": "A hotel downtown"
+          "ko": "공항철도",
+          "en": "The airport train"
         },
         {
-          "ko": "회사 사무실",
-          "en": "The company office"
+          "ko": "리무진 버스",
+          "en": "An airport limousine bus"
         },
         {
-          "ko": "다시 출국장",
-          "en": "Back to departures"
+          "ko": "택시",
+          "en": "A taxi"
         },
         {
-          "ko": "버스로 집",
-          "en": "Home by bus"
+          "ko": "렌터카",
+          "en": "A rental car"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "evidence": [
-        "e5",
-        "e1",
-        "e2"
+        "e5"
       ]
     }
   ],
@@ -171,18 +168,18 @@
       "y": 49,
       "r": 6,
       "label": {
-        "ko": "손목의 하얀 시계 자국과 약지의 반지 자국, 굳은살 박인 거뭇한 손 — 뙤약볕 아래서 손으로 일한 사람. 반지 자국은 있는데 반지는 없다",
-        "en": "A pale watch band, a pale ring mark, rough dark hands — someone who worked with his hands under a fierce sun. The ring mark is there; the ring isn't"
+        "ko": "손목의 하얀 시계 자국과 약지의 반지 자국, 굳은살 박인 거뭇한 손 — 뙤약볕 아래서 손으로 일한 사람. 현장에선 반지를 빼 두었다",
+        "en": "A pale watch band, a pale ring mark, rough dark hands — someone who worked with his hands under a fierce sun, ring taken off for the job"
       }
     },
     {
       "id": "e2",
-      "x": 75,
-      "y": 85,
-      "r": 14,
+      "x": 62,
+      "y": 84,
+      "r": 8,
       "label": {
-        "ko": "낡은 더플백의 수하물 태그 'DOH' — 카타르 도하. 옆엔 면세점 쇼핑백",
-        "en": "A worn duffel with a 'DOH' baggage tag — Doha, Qatar. A duty-free bag beside it"
+        "ko": "낡은 더플백의 수하물 태그 'DOH' — 카타르 도하",
+        "en": "A worn duffel with a 'DOH' baggage tag — Doha, Qatar"
       }
     },
     {
@@ -217,17 +214,17 @@
     },
     {
       "id": "e6",
-      "x": 9,
-      "y": 30,
+      "x": 83,
+      "y": 84,
       "r": 7,
       "label": {
-        "ko": "뒤에서 가족을 끌어안는 사람들 — 그의 곁엔 아무도 없다",
-        "en": "People hugging their families behind him — no one beside him"
+        "ko": "발치에 둔 면세점 쇼핑백 — 자기 것이 아니라 누군가에게 줄 선물",
+        "en": "A duty-free bag at his feet — not for himself, a gift for someone"
       }
     }
   ],
   "detective": {
-    "ko": "그을린 얼굴과 면세점 쇼핑백. 휴양지에서 돌아온 사람처럼 보인다. 그런데 발을 보라. 붉은 흙과 모래가 엉겨 붙은 낡은 작업화다. 해변 샌들도 골프화도 아니다. 손은 굳은살에 손톱 밑까지 거뭇하고, 손목엔 시계 자국이 하얗게 남았다. 하루 종일 뙤약볕 아래서 손으로 일한 사람이다. 더플백 태그는 DOH, 카타르 도하. 붉은 모래와 뙤약볕의 땅, 중동의 공사 현장이다. 폴로셔츠 소매엔 가격표 고리가 그대로 달려 있다. 공항에서 옷만 새로 사 입고 신발은 못 바꿨다. 약지엔 반지 자국이 하얗다. 기다리는 가족이 있다는 뜻이다. 그런데 주변은 서로 끌어안는 사람들뿐이고 그를 맞으러 온 사람은 없다. 그는 선물 봉지를 발치에 두고 리무진 버스 시간표를 올려다본다. 버스를 타고 집으로 간다.",
-    "en": "A sun-darkened face and a duty-free bag: he looks like a man back from a beach. But look at his feet — old work boots caked with red clay and sand. Not beach sandals, not golf shoes. His hands are callused, dark to the nails, and a watch band is bleached white on his wrist: a man who worked with his hands all day under a fierce sun. The duffel's tag reads DOH, Doha, Qatar. Red sand and blazing sun: a construction site in the Middle East. A price-tag fastener still hangs from his polo sleeve — he bought new clothes at the airport but never changed his boots. A pale ring mark on his finger says someone is waiting for him at home. Yet all around him people are hugging, and nobody has come for him. He leaves the gift bag at his feet and studies the limousine timetable. He's taking the bus home."
+    "ko": "그을린 얼굴과 면세점 쇼핑백. 휴양지에서 돌아온 사람처럼 보인다. 그런데 발을 보라. 붉은 흙과 모래가 엉겨 붙은 낡은 작업화다. 해변 샌들도 골프화도 아니다. 손은 굳은살에 손톱 밑까지 거뭇하고, 손목엔 시계 자국이 하얗게 남았다. 하루 종일 뙤약볕 아래서 손으로 일한 사람이다. 더플백 태그는 DOH, 카타르 도하. 붉은 모래와 뙤약볕의 땅, 중동의 공사 현장이다. 폴로셔츠 소매엔 가격표 고리가 그대로 달려 있다. 공항에서 옷만 새로 사 입고 신발은 못 바꿨다. 약지엔 반지 자국이 하얗다. 현장에선 반지를 빼 두었을 뿐, 결혼한 사람이다. 발치의 면세점 쇼핑백은 자기 것이 아니라 줄 사람이 있는 선물이다. 그는 아내에게 간다. 눈은 리무진 버스 시간표에 가 있다. 버스를 타고 집으로 간다.",
+    "en": "A sun-darkened face and a duty-free bag: he looks like a man back from a beach. But look at his feet — old work boots caked with red clay and sand. Not beach sandals, not golf shoes. His hands are callused, dark to the nails, and a watch band is bleached white on his wrist: a man who worked with his hands all day under a fierce sun. The duffel's tag reads DOH, Doha, Qatar. Red sand and blazing sun: a construction site in the Middle East. A price-tag fastener still hangs from his polo sleeve — he bought new clothes at the airport but never changed his boots. A pale ring mark on his finger: he took the ring off for the job, but he's married. The duty-free bag at his feet isn't for himself; it's a gift. He's going home to his wife. His eyes are on the limousine timetable. He's taking the bus."
   }
 }
