@@ -12,7 +12,7 @@
     "en": "11:40 p.m., the front door of a house. Asked what he did this evening, the husband said this. Find the lie in the photo."
   },
   "statement": {
-    "ko": "저녁 내내 집에 있었어요. 아내가 8시쯤 편의점에 잠깐 다녀왔고요. 저는 밤새 문밖에 안 나갔습니다. 눈은 10시쯤 그쳤죠.",
+    "ko": "저녁 내내 집에 있었어요. 아내가 7시쯤 편의점에 잠깐 다녀왔고요. 저는 밤새 문밖에 안 나갔습니다. 눈은 10시쯤 그쳤죠.",
     "en": "I was home all evening. My wife popped out to the convenience store around eight. I never set foot outside all night. The snow stopped around ten."
   },
   "questions": [
@@ -36,7 +36,7 @@
           "en": "He was home all evening"
         },
         {
-          "ko": "아내가 8시에 편의점에 갔다",
+          "ko": "아내가 7시에 편의점에 갔다",
           "en": "His wife went to the store at eight"
         }
       ],
