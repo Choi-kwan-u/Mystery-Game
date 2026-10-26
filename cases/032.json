@@ -12,8 +12,8 @@
     "en": "11:40 p.m., the front door of a house. Asked what he did this evening, the husband said this. Find the lie in the photo."
   },
   "statement": {
-    "ko": "저녁 내내 집에 있었어요. 아내가 7시쯤 편의점에 잠깐 다녀왔고요. 저는 밤새 문밖에 안 나갔습니다. 눈은 10시쯤 그쳤죠.",
-    "en": "I was home all evening. My wife popped out to the convenience store around eight. I never set foot outside all night. The snow stopped around ten."
+    "ko": "현관 불은 저녁부터 켜 뒀어요. 아내가 7시쯤 편의점에 잠깐 다녀왔고요. 저는 밤새 문밖에 안 나갔습니다. 눈은 10시쯤 그쳤죠.",
+    "en": "I've had the porch light on since the evening. My wife popped out to the convenience store around seven. I never set foot outside all night. The snow stopped around ten."
   },
   "questions": [
     {
@@ -32,12 +32,12 @@
           "en": "The snow stopped around ten"
         },
         {
-          "ko": "저녁 내내 집에 있었다",
-          "en": "He was home all evening"
+          "ko": "현관 불을 켜 뒀다",
+          "en": "He left the porch light on"
         },
         {
           "ko": "아내가 7시에 편의점에 갔다",
-          "en": "His wife went to the store at eight"
+          "en": "His wife went to the store at seven"
         }
       ],
       "answer": 0,
@@ -231,7 +231,7 @@
     }
   ],
   "detective": {
-    "ko": "눈밭에 발자국이 두 줄이다. 둘 다 큰 부츠, 같은 무늬. 하나는 집에서 멀어지는 방향인데 그 위로 눈이 더 내려 희미하다. 다른 하나는 집으로 들어오는 방향이고 가장자리가 칼같이 또렷하다. 순서는 하나뿐이다. 눈이 오는 동안 나갔고, 눈이 그친 뒤에 돌아왔다. 하늘은 맑고 담 위의 눈은 고르니 그친 지 한참이다. 10시쯤 그쳤다는 말은 맞다. 자국이 저만큼 덮이려면 눈이 한참 더 와야 했으니, 한 시간은 족히 나가 있었다. 누구였나. 현관의 남자 부츠는 젖어 물이 고였고 바닥 무늬가 바깥 자국과 같다. 여자 부츠는 말라 있다. 아내의 8시 자국은 눈에 덮였을 테니 그 말은 판단할 수 없다. 하지만 '밤새 문밖에 안 나갔다'는 말은 그의 부츠가 부정한다.",
-    "en": "Two lines of prints in the snow, both large boots, the same tread. One heads away from the house and is softened by snow that fell on top of it. The other heads toward the house, its edges razor-sharp. There is only one order that fits: he went out while it was still snowing and came back after it stopped. The sky is clear and the snow on the fence lies even, so it stopped a while ago — 'around ten' is true. For the first prints to be buried that deep, the snow had to keep falling a good while, so he was out for an hour or more. Whose prints? The men's boots inside the door are wet and puddling, with the same tread as the prints outside; the women's boots are bone dry. Her eight-o'clock trip would have been snowed over, so that claim can't be tested. But 'I never set foot outside' is refuted by his own boots."
+    "ko": "눈밭에 발자국이 두 줄이다. 둘 다 큰 부츠, 같은 무늬. 하나는 집에서 멀어지는 방향인데 그 위로 눈이 더 내려 희미하다. 다른 하나는 집으로 들어오는 방향이고 가장자리가 칼같이 또렷하다. 순서는 하나뿐이다. 눈이 오는 동안 나갔고, 눈이 그친 뒤에 돌아왔다. 하늘은 맑고 담 위의 눈은 고르니 그친 지 한참이다. 10시쯤 그쳤다는 말은 맞다. 현관 불도 켜져 있다. 자국이 저만큼 덮이려면 눈이 한참 더 와야 했으니, 한 시간은 족히 나가 있었다. 누구였나. 현관의 남자 부츠는 젖어 물이 고였고 바닥 무늬가 바깥 자국과 같다. 여자 부츠는 말라 있다. 아내의 7시 자국은 눈에 덮였을 테니 그 말은 판단할 수 없다. 하지만 '밤새 문밖에 안 나갔다'는 말은 그의 부츠가 부정한다.",
+    "en": "Two lines of prints in the snow, both large boots, the same tread. One heads away from the house and is softened by snow that fell on top of it. The other heads toward the house, its edges razor-sharp. There is only one order that fits: he went out while it was still snowing and came back after it stopped. The sky is clear and the snow on the fence lies even, so it stopped a while ago — 'around ten' is true. For the first prints to be buried that deep, the snow had to keep falling a good while, so he was out for an hour or more. Whose prints? The men's boots inside the door are wet and puddling, with the same tread as the prints outside; the women's boots are bone dry. Her seven-o'clock trip would have been snowed over, so that claim can't be tested. But 'I never set foot outside' is refuted by his own boots."
   }
 }
